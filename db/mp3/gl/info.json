@@ -1,0 +1,31 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/gl/gal_01.mp3",
+        "title": "Gálatas Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/gl/gal_02.mp3",
+        "title": "Gálatas Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/gl/gal_03.mp3",
+        "title": "Gálatas Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/gl/gal_04.mp3",
+        "title": "Gálatas Capítulo 4"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/gl/gal_05.mp3",
+        "title": "Gálatas Capítulo 5"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/gl/gal_06.mp3",
+        "title": "Gálatas Capítulo 6"
+    }
+]

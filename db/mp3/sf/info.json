@@ -1,0 +1,16 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/sf/zep_01.mp3",
+        "title": "Sofonias Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/sf/zep_02.mp3",
+        "title": "Sofonias Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/sf/zep_03.mp3",
+        "title": "Sofonias Capítulo 3"
+    }
+]

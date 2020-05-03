@@ -1,0 +1,21 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/fp/phi_01.mp3",
+        "title": "Filipenses Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/fp/phi_02.mp3",
+        "title": "Filipenses Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/fp/phi_03.mp3",
+        "title": "Filipenses Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/fp/phi_04.mp3",
+        "title": "Filipenses Capítulo 4"
+    }
+]

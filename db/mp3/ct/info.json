@@ -1,0 +1,41 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/ct/son_01.mp3",
+        "title": "Cânticos Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ct/son_02.mp3",
+        "title": "Cânticos Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ct/son_03.mp3",
+        "title": "Cânticos Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ct/son_04.mp3",
+        "title": "Cânticos Capítulo 4"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ct/son_05.mp3",
+        "title": "Cânticos Capítulo 5"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ct/son_06.mp3",
+        "title": "Cânticos Capítulo 6"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ct/son_07.mp3",
+        "title": "Cânticos Capítulo 7"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ct/son_08.mp3",
+        "title": "Cânticos Capítulo 8"
+    }
+]

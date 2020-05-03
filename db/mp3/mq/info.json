@@ -1,0 +1,36 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/mq/mic_01.mp3",
+        "title": "Miquéias Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/mq/mic_02.mp3",
+        "title": "Miquéias Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/mq/mic_03.mp3",
+        "title": "Miquéias Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/mq/mic_04.mp3",
+        "title": "Miquéias Capítulo 4"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/mq/mic_05.mp3",
+        "title": "Miquéias Capítulo 5"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/mq/mic_06.mp3",
+        "title": "Miquéias Capítulo 6"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/mq/mic_07.mp3",
+        "title": "Miquéias Capítulo 7"
+    }
+]

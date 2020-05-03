@@ -1,0 +1,16 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/2pe/2pet_01.mp3",
+        "title": "2 Pedro Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/2pe/2pet_02.mp3",
+        "title": "2 Pedro Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/2pe/2pet_03.mp3",
+        "title": "2 Pedro Capítulo 3"
+    }
+]

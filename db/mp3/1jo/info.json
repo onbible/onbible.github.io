@@ -1,0 +1,26 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/gn/1joh01.mp3",
+        "title": "1 João Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/gn/1joh02.mp3",
+        "title": "1 João Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/gn/1joh03.mp3",
+        "title": "1 João Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/gn/1joh04.mp3",
+        "title": "1 João Capítulo 4"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/gn/1joh05.mp3",
+        "title": "1 João Capítulo 5"
+    }
+]

@@ -1,0 +1,265 @@
+﻿[{
+    "abbrev": "gn",
+    "file": "db/mp3/",
+    "title": "Gênesis"
+}, {
+    "abbrev": "ex",
+    "file": "db/mp3/",
+    "title": "Êxodo"
+}, {
+    "abbrev": "lv",
+    "file": "db/mp3/",
+    "title": "Levítico"
+}, {
+    "abbrev": "nm",
+    "file": "db/mp3/",
+    "title": "Números"
+}, {
+    "abbrev": "dt",
+    "file": "db/mp3/",
+    "title": "Deuteronômio"
+}, {
+    "abbrev": "js",
+    "file": "db/mp3/",
+    "title": "Josué"
+}, {
+    "abbrev": "jz",
+    "file": "db/mp3/",
+    "title": "Juízes"
+}, {
+    "abbrev": "ru",
+    "file": "db/mp3/",
+    "title": "Rute"
+}, {
+    "abbrev": "1sm",
+    "file": "db/mp3/",
+    "title": "1 Samuel"
+}, {
+    "abbrev": "2sm",
+    "file": "db/mp3/",
+    "title": "2 Samuel"
+}, {
+    "abbrev": "1rs",
+    "file": "db/mp3/",
+    "title": "1 Reis"
+}, {
+    "abbrev": "2rs",
+    "file": "db/mp3/",
+    "title": "2 Reis"
+}, {
+    "abbrev": "1cr",
+    "file": "db/mp3/",
+    "title": "1 Crônicas"
+}, {
+    "abbrev": "2cr",
+    "file": "db/mp3/",
+    "title": "2 Crônicas"
+}, {
+    "abbrev": "ed",
+    "file": "db/mp3/",
+    "title": "Esdras"
+}, {
+    "abbrev": "ne",
+    "file": "db/mp3/",
+    "title": "Neemias"
+}, {
+    "abbrev": "et",
+    "file": "db/mp3/",
+    "title": "Ester"
+}, {
+    "abbrev": "jó",
+    "file": "db/mp3/",
+    "title": "Jó"
+}, {
+    "abbrev": "sl",
+    "file": "db/mp3/",
+    "title": "Salmos"
+}, {
+    "abbrev": "pv",
+    "file": "db/mp3/",
+    "title": "Provérbios"
+}, {
+    "abbrev": "ec",
+    "file": "db/mp3/",
+    "title": "Eclesiastes"
+}, {
+    "abbrev": "ct",
+    "file": "db/mp3/",
+    "title": "Cânticos"
+}, {
+    "abbrev": "is",
+    "file": "db/mp3/",
+    "title": "Isaías"
+}, {
+    "abbrev": "jr",
+    "file": "db/mp3/",
+    "title": "Jeremias"
+}, {
+    "abbrev": "lm",
+    "file": "db/mp3/",
+    "title": "Lamentações de Jeremias"
+}, {
+    "abbrev": "ez",
+    "file": "db/mp3/",
+    "title": "Ezequiel"
+}, {
+    "abbrev": "dn",
+    "file": "db/mp3/",
+    "title": "Daniel"
+}, {
+    "abbrev": "os",
+    "file": "db/mp3/",
+    "title": "Oséias"
+}, {
+    "abbrev": "jl",
+    "file": "db/mp3/",
+    "title": "Joel"
+}, {
+    "abbrev": "am",
+    "file": "db/mp3/",
+    "title": "Amós"
+}, {
+    "abbrev": "ob",
+    "file": "db/mp3/",
+    "title": "Obadias"
+}, {
+    "abbrev": "jn",
+    "file": "db/mp3/",
+    "title": "Jonas"
+}, {
+    "abbrev": "mq",
+    "file": "db/mp3/",
+    "title": "Miquéias"
+}, {
+    "abbrev": "na",
+    "file": "db/mp3/",
+    "title": "Naum"
+}, {
+    "abbrev": "hc",
+    "file": "db/mp3/",
+    "title": "Habacuque"
+}, {
+    "abbrev": "sf",
+    "file": "db/mp3/",
+    "title": "Sofonias"
+}, {
+    "abbrev": "ag",
+    "file": "db/mp3/",
+    "title": "Ageu"
+}, {
+    "abbrev": "zc",
+    "file": "db/mp3/",
+    "title": "Zacarias"
+}, {
+    "abbrev": "ml",
+    "file": "db/mp3/",
+    "title": "Malaquias"
+}, {
+    "abbrev": "mt",
+    "file": "db/mp3/",
+    "title": "Mateus"
+}, {
+    "abbrev": "mc",
+    "file": "db/mp3/",
+    "title": "Marcos"
+}, {
+    "abbrev": "lc",
+    "file": "db/mp3/",
+    "title": "Lucas"
+}, {
+    "abbrev": "jo",
+    "file": "db/mp3/",
+    "title": "João"
+}, {
+    "abbrev": "at",
+    "file": "db/mp3/",
+    "title": "Atos"
+}, {
+    "abbrev": "rm",
+    "file": "db/mp3/",
+    "title": "Romanos"
+}, {
+    "abbrev": "1co",
+    "file": "db/mp3/",
+    "title": "1 Coríntios"
+}, {
+    "abbrev": "2co",
+    "file": "db/mp3/",
+    "title": "2 Coríntios"
+}, {
+    "abbrev": "gl",
+    "file": "db/mp3/",
+    "title": "Gálatas"
+}, {
+    "abbrev": "ef",
+    "file": "db/mp3/",
+    "title": "Efésios"
+}, {
+    "abbrev": "fp",
+    "file": "db/mp3/",
+    "title": "Filipenses"
+}, {
+    "abbrev": "cl",
+    "file": "db/mp3/",
+    "title": "Colossenses"
+}, {
+    "abbrev": "1ts",
+    "file": "db/mp3/",
+    "title": "1 Tessalonicenses"
+}, {
+    "abbrev": "2ts",
+    "file": "db/mp3/",
+    "title": "2 Tessalonicenses"
+}, {
+    "abbrev": "1tm",
+    "file": "db/mp3/",
+    "title": "1 Timóteo"
+}, {
+    "abbrev": "2tm",
+    "file": "db/mp3/",
+    "title": "2 Timóteo"
+}, {
+    "abbrev": "tt",
+    "file": "db/mp3/",
+    "title": "Tito"
+}, {
+    "abbrev": "fm",
+    "file": "db/mp3/",
+    "title": "Filemom"
+}, {
+    "abbrev": "hb",
+    "file": "db/mp3/",
+    "title": "Hebreus"
+}, {
+    "abbrev": "tg",
+    "file": "db/mp3/",
+    "title": "Tiago"
+}, {
+    "abbrev": "1pe",
+    "file": "db/mp3/",
+    "title": "1 Pedro"
+}, {
+    "abbrev": "2pe",
+    "file": "db/mp3/",
+    "title": "2 Pedro"
+}, {
+    "abbrev": "1jo",
+    "file": "db/mp3/",
+    "title": "1 João"
+}, {
+    "abbrev": "2jo",
+    "file": "db/mp3/",
+    "title": "2 João"
+}, {
+    "abbrev": "3jo",
+    "file": "db/mp3/",
+    "title": "3 João"
+}, {
+    "abbrev": "jd",
+    "file": "db/mp3/",
+    "title": "Judas"
+}, {
+    "abbrev": "ap",
+    "file": "db/mp3/",
+    "title": "Apocalipse"
+}]

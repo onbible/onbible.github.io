@@ -1,0 +1,26 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/1pe/1pet_01.mp3",
+        "title": "1 Pedro Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/1pe/1pet_02.mp3",
+        "title": "1 Pedro Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/1pe/1pet_03.mp3",
+        "title": "1 Pedro Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/1pe/1pet_04.mp3",
+        "title": "1 Pedro Capítulo 4"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/1pe/1pet_05.mp3",
+        "title": "1 Pedro Capítulo 5"
+    }
+]

@@ -1,0 +1,21 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/cl/col_01.mp3",
+        "title": "Colossenses Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/cl/col_02.mp3",
+        "title": "Colossenses Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/cl/col_03.mp3",
+        "title": "Colossenses Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/cl/col_04.mp3",
+        "title": "Colossenses Capítulo 4"
+    }
+]

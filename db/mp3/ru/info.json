@@ -1,0 +1,21 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/ru/rut_01.mp3",
+        "title": "Rute Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ru/rut_02.mp3",
+        "title": "Rute Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ru/rut_03.mp3",
+        "title": "Rute Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ru/rut_04.mp3",
+        "title": "Rute Capítulo 4"
+    }
+]

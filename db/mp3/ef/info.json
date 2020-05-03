@@ -1,0 +1,31 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/ef/eph_01.mp3",
+        "title": "Efésios Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ef/eph_02.mp3",
+        "title": "Efésios Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ef/eph_03.mp3",
+        "title": "Efésios Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ef/eph_04.mp3",
+        "title": "Efésios Capítulo 4"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ef/eph_05.mp3",
+        "title": "Efésios Capítulo 5"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ef/eph_06.mp3",
+        "title": "Efésios Capítulo 6"
+    }
+]

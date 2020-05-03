@@ -1,0 +1,21 @@
+﻿[{
+        "icon": "iconImage",
+        "file": "db/mp3/ml/mal_01.mp3",
+        "title": "Malaquias Capítulo 1"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ml/mal_02.mp3",
+        "title": "Malaquias Capítulo 2"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ml/mal_03.mp3",
+        "title": "Malaquias Capítulo 3"
+    },
+    {
+        "icon": "iconImage",
+        "file": "db/mp3/ml/mal_04.mp3",
+        "title": "Malaquias Capítulo 4"
+    }
+]
