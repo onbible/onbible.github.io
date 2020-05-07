@@ -46,6 +46,12 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/index.js"></script>
+    
+    <script language="javascript" type="text/javascript">
+        function doReload(catid){
+            document.location = 'index.html';
+        }
+    </script>
 </head>
 
 <body data-topbar="colored">
@@ -119,7 +125,7 @@
                             </a>
                             <ul>
                                 <li>
-                                    <select class="form-control" name="form_bible_version" id="form_bible_version">
+                                    <select class="form-control" name="form_bible_version" id="form_bible_version" onChange="doReload(this.value);">
                                         <option id="bible_ptnvi" value="pt_acf">Versões</option>
                                         <option id="bible_ptnvi" value="pt_acf">Almeida Corrigida e Revisada Fiel <span>(PT-ACF)</span></option>
                                         <option id="bible_ptnvi" value="pt_nvi">Nova Versão Internacional <span>(PT-NVI)</span></option>
