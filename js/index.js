@@ -8,7 +8,7 @@ $(document).ready(function() {
             for (book in data) {
                 //console.log(data[book]);
                 book_list += '\
-                <div class="col-xl-3 col-md-6 mb-4">\
+                <div class="col-xl-3 col-md-6 mb-4 book-item" data-name="' + data[book]['name'].toLowerCase() + '">\
                     <a href="book.html?abbrev=' + data[book]['abbrev'] + '">\
                         <div class="card border-left-primary shadow h-100 py-2">\
                             <div class="card-body">\
@@ -27,6 +27,28 @@ $(document).ready(function() {
                 </div>';
             }
             $('#books').html(book_list);
+
+            // Filter logic using vanilla JS to avoid any potential jQuery version conflicts
+            var filterInput = document.getElementById('filterBooks');
+            if (filterInput) {
+                filterInput.addEventListener('input', function(e) {
+                    var searchTerm = e.target.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                    var items = document.querySelectorAll('.book-item');
+                    items.forEach(function(item) {
+                        var bookName = String(item.getAttribute('data-name')).normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                        if (bookName.includes(searchTerm)) {
+                            item.style.display = '';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+                
+                // Trigger filter initially in case user typed something while the skeleton loader was running
+                if (filterInput.value.trim() !== '') {
+                    filterInput.dispatchEvent(new Event('input'));
+                }
+            }
         },
         error: function(xhr, ajaxOptions, thrownError) {
             var errorMsg = 'Ajax request failed: ' + xhr.responseText;

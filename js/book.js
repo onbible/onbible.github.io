@@ -27,9 +27,21 @@ function info_book() {
                 if (data[book]['abbrev'] == param['abbrev']) {
                     book_name = data[book]['name'];
                     book_chapters = data[book]['chapters'];
-                    //data[book]['name'], data[book]['chapters'];
-                    //console.log(book_name);
-                    //console.log(book_chapters);
+                    
+                    var version_names = {
+                        'pt_acf': 'Almeida Corrigida e Revisada Fiel (PT-ACF)',
+                        'pt_nvi': 'Nova Versão Internacional (PT-NVI)',
+                        'pt_aa': 'Almeida Revisada Imprensa Bíblica (PT-AA)',
+                        'en_bbe': 'Basic English (EN-BBE)',
+                        'en_kjv': 'King James Version (EN-KJV)'
+                    };
+                    var current_version = localStorage.getItem("bible_version") || 'pt_aa';
+                    var version_name = version_names[current_version] || 'Bíblia';
+                    
+                    var bookTitleElement = document.getElementById("book_name");
+                    if (bookTitleElement) {
+                        bookTitleElement.innerHTML = book_name + ' <small class="text-muted" style="font-size: 0.6em; vertical-align: middle;">' + version_name + '</small>';
+                    }
                 }
             }
         },
@@ -37,12 +49,10 @@ function info_book() {
             var errorMsg = 'Ajax request failed: ' + xhr.responseText;
         }
     });
-    return book_name, book_chapters;
+    return book_chapters;
 }
 
 var book_chapters = info_book();
-//console.log(book_name);
-//console.log(book_chapters);
 
 // --------------------------------------------------------------------------------------------------
 //pagination chapters

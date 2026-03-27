@@ -89,6 +89,10 @@
                         id="vertical-menu-btn">
                         <i class="mdi mdi-backburger"></i>
                     </button>
+
+                    <div class="p-3">
+                        <input type="text" class="form-control form-control-sm mt-1" placeholder="Filtrar por nome..." id="filterBooks">
+                    </div>
                 </div>
 
             </div>
@@ -204,14 +208,54 @@
                 <div class="page-content-wrapper">
                     <div class="container-fluid">
                         <br /><br /><br />
+                        <style>
+                            .skeleton-text {
+                                background-color: #e2e5e8;
+                                border-radius: 4px;
+                                animation: placeholder-glow 2s ease-in-out infinite;
+                            }
+                            .skeleton-title {
+                                height: 1.25rem;
+                                width: 70%;
+                            }
+                            .skeleton-subtitle {
+                                height: 1rem;
+                                width: 50%;
+                            }
+                            .skeleton-icon {
+                                width: 40px;
+                                height: 40px;
+                                background-color: #e2e5e8;
+                                border-radius: 5px;
+                                animation: placeholder-glow 2s ease-in-out infinite;
+                            }
+                            @keyframes placeholder-glow {
+                                50% { opacity: 0.5; }
+                            }
+                        </style>
                         <div class="row" id="books">
-                            <div class="col-xl-12">
-                                <div class="card">
-                                    <div class="card-body">
-
+                            <!-- Skeleton loader items -->
+                            <script>
+                                for (let i = 0; i < 8; i++) {
+                                    document.write(`
+                                    <div class="col-xl-3 col-md-6 mb-4 skeleton-item">
+                                        <div class="card shadow h-100 py-2">
+                                            <div class="card-body">
+                                                <div class="row no-gutters align-items-center">
+                                                    <div class="col mr-2">
+                                                        <div class="skeleton-text skeleton-title mb-2"></div>
+                                                        <div class="skeleton-text skeleton-subtitle"></div>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <div class="skeleton-icon"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
+                                    `);
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>
