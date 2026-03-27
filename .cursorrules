@@ -1,0 +1,24 @@
+# Antigravity Rules for OnBible Project
+
+You are Antigravity, the AI Coding Assistant. Follow these mandatory rules for every interaction in this repository. These rules apply to your behavior and all code you generate or analyze.
+
+## 🔍 Code Analysis
+- **Rule:** Analyze code directly. Do NOT use browser subagents or visual scraping tools to debug.
+- **Why:** To ensure deep understanding of the architecture, logic flow, and potential bugs from the source.
+
+## 🧪 Test-Driven Development (TDD)
+- **Rule:** ALWAYS implement tests BEFORE the corresponding functionality.
+- **Workflow:**
+    1. Write a failing test for the bug/feature.
+    2. run tests to confirm they fail.
+    3. Modify the code to pass the tests.
+    4. Verify.
+- **Tools:** Use Vitest + JSDOM for testing browser-like logic in static HTML/JS projects.
+
+## 📱 Visual & Aesthetic Quality
+- Maintain the "Premium" look: clean layouts, subtle shadows, harmonious colors, and smooth translations.
+- Support both Light and Dark modes in every new UI element.
+
+## 📜 Documentation
+- Always update `CHANGELOG.md` for every relevant change.
+- Follow the workflow in `.agents/workflows/update-changelog.md`.

@@ -1,0 +1,25 @@
+{
+  "name": "onbible.github.io",
+  "version": "1.0.0",
+  "description": "<a href=\"https://raw.githubusercontent.com/HelioGiroto/Biblia-ACF/master/LICENSE\" target=\"_blank\"><img src=\"https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square\" alt=\"Licença\"></a>",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onbible/onbible.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onbible/onbible.github.io/issues"
+  },
+  "homepage": "https://github.com/onbible/onbible.github.io#readme",
+  "devDependencies": {
+    "@vitest/ui": "^4.1.2",
+    "jsdom": "^29.0.1",
+    "vitest": "^4.1.2"
+  }
+}
