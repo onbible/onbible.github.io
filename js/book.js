@@ -13,6 +13,26 @@ partes.forEach(function(parte) {
 
 // ---------------------------------------------------------------------------------------------------
 
+// Load illustrative study images index
+var available_images = [];
+function load_image_index() {
+    $.ajax({
+        url: 'db/imgs/index.json',
+        type: 'GET',
+        dataType: 'json',
+        async: false,
+        success: function(data) {
+            available_images = data;
+        },
+        error: function(xhr) {
+            console.log("No image index found or failed to load");
+        }
+    });
+}
+load_image_index();
+
+// ---------------------------------------------------------------------------------------------------
+
 // get data book selected.
 function info_book() {
     var book_name;
@@ -88,7 +108,12 @@ function change_chapter(page) {
 
     for (var i = (page - 1) * records_per_page; i < (page * records_per_page); i++) {
         for (versicle in book_chapters[i]) {
-            listing_table.innerHTML += " <b><sup>" + versicle + ".</sup></b>" + book_chapters[i][versicle];
+            var imageName = param['abbrev'] + "-" + page + ":" + versicle + ".png";
+            var imageIconHTML = "";
+            if (available_images.includes(imageName)) {
+                imageIconHTML = ' <i class="fas fa-image text-info ml-1" style="cursor: pointer;" onclick="showStudyImage(\'' + imageName + '\', \'Capítulo ' + page + ' Versículo ' + versicle + '\')" title="Visualizar Ilustração"></i> ';
+            }
+            listing_table.innerHTML += " <b><sup>" + versicle + ".</sup></b>" + imageIconHTML + book_chapters[i][versicle];
         }
     }
 
@@ -124,4 +149,66 @@ window.onload = function() {
         current_page = 1;
     }
     change_chapter(current_page);
+    applyFontSize();
 };
+
+// --------------------------------------------------------------------------------------------------
+// Adjust Font Size Features
+
+var minFontSize = 12;
+var maxFontSize = 40;
+var currentFontSize = parseInt(localStorage.getItem('reading_font_size')) || 17;
+
+function applyFontSize() {
+    var contentView = document.getElementById("view_text");
+    if (contentView) {
+        contentView.style.fontSize = currentFontSize + "px";
+        contentView.style.lineHeight = "1.7"; // Ensures comfortable readability across devices
+    }
+    var fontSizeDisplay = document.getElementById("font_size_display");
+    if (fontSizeDisplay) {
+        fontSizeDisplay.innerText = currentFontSize;
+    }
+}
+
+function increaseFontSize() {
+    if (currentFontSize < maxFontSize) {
+        currentFontSize += 2;
+        localStorage.setItem('reading_font_size', currentFontSize);
+        applyFontSize();
+    }
+}
+
+function decreaseFontSize() {
+    if (currentFontSize > minFontSize) {
+        currentFontSize -= 2;
+        localStorage.setItem('reading_font_size', currentFontSize);
+        applyFontSize();
+    }
+}
+
+function toggleSettingsSidebar() {
+    var sidebar = document.getElementById("readingSettingsSidebar");
+    var overlay = document.getElementById("readingSettingsOverlay");
+    if (sidebar && overlay) {
+        if (sidebar.classList.contains("show")) {
+            sidebar.classList.remove("show");
+            overlay.style.display = "none";
+        } else {
+            sidebar.classList.add("show");
+            overlay.style.display = "block";
+        }
+    }
+}
+
+function showStudyImage(imageName, titleSuffix) {
+    var imgElement = document.getElementById('studyImageSrc');
+    var titleElement = document.getElementById('studyImageTitle');
+    if (imgElement) {
+        imgElement.src = 'db/imgs/' + imageName;
+        if (titleElement && titleSuffix) {
+            titleElement.innerText = 'Ilustração - ' + titleSuffix;
+        }
+        $('#studyImageModal').modal('show');
+    }
+}

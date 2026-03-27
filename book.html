@@ -149,7 +149,12 @@
                                     <div class="card-body">
 
                                         <div class="container-fluid">
-                                            <h1 class="h3 mb-4 text-gray-800" id="book_name"></h1>
+                                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                                <h1 class="h3 mb-0 text-gray-800" id="book_name"></h1>
+                                                <button type="button" class="btn btn-light btn-sm" onclick="toggleSettingsSidebar()" title="Configurações de Leitura">
+                                                    <i class="fas fa-sliders-h" style="font-size: 18px;"></i>
+                                                </button>
+                                            </div>
                                             <div style="margin: 8px;" align="center">
                                                 <a href="javascript:prev_chapter()" class="btn btn-light btn-icon-split" id="btn_prev">
                                                     <span class="icon text-gray-600"><i class="fas fa-arrow-left"></i></span>
@@ -200,8 +205,86 @@
     </div>
     <!-- END layout-wrapper -->
 
-    <!-- Right bar overlay-->
-    <div class="rightbar-overlay"></div>
+    <!-- Study Image Modal -->
+    <div class="modal fade" id="studyImageModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title text-muted" id="studyImageTitle">Ilustração</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center pt-2">
+                    <img id="studyImageSrc" src="" alt="Ilustração de Estudo" class="img-fluid rounded shadow-sm">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Sidebar -->
+    <style>
+        .reading-sidebar {
+            position: fixed;
+            top: 0;
+            right: -320px;
+            width: 320px;
+            height: 100vh;
+            background: #fff;
+            z-index: 9999;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            transition: right 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .reading-sidebar.show {
+            right: 0;
+        }
+        .reading-sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid #eff2f7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .reading-sidebar-body {
+            padding: 20px;
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+        .reading-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 9998;
+        }
+    </style>
+    <div id="readingSettingsSidebar" class="reading-sidebar">
+        <div class="reading-sidebar-header">
+            <h5 class="mb-0">Configurações de Leitura</h5>
+            <button type="button" class="btn btn-sm btn-light" onclick="toggleSettingsSidebar()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="reading-sidebar-body">
+            <h6>Tamanho da Fonte</h6>
+            <div class="d-flex align-items-center justify-content-between mt-3 mb-4">
+                <button type="button" class="btn btn-outline-primary" onclick="decreaseFontSize()" style="width: 45px; height: 45px; font-size: 16px;">
+                    A-
+                </button>
+                <div class="font-weight-bold" style="font-size: 18px;" id="font_size_display"></div>
+                <button type="button" class="btn btn-outline-primary" onclick="increaseFontSize()" style="width: 45px; height: 45px; font-size: 20px;">
+                    A+
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="reading-overlay" id="readingSettingsOverlay" onclick="toggleSettingsSidebar()"></div>
 
     <!-- JAVASCRIPT -->
     <script src="assets/libs/jquery/jquery.min.js"></script>
