@@ -127,7 +127,7 @@ function change_chapter(page) {
     if (skeleton) skeleton.style.display = 'none';
     if (listing_table) listing_table.style.display = 'block';
 
-    // Apply saved highlights
+    // Apply saved highlights and notes
     setTimeout(() => {
         applyHighlightsFromDB(param['abbrev'], page);
     }, 50);
@@ -213,6 +213,78 @@ async function saveHighlight(color) {
     activeVerseNum = null;
 }
 
+async function showNoteModal() {
+    if (!activeVerseNum) return;
+    var book = param['abbrev'];
+    var chapter = current_page;
+    var verseNum = activeVerseNum;
+
+    // Close highlight popover
+    var popover = document.getElementById('hl-popover');
+    if (popover) popover.style.display = 'none';
+
+    // Get existing note
+    const existingNote = await DB.getNote(book, chapter, verseNum);
+
+    swal({
+        title: "Nota - Versículo " + verseNum,
+        text: "Escreva sua reflexão ou anotação para este versículo:",
+        content: {
+            element: "textarea",
+            attributes: {
+                placeholder: "Digite sua nota aqui...",
+                value: existingNote || "",
+                className: "form-control",
+                rows: 5
+            },
+        },
+        buttons: {
+            cancel: "Cancelar",
+            confirm: {
+                text: "Salvar Nota",
+                closeModal: true
+            }
+        },
+    }).then(async (value) => {
+        // If confirmed, value is the result of the input from the user. 
+        // SweetAlert 1 uses the content element's value.
+        // Actually, sweetalert (v1) returns the value of the input if confirmed.
+        // But for nested content, it can be tricky.
+        
+        // Let's use a simpler way if swal v1 content is tricky, or just use the current implementation.
+        // Since I'm using content: "textarea", swal will return the value of that textarea.
+        if (value === null) return; // Cancelled
+        
+        if (value.trim() === "") {
+            await DB.deleteNote(book, chapter, verseNum);
+            removeNoteIcon(verseNum);
+        } else {
+            await DB.setNote(book, chapter, verseNum, value);
+            addNoteIcon(verseNum);
+        }
+    });
+    
+    activeVerseNum = null;
+}
+
+function addNoteIcon(verseNum) {
+    var el = document.getElementById('v-' + verseNum);
+    if (el && !el.querySelector('.note-icon')) {
+        var icon = document.createElement('i');
+        icon.className = 'fas fa-sticky-note note-icon';
+        icon.title = 'Possui nota';
+        el.appendChild(icon);
+    }
+}
+
+function removeNoteIcon(verseNum) {
+    var el = document.getElementById('v-' + verseNum);
+    if (el) {
+        var icon = el.querySelector('.note-icon');
+        if (icon) icon.remove();
+    }
+}
+
 async function applyHighlightsFromDB(book, chapter) {
     const highlights = await DB.getHighlights(book, chapter);
     highlights.forEach(h => {
@@ -220,6 +292,11 @@ async function applyHighlightsFromDB(book, chapter) {
         if (el) {
             el.classList.add('hl-' + h.color);
         }
+    });
+
+    const notes = await DB.getNotesForChapter(book, chapter);
+    notes.forEach(n => {
+        addNoteIcon(n.verse);
     });
 }
 

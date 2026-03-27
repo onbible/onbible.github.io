@@ -84,6 +84,77 @@ var DB = {
         }
     },
 
+    // --- All Highlights methods ---
+    async getAllHighlights() {
+        try {
+            return await onBibleDB.highlights.toArray();
+        } catch(e) {
+            console.error("Dexie getAllHighlights error", e);
+            return [];
+        }
+    },
+
+    // --- Notes methods ---
+    async getNote(book, chapter, verse) {
+        try {
+            const data = await onBibleDB.notes
+                .where({ book: book, chapter: parseInt(chapter), verse: parseInt(verse) })
+                .first();
+            return data ? data.text : null;
+        } catch(e) {
+            console.error("Dexie getNote error", e);
+            return null;
+        }
+    },
+    async setNote(book, chapter, verse, text) {
+        try {
+            const existing = await onBibleDB.notes
+                .where({ book: book, chapter: parseInt(chapter), verse: parseInt(verse) })
+                .first();
+            
+            if (existing) {
+                await onBibleDB.notes.update(existing.id, { text: text });
+            } else {
+                await onBibleDB.notes.add({
+                    book: book,
+                    chapter: parseInt(chapter),
+                    verse: parseInt(verse),
+                    text: text
+                });
+            }
+        } catch(e) {
+            console.error("Dexie setNote error", e);
+        }
+    },
+    async deleteNote(book, chapter, verse) {
+        try {
+            await onBibleDB.notes
+                .where({ book: book, chapter: parseInt(chapter), verse: parseInt(verse) })
+                .delete();
+        } catch(e) {
+            console.error("Dexie deleteNote error", e);
+        }
+    },
+    async getAllNotes() {
+        try {
+            return await onBibleDB.notes.toArray();
+        } catch(e) {
+            console.error("Dexie getAllNotes error", e);
+            return [];
+        }
+    },
+
+    async getNotesForChapter(book, chapter) {
+        try {
+            return await onBibleDB.notes
+                .where({ book: book, chapter: parseInt(chapter) })
+                .toArray();
+        } catch(e) {
+            console.error("Dexie getNotesForChapter error", e);
+            return [];
+        }
+    },
+
     async init() {
         try {
             if (localStorage.getItem('migrated_to_dexie') !== 'true') {

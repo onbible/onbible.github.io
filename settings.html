@@ -42,6 +42,7 @@
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="js/sweetalert/sweetalert.css" rel="stylesheet" type="text/css" />
 
 
     <!-- App -->
@@ -119,6 +120,15 @@
                         </li>
 
                         <li>
+                            <a href="markers.html" class="waves-effect">
+                                <div class="d-inline-block icons-sm mr-1">
+                                    <i class="fas fa-bookmark"></i>
+                                </div>
+                                <span>Marcadores</span>
+                            </a>
+                        </li>
+
+                        <li>
                             <a href="bible_play.html" class=" waves-effect">
                                 <div class="d-inline-block icons-sm mr-1"><i class="fas fa-play"></i></div>
                                 <span>Bíblia Play</span>
@@ -188,7 +198,30 @@
                             <div class="col-xl-12">
                                 <div class="card">
                                     <div class="card-body">
-
+                                        <h4 class="card-title mb-4"><i class="fas fa-sync-alt mr-2 text-primary"></i> Sincronização e Backup</h4>
+                                        <p class="text-muted">Exporte suas notas, marcadores e configurações para um arquivo local ou restaure um backup anterior. Seus dados permanecem seguros e privados no seu dispositivo.</p>
+                                        
+                                        <div class="row mt-4">
+                                            <div class="col-md-6 mb-3">
+                                                <div class="p-3 border rounded bg-light">
+                                                    <h5>Exportar Dados</h5>
+                                                    <p class="small text-muted">Cria um arquivo .json com todo o seu progresso no OnBible para salvar como segurança.</p>
+                                                    <button class="btn btn-primary btn-block" onclick="BackupManager.exportData()">
+                                                        <i class="fas fa-download mr-1"></i> Exportar Backup
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <div class="p-3 border rounded bg-light">
+                                                    <h5>Importar Dados</h5>
+                                                    <p class="small text-muted">Restaura notas e marcadores de um arquivo de backup anterior. <b>Atenção:</b> isso apagará os dados atuais.</p>
+                                                    <input type="file" id="import-file" style="display: none;" accept=".json" onchange="BackupManager.importData(this.files[0])">
+                                                    <button class="btn btn-outline-primary btn-block" onclick="document.getElementById('import-file').click()">
+                                                        <i class="fas fa-upload mr-1"></i> Importar Backup
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -264,6 +297,7 @@
     <nav class="mobile-bottom-nav" role="navigation" aria-label="Navegação principal">
         <ul>
             <li><a href="index.html"><i class="fas fa-book"></i><span>Bíblia</span></a></li>
+            <li><a href="markers.html"><i class="fas fa-bookmark"></i><span>Marcas</span></a></li>
             <li><a href="bible_play.html"><i class="fas fa-headphones"></i><span>Ouvir</span></a></li>
             <li><a href="settings.html" class="active"><i class="fas fa-cog"></i><span>Config.</span></a></li>
         </ul>
@@ -283,6 +317,8 @@
 
 
     <script src="assets/js/app.js"></script>
+    <script src="js/sweetalert/sweetalert.min.js"></script>
+    <script src="js/backup.js"></script>
 
     <!-- Script PWA -->
     <script>

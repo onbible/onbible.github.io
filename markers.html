@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Marcadores - OnBible</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="OnBible Marcadores" name="description" />
+    
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        body.dark-mode {
+            background-color: #12121f !important;
+            color: #d4d4d4 !important;
+        }
+        body.dark-mode #layout-wrapper,
+        body.dark-mode .main-content,
+        body.dark-mode .page-content {
+            background-color: #12121f !important;
+        }
+        body.dark-mode .card {
+            background-color: #1c1c2e !important;
+            border-color: #2a2a40 !important;
+            color: #d4d4d4 !important;
+        }
+        body.dark-mode .vertical-menu {
+            background-color: #1c1c2e !important;
+        }
+        body.dark-mode #page-topbar {
+            background-color: #1c1c2e !important;
+        }
+        
+        .marker-item {
+            padding: 15px;
+            border-bottom: 1px solid #f1f1f1;
+            transition: background 0.2s;
+            cursor: pointer;
+        }
+        body.dark-mode .marker-item {
+            border-bottom-color: #2a2a40;
+        }
+        .marker-item:hover {
+            background: #f8f9fa;
+        }
+        body.dark-mode .marker-item:hover {
+            background: #252540;
+        }
+        .marker-color-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        .hl-yellow { background-color: #fde047; }
+        .hl-green  { background-color: #4ade80; }
+        .hl-blue   { background-color: #60a5fa; }
+        .hl-pink   { background-color: #f472b6; }
+        
+        .verse-ref {
+            font-weight: bold;
+            color: #4f46e5;
+            margin-bottom: 5px;
+            display: block;
+        }
+        body.dark-mode .verse-ref {
+            color: #7c9ef3;
+        }
+        .verse-text {
+            font-style: italic;
+            color: #6b7280;
+            font-size: 0.95em;
+        }
+        body.dark-mode .verse-text {
+            color: #aaa;
+        }
+        .note-content {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fefce8;
+            border-left: 3px solid #facc15;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #854d0e;
+        }
+        body.dark-mode .note-content {
+            background: #252535;
+            border-left-color: #7c9ef3;
+            color: #d0d0f0;
+        }
+    </style>
+</head>
+
+<body data-topbar="light">
+    <!-- Apply theme -->
+    <script>
+        if (localStorage.getItem('dark_mode') === '1') {
+            document.body.classList.add('dark-mode');
+        }
+    </script>
+
+    <div id="layout-wrapper">
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm"><img src="assets/images/logo.png" height="30"></span>
+                            <span class="logo-lg"><img src="assets/images/logo.png" height="60"></span>
+                        </a>
+                    </div>
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+                        <i class="mdi mdi-backburger"></i>
+                    </button>
+                    <div class="p-3 mt-1">
+                        <h5 class="mb-0">Meus Marcadores</h5>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="vertical-menu">
+            <div data-simplebar class="h-100">
+                <div id="sidebar-menu">
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li><a href="index.html" class="waves-effect"><i class="fas fa-book mr-2"></i><span>Bíblia</span></a></li>
+                        <li><a href="markers.html" class="waves-effect active"><i class="fas fa-bookmark mr-2"></i><span>Marcadores</span></a></li>
+                        <li><a href="bible_play.html" class="waves-effect"><i class="fas fa-play mr-2"></i><span>Bíblia Play</span></a></li>
+                        <li><a href="settings.html" class="waves-effect"><i class="fas fa-cog mr-2"></i><span>Configurações</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="page-content">
+                <div class="container-fluid">
+                    <br/><br/><br/>
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <div id="markers-list">
+                                <div class="p-5 text-center text-muted">
+                                    <i class="fas fa-spinner fa-spin fa-2x mb-3"></i>
+                                    <p>Carregando seus marcadores...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <footer class="footer">
+                <div class="container-fluid text-center">
+                    2020-<script>document.write(new Date().getFullYear())</script> © OnBible.
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Mobile Bottom Navigation -->
+    <style>
+        .mobile-bottom-nav {
+            display: none;
+            position: fixed;
+            bottom: 0; left: 0; right: 0;
+            height: 60px;
+            background: #ffffff;
+            border-top: 1px solid #e5e7eb;
+            box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+            z-index: 10000;
+        }
+        body.dark-mode .mobile-bottom-nav { background: #1c1c2e; border-top-color: #2a2a40; }
+        .mobile-bottom-nav ul { display: flex; height: 100%; margin: 0; padding: 0; list-style: none; }
+        .mobile-bottom-nav ul li { flex: 1; }
+        .mobile-bottom-nav ul li a {
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            height: 100%; gap: 3px; color: #9ca3af; text-decoration: none; font-size: 10px; font-weight: 500;
+        }
+        .mobile-bottom-nav ul li a.active { color: #4f46e5; }
+        body.dark-mode .mobile-bottom-nav ul li a.active { color: #818cf8; }
+        @media (max-width: 768px) {
+            .mobile-bottom-nav { display: block; }
+            body { padding-bottom: 60px; }
+            .vertical-menu { display: none !important; }
+            .main-content { margin-left: 0 !important; }
+        }
+    </style>
+    <nav class="mobile-bottom-nav">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-book"></i><span>Bíblia</span></a></li>
+            <li><a href="markers.html" class="active"><i class="fas fa-bookmark"></i><span>Marcas</span></a></li>
+            <li><a href="bible_play.html"><i class="fas fa-play"></i><span>Ouvir</span></a></li>
+            <li><a href="settings.html"><i class="fas fa-cog"></i><span>Config.</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <script src="assets/libs/dexie.min.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/markers.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
