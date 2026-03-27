@@ -213,6 +213,24 @@ async function saveHighlight(color) {
     activeVerseNum = null;
 }
 
+async function showReferences() {
+    if (!activeVerseNum) return;
+    var book = param['abbrev'];
+    var chapter = current_page;
+    var verseNum = activeVerseNum;
+
+    // Close highlight popover
+    var popover = document.getElementById('hl-popover');
+    if (popover) popover.style.display = 'none';
+
+    // Call the ReferenceManager
+    if (window.ReferenceManager) {
+        ReferenceManager.openPanel(book, chapter, verseNum);
+    } else {
+        console.error("ReferenceManager not loaded");
+    }
+}
+
 async function showNoteModal() {
     if (!activeVerseNum) return;
     var book = param['abbrev'];

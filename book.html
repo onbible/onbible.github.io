@@ -408,6 +408,24 @@
             color: #ffffff;
             font-size: 14px;
         }
+
+        .hl-dot.dot-ref {
+            background-color: #10b981;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        .hl-dot.dot-ref {
+            background-color: #10b981;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 14px;
+        }
         
         .verse-item .note-icon {
             font-size: 0.7em;
@@ -528,6 +546,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="assets/libs/dexie.min.js"></script>
     <script src="js/sweetalert/sweetalert.min.js"></script>
+    <script src="js/references.js"></script>
     <script src="js/db.js"></script>
     <script src="js/main.js"></script>
     <script src="js/book.js"></script>
@@ -810,6 +829,9 @@
         <div class="hl-dot dot-note" onclick="showNoteModal()" title="Adicionar Nota">
             <i class="fas fa-sticky-note"></i>
         </div>
+        <div class="hl-dot dot-ref" onclick="showReferences()" title="Referências Cruzadas">
+            <i class="fas fa-link"></i>
+        </div>
         <div class="hl-dot dot-clear" onclick="saveHighlight('clear')" title="Remover Marcação">
             <i class="fas fa-eraser"></i>
         </div>
@@ -1068,7 +1090,29 @@
     -->
 
     <script src="assets/js/app.js"></script>
+    <script src="js/references.js"></script>
 
+    <!-- Offcanvas Referências -->
+    <div id="offcanvasReferences" style="position: fixed; top: 0; right: 0; width: 400px; max-width: 90vw; height: 100%; background: #fff; z-index: 10005; transform: translateX(100%); transition: transform 0.3s ease; box-shadow: -5px 0 15px rgba(0,0,0,0.1); display: flex; flex-direction: column;">
+        <div style="padding: 15px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; background: #f8f9fa;">
+            <h5 id="ref-title" style="margin: 0; font-size: 18px;">Referências</h5>
+            <button onclick="document.getElementById('offcanvasReferences').style.transform = 'translateX(100%)'" style="border: none; background: none; font-size: 20px; cursor: pointer;">&times;</button>
+        </div>
+        <div style="padding: 15px; flex: 1; overflow-y: auto;">
+            <p style="font-size: 13px; color: #666;"><span id="references-count">0</span> referências encontradas.</p>
+            <div id="references-list"></div>
+        </div>
+    </div>
+    <script>
+        // Polyfill para garantir bootstrap.Offcanvas funcione no references.js
+        window.bootstrap = window.bootstrap || {};
+        window.bootstrap.Offcanvas = function(el) {
+            return {
+                show: function() { el.style.transform = 'translateX(0)'; },
+                hide: function() { el.style.transform = 'translateX(100%)'; }
+            };
+        };
+    </script>
     <!-- Script PWA -->
     <script>
         if ('serviceWorker' in navigator) {
