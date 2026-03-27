@@ -108,12 +108,13 @@ function change_chapter(page) {
 
     for (var i = (page - 1) * records_per_page; i < (page * records_per_page); i++) {
         for (versicle in book_chapters[i]) {
-            var imageName = param['abbrev'] + "-" + page + ":" + versicle + ".png";
+            var realVersicle = parseInt(versicle) + 1;
+            var imageName = param['abbrev'] + "-" + page + ":" + realVersicle + ".png";
             var imageIconHTML = "";
             if (available_images.includes(imageName)) {
-                imageIconHTML = ' <i class="fas fa-image text-info ml-1" style="cursor: pointer;" onclick="showStudyImage(\'' + imageName + '\', \'Capítulo ' + page + ' Versículo ' + versicle + '\')" title="Visualizar Ilustração"></i> ';
+                imageIconHTML = ' <i class="fas fa-image text-info ml-1" style="cursor: pointer;" onclick="showStudyImage(\'' + imageName + '\', \'Capítulo ' + page + ' Versículo ' + realVersicle + '\')" title="Visualizar Ilustração"></i> ';
             }
-            listing_table.innerHTML += " <b><sup>" + versicle + ".</sup></b>" + imageIconHTML + book_chapters[i][versicle];
+            listing_table.innerHTML += " <b><sup>" + realVersicle + ".</sup></b>" + imageIconHTML + " " + book_chapters[i][versicle];
         }
     }
 
