@@ -105,6 +105,11 @@ function change_chapter(page) {
     } else {
         btn_next.style.visibility = "visible";
     }
+
+    // Save reading state to local storage
+    if (param && param['abbrev']) {
+        localStorage.setItem('last_chapter_' + param['abbrev'], page);
+    }
 }
 
 function num_chapters() {
@@ -112,5 +117,11 @@ function num_chapters() {
 }
 
 window.onload = function() {
-    change_chapter(1);
+    var saved_chapter = param && param['abbrev'] ? localStorage.getItem('last_chapter_' + param['abbrev']) : null;
+    if (saved_chapter !== null) {
+        current_page = parseInt(saved_chapter);
+    } else {
+        current_page = 1;
+    }
+    change_chapter(current_page);
 };
