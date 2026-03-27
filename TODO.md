@@ -15,7 +15,5 @@ Este documento consolida as sugestões arquiteturais, visuais e de funcionalidad
 
 ## 🏗️ Melhorias de Código e Arquitetura
 
-- [x] **PWA Offline Obrigatório (Progressive Web App):** Este é o coração do App. Aprimorar o manifesto JSON e Service Workers profundos, garantindo que o download inicial guarde tudo local: imagens, `.json` da bíblia e os modelos/pesos das Inteligências Artificiais. 
-- [x] **Banco de Dados no Frontend (IndexedDB):** Como os dados do usuário e recursos offlines ficarão pesados, salvar tudo no `localStorage` vai se tornar obsoleto. Migrar as rotinas de banco para Dexie.js (IndexedDB) tornará a experiência instantânea a longos prazos.
 - [ ] **Migração de Framework Frontend:** Substituir os scripts soltos do jQuery por ferramentas estáticas modernas para Single Page Applications (SPAs) reativas (ex: **React, Next.js ou Vue**). 
 - [ ] **Sincronização / Exportação Segura:** Substituir a nuvem tradicional por um mecanismo puro de persistência local, oferecendo aos pastores uma opção de exportar o progresso em um arquivo único (backup/restore).
