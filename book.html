@@ -204,6 +204,127 @@
             background-size: 600px 100%;
         }
 
+        /* =============================================
+           MODO PÚLPITO
+        ============================================= */
+        body.pulpit-mode #page-topbar,
+        body.pulpit-mode .vertical-menu,
+        body.pulpit-mode .footer,
+        body.pulpit-mode #readingSettingsSidebar,
+        body.pulpit-mode #readingSettingsOverlay,
+        body.pulpit-mode .mobile-bottom-nav,
+        body.pulpit-mode br,
+        body.pulpit-mode #book_name,
+        body.pulpit-mode .btn-light[onclick="toggleSettingsSidebar()"] {
+            display: none !important;
+        }
+        body.pulpit-mode {
+            background: #000 !important;
+            color: #f5f0e8 !important;
+        }
+        body.pulpit-mode #layout-wrapper,
+        body.pulpit-mode .main-content,
+        body.pulpit-mode .page-content,
+        body.pulpit-mode .page-content-wrapper,
+        body.pulpit-mode .container-fluid,
+        body.pulpit-mode .card,
+        body.pulpit-mode .card-body {
+            background: #000 !important;
+            border: none !important;
+            box-shadow: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        body.pulpit-mode .main-content {
+            margin-left: 0 !important;
+        }
+        body.pulpit-mode .page-content {
+            padding-top: 0 !important;
+        }
+        body.pulpit-mode #view_text {
+            font-size: 28px !important;
+            line-height: 1.8 !important;
+            color: #f5f0e8 !important;
+            padding: 24px 40px !important;
+            text-align: justify !important;
+            font-family: 'Playfair Display', 'Georgia', serif !important;
+        }
+        body.pulpit-mode #view_text sup {
+            color: #888 !important;
+            font-size: 0.55em !important;
+        }
+        /* Pulpit nav bar */
+        #pulpit-nav {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.85);
+            backdrop-filter: blur(8px);
+            padding: 10px 32px;
+            z-index: 99999;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        body.pulpit-mode #pulpit-nav {
+            display: flex !important;
+        }
+        #pulpit-nav button {
+            background: rgba(255,255,255,0.1);
+            color: #f5f0e8;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        #pulpit-nav button:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        #pulpit-nav .pulpit-chapter {
+            color: #a0a0a0;
+            font-size: 13px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+        #pulpit-exit-btn {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            background: rgba(255,255,255,0.08);
+            color: #aaa;
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 8px;
+            padding: 6px 14px;
+            font-size: 13px;
+            cursor: pointer;
+            z-index: 99999;
+            display: none;
+            transition: background 0.15s, color 0.15s;
+        }
+        #pulpit-exit-btn:hover {
+            background: rgba(255,0,0,0.2);
+            color: #fff;
+        }
+        body.pulpit-mode #pulpit-exit-btn {
+            display: block !important;
+        }
+        body.pulpit-mode .row {
+            margin: 0 !important;
+        }
+        body.pulpit-mode .col-xl-12 {
+            padding: 0 !important;
+        }
+        /* Pulpit mode - hide chapter nav from card, use the fixed bottom bar instead */
+        body.pulpit-mode #btn_prev,
+        body.pulpit-mode #btn_next,
+        body.pulpit-mode #page {
+            display: none !important;
+        }
+
         /* Font picker */
         .font-picker {
             display: grid;
@@ -436,9 +557,14 @@
                                         <div class="container-fluid">
                                             <div class="d-flex justify-content-between align-items-center mb-4">
                                                 <h1 class="h3 mb-0 text-gray-800" id="book_name"></h1>
-                                                <button type="button" class="btn btn-light btn-sm" onclick="toggleSettingsSidebar()" title="Configurações de Leitura">
-                                                    <i class="fas fa-sliders-h" style="font-size: 18px;"></i>
-                                                </button>
+                                                <div class="d-flex gap-2" style="gap:8px;">
+                                                    <button type="button" class="btn btn-light btn-sm" onclick="togglePulpitMode()" title="Modo Púlpito" id="pulpit-btn">
+                                                        <i class="fas fa-bible" style="font-size: 16px;"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-light btn-sm" onclick="toggleSettingsSidebar()" title="Configurações de Leitura">
+                                                        <i class="fas fa-sliders-h" style="font-size: 18px;"></i>
+                                                    </button>
+                                                </div>
                                             </div>
                                             <div class="d-flex justify-content-between align-items-center mt-2 mb-4">
                                                 <a href="javascript:prev_chapter()" class="btn btn-light btn-icon-split" id="btn_prev">
@@ -562,6 +688,57 @@
             <li><a href="settings.html"><i class="fas fa-cog"></i><span>Config.</span></a></li>
         </ul>
     </nav>
+
+    <!-- Modo Púlpito — overlay de leitura imersiva -->
+    <button id="pulpit-exit-btn" onclick="togglePulpitMode()" title="Sair do Modo Púlpito">
+        <i class="fas fa-times"></i> Sair
+    </button>
+    <nav id="pulpit-nav">
+        <button onclick="prev_chapter()"><i class="fas fa-chevron-left"></i> Anterior</button>
+        <span class="pulpit-chapter" id="pulpit-chapter-label">Capítulo <span id="pulpit-page"></span></span>
+        <button onclick="next_chapter()">Próximo <i class="fas fa-chevron-right"></i></button>
+    </nav>
+    <script>
+        // Sync pulpit chapter label with main page counter
+        var _origChangeChapter = typeof change_chapter === 'function' ? change_chapter : null;
+
+        function updatePulpitLabel(page) {
+            var label = document.getElementById('pulpit-page');
+            if (label) label.textContent = page;
+        }
+
+        function togglePulpitMode() {
+            var body = document.body;
+            var isEntering = !body.classList.contains('pulpit-mode');
+
+            if (isEntering) {
+                body.classList.add('pulpit-mode');
+                // Try fullscreen
+                var el = document.documentElement;
+                if (el.requestFullscreen) el.requestFullscreen();
+                else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+                // Sync chapter label
+                var currentPageEl = document.getElementById('page');
+                if (currentPageEl) updatePulpitLabel(currentPageEl.textContent);
+            } else {
+                body.classList.remove('pulpit-mode');
+                if (document.fullscreenElement) document.exitFullscreen();
+                else if (document.webkitFullscreenElement) document.webkitExitFullscreen();
+            }
+        }
+
+        // Exit pulpit on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && document.body.classList.contains('pulpit-mode')) {
+                document.body.classList.remove('pulpit-mode');
+            }
+        });
+
+        // Keep pulpit chapter label in sync when chapter changes
+        document.addEventListener('pulpit-chapter-changed', function(e) {
+            updatePulpitLabel(e.detail);
+        });
+    </script>
 
     <!-- Study Image Modal -->
     <div class="modal fade" id="studyImageModal" tabindex="-1" role="dialog" aria-hidden="true">

@@ -125,6 +125,8 @@ function change_chapter(page) {
     if (listing_table) listing_table.style.display = 'block';
 
     page_span.innerHTML = page;
+    // Keep pulpit label in sync
+    document.dispatchEvent(new CustomEvent('pulpit-chapter-changed', { detail: page }));
 
     if (page == 1) {
         btn_prev.style.visibility = "hidden";
