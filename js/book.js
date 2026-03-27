@@ -33,46 +33,43 @@ load_image_index();
 
 // ---------------------------------------------------------------------------------------------------
 
-// get data book selected.
-function info_book() {
+var book_chapters = [];
+
+async function info_book() {
+    await window.mainInitialized;
+    
     var book_name;
-    var book_chapters;
-    $.ajax({
-        url: bible_url,
-        type: 'GET',
-        dataType: "json",
-        async: false,
-        success: function(data) {
-            for (book in data) {
-                if (data[book]['abbrev'] == param['abbrev']) {
-                    book_name = data[book]['name'];
-                    book_chapters = data[book]['chapters'];
-                    
-                    var version_names = {
-                        'pt_acf': 'Almeida Corrigida e Revisada Fiel (PT-ACF)',
-                        'pt_nvi': 'Nova Versão Internacional (PT-NVI)',
-                        'pt_aa': 'Almeida Revisada Imprensa Bíblica (PT-AA)',
-                        'en_bbe': 'Basic English (EN-BBE)',
-                        'en_kjv': 'King James Version (EN-KJV)'
-                    };
-                    var current_version = localStorage.getItem("bible_version") || 'pt_aa';
-                    var version_name = version_names[current_version] || 'Bíblia';
-                    
-                    var bookTitleElement = document.getElementById("book_name");
-                    if (bookTitleElement) {
-                        bookTitleElement.innerHTML = book_name + ' <small class="text-muted" style="font-size: 0.6em; vertical-align: middle;">' + version_name + '</small>';
-                    }
+    
+    try {
+        const response = await fetch(bible_url);
+        const data = await response.json();
+        
+        for (let book in data) {
+            if (data[book]['abbrev'] == param['abbrev']) {
+                book_name = data[book]['name'];
+                book_chapters = data[book]['chapters'];
+                
+                var version_names = {
+                    'pt_acf': 'Almeida Corrigida e Revisada Fiel (PT-ACF)',
+                    'pt_nvi': 'Nova Versão Internacional (PT-NVI)',
+                    'pt_aa': 'Almeida Revisada Imprensa Bíblica (PT-AA)',
+                    'en_bbe': 'Basic English (EN-BBE)',
+                    'en_kjv': 'King James Version (EN-KJV)'
+                };
+                var current_version = await DB.getPref("bible_version", 'pt_aa');
+                var version_name = version_names[current_version] || 'Bíblia';
+                
+                var bookTitleElement = document.getElementById("book_name");
+                if (bookTitleElement) {
+                    bookTitleElement.innerHTML = book_name + ' <small class="text-muted" style="font-size: 0.6em; vertical-align: middle;">' + version_name + '</small>';
                 }
             }
-        },
-        error: function(xhr, ajaxOptions, thrownError) {
-            var errorMsg = 'Ajax request failed: ' + xhr.responseText;
         }
-    });
-    return book_chapters;
+    } catch(error) {
+        console.error('Fetch request failed: ' + error);
+    }
 }
 
-var book_chapters = info_book();
 
 // --------------------------------------------------------------------------------------------------
 //pagination chapters
@@ -132,9 +129,9 @@ function change_chapter(page) {
         btn_next.style.visibility = "visible";
     }
 
-    // Save reading state to local storage
+    // Save reading state to IndexedDB
     if (param && param['abbrev']) {
-        localStorage.setItem('last_chapter_' + param['abbrev'], page);
+        DB.setChapter(param['abbrev'], page);
     }
 }
 
@@ -142,13 +139,19 @@ function num_chapters() {
     return Math.ceil(book_chapters.length / records_per_page);
 }
 
-window.onload = function() {
-    var saved_chapter = param && param['abbrev'] ? localStorage.getItem('last_chapter_' + param['abbrev']) : null;
+window.onload = async function() {
+    await info_book();
+
+    var saved_chapter = param && param['abbrev'] ? await DB.getChapter(param['abbrev'], null) : null;
     if (saved_chapter !== null) {
         current_page = parseInt(saved_chapter);
     } else {
         current_page = 1;
     }
+
+    currentFontSize = await DB.getPref('reading_font_size', 17);
+    currentFontSize = parseInt(currentFontSize) || 17;
+
     change_chapter(current_page);
     applyFontSize();
 };
@@ -158,7 +161,7 @@ window.onload = function() {
 
 var minFontSize = 12;
 var maxFontSize = 40;
-var currentFontSize = parseInt(localStorage.getItem('reading_font_size')) || 17;
+var currentFontSize = 17;
 
 function applyFontSize() {
     var contentView = document.getElementById("view_text");
@@ -175,7 +178,7 @@ function applyFontSize() {
 function increaseFontSize() {
     if (currentFontSize < maxFontSize) {
         currentFontSize += 2;
-        localStorage.setItem('reading_font_size', currentFontSize);
+        DB.setPref('reading_font_size', currentFontSize);
         applyFontSize();
     }
 }
@@ -183,7 +186,7 @@ function increaseFontSize() {
 function decreaseFontSize() {
     if (currentFontSize > minFontSize) {
         currentFontSize -= 2;
-        localStorage.setItem('reading_font_size', currentFontSize);
+        DB.setPref('reading_font_size', currentFontSize);
         applyFontSize();
     }
 }

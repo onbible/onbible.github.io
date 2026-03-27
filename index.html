@@ -46,6 +46,8 @@
 
     <!-- App -->
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="assets/libs/dexie.min.js"></script>
+    <script src="js/db.js"></script>
     <script src="js/main.js"></script>
     <script src="js/index.js"></script>
 
@@ -154,12 +156,15 @@
                                     <!-- Selected Version Bible -->
                                     <script type="text/javascript">
                                         document.getElementById('form_bible_version').onchange = function () {
-                                            localStorage.setItem('bible_version', document.getElementById('form_bible_version').value);
+                                            DB.setPref('bible_version', document.getElementById('form_bible_version').value);
                                         };
 
-                                        if (localStorage.getItem('bible_version')) {
-                                            document.getElementById('bible_' + localStorage.getItem('bible_version')).selected = true;
-                                        }
+                                        window.mainInitialized.then(async () => {
+                                            let bv = await DB.getPref('bible_version', null);
+                                            if (bv) {
+                                                document.getElementById('form_bible_version').value = bv;
+                                            }
+                                        });
                                     </script>
                                 </li>
                             </ul>

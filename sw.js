@@ -1,4 +1,4 @@
-const CACHE_NAME = 'onbible-cache-v1';
+const CACHE_NAME = 'onbible-cache-v2';
 
 // Recursos críticos para a primeira inicialização offline
 const PRECACHE_ASSETS = [
@@ -14,6 +14,8 @@ const PRECACHE_ASSETS = [
   './assets/images/favicon.png',
   
   // Scripts
+  './assets/libs/dexie.min.js',
+  './js/db.js',
   './js/main.js',
   './js/book.js',
   './js/index.js',
