@@ -25,7 +25,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    
+
     <!--
     <link rel="manifest" href="/manifest.json">
     -->
@@ -48,9 +48,9 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/index.js"></script>
-    
+
     <script language="javascript" type="text/javascript">
-        function doReload(catid){
+        function doReload(catid) {
             document.location = 'index.html';
         }
     </script>
@@ -68,24 +68,25 @@
                     <div class="navbar-brand-box">
                         <a href="index.html" class="logo logo-dark">
                             <span class="logo-sm">
-                                    <img src="assets/images/logo.png" alt="" height="30">
-                                </span>
+                                <img src="assets/images/logo.png" alt="" height="30">
+                            </span>
                             <span class="logo-lg">
-                                    <img src="assets/images/logo.png" alt="" height="60">
-                                </span>
+                                <img src="assets/images/logo.png" alt="" height="60">
+                            </span>
                         </a>
 
                         <a href="index.html" class="logo logo-light">
                             <span class="logo-sm">
-                                    <img src="assets/images/logo.png" alt="" height="22">
-                                </span>
+                                <img src="assets/images/logo.png" alt="" height="22">
+                            </span>
                             <span class="logo-lg">
-                                    <img src="assets/images/logo.png" alt="" height="20">
-                                </span>
+                                <img src="assets/images/logo.png" alt="" height="20">
+                            </span>
                         </a>
                     </div>
 
-                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect"
+                        id="vertical-menu-btn">
                         <i class="mdi mdi-backburger"></i>
                     </button>
                 </div>
@@ -114,30 +115,39 @@
                         </li>
 
                         <li>
-                            <a href="bible_play.html" class=" waves-effect">
+                            <a href="bible_play.html" class="waves-effect">
                                 <div class="d-inline-block icons-sm mr-1"><i class="fas fa-play"></i></div>
                                 <span>Bíblia Play</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                            <a href="settings.html" class="waves-effect">
                                 <i class="fab fa-whmcs"></i>
                                 <span>Configurações</span>
                             </a>
                             <ul>
                                 <li>
-                                    <select class="form-control" name="form_bible_version" id="form_bible_version" onChange="doReload(this.value);">
+                                    <select class="form-control" name="form_bible_version" id="form_bible_version"
+                                        onChange="doReload(this.value);">
                                         <option id="bible_ptnvi" value="pt_acf">Versões</option>
-                                        <option id="bible_ptnvi" value="pt_acf">Almeida Corrigida e Revisada Fiel <span>(PT-ACF)</span></option>
-                                        <option id="bible_ptnvi" value="pt_nvi">Nova Versão Internacional <span>(PT-NVI)</span></option>
-                                        <option id="bible_ptaa" value="pt_aa">Almeida Revisada Imprensa Bíblica <span>(PT-AA)</span></option>
-                                        <option id="bible_enbbe" value="en_bbe">Basic English <span>(EN-BBE)</span></option>
-                                        <option id="bible_enkjv" value="en_kjv">King James Version <span>(EN-KJV)</span></option>
+                                        <option id="bible_ptnvi" value="pt_acf">Almeida Corrigida e Revisada Fiel
+                                            <span>(PT-ACF)</span>
+                                        </option>
+                                        <option id="bible_ptnvi" value="pt_nvi">Nova Versão Internacional
+                                            <span>(PT-NVI)</span>
+                                        </option>
+                                        <option id="bible_ptaa" value="pt_aa">Almeida Revisada Imprensa Bíblica
+                                            <span>(PT-AA)</span>
+                                        </option>
+                                        <option id="bible_enbbe" value="en_bbe">Basic English <span>(EN-BBE)</span>
+                                        </option>
+                                        <option id="bible_enkjv" value="en_kjv">King James Version <span>(EN-KJV)</span>
+                                        </option>
                                     </select>
                                     <!-- Selected Version Bible -->
                                     <script type="text/javascript">
-                                        document.getElementById('form_bible_version').onchange = function() {
+                                        document.getElementById('form_bible_version').onchange = function () {
                                             localStorage.setItem('bible_version', document.getElementById('form_bible_version').value);
                                         };
 
@@ -193,7 +203,7 @@
 
                 <div class="page-content-wrapper">
                     <div class="container-fluid">
-                        <br/><br/><br/>
+                        <br /><br /><br />
                         <div class="row" id="books">
                             <div class="col-xl-12">
                                 <div class="card">
@@ -203,14 +213,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- end row -->
-
                     </div>
-                    <!-- end container-fluid -->
                 </div>
-                <!-- end page-content-wrapper -->
             </div>
-            <!-- End Page-content -->
 
 
             <footer class="footer">
@@ -221,7 +226,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-right d-none d-sm-block">
-                                <i class="mdi mdi-heart text-danger"></i> by RodriguesFAS & Gabriel
+                                <i class="mdi mdi-heart text-danger"></i> by RodriguesFAS
                             </div>
                         </div>
                     </div>
