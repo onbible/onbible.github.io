@@ -6,7 +6,6 @@ $(document).ready(function() {
         success: function(data) {
             var book_list = '';
             for (book in data) {
-                //console.log(data[book]);
                 book_list += '\
                 <div class="col-xl-3 col-md-6 mb-4">\
                     <a href="player.html?abbrev=' + data[book]['abbrev'] + '">\
@@ -15,7 +14,7 @@ $(document).ready(function() {
                                 <div class="row no-gutters align-items-center">\
                                     <div class="col mr-2">\
                                         <div class="h5 mb-0 font-weight-bold text-gray-800">' + data[book]['name'] + '-' + data[book]['abbrev'].toUpperCase() + '</div>\
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><small class="btn-sm btn-primary btn-circle">' + data[book]['chapters'].length + '</small> <small>Capítulos</small></div>\
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><small class="btn-sm btn-primary btn-circle">' + data[book]['chapters'].length + '</small> <small>Cap\u00edtulos</small></div>\
                                         </div>\
                                     <div class="col-auto">\
                                         <i class="fas fa-2x fa-play text-gray-300"></i>\
@@ -26,11 +25,12 @@ $(document).ready(function() {
                     </a>\
                 </div>';
             }
+            $('#skeleton-loader').hide();
             $('#books').html(book_list);
         },
         error: function(xhr, ajaxOptions, thrownError) {
-            var errorMsg = 'Ajax request failed: ' + xhr.responseText;
-            $('#books').html(errorMsg);
+            $('#skeleton-loader').hide();
+            $('#books').html('<div class="col-12"><div class="alert alert-warning">Erro ao carregar. Verifique sua conex\u00e3o.</div></div>');
         }
     });
 });

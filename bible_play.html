@@ -184,16 +184,41 @@
                 <div class="page-content-wrapper">
                     <div class="container-fluid">
                         <br/><br/><br/>
-                        <div class="row" id="books">
-                            <div class="col-xl-12">
-                                <div class="card">
-                                    <div class="card-body">
+                        <style>
+                            @keyframes skeleton-shimmer {
+                                0% { background-position: -400px 0; }
+                                100% { background-position: 400px 0; }
+                            }
+                            .skeleton-card {
+                                border-radius: 8px;
+                                overflow: hidden;
+                                box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+                            }
+                            .skeleton-block {
+                                background: linear-gradient(90deg, #e8e8e8 25%, #f5f5f5 50%, #e8e8e8 75%);
+                                background-size: 400px 100%;
+                                animation: skeleton-shimmer 1.4s infinite;
+                                border-radius: 4px;
+                            }
+                        </style>
 
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- Skeleton Loader -->
+                        <div id="skeleton-loader" class="row">
+                            <script>
+                                for (var i = 0; i < 8; i++) {
+                                    document.write('\
+                                    <div class="col-xl-3 col-md-6 mb-4">\
+                                        <div class="card skeleton-card" style="height:90px; padding:16px;">\
+                                            <div class="skeleton-block mb-2" style="height:18px; width:70%;"></div>\
+                                            <div class="skeleton-block" style="height:14px; width:45%;"></div>\
+                                        </div>\
+                                    </div>');
+                                }
+                            </script>
                         </div>
-                        <!-- end row -->
+
+                        <!-- Content filled by playlist.js -->
+                        <div class="row" id="books"></div>
 
                     </div>
                     <!-- end container-fluid -->

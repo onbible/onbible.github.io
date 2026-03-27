@@ -63,26 +63,35 @@ self.addEventListener('activate', (event) => {
     );
 });
 
-// Stale-While-Revalidate Strategy para Interceptação de Dados
+// Cache-First with Network Fallback Strategy
 self.addEventListener('fetch', (event) => {
     if (event.request.method !== 'GET') return;
-    
+
     event.respondWith(
         caches.match(event.request).then((cachedResponse) => {
-            // Usa o cache instantaneamente (se existir) na requisição
-            const fetchPromise = fetch(event.request).then((networkResponse) => {
-                // E também tenta buscar do servidor e atualiza o cache silenciosamente (se a rede funcionar)
+            if (cachedResponse) {
+                // Serve do cache imediatamente e revalida em segundo plano
+                fetch(event.request).then((networkResponse) => {
+                    if (networkResponse && networkResponse.ok) {
+                        caches.open(CACHE_NAME).then((cache) => {
+                            cache.put(event.request, networkResponse);
+                        });
+                    }
+                }).catch(() => {});
+                return cachedResponse;
+            }
+
+            // Não tem cache: busca da rede e salva
+            return fetch(event.request).then((networkResponse) => {
+                if (!networkResponse || !networkResponse.ok) return networkResponse;
+                const responseToCache = networkResponse.clone();
                 caches.open(CACHE_NAME).then((cache) => {
-                    cache.put(event.request, networkResponse.clone());
+                    cache.put(event.request, responseToCache);
                 });
                 return networkResponse;
             }).catch(() => {
-                // Caso falhe na rede, o fallback já provê o que tem no cache (PWA Offline First real)
-                console.log('[SW] Network error. Serving from cache only.');
+                console.log('[SW] Network error. No cache available.');
             });
-
-            // Retorna o cache se houver, ou espera a promessa da rede
-            return cachedResponse || fetchPromise;
         })
     );
 });

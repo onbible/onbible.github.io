@@ -21,12 +21,89 @@
     <!-- End Favicon -->
 
     <!-- Bootstrap Css -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-css" href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link id="app-css" href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
 
+    <style>
+        /* Dark mode overrides */
+        body.dark-mode {
+            background-color: #1a1a2e !important;
+            color: #e0e0e0 !important;
+        }
+        body.dark-mode .card,
+        body.dark-mode .reading-sidebar {
+            background-color: #16213e !important;
+            border-color: #0f3460 !important;
+            color: #e0e0e0 !important;
+        }
+        body.dark-mode #page-topbar,
+        body.dark-mode .vertical-menu,
+        body.dark-mode .footer {
+            background-color: #0f3460 !important;
+        }
+        body.dark-mode #view_text {
+            color: #ddd !important;
+        }
+        body.dark-mode .reading-sidebar-header {
+            border-bottom-color: #0f3460 !important;
+        }
+        body.dark-mode .form-control,
+        body.dark-mode .btn-outline-primary {
+            background-color: #1a1a2e !important;
+            color: #e0e0e0 !important;
+            border-color: #0f3460 !important;
+        }
+        /* Toggle switch */
+        .dark-toggle-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 8px;
+        }
+        .toggle-switch {
+            position: relative;
+            width: 52px;
+            height: 28px;
+        }
+        .toggle-switch input { display: none; }
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            inset: 0;
+            background: #ccc;
+            border-radius: 28px;
+            transition: .3s;
+        }
+        .toggle-slider:before {
+            content: '';
+            position: absolute;
+            width: 22px;
+            height: 22px;
+            left: 3px;
+            bottom: 3px;
+            background: white;
+            border-radius: 50%;
+            transition: .3s;
+        }
+        .toggle-switch input:checked + .toggle-slider {
+            background: #3b5bdb;
+        }
+        .toggle-switch input:checked + .toggle-slider:before {
+            transform: translateX(24px);
+        }
+    </style>
+
+    <!-- Aplicar tema ANTES do render para evitar flash -->
+    <script>
+        (function() {
+            if (localStorage.getItem('dark_mode') === '1') {
+                document.documentElement.classList.add('dark-mode-pending');
+            }
+        })();
+    </script>
 
     <!-- App -->
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -312,6 +389,39 @@
                     A+
                 </button>
             </div>
+
+            <hr class="my-4">
+
+            <h6>Tema</h6>
+            <div class="dark-toggle-wrap">
+                <span>&#9790; Modo Noturno</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="dark-mode-toggle">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <script>
+                (function() {
+                    var isDark = localStorage.getItem('dark_mode') === '1';
+                    if (isDark) document.body.classList.add('dark-mode');
+                    var toggle = document.getElementById('dark-mode-toggle');
+                    if (toggle) toggle.checked = isDark;
+
+                    if (toggle) {
+                        toggle.addEventListener('change', function() {
+                            if (this.checked) {
+                                document.body.classList.add('dark-mode');
+                                localStorage.setItem('dark_mode', '1');
+                            } else {
+                                document.body.classList.remove('dark-mode');
+                                localStorage.setItem('dark_mode', '0');
+                            }
+                        });
+                    }
+                })();
+            </script>
+
         </div>
     </div>
 
