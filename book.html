@@ -28,34 +28,159 @@
     <link id="app-css" href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
 
     <style>
-        /* Dark mode overrides */
+        /* =============================================
+           DARK MODE — cobertura completa
+        ============================================= */
+
+        /* Aplica fundo escuro imediatamente via JS antes do parse completo */
+        html.dark-mode-pending body { background-color: #12121f; }
+
         body.dark-mode {
-            background-color: #1a1a2e !important;
-            color: #e0e0e0 !important;
+            background-color: #12121f !important;
+            color: #d4d4d4 !important;
         }
-        body.dark-mode .card,
-        body.dark-mode .reading-sidebar {
-            background-color: #16213e !important;
-            border-color: #0f3460 !important;
-            color: #e0e0e0 !important;
+
+        /* Layout principal */
+        body.dark-mode #layout-wrapper,
+        body.dark-mode .main-content,
+        body.dark-mode .page-content,
+        body.dark-mode .page-content-wrapper,
+        body.dark-mode .container-fluid {
+            background-color: #12121f !important;
         }
-        body.dark-mode #page-topbar,
-        body.dark-mode .vertical-menu,
-        body.dark-mode .footer {
-            background-color: #0f3460 !important;
+
+        /* Topbar / Header */
+        body.dark-mode #page-topbar {
+            background-color: #1c1c2e !important;
+            box-shadow: 0 1px 0 rgba(255,255,255,0.05) !important;
         }
+        body.dark-mode .navbar-header,
+        body.dark-mode .navbar-brand-box {
+            background-color: #1c1c2e !important;
+            border-color: #2a2a40 !important;
+        }
+        body.dark-mode .btn.header-item,
+        body.dark-mode #vertical-menu-btn {
+            color: #aaa !important;
+        }
+        body.dark-mode .btn.header-item:hover {
+            background-color: #2a2a40 !important;
+        }
+
+        /* Sidebar esquerdo */
+        body.dark-mode .vertical-menu {
+            background-color: #1c1c2e !important;
+            border-right: 1px solid #2a2a40 !important;
+        }
+        body.dark-mode #sidebar-menu ul li a {
+            color: #aab4cc !important;
+        }
+        body.dark-mode #sidebar-menu ul li a:hover,
+        body.dark-mode #sidebar-menu ul li a.active {
+            color: #7c9ef3 !important;
+            background-color: #252540 !important;
+        }
+        body.dark-mode .metismenu .mm-active > a {
+            color: #7c9ef3 !important;
+        }
+
+        /* Cards e painéis */
+        body.dark-mode .card {
+            background-color: #1c1c2e !important;
+            border: 1px solid #2a2a40 !important;
+            color: #d4d4d4 !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.4) !important;
+        }
+        body.dark-mode .card-body,
+        body.dark-mode .card-header {
+            background-color: #1c1c2e !important;
+            border-color: #2a2a40 !important;
+            color: #d4d4d4 !important;
+        }
+
+        /* Área de leitura */
         body.dark-mode #view_text {
-            color: #ddd !important;
+            color: #d8d8d8 !important;
+            line-height: 1.9;
+        }
+        body.dark-mode #view_text sup,
+        body.dark-mode #view_text .verse-number {
+            color: #7c9ef3 !important;
+        }
+        body.dark-mode .text-muted {
+            color: #7a7a9a !important;
+        }
+        body.dark-mode h1, body.dark-mode h2,
+        body.dark-mode h3, body.dark-mode h4,
+        body.dark-mode h5, body.dark-mode h6 {
+            color: #e0e0f0 !important;
+        }
+
+        /* Botões de capítulo */
+        body.dark-mode .btn-light {
+            background-color: #252540 !important;
+            border-color: #3a3a60 !important;
+            color: #c0c0e0 !important;
+        }
+        body.dark-mode .btn-light:hover {
+            background-color: #303060 !important;
+        }
+        body.dark-mode .btn-outline-primary {
+            color: #7c9ef3 !important;
+            border-color: #7c9ef3 !important;
+            background-color: transparent !important;
+        }
+        body.dark-mode .btn-outline-primary:hover {
+            background-color: #2a3a6a !important;
+            color: #fff !important;
+        }
+
+        /* Painel lateral de leitura */
+        body.dark-mode .reading-sidebar {
+            background-color: #1c1c2e !important;
+            box-shadow: -4px 0 20px rgba(0,0,0,0.5) !important;
         }
         body.dark-mode .reading-sidebar-header {
-            border-bottom-color: #0f3460 !important;
+            border-bottom: 1px solid #2a2a40 !important;
         }
-        body.dark-mode .form-control,
-        body.dark-mode .btn-outline-primary {
-            background-color: #1a1a2e !important;
-            color: #e0e0e0 !important;
-            border-color: #0f3460 !important;
+        body.dark-mode .reading-sidebar-header h5 {
+            color: #d0d0f0 !important;
         }
+        body.dark-mode .reading-sidebar-body h6 {
+            color: #9090c0 !important;
+            text-transform: uppercase;
+            font-size: 0.72em;
+            letter-spacing: 0.05em;
+        }
+
+        /* Formulários */
+        body.dark-mode .form-control {
+            background-color: #252540 !important;
+            color: #d0d0f0 !important;
+            border: 1px solid #3a3a60 !important;
+        }
+        body.dark-mode .form-control:focus {
+            background-color: #2d2d50 !important;
+            border-color: #7c9ef3 !important;
+            box-shadow: 0 0 0 2px rgba(124,158,243,0.2) !important;
+        }
+        body.dark-mode select option {
+            background-color: #1c1c2e;
+            color: #d0d0f0;
+        }
+
+        /* Divisórias */
+        body.dark-mode hr {
+            border-color: #2a2a40 !important;
+        }
+
+        /* Footer */
+        body.dark-mode .footer {
+            background-color: #1c1c2e !important;
+            border-top: 1px solid #2a2a40 !important;
+            color: #666 !important;
+        }
+
         /* Toggle switch */
         .dark-toggle-wrap {
             display: flex;

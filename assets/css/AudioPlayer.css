@@ -14,88 +14,62 @@ button {
     border: 0;
     outline: 0;
     background: transparent;
+    cursor: pointer;
 }
 
-.material-icons.md-dark {
-    color: rgba(0, 0, 0, 0.75);
-}
+/* ============================================
+   AUDIO PLAYER — Design Premium OnBible
+============================================ */
 
-
-/*------------------------
-    Audio Player - AP
-------------------------*/
-
-
-/* Player and control panel */
-
+/* Player wrapper — fixado na base */
 .ap {
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    height: 50px;
+    height: 72px;
     margin: auto;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-size: 13px;
     user-select: none;
-    color: #333;
-    background: #f1f1f1;
-    border-top: 1px solid #ccc;
+    color: #e2e8f0;
+    background: linear-gradient(135deg, #1e1b4b 0%, #1a1a2e 100%);
+    border-top: 1px solid rgba(124, 58, 237, 0.3);
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.4);
     z-index: 9999;
 }
 
 .ap-inner {
     max-width: 1440px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .ap-panel {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 .ap-item {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
     flex: 1;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
 .ap--track {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 40%;
-    -ms-flex: 1 40%;
     flex: 1 40%;
-    padding: 0 20px;
+    padding: 0 24px;
 }
 
 
 /* Info section */
-
 .ap-info {
     width: 100%;
     position: relative;
-    -webkit-align-self: flex-start;
-    -ms-flex-item-align: start;
     align-self: flex-start;
-    padding: 5px 0 0;
+    padding: 12px 0 0;
 }
 
 .ap-title {
@@ -105,74 +79,95 @@ button {
     text-align: left;
     white-space: nowrap;
     text-overflow: ellipsis;
+    font-weight: 600;
+    font-size: 13px;
+    color: #c4b5fd;
+    letter-spacing: 0.02em;
 }
 
 .ap-time {
     position: absolute;
-    top: 5px;
+    top: 12px;
     right: 0;
+    font-size: 11px;
+    color: #6b7280;
+    font-variant-numeric: tabular-nums;
 }
 
+/* Progress bar */
 .ap-progress-container {
-    padding: 5px 0 10px;
+    padding: 8px 0 0;
     cursor: pointer;
 }
 
 .ap-progress {
     position: relative;
     height: 3px;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, .2);
+    border-radius: 99px;
+    background: rgba(255, 255, 255, 0.1);
 }
 
-.ap-preload-bar,
+.ap-preload-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    border-radius: 99px;
+    background: rgba(255, 255, 255, 0.15);
+    z-index: 1;
+}
+
 .ap-bar {
     position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
     width: 0;
-    border-radius: 5px 0 0 5px;
-    background: rgba(0, 0, 0, .3);
-    z-index: 999;
-}
-
-.ap-bar {
-    background: #f50;
-    z-index: 9999;
+    border-radius: 99px;
+    background: linear-gradient(90deg, #7c3aed, #a78bfa);
+    z-index: 2;
+    transition: width 0.1s linear;
 }
 
 .ap-bar:after {
     position: absolute;
-    top: 0;
-    right: -5px;
+    top: 50%;
+    right: -6px;
     width: 12px;
     height: 12px;
-    margin-top: -4px;
+    margin-top: -6px;
     content: '';
-    border-radius: 6px;
-    background: #f50;
+    border-radius: 50%;
+    background: #a78bfa;
+    box-shadow: 0 0 6px rgba(167, 139, 250, 0.8);
     opacity: 0;
-    -webkit-transition: opacity .3s ease;
-    transition: opacity .3s ease;
+    transition: opacity 0.2s ease;
 }
 
 .ap-progress-container:hover .ap-bar:after {
     opacity: 1;
 }
 
+.ap-progress-container:hover .ap-progress {
+    height: 5px;
+    margin-top: -1px;
+    transition: height 0.15s ease;
+}
+
 
 /* Buttons */
-
 .ap-controls {
     position: relative;
     z-index: 1000;
-    display: block;
-    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     cursor: pointer;
-    -webkit-transition: background .2s ease;
-    transition: background .2s ease;
-    text-align: center;
+    transition: background 0.15s ease, transform 0.1s ease;
     color: #fff;
     border: 0;
     outline: 0;
@@ -180,34 +175,39 @@ button {
 }
 
 .ap-controls svg {
-    fill: #333;
+    fill: #9ca3af;
+    transition: fill 0.15s ease;
+}
+
+.ap-controls:hover {
+    background: rgba(124, 58, 237, 0.2);
 }
 
 .ap-controls:hover svg {
-    fill: #222;
+    fill: #a78bfa;
 }
 
 .ap-controls:active {
-    background: rgba(0, 0, 0, .1);
+    transform: scale(0.9);
+    background: rgba(124, 58, 237, 0.35);
 }
 
-.ap--playback>.ap-controls,
-.ap--settings>.ap-controls {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 25%;
-    -ms-flex: 0 25%;
+.ap--playback > .ap-controls,
+.ap--settings > .ap-controls {
     flex: 0 25%;
 }
 
+/* Play/pause state */
 .ap--pause,
-.playing>.ap--play {
+.playing > .ap--play {
     display: none;
 }
 
-.playing>.ap--pause {
+.playing > .ap--pause {
     display: inline;
 }
 
+/* Volume */
 .ap-volume-container {
     z-index: 9999;
 }
@@ -215,16 +215,16 @@ button {
 .ap-volume {
     position: absolute;
     right: 0;
-    bottom: 50px;
+    bottom: 72px;
     overflow: hidden;
     width: 100%;
     height: 0;
     visibility: hidden;
-    -webkit-transition: height .2s cubic-bezier(0.17, 0.72, 0.26, 1.23);
-    transition: height .2s cubic-bezier(0.17, 0.72, 0.26, 1.23);
-    background: #ddd;
-    border: 1px solid #ccc;
+    transition: height 0.2s cubic-bezier(0.17, 0.72, 0.26, 1.23);
+    background: #1e1b4b;
+    border: 1px solid rgba(124, 58, 237, 0.3);
     border-bottom: 0;
+    border-radius: 8px 8px 0 0;
     z-index: 9999;
 }
 
@@ -234,17 +234,18 @@ button {
     width: 100%;
 }
 
-.ap-volume-btn>.ap--volume-off,
-.muted>.ap--volume-on {
+.ap-volume-btn > .ap--volume-off,
+.muted > .ap--volume-on {
     display: none;
 }
 
-.muted>.ap--volume-off {
+.muted > .ap--volume-off {
     display: inline;
 }
 
 .ap-volume-container:hover {
-    background: #ddd;
+    background: rgba(124, 58, 237, 0.1);
+    border-radius: 8px;
 }
 
 .ap-volume-container:hover .ap-volume {
@@ -257,7 +258,7 @@ button {
     width: 4px;
     height: 100px;
     margin: 10px auto;
-    background: rgba(0, 0, 0, .2);
+    background: rgba(255, 255, 255, 0.1);
     position: relative;
     border-radius: 3px;
 }
@@ -267,153 +268,100 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #f50;
+    background: linear-gradient(0deg, #7c3aed, #a78bfa);
     height: 50%;
     border-radius: 3px;
 }
 
 .ap-active {
-    background: rgba(0, 0, 0, .15);
-    opacity: 1;
+    background: rgba(124, 58, 237, 0.25) !important;
 }
 
-@-webkit-keyframes blink {
-    from {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
-}
-
+/* Playing blink animation */
 @keyframes blink {
-    from {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+    from { opacity: 0; }
+    50%  { opacity: 1; }
+    to   { opacity: 0; }
 }
 
-.playing>.ap--pause {
-    -webkit-animation: blink 1.5s linear infinite;
+.playing > .ap--pause {
     animation: blink 1.5s linear infinite;
 }
 
 
-/* --------------------------- */
-
-@media(max-width:880px) {
-    .ap-item>.ap-controls {
-        -webkit-box-flex: 1;
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-    }
-}
-
-@media(max-width:550px) {
-    .ap {
-        min-width: 250px;
-    }
-    .ap,
-    .ap-panel {
-        height: auto;
-    }
-    .ap-panel {
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    }
-    .ap--track {
-        margin-bottom: 10px;
-        padding: 0 20px;
-        -webkit-box-ordinal-group: 2;
-        -webkit-order: 1;
-        -ms-flex-order: 1;
-        order: 1;
-        -webkit-box-flex: 1;
-        -webkit-flex: 1 1 100%;
-        -ms-flex: 1 1 100%;
-        flex: 1 1 100%;
-    }
-    .ap--playback,
-    .ap--settings {
-        -webkit-box-flex: 1;
-        -webkit-flex: 1 1 50%;
-        -ms-flex: 1 1 50%;
-        flex: 1 1 50%;
-        -webkit-box-ordinal-group: 3;
-        -webkit-order: 2;
-        -ms-flex-order: 2;
-        order: 2;
-    }
-}
-
-
-/*--------------------
-  PlayList
---------------------*/
+/* ============================================
+   PLAYLIST — Design Premium
+============================================ */
 
 .pl-container {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 50px;
+    bottom: 72px;
     left: 0;
     margin: auto;
     overflow: auto;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', system-ui, sans-serif;
     font-size: 14px;
-    background: #f1f1f1;
+    background: #0f0e1a;
     z-index: 999;
+    scrollbar-width: thin;
+    scrollbar-color: #3730a3 #1a1a2e;
+}
+
+.pl-container::-webkit-scrollbar {
+    width: 6px;
+}
+.pl-container::-webkit-scrollbar-track {
+    background: #1a1a2e;
+}
+.pl-container::-webkit-scrollbar-thumb {
+    background: #3730a3;
+    border-radius: 3px;
 }
 
 .pl-lead {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 700;
     text-align: center;
-    color: #333;
+    color: #c4b5fd;
+    padding: 32px 0 0;
+    letter-spacing: 0.03em;
 }
 
 .pl-list {
     width: 100%;
-    max-width: 550px;
+    max-width: 620px;
     margin: 0 auto;
-    padding: 30px 10px;
+    padding: 16px 16px 32px;
 }
 
-.pl-list>li {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+.pl-list > li {
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin-bottom: 2px;
+    transition: background 0.15s ease;
+}
+
+.pl-list > li:hover {
+    background: rgba(124, 58, 237, 0.12);
 }
 
 .pl-number,
 .pl-title,
 .pl-remove {
-    margin: 0 5px;
-    padding: 10px 0;
+    margin: 0 6px;
+    padding: 12px 0;
 }
 
 .pl-number {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 10%;
-    -ms-flex: 0 10%;
     flex: 0 10%;
     text-align: center;
+    color: #4b5563;
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
 }
 
 .pl-playing {
@@ -430,6 +378,11 @@ button {
 
 .pl-current .pl-title {
     font-weight: 700;
+    color: #a78bfa;
+}
+
+.pl-current {
+    background: rgba(124, 58, 237, 0.18) !important;
 }
 
 .pl-title {
@@ -438,108 +391,107 @@ button {
     text-align: left;
     white-space: nowrap;
     text-overflow: ellipsis;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
     flex: 1;
+    color: #d1d5db;
+    transition: color 0.15s ease;
 }
 
 .pl-title:hover {
-    text-decoration: underline;
+    color: #c4b5fd;
+    text-decoration: none;
 }
 
 .pl-remove {
     opacity: 0;
-    margin-right: 0;
+    margin-right: 4px;
     cursor: pointer;
     text-align: center;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 50px;
-    -ms-flex: 0 50px;
-    flex: 0 50px;
+    flex: 0 44px;
+    border-radius: 6px;
+    transition: opacity 0.15s, background 0.15s;
 }
 
 .pl-remove:hover {
-    background: #ddd;
+    background: rgba(239, 68, 68, 0.2);
 }
 
-.pl-list>li:hover .pl-remove {
+.pl-list > li:hover .pl-remove {
     opacity: 1;
 }
 
 .pl-list svg {
-    fill: rgba(0, 0, 0, .7);
+    fill: rgba(255, 255, 255, 0.5);
 }
 
 .pl-empty {
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 2rem;
-    -webkit-transform: translate(-50%, -50%);
+    font-size: 1.5rem;
     transform: translate(-50%, -50%);
     letter-spacing: 2px;
-    color: #ccc;
+    color: #374151;
+    text-align: center;
 }
 
-@-webkit-keyframes eq {
-    0% {
-        height: 3px;
-    }
-    50% {
-        height: 20px;
-    }
-    100% {
-        height: 3px;
-    }
-}
-
+/* EQ bars animation */
 @keyframes eq {
-    0% {
-        height: 3px;
-    }
-    50% {
-        height: 20px;
-    }
-    100% {
-        height: 3px;
-    }
+    0%   { height: 3px; }
+    50%  { height: 20px; }
+    100% { height: 3px; }
 }
 
 .eq {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     width: 20px;
     height: 20px;
     margin: 0 auto;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
     align-items: flex-end;
+    gap: 2px;
 }
 
 .eq-bar {
     width: 4px;
-    background: rgba(0, 0, 0, .7);
+    background: linear-gradient(0deg, #7c3aed, #a78bfa);
+    border-radius: 2px;
 }
 
-.eq-bar:nth-child(1) {
-    -webkit-animation: eq .8s ease-in-out infinite 0s;
-    animation: eq .8s ease-in-out infinite 0s;
+.eq-bar:nth-child(1) { animation: eq 0.8s ease-in-out infinite 0s; }
+.eq-bar:nth-child(2) { animation: eq 0.8s ease-in-out infinite 0.2s; }
+.eq-bar:nth-child(3) { animation: eq 0.8s ease-in-out infinite 0.4s; }
+
+/* Material icons color in player context */
+.material-icons.md-dark {
+    color: rgba(200, 200, 255, 0.75);
 }
 
-.eq-bar:nth-child(2) {
-    -webkit-animation: eq .8s ease-in-out infinite .2s;
-    animation: eq .8s ease-in-out infinite .2s;
+/* Responsive */
+@media (max-width: 880px) {
+    .ap-item > .ap-controls {
+        flex: 1;
+    }
 }
 
-.eq-bar:nth-child(3) {
-    -webkit-animation: eq .8s ease-in-out infinite .4s;
-    animation: eq .8s ease-in-out infinite .4s;
+@media (max-width: 550px) {
+    .ap {
+        min-width: 250px;
+        height: auto;
+    }
+    .ap-panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 8px 0;
+    }
+    .ap--track {
+        margin-bottom: 8px;
+        padding: 0 16px;
+        order: 1;
+        flex: 1 1 100%;
+    }
+    .ap--playback,
+    .ap--settings {
+        flex: 1 1 50%;
+        order: 2;
+    }
 }

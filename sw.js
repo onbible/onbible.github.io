@@ -83,7 +83,10 @@ self.addEventListener('fetch', (event) => {
 
             // Não tem cache: busca da rede e salva
             return fetch(event.request).then((networkResponse) => {
-                if (!networkResponse || !networkResponse.ok) return networkResponse;
+                // Não cachear respostas parciais (206 = streaming de áudio/vídeo)
+                if (!networkResponse || !networkResponse.ok || networkResponse.status === 206) {
+                    return networkResponse;
+                }
                 const responseToCache = networkResponse.clone();
                 caches.open(CACHE_NAME).then((cache) => {
                     cache.put(event.request, responseToCache);
