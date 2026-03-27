@@ -20,6 +20,11 @@
     <meta name="theme-color" content="#ffffff">
     <!-- End Favicon -->
 
+    <!-- Google Fonts para tipografia imersiva -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
     <!-- Bootstrap Css -->
     <link id="bootstrap-css" href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
@@ -198,6 +203,62 @@
             background: linear-gradient(90deg, #252540 25%, #2d2d50 50%, #252540 75%);
             background-size: 600px 100%;
         }
+
+        /* Font picker */
+        .font-picker {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+        .font-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            padding: 12px 8px;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            background: #f9fafb;
+            cursor: pointer;
+            transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+        }
+        .font-btn:hover {
+            border-color: #6366f1;
+            background: #eef2ff;
+        }
+        .font-btn.active {
+            border-color: #4f46e5;
+            background: #eef2ff;
+            box-shadow: 0 0 0 3px rgba(79,70,229,0.15);
+        }
+        .font-btn-preview {
+            font-size: 26px;
+            line-height: 1;
+            color: #374151;
+        }
+        .font-btn.active .font-btn-preview { color: #4f46e5; }
+        .font-btn-label {
+            font-size: 11px;
+            font-weight: 600;
+            color: #6b7280;
+            letter-spacing: 0.03em;
+        }
+        .font-btn.active .font-btn-label { color: #4f46e5; }
+        body.dark-mode .font-btn {
+            border-color: #2a2a40;
+            background: #1c1c2e;
+        }
+        body.dark-mode .font-btn:hover,
+        body.dark-mode .font-btn.active {
+            border-color: #7c9ef3;
+            background: #252545;
+        }
+        body.dark-mode .font-btn-preview { color: #d4d4d4; }
+        body.dark-mode .font-btn-label  { color: #888; }
+        body.dark-mode .font-btn.active .font-btn-preview,
+        body.dark-mode .font-btn.active .font-btn-label { color: #7c9ef3; }
 
         /* Toggle switch */
         .dark-toggle-wrap {
@@ -605,6 +666,55 @@
                     A+
                 </button>
             </div>
+
+            <hr class="my-4">
+
+            <h6>Estilo de Tipografia</h6>
+            <div class="font-picker" id="font-picker">
+                <button class="font-btn" data-font="classica" onclick="setReadingFont('classica')" title="Clássica">
+                    <span class="font-btn-preview" style="font-family: 'Merriweather', serif;">Aa</span>
+                    <span class="font-btn-label">Clássica</span>
+                </button>
+                <button class="font-btn" data-font="moderna" onclick="setReadingFont('moderna')" title="Moderna">
+                    <span class="font-btn-preview" style="font-family: 'Lato', sans-serif;">Aa</span>
+                    <span class="font-btn-label">Moderna</span>
+                </button>
+                <button class="font-btn" data-font="pregacao" onclick="setReadingFont('pregacao')" title="Pregação">
+                    <span class="font-btn-preview" style="font-family: 'Playfair Display', serif;">Aa</span>
+                    <span class="font-btn-label">Pregação</span>
+                </button>
+                <button class="font-btn" data-font="manuscrita" onclick="setReadingFont('manuscrita')" title="Manuscrita">
+                    <span class="font-btn-preview" style="font-family: 'Crimson Text', serif;">Aa</span>
+                    <span class="font-btn-label">Manuscrita</span>
+                </button>
+            </div>
+            <script>
+                var fontMap = {
+                    'classica':    "'Merriweather', serif",
+                    'moderna':     "'Lato', sans-serif",
+                    'pregacao':    "'Playfair Display', serif",
+                    'manuscrita':  "'Crimson Text', serif"
+                };
+
+                function setReadingFont(key) {
+                    var el = document.getElementById('view_text');
+                    if (el) el.style.fontFamily = fontMap[key];
+                    localStorage.setItem('reading_font', key);
+                    document.querySelectorAll('.font-btn').forEach(function(b) {
+                        b.classList.toggle('active', b.dataset.font === key);
+                    });
+                }
+
+                // Restore saved font
+                (function() {
+                    var saved = localStorage.getItem('reading_font') || 'classica';
+                    var el = document.getElementById('view_text');
+                    if (el) el.style.fontFamily = fontMap[saved];
+                    document.querySelectorAll('.font-btn').forEach(function(b) {
+                        b.classList.toggle('active', b.dataset.font === saved);
+                    });
+                })();
+            </script>
 
             <hr class="my-4">
 

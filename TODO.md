@@ -24,5 +24,5 @@ Este documento consolida as sugestões arquiteturais, visuais e de funcionalidad
 
 - [x] **Modo Noturno / Tema Escuro (Dark Mode):** Fundamental em leitores de formato longo para proteger as vistas do leitor no escuro.
 - [x] **Navegação Em Formato de App Móvel:** Otimizar o menu lateral esquerdo (drawer) e apostar em "Bottom Tabs" (Barra Inferior) na visão de celular para navegação amigável com um único polegar.
-- [ ] **Tipografia Imersiva Personalizável:** Assim como fizemos com o tamanho de letras, adicionar botões para trocar estilos de fonte clássicos e de pregação na hora.
+- [x] **Tipografia Imersiva Personalizável:** Assim como fizemos com o tamanho de letras, adicionar botões para trocar estilos de fonte clássicos e de pregação na hora.
 - [ ] **Modo "Pregação/Púlpito":** Uma interface limpa, de altíssimo contraste, onde o pastor aperta um botão que esconde temporariamente botões extras/notificações e deixa 100% da tela ocupada pela palavra.
