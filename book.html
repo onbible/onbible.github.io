@@ -411,6 +411,64 @@
     </div>
     <!-- END layout-wrapper -->
 
+    <!-- Mobile Bottom Navigation -->
+    <style>
+        .mobile-bottom-nav {
+            display: none;
+            position: fixed;
+            bottom: 0; left: 0; right: 0;
+            height: 60px;
+            background: #ffffff;
+            border-top: 1px solid #e5e7eb;
+            box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+            z-index: 10000;
+        }
+        body.dark-mode .mobile-bottom-nav {
+            background: #1c1c2e;
+            border-top-color: #2a2a40;
+        }
+        body.dark-mode .mobile-bottom-nav ul li a { color: #4b5563; }
+        body.dark-mode .mobile-bottom-nav ul li a.active,
+        body.dark-mode .mobile-bottom-nav ul li a:hover { color: #818cf8; }
+        .mobile-bottom-nav ul {
+            display: flex;
+            height: 100%;
+            margin: 0; padding: 0;
+            list-style: none;
+        }
+        .mobile-bottom-nav ul li { flex: 1; }
+        .mobile-bottom-nav ul li a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            gap: 3px;
+            color: #9ca3af;
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: 500;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            transition: color 0.15s ease;
+        }
+        .mobile-bottom-nav ul li a i { font-size: 20px; line-height: 1; }
+        .mobile-bottom-nav ul li a.active,
+        .mobile-bottom-nav ul li a:hover { color: #4f46e5; }
+        @media (max-width: 768px) {
+            .mobile-bottom-nav { display: block; }
+            body { padding-bottom: 60px; }
+            .vertical-menu { display: none !important; }
+            .main-content { margin-left: 0 !important; }
+        }
+    </style>
+    <nav class="mobile-bottom-nav" role="navigation" aria-label="Navegação principal">
+        <ul>
+            <li><a href="index.html" class="active"><i class="fas fa-book"></i><span>Bíblia</span></a></li>
+            <li><a href="bible_play.html"><i class="fas fa-headphones"></i><span>Ouvir</span></a></li>
+            <li><a href="settings.html"><i class="fas fa-cog"></i><span>Config.</span></a></li>
+        </ul>
+    </nav>
+
     <!-- Study Image Modal -->
     <div class="modal fade" id="studyImageModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
