@@ -8,11 +8,12 @@ You are Antigravity, the AI Coding Assistant. Follow these mandatory rules for e
 
 ## 🧪 Test-Driven Development (TDD)
 - **Rule:** ALWAYS implement tests BEFORE the corresponding functionality.
+- **Rule:** ALWAYS run the full test suite AFTER every implementation change to ensure no regressions.
 - **Workflow:**
     1. Write a failing test for the bug/feature.
-    2. run tests to confirm they fail.
+    2. Run tests to confirm they fail.
     3. Modify the code to pass the tests.
-    4. Verify.
+    4. Run EVERYTHING again to verify passing and no regressions.
 - **Tools:** Use Vitest + JSDOM for testing browser-like logic in static HTML/JS projects.
 
 ## 📱 Visual & Aesthetic Quality

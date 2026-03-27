@@ -106,7 +106,7 @@ function change_chapter(page) {
     if (skeleton) skeleton.style.display = 'block';
     if (listing_table) listing_table.style.display = 'none';
 
-    listing_table.innerHTML = "";
+    let htmlBuffer = "";
 
     for (var i = (page - 1) * records_per_page; i < (page * records_per_page); i++) {
         for (versicle in book_chapters[i]) {
@@ -116,17 +116,21 @@ function change_chapter(page) {
             if (available_images.includes(imageName)) {
                 imageIconHTML = ' <i class="fas fa-image text-info ml-1" style="cursor: pointer;" onclick="showStudyImage(\'' + imageName + '\', \'Capítulo ' + page + ' Versículo ' + realVersicle + '\')" title="Visualizar Ilustração"></i> ';
             }
-            listing_table.innerHTML += `<span class="verse-item" id="v-${realVersicle}" onclick="showHighlightMenu(event, ${realVersicle})">` +
-                                       `<b><sup>${realVersicle}.</sup></b>${imageIconHTML} ${book_chapters[i][versicle]}</span> `;
+            htmlBuffer += `<span class="verse-item" id="v-${realVersicle}" onclick="showHighlightMenu(event, ${realVersicle})">` +
+                          `<b><sup>${realVersicle}.</sup></b>${imageIconHTML} ${book_chapters[i][versicle]}</span> `;
         }
     }
+
+    listing_table.innerHTML = htmlBuffer;
 
     // Hide skeleton, reveal text
     if (skeleton) skeleton.style.display = 'none';
     if (listing_table) listing_table.style.display = 'block';
 
     // Apply saved highlights
-    applyHighlightsFromDB(param['abbrev'], page);
+    setTimeout(() => {
+        applyHighlightsFromDB(param['abbrev'], page);
+    }, 50);
 
     page_span.innerHTML = page;
     // Keep pulpit label in sync
@@ -155,25 +159,36 @@ function change_chapter(page) {
 var activeVerseNum = null;
 
 function showHighlightMenu(event, verseNum) {
-    event.stopPropagation();
+    if (event) event.stopPropagation();
     activeVerseNum = verseNum;
     
     var popover = document.getElementById('hl-popover');
     if (!popover) return;
     
-    // Position
-    var x = event.pageX;
-    var y = event.pageY;
+    // Position using client coords for better mobile support
+    var x = event.clientX;
+    var y = event.clientY;
     
+    // Check screen boundaries
+    var popWidth = 180; // approximate
+    var popHeight = 50;
+    
+    if (x + popWidth > window.innerWidth) x = window.innerWidth - popWidth - 10;
+    if (y - popHeight < 0) y = popHeight + 10;
+    
+    // Use fixed positioning to bypass parent scroll/transform issues
+    popover.style.position = 'fixed';
     popover.style.left = x + 'px';
-    popover.style.top = (y - 60) + 'px'; // Show slightly above the click
+    popover.style.top = (y - 50) + 'px'; 
     popover.style.display = 'flex';
 }
 
-// Close popover when clicking elsewhere
-document.addEventListener('click', function() {
+// Close popover when clicking elsewhere - Use capture phase or improved logic
+document.addEventListener('mousedown', function(e) {
     var popover = document.getElementById('hl-popover');
-    if (popover) popover.style.display = 'none';
+    if (popover && !popover.contains(e.target)) {
+        popover.style.display = 'none';
+    }
 });
 
 async function saveHighlight(color) {
