@@ -96,10 +96,15 @@ function change_chapter(page) {
     var btn_prev = document.getElementById("btn_prev");
     var listing_table = document.getElementById("view_text");
     var page_span = document.getElementById("page");
+    var skeleton = document.getElementById("text-skeleton");
 
     // Validate page
     if (page < 1) page = 1;
     if (page > num_chapters()) page = num_chapters();
+
+    // Show skeleton, hide text while loading
+    if (skeleton) skeleton.style.display = 'block';
+    if (listing_table) listing_table.style.display = 'none';
 
     listing_table.innerHTML = "";
 
@@ -109,11 +114,15 @@ function change_chapter(page) {
             var imageName = param['abbrev'] + "-" + page + ":" + realVersicle + ".png";
             var imageIconHTML = "";
             if (available_images.includes(imageName)) {
-                imageIconHTML = ' <i class="fas fa-image text-info ml-1" style="cursor: pointer;" onclick="showStudyImage(\'' + imageName + '\', \'Capítulo ' + page + ' Versículo ' + realVersicle + '\')" title="Visualizar Ilustração"></i> ';
+                imageIconHTML = ' <i class="fas fa-image text-info ml-1" style="cursor: pointer;" onclick="showStudyImage(\'' + imageName + '\', \'Cap\u00edtulo ' + page + ' Vers\u00edculo ' + realVersicle + '\')" title="Visualizar Ilustra\u00e7\u00e3o"></i> ';
             }
             listing_table.innerHTML += " <b><sup>" + realVersicle + ".</sup></b>" + imageIconHTML + " " + book_chapters[i][versicle];
         }
     }
+
+    // Hide skeleton, reveal text
+    if (skeleton) skeleton.style.display = 'none';
+    if (listing_table) listing_table.style.display = 'block';
 
     page_span.innerHTML = page;
 
@@ -134,6 +143,7 @@ function change_chapter(page) {
         DB.setChapter(param['abbrev'], page);
     }
 }
+
 
 function num_chapters() {
     return Math.ceil(book_chapters.length / records_per_page);

@@ -181,6 +181,24 @@
             color: #666 !important;
         }
 
+        /* Skeleton loader */
+        @keyframes sk-shimmer {
+            0%   { background-position: -600px 0; }
+            100% { background-position: 600px 0; }
+        }
+        .sk-line {
+            height: 16px;
+            margin-bottom: 12px;
+            border-radius: 6px;
+            background: linear-gradient(90deg, #ececec 25%, #f8f8f8 50%, #ececec 75%);
+            background-size: 600px 100%;
+            animation: sk-shimmer 1.3s infinite ease-in-out;
+        }
+        body.dark-mode .sk-line {
+            background: linear-gradient(90deg, #252540 25%, #2d2d50 50%, #252540 75%);
+            background-size: 600px 100%;
+        }
+
         /* Toggle switch */
         .dark-toggle-wrap {
             display: flex;
@@ -240,7 +258,7 @@
     <link rel="manifest" href="./manifest.json">
 </head>
 
-<body data-topbar="colored">
+<body data-topbar="light">
 
     <!-- Begin page -->
     <div id="layout-wrapper">
@@ -373,7 +391,22 @@
                                                 </a>
                                             </div>
                                             <div class="row">
-                                                <div id="view_text" align='justify'></div>
+                                                <!-- Skeleton loader — visível até o texto carregar -->
+                                                <div id="text-skeleton" style="width:100%; padding: 4px 0;">
+                                                    <div class="sk-line" style="width:95%"></div>
+                                                    <div class="sk-line" style="width:88%"></div>
+                                                    <div class="sk-line" style="width:92%"></div>
+                                                    <div class="sk-line" style="width:80%"></div>
+                                                    <div class="sk-line" style="width:96%"></div>
+                                                    <div class="sk-line" style="width:75%"></div>
+                                                    <div class="sk-line" style="width:90%"></div>
+                                                    <div class="sk-line" style="width:85%"></div>
+                                                    <div class="sk-line" style="width:93%"></div>
+                                                    <div class="sk-line" style="width:70%"></div>
+                                                    <div class="sk-line" style="width:97%"></div>
+                                                    <div class="sk-line" style="width:82%"></div>
+                                                </div>
+                                                <div id="view_text" align='justify' style="display:none;"></div>
                                             </div>
                                         </div>
 
