@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Bíblia Glorifica</title>
+    <title>OnBible</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Bíblia Glorifica" name="description" />
-    <meta content="" name="Glorifica" />
+    <meta content="OnBible" name="description" />
+    <meta content="" name="OnBible" />
 
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -54,6 +54,8 @@
             document.location = 'index.html';
         }
     </script>
+    <!-- Web Manifest para PWA -->
+    <link rel="manifest" href="./manifest.json">
 </head>
 
 <body data-topbar="colored">
@@ -266,7 +268,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-6">
-                            2020 © Bíblia Glorifica.
+                            2020 © OnBible.
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-right d-none d-sm-block">
@@ -297,6 +299,18 @@
 
     <script src="assets/js/app.js"></script>
 
+    <!-- Script PWA -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js').then(reg => {
+                    console.log('Service Worker registrado localmente:', reg.scope);
+                }).catch(err => {
+                    console.warn('Falha no Service Worker:', err);
+                });
+            });
+        }
+    </script>
 </body>
 
 </html>

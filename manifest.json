@@ -1,0 +1,16 @@
+{
+  "name": "OnBible PWA Studio",
+  "short_name": "OnBible",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#121212",
+  "description": "Bíblia de Estudo Premium com funcionalidades Offline-First.",
+  "icons": [
+    {
+      "src": "./assets/images/logo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png"
+    }
+  ]
+}
