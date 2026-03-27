@@ -1,5 +1,5 @@
 /* db.js - Configuração do Banco de Dados via Dexie.js e Migração de Estado */
-const onBibleDB = new Dexie('OnBibleDB');
+var onBibleDB = window.onBibleDB || new Dexie('OnBibleDB');
 
 onBibleDB.version(1).stores({
     preferences: 'key',           // ex: {key: 'bible_version', value: 'pt_aa'}
@@ -8,7 +8,7 @@ onBibleDB.version(1).stores({
     highlights: '++id, book, chapter, verse, color'
 });
 
-const DB = {
+var DB = {
     async getPref(key, defaultVal) {
         try {
             const data = await onBibleDB.preferences.get(key);

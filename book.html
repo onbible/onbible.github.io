@@ -275,6 +275,33 @@
             </button>
         </div>
         <div class="reading-sidebar-body">
+            <h6>Tradução Bíblica</h6>
+            <div class="form-group mb-4">
+                <select class="form-control" name="form_bible_version" id="form_bible_version">
+                    <option value="pt_acf">Almeida Corrigida e Revisada Fiel (PT-ACF)</option>
+                    <option value="pt_nvi">Nova Versão Internacional (PT-NVI)</option>
+                    <option value="pt_aa">Almeida Revisada Imprensa Bíblica (PT-AA)</option>
+                    <option value="en_bbe">Basic English (EN-BBE)</option>
+                    <option value="en_kjv">King James Version (EN-KJV)</option>
+                </select>
+            </div>
+            
+            <script>
+                window.mainInitialized.then(async () => {
+                    let bv = await DB.getPref('bible_version', null);
+                    if (bv) {
+                        let select = document.getElementById('form_bible_version');
+                        if (select) select.value = bv;
+                    }
+                });
+
+                document.getElementById('form_bible_version').onchange = async function () {
+                    await DB.setPref('bible_version', this.value);
+                    window.location.reload();
+                };
+            </script>
+            <hr class="my-4">
+
             <h6>Tamanho da Fonte</h6>
             <div class="d-flex align-items-center justify-content-between mt-3 mb-4">
                 <button type="button" class="btn btn-outline-primary" onclick="decreaseFontSize()" style="width: 45px; height: 45px; font-size: 16px;">
