@@ -41,6 +41,49 @@ var DB = {
             console.error("Dexie setChapter error", e);
         }
     },
+
+    // --- Highlights methods ---
+    async getHighlights(book, chapter) {
+        try {
+            return await onBibleDB.highlights
+                .where({ book: book, chapter: parseInt(chapter) })
+                .toArray();
+        } catch(e) {
+            console.error("Dexie getHighlights error", e);
+            return [];
+        }
+    },
+    async setHighlight(book, chapter, verse, color) {
+        try {
+            // Check if exists
+            const existing = await onBibleDB.highlights
+                .where({ book: book, chapter: parseInt(chapter), verse: parseInt(verse) })
+                .first();
+            
+            if (existing) {
+                await onBibleDB.highlights.update(existing.id, { color: color });
+            } else {
+                await onBibleDB.highlights.add({
+                    book: book,
+                    chapter: parseInt(chapter),
+                    verse: parseInt(verse),
+                    color: color
+                });
+            }
+        } catch(e) {
+            console.error("Dexie setHighlight error", e);
+        }
+    },
+    async deleteHighlight(book, chapter, verse) {
+        try {
+            await onBibleDB.highlights
+                .where({ book: book, chapter: parseInt(chapter), verse: parseInt(verse) })
+                .delete();
+        } catch(e) {
+            console.error("Dexie deleteHighlight error", e);
+        }
+    },
+
     async init() {
         try {
             if (localStorage.getItem('migrated_to_dexie') !== 'true') {

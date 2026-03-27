@@ -114,15 +114,19 @@ function change_chapter(page) {
             var imageName = param['abbrev'] + "-" + page + ":" + realVersicle + ".png";
             var imageIconHTML = "";
             if (available_images.includes(imageName)) {
-                imageIconHTML = ' <i class="fas fa-image text-info ml-1" style="cursor: pointer;" onclick="showStudyImage(\'' + imageName + '\', \'Cap\u00edtulo ' + page + ' Vers\u00edculo ' + realVersicle + '\')" title="Visualizar Ilustra\u00e7\u00e3o"></i> ';
+                imageIconHTML = ' <i class="fas fa-image text-info ml-1" style="cursor: pointer;" onclick="showStudyImage(\'' + imageName + '\', \'Capítulo ' + page + ' Versículo ' + realVersicle + '\')" title="Visualizar Ilustração"></i> ';
             }
-            listing_table.innerHTML += " <b><sup>" + realVersicle + ".</sup></b>" + imageIconHTML + " " + book_chapters[i][versicle];
+            listing_table.innerHTML += `<span class="verse-item" id="v-${realVersicle}" onclick="showHighlightMenu(event, ${realVersicle})">` +
+                                       `<b><sup>${realVersicle}.</sup></b>${imageIconHTML} ${book_chapters[i][versicle]}</span> `;
         }
     }
 
     // Hide skeleton, reveal text
     if (skeleton) skeleton.style.display = 'none';
     if (listing_table) listing_table.style.display = 'block';
+
+    // Apply saved highlights
+    applyHighlightsFromDB(param['abbrev'], page);
 
     page_span.innerHTML = page;
     // Keep pulpit label in sync
@@ -144,6 +148,64 @@ function change_chapter(page) {
     if (param && param['abbrev']) {
         DB.setChapter(param['abbrev'], page);
     }
+}
+
+// --- Highlighter Features ---
+
+var activeVerseNum = null;
+
+function showHighlightMenu(event, verseNum) {
+    event.stopPropagation();
+    activeVerseNum = verseNum;
+    
+    var popover = document.getElementById('hl-popover');
+    if (!popover) return;
+    
+    // Position
+    var x = event.pageX;
+    var y = event.pageY;
+    
+    popover.style.left = x + 'px';
+    popover.style.top = (y - 60) + 'px'; // Show slightly above the click
+    popover.style.display = 'flex';
+}
+
+// Close popover when clicking elsewhere
+document.addEventListener('click', function() {
+    var popover = document.getElementById('hl-popover');
+    if (popover) popover.style.display = 'none';
+});
+
+async function saveHighlight(color) {
+    if (!activeVerseNum) return;
+    var book = param['abbrev'];
+    var chapter = current_page;
+    
+    var verseEl = document.getElementById('v-' + activeVerseNum);
+    
+    // Remove all hl classes
+    verseEl.classList.remove('hl-yellow', 'hl-green', 'hl-blue', 'hl-pink');
+    
+    if (color === 'clear') {
+        await DB.deleteHighlight(book, chapter, activeVerseNum);
+    } else {
+        verseEl.classList.add('hl-' + color);
+        await DB.setHighlight(book, chapter, activeVerseNum, color);
+    }
+    
+    var popover = document.getElementById('hl-popover');
+    if (popover) popover.style.display = 'none';
+    activeVerseNum = null;
+}
+
+async function applyHighlightsFromDB(book, chapter) {
+    const highlights = await DB.getHighlights(book, chapter);
+    highlights.forEach(h => {
+        var el = document.getElementById('v-' + h.verse);
+        if (el) {
+            el.classList.add('hl-' + h.color);
+        }
+    });
 }
 
 

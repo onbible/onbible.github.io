@@ -17,3 +17,5 @@ Este documento consolida as sugestões arquiteturais, visuais e de funcionalidad
 
 - [ ] **Migração de Framework Frontend:** Substituir os scripts soltos do jQuery por ferramentas estáticas modernas para Single Page Applications (SPAs) reativas (ex: **React, Next.js ou Vue**). 
 - [ ] **Sincronização / Exportação Segura:** Substituir a nuvem tradicional por um mecanismo puro de persistência local, oferecendo aos pastores uma opção de exportar o progresso em um arquivo único (backup/restore).
+
+

@@ -325,6 +325,81 @@
             display: none !important;
         }
 
+        /* =============================================
+           MARCADOR DE TEXTO (HIGHLIGHTS)
+        ============================================= */
+        .verse-item {
+            cursor: pointer;
+            padding: 2px 4px;
+            border-radius: 4px;
+            transition: background-color 0.2s ease;
+            position: relative;
+        }
+        .verse-item:hover {
+            background-color: rgba(0,0,0,0.05);
+        }
+        body.dark-mode .verse-item:hover {
+            background-color: rgba(255,255,255,0.05);
+        }
+
+        /* Cores de Destaque - Light Mode */
+        .hl-yellow { background-color: rgba(255, 255, 0, 0.4) !important; }
+        .hl-green  { background-color: rgba(0, 255, 0, 0.3) !important; }
+        .hl-blue   { background-color: rgba(0, 191, 255, 0.3) !important; }
+        .hl-pink   { background-color: rgba(255, 105, 180, 0.3) !important; }
+
+        /* Cores de Destaque - Dark Mode */
+        body.dark-mode .hl-yellow { background-color: rgba(255, 255, 0, 0.2) !important; }
+        body.dark-mode .hl-green  { background-color: rgba(0, 255, 0, 0.15) !important; }
+        body.dark-mode .hl-blue   { background-color: rgba(0, 191, 255, 0.15) !important; }
+        body.dark-mode .hl-pink   { background-color: rgba(255, 105, 180, 0.15) !important; }
+        
+        /* Popover Menu */
+        #hl-popover {
+            display: none;
+            position: absolute;
+            z-index: 10001;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            padding: 8px;
+            flex-direction: row;
+            gap: 8px;
+            animation: hl-fade-in 0.2s ease-out;
+        }
+        body.dark-mode #hl-popover {
+            background: #1c1c2e;
+            border-color: #2a2a40;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+        @keyframes hl-fade-in {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .hl-dot {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: transform 0.1s;
+        }
+        .hl-dot:hover { transform: scale(1.15); }
+        .hl-dot.dot-yellow { background-color: #fde047; }
+        .hl-dot.dot-green  { background-color: #4ade80; }
+        .hl-dot.dot-blue   { background-color: #60a5fa; }
+        .hl-dot.dot-pink   { background-color: #f472b6; }
+        .hl-dot.dot-clear  { 
+            background-color: #f3f4f6; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            color: #6b7280;
+            font-size: 14px;
+        }
+        body.dark-mode .hl-dot.dot-clear { background-color: #2a2a40; color: #aaa; }
+
         /* Font picker */
         .font-picker {
             display: grid;
@@ -695,6 +770,17 @@
             <li><a href="settings.html"><i class="fas fa-cog"></i><span>Config.</span></a></li>
         </ul>
     </nav>
+
+    <!-- Popover de Marcação -->
+    <div id="hl-popover">
+        <div class="hl-dot dot-yellow" onclick="saveHighlight('yellow')" title="Amarelo"></div>
+        <div class="hl-dot dot-green" onclick="saveHighlight('green')" title="Verde"></div>
+        <div class="hl-dot dot-blue" onclick="saveHighlight('blue')" title="Azul"></div>
+        <div class="hl-dot dot-pink" onclick="saveHighlight('pink')" title="Rosa"></div>
+        <div class="hl-dot dot-clear" onclick="saveHighlight('clear')" title="Remover Marcação">
+            <i class="fas fa-eraser"></i>
+        </div>
+    </div>
 
     <!-- Modo Púlpito — overlay de leitura imersiva -->
     <button id="pulpit-exit-btn" onclick="togglePulpitMode()" title="Sair do Modo Púlpito">
