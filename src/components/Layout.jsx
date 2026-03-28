@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default function Layout({ children, theme, toggleTheme }) {
+  const [sidebarOpen, setSidebarOpen] = useState(true);
+
   return (
-    <div className="app-layout">
+    <div className={`app-layout${sidebarOpen ? '' : ' sidebar-collapsed'}`}>
       {/* Sidebar */}
       <aside className="app-sidebar">
         <nav className="sidebar-nav">
@@ -24,6 +27,13 @@ export default function Layout({ children, theme, toggleTheme }) {
 
       {/* Main */}
       <main className="app-main">
+        <button
+          className="sidebar-toggle"
+          onClick={() => setSidebarOpen(s => !s)}
+          title={sidebarOpen ? 'Esconder menu' : 'Mostrar menu'}
+        >
+          <i className={`fas fa-${sidebarOpen ? 'angle-double-left' : 'angle-double-right'}`}></i>
+        </button>
         {children}
       </main>
 
