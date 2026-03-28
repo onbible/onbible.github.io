@@ -316,6 +316,40 @@ body {
 [data-theme="sepia"] .cat-gen  { border-color: #5a4cc2; background: rgba(90,76,194,0.08); }
 [data-theme="sepia"] .cat-rev  { border-color: #d06080; background: rgba(208,96,128,0.08); }
 
+/* ── Verse of the Day ── */
+.votd-card {
+  margin: 16px 28px 8px;
+  padding: 20px 24px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  color: var(--text);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.votd-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.votd-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.votd-label i { margin-right: 5px; }
+.votd-text {
+  font-size: 15px;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.votd-ref {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: right;
+  color: var(--text-muted);
+}
+
+
 .testament-divider {
   padding: 8px 28px 4px;
   font-size: 11px;
