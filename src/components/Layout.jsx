@@ -5,9 +5,6 @@ export default function Layout({ children, theme, toggleTheme }) {
     <div className="app-layout">
       {/* Sidebar */}
       <aside className="app-sidebar">
-        <div className="sidebar-logo">
-          <img src="/assets/images/logo.png" alt="OnBible" />
-        </div>
         <nav className="sidebar-nav">
           <NavLink to="/"          end><i className="fas fa-book" />        <span>Bíblia</span></NavLink>
           <NavLink to="/markers"      ><i className="fas fa-bookmark" />    <span>Marcadores</span></NavLink>
