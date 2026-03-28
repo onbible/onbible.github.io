@@ -40,7 +40,7 @@ export default function MarkersPage() {
   return (
     <>
       <div className="page-header">
-        <h1>🔖 Meus Marcadores</h1>
+        <h1><i className="fas fa-bookmark" style={{ marginRight: '8px' }}></i>Meus Marcadores</h1>
         <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginTop: '4px' }}>
           {highlights.length} sublinhados · {notes.length} notas
         </p>
@@ -73,7 +73,7 @@ export default function MarkersPage() {
                     {getBookName(h.book)} {h.chapter}:{h.verse}
                   </div>
                   {text && <div className="marker-text">"{text}"</div>}
-                  {note  && <div className="marker-note">📝 {note.text}</div>}
+                  {note  && <div className="marker-note"><i className="fas fa-sticky-note" style={{ marginRight: '4px' }}></i>{note.text}</div>}
                 </div>
               );
             })}
@@ -91,7 +91,7 @@ export default function MarkersPage() {
                 const text = getVerseText(n.book, n.chapter, n.verse);
                 return (
                   <div key={n.id} className="marker-item" onClick={() => navigate(`/book/${n.book}`)}>
-                    <div className="marker-ref">📝 {getBookName(n.book)} {n.chapter}:{n.verse}</div>
+                    <div className="marker-ref"><i className="fas fa-sticky-note" style={{ marginRight: '4px' }}></i>{getBookName(n.book)} {n.chapter}:{n.verse}</div>
                     {text && <div className="marker-text">"{text}"</div>}
                     <div className="marker-note">{n.text}</div>
                   </div>

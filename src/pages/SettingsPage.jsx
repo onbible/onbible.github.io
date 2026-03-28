@@ -74,7 +74,7 @@ export default function SettingsPage() {
 
         {/* Version selector */}
         <div className="settings-section">
-          <h5>📖 Versão da Bíblia</h5>
+          <h5><i className="fas fa-bible" style={{ marginRight: '6px' }}></i>Versão da Bíblia</h5>
           <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '12px' }}>Escolha a tradução que deseja usar.</p>
           <select
             value={version}
@@ -89,7 +89,7 @@ export default function SettingsPage() {
 
         {/* Backup / Restore */}
         <div className="settings-section">
-          <h5>🔒 Sincronização e Backup</h5>
+          <h5><i className="fas fa-lock" style={{ marginRight: '6px' }}></i>Sincronização e Backup</h5>
           <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '16px' }}>
             Exporte suas notas, marcadores e configurações para um arquivo local, ou restaure um backup anterior. Seus dados ficam 100% no seu dispositivo.
           </p>
@@ -110,7 +110,7 @@ export default function SettingsPage() {
 
         {/* Theme */}
         <div className="settings-section">
-          <h5>🎨 Aparência</h5>
+          <h5><i className="fas fa-palette" style={{ marginRight: '6px' }}></i>Aparência</h5>
           <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '12px' }}>O tema pode ser alternado pelo botão no menu lateral.</p>
           <p style={{ fontSize: '13px' }}>Tema atual: <strong>{localStorage.getItem('dark_mode') === '1' ? 'Escuro' : 'Claro'}</strong></p>
         </div>

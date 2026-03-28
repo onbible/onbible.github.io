@@ -2,7 +2,7 @@ export default function PlayPage() {
   return (
     <>
       <div className="page-header">
-        <h1>🎧 Bíblia Play</h1>
+        <h1><i className="fas fa-headphones" style={{ marginRight: '8px' }}></i>Bíblia Play</h1>
         <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginTop: '4px' }}>Ouça a Bíblia narrada</p>
       </div>
       <div style={{ padding: '40px 28px', textAlign: 'center', color: 'var(--text-muted)' }}>

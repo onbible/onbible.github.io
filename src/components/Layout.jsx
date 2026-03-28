@@ -20,7 +20,7 @@ export default function Layout({ children, theme, toggleTheme }) {
             onClick={toggleTheme}
             style={{ width: '100%', padding: '8px', borderRadius: '8px', border: '1px solid var(--border)', background: 'var(--bg)', color: 'var(--text)', cursor: 'pointer', fontSize: '13px' }}
           >
-            {theme === 'dark' ? '☀️ Modo Claro' : '🌙 Modo Escuro'}
+            {theme === 'dark' ? <><i className="fas fa-sun" style={{ marginRight: '6px' }}></i>Modo Claro</> : <><i className="fas fa-moon" style={{ marginRight: '6px' }}></i>Modo Escuro</>}
           </button>
         </div>
       </aside>

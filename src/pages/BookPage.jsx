@@ -174,7 +174,7 @@ export default function BookPage() {
               onClick={(e) => handleVerseClick(e, verse)}
             >
               <sup className="verse-number">{verse}</sup>
-              {notes[verse] && <span className="note-icon">📝</span>}
+              {notes[verse] && <span className="note-icon"><i className="fas fa-sticky-note"></i></span>}
               {text}{' '}
             </span>
           );

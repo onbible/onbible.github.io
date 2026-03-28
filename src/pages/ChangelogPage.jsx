@@ -5,7 +5,7 @@ export default function ChangelogPage() {
       items: [
         'Referências Cruzadas Interativas: painel ao final dos versículos (TSK)',
         'Sistema de Backup e Restauração local via arquivo JSON',
-        'Gerenciamento de Notas nos Versículos com ícone indicador 📝',
+        'Gerenciamento de Notas nos Versículos com ícone indicador',
         'Página "Meus Marcadores": visualização de sublinhados e notas',
         'Migração de Framework Frontend: jQuery → React + Vite (SPA)',
         'Modo Pregação/Púlpito: tela imersiva fullscreen',
@@ -41,7 +41,7 @@ export default function ChangelogPage() {
   return (
     <>
       <div className="page-header">
-        <h1>📋 Atualizações</h1>
+        <h1><i className="fas fa-clipboard-list" style={{ marginRight: '8px' }}></i>Atualizações</h1>
         <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginTop: '4px' }}>Histórico de funcionalidades do OnBible</p>
       </div>
       <div style={{ padding: '20px 28px' }}>

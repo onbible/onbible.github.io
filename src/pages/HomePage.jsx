@@ -40,7 +40,7 @@ export default function HomePage() {
   return (
     <>
       <div className="page-header">
-        <h1>📖 Bíblia</h1>
+        <h1><i className="fas fa-bible" style={{ marginRight: '8px' }}></i>Bíblia</h1>
       </div>
       <div className="search-box">
         <i className="fas fa-search" />
