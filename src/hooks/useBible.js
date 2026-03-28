@@ -5,6 +5,17 @@ import { VERSIONS, DEFAULT_VERSION } from '../lib/bibleVersions';
 
 const cache = {};
 
+/** Load (and cache) any Bible version – returns the parsed JSON data */
+export async function loadBibleVersion(ver) {
+  if (cache[ver]) return cache[ver];
+  const url = VERSIONS[ver]?.url ?? VERSIONS[DEFAULT_VERSION].url;
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error('Falha ao carregar a Bíblia.');
+  const data = await resp.json();
+  cache[ver] = data;
+  return data;
+}
+
 export function useBibleData() {
   const [bibleData, setBibleData] = useState(null);
   const [version, setVersion]     = useState(DEFAULT_VERSION);

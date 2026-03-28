@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import { useBibleData } from '../hooks/useBible';
+import { useBibleData, loadBibleVersion } from '../hooks/useBible';
+import { VERSIONS, DEFAULT_VERSION } from '../lib/bibleVersions';
 import { DB } from '../lib/db';
 import { searchStrongs, lookupStrong } from '../lib/strongs';
 
@@ -77,8 +78,114 @@ const FORMAT_ACTIONS = [
   { key: 'hr',        icon: 'fa-minus',           title: 'Separador',       insert: '\n---\n' },
 ];
 
+/* ── Bible Panel sub-component ── */
+function BiblePanel({ version, onChangeVersion, bibleData, bibleStep, selBookAbbrev, selChapter, onNavigate, selVerses, setSelVerses, onInsert, scrollRef, onScroll }) {
+  const books = useMemo(() => {
+    if (!bibleData) return [];
+    return Array.isArray(bibleData) ? bibleData : Object.values(bibleData);
+  }, [bibleData]);
+  const selBook = useMemo(() => {
+    if (!selBookAbbrev || !books.length) return null;
+    return books.find(b => b.abbrev === selBookAbbrev) || null;
+  }, [selBookAbbrev, books]);
+  const verses = selBook && selChapter ? (selBook.chapters[selChapter - 1] || []) : [];
+
+  const resetBible = () => { onNavigate('books', null, null); setSelVerses([]); };
+  const pickBook = (book) => { onNavigate('chapters', book.abbrev, null); setSelVerses([]); };
+  const pickChapter = (ch) => { onNavigate('verses', selBookAbbrev, ch); setSelVerses([]); };
+  const toggleVerse = (vNum) => {
+    setSelVerses(prev => prev.includes(vNum) ? prev.filter(v => v !== vNum) : [...prev, vNum].sort((a, b) => a - b));
+  };
+
+  return (
+    <div className="sermon-bible">
+      {/* Version selector */}
+      <div className="sermon-bible-version-bar">
+        <select value={version} onChange={e => onChangeVersion(e.target.value)}>
+          {Object.entries(VERSIONS).map(([k, v]) => (
+            <option key={k} value={k}>{v.label}</option>
+          ))}
+        </select>
+      </div>
+
+      {/* Breadcrumb */}
+      <div className="sermon-bible-nav">
+        <button className={bibleStep === 'books' ? 'active' : ''} onClick={resetBible}>
+          <i className="fas fa-book" /> Livros
+        </button>
+        {selBook && (
+          <>
+            <i className="fas fa-chevron-right" style={{ fontSize: '10px', color: 'var(--text-muted)' }} />
+            <button className={bibleStep === 'chapters' ? 'active' : ''} onClick={() => { onNavigate('chapters', selBookAbbrev, null); setSelVerses([]); }}>
+              {selBook.name}
+            </button>
+          </>
+        )}
+        {selChapter && (
+          <>
+            <i className="fas fa-chevron-right" style={{ fontSize: '10px', color: 'var(--text-muted)' }} />
+            <button className="active">Cap. {selChapter}</button>
+          </>
+        )}
+      </div>
+
+      {/* Books grid */}
+      {bibleStep === 'books' && (
+        <div className="sermon-bible-books">
+          {books.map(b => (
+            <button key={b.abbrev} className={`sermon-bible-book cat-${CATEGORY[b.abbrev] || 'law'}`} onClick={() => pickBook(b)}>
+              <span className="abbrev">{b.abbrev.toUpperCase()}</span>
+              <span className="name">{b.name}</span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Chapters grid */}
+      {bibleStep === 'chapters' && selBook && (
+        <div className="sermon-bible-chapters">
+          {selBook.chapters.map((_, i) => (
+            <button key={i} className="sermon-bible-chapter" onClick={() => pickChapter(i + 1)}>
+              {i + 1}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Verses list */}
+      {bibleStep === 'verses' && selBook && selChapter && (
+        <>
+          {selVerses.length > 0 && (
+            <div className="sermon-bible-sel-bar">
+              <span>{selVerses.length} versículo{selVerses.length > 1 ? 's' : ''} selecionado{selVerses.length > 1 ? 's' : ''}</span>
+              <div style={{ display: 'flex', gap: '6px' }}>
+                <button className="sermon-bible-sel-clear" onClick={() => setSelVerses([])}>Limpar</button>
+                <button className="sermon-bible-sel-insert" onClick={() => onInsert(selBook, selChapter, selVerses, setSelVerses)}>
+                  <i className="fas fa-plus" /> Inserir
+                </button>
+              </div>
+            </div>
+          )}
+          <div className="sermon-bible-verses" ref={scrollRef} onScroll={onScroll}>
+            {verses.map((text, i) => {
+              const vNum = i + 1;
+              const selected = selVerses.includes(vNum);
+              return (
+                <div key={i} className={`sermon-bible-verse${selected ? ' selected' : ''}`} onClick={() => toggleVerse(vNum)}>
+                  <span className="sermon-bible-verse-num">{vNum}</span>
+                  <span className="sermon-bible-verse-text">{text}</span>
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
 export default function SermonsPage() {
-  const { bibleData } = useBibleData();
+  const { bibleData: globalBibleData, version: globalVersion } = useBibleData();
   const [sermons, setSermons] = useState([]);
   const [view, setView] = useState(() => {
     return sessionStorage.getItem('sermon_editId') ? 'editor' : 'list';
@@ -92,7 +199,11 @@ export default function SermonsPage() {
   const [expandedRefs, setExpandedRefs] = useState({});
   const [deleteConfirm, setDeleteConfirm] = useState(null);
   const [showBible, setShowBible] = useState(false);
+  const [showBible2, setShowBible2] = useState(false);
   const bodyRef = useRef(null);
+  const scrollRef1 = useRef(null);
+  const scrollRef2 = useRef(null);
+  const isSyncingScroll = useRef(false);
 
   /* ── Strong's Dictionary state ── */
   const [strongsOpen, setStrongsOpen]       = useState(false);
@@ -103,19 +214,48 @@ export default function SermonsPage() {
   const [strongsLoading, setStrongsLoading] = useState(false);
   const strongsTimerRef = useRef(null);
 
-  /* ── Bible browser state ── */
-  const [bibleStep, setBibleStep] = useState('books'); // 'books' | 'chapters' | 'verses'
-  const [selBook, setSelBook] = useState(null);
-  const [selChapter, setSelChapter] = useState(null);
-  const [selVerses, setSelVerses] = useState([]); // array of verse numbers (1-based)
+  /* ── Bible panel versions ── */
+  const [bible1Ver, setBible1Ver] = useState(null); // null = follow global
+  const [bible1Data, setBible1Data] = useState(null);
+  const [bible2Ver, setBible2Ver] = useState('pt_acf');
+  const [bible2Data, setBible2Data] = useState(null);
 
+  /* ── Shared navigation (synced across both panels) ── */
+  const [bibleStep, setBibleStep] = useState('books');
+  const [selBookAbbrev, setSelBookAbbrev] = useState(null);
+  const [selChapter, setSelChapter] = useState(null);
+
+  /* ── Independent verse selection per panel ── */
+  const [selVerses, setSelVerses] = useState([]);
+  const [selVerses2, setSelVerses2] = useState([]);
+
+  /* ── Bible data for reference rendering (uses global version) ── */
   const books = useMemo(() => {
-    if (!bibleData) return [];
-    return Object.values(bibleData);
-  }, [bibleData]);
+    if (!globalBibleData) return [];
+    return Array.isArray(globalBibleData) ? globalBibleData : Object.values(globalBibleData);
+  }, [globalBibleData]);
+
+  /* ── Sync panel 1 data with global version on mount ── */
+  useEffect(() => {
+    if (globalBibleData && globalVersion) {
+      if (!bible1Ver) { setBible1Ver(globalVersion); setBible1Data(globalBibleData); }
+    }
+  }, [globalBibleData, globalVersion, bible1Ver]);
+
+  /* ── Load Bible data when panel versions change ── */
+  useEffect(() => {
+    if (!bible1Ver) return;
+    loadBibleVersion(bible1Ver).then(setBible1Data).catch(() => {});
+  }, [bible1Ver]);
+
+  useEffect(() => {
+    if (!bible2Ver) return;
+    loadBibleVersion(bible2Ver).then(setBible2Data).catch(() => {});
+  }, [bible2Ver]);
 
   useEffect(() => { DB.getAllSermons().then(setSermons); }, []);
   useEffect(() => { DB.getPref('sermon_bible_open', false).then(v => setShowBible(v)); }, []);
+  useEffect(() => { DB.getPref('sermon_bible2_open', false).then(v => setShowBible2(v)); }, []);
 
   // Restore editor state on refresh
   useEffect(() => {
@@ -166,22 +306,40 @@ export default function SermonsPage() {
 
   const goBack = useCallback(() => { setView('list'); sessionStorage.removeItem('sermon_editId'); }, []);
 
-  /* ── Bible browser helpers ── */
+  /* ── Synchronized scroll between Bible panels ── */
+  const handleScroll1 = useCallback(() => {
+    if (isSyncingScroll.current) return;
+    const src = scrollRef1.current;
+    const dst = scrollRef2.current;
+    if (!src || !dst) return;
+    isSyncingScroll.current = true;
+    const ratio = src.scrollTop / (src.scrollHeight - src.clientHeight || 1);
+    dst.scrollTop = ratio * (dst.scrollHeight - dst.clientHeight || 1);
+    requestAnimationFrame(() => { isSyncingScroll.current = false; });
+  }, []);
+
+  const handleScroll2 = useCallback(() => {
+    if (isSyncingScroll.current) return;
+    const src = scrollRef2.current;
+    const dst = scrollRef1.current;
+    if (!src || !dst) return;
+    isSyncingScroll.current = true;
+    const ratio = src.scrollTop / (src.scrollHeight - src.clientHeight || 1);
+    dst.scrollTop = ratio * (dst.scrollHeight - dst.clientHeight || 1);
+    requestAnimationFrame(() => { isSyncingScroll.current = false; });
+  }, []);
+
+  /* ── Shared navigation callback (syncs both panels) ── */
+  const navigateBible = useCallback((step, bookAbbrev, chapter) => {
+    setBibleStep(step);
+    setSelBookAbbrev(bookAbbrev);
+    setSelChapter(chapter);
+  }, []);
+
   function resetBible() {
-    setBibleStep('books'); setSelBook(null); setSelChapter(null); setSelVerses([]);
+    setBibleStep('books'); setSelBookAbbrev(null); setSelChapter(null);
+    setSelVerses([]); setSelVerses2([]);
   }
-
-  const pickBook = useCallback((book) => {
-    setSelBook(book); setSelChapter(null); setSelVerses([]); setBibleStep('chapters');
-  }, []);
-
-  const pickChapter = useCallback((ch) => {
-    setSelChapter(ch); setSelVerses([]); setBibleStep('verses');
-  }, []);
-
-  const toggleVerse = useCallback((vNum) => {
-    setSelVerses(prev => prev.includes(vNum) ? prev.filter(v => v !== vNum) : [...prev, vNum].sort((a, b) => a - b));
-  }, []);
 
   /* ── Strong's search with debounce ── */
   useEffect(() => {
@@ -215,10 +373,9 @@ export default function SermonsPage() {
     setStrongsOpen(false); setStrongsQuery(''); setStrongsResults([]); setStrongsDetail(null);
   }, []);
 
-  const insertSelectedVerses = useCallback(() => {
-    if (!selBook || !selChapter || selVerses.length === 0) return;
-    const sorted = [...selVerses].sort((a, b) => a - b);
-    // Build contiguous ranges if possible
+  const insertSelectedVerses = useCallback((book, chapter, verses, clearVerses) => {
+    if (!book || !chapter || !verses.length) return;
+    const sorted = [...verses].sort((a, b) => a - b);
     const ranges = [];
     let start = sorted[0], end = sorted[0];
     for (let i = 1; i < sorted.length; i++) {
@@ -228,7 +385,7 @@ export default function SermonsPage() {
     ranges.push([start, end]);
 
     const tags = ranges.map(([s, e]) => {
-      const label = formatRefLabel(selBook.name, selChapter, s, e > s ? e : null);
+      const label = formatRefLabel(book.name, chapter, s, e > s ? e : null);
       return `【${label}】`;
     }).join(' ');
 
@@ -241,8 +398,8 @@ export default function SermonsPage() {
     } else {
       setBody(prev => prev + tags);
     }
-    setSelVerses([]);
-  }, [selBook, selChapter, selVerses, body]);
+    clearVerses([]);
+  }, [body]);
 
   /* ── Text formatting ── */
   const applyFormat = useCallback((action) => {
@@ -490,8 +647,9 @@ export default function SermonsPage() {
     );
   }
 
-  /* ═══════════════ EDITOR VIEW — two columns ═══════════════ */
-  const verses = selBook && selChapter ? (selBook.chapters[selChapter - 1] || []) : [];
+  /* ═══════════════ EDITOR VIEW — up to 3 columns ═══════════════ */
+
+  const layoutClass = `sermon-layout${showBible ? ' bible-open' : ''}${showBible2 ? ' bible2-open' : ''}`;
 
   return (
     <>
@@ -502,7 +660,7 @@ export default function SermonsPage() {
           </button>
           <h1 style={{ fontSize: '18px', margin: 0 }}>{editId ? 'Editar Sermão' : 'Novo Sermão'}</h1>
         </div>
-        <div style={{ display: 'flex', gap: '8px' }}>
+        <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
           <button
             className="sermon-toolbar-btn"
             onClick={() => setStrongsOpen(true)}
@@ -513,15 +671,22 @@ export default function SermonsPage() {
           <button
             className={`sermon-toolbar-btn${showBible ? ' active' : ''}`}
             onClick={() => setShowBible(p => { const next = !p; DB.setPref('sermon_bible_open', next); return next; })}
-            title="Abrir/fechar Bíblia"
+            title="Abrir/fechar Bíblia 1"
           >
-            <i className="fas fa-bible" /> Bíblia
+            <i className="fas fa-bible" /> Bíblia 1
+          </button>
+          <button
+            className={`sermon-toolbar-btn${showBible2 ? ' active' : ''}`}
+            onClick={() => setShowBible2(p => { const next = !p; DB.setPref('sermon_bible2_open', next); return next; })}
+            title="Abrir/fechar Bíblia 2"
+          >
+            <i className="fas fa-columns" /> Bíblia 2
           </button>
           <button className="sermon-save-btn" onClick={save}><i className="fas fa-check" /> Salvar</button>
         </div>
       </div>
 
-      <div className={`sermon-layout${showBible ? ' bible-open' : ''}`}>
+      <div className={layoutClass}>
         {/* ── Left: Editor ── */}
         <div className="sermon-editor">
           <input className="sermon-title-input" type="text" placeholder="Título do Sermão" value={title} onChange={e => setTitle(e.target.value)} />
@@ -563,83 +728,40 @@ export default function SermonsPage() {
           )}
         </div>
 
-        {/* ── Right: Bible browser ── */}
+        {/* ── Bible 1 ── */}
         {showBible && (
-          <div className="sermon-bible">
-            {/* Breadcrumb */}
-            <div className="sermon-bible-nav">
-              <button className={bibleStep === 'books' ? 'active' : ''} onClick={resetBible}>
-                <i className="fas fa-book" /> Livros
-              </button>
-              {selBook && (
-                <>
-                  <i className="fas fa-chevron-right" style={{ fontSize: '10px', color: 'var(--text-muted)' }} />
-                  <button className={bibleStep === 'chapters' ? 'active' : ''} onClick={() => { setBibleStep('chapters'); setSelChapter(null); setSelVerses([]); }}>
-                    {selBook.name}
-                  </button>
-                </>
-              )}
-              {selChapter && (
-                <>
-                  <i className="fas fa-chevron-right" style={{ fontSize: '10px', color: 'var(--text-muted)' }} />
-                  <button className="active">Cap. {selChapter}</button>
-                </>
-              )}
-            </div>
+          <BiblePanel
+            version={bible1Ver || DEFAULT_VERSION}
+            onChangeVersion={setBible1Ver}
+            bibleData={bible1Data}
+            bibleStep={bibleStep}
+            selBookAbbrev={selBookAbbrev}
+            selChapter={selChapter}
+            onNavigate={navigateBible}
+            selVerses={selVerses}
+            setSelVerses={setSelVerses}
+            onInsert={insertSelectedVerses}
+            scrollRef={scrollRef1}
+            onScroll={handleScroll1}
+          />
+        )}
 
-            {/* Books grid */}
-            {bibleStep === 'books' && (
-              <div className="sermon-bible-books">
-                {books.map(b => (
-                  <button key={b.abbrev} className={`sermon-bible-book cat-${CATEGORY[b.abbrev] || 'law'}`} onClick={() => pickBook(b)}>
-                    <span className="abbrev">{b.abbrev.toUpperCase()}</span>
-                    <span className="name">{b.name}</span>
-                  </button>
-                ))}
-              </div>
-            )}
-
-            {/* Chapters grid */}
-            {bibleStep === 'chapters' && selBook && (
-              <div className="sermon-bible-chapters">
-                {selBook.chapters.map((_, i) => (
-                  <button key={i} className="sermon-bible-chapter" onClick={() => pickChapter(i + 1)}>
-                    {i + 1}
-                  </button>
-                ))}
-              </div>
-            )}
-
-            {/* Verses list */}
-            {bibleStep === 'verses' && selBook && selChapter && (
-              <>
-                {/* Selection bar */}
-                {selVerses.length > 0 && (
-                  <div className="sermon-bible-sel-bar">
-                    <span>{selVerses.length} versículo{selVerses.length > 1 ? 's' : ''} selecionado{selVerses.length > 1 ? 's' : ''}</span>
-                    <div style={{ display: 'flex', gap: '6px' }}>
-                      <button className="sermon-bible-sel-clear" onClick={() => setSelVerses([])}>Limpar</button>
-                      <button className="sermon-bible-sel-insert" onClick={insertSelectedVerses}>
-                        <i className="fas fa-plus" /> Inserir
-                      </button>
-                    </div>
-                  </div>
-                )}
-                <div className="sermon-bible-verses">
-                  {verses.map((text, i) => {
-                    const vNum = i + 1;
-                    const selected = selVerses.includes(vNum);
-                    return (
-                      <div key={i} className={`sermon-bible-verse${selected ? ' selected' : ''}`} onClick={() => toggleVerse(vNum)}>
-                        <span className="sermon-bible-verse-num">{vNum}</span>
-                        <span className="sermon-bible-verse-text">{text}</span>
-                      </div>
-                    );
-                  })}
-                </div>
-              </>
-            )}
-          </div>
+        {/* ── Bible 2 ── */}
+        {showBible2 && (
+          <BiblePanel
+            version={bible2Ver}
+            onChangeVersion={setBible2Ver}
+            bibleData={bible2Data}
+            bibleStep={bibleStep}
+            selBookAbbrev={selBookAbbrev}
+            selChapter={selChapter}
+            onNavigate={navigateBible}
+            selVerses={selVerses2}
+            setSelVerses={setSelVerses2}
+            onInsert={insertSelectedVerses}
+            scrollRef={scrollRef2}
+            onScroll={handleScroll2}
+          />
         )}
       </div>
 

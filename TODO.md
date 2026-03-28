@@ -11,8 +11,6 @@ Este documento consolida as sugestões arquiteturais, visuais e de funcionalidad
 - [ ] **Gerador de Esboços de Pregação Autônomo:** Utilizar a IA no navegador para conectar versículos que o pastor destacou e estruturar automaticamente um sermão expositivo, protegendo a privacidade dele (nada vai para um servidor na internet).
   
 - [ ] **Busca Semântica no Dispositivo:** Permitir pesquisa de conceitos complexos na Bíblia inteira ("*parábolas de Jesus sobre administração financeira*") construindo uma base de *embeddings* offline que busca por "sentido" ao invés de textos exatos.
-  
-- [ ] **Comparador de Versões (Split-Screen):** O estudante deve conseguir dividir a tela ao meio, com a versão NVI (entendimento) na esquerda e ACF (fidelidade clássica) na direita.
 
 - [ ] **Referências Cruzadas Interativas:** Ao clicar num versículo (ex: Mateus 24:15), a aplicação deve abrir um painel rápido com o trecho citado do Antigo Testamento (ex: Daniel).
 
@@ -28,3 +26,12 @@ quando o usuário concluie o plano de leitura anaula no final você gera um  lin
 
 na Ilustração — Daniel 7:9 seria legal trazer o veciculo reverente em baixo da imagem quando estiver visualizando.
 
+Concordância Bíblica: Permite localizar todas as ocorrências de uma palavra ou frase em toda a Bíblia.
+
+Dicionário Bíblico: Para consulta rápida de termos e seus significados.
+
+Projeção de Versículos (Modo Slide): Uma interface otimizada para apresentações em tela cheia (Datashow), com controles de navegação simples e design limpo.
+
+na tela inicial coloque uma sessão que exibe o versículo do dia
+
+adicionar Modo Tela Cheia

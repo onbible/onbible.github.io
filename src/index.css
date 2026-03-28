@@ -1887,6 +1887,10 @@ body {
 .sermon-layout.bible-open .sermon-editor {
   flex: 1;
 }
+.sermon-layout.bible-open.bible2-open .sermon-editor {
+  flex: 1;
+  min-width: 280px;
+}
 
 .sermon-editor {
   display: flex;
@@ -2025,6 +2029,35 @@ body {
   overflow: hidden;
   max-height: calc(100vh - 140px);
 }
+.sermon-layout.bible-open.bible2-open .sermon-bible {
+  width: 320px;
+}
+
+/* Version selector bar */
+.sermon-bible-version-bar {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  flex-shrink: 0;
+}
+.sermon-bible-version-bar select {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--heading);
+  cursor: pointer;
+  outline: none;
+  transition: border-color .2s;
+}
+.sermon-bible-version-bar select:focus {
+  border-color: var(--primary);
+}
 
 /* Breadcrumb nav */
 .sermon-bible-nav {
@@ -2160,6 +2193,26 @@ body {
     margin-left: 0;
     margin-top: 12px;
     max-height: 55vh;
+  }
+}
+/* ── Medium screens: stack Bible panels below editor when both open ── */
+@media (min-width: 769px) and (max-width: 1100px) {
+  .sermon-layout.bible-open.bible2-open {
+    flex-wrap: wrap;
+  }
+  .sermon-layout.bible-open.bible2-open .sermon-editor {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+  .sermon-layout.bible-open.bible2-open .sermon-bible {
+    flex: 1;
+    width: auto;
+    min-width: 0;
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .sermon-layout.bible-open.bible2-open .sermon-bible:nth-child(3) {
+    margin-left: 12px;
   }
 }
 

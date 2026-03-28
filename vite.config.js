@@ -11,6 +11,7 @@ export default defineConfig({
   },
   server: {
     port: 5173,
+    strictPort: true,
     watch: {
       ignored: ['**/assets/libs/**', '**/vendor/**', '**/db/**', '**/node_modules/**'],
     },
