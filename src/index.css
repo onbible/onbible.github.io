@@ -395,6 +395,11 @@ body {
 }
 .verse-item:hover { background: rgba(79,70,229,0.07); }
 .verse-item.selected { background: rgba(79,70,229,0.15); }
+.verse-flash { animation: verseFlash 2s ease; }
+@keyframes verseFlash {
+  0%, 30% { background: rgba(79,70,229,0.25); }
+  100% { background: transparent; }
+}
 .verse-number {
   font-size: 11px;
   font-weight: 700;
@@ -431,6 +436,56 @@ body {
   transition: color 0.2s;
 }
 .verse-image-icon:hover { color: #138496; }
+
+/* Book media section */
+.book-media-panel {
+  margin-top: 20px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.book-media-header {
+  padding: 12px 16px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  cursor: default;
+}
+.book-media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  padding: 16px;
+}
+.book-media-thumb {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.book-media-thumb:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.book-media-thumb img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+.book-media-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  padding: 4px 0;
+}
 
 /* Image modal overlay */
 .image-modal-overlay {

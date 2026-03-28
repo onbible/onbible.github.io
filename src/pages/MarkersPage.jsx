@@ -66,7 +66,7 @@ export default function MarkersPage() {
                 <div
                   key={h.id}
                   className="marker-item"
-                  onClick={() => navigate(`/book/${h.book}`)}
+                  onClick={() => navigate(`/book/${h.book}?c=${h.chapter}&v=${h.verse}`)}
                 >
                   <div className="marker-ref">
                     <span className="marker-dot" style={{ background: HL_COLORS[h.color] }} />
@@ -90,7 +90,7 @@ export default function MarkersPage() {
               .map(n => {
                 const text = getVerseText(n.book, n.chapter, n.verse);
                 return (
-                  <div key={n.id} className="marker-item" onClick={() => navigate(`/book/${n.book}`)}>
+                  <div key={n.id} className="marker-item" onClick={() => navigate(`/book/${n.book}?c=${n.chapter}&v=${n.verse}`)}>
                     <div className="marker-ref"><i className="fas fa-sticky-note" style={{ marginRight: '4px' }}></i>{getBookName(n.book)} {n.chapter}:{n.verse}</div>
                     {text && <div className="marker-text">"{text}"</div>}
                     <div className="marker-note">{n.text}</div>

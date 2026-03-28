@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useBibleData } from '../hooks/useBible';
 import { DB } from '../lib/db';
 import ChapterCrossReferences from '../components/ChapterCrossReferences';
@@ -9,6 +9,7 @@ const HL_COLORS = ['yellow', 'green', 'blue', 'pink'];
 export default function BookPage() {
   const { abbrev } = useParams();
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { bibleData, loading } = useBibleData();
 
   const [chapter, setChapter]       = useState(1);
@@ -29,10 +30,33 @@ export default function BookPage() {
       .catch(() => setAvailableImages([]));
   }, []);
 
-  // Load last chapter
+  // Load chapter from query param or last visited
   useEffect(() => {
-    DB.getChapter(abbrev, 1).then(setChapter);
-  }, [abbrev]);
+    const qc = searchParams.get('c');
+    if (qc) {
+      setChapter(+qc);
+      DB.setChapter(abbrev, +qc);
+    } else {
+      DB.getChapter(abbrev, 1).then(setChapter);
+    }
+  }, [abbrev, searchParams]);
+
+  // Scroll to verse from query param after chapter renders
+  useEffect(() => {
+    const qv = searchParams.get('v');
+    if (!qv || loading) return;
+    const timer = setTimeout(() => {
+      const el = document.getElementById(`v-${qv}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.classList.add('verse-flash');
+        setTimeout(() => el.classList.remove('verse-flash'), 2000);
+      }
+      // Clear query params after navigating
+      setSearchParams({}, { replace: true });
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [chapter, loading, searchParams, setSearchParams]);
 
   // Load highlights and notes when chapter changes
   useEffect(() => {
@@ -209,6 +233,43 @@ export default function BookPage() {
           chapter={chapter}
           bibleData={bibleData}
         />
+
+        {/* Book Media Section */}
+        {(() => {
+          const bookImages = availableImages.filter(img => img.startsWith(`${abbrev}-`));
+          if (bookImages.length === 0) return null;
+          return (
+            <div className="book-media-panel">
+              <div className="book-media-header">
+                <h6 style={{ margin: 0, display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <i className="fas fa-images" />
+                  Mídias — {book.name}
+                  <span className="cross-ref-badge">{bookImages.length}</span>
+                </h6>
+              </div>
+              <div className="book-media-grid">
+                {bookImages.map(img => {
+                  const m = img.match(/^.+-(\d+):(\d+)\.png$/);
+                  const ch = m ? +m[1] : null;
+                  const vs = m ? +m[2] : null;
+                  return (
+                    <div
+                      key={img}
+                      className="book-media-thumb"
+                      onClick={() => setImageModal({
+                        src: `/db/imgs/${img}`,
+                        title: `${book.name} ${ch}:${vs}`,
+                      })}
+                    >
+                      <img src={`/db/imgs/${img}`} alt={`${book.name} ${ch}:${vs}`} loading="lazy" />
+                      <span className="book-media-label">{ch}:{vs}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })()}
       </div>
 
       {/* Image Modal */}
