@@ -201,6 +201,8 @@ body {
   color: var(--text);
   background: var(--bg-secondary);
   overflow: hidden;
+  font-family: inherit;
+  font-size: inherit;
 }
 .book-card.pt-element:hover {
   transform: scale(1.08);
@@ -996,6 +998,260 @@ body {
 .font-family-btn.active {
   border-color: var(--primary);
   box-shadow: 0 0 0 3px rgba(79,70,229,0.18);
+}
+
+/* ── Audio Player ──────────────────────────────────────── */
+
+/* Player back button */
+.player-back-btn {
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 16px;
+}
+.player-playlist-toggle {
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.15s;
+}
+.player-playlist-toggle.active { border-color: var(--primary); color: var(--primary); }
+
+/* Player Card */
+.player-card {
+  margin: 0 28px 20px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.player-artwork {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.player-artwork-icon {
+  font-size: 40px;
+  color: #fff;
+}
+.player-artwork-icon.pulse {
+  animation: playerPulse 1.5s ease infinite;
+}
+@keyframes playerPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.08); opacity: 0.85; }
+}
+
+.player-info { text-align: center; }
+.player-track-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+.player-track-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Progress */
+.player-progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.player-time {
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+  min-width: 36px;
+  text-align: center;
+}
+.player-progress-bar {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+}
+.player-progress-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: var(--primary);
+  position: relative;
+  transition: width 0.1s linear;
+}
+.player-progress-thumb {
+  position: absolute;
+  right: -6px;
+  top: -3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+/* Controls */
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.player-ctrl-btn {
+  border: none;
+  background: none;
+  color: var(--text);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.player-ctrl-btn:hover { background: var(--border); }
+.player-ctrl-btn:disabled { opacity: 0.3; cursor: default; }
+.player-ctrl-btn:disabled:hover { background: none; }
+.player-ctrl-btn.play-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-size: 22px;
+}
+.player-ctrl-btn.play-btn:hover { filter: brightness(1.1); background: var(--primary); }
+.player-ctrl-btn.small { font-size: 14px; }
+.player-ctrl-btn.active { color: var(--primary); }
+.player-rate-label {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Volume */
+.player-volume-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 160px;
+}
+.player-volume-slider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--border);
+  outline: none;
+}
+.player-volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--primary);
+  cursor: pointer;
+}
+.player-volume-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--primary);
+  cursor: pointer;
+  border: none;
+}
+
+/* Playlist */
+.player-playlist {
+  margin: 0 28px 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.player-playlist-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+}
+.player-playlist-header h6 {
+  margin: 0;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.player-playlist-list {
+  max-height: 360px;
+  overflow-y: auto;
+}
+.player-playlist-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+.player-playlist-item:last-child { border-bottom: none; }
+.player-playlist-item:hover { background: var(--bg-secondary); }
+.player-playlist-item.current {
+  background: rgba(79,70,229,0.06);
+  border-left: 3px solid var(--primary);
+}
+.player-pl-num {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+  min-width: 22px;
+  text-align: center;
+}
+.player-pl-title {
+  font-size: 13px;
+  flex: 1;
+}
+.player-playlist-item.current .player-pl-title { color: var(--primary); font-weight: 600; }
+
+/* Equalizer animation */
+.player-pl-eq {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 14px;
+}
+.player-pl-eq span {
+  width: 3px;
+  background: var(--primary);
+  border-radius: 1px;
+  animation: eqBounce 0.6s ease infinite alternate;
+}
+.player-pl-eq span:nth-child(1) { height: 6px; animation-delay: 0s; }
+.player-pl-eq span:nth-child(2) { height: 10px; animation-delay: 0.15s; }
+.player-pl-eq span:nth-child(3) { height: 4px; animation-delay: 0.3s; }
+@keyframes eqBounce {
+  0% { transform: scaleY(0.4); }
+  100% { transform: scaleY(1); }
 }
 
 /* ── Reading Plan ──────────────────────────────────────── */
