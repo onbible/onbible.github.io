@@ -1,0 +1,834 @@
+{
+    "c": [
+        {
+            "palavra": "CERTAMENTE",
+            "veja tambem": [
+                "certo"
+            ],
+            "ocorrencias": 205,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 2.17",
+                    "texto": "no dia em que dela comeres, C. morrerás."
+                },
+                {
+                    "referencia": "Gênesis 3.4",
+                    "texto": "a serpente disse à mulher: C, não morrereis."
+                },
+                {
+                    "referencia": "Gênesis 9.5",
+                    "texto": "E C. requererei o vosso sangue, o sangue da"
+                },
+                {
+                    "referencia": "Gênesis 18.10",
+                    "texto": "E disse: C., tornarei a ti por este tempo da"
+                },
+                {
+                    "referencia": "Gênesis 18.18",
+                    "texto": "visto que Abraão C. virá a ser uma grande e"
+                },
+                {
+                    "referencia": "Gênesis 20.7",
+                    "texto": "se não lha restituíres, sabe que C."
+                },
+                {
+                    "referencia": "Gênesis 20.11",
+                    "texto": "Porque eu dizia comigo: C, não há temor"
+                },
+                {
+                    "referencia": "Gênesis 26.11",
+                    "texto": "tocar neste varão ou em sua mulher C. morrerá."
+                },
+                {
+                    "referencia": "Gênesis 28.22",
+                    "texto": "e, de tudo quanto me deres, C. te darei o dízimo."
+                },
+                {
+                    "referencia": "Gênesis 30.16",
+                    "texto": "e disse: A mim entrarás, porque C. te"
+                },
+                {
+                    "referencia": "Gênesis 32.12",
+                    "texto": "E tu o disseste: C., te farei bem e farei a"
+                },
+                {
+                    "referencia": "Gênesis 37.33",
+                    "texto": "uma besta-fera o comeu, C. foi"
+                },
+                {
+                    "referencia": "Gênesis 43.10",
+                    "texto": "não nos tivéssemos detido, C. já estaríamos"
+                },
+                {
+                    "referencia": "Gênesis 43.20",
+                    "texto": "E disseram: Ai! Senhor meu, C. descemos,"
+                },
+                {
+                    "referencia": "Gênesis 44.28",
+                    "texto": "de mim, e eu disse: C. foi"
+                },
+                {
+                    "referencia": "Gênesis 46.4",
+                    "texto": "contigo ao Egito e C., te farei tornar"
+                },
+                {
+                    "referencia": "Gênesis 50.15",
+                    "texto": "aborrecerá José e nos pe C, todo o mal"
+                },
+                {
+                    "referencia": "Gênesis 50.24",
+                    "texto": "irmãos: Eu morro, mas Deus C. vos visitará"
+                },
+                {
+                    "referencia": "Gênesis 50.25",
+                    "texto": "filhos de Israel, dizendo: C., vos visitará"
+                },
+                {
+                    "referencia": "Êxodo 2.14",
+                    "texto": "Então, temeu Moisés e disse: C. este"
+                },
+                {
+                    "referencia": "Êxodo 3.12",
+                    "texto": "E Deus disse: C. eu serei contigo; e isto te"
+                },
+                {
+                    "referencia": "Êxodo 3.16",
+                    "texto": "e de Jacó, me apareceu, dizendo: C. vos"
+                },
+                {
+                    "referencia": "Êxodo 4.25",
+                    "texto": "e o lançou a seus pés, e disse: C. me és um"
+                },
+                {
+                    "referencia": "Êxodo 13.19",
+                    "texto": "filhos de Israel, dizendo: C., Deus vos"
+                },
+                {
+                    "referencia": "Êxodo 19.12",
+                    "texto": "todo aquele que tocar o monte C. morrerá."
+                },
+                {
+                    "referencia": "Êxodo 19.13",
+                    "texto": "mão tocará nele; porque C. será"
+                },
+                {
+                    "referencia": "Êxodo 21.12",
+                    "texto": "ferir alguém, que morra, ele também C. morrerá;"
+                },
+                {
+                    "referencia": "Êxodo 21.15",
+                    "texto": "O que ferir a seu pai ou a sua mãe C. morrerá."
+                },
+                {
+                    "referencia": "Êxodo 21.16",
+                    "texto": "o vender, ou for achado na sua mão, C. morrerá."
+                },
+                {
+                    "referencia": "Êxodo 21.17",
+                    "texto": "amaldiçoar a seu pai ou a sua mãe C. morrerá."
+                },
+                {
+                    "referencia": "Êxodo 21.20",
+                    "texto": "morrerem debaixo da sua mão, C. será castigado;"
+                },
+                {
+                    "referencia": "Êxodo 21.22",
+                    "texto": "porém se não houver morte, C. aquele que"
+                },
+                {
+                    "referencia": "Êxodo 21.28",
+                    "texto": "morra, o boi será apedrejado C., ea sua"
+                },
+                {
+                    "referencia": "Êxodo 21.36",
+                    "texto": "e seu dono não o guardou, C. pagará boi"
+                },
+                {
+                    "referencia": "Êxodo 22.14",
+                    "texto": "estando presente o seu dono, C. a restituirá."
+                },
+                {
+                    "referencia": "Êxodo 22.16",
+                    "texto": "e se deitar com ela, C. a dotará por"
+                },
+                {
+                    "referencia": "Êxodo 22.19",
+                    "texto": "aquele que se deitar com animal C, morrerá."
+                },
+                {
+                    "referencia": "Êxodo 22.23",
+                    "texto": "e eles clamarem a mim, eu C. ouvirei o seu clamor,"
+                },
+                {
+                    "referencia": "Êxodo 23.5",
+                    "texto": "deixarás, pois, de ajudá-lo? C. o ajudarás"
+                },
+                {
+                    "referencia": "Êxodo 23.33",
+                    "texto": "se servires aos seus deuses, C, será um laço"
+                },
+                {
+                    "referencia": "Êxodo 31.13",
+                    "texto": "aos filhos de Israel, dizendo: C, guardareis"
+                },
+                {
+                    "referencia": "Êxodo 31.14",
+                    "texto": "vós; aquele que o profanar C. morrerá;"
+                },
+                {
+                    "referencia": "Êxodo 31.15",
+                    "texto": "que no dia do sábado fizer obra, C. morrerá."
+                },
+                {
+                    "referencia": "Levítico 5.19",
+                    "texto": "Expiação de culpa é; C. se fez culpada ao Senhor."
+                },
+                {
+                    "referencia": "Levítico 10.18",
+                    "texto": "para dentro do santuário; C. havíeis de"
+                },
+                {
+                    "referencia": "Levítico 20.2",
+                    "texto": "der da sua semente a Moloque, C. morrerá; o"
+                },
+                {
+                    "referencia": "Levítico 20.9",
+                    "texto": "a seu pai ou a sua mãe, C. morrerá:"
+                },
+                {
+                    "referencia": "Levítico 20.10",
+                    "texto": "com a mulher do seu próximo, C. morrerá o"
+                },
+                {
+                    "referencia": "Levítico 20.11",
+                    "texto": "a nudez de seu pai; ambos, C., morrerão; o"
+                },
+                {
+                    "referencia": "Iv 20.12",
+                    "texto": "deitar com a sua nora, ambos, C., morrerão;"
+                },
+                {
+                    "referencia": "Levítico 20.13",
+                    "texto": "ambos fizeram abominação; C. morrerão; o"
+                },
+                {
+                    "referencia": "Ly 20.15",
+                    "texto": "se deitar com um animal, C. morrerá; e"
+                },
+                {
+                    "referencia": "Levítico 20.16",
+                    "texto": "mulher matarás com o animal; C. morrerão; o"
+                },
+                {
+                    "referencia": "Levítico 20.27",
+                    "texto": "adivinho ou for encantador, C. morrerão;"
+                },
+                {
+                    "referencia": "Levítico 24.16",
+                    "texto": "blasfemar o nome do Senhor C. morrerá; toda a"
+                },
+                {
+                    "referencia": "Levítico 24.17",
+                    "texto": "E quem matar a alguém C. morrerá."
+                },
+                {
+                    "referencia": "Levítico 27.29",
+                    "texto": "do homem não será resgatada; C., morrerá."
+                },
+                {
+                    "referencia": "Números 13.30",
+                    "texto": "em herança; porque, E,"
+                },
+                {
+                    "referencia": "Números 14.21",
+                    "texto": "Porém, tão €, como eu vivo e como a glória do"
+                },
+                {
+                    "referencia": "Números 15.35",
+                    "texto": "pois, o Senhor a Moisés: C. morrerá o"
+                },
+                {
+                    "referencia": "Números 26.65",
+                    "texto": "o Senhor dissera deles que C. morreriam no"
+                },
+                {
+                    "referencia": "Números 27.7",
+                    "texto": "Zelofeade falam retamente; C. lhes darás"
+                },
+                {
+                    "referencia": "Números 35.16",
+                    "texto": "ferro, e morrer, homicida é; C. o homicida morrerá."
+                },
+                {
+                    "referencia": "Números 35.17",
+                    "texto": "e ela morrer, homicida é; C. o homicida morrerá."
+                },
+                {
+                    "referencia": "Números 35.18",
+                    "texto": "e ela morrer, homicida é; C. morrerá o homicida."
+                },
+                {
+                    "referencia": "Números 35.21",
+                    "texto": "com a sua mão, e morrer, C. morrerá o"
+                },
+                {
+                    "referencia": "Números 35.31",
+                    "texto": "que culpado está de morte; antes, C. morrerá."
+                },
+                {
+                    "referencia": "Deuteronômio 4.26",
+                    "texto": "vós o céu € a terra, que C. perecereis"
+                },
+                {
+                    "referencia": "Deuteronômio 8.19",
+                    "texto": "hoje eu protesto contra vós que C. perecereis."
+                },
+                {
+                    "referencia": "Deuteronômio 13.9",
+                    "texto": "mas C, o matarás; a tua mão será a primeira"
+                },
+                {
+                    "referencia": "Deuteronômio 13.15",
+                    "texto": "então, C. ferirás ao fio da espada os"
+                },
+                {
+                    "referencia": "Deuteronômio 14.22",
+                    "texto": "C, darás os dízimos de toda a novidade da tua"
+                },
+                {
+                    "referencia": "Deuteronômio 16.15",
+                    "texto": "obra das tuas mãos; pelo que te alegrarás C.."
+                },
+                {
+                    "referencia": "Deuteronômio 17.15",
+                    "texto": "porás, C., sobre ti como rei aquele que"
+                },
+                {
+                    "referencia": "Deuteronômio 21.23",
+                    "texto": "permanecerá no madeiro, mas C. o enterrarás"
+                },
+                {
+                    "referencia": "Deuteronômio 23.21",
+                    "texto": "porque o Senhor teu Deus, C. o"
+                },
+                {
+                    "referencia": "Deuteronômio 24.13",
+                    "texto": "Em se pondo o sol, C. lhe restituirás o"
+                },
+                {
+                    "referencia": "Deuteronômio 30.18",
+                    "texto": "eu te denuncio, hoje, que, C., perecerás;"
+                },
+                {
+                    "referencia": "Deuteronômio 31.29",
+                    "texto": "que, depois da minha morte, C, vos"
+                },
+                {
+                    "referencia": "Josué 2.24",
+                    "texto": "e disseram a Josué: C. o Senhor tem dado toda"
+                },
+                {
+                    "referencia": "Josué 14.9",
+                    "texto": "naquele dia, jurou, dizendo: C. a terra"
+                },
+                {
+                    "referencia": "Josué 23.13",
+                    "texto": "sabei, C., que o Senhor, vosso Deus, não"
+                },
+                {
+                    "referencia": "Juízes 4.9",
+                    "texto": "E disse ela: C. irei contigo, porém não será"
+                },
+                {
+                    "referencia": "Juízes 13.22",
+                    "texto": "E disse Manoá à sua mulher: C. morreremos,"
+                },
+                {
+                    "referencia": "Juízes 21.5",
+                    "texto": "viessem ao Senhor a Mispa, dizendo: Morrerá C.."
+                },
+                {
+                    "referencia": "Rute 1.10",
+                    "texto": "e disseram-lhe: C., voltaremos contigo ao teu povo."
+                },
+                {
+                    "referencia": "1 Samuel 14.39",
+                    "texto": "que seja em meu filho Jônatas, C. morrerá. E"
+                },
+                {
+                    "referencia": "1 Samuel 16.6",
+                    "texto": "eles, viu a Eliabe e disse: C., está"
+                },
+                {
+                    "referencia": "1 Samuel 20.26",
+                    "texto": "coisa, pela qual não está limpo; C., não está limpo."
+                },
+                {
+                    "referencia": "1 Samuel 22.16",
+                    "texto": "disse: Aimeleque, morrerás C., tu e toda a"
+                },
+                {
+                    "referencia": "1 Samuel 24.20",
+                    "texto": "pois, eis que bem sei que C, hás de reinar"
+                },
+                {
+                    "referencia": "1 Samuel 25.28",
+                    "texto": "esta transgressão, porque C. fará o"
+                },
+                {
+                    "referencia": "2 Samuel 5.19",
+                    "texto": "o Senhor a Davi: Sobe, porque C."
+                },
+                {
+                    "referencia": "2 Samuel 12.14",
+                    "texto": "também o filho que te nasceu C. morrerá."
+                },
+                {
+                    "referencia": "2 Samuel 14.14",
+                    "texto": "Porque C. morreremos e seremos como águas"
+                },
+                {
+                    "referencia": "2 Samuel 15.21",
+                    "texto": "seja para morte seja para vida, aí C. estará"
+                },
+                {
+                    "referencia": "2 Samuel 20.18",
+                    "texto": "costumava-se falar, dizendo: C., pediram"
+                },
+                {
+                    "referencia": "1 Reis 1.13",
+                    "texto": "senhor meu, à tua serva, dizendo: C. teu"
+                },
+                {
+                    "referencia": "1 Reis 1.30",
+                    "texto": "Deus de Israel, dizendo: C. teu filho"
+                },
+                {
+                    "referencia": "IRs 1.43",
+                    "texto": "Jônatas e disse a Adonias: C. nosso senhor,"
+                },
+                {
+                    "referencia": "1 Reis 8.13",
+                    "texto": "C., te edifiquei uma casa para morada,"
+                },
+                {
+                    "referencia": "1 Reis 11.11",
+                    "texto": "meus estatutos que te mandei, C., rasgarei de"
+                },
+                {
+                    "referencia": "1 Reis 13.32",
+                    "texto": "porque, C., se cumprirá o que pela palavra do"
+                },
+                {
+                    "referencia": "1 Reis 22.32",
+                    "texto": "carros Josafá, disseram eles: C., este é o"
+                },
+                {
+                    "referencia": "2 Reis 1.16",
+                    "texto": "a que subiste, não descerás, mas C. morrerás."
+                },
+                {
+                    "referencia": "2 Reis 3.23",
+                    "texto": "E disseram: Isto é sangue; C. que os reis se"
+                },
+                {
+                    "referencia": "2 Reis 5.11",
+                    "texto": "Eis que eu dizia comigo: C. ele sairá,"
+                },
+                {
+                    "referencia": "2 Reis 8.10",
+                    "texto": "lhe disse: Vai e dize-lhe: C., não sararás."
+                },
+                {
+                    "referencia": "2 Reis 8.10",
+                    "texto": "Porque o Senhor me tem mostrado que C, morrerá."
+                },
+                {
+                    "referencia": "2 Reis 8.14",
+                    "texto": "Eliseu? E disse ele: Disse-me que C. sararás."
+                },
+                {
+                    "referencia": "2 Reis 18.30",
+                    "texto": "confiar no Senhor, dizendo: C., nos livrará o"
+                },
+                {
+                    "referencia": "Ester 6.13",
+                    "texto": "não prevalecerás contra ele; antes,"
+                },
+                {
+                    "referencia": "Jó 8.6",
+                    "texto": "se fores puro e reto, C., logo despertará por"
+                },
+                {
+                    "referencia": "Jó 13.10",
+                    "texto": "C., vos repreenderá, se em oculto fizerdes"
+                },
+                {
+                    "referencia": "S123.6",
+                    "texto": "C. que a bondade e a misericórdia me seguirão"
+                },
+                {
+                    "referencia": "S162.9",
+                    "texto": "C. que os homens de classe baixa são vaidade,"
+                },
+                {
+                    "referencia": "S173.18",
+                    "texto": "C., tu os puseste em lugares escorregadios;"
+                },
+                {
+                    "referencia": "S175.8",
+                    "texto": "mistura, e dá a beber dele; C. todos os"
+                },
+                {
+                    "referencia": "S177.11",
+                    "texto": "pois, das obras do Senhor; C. que me"
+                },
+                {
+                    "referencia": "S185.9",
+                    "texto": "C, que a salvação está perto daqueles que o"
+                },
+                {
+                    "referencia": "S1132.3",
+                    "texto": "C., que não entrarei na tenda em que habito,"
+                },
+                {
+                    "referencia": "Provérbios 3.34",
+                    "texto": "C, ele escarnecerá dos escarnecedores, mas"
+                },
+                {
+                    "referencia": "Provérbios 22.16",
+                    "texto": "a si ou o que dá ao rico, C., empobrecerá."
+                },
+                {
+                    "referencia": "Provérbios 22.5",
+                    "texto": "que não é nada? Porque, C., isso se"
+                },
+                {
+                    "referencia": "Cânticos 8.7",
+                    "texto": "de sua casa por este amor, C. a desprezariam."
+                },
+                {
+                    "referencia": "Isaías 7.9",
+                    "texto": "de Remalias; se o não crerdes, C., não"
+                },
+                {
+                    "referencia": "Isaías 15.1",
+                    "texto": "Peso de Moabe. C., em uma noite, foi"
+                },
+                {
+                    "referencia": "Isaías 15.1",
+                    "texto": "Ar de Moabe e foi desfeita; C., em uma"
+                },
+                {
+                    "referencia": "Isaías 22.18",
+                    "texto": "C., te fará rolar, como se faz rolar uma bola"
+                },
+                {
+                    "referencia": "Isaías 30.19",
+                    "texto": "Jerusalém; não chorarás mais; C., se"
+                },
+                {
+                    "referencia": "Isaías 40.30",
+                    "texto": "cansarão e se fatigarão, e os jovens C. cairão."
+                },
+                {
+                    "referencia": "Isaías 60.9",
+                    "texto": "C., as ilhas me aguardarão, e, primeiro, os"
+                },
+                {
+                    "referencia": "Isaías 63.8",
+                    "texto": "Porque o Senhor dizia: C., eles são meu povo,"
+                },
+                {
+                    "referencia": "Jeremias 2.35",
+                    "texto": "dizes: Eu estou inocente; C., asuaira se"
+                },
+                {
+                    "referencia": "Jeremias 3.23",
+                    "texto": "C., em vão se confia nos outeiros e na"
+                },
+                {
+                    "referencia": "Jeremias 8.13",
+                    "texto": "C. os apanharei, diz o Senhor; já não há uvas"
+                },
+                {
+                    "referencia": "Jeremias 10.19",
+                    "texto": "grande dor; e eu tinha dito: C. isto é"
+                },
+                {
+                    "referencia": "Jeremias 22.22",
+                    "texto": "irão para o cativeiro; C., então, te"
+                },
+                {
+                    "referencia": "Jeremias 25.28",
+                    "texto": "Assim diz o Senhor dos Exércitos: C., bebereis."
+                },
+                {
+                    "referencia": "Jeremias 26.8",
+                    "texto": "profetas, e todo o povo, dizendo: C., morrerás."
+                },
+                {
+                    "referencia": "Jeremias 29.10",
+                    "texto": "Porque assim diz o Senhor: C. que, passados"
+                },
+                {
+                    "referencia": "Jeremias 32.4",
+                    "texto": "das mãos dos caldeus, mas, C., será"
+                },
+                {
+                    "referencia": "Jeremias 32.41",
+                    "texto": "e os plantarei nesta terra C., com todo o"
+                },
+                {
+                    "referencia": "Jeremias 36.29",
+                    "texto": "que escreveste nele anunciando: C., virá o"
+                },
+                {
+                    "referencia": "Jeremias 39.18",
+                    "texto": "Porque, C., te salvarei, e não cairás à"
+                },
+                {
+                    "referencia": "Jeremias 44.17",
+                    "texto": "antes, C., cumpriremos toda a palavra que"
+                },
+                {
+                    "referencia": "Jeremias 44.25",
+                    "texto": "por vossas mãos, dizendo: C.,"
+                },
+                {
+                    "referencia": "Jeremias 44.29",
+                    "texto": "lugar, para que saibais que, C.,"
+                },
+                {
+                    "referencia": "Jeremias 46.18",
+                    "texto": "é o Senhor dos Exércitos, que, C., como o"
+                },
+                {
+                    "referencia": "Jeremias 49.12",
+                    "texto": "impune? Não ficarás impune, mas, C., o beberás."
+                },
+                {
+                    "referencia": "Jeremias 49.20",
+                    "texto": "contra os moradores de Temã; C., os"
+                },
+                {
+                    "referencia": "Jeremias 49.20",
+                    "texto": "menores do rebanho os arrastarão; C.,"
+                },
+                {
+                    "referencia": "Jeremias 50.34",
+                    "texto": "dos Exércitos é o seu nome; C., pleiteará a"
+                },
+                {
+                    "referencia": "Jeremias 50.45",
+                    "texto": "contra a terra dos caldeus; C., os menores"
+                },
+                {
+                    "referencia": "Jeremias 50.45",
+                    "texto": "do rebanho os arrastarão; C., será"
+                },
+                {
+                    "referencia": "Jeremias 51.14",
+                    "texto": "por si mesmo, dizendo: C., te encherei"
+                },
+                {
+                    "referencia": "Jeremias 51.56",
+                    "texto": "o Senhor, Deus das recompensas, C., lhe retribuirá."
+                },
+                {
+                    "referencia": "Lamentações 2.16",
+                    "texto": "os dentes; dizem: Devoramo-la; C, este é o"
+                },
+                {
+                    "referencia": "Lamentações 3.20",
+                    "texto": "Minha alma, C., se lembra e se abate dentro"
+                },
+                {
+                    "referencia": "Ezequiel 3.6",
+                    "texto": "se eu aos tais te enviara, C. te dariam ouvidos."
+                },
+                {
+                    "referencia": "Ezequiel 3.18",
+                    "texto": "Quando eu disser ao ímpio: C. morrerás; não o"
+                },
+                {
+                    "referencia": "Ezequiel 3.21",
+                    "texto": "não peque, e ele não pecar, C. viverá,"
+                },
+                {
+                    "referencia": "Ezequiel 17.16",
+                    "texto": "sim, com ele, no meio de Babilônia C, morrerá."
+                },
+                {
+                    "referencia": "Ezequiel 18.9",
+                    "texto": "a verdade, o tal justo C. viverá, diz o"
+                },
+                {
+                    "referencia": "Ezequiel 18.13",
+                    "texto": "estas abominações ele fez, C. morrerá; o"
+                },
+                {
+                    "referencia": "Ezequiel 18.17",
+                    "texto": "não morrerá pela maldade de seu pai; C. viverá."
+                },
+                {
+                    "referencia": "Ezequiel 18.19",
+                    "texto": "estatutos, e os praticou, por isso, C. viverá."
+                },
+                {
+                    "referencia": "Ezequiel 18.21",
+                    "texto": "e fizer juízo e justiça, C. viverá; não morrerá."
+                },
+                {
+                    "referencia": "Ezequiel 18.28",
+                    "texto": "transgressões que cometeu, C, viverá, não morrerá."
+                },
+                {
+                    "referencia": "Ezequiel 33.8",
+                    "texto": "eu disser ao ímpio: O ímpio, C. morrerás; e"
+                },
+                {
+                    "referencia": "Ezequiel 33.13",
+                    "texto": "eu disser ao justo que C., viverá, e ele,"
+                },
+                {
+                    "referencia": "Ezequiel 33.14",
+                    "texto": "eu também disser ao ímpio: C. morrerás; se"
+                },
+                {
+                    "referencia": "Ezequiel 33.15",
+                    "texto": "e não praticando iniquidade, C. viverá, não morrerá."
+                },
+                {
+                    "referencia": "Ezequiel 33.16",
+                    "texto": "contra ele; juízo e justiça fez, C. viverá."
+                },
+                {
+                    "referencia": "Ezequiel 36.5",
+                    "texto": "assim diz o Senhor Jeová: C., no fogo do"
+                },
+                {
+                    "referencia": "Daniel 2.47",
+                    "texto": "o rei a Daniel e disse: C., o vosso Deus"
+                },
+                {
+                    "referencia": "Oséias 4.18",
+                    "texto": "corrompem-se cada vez mais; C, amaram a"
+                },
+                {
+                    "referencia": "Oséias 10.3",
+                    "texto": "C., agora, dirão: Não temos rei, porque não"
+                },
+                {
+                    "referencia": "Amós 3.7",
+                    "texto": "C. o Senhor Jeová não fará coisa alguma, sem"
+                },
+                {
+                    "referencia": "Amós 5.5",
+                    "texto": "a Berseba, porque Gilgal C. será levado"
+                },
+                {
+                    "referencia": "Amós 7.11",
+                    "texto": "morrerá à espada, e Israel C. será levado"
+                },
+                {
+                    "referencia": "Amós 7.17",
+                    "texto": "na terra imunda, e Israel C. será"
+                },
+                {
+                    "referencia": "Amós 8.8",
+                    "texto": "todo aquele que habita nela? C.,"
+                },
+                {
+                    "referencia": "Miquéias 2.12",
+                    "texto": "C. te ajuntarei todo inteiro, ó Jacó;"
+                },
+                {
+                    "referencia": "Miquéias 2.12",
+                    "texto": "todo inteiro, ó Jacó; C. congregarei o"
+                },
+                {
+                    "referencia": "Habacuque 2.3",
+                    "texto": "se tardar, espera-o, porque C., virá, não tardará."
+                },
+                {
+                    "referencia": "Sofonias 1.18",
+                    "texto": "terra será consumida, porque C. fará de"
+                },
+                {
+                    "referencia": "St 3.7",
+                    "texto": "Eu dizia: C. me temerás e aceitarás a"
+                },
+                {
+                    "referencia": "Sofonias 3.20",
+                    "texto": "naquele tempo, vos recolherei; C., vos darei"
+                },
+                {
+                    "referencia": "Zacarias 11.6",
+                    "texto": "C. não terei mais piedade dos moradores desta"
+                },
+                {
+                    "referencia": "Zacarias 12.3",
+                    "texto": "os que carregarem com ela C. serão"
+                },
+                {
+                    "referencia": "Lucas 11.20",
+                    "texto": "demônios pelo dedo de Deus, C., a vós é"
+                },
+                {
+                    "referencia": "Jó 8.42",
+                    "texto": "Se Deus fosse o vosso Pai, C., me"
+                },
+                {
+                    "referencia": "Jó 14.28",
+                    "texto": "para vós. Se me amásseis, C., exultarfeis"
+                },
+                {
+                    "referencia": "Atos 11.16",
+                    "texto": "Senhor, quando disse: João C. batizou com"
+                },
+                {
+                    "referencia": "Atos 19.4",
+                    "texto": "Mas Paulo disse: C, João batizou com o"
+                },
+                {
+                    "referencia": "Atos 28.4",
+                    "texto": "mão, diziam uns aos outros: C, este homem é"
+                },
+                {
+                    "referencia": "Romanos 3.29",
+                    "texto": "o é também dos gentios? Também dos gentios, C.."
+                },
+                {
+                    "referencia": "1 Coríntios 9.10",
+                    "texto": "Ou não o diz C. por nós? C. que por"
+                },
+                {
+                    "referencia": "2 Coríntios 2.16",
+                    "texto": "Para estes, C., cheiro de morte para morte;"
+                },
+                {
+                    "referencia": "Hebreus 6.14",
+                    "texto": "dizendo: C., abençoando, te abençoarei e,"
+                },
+                {
+                    "referencia": "Hebreus 6.16",
+                    "texto": "Porque os homens C. juram por alguém superior"
+                },
+                {
+                    "referencia": "Hebreus 7.8",
+                    "texto": "E aqui C. tomam dízimos homens que morrem;"
+                },
+                {
+                    "referencia": "Hebreus 7.20",
+                    "texto": "prestar juramento (porque C. aqueles, sem"
+                },
+                {
+                    "referencia": "Apocalipse 22.20",
+                    "texto": "testifica estas coisas diz: C., cedo venho."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,464 @@
+{
+    "i": [
+        {
+            "palavra": "IDADE",
+            "veja tambem": [],
+            "ocorrencias": 113,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 5.32",
+                    "texto": "E era Noé da I. de quinhentos anos e gerou Noé a"
+                },
+                {
+                    "referencia": "Gênesis 7.6",
+                    "texto": "E era Noé da L. de seiscentos anos, quando o"
+                },
+                {
+                    "referencia": "Gênesis 11.10",
+                    "texto": "gerações de Sem: Sem era da L de cem anos e gerou"
+                },
+                {
+                    "referencia": "Gênesis 12.4",
+                    "texto": "foi Ló com ele; e era Abrão da J. de setenta e"
+                },
+                {
+                    "referencia": "Gênesis 16.16",
+                    "texto": "E era Abrão da E de oitenta e seis anos, quando"
+                },
+                {
+                    "referencia": "Gênesis 17.1",
+                    "texto": "Sendo, pois, Abrão da Z. de noventa e nove anos,"
+                },
+                {
+                    "referencia": "Gênesis 17.17",
+                    "texto": "um filho? E conceberá Sara na L de noventa anos?"
+                },
+                {
+                    "referencia": "Gênesis 17.24",
+                    "texto": "E era Abraão da L. de noventa e nove anos, quando"
+                },
+                {
+                    "referencia": "Gênesis 17.25",
+                    "texto": "E Ismael, seu filho, era da É. de treze anos,"
+                },
+                {
+                    "referencia": "Gênesis 18.11",
+                    "texto": "já velhos e adiantados em L; já a Sara havia"
+                },
+                {
+                    "referencia": "Gênesis 21.4",
+                    "texto": "filho Isaque, quando era da I. de oito dias, como"
+                },
+                {
+                    "referencia": "Gênesis 21.5",
+                    "texto": "E era Abraão da Z. de cem anos, quando lhe nasceu"
+                },
+                {
+                    "referencia": "Gênesis 24.1",
+                    "texto": "já velho e adiantado em E, eo Senhor havia"
+                },
+                {
+                    "referencia": "Gênesis 25.20",
+                    "texto": "e era Isaque da É. de quarenta anos, quando tomou"
+                },
+                {
+                    "referencia": "Gênesis 25.26",
+                    "texto": "o seu nome Jacó. E era Isaque da É. de sessenta"
+                },
+                {
+                    "referencia": "Gênesis 26.34",
+                    "texto": "Ora, sendo Esaú da Z. de quarenta anos, tomou por"
+                },
+                {
+                    "referencia": "Gênesis 41.46",
+                    "texto": "E José era da Í, de trinta anos quando esteve"
+                },
+                {
+                    "referencia": "Gênesis 50.26",
+                    "texto": "E morreu José da T. de cento e dez anos; e o"
+                },
+                {
+                    "referencia": "Êxodo 7.7",
+                    "texto": "E Moisés era da E de oitenta anos, e Arão, da"
+                },
+                {
+                    "referencia": "Êxodo 7.7",
+                    "texto": "de oitenta anos, e Arão, da {. de oitenta e três"
+                },
+                {
+                    "referencia": "Êxodo 38.26",
+                    "texto": "que passava aos arrolados, da {. de vinte anos e"
+                },
+                {
+                    "referencia": "Levítico 27.3",
+                    "texto": "tua avaliação dum varão, da É de vinte anos até à"
+                },
+                {
+                    "referencia": "Levítico 27.3",
+                    "texto": "E de vinte anos até à I. de sessenta, será a"
+                },
+                {
+                    "referencia": "Números 1.3",
+                    "texto": "da £ de vinte anos para cima, todos os que saem à"
+                },
+                {
+                    "referencia": "Números 3.15",
+                    "texto": "contarás a todo varão da E de um mês para cima."
+                },
+                {
+                    "referencia": "Números 3.22",
+                    "texto": "número de todo varão da É. de um mês para cima,"
+                },
+                {
+                    "referencia": "Números 3.28",
+                    "texto": "contado de todo varão da É. de um mês para cima,"
+                },
+                {
+                    "referencia": "Números 3.40",
+                    "texto": "dos filhos de Israel da É. de um mês para cima"
+                },
+                {
+                    "referencia": "Números 3.43",
+                    "texto": "número dos nomes dos da J. de um mês para"
+                },
+                {
+                    "referencia": "Números 4.3",
+                    "texto": "da E de trinta anos para cima até aos cinquenta"
+                },
+                {
+                    "referencia": "Números 4.23",
+                    "texto": "da É. de trinta anos para cima, até aos cinquenta,"
+                },
+                {
+                    "referencia": "Números 4.30",
+                    "texto": "da I. de trinta anos para cima, até aos cinquenta,"
+                },
+                {
+                    "referencia": "Números 4.35",
+                    "texto": "da É, de trinta anos para cima, até aos cinquenta,"
+                },
+                {
+                    "referencia": "Números 4.39",
+                    "texto": "da É, de trinta anos para cima, até aos cinquenta,"
+                },
+                {
+                    "referencia": "Números 4.43",
+                    "texto": "da É, de trinta anos para cima, até aos cinquenta,"
+                },
+                {
+                    "referencia": "Números 4.47",
+                    "texto": "da J, de trinta anos para cima, até aos cinquenta,"
+                },
+                {
+                    "referencia": "Números 8.24",
+                    "texto": "é o ofício dos levitas: Da Z. de vinte e cinco"
+                },
+                {
+                    "referencia": "Números 8.25",
+                    "texto": "mas, desde a E de cinquenta anos, sairão da"
+                },
+                {
+                    "referencia": "Números 18.16",
+                    "texto": "de resgatar resgatarás, da Ž. de um mês,"
+                },
+                {
+                    "referencia": "Números 26.2",
+                    "texto": "dos filhos de Israel, da É. de vinte anos para"
+                },
+                {
+                    "referencia": "Números 26.4",
+                    "texto": "Contai o povo da T. de vinte anos para cima, como"
+                },
+                {
+                    "referencia": "Números 26.62",
+                    "texto": "e três mil, todo o varão da E de um mês para"
+                },
+                {
+                    "referencia": "Números 33.39",
+                    "texto": "E era Arão da E de cento e vinte três anos,"
+                },
+                {
+                    "referencia": "Deuteronômio 31.2",
+                    "texto": "e disse-lhes: Da Z. de cento e vinte anos sou eu"
+                },
+                {
+                    "referencia": "Deuteronômio 34.7",
+                    "texto": "Era Moisés da J. de cento e vinte anos quando"
+                },
+                {
+                    "referencia": "Josué 14.7",
+                    "texto": "Da Í. de quarenta anos era eu, quando Moisés,"
+                },
+                {
+                    "referencia": "Josué 14.10",
+                    "texto": "e, agora, eis que já hoje sou da Z. de oitenta"
+                },
+                {
+                    "referencia": "Josué 24.29",
+                    "texto": "do Senhor, faieceu, sendo da É. de cento e dez anos."
+                },
+                {
+                    "referencia": "Juízes 2.8",
+                    "texto": "de Num, servo do Senhor, da É. de cento e dez anos."
+                },
+                {
+                    "referencia": "1 Samuel 2.33",
+                    "texto": "da tua casa morrerá quando chegar à E varonil."
+                },
+                {
+                    "referencia": "1 Samuel 4.15",
+                    "texto": "E era Eli da J. de noventa e oito anos; e estavam"
+                },
+                {
+                    "referencia": "1 Samuel 17.12",
+                    "texto": "homem já velho e adiantado na E entre os homens."
+                },
+                {
+                    "referencia": "2 Samuel 2.10",
+                    "texto": "Da £. de quarenta anos era Isbosete, filho de"
+                },
+                {
+                    "referencia": "2 Samuel 44",
+                    "texto": "de ambos os pés. Era da Z. de cinco anos"
+                },
+                {
+                    "referencia": "2 Samuel 5.4",
+                    "texto": "Da L. de trinta anos era Davi quando começou a"
+                },
+                {
+                    "referencia": "2 Samuel 19.32",
+                    "texto": "era Barzilai mui velho, da Z. de oitenta anos; e"
+                },
+                {
+                    "referencia": "2 Samuel 19.35",
+                    "texto": "Da Z. de oitenta anos sou eu hoje; poderia eu"
+                },
+                {
+                    "referencia": "1 Reis 14.21",
+                    "texto": "de quarenta e um anos de E era Roboão quando"
+                },
+                {
+                    "referencia": "1 Reis 22.42",
+                    "texto": "E era Josafá da T. de trinta e cinco anos quando"
+                },
+                {
+                    "referencia": "2 Reis 8.17",
+                    "texto": "Era ele da Z, de trinta e dois anos quando começou"
+                },
+                {
+                    "referencia": "2 Reis 8.26",
+                    "texto": "de vinte e dois anos de I. quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 11.21",
+                    "texto": "Era Joás da L. de sete anos quando o fizeram rei."
+                },
+                {
+                    "referencia": "2 Reis 15.33",
+                    "texto": "vinte e cinco anos de Z, quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 16.2",
+                    "texto": "Tinha Acaz vinte anos del quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 18.2",
+                    "texto": "vinte e cinco anos de I. quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 21.1",
+                    "texto": "Manassés doze anos dei quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 21.19",
+                    "texto": "Amom vinte e dois anos de J. quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 22.1",
+                    "texto": "Tinha Josias oito anos de J. quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 23.31",
+                    "texto": "vinte e três anos de E. quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 23.36",
+                    "texto": "vinte e cinco anos de É quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 24.8",
+                    "texto": "Joaquim dezoito anos de £ quando começou a"
+                },
+                {
+                    "referencia": "2 Reis 24.18",
+                    "texto": "vinte e um anos de £ quando começou a"
+                },
+                {
+                    "referencia": "1 Crônicas 23.24",
+                    "texto": "ministério da Casa do Senhor, da J. de vinte anos"
+                },
+                {
+                    "referencia": "1 Crônicas 23.27",
+                    "texto": "os filhos de Levi da Z. de vinte anos para cima."
+                },
+                {
+                    "referencia": "2 Crônicas 12.13",
+                    "texto": "e reinou. Ora, Roboão era da J, de quarenta e um"
+                },
+                {
+                    "referencia": "2 Crônicas 20.31",
+                    "texto": "reinou sobre Judá; era da {. de trinta e cinco"
+                },
+                {
+                    "referencia": "2 Crônicas 21.5",
+                    "texto": "Da E. de trinta e dois anos era Jeorão quando"
+                },
+                {
+                    "referencia": "2 Crônicas 21.20",
+                    "texto": "Era da É. de trinta e dois anos quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 22.2",
+                    "texto": "Era da E. de quarenta e dois anos quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 24.1",
+                    "texto": "Tinha Joás sete anos de J. quando começou a reinar"
+                },
+                {
+                    "referencia": "2 Crônicas 24.15",
+                    "texto": "farto de dias; era da Z. de cento e trinta"
+                },
+                {
+                    "referencia": "2 Crônicas 25.1",
+                    "texto": "Era Amazias da É. de vinte e cinco anos quando"
+                },
+                {
+                    "referencia": "2 Crônicas 26.1",
+                    "texto": "tomou a Uzias, que era da E. de dezesseis anos,"
+                },
+                {
+                    "referencia": "2 Crônicas 26.3",
+                    "texto": "Era Uzias da É. de dezesseis anos quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 27.1",
+                    "texto": "vinte e cinco anos de L quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 27.8",
+                    "texto": "vinte e cinco anos de É quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 28.1",
+                    "texto": "Tinha Acaz vinte anos de I. quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 29.1",
+                    "texto": "vinte e cinco anos de E quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 31.16",
+                    "texto": "genealogias dos varões, da J. de três anos e daí"
+                },
+                {
+                    "referencia": "2 Crônicas 31.17",
+                    "texto": "como também os levitas, da Z. de vinte anos e"
+                },
+                {
+                    "referencia": "2 Crônicas 33.1",
+                    "texto": "Manassés doze anos de E quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 33.21",
+                    "texto": "Era Amom da É. de vinte e dois anos quando come-"
+                },
+                {
+                    "referencia": "2 Crônicas 36.2",
+                    "texto": "Era Joacaz da E. de vinte e três anos quando"
+                },
+                {
+                    "referencia": "2 Crônicas 36.5",
+                    "texto": "de vinte e cinco anos de I. quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 36.9",
+                    "texto": "Era Joaquim da £ de oito anos quando começou a"
+                },
+                {
+                    "referencia": "2 Crônicas 36.11",
+                    "texto": "Era Zedequias da Z. de vinte e cinco anos quando"
+                },
+                {
+                    "referencia": "Esdras 3.8",
+                    "texto": "Jerusalém e constituíram levitas da É. de vinte"
+                },
+                {
+                    "referencia": "Jó 30.1",
+                    "texto": "se riem de mim os de menos E. do que eu, e cujos"
+                },
+                {
+                    "referencia": "Jó 32.4",
+                    "texto": "falar a Jó, porquanto tinham mais Z, do que ele."
+                },
+                {
+                    "referencia": "Jó 32.6",
+                    "texto": "e disse: Eu sou de menos L., e vós sois"
+                },
+                {
+                    "referencia": "Jeremias 52.1",
+                    "texto": "Era Zedequias da É. de vinte e um anos quando"
+                },
+                {
+                    "referencia": "Daniel 5.31",
+                    "texto": "o medo, ocupou o reino, na J. de sessenta e"
+                },
+                {
+                    "referencia": "Zacarias 8.4",
+                    "texto": "um na mão o seu bordão, por causa da sua muita Z.."
+                },
+                {
+                    "referencia": "Lucas 1.7",
+                    "texto": "Isabel era estéril, e ambos eram avançados em Z.."
+                },
+                {
+                    "referencia": "Lucas 1.18",
+                    "texto": "eu já sou velho, e minha mulher, avançada em L.."
+                },
+                {
+                    "referencia": "Lucas 2.36",
+                    "texto": "Aser. Esta era já avançada em LE, e tinha vivido"
+                },
+                {
+                    "referencia": "Lucas 18.30",
+                    "texto": "mais neste mundo e, na J. vindoura, a vida eterna."
+                },
+                {
+                    "referencia": "Jó 9.21",
+                    "texto": "os olhos não sabemos; tem L; perguntai-lho a"
+                },
+                {
+                    "referencia": "Jó 9.23",
+                    "texto": "que seus pais disseram: Tem L; perguntai-lho a"
+                },
+                {
+                    "referencia": "Atos 7.23",
+                    "texto": "É, quando completou a É. de quarenta anos,"
+                },
+                {
+                    "referencia": "1 Coríntios 7.36",
+                    "texto": "se tiver passado a flor da L, e se for"
+                },
+                {
+                    "referencia": "Gálatas 1.14",
+                    "texto": "judaísmo a muitos da minha J., sendo"
+                },
+                {
+                    "referencia": "Hebreus 11.11",
+                    "texto": "e deu à luz já fora da Z; porquanto teve por"
+                }
+            ]
+        }
+    ]
+}

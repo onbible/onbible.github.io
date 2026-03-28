@@ -1,0 +1,44 @@
+{
+    "f": [
+        {
+            "palavra": "FALANDO-LHE",
+            "veja tambem": [
+                "falar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "2 Crônicas 25.16",
+                    "texto": "E sucedeu que, E ele, lhe respondeu:"
+                }
+            ]
+        },
+        {
+            "palavra": "FALANDO-LHES",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Atos 13.43",
+                    "texto": "Paulo e Barnabé, os quais, E, os"
+                }
+            ]
+        },
+        {
+            "palavra": "FALANDO-VOS",
+            "veja tambem": [
+                "falar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Deuteronômio 1.43",
+                    "texto": "Porém, E eu, não ouvistes; antes, fostes"
+                }
+            ]
+        }
+    ]
+}

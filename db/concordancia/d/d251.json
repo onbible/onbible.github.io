@@ -1,0 +1,59 @@
+{
+    "d": [
+        {
+            "palavra": "DIZEM-LHE",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 20.22",
+                    "texto": "batismo com que eu sou batizado? D, eles: Podemos."
+                }
+            ]
+        },
+        {
+            "palavra": "DIZE MO-VOS",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 0,
+            "fonte": "",
+            "concordancias": []
+        },
+        {
+            "palavra": "DIZEMOS",
+            "veja tambem": [],
+            "ocorrencias": 6,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Jó 3.11",
+                    "texto": "na verdade te digo que nós D. o que sabemos e"
+                },
+                {
+                    "referencia": "lo 8.48",
+                    "texto": "os judeus e disseram-lhe: Não D. nós bem que és"
+                },
+                {
+                    "referencia": "Atos 21.23",
+                    "texto": "Faze, pois, isto que te D.: temos quatro varões"
+                },
+                {
+                    "referencia": "Romanos 3.8",
+                    "texto": "E por que não D, (como somos blasfemados, e como"
+                },
+                {
+                    "referencia": "Romanos 3.8",
+                    "texto": "e como alguns dizem que D.) ; Façamos males,"
+                },
+                {
+                    "referencia": "Romanos 49",
+                    "texto": "sobre a incircuncisão? Porque D. que a fé foi"
+                }
+            ]
+        }
+    ]
+}

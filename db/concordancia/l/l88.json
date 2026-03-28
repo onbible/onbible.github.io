@@ -1,0 +1,52 @@
+{
+    "l": [
+        {
+            "palavra": "LEVÍTICO",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Hebreus 7.11",
+                    "texto": "fosse pelo sacerdócio L. (porque sob ele"
+                }
+            ]
+        },
+        {
+            "palavra": "LEVÍTICOS",
+            "veja tambem": [
+                "levítico"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Jeremias 33.18",
+                    "texto": "nem aos sacerdotes L. faltará varão diante de"
+                },
+                {
+                    "referencia": "Ezequiel 44.15",
+                    "texto": "Mas os sacerdotes L., os filhos de Zadoque,"
+                }
+            ]
+        },
+        {
+            "palavra": "LEVO",
+            "veja tambem": [
+                "levar"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Levítico 18.3",
+                    "texto": "de Canaã, para a qual eu vos L., nem andareis nos"
+                },
+                {
+                    "referencia": "Levítico 20.22",
+                    "texto": "a terra, para a qual eu vos L. para habitar nela."
+                }
+            ]
+        }
+    ]
+}

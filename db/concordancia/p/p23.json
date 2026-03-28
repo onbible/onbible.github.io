@@ -1,0 +1,34 @@
+{
+    "p": [
+        {
+            "palavra": "PARECEM-SE",
+            "veja tambem": [],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "S117.12",
+                    "texto": "P com o leão que deseja arrebatar a sua"
+                },
+                {
+                    "referencia": "S174.5",
+                    "texto": "P. com o homem que avança com o seu machado"
+                }
+            ]
+        },
+        {
+            "palavra": "PARECENDO-LHE",
+            "veja tambem": [
+                "parecer"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "2 Samuel 4.10",
+                    "texto": "dizendo: Eis que Saul morto é, P, porém,"
+                }
+            ]
+        }
+    ]
+}

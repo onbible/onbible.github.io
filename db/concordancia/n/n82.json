@@ -1,0 +1,536 @@
+{
+    "n": [
+        {
+            "palavra": "NUMERO",
+            "veja tambem": [],
+            "ocorrencias": 131,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 34.30",
+                    "texto": "sendo eu pouco povo em N,"
+                },
+                {
+                    "referencia": "Êxodo 124",
+                    "texto": "perto de sua casa, conforme o N. das almas;"
+                },
+                {
+                    "referencia": "Êxodo 16.16",
+                    "texto": "gômer por cabeça, segundo o N. das vossas"
+                },
+                {
+                    "referencia": "Êxodo 23.2",
+                    "texto": "tomando parte com o maior I, para torcer o direito."
+                },
+                {
+                    "referencia": "Êxodo 23.26",
+                    "texto": "nem estéril na tua terra; o N, dos teus dias cumprirei."
+                },
+                {
+                    "referencia": "Levítico 25.15",
+                    "texto": "Conforme o N. dos anos desde o jubileu, comprarás"
+                },
+                {
+                    "referencia": "Levítico 25.15",
+                    "texto": "ao teu próximo; e, conforme o N. dos anos das"
+                },
+                {
+                    "referencia": "Levítico 25.16",
+                    "texto": "o seu preço; porque, conforme o N. das"
+                },
+                {
+                    "referencia": "Levítico 25.50",
+                    "texto": "da sua venda será conforme o I. dos anos,"
+                },
+                {
+                    "referencia": "Números 1.2",
+                    "texto": "casa de seus pais, conforme o N. dos nomes de"
+                },
+                {
+                    "referencia": "Números 1.18",
+                    "texto": "a casa de seus pais, pelo N. dos nomes dos de"
+                },
+                {
+                    "referencia": "Números 1.20",
+                    "texto": "segundo a casa de seus pais, pelo N. dos nomes,"
+                },
+                {
+                    "referencia": "Números 1.22",
+                    "texto": "pais, os seus contados, pelo W. dos nomes,"
+                },
+                {
+                    "referencia": "Números 1.24",
+                    "texto": "a casa de seus pais, pelo N, dos nomes dos"
+                },
+                {
+                    "referencia": "Números 1.26",
+                    "texto": "a casa de seus pais, pelo N, dos nomes dos"
+                },
+                {
+                    "referencia": "Números 1.28",
+                    "texto": "a casa de seus pais, pelo N. dos nomes dos"
+                },
+                {
+                    "referencia": "Números 1.30",
+                    "texto": "a casa de seus pais, pelo N. dos nomes dos"
+                },
+                {
+                    "referencia": "Números 1.32",
+                    "texto": "a casa de seus pais, pelo N. dos nomes dos"
+                },
+                {
+                    "referencia": "Números 1.34",
+                    "texto": "a casa de seus pais, pelo N. dos nomes dos"
+                },
+                {
+                    "referencia": "Números 1.36",
+                    "texto": "a casa de seus pais, pelo N, dos nomes dos"
+                },
+                {
+                    "referencia": "Números 1.38",
+                    "texto": "a casa de seus pais, pelo Ñ, dos nomes dos"
+                },
+                {
+                    "referencia": "Números 1.40",
+                    "texto": "a casa de seus pais, pelo N, dos nomes dos"
+                },
+                {
+                    "referencia": "Números 3.22",
+                    "texto": "deles foram contados pelo N. de todo varão da"
+                },
+                {
+                    "referencia": "Números 3.28",
+                    "texto": "Pelo N. contado de todo varão da idade de um mês"
+                },
+                {
+                    "referencia": "Números 3.34",
+                    "texto": "deles foram contados pelo N. de todo varão de um"
+                },
+                {
+                    "referencia": "Números 3.40",
+                    "texto": "de um mês para cima e toma o NÑ. dos seus nomes."
+                },
+                {
+                    "referencia": "Números 3.43",
+                    "texto": "dos varões, pelo V. dos nomes dos da"
+                },
+                {
+                    "referencia": "Números 14.34",
+                    "texto": "Segundo oN. dos dias em que espiastes esta"
+                },
+                {
+                    "referencia": "Números 15.12",
+                    "texto": "Segundo o N, que oferecerdes, assim o fareis com"
+                },
+                {
+                    "referencia": "Números 15.12",
+                    "texto": "assim o fareis com cada um, segundo o N. deles."
+                },
+                {
+                    "referencia": "Números 23.10",
+                    "texto": "contará o pó de Jacó e o N. da quarta parte de"
+                },
+                {
+                    "referencia": "Números 26.53",
+                    "texto": "a terra em herança, segundo oN. dos nomes."
+                },
+                {
+                    "referencia": "Números 29.18",
+                    "texto": "os cordeiros, conforme o seu N., segundo o esta-"
+                },
+                {
+                    "referencia": "Números 29.21",
+                    "texto": "os cordeiros, conforme o seu Ñ., segundo o esta-"
+                },
+                {
+                    "referencia": "Números 29.24",
+                    "texto": "os cordeiros, conforme o N., segundo o estatuto;"
+                },
+                {
+                    "referencia": "Números 29.27",
+                    "texto": "os cordeiros, conforme o N., segundo o estatuto;"
+                },
+                {
+                    "referencia": "Números 29.30",
+                    "texto": "os cordeiros, conforme o seu N., segundo o esta-"
+                },
+                {
+                    "referencia": "Números 29.33",
+                    "texto": "os cordeiros, conforme o seu N., segundo o seu"
+                },
+                {
+                    "referencia": "Números 29.37",
+                    "texto": "os cordeiros, conforme o seu N., segundo o esta-"
+                },
+                {
+                    "referencia": "Números 31.36",
+                    "texto": "que saíram à guerra, foi em N. de trezentas e"
+                },
+                {
+                    "referencia": "Deuteronômio 4.27",
+                    "texto": "povos, e ficareis poucos em N., entre as gentes às"
+                },
+                {
+                    "referencia": "Deuteronômio 7.7",
+                    "texto": "pois vós éreis menos em A, do que todos os povos,"
+                },
+                {
+                    "referencia": "Deuteronômio 20.1",
+                    "texto": "e carros, e povo maior em N, do que tu, deles"
+                },
+                {
+                    "referencia": "Deuteronômio 32.8",
+                    "texto": "termos dos povos, conforme o N. dos filhos de Israel."
+                },
+                {
+                    "referencia": "Josué 4.5",
+                    "texto": "sobre o seu ombro, segundo o N. das tribos dos"
+                },
+                {
+                    "referencia": "Josué 4.8",
+                    "texto": "dissera a Josué, segundo o N. das tribos dos"
+                },
+                {
+                    "referencia": "Juízes 7.6",
+                    "texto": "E foi o N. dos que lamberam, levando a mão à"
+                },
+                {
+                    "referencia": "Juízes 21.23",
+                    "texto": "mulheres conforme o N, deles, das que"
+                },
+                {
+                    "referencia": "ISm 6.4",
+                    "texto": "E disseram: Segundo o N. dos príncipes"
+                },
+                {
+                    "referencia": "1 Samuel 6.18",
+                    "texto": "os ratos de ouro, segundo o N. de todas as"
+                },
+                {
+                    "referencia": "ISm 27.7",
+                    "texto": "E foi o N. dos dias que Davi habitou na terra dos"
+                },
+                {
+                    "referencia": "2 Samuel 2.1",
+                    "texto": "E foi o N. dos dias que Davi reinou em Hebrom,"
+                },
+                {
+                    "referencia": "2 Samuel 6.1",
+                    "texto": "todos os escolhidos de Israel, em N. de trinta mil."
+                },
+                {
+                    "referencia": "2 Samuel 24.2",
+                    "texto": "e numera o povo, para que eu saiba o N. do povo."
+                },
+                {
+                    "referencia": "2 Samuel 24.9",
+                    "texto": "Joabe deu ao rei a soma do N, do povo contado:"
+                },
+                {
+                    "referencia": "1 Reis 7.47",
+                    "texto": "pelo seu excessivo N., não se"
+                },
+                {
+                    "referencia": "IRs 18.31",
+                    "texto": "doze pedras, conforme o N, das tribos dos"
+                },
+                {
+                    "referencia": "1 Crônicas 7.2",
+                    "texto": "de valor nas suas gerações; o seu N., nos dias"
+                },
+                {
+                    "referencia": "1 Crônicas 7.40",
+                    "texto": "exército para a guerra; foi seu N. de vinte e"
+                },
+                {
+                    "referencia": "1 Crônicas 11.11",
+                    "texto": "E estes foram do N. dos heróis que Davi tinha:"
+                },
+                {
+                    "referencia": "1 Crônicas 12.23",
+                    "texto": "Ora, este é o N. dos chefes armados para a"
+                },
+                {
+                    "referencia": "1 Crônicas 16.19",
+                    "texto": "Sendo vós em pequeno N., poucos homens, e"
+                },
+                {
+                    "referencia": "1 Crônicas 21.2",
+                    "texto": "Dã;e trazei-me a conta, para que saiba o N. deles."
+                },
+                {
+                    "referencia": "1 Crônicas 21.5",
+                    "texto": "Joabe deu a Davi a soma do N do povo; e era todo"
+                },
+                {
+                    "referencia": "1 Crônicas 22.16",
+                    "texto": "e do cobre, e do ferro não há N.; levanta-te,"
+                },
+                {
+                    "referencia": "1 Crônicas 23.3",
+                    "texto": "anos para cima; e foi o N. deles, segundo as"
+                },
+                {
+                    "referencia": "1 Crônicas 23.24",
+                    "texto": "segundo foram contados pelo N. dos nomes,"
+                },
+                {
+                    "referencia": "1 Crônicas 25.1",
+                    "texto": "e com saltérios; e este foi o N. dos homens"
+                },
+                {
+                    "referencia": "1 Crônicas 25.7",
+                    "texto": "E era o N, deles, juntamente com seus irmãos"
+                },
+                {
+                    "referencia": "1 Crônicas 27.1",
+                    "texto": "de Israel segundo o seu Ñ., e os chefes dos"
+                },
+                {
+                    "referencia": "1 Crônicas 27.23",
+                    "texto": "Não tomou, porém, Davi o N. dos de vinte anos"
+                },
+                {
+                    "referencia": "1 Crônicas 27.24",
+                    "texto": "ira sobre Israel; pelo que o N, se não pôs"
+                },
+                {
+                    "referencia": "2 Crônicas 15.9",
+                    "texto": "de Israel vinham a ele em grande N., vendo que o"
+                },
+                {
+                    "referencia": "2 Crônicas 17.14",
+                    "texto": "E este é o N. deles segundo as casas de seus"
+                },
+                {
+                    "referencia": "2 Crônicas 26.11",
+                    "texto": "guerra, em tropas, segundo o N., da lista feita"
+                },
+                {
+                    "referencia": "2 Crônicas 26.12",
+                    "texto": "Todo o N. dos chefes dos pais, varões valentes,"
+                },
+                {
+                    "referencia": "2 Crônicas 29.32",
+                    "texto": "E o N, dos holocaustos que a congregação trouxe"
+                },
+                {
+                    "referencia": "2 Crônicas 30.24",
+                    "texto": "e os sacerdotes se santificaram em grande N.."
+                },
+                {
+                    "referencia": "2 Crônicas 35.7",
+                    "texto": "os sacrifícios da Páscoa, em N. de trinta mil,"
+                },
+                {
+                    "referencia": "Esdras 1.9",
+                    "texto": "E este é o N., deles: trinta bacias de ouro, mil"
+                },
+                {
+                    "referencia": "Esdras 2.2",
+                    "texto": "Mispar, Bigvai, Reum e Baaná. O N. dos"
+                },
+                {
+                    "referencia": "Esdras 6.17",
+                    "texto": "de todo o Israel, segundo o N. das tribos de Israel."
+                },
+                {
+                    "referencia": "Esdras 8.34",
+                    "texto": "conforme o N. e conforme o peso de tudo aquilo; e"
+                },
+                {
+                    "referencia": "Neemias 7.7",
+                    "texto": "Bigvai, Neum e Baaná; este é o N, dos"
+                },
+                {
+                    "referencia": "Ester 9.11",
+                    "texto": "dia, veio perante o rei o N. dos mortos na"
+                },
+                {
+                    "referencia": "Jó 1.5",
+                    "texto": "e oferecia holocaustos segundo o N. de todos"
+                },
+                {
+                    "referencia": "Jó 3.6",
+                    "texto": "entre os dias do ano, e não entre no N, dos meses!"
+                },
+                {
+                    "referencia": "Jó 14.5",
+                    "texto": "contigo está o N. dos seus meses; e"
+                },
+                {
+                    "referencia": "Jó 15.20",
+                    "texto": "pena a si mesmo, no curto N. de anos que se"
+                },
+                {
+                    "referencia": "Jó 21.21",
+                    "texto": "depois de si, cortando-se-lhe o N, dos seus meses?"
+                },
+                {
+                    "referencia": "Jó 25.3",
+                    "texto": "Porventura, têm N. os seus exércitos? E para quem"
+                },
+                {
+                    "referencia": "Jó 31.37",
+                    "texto": "O N. dos meus passos lhe mostraria; como príncipe"
+                },
+                {
+                    "referencia": "Jó 36.26",
+                    "texto": "nós o não compreendemos, e o N, dos seus anos não"
+                },
+                {
+                    "referencia": "Jó 38.21",
+                    "texto": "eras nascido, e porque é grande o N, dos teus dias!"
+                },
+                {
+                    "referencia": "S171.15",
+                    "texto": "todo o dia, posto que não conheça o seu N.."
+                },
+                {
+                    "referencia": "S1139.18",
+                    "texto": "contasse, seriam em maior N. do que a areia;"
+                },
+                {
+                    "referencia": "SI 147.4",
+                    "texto": "conta o N, das estrelas, chamando-as a todas"
+                },
+                {
+                    "referencia": "Eclesiastes 2.3",
+                    "texto": "debaixo do céu, durante o N, dos dias de"
+                },
+                {
+                    "referencia": "Cânticos 6.8",
+                    "texto": "e oitenta, as concubinas, e as virgens, sem N.."
+                },
+                {
+                    "referencia": "Jeremias 11.13",
+                    "texto": "Porque, segundo o N, das tuas cidades, foram os"
+                },
+                {
+                    "referencia": "Jeremias 11.13",
+                    "texto": "deuses, ó Judá! E, segundo o N. das ruas de"
+                },
+                {
+                    "referencia": "Jeremias 44.28",
+                    "texto": "à terra de Judá, poucos em N,; e saberá todo o"
+                },
+                {
+                    "referencia": "Ezequiel 44",
+                    "texto": "sobre ele; conforme o N. dos dias que te"
+                },
+                {
+                    "referencia": "Ezequiel 4.5",
+                    "texto": "da sua maldade, conforme o N. dos dias,"
+                },
+                {
+                    "referencia": "Ezequiel 4.9",
+                    "texto": "e faze deles pão; conforme o N. dos dias"
+                },
+                {
+                    "referencia": "Ezequiel 5.3",
+                    "texto": "tomarás deles um pequeno N. e atá-los-ás nas"
+                },
+                {
+                    "referencia": "Daniel 9.2",
+                    "texto": "entendi pelos livros que o N. de anos, de que"
+                },
+                {
+                    "referencia": "Daniel 11.10",
+                    "texto": "e reunirão grande N, de exércitos; e um"
+                },
+                {
+                    "referencia": "Oséias 1.10",
+                    "texto": "Todavia, o N. dos filhos de Israel será como a"
+                },
+                {
+                    "referencia": "Mateus 21.36",
+                    "texto": "outros servos, em maior N, do que os"
+                },
+                {
+                    "referencia": "Lucas 6.17",
+                    "texto": "plano, e também um grande N. de seus"
+                },
+                {
+                    "referencia": "Lucas 22.3",
+                    "texto": "sobrenome Iscariotes, o qual era do N. dos doze."
+                },
+                {
+                    "referencia": "Jó 6.10",
+                    "texto": "pois, os homens em N. de quase cinco mil."
+                },
+                {
+                    "referencia": "Atos 4.4",
+                    "texto": "a palavra creram, e chegou o N, desses homens a"
+                },
+                {
+                    "referencia": "Atos 5.36",
+                    "texto": "alguém; a este se ajuntou o N, de uns"
+                },
+                {
+                    "referencia": "Atos 6.1",
+                    "texto": "naqueles dias, crescendo o N. dos discípulos,"
+                },
+                {
+                    "referencia": "Atos 6.7",
+                    "texto": "se multiplicava muito o N. dos discípulos, e"
+                },
+                {
+                    "referencia": "Atos 11.21",
+                    "texto": "era com eles; e grande N. creu e se"
+                },
+                {
+                    "referencia": "Atos 16.5",
+                    "texto": "eram confirmadas na fé e cada dia cresciam em N.."
+                },
+                {
+                    "referencia": "Romanos 9.27",
+                    "texto": "de Israel: Ainda que o N. dos filhos de"
+                },
+                {
+                    "referencia": "2 Timóteo 3.6",
+                    "texto": "Porque deste N, são os que se introduzem pelas"
+                },
+                {
+                    "referencia": "Hebreus 7.23",
+                    "texto": "feitos sacerdotes em grande N., porque, pela"
+                },
+                {
+                    "referencia": "Apocalipse 5.11",
+                    "texto": "e dos anciãos; e era o N, deles milhões de"
+                },
+                {
+                    "referencia": "Apocalipse 6.11",
+                    "texto": "que também se completasse o N. de seus conservos"
+                },
+                {
+                    "referencia": "Apocalipse 9.16",
+                    "texto": "E o N. dos exércitos dos cavaleiros era de"
+                },
+                {
+                    "referencia": "Apocalipse 9.16",
+                    "texto": "era de duzentos milhões; e ouvi o N, deles."
+                },
+                {
+                    "referencia": "Apocalipse 13.17",
+                    "texto": "o sinal, ou o nome da besta, ou o N. do seu nome."
+                },
+                {
+                    "referencia": "Apocalipse 13.18",
+                    "texto": "tem entendimento calcule o N. da besta, porque é"
+                },
+                {
+                    "referencia": "Apocalipse 13.18",
+                    "texto": "é N. de homem; e o seu N, é seiscentos e"
+                },
+                {
+                    "referencia": "Apocalipse 15.2",
+                    "texto": "imagem, e do seu sinal, e do N, do seu nome, que"
+                },
+                {
+                    "referencia": "Apocalipse 20.8",
+                    "texto": "terra, Gogue e Magogue, cujo N. é como a areia do"
+                }
+            ]
+        }
+    ]
+}

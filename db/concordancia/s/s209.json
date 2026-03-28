@@ -1,0 +1,592 @@
+{
+    "s": [
+        {
+            "palavra": "SIM",
+            "veja tambem": [],
+            "ocorrencias": 145,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Êxodo 6.1",
+                    "texto": "por mão poderosa, os deixará ir; S., por mão"
+                },
+                {
+                    "referencia": "Êxodo 16.1",
+                    "texto": "de Israel veio ao deserto de S., que está entre Elim"
+                },
+                {
+                    "referencia": "Êxodo 16.8",
+                    "texto": "murmurações não são contra nós, mas S, contra o Se-"
+                },
+                {
+                    "referencia": "Êxodo 17.1",
+                    "texto": "Israel partiu do deserto de S, pelas suas jornadas,"
+                },
+                {
+                    "referencia": "Números 33.11",
+                    "texto": "do mar Vermelho e acamparam-se no deserto de S.."
+                },
+                {
+                    "referencia": "Números 33.12",
+                    "texto": "E partiram do deserto de $, e acamparam-se em"
+                },
+                {
+                    "referencia": "Deuteronômio 17.5",
+                    "texto": "malefício às tuas portas, S., o tal homem ou"
+                },
+                {
+                    "referencia": "1 Samuel 9.12",
+                    "texto": "responderam e disseram: S., eis aqui o tens"
+                },
+                {
+                    "referencia": "1 Samuel 18.17",
+                    "texto": "seja contra ele a minha mão, mas, $,, a dos filis-"
+                },
+                {
+                    "referencia": "1 Samuel 21.5",
+                    "texto": "ao sacerdote e lhe disse: S., em boa fé, as"
+                },
+                {
+                    "referencia": "2 Samuel 22.42",
+                    "texto": "porém, não houve libertador, S., para o Senhor,"
+                },
+                {
+                    "referencia": "2 Reis 18.10",
+                    "texto": "ao fim de três anos; S., no ano sexto de"
+                },
+                {
+                    "referencia": "Neemias 6.10",
+                    "texto": "do templo; porque virão matar-te; S., de noite"
+                },
+                {
+                    "referencia": "Jó 6.29",
+                    "texto": "não haja iniquidade; voltai, S., que a minha causa"
+                },
+                {
+                    "referencia": "Jó 11.12",
+                    "texto": "é falto de entendimento; S., o homem nasce como a"
+                },
+                {
+                    "referencia": "Jó 14.10",
+                    "texto": "morto o homem, é consumido; S., rendendo o ho-"
+                },
+                {
+                    "referencia": "Jó 17.15",
+                    "texto": "agora, a minha esperança? S., aminha"
+                },
+                {
+                    "referencia": "Jó 18.13",
+                    "texto": "os membros do seu corpo; S., o primogênito da"
+                },
+                {
+                    "referencia": "Jó 22.30",
+                    "texto": "até ao que não é inocente; S., ele será libertado"
+                },
+                {
+                    "referencia": "S118.10",
+                    "texto": "montou num querubim e voou; S., voou sobre as asas"
+                },
+                {
+                    "referencia": "SI 18.48",
+                    "texto": "me livra de meus inimigos; — S., tu me exaltas sobre"
+                },
+                {
+                    "referencia": "Salmos 19.10",
+                    "texto": "são do que o ouro, S., do que muito ouro"
+                },
+                {
+                    "referencia": "Salmos 22.21",
+                    "texto": "Salva-me da boca do leão; S., ouve-me desde as"
+                },
+                {
+                    "referencia": "S127.6",
+                    "texto": "no seu tabernáculo; cantarei, 8., cantarei louvores"
+                },
+                {
+                    "referencia": "S129.5",
+                    "texto": "do Senhor quebra os cedros; S., o Senhor quebra os"
+                },
+                {
+                    "referencia": "S135.10",
+                    "texto": "que é mais forte do que ele; S., o pobre e o"
+                },
+                {
+                    "referencia": "S190.2",
+                    "texto": "formasses a terra e o mundo, $., de eternidade a"
+                },
+                {
+                    "referencia": "S190.17",
+                    "texto": "nós a obra das nossas mãos; 8., confirma a obra"
+                },
+                {
+                    "referencia": "S1105.12",
+                    "texto": "eram ainda poucos homens, $., muito poucos, e"
+                },
+                {
+                    "referencia": "Salmos 136.22",
+                    "texto": "S., em herança a Israel, seu servo; porque a sua"
+                },
+                {
+                    "referencia": "Provérbios 3.24",
+                    "texto": "te deitares, não temerás; S., tu te deitarás, e o"
+                },
+                {
+                    "referencia": "Provérbios 4.7",
+                    "texto": "adquire, pois, a sabedoria; S., com tudo o que"
+                },
+                {
+                    "referencia": "Provérbios 8.16",
+                    "texto": "os príncipes e os nobres; $., todos os juízes da terra."
+                },
+                {
+                    "referencia": "Provérbios 8.18",
+                    "texto": "e honra estão comigo; S., riquezas duráveis e justiça."
+                },
+                {
+                    "referencia": "Provérbios 8.19",
+                    "texto": "o meu fruto do que o ouro, 4., do que o ouro"
+                },
+                {
+                    "referencia": "Provérbios 22.19",
+                    "texto": "no Senhor, a ti tas faço saber hoje, $., a ti mesmo."
+                },
+                {
+                    "referencia": "Provérbios 23.15",
+                    "texto": "sábio, alegrar-se-á o meu coração, S., o meu próprio"
+                },
+                {
+                    "referencia": "Provérbios 23.23",
+                    "texto": "a verdade e não a vendas; S., a sabedoria, e a"
+                },
+                {
+                    "referencia": "Eclesiastes 2.17",
+                    "texto": "do sol me era penosa; S., tudo é vaidade e"
+                },
+                {
+                    "referencia": "Eclesiastes 4.8",
+                    "texto": "que é só e não tem segundo; S., ele não tem filho"
+                },
+                {
+                    "referencia": "Fc 4.14",
+                    "texto": "sai do cárcere para reinar; $., um que nasceu pobre"
+                },
+                {
+                    "referencia": "Cânticos 5.16",
+                    "texto": "falar é muitíssimo suave; S., ele é totalmente"
+                },
+                {
+                    "referencia": "Isaías 1.15",
+                    "texto": "escondo de vós os olhos; $., quando"
+                },
+                {
+                    "referencia": "Isaías 5.29",
+                    "texto": "rugirão como filhos de leão; &amp;., rugirão, e"
+                },
+                {
+                    "referencia": "Isaías 9.18",
+                    "texto": "as sarças e os espinheiros; $., ela se ateará no"
+                },
+                {
+                    "referencia": "Isaías 10.21",
+                    "texto": "Os resíduos se converterão, S., os resíduos de Jacó,"
+                },
+                {
+                    "referencia": "Isaías 13.3",
+                    "texto": "aos meus santificados, S., já chamei os meus"
+                },
+                {
+                    "referencia": "Isaías 19.21",
+                    "texto": "ao Senhor, naquele dia; S., eles o adorarão"
+                },
+                {
+                    "referencia": "Isaías 24.16",
+                    "texto": "Os pérfidos tratam perfidamente; S., os pérfidos"
+                },
+                {
+                    "referencia": "Isaías 27.5",
+                    "texto": "força e faça paz comigo; S., que faça paz comigo."
+                },
+                {
+                    "referencia": "Isaías 30.33",
+                    "texto": "está preparada desde ontem, S., está preparada par:"
+                },
+                {
+                    "referencia": "Isaías 43.7",
+                    "texto": "criei para minha glória; eu os formei, S eu os fiz."
+                },
+                {
+                    "referencia": "Isaías 48.3",
+                    "texto": "a antiguidade, as anunciei; S., pronunciou-as a"
+                },
+                {
+                    "referencia": "Isaías 55.1",
+                    "texto": "vinde, comprai e comei; S., vinde e comprai,"
+                },
+                {
+                    "referencia": "Isaías 59.10",
+                    "texto": "as paredes como cegos; S., como os que não têm"
+                },
+                {
+                    "referencia": "Isaías 59.15",
+                    "texto": "S., a verdade desfalece, e quem se desvia do mal"
+                },
+                {
+                    "referencia": "Isaías 60.12",
+                    "texto": "te não servirem perecerão; S., essas nações de todo"
+                },
+                {
+                    "referencia": "Isaías 65.6",
+                    "texto": "me calarei; mas eu pagarei, $., deitar-lhes-ei a"
+                },
+                {
+                    "referencia": "Jeremias 11.22",
+                    "texto": "S., assim diz o Senhor dos Exércitos: Eis que eu os"
+                },
+                {
+                    "referencia": "Jeremias 13.19",
+                    "texto": "o Judá foi levado cativo; S., inteiramente foi"
+                },
+                {
+                    "referencia": "Jeremias 19.12",
+                    "texto": "Senhor, e aos seus moradores; S., para pôr esta"
+                },
+                {
+                    "referencia": "Jeremias 20.5",
+                    "texto": "as suas coisas preciosas; S., todos os tesouros"
+                },
+                {
+                    "referencia": "Jeremias 31.19",
+                    "texto": "na minha coxa; fiquei confuso; 9.,"
+                },
+                {
+                    "referencia": "Jeremias 48.31",
+                    "texto": "Por isso, gemerei por Moabe; $., gritarei por todo o"
+                },
+                {
+                    "referencia": "Jeremias 50.7",
+                    "texto": "Senhor e a morada da justiça, S., o Senhor, a"
+                },
+                {
+                    "referencia": "Ezequiel 5.8",
+                    "texto": "o Senhor Jeová: Eis que eu, S., eu mesmo, estou"
+                },
+                {
+                    "referencia": "Ezequiel 6.3",
+                    "texto": "ribeiros e aos vales: Eis que eu, S., eu mesmo,"
+                },
+                {
+                    "referencia": "Ezequiel 13.10",
+                    "texto": "Visto que, S., visto que andam enganando o meu"
+                },
+                {
+                    "referencia": "Ezequiel 16.6",
+                    "texto": "que estás no teu sangue, vive; $., disse-te: Ainda"
+                },
+                {
+                    "referencia": "Ezequiel 17.16",
+                    "texto": "e cujo concerto quebrantou, $., com ele, no meio"
+                },
+                {
+                    "referencia": "Ezequiel 28.26",
+                    "texto": "casas, e plantarão vinhas; S., habitarão seguros,"
+                },
+                {
+                    "referencia": "Ezequiel 30.3",
+                    "texto": "Porque está perto o dia, S., está perto o dia do"
+                },
+                {
+                    "referencia": "Ezequiel 30.15",
+                    "texto": "o meu furor sobre $., a força do Egito, e"
+                },
+                {
+                    "referencia": "Ezequiel 30.16",
+                    "texto": "E atearei um fogo no Egito; S. terá grande dor, e Nô"
+                },
+                {
+                    "referencia": "Ezequiel 31.17",
+                    "texto": "foram traspassados à espada; S., aos que foram seu"
+                },
+                {
+                    "referencia": "Ezequiel 32.31",
+                    "texto": "com toda a sua multidão; S., o próprio Faraó e"
+                },
+                {
+                    "referencia": "Ezequiel 34.6",
+                    "texto": "e por todo o alto outeiro; S., as minhas ovelhas"
+                },
+                {
+                    "referencia": "Ezequiel 35.15",
+                    "texto": "ó monte Seir, e todo o Edom, $,, todo; e saberão"
+                },
+                {
+                    "referencia": "Ezequiel 36.10",
+                    "texto": "a toda a casa de Israel, S., a toda ela; e as"
+                },
+                {
+                    "referencia": "Ezequiel 38.7",
+                    "texto": "Prepara-te, S., dispõe-te, tu e todas as tuas"
+                },
+                {
+                    "referencia": "Ezequiel 39.13",
+                    "texto": "S., todo o povo da terra os enterrará, e será para"
+                },
+                {
+                    "referencia": "Daniel 5.11",
+                    "texto": "eteu pai, o rei Nabucodonosor, S., teu pai, ó"
+                },
+                {
+                    "referencia": "Daniel 9.11",
+                    "texto": "S., todo o Israel transgrediu a tua lei,"
+                },
+                {
+                    "referencia": "Daniel 10.19",
+                    "texto": "Paz seja contigo! Anima-te, S., anima-te! E,"
+                },
+                {
+                    "referencia": "Oséias 6.9",
+                    "texto": "no caminho para Siquém; S., eles têm praticado abo-"
+                },
+                {
+                    "referencia": "Oséias 9.16",
+                    "texto": "a sua raiz; não darão fruto; S., ainda que gerem,"
+                },
+                {
+                    "referencia": "Oséias 12.5",
+                    "texto": "S., como Senhor, o Deus dos Exércitos; o Senhor é o"
+                },
+                {
+                    "referencia": "Ji 2.3",
+                    "texto": "atrás dele um desolado deserto; S., nada lhe escapará."
+                },
+                {
+                    "referencia": "Obadias 1.13",
+                    "texto": "no dia da sua calamidade; S., tu não devias"
+                },
+                {
+                    "referencia": "Mg 2.10",
+                    "texto": "da corrupção que destrói S., que destrói grande-"
+                },
+                {
+                    "referencia": "Mg 3.7",
+                    "texto": "se confundirão, S., todos eles cobrirão"
+                },
+                {
+                    "referencia": "Miquéias 4.8",
+                    "texto": "da filha de Sião, a ti virá; S., a ti virá o"
+                },
+                {
+                    "referencia": "Naum 1.5",
+                    "texto": "se levanta na sua presença, S., o mundo e todos os"
+                },
+                {
+                    "referencia": "Habacuque 1.8",
+                    "texto": "espalham-se por toda parte; S., os seus cavaleiros"
+                },
+                {
+                    "referencia": "Sofonias 2.1",
+                    "texto": "Congrega-te, 8 congrega-te, ó nação que não tens de-"
+                },
+                {
+                    "referencia": "St2.2",
+                    "texto": "sobre vós a ira do Senhor; S., antes que venha"
+                },
+                {
+                    "referencia": "Zacarias 3.2",
+                    "texto": "te repreende, ó Satanás, 8., o Senhor, que"
+                },
+                {
+                    "referencia": "Zacarias 7.12",
+                    "texto": "S., fizeram o seu coração duro como diamante, para"
+                },
+                {
+                    "referencia": "Zacarias 8.23",
+                    "texto": "as línguas das nações, pegarão, S., na orla da veste"
+                },
+                {
+                    "referencia": "Mateus 5.37",
+                    "texto": "Seja, porém, o vosso falar: S., $.; não, não,"
+                },
+                {
+                    "referencia": "Mateus 5.37",
+                    "texto": "porém, o vosso falar: S., $.; não, não, porque"
+                },
+                {
+                    "referencia": "Mateus 6.18",
+                    "texto": "aos homens que jejuas, mas S. a teu Pai, que está"
+                },
+                {
+                    "referencia": "Mateus 9.12",
+                    "texto": "Não necessitam de médico os sãos, mas S., os do-"
+                },
+                {
+                    "referencia": "Mateus 9.28",
+                    "texto": "eu possa fazer isto? Disseram-lhe eles: S., Senhor."
+                },
+                {
+                    "referencia": "Mateus 11.8",
+                    "texto": "S., que fostes ver? Um homem ricamente vestido? Os"
+                },
+                {
+                    "referencia": "Mateus 11.9",
+                    "texto": "que fostes ver? Um profeta? S., vos digo eu, e"
+                },
+                {
+                    "referencia": "Mateus 11.26",
+                    "texto": "S., ó Pai, porque assim te aprouve."
+                },
+                {
+                    "referencia": "Mateus 13.51",
+                    "texto": "todas estas coisas? Disseram-lhe eles: S., Senhor."
+                },
+                {
+                    "referencia": "Mateus 15.27",
+                    "texto": "E ela disse: S., Senhor, mas também os cachorrinhos"
+                },
+                {
+                    "referencia": "Mateus 17.25",
+                    "texto": "Disse ele: S.. E, entrando em casa, Jesus se lhe"
+                },
+                {
+                    "referencia": "Mateus 21.16",
+                    "texto": "dizem? E Jesus lhes disse: 8,; nunca lestes: Pela"
+                },
+                {
+                    "referencia": "Marcos 2.17",
+                    "texto": "não necessitam de médico, mas S. os que estão"
+                },
+                {
+                    "referencia": "a 7.28",
+                    "texto": "porém, respondeu e disse-lhe: S., Senhor; mas tam-"
+                },
+                {
+                    "referencia": "Marcos 12.27",
+                    "texto": "Deus não é de mortos, mas S. é Deus de vivos. Por"
+                },
+                {
+                    "referencia": "Lucas 5.31",
+                    "texto": "médico os que estão sãos, mas S. os que estão enfer-"
+                },
+                {
+                    "referencia": "Lucas 5.32",
+                    "texto": "vim chamar os justos, mas S. os pecadores, ao arre-"
+                },
+                {
+                    "referencia": "Lucas 7.26",
+                    "texto": "saístes a ver? Um profeta? S., vos digo, e muito"
+                },
+                {
+                    "referencia": "Lucas 12.5",
+                    "texto": "poder para lançar no inferno; S., vos digo, a esse temei."
+                },
+                {
+                    "referencia": "Jó 11.27",
+                    "texto": "Disse-lhe ela: S., Senhor, creio que tu és o Cristo,"
+                },
+                {
+                    "referencia": "Jó 21.15",
+                    "texto": "do que estes? E ele respondeu: $S., Senhor; tu"
+                },
+                {
+                    "referencia": "Jó 21.16",
+                    "texto": "de Jonas, amas-me? Disse-lhe: S., Senhor; tu sabes"
+                },
+                {
+                    "referencia": "Atos 5.8",
+                    "texto": "por tanto aquela herdade? E ela disse: S., por tanto."
+                },
+                {
+                    "referencia": "Atos 22.27",
+                    "texto": "disse-lhe: Dize-me, és tu romano? E ele disse: S.."
+                },
+                {
+                    "referencia": "Romanos 9.30",
+                    "texto": "justiça, alcançaram a justiça? S., mas a justiça"
+                },
+                {
+                    "referencia": "Romanos 10.18",
+                    "texto": "Porventura, não ouviram? S., por certo, pois"
+                },
+                {
+                    "referencia": "1 Coríntios 7.19",
+                    "texto": "a incircuncisão nada é, mas, 8., a observância dos"
+                },
+                {
+                    "referencia": "2 Coríntios 1.17",
+                    "texto": "a carne, para que haja em mim S., 8. e não, não?"
+                },
+                {
+                    "referencia": "2 Coríntios 1.18",
+                    "texto": "fiel, a nossa palavra para convosco não foi $. e não."
+                },
+                {
+                    "referencia": "2 Coríntios 1.19",
+                    "texto": "e Silvano, e Timóteo, não foi S. e não; mas nele"
+                },
+                {
+                    "referencia": "2 Coríntios 1.19",
+                    "texto": "e Timóteo, não foi S. e não; mas nele houve S.."
+                },
+                {
+                    "referencia": "2 Coríntios 1.20",
+                    "texto": "há de Deus são nele S.; e por ele o Amém,"
+                },
+                {
+                    "referencia": "2 Coríntios 10.4",
+                    "texto": "não são carnais, mas, S., poderosas em Deus,"
+                },
+                {
+                    "referencia": "2 Coríntios 10.18",
+                    "texto": "a si mesmo se louva, mas, S., aquele a quem o"
+                },
+                {
+                    "referencia": "2 Coríntios 12.14",
+                    "texto": "não busco o que é vosso, mas, S., a vós; porque"
+                },
+                {
+                    "referencia": "G15.6",
+                    "texto": "têm virtude alguma, mas, S., a fé que opera"
+                },
+                {
+                    "referencia": "Gálatas 6.15",
+                    "texto": "têm virtude alguma, mas S. o ser uma nova criatura."
+                },
+                {
+                    "referencia": "Efésios 6.12",
+                    "texto": "contra carne e sangue, mas, $., contra os"
+                },
+                {
+                    "referencia": "1 Tessalonicenses 4.8",
+                    "texto": "não despreza ao homem, mas, S., a Deus, que nos"
+                },
+                {
+                    "referencia": "2 Timóteo 2.24",
+                    "texto": "não convém contender, mas, S., ser manso para"
+                },
+                {
+                    "referencia": "Filemom 1.20",
+                    "texto": "S., irmão, eu me regozijarei de ti no Senhor;"
+                },
+                {
+                    "referencia": "Hebreus 11.17",
+                    "texto": "a Isaque, quando foi provado, S., aquele que"
+                },
+                {
+                    "referencia": "Tiago 5.12",
+                    "texto": "mas que a vossa palavra seja $., S. e não, não,"
+                },
+                {
+                    "referencia": "Tiago 5.12",
+                    "texto": "que a vossa palavra seja S., S. e não, não, para"
+                },
+                {
+                    "referencia": "Apocalipse 1.7",
+                    "texto": "as tribos da terra se lamentarão sobre ele. 3.! Amém!"
+                },
+                {
+                    "referencia": "Apocalipse 14.13",
+                    "texto": "desde agora, morrem no Senhor. S., diz o Espírito,"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,387 @@
+{
+  "livro": "Gênesis - בְּרֵאשִׁית - Bereshit",
+  "capítulo": 14,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E aconteceu nos dias de Anrafel, rei de Sinar, de Arioque, rei de Elasar, de Quedorlaomer, rei de Elão, e de Tidal, rei de Goim,",
+      "palavras": [
+        { "hebraico": "וַיְהִ֗י", "transliteral": "wayəhî", "traducao_palavra": "E aconteceu" },
+        { "hebraico": "בִּימֵי֙", "transliteral": "bîmê", "traducao_palavra": "nos dias de" },
+        { "hebraico": "אַמְרָפֶ֣ל", "transliteral": "ʾamrāp̱el", "traducao_palavra": "Anrafel" },
+        { "hebraico": "מֶֽלֶךְ־שִׁנְעָ֔ר", "transliteral": "meleḵ-šinəʿār", "traducao_palavra": "rei de Sinar" },
+        { "hebraico": "אַרְיֹ֖וךְ", "transliteral": "ʾaryôḵ", "traducao_palavra": "Arioque" },
+        { "hebraico": "מֶ֣לֶךְ אֶלָּסָ֑ר", "transliteral": "meleḵ ʾellāsār", "traducao_palavra": "rei de Elasar" },
+        { "hebraico": "כְּדָרְלָעֹ֙מֶר֙", "transliteral": "kəḏārlāʿōmer", "traducao_palavra": "Quedorlaomer" },
+        { "hebraico": "מֶ֣לֶךְ עֵילָ֔ם", "transliteral": "meleḵ ʿêlām", "traducao_palavra": "rei de Elão" },
+        { "hebraico": "וְתִדְעָ֖ל", "transliteral": "wəṯiḏʿāl", "traducao_palavra": "e Tidal" },
+        { "hebraico": "מֶ֥לֶךְ גֹּויִֽם׃", "transliteral": "meleḵ gôyim", "traducao_palavra": "rei de Goim" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "fizeram eles guerra contra Bera, rei de Sodoma, e contra Birsa, rei de Gomorra, Sinabe, rei de Admá, e Semeber, rei de Zeboim, e o rei de Bela (esta é Zoar).",
+      "palavras": [
+        { "hebraico": "עָשׂ֣וּ", "transliteral": "ʿāśû", "traducao_palavra": "fizeram" },
+        { "hebraico": "מִלְחָמָ֗ה", "transliteral": "milḥāmâ", "traducao_palavra": "guerra" },
+        { "hebraico": "אֶת־בֶּ֙רַע֙", "transliteral": "ʾeṯ-berʿa", "traducao_palavra": "com Bera" },
+        { "hebraico": "מֶ֣לֶךְ סְדֹ֔ם", "transliteral": "meleḵ səḏōm", "traducao_palavra": "rei de Sodoma" },
+        { "hebraico": "וְאֶת־בִּרְשַׁ֖ע", "transliteral": "wəʾeṯ-biršaʿ", "traducao_palavra": "e com Birsa" },
+        { "hebraico": "מֶ֣לֶךְ עֲמֹרָ֑ה", "transliteral": "meleḵ ʿămōrâ", "traducao_palavra": "rei de Gomorra" },
+        { "hebraico": "שִׁנְאָ֞ב", "transliteral": "šinʾāḇ", "traducao_palavra": "Sinabe" },
+        { "hebraico": "מֶ֣לֶךְ אַדְמָ֗ה", "transliteral": "meleḵ ʾaḏmâ", "traducao_palavra": "rei de Admá" },
+        { "hebraico": "וְשֶׁמְאֵ֙בֶר֙", "transliteral": "wəšeməʾēḇer", "traducao_palavra": "e Semeber" },
+        { "hebraico": "מֶ֣לֶךְ צְבֹויִ֔ים", "transliteral": "meleḵ ṣəḇôyim", "traducao_palavra": "rei de Zeboim" },
+        { "hebraico": "וּמֶ֥לֶךְ בֶּ֖לַע", "transliteral": "ûmeleḵ belaʿ", "traducao_palavra": "e o rei de Bela" },
+        { "hebraico": "הִיא־צֹֽעַר׃", "transliteral": "hî-ṣōʿar", "traducao_palavra": "esta [é] Zoar" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Todos estes se ajuntaram no vale de Sidim (este é o Mar do Sal).",
+      "palavras": [
+        { "hebraico": "כָּל־אֵ֙לֶּה֙", "transliteral": "kāl-ʾēlleh", "traducao_palavra": "Todos estes" },
+        { "hebraico": "חָבְר֔וּ", "transliteral": "ḥāḇərû", "traducao_palavra": "ajuntaram-se" },
+        { "hebraico": "אֶל־עֵ֖מֶק", "transliteral": "ʾel-ʿēmeq", "traducao_palavra": "para o vale de" },
+        { "hebraico": "הַשִּׂדִּ֑ים", "transliteral": "haśśiddîm", "traducao_palavra": "Sidim" },
+        { "hebraico": "ה֖וּא", "transliteral": "hû", "traducao_palavra": "ele [é]" },
+        { "hebraico": "יָ֥ם הַמֶּֽלַח׃", "transliteral": "yām hammelaḥ", "traducao_palavra": "Mar do Sal" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Doze anos serviram a Quedorlaomer, mas ao décimo terceiro ano rebelaram-se.",
+      "palavras": [
+        { "hebraico": "שְׁתֵּים־עֶשְׂרֵ֣ה", "transliteral": "šəttêm-ʿeśrēh", "traducao_palavra": "Doze" },
+        { "hebraico": "שָׁנָ֔ה", "transliteral": "šānâ", "traducao_palavra": "anos" },
+        { "hebraico": "עָבְד֖וּ", "transliteral": "ʿāḇəḏû", "traducao_palavra": "serviram" },
+        { "hebraico": "אֶת־כְּדָרְלָעֹ֑מֶר", "transliteral": "ʾeṯ-kəḏārlāʿōmer", "traducao_palavra": "[obj] Quedorlaomer" },
+        { "hebraico": "וּשְׁלֹשׁ־עֶשְׂרֵ֥ה", "transliteral": "ûšəlōš-ʿeśrēh", "traducao_palavra": "e treze" },
+        { "hebraico": "שָׁנָ֖ה", "transliteral": "šānâ", "traducao_palavra": "anos" },
+        { "hebraico": "מָרָֽדוּ׃", "transliteral": "mārāḏû", "traducao_palavra": "rebelaram-se" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E ao décimo quarto ano veio Quedorlaomer e os reis que estavam com ele, e feriram os refains em Asterote-Carnaim, e os zuzins em Ham, e os emins em Savé-Quiriataim,",
+      "palavras": [
+        { "hebraico": "וּבְאַרְבַּע־עֶשְׂרֵ֨ה", "transliteral": "ûḇəʾarbaʿ-ʿeśrēh", "traducao_palavra": "E no quatorze" },
+        { "hebraico": "שָׁנָ֜ה", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "בָּ֣א", "transliteral": "bāʾ", "traducao_palavra": "veio" },
+        { "hebraico": "כְדָרְלָעֹ֗מֶר", "transliteral": "ḵəḏārlāʿōmer", "traducao_palavra": "Quedorlaomer" },
+        { "hebraico": "וְהַמְּלָכִים֙", "transliteral": "wəhamməlāḵîm", "traducao_palavra": "e os reis" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "אִתֹּ֔ו", "transliteral": "ʾittô", "traducao_palavra": "com ele" },
+        { "hebraico": "וַיַּכּ֤וּ", "transliteral": "wayyakkû", "traducao_palavra": "e feriram" },
+        { "hebraico": "אֶת־רְפָאִים֙", "transliteral": "ʾeṯ-rəp̱āʾîm", "traducao_palavra": "[obj] os refains" },
+        { "hebraico": "בְּעַשְׁתְּרֹ֣ת", "transliteral": "bəʿašttərōṯ", "traducao_palavra": "em Asterote" },
+        { "hebraico": "קַרְנַ֔יִם", "transliteral": "qarnayim", "traducao_palavra": "Carnaim" },
+        { "hebraico": "וְאֶת־הַזּוּזִים֙", "transliteral": "wəʾeṯ-hazzûzîm", "traducao_palavra": "e [obj] os zuzins" },
+        { "hebraico": "בְּהָ֑ם", "transliteral": "bəhām", "traducao_palavra": "em Ham" },
+        { "hebraico": "וְאֵת֙", "transliteral": "wəʾēṯ", "traducao_palavra": "e [obj]" },
+        { "hebraico": "הָֽאֵימִ֔ים", "transliteral": "hāʾêmîm", "traducao_palavra": "os emins" },
+        { "hebraico": "בְּשָׁוֵ֖ה", "transliteral": "bəšāwēh", "traducao_palavra": "em Savé" },
+        { "hebraico": "קִרְיָתָֽיִם׃", "transliteral": "qiryāṯāyim", "traducao_palavra": "Quiriataim" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E aos horeus no seu monte Seir, até El-Parã que está junto ao deserto.",
+      "palavras": [
+        { "hebraico": "וְאֶת־הַחֹרִ֖י", "transliteral": "wəʾeṯ-haḥōrî", "traducao_palavra": "e [obj] o horeu" },
+        { "hebraico": "בְּהַרְרָ֣ם", "transliteral": "bəharərām", "traducao_palavra": "em seu monte" },
+        { "hebraico": "שֵׂעִ֑יר", "transliteral": "śēʿîr", "traducao_palavra": "Seir" },
+        { "hebraico": "עַ֚ד", "transliteral": "ʿaḏ", "traducao_palavra": "até" },
+        { "hebraico": "אֵ֣יל פָּארָ֔ן", "transliteral": "ʾêl pāʾrān", "traducao_palavra": "El-Parã" },
+        { "hebraico": "אֲשֶׁ֖ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "עַל־הַמִּדְבָּֽר׃", "transliteral": "ʿal-hammiḏbbār", "traducao_palavra": "sobre/junto ao deserto" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Depois voltaram e vieram a En-Mispate (que é Cades), e feriram toda a terra dos amalequitas, e também os amorreus, que habitavam em Hazazom-Tamar.",
+      "palavras": [
+        { "hebraico": "וַ֠יָּשֻׁבוּ", "transliteral": "wayyāšubû", "traducao_palavra": "E voltaram" },
+        { "hebraico": "וַיָּבֹ֨אוּ", "transliteral": "wayyāḇōʾû", "traducao_palavra": "e vieram" },
+        { "hebraico": "אֶל־עֵ֥ין מִשְׁפָּ֛ט", "transliteral": "ʾel-ʿên mišppāṭ", "traducao_palavra": "para En-Mispate" },
+        { "hebraico": "הִ֥יא", "transliteral": "hî", "traducao_palavra": "ela [é]" },
+        { "hebraico": "קָדֵ֑שׁ", "transliteral": "qāḏēš", "traducao_palavra": "Cades" },
+        { "hebraico": "וַיַּכּוּ֙", "transliteral": "wayyakkû", "traducao_palavra": "e feriram" },
+        { "hebraico": "אֶת־כָּל־שְׂדֵה֙", "transliteral": "ʾeṯ-kāl-śəḏēh", "traducao_palavra": "[obj] todo o campo de" },
+        { "hebraico": "הָעֲמָלֵקִ֔י", "transliteral": "hāʿămālēqî", "traducao_palavra": "o amalequita" },
+        { "hebraico": "וְגַם֙", "transliteral": "wəḡam", "traducao_palavra": "e também" },
+        { "hebraico": "אֶת־הָאֱמֹרִ֔י", "transliteral": "ʾeṯ-hāʾĕmōrî", "traducao_palavra": "[obj] o amorreu" },
+        { "hebraico": "הַיֹּשֵׁ֖ב", "transliteral": "hayyōšēḇ", "traducao_palavra": "o habitante" },
+        { "hebraico": "בְּחַֽצֲצֹ֥ן תָּמָֽר׃", "transliteral": "bəḥaṣaṣōn tāmār", "traducao_palavra": "em Hazazom-Tamar" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Então saiu o rei de Sodoma, e o rei de Gomorra, e o rei de Admá, e o rei de Zeboim, e o rei de Bela (esta é Zoar), e ordenaram batalha contra eles no vale de Sidim,",
+      "palavras": [
+        { "hebraico": "וַיֵּצֵ֨א", "transliteral": "wayyēṣēʾ", "traducao_palavra": "E saiu" },
+        { "hebraico": "מֶֽלֶךְ־סְדֹ֜ם", "transliteral": "meleḵ-səḏōm", "traducao_palavra": "rei de Sodoma" },
+        { "hebraico": "וּמֶ֤לֶךְ עֲמֹרָה֙", "transliteral": "ûmeleḵ ʿămōrâ", "traducao_palavra": "e rei de Gomorra" },
+        { "hebraico": "וּמֶ֣לֶךְ אַדְמָ֔ה", "transliteral": "ûmeleḵ ʾaḏmâ", "traducao_palavra": "e rei de Admá" },
+        { "hebraico": "וּמֶ֥לֶךְ צְבֹיִ֖ים", "transliteral": "ûmeleḵ ṣəḇōyim", "traducao_palavra": "e rei de Zeboim" },
+        { "hebraico": "וּמֶ֣לֶךְ בֶּ֔לַע", "transliteral": "ûmeleḵ belaʿ", "traducao_palavra": "e rei de Bela" },
+        { "hebraico": "הִיא־צֹ֑עַר", "transliteral": "hî-ṣōʿar", "traducao_palavra": "esta [é] Zoar" },
+        { "hebraico": "וַיַּעַרְכ֤וּ", "transliteral": "wayyaʿarḵû", "traducao_palavra": "e ordenaram" },
+        { "hebraico": "אִתָּם֙", "transliteral": "ʾittām", "traducao_palavra": "com eles" },
+        { "hebraico": "מִלְחָמָ֔ה", "transliteral": "milḥāmâ", "traducao_palavra": "batalha" },
+        { "hebraico": "בְּעֵ֖מֶק", "transliteral": "bəʿēmeq", "traducao_palavra": "no vale de" },
+        { "hebraico": "הַשִּׂדִּֽים׃", "transliteral": "haśśiddîm", "traducao_palavra": "Sidim" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "contra Quedorlaomer, rei de Elão, e Tidal, rei de Goim, e Anrafel, rei de Sinar, e Arioque, rei de Elasar; quatro reis contra cinco.",
+      "palavras": [
+        { "hebraico": "אֵ֣ת", "transliteral": "ʾēṯ", "traducao_palavra": "com" },
+        { "hebraico": "כְּדָרְלָעֹ֙מֶר֙", "transliteral": "kəḏārlāʿōmer", "traducao_palavra": "Quedorlaomer" },
+        { "hebraico": "מֶ֣לֶךְ עֵילָ֔ם", "transliteral": "meleḵ ʿêlām", "traducao_palavra": "rei de Elão" },
+        { "hebraico": "וְתִדְעָ֖ל", "transliteral": "wəṯiḏʿāl", "traducao_palavra": "e Tidal" },
+        { "hebraico": "מֶ֥לֶךְ גֹּויִ֑ם", "transliteral": "meleḵ gôyim", "traducao_palavra": "rei de Goim" },
+        { "hebraico": "וְאַמְרָפֶל֙", "transliteral": "wəʾamrāp̱el", "traducao_palavra": "e Anrafel" },
+        { "hebraico": "מֶ֣לֶךְ שִׁנְעָ֔ר", "transliteral": "meleḵ šinəʿār", "traducao_palavra": "rei de Sinar" },
+        { "hebraico": "וְאַרְיֹ֖וךְ", "transliteral": "wəʾaryôḵ", "traducao_palavra": "e Arioque" },
+        { "hebraico": "מֶ֣לֶךְ אֶלָּסָ֑ר", "transliteral": "meleḵ ʾellāsār", "traducao_palavra": "rei de Elasar" },
+        { "hebraico": "אַרְבָּעָ֥ה", "transliteral": "ʾarbbāʿâ", "traducao_palavra": "quatro" },
+        { "hebraico": "מְלָכִ֖ים", "transliteral": "məlāḵîm", "traducao_palavra": "reis" },
+        { "hebraico": "אֶת־הַחֲמִשָּֽׁה׃", "transliteral": "ʾeṯ-haḥămiššâ", "traducao_palavra": "contra os cinco" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E o vale de Sidim estava cheio de poços de betume; e fugiram os reis de Sodoma e de Gomorra, e caíram ali; e os restantes fugiram para o monte.",
+      "palavras": [
+        { "hebraico": "וְעֵ֣מֶק", "transliteral": "wəʿēmeq", "traducao_palavra": "E o vale de" },
+        { "hebraico": "הַשִּׂדִּ֗ים", "transliteral": "haśśiddîm", "traducao_palavra": "Sidim" },
+        { "hebraico": "בֶּאֱרֹ֤ת", "transliteral": "beʾĕrōṯ", "traducao_palavra": "poços de" },
+        { "hebraico": "בֶּֽאֱרֹת֙", "transliteral": "beʾĕrōṯ", "traducao_palavra": "poços de" },
+        { "hebraico": "חֵמָ֔ר", "transliteral": "ḥēmār", "traducao_palavra": "betume" },
+        { "hebraico": "וַיָּנֻ֜סוּ", "transliteral": "wayyānūsû", "traducao_palavra": "e fugiram" },
+        { "hebraico": "מֶֽלֶךְ־סְדֹ֤ם", "transliteral": "meleḵ-səḏōm", "traducao_palavra": "rei de Sodoma" },
+        { "hebraico": "וַעֲמֹרָה֙", "transliteral": "waʿămōrâ", "traducao_palavra": "e Gomorra" },
+        { "hebraico": "וַיִּפְּלוּ־שָׁ֑מָּה", "transliteral": "wayyippəlû-šāmmâ", "traducao_palavra": "e caíram lá" },
+        { "hebraico": "וְהַנִּשְׁאָרִ֖ים", "transliteral": "wəhannišʾārîm", "traducao_palavra": "e os restantes" },
+        { "hebraico": "הֶ֥רָה", "transliteral": "hērâ", "traducao_palavra": "para o monte" },
+        { "hebraico": "נָּֽסוּ׃", "transliteral": "nāsû", "traducao_palavra": "fugiram" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E tomaram todos os bens de Sodoma e de Gomorra, e todo o seu mantimento, e foram-se.",
+      "palavras": [
+        { "hebraico": "וַיִּקְח֨וּ", "transliteral": "wayyiqḥû", "traducao_palavra": "E tomaram" },
+        { "hebraico": "אֶת־כָּל־רְכֻ֨שׁ", "transliteral": "ʾeṯ-kāl-rəḵuš", "traducao_palavra": "[obj] todo o bem de" },
+        { "hebraico": "סְדֹ֧ם", "transliteral": "səḏōm", "traducao_palavra": "Sodoma" },
+        { "hebraico": "וַעֲמֹרָ֛ה", "transliteral": "waʿămōrâ", "traducao_palavra": "e Gomorra" },
+        { "hebraico": "וֶאֶת־כָּל־אָכְלָ֖ם", "transliteral": "wəʾeṯ-kāl-ʾāḵəlām", "traducao_palavra": "e [obj] todo o seu alimento" },
+        { "hebraico": "וַיֵּלֵֽכוּ׃", "transliteral": "wayyēlēḵû", "traducao_palavra": "e foram-se" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Também tomaram a Ló, que habitava em Sodoma, filho do irmão de Abrão, e os seus bens, e foram-se.",
+      "palavras": [
+        { "hebraico": "וַיִּקְח֨וּ", "transliteral": "wayyiqḥû", "traducao_palavra": "E tomaram" },
+        { "hebraico": "אֶת־לֹ֧וט", "transliteral": "ʾeṯ-lôṭ", "traducao_palavra": "[obj] Ló" },
+        { "hebraico": "וְאֶת־רְכוּשֹׁ֛ו", "transliteral": "wəʾeṯ-rəḵûšô", "traducao_palavra": "e seus bens" },
+        { "hebraico": "בֶּן־אָחִ֥י", "transliteral": "ben-ʾāḥî", "traducao_palavra": "filho de irmão de" },
+        { "hebraico": "אַבְרָ֖ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "וְה֣וּא", "transliteral": "wəhû", "traducao_palavra": "e ele" },
+        { "hebraico": "יֹשֵׁ֣ב", "transliteral": "yōšēḇ", "traducao_palavra": "habitava" },
+        { "hebraico": "בִּסְדֹ֑ם", "transliteral": "bisḏōm", "traducao_palavra": "em Sodoma" },
+        { "hebraico": "וַיֵּלֵֽכוּ׃", "transliteral": "wayyēlēḵû", "traducao_palavra": "e foram-se" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Então veio um que escapara, e o contou a Abrão, o hebreu; ele habitava nos carvalhais de Manre, o amorreu, irmão de Escol, e irmão de Aner; eles eram confederados de Abrão.",
+      "palavras": [
+        { "hebraico": "וַיָּבֹא֙", "transliteral": "wayyāḇōʾ", "traducao_palavra": "E veio" },
+        { "hebraico": "הַפָּלִ֔יט", "transliteral": "happālîṭ", "traducao_palavra": "o que escapou" },
+        { "hebraico": "וַיַּגֵּ֖ד", "transliteral": "wayyaggēḏ", "traducao_palavra": "e contou" },
+        { "hebraico": "לְאַבְרָ֣ם", "transliteral": "ləʾaḇrām", "traducao_palavra": "a Abrão" },
+        { "hebraico": "הָעִבְרִ֑י", "transliteral": "hāʿiḇrî", "traducao_palavra": "o hebreu" },
+        { "hebraico": "וְה֨וּא", "transliteral": "wəhû", "traducao_palavra": "e ele" },
+        { "hebraico": "שֹׁכֵ֜ן", "transliteral": "šōḵēn", "traducao_palavra": "habitando" },
+        { "hebraico": "בְּאֵלֹנֵ֣י", "transliteral": "bəʾēlōnê", "traducao_palavra": "nos carvalhais de" },
+        { "hebraico": "מַמְרֵ֣א", "transliteral": "mamərēʾ", "traducao_palavra": "Manre" },
+        { "hebraico": "הָאֱמֹרִ֗י", "transliteral": "hāʾĕmōrî", "traducao_palavra": "o amorreu" },
+        { "hebraico": "אֲחִ֤י", "transliteral": "ʾăḥî", "traducao_palavra": "irmão de" },
+        { "hebraico": "אֶשְׁכֹּל֙", "transliteral": "ʾeškōl", "traducao_palavra": "Escol" },
+        { "hebraico": "וַאֲחִ֣י", "transliteral": "waʾăḥî", "traducao_palavra": "e irmão de" },
+        { "hebraico": "עָנֵ֔ר", "transliteral": "ʿānēr", "traducao_palavra": "Aner" },
+        { "hebraico": "וְהֵ֖ם", "transliteral": "wəhēm", "traducao_palavra": "e eles [eram]" },
+        { "hebraico": "בַּעֲלֵ֥י", "transliteral": "baʿălê", "traducao_palavra": "donos de/aliados de" },
+        { "hebraico": "בְרִית־אַבְרָֽם׃", "transliteral": "bərîṯ-ʾaḇrām", "traducao_palavra": "aliança de Abrão" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Ouvindo, pois, Abrão que o seu irmão estava preso, armou os seus criados, nascidos em sua casa, trezentos e dezoito, e os perseguiu até Dã.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁמַ֣ע", "transliteral": "wayyišmaʿ", "traducao_palavra": "E ouviu" },
+        { "hebraico": "אַבְרָ֔ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "נִשְׁבָּ֖ה", "transliteral": "nišbbâ", "traducao_palavra": "fora capturado" },
+        { "hebraico": "אָחִ֑יו", "transliteral": "ʾāḥîw", "traducao_palavra": "seu irmão" },
+        { "hebraico": "וַיָּ֨רֶק", "transliteral": "wayyāreq", "traducao_palavra": "e mobilizou/armou" },
+        { "hebraico": "אֶת־חֲנִיכָ֜יו", "transliteral": "ʾeṯ-ḥănîḵāyw", "traducao_palavra": "[obj] seus treinados" },
+        { "hebraico": "יְלִידֵ֣י", "transliteral": "yəlîḏê", "traducao_palavra": "nascidos de" },
+        { "hebraico": "בֵיתֹ֗ו", "transliteral": "bêṯô", "traducao_palavra": "sua casa" },
+        { "hebraico": "שְׁלֹשָׁ֥ה", "transliteral": "šəlōšâ", "traducao_palavra": "três" },
+        { "hebraico": "עָשָׂ֛ר", "transliteral": "ʿāśār", "traducao_palavra": "dez" },
+        { "hebraico": "וּשְׁלֹשׁ־מֵאֹ֖ות", "transliteral": "ûšəlōš-mēʾôṯ", "traducao_palavra": "e trezentos" },
+        { "hebraico": "וַיִּרְדֹּ֖ף", "transliteral": "wayyirddōp̱", "traducao_palavra": "e perseguiu" },
+        { "hebraico": "עַד־דָּֽן׃", "transliteral": "ʿaḏ-dān", "traducao_palavra": "até Dã" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E dividiu-se contra eles de noite, ele e os seus servos, e os feriu, e os perseguiu até Hobá, que está à esquerda de Damasco.",
+      "palavras": [
+        { "hebraico": "וַיֵּחָלֵ֨ק", "transliteral": "wayyēḥālēq", "traducao_palavra": "E dividiu-se" },
+        { "hebraico": "עֲלֵיהֶ֧ם", "transliteral": "ʿălêhem", "traducao_palavra": "contra eles" },
+        { "hebraico": "לַ֛יְלָה", "transliteral": "laylâ", "traducao_palavra": "de noite" },
+        { "hebraico": "ה֥וּא", "transliteral": "hû", "traducao_palavra": "ele" },
+        { "hebraico": "וַעֲבָדָ֖יו", "transliteral": "waʿăḇāḏāyw", "traducao_palavra": "e seus servos" },
+        { "hebraico": "וַיַּכֵּ֑ם", "transliteral": "wayyakkēm", "traducao_palavra": "e feriu-os" },
+        { "hebraico": "וַֽיִּרְדְּפֵם֙", "transliteral": "wayyirdəp̱ēm", "traducao_palavra": "e perseguiu-os" },
+        { "hebraico": "עַד־חֹובָ֔ה", "transliteral": "ʿaḏ-ḥôḇâ", "traducao_palavra": "até Hobá" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "מִשְּׂמֹ֖אל", "transliteral": "miśśəmōʾl", "traducao_palavra": "à esquerda de" },
+        { "hebraico": "לְדַמָּֽשֶׂק׃", "transliteral": "ləḏammāśeq", "traducao_palavra": "Damasco" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E tornou a trazer todos os bens, e tornou a trazer também a Ló, seu irmão, e os seus bens, e também as mulheres, e o povo.",
+      "palavras": [
+        { "hebraico": "וַיָּ֕שֶׁב", "transliteral": "wayyāšeḇ", "traducao_palavra": "E trouxe de volta" },
+        { "hebraico": "אֵ֖ת", "transliteral": "ʾēṯ", "traducao_palavra": "[obj]" },
+        { "hebraico": "כָּל־הָרְכֻ֑שׁ", "transliteral": "kāl-hārəḵuš", "traducao_palavra": "todo o bem" },
+        { "hebraico": "וְגַם֩", "transliteral": "wəḡam", "traducao_palavra": "e também" },
+        { "hebraico": "אֶת־לֹ֨וט", "transliteral": "ʾeṯ-lôṭ", "traducao_palavra": "[obj] Ló" },
+        { "hebraico": "אָחִ֤יו", "transliteral": "ʾāḥîw", "traducao_palavra": "seu irmão/parente" },
+        { "hebraico": "וּרְכוּשֹׁו֙", "transliteral": "ûrəḵûšô", "traducao_palavra": "e seu bem" },
+        { "hebraico": "הֵשִׁ֔יב", "transliteral": "hēšîḇ", "traducao_palavra": "fez voltar" },
+        { "hebraico": "וְגַ֥ם", "transliteral": "wəḡam", "traducao_palavra": "e também" },
+        { "hebraico": "אֶת־הַנָּשִׁ֖ים", "transliteral": "ʾeṯ-hannāšîm", "traducao_palavra": "[obj] as mulheres" },
+        { "hebraico": "וְאֶת־הָעָֽם׃", "transliteral": "wəʾeṯ-hāʿām", "traducao_palavra": "e [obj] o povo" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E o rei de Sodoma saiu-lhe ao encontro (depois que voltou de ferir a Quedorlaomer e aos reis que estavam com ele) no vale de Savé, que é o vale do Rei.",
+      "palavras": [
+        { "hebraico": "וַיֵּצֵ֣א", "transliteral": "wayyēṣēʾ", "traducao_palavra": "E saiu" },
+        { "hebraico": "מֶֽלֶךְ־סְדֹם֮", "transliteral": "meleḵ-səḏōm", "traducao_palavra": "o rei de Sodoma" },
+        { "hebraico": "לִקְרָאתֹו֒", "transliteral": "liqrāʾṯô", "traducao_palavra": "ao encontro dele" },
+        { "hebraico": "אַחֲרֵ֣י", "transliteral": "ʾaḥărê", "traducao_palavra": "depois de" },
+        { "hebraico": "שׁוּבֹ֗ו", "transliteral": "šûḇô", "traducao_palavra": "sua volta" },
+        { "hebraico": "מֵֽהַכֹּות֙", "transliteral": "mēhakkôṯ", "traducao_palavra": "de ferir" },
+        { "hebraico": "אֶת־כְּדָרְלָעֹ֔מֶר", "transliteral": "ʾeṯ-kəḏārlāʿōmer", "traducao_palavra": "[obj] Quedorlaomer" },
+        { "hebraico": "וְאֶת־הַמְּלָכִ֖ים", "transliteral": "wəʾeṯ-hamməlāḵîm", "traducao_palavra": "e os reis" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "אִתֹּ֑ו", "transliteral": "ʾittô", "traducao_palavra": "com ele" },
+        { "hebraico": "אֶל־עֵ֣מֶק", "transliteral": "ʾel-ʿēmeq", "traducao_palavra": "para o vale de" },
+        { "hebraico": "שָׁוֵ֔ה", "transliteral": "šāwēh", "traducao_palavra": "Savé" },
+        { "hebraico": "ה֖וּא", "transliteral": "hû", "traducao_palavra": "ele [é]" },
+        { "hebraico": "עֵ֥מֶק הַמֶּֽלֶךְ׃", "transliteral": "ʿēmeq hammeleḵ", "traducao_palavra": "o vale do Rei" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "E Melquisedeque, rei de Salém, trouxe pão e vinho; e este era sacerdote do Deus Altíssimo.",
+      "palavras": [
+        { "hebraico": "וּמַלְכִּי־צֶ֙דֶק֙", "transliteral": "ûmalkî-ṣeḏeq", "traducao_palavra": "E Melquisedeque" },
+        { "hebraico": "מֶ֣לֶךְ שָׁלֵ֔ם", "transliteral": "meleḵ šālēm", "traducao_palavra": "rei de Salém" },
+        { "hebraico": "הֹוצִ֖יא", "transliteral": "hôṣîʾ", "traducao_palavra": "trouxe" },
+        { "hebraico": "לֶ֣חֶם", "transliteral": "leḥem", "traducao_palavra": "pão" },
+        { "hebraico": "וָיָ֑יִן", "transliteral": "wāyāyin", "traducao_palavra": "e vinho" },
+        { "hebraico": "וְה֥וּא", "transliteral": "wəhû", "traducao_palavra": "e ele [era]" },
+        { "hebraico": "כֹהֵ֖ן", "transliteral": "ḵōhēn", "traducao_palavra": "sacerdote" },
+        { "hebraico": "לְאֵ֥ל", "transliteral": "ləʾēl", "traducao_palavra": "de Deus" },
+        { "hebraico": "עֶלְיֹֽון׃", "transliteral": "ʿelyôn", "traducao_palavra": "Altíssimo" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E abençoou-o, e disse: Bendito seja Abrão pelo Deus Altíssimo, o Possuidor dos céus e da terra;",
+      "palavras": [
+        { "hebraico": "וַֽיְבָרְכֵ֖הוּ", "transliteral": "wayəḇārəḵēhû", "traducao_palavra": "E abençoou-o" },
+        { "hebraico": "וַיֹּאמַ֑ר", "transliteral": "wayyōʾmar", "traducao_palavra": "e disse" },
+        { "hebraico": "בָּר֤וּךְ", "transliteral": "bārûḵ", "traducao_palavra": "Bendito [seja]" },
+        { "hebraico": "אַבְרָם֙", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "לְאֵ֣ל", "transliteral": "ləʾēl", "traducao_palavra": "por Deus" },
+        { "hebraico": "עֶלְיֹ֔ון", "transliteral": "ʿelyôn", "traducao_palavra": "Altíssimo" },
+        { "hebraico": "קֹנֵ֖ה", "transliteral": "qōnēh", "traducao_palavra": "Possuidor de" },
+        { "hebraico": "שָׁמַ֥יִם", "transliteral": "šāmayim", "traducao_palavra": "céus" },
+        { "hebraico": "וָאָֽרֶץ׃", "transliteral": "wāʾāreṣ", "traducao_palavra": "e terra" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E bendito seja o Deus Altíssimo, que entregou os teus inimigos nas tuas mãos. E Abrão deu-lhe o dízimo de tudo.",
+      "palavras": [
+        { "hebraico": "וּבָרוּךְ֙", "transliteral": "ûḇārûḵ", "traducao_palavra": "E bendito [seja]" },
+        { "hebraico": "אֵ֣ל", "transliteral": "ʾēl", "traducao_palavra": "Deus" },
+        { "hebraico": "עֶלְיֹ֔ון", "transliteral": "ʿelyôn", "traducao_palavra": "Altíssimo" },
+        { "hebraico": "אֲשֶׁר־מִגֵּ֥ן", "transliteral": "ʾăšer-miggēn", "traducao_palavra": "que entregou" },
+        { "hebraico": "צָרֶ֖יךָ", "transliteral": "ṣāreyḵā", "traducao_palavra": "teus inimigos" },
+        { "hebraico": "בְּיָדֶ֑ךָ", "transliteral": "bəyāḏeḵā", "traducao_palavra": "em tua mão" },
+        { "hebraico": "וַיִּתֶּן־לֹ֥ו", "transliteral": "wayyitten-lô", "traducao_palavra": "e deu para ele" },
+        { "hebraico": "מַעֲשֵׂ֖ר", "transliteral": "maʿăśēr", "traducao_palavra": "dízimo" },
+        { "hebraico": "מִכֹּֽל׃", "transliteral": "mikkōl", "traducao_palavra": "de tudo" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E o rei de Sodoma disse a Abrão: Dá-me as pessoas, e os bens toma para ti.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֥אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "מֶֽלֶךְ־סְדֹ֖ם", "transliteral": "meleḵ-səḏōm", "traducao_palavra": "rei de Sodoma" },
+        { "hebraico": "אֶל־אַבְרָ֑ם", "transliteral": "ʾel-ʾaḇrām", "traducao_palavra": "a Abrão" },
+        { "hebraico": "תֶּן־לִ֣י", "transliteral": "ten-lî", "traducao_palavra": "Dá para mim" },
+        { "hebraico": "הַנֶּ֔פֶשׁ", "transliteral": "hannep̄eš", "traducao_palavra": "a alma/pessoas" },
+        { "hebraico": "וְהָרְכֻ֖שׁ", "transliteral": "wəhārəḵuš", "traducao_palavra": "e o bem" },
+        { "hebraico": "קַח־לָֽךְ׃", "transliteral": "qaḥ-lāḵ", "traducao_palavra": "toma para ti" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Abrão, porém, disse ao rei de Sodoma: Levantei minha mão ao SENHOR, o Deus Altíssimo, o Possuidor dos céus e da terra,",
+      "palavras": [
+        { "hebraico": "וַיֹּ֥אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "אַבְרָ֖ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "אֶל־מֶ֣לֶךְ סְדֹ֑ם", "transliteral": "ʾel-meleḵ səḏōm", "traducao_palavra": "ao rei de Sodoma" },
+        { "hebraico": "הֲרִימֹ֨תִי", "transliteral": "hărîmōṯî", "traducao_palavra": "Levantei" },
+        { "hebraico": "יָדִ֜י", "transliteral": "yāḏî", "traducao_palavra": "minha mão" },
+        { "hebraico": "אֶל־יְהוָה֙", "transliteral": "ʾel-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "אֵ֣ל", "transliteral": "ʾēl", "traducao_palavra": "Deus" },
+        { "hebraico": "עֶלְיֹ֔ון", "transliteral": "ʿelyôn", "traducao_palavra": "Altíssimo" },
+        { "hebraico": "קֹנֵ֖ה", "transliteral": "qōnēh", "traducao_palavra": "Possuidor de" },
+        { "hebraico": "שָׁמַ֥יִם", "transliteral": "šāmayim", "traducao_palavra": "céus" },
+        { "hebraico": "וָאָֽרֶץ׃", "transliteral": "wāʾāreṣ", "traducao_palavra": "e terra" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "que desde um fio até à correia de um sapato, não tomarei coisa alguma de tudo o que é teu; para que não digas: Eu enriqueci a Abrão;",
+      "palavras": [
+        { "hebraico": "אִם־מִחוּט֙", "transliteral": "ʾim-miḥûṭ", "traducao_palavra": "Se desde fio" },
+        { "hebraico": "וְעַ֣ד", "transliteral": "wəʿaḏ", "traducao_palavra": "e até" },
+        { "hebraico": "שְׂרֹֽוךְ־נַ֔עַל", "transliteral": "śərôḵ-naʿal", "traducao_palavra": "correia de sandália" },
+        { "hebraico": "וְאִם־אֶקַּ֖ח", "transliteral": "wəʾim-ʾeqqaḥ", "traducao_palavra": "e se tomarei" },
+        { "hebraico": "מִכָּל־אֲשֶׁר־לָ֑ךְ", "transliteral": "mikkāl-ʾăšer-lāḵ", "traducao_palavra": "de tudo o que [é] teu" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wəlōʾ", "traducao_palavra": "para que não" },
+        { "hebraico": "תֹאמַ֔ר", "transliteral": "ṯōʾmar", "traducao_palavra": "digas" },
+        { "hebraico": "אֲנִ֖י", "transliteral": "ʾănî", "traducao_palavra": "eu" },
+        { "hebraico": "הֶעֱשַׁ֥רְתִּי", "transliteral": "heʿĕšarətî", "traducao_palavra": "enriqueci" },
+        { "hebraico": "אֶת־אַבְרָֽם׃", "transliteral": "ʾeṯ-ʾaḇrām", "traducao_palavra": "[obj] Abrão" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "salvo tão-somente o que os jovens comeram, e a parte que toca aos homens que comigo foram, Aner, Escol e Manre; estes que tomem a sua parte.",
+      "palavras": [
+        { "hebraico": "בִּלְעָדַ֗י", "transliteral": "bilʿāḏay", "traducao_palavra": "Exceto para mim" },
+        { "hebraico": "רַ֚ק", "transliteral": "raq", "traducao_palavra": "apenas" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "o que" },
+        { "hebraico": "אָכְל֣וּ", "transliteral": "ʾāḵəlû", "traducao_palavra": "comeram" },
+        { "hebraico": "הַנְּעָרִ֔ים", "transliteral": "hannəʿārîm", "traducao_palavra": "os jovens" },
+        { "hebraico": "וְחֵ֙לֶק֙", "transliteral": "wəḥēleq", "traducao_palavra": "e a porção de" },
+        { "hebraico": "הָאֲנָשִׁ֔ים", "transliteral": "hāʾănāšîm", "traducao_palavra": "os homens" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "הָלְכ֖וּ", "transliteral": "hāləḵû", "traducao_palavra": "foram" },
+        { "hebraico": "אִתִּ֑י", "transliteral": "ʾittî", "traducao_palavra": "comigo" },
+        { "hebraico": "עָנֵר֙", "transliteral": "ʿānēr", "traducao_palavra": "Aner" },
+        { "hebraico": "אֶשְׁכֹּ֣ל", "transliteral": "ʾeškōl", "traducao_palavra": "Escol" },
+        { "hebraico": "וּמַמְרֵ֔א", "transliteral": "ûmamərēʾ", "traducao_palavra": "e Manre" },
+        { "hebraico": "הֵ֖ם", "transliteral": "hēm", "traducao_palavra": "eles" },
+        { "hebraico": "יִקְח֥וּ", "transliteral": "yiqḥû", "traducao_palavra": "tomem" },
+        { "hebraico": "חֶלְקָֽם׃", "transliteral": "ḥelqām", "traducao_palavra": "sua porção" }
+      ]
+    }
+  }
+}

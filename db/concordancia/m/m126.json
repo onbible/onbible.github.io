@@ -1,0 +1,52 @@
+{
+    "m": [
+        {
+            "palavra": "MESEZABEL",
+            "veja tambem": [],
+            "ocorrencias": 3,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Neemias 3.4",
+                    "texto": "filho de Berequias, filho de M.; e, ao"
+                },
+                {
+                    "referencia": "Neemias 10.21",
+                    "texto": "M., Zadoque, Jadua,"
+                },
+                {
+                    "referencia": "Neemias 11.24",
+                    "texto": "E Petaías, filho de M., dos filhos de Zerá,"
+                }
+            ]
+        },
+        {
+            "palavra": "MESILEMITE",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "1 Crônicas 9.12",
+                    "texto": "Jazera, filho de Mesulão, filho de M., filho"
+                }
+            ]
+        },
+        {
+            "palavra": "MESILEMOTE",
+            "veja tambem": [],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "2 Crônicas 28.12",
+                    "texto": "de Joanã, Berequias, filho de M., e"
+                },
+                {
+                    "referencia": "Neemias 11.13",
+                    "texto": "Azarel, filho de Azai, filho de M., filho de Imer,"
+                }
+            ]
+        }
+    ]
+}

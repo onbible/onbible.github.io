@@ -1,0 +1,934 @@
+{
+    "o": [
+        {
+            "palavra": "OBRAS",
+            "veja tambem": [
+                "obrar"
+            ],
+            "ocorrencias": 230,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 5.29",
+                    "texto": "consolará acerca de nossas O. e do trabalho de"
+                },
+                {
+                    "referencia": "Êxodo 5.4",
+                    "texto": "fazeis cessar o povo das suas O.? Ide a vossas cargas."
+                },
+                {
+                    "referencia": "Levítico 18.3",
+                    "texto": "Não fareis segundo as O. da terra do Egito, em que"
+                },
+                {
+                    "referencia": "Levítico 18.3",
+                    "texto": "nem fareis segundo as O, da terra de Canaã,"
+                },
+                {
+                    "referencia": "De 3.24",
+                    "texto": "possa fazer segundo as tuas O. e segundo a tua forta-"
+                },
+                {
+                    "referencia": "Deuteronômio 28.20",
+                    "texto": "por causa da maldade das tuas O., com que me dei-"
+                },
+                {
+                    "referencia": "Juízes 2.19",
+                    "texto": "a eles; nada deixavam das suas O., nem do seu"
+                },
+                {
+                    "referencia": "1 Samuel 2.3",
+                    "texto": "sabedoria, e por ele são as O, pesadas na balança."
+                },
+                {
+                    "referencia": "1 Samuel 6.15",
+                    "texto": "a ela, em que estavam as O. de ouro, e"
+                },
+                {
+                    "referencia": "1 Samuel 8.8",
+                    "texto": "Conforme todas as O. que fez desde o dia em que o"
+                },
+                {
+                    "referencia": "1 Samuel 25.3",
+                    "texto": "o homem era duro e maligno nas O.; e era da casa"
+                },
+                {
+                    "referencia": "2 Samuel 23.20",
+                    "texto": "de Cabzeel, grande em O,, este feriu dois"
+                },
+                {
+                    "referencia": "2 Reis 8.4",
+                    "texto": "peço-te, todas as grandes O. que Eliseu tem feito."
+                },
+                {
+                    "referencia": "2 Reis 22.17",
+                    "texto": "à ira por todas as O, das suas mãos, o"
+                },
+                {
+                    "referencia": "1 Crônicas 11.22",
+                    "texto": "um valente varão, grande em O., de Cabzeel; ele"
+                },
+                {
+                    "referencia": "1 Crônicas 28.19",
+                    "texto": "mandado do Senhor, a saber, todas as O, deste risco."
+                },
+                {
+                    "referencia": "1 Crônicas 29.2",
+                    "texto": "do meu Deus ouro para as O, de ouro, e prata"
+                },
+                {
+                    "referencia": "2 Crônicas 17.4",
+                    "texto": "nos seus mandamentos e não segundo as O, de Israel."
+                },
+                {
+                    "referencia": "2 Crônicas 17.13",
+                    "texto": "E teve muitas O, nas cidades de Judá, e gente de"
+                },
+                {
+                    "referencia": "2 Crônicas 20.37",
+                    "texto": "o Senhor despedaçou as tuas O.. E os navios"
+                },
+                {
+                    "referencia": "2 Crônicas 32.19",
+                    "texto": "deuses dos povos da terra, O, das mãos dos homens."
+                },
+                {
+                    "referencia": "Esdras 9.13",
+                    "texto": "por causa das nossas más O. e da nossa grande"
+                },
+                {
+                    "referencia": "Neemias 6.14",
+                    "texto": "conforme estas suas O., e também da"
+                },
+                {
+                    "referencia": "Neemias 9.35",
+                    "texto": "te serviram, nem se converteram de suas más O.."
+                },
+                {
+                    "referencia": "Ester 10.2",
+                    "texto": "E todas as O. do seu poder e do seu valor e a"
+                },
+                {
+                    "referencia": "Jó 34.25",
+                    "texto": "Ele conhece, pois, as suas O.; de noite, os"
+                },
+                {
+                    "referencia": "SI 8.6",
+                    "texto": "ele tenha domínio sobre as O, das tuas mãos; tudo"
+                },
+                {
+                    "referencia": "Si 28.4",
+                    "texto": "segundo as suas O, e segundo a malícia"
+                },
+                {
+                    "referencia": "S128.5",
+                    "texto": "não atentam para as O. do Senhor, nem para"
+                },
+                {
+                    "referencia": "S133.15",
+                    "texto": "de todos eles, que contempla todas as suas O.."
+                },
+                {
+                    "referencia": "S166.3",
+                    "texto": "terrível és tu nas tuas O.! Pela grandeza do"
+                },
+                {
+                    "referencia": "S173.28",
+                    "texto": "no Senhor Deus, para anunciar todas as tuas O.."
+                },
+                {
+                    "referencia": "S177.11",
+                    "texto": "Lembrar-me-ei, pois, das O. do Senhor; certamente"
+                },
+                {
+                    "referencia": "S177.12",
+                    "texto": "também em todas as tuas O. e falarei dos teus feitos."
+                },
+                {
+                    "referencia": "S178.7",
+                    "texto": "e se não esquecessem das O, de Deus, mas"
+                },
+                {
+                    "referencia": "S178.11",
+                    "texto": "E esqueceram-se das suas O, e das maravilhas que"
+                },
+                {
+                    "referencia": "S192.4",
+                    "texto": "com os teus feitos; exultarei nas O. das tuas mãos."
+                },
+                {
+                    "referencia": "S192.5",
+                    "texto": "grandes são, Senhor, as tuas O.! Mui profundos são"
+                },
+                {
+                    "referencia": "S1103.22",
+                    "texto": "ao Senhor, todas as suas Q., em todos os"
+                },
+                {
+                    "referencia": "Salmos 104.13",
+                    "texto": "suas câmaras; a terra farta-se do fruto das suas O.."
+                },
+                {
+                    "referencia": "SI 106.13",
+                    "texto": "se esqueceram das suas O,; não esperaram o"
+                },
+                {
+                    "referencia": "al 106.35",
+                    "texto": "se misturaram com as nações e aprenderam as suas"
+                },
+                {
+                    "referencia": "Salmos 106.39",
+                    "texto": "se contaminaram com as suas O. e se corromperam"
+                },
+                {
+                    "referencia": "SI 107.22",
+                    "texto": "de louvor e relatem as suas O, com regozijo!"
+                },
+                {
+                    "referencia": "SI 107.24",
+                    "texto": "esses veem as O. do Senhor e as suas maravilhas no"
+                },
+                {
+                    "referencia": "S1111.2",
+                    "texto": "Grandes são as O, do Senhor, procuradas por todos"
+                },
+                {
+                    "referencia": "S1111.6",
+                    "texto": "seu povo o poder das suas O., dando-lhe a herança"
+                },
+                {
+                    "referencia": "S1111.7",
+                    "texto": "As O. das suas mãos são verdade e juízo; fiéis,"
+                },
+                {
+                    "referencia": "Salmos 118.17",
+                    "texto": "morrerei, mas viverei; e contarei as O. do Senhor."
+                },
+                {
+                    "referencia": "Salmos 138.8",
+                    "texto": "é para sempre; não desampares as O, das tuas mãos."
+                },
+                {
+                    "referencia": "Salmos 145.4",
+                    "texto": "geração louvará as tuas O. à outra geração e"
+                },
+                {
+                    "referencia": "Salmos 145.5",
+                    "texto": "da tua majestade e das tuas O. maravilhosas."
+                },
+                {
+                    "referencia": "Salmos 145.9",
+                    "texto": "e as suas misericórdias são sobre todas as suas QO.."
+                },
+                {
+                    "referencia": "Salmos 145.10",
+                    "texto": "Todas as tuas O, te louvarão, ó Senhor, e os teus"
+                },
+                {
+                    "referencia": "Salmos 145.17",
+                    "texto": "todos os seus caminhos e santo em todas as suas O.."
+                },
+                {
+                    "referencia": "Provérbios 7.16",
+                    "texto": "cobertas de tapeçaria, com O. lavradas com linho"
+                },
+                {
+                    "referencia": "Provérbios 8.22",
+                    "texto": "de seus caminhos e antes de suas O, mais antigas."
+                },
+                {
+                    "referencia": "Provérbios 16.3",
+                    "texto": "Confia ao Senhor as tuas O., e teus pensamentos"
+                },
+                {
+                    "referencia": "Provérbios 31.31",
+                    "texto": "das suas mãos, e louvem-na nas portas as suas O.."
+                },
+                {
+                    "referencia": "Eclesiastes 1.14",
+                    "texto": "Atentei para todas as O. que se fazem debaixo do"
+                },
+                {
+                    "referencia": "Eclesiastes 2.4",
+                    "texto": "Fiz para mim O, magníficas; edifiquei para mim"
+                },
+                {
+                    "referencia": "Eclesiastes 2.11",
+                    "texto": "E olhei eu para todas as O, que fizeram as minhas"
+                },
+                {
+                    "referencia": "Eclesiastes 3.22",
+                    "texto": "o homem nas suas Q., porque essa é a sua"
+                },
+                {
+                    "referencia": "Eclesiastes 4.3",
+                    "texto": "não é; que não viu as más O. que se fazem"
+                },
+                {
+                    "referencia": "Eclesiastes 4.4",
+                    "texto": "e toda destreza em O. trazem ao homem a"
+                },
+                {
+                    "referencia": "Eclesiastes 8.14",
+                    "texto": "a quem sucede segundo as O, dos ímpios, e há"
+                },
+                {
+                    "referencia": "Eclesiastes 8.14",
+                    "texto": "a quem sucede segundo as O, dos justos. Digo"
+                },
+                {
+                    "referencia": "Eclesiastes 9.1",
+                    "texto": "justos, e os sábios, e as suas O. estão nas mãos"
+                },
+                {
+                    "referencia": "Eclesiastes 9.7",
+                    "texto": "o teu vinho, pois já Deus se agrada das tuas O.."
+                },
+                {
+                    "referencia": "Eclesiastes 11.5",
+                    "texto": "assim também não sabes as O, de Deus, que faz"
+                },
+                {
+                    "referencia": "Isaías 3.8",
+                    "texto": "a sua língua e as suas O. são contra o"
+                },
+                {
+                    "referencia": "Isaías 3.10",
+                    "texto": "bem lhes irá, porque comerão do fruto das suas O.."
+                },
+                {
+                    "referencia": "Isaías 5.12",
+                    "texto": "obra do Senhor, nem consideram as O, das suas mãos."
+                },
+                {
+                    "referencia": "Isaías 29.15",
+                    "texto": "do Senhor! Fazem as suas O, às escuras e dizem:"
+                },
+                {
+                    "referencia": "Isaías 57.12",
+                    "texto": "a tua justiça e as tuas O., mas não te aproveitarão."
+                },
+                {
+                    "referencia": "Isaías 59.6",
+                    "texto": "poderão cobrir com as suas O.; as suas O. são"
+                },
+                {
+                    "referencia": "Isaías 59.6",
+                    "texto": "O,; as suas O. são O. de iniquidade, e"
+                },
+                {
+                    "referencia": "Isaías 59.18",
+                    "texto": "Conforme forem as O. deles, assim será a sua"
+                },
+                {
+                    "referencia": "Isaías 63.15",
+                    "texto": "estão o teu zelo e as tuas O. poderosas? A"
+                },
+                {
+                    "referencia": "Isaías 65.7",
+                    "texto": "lhes tornarei a medir as suas O, antigas no seu seio."
+                },
+                {
+                    "referencia": "Isaías 65.22",
+                    "texto": "e os meus eleitos gozarão das O. das suas mãos até"
+                },
+                {
+                    "referencia": "Isaías 66.18",
+                    "texto": "Porque conheço as suas O. e os seus pensamentos! O"
+                },
+                {
+                    "referencia": "Jeremias 1.16",
+                    "texto": "e se encurvaram diante das O, das suas mãos."
+                },
+                {
+                    "referencia": "Jeremias 4.4",
+                    "texto": "quem a apague, por causa da malícia das vossas O.."
+                },
+                {
+                    "referencia": "Jeremias 4.18",
+                    "texto": "O teu caminho e as tuas O. te trouxeram estas"
+                },
+                {
+                    "referencia": "Jeremias 7.3",
+                    "texto": "vossos caminhos e as vossas Q., e vos farei"
+                },
+                {
+                    "referencia": "Jeremias 7.5",
+                    "texto": "vossos caminhos e as vossas O., se deveras"
+                },
+                {
+                    "referencia": "Jeremias 7.13",
+                    "texto": "porquanto fazeis todas estas O., diz o Senhor, e"
+                },
+                {
+                    "referencia": "Jeremias 25.14",
+                    "texto": "os seus feitos e segundo as O. das suas mãos."
+                },
+                {
+                    "referencia": "Jeremias 32.19",
+                    "texto": "em conselho e magnífico em O,; porque os teus"
+                },
+                {
+                    "referencia": "Jeremias 32.19",
+                    "texto": "os seus caminhos e segundo o fruto das suas O.."
+                },
+                {
+                    "referencia": "Jeremias 32.30",
+                    "texto": "provocar-me à ira com as O. das suas mãos, diz"
+                },
+                {
+                    "referencia": "Jeremias 44.8",
+                    "texto": "irando-me com as O, de vossas mãos, queimando"
+                },
+                {
+                    "referencia": "Jeremias 48.7",
+                    "texto": "da tua confiança nas tuas O, e nos teus"
+                },
+                {
+                    "referencia": "Ezequiel 6.6",
+                    "texto": "do sol sejam cortadas, e desfeitas as vossas O.."
+                },
+                {
+                    "referencia": "Ezequiel 27.16",
+                    "texto": "causa da multidão das tuas O.; esmeralda, e"
+                },
+                {
+                    "referencia": "Ezequiel 27.18",
+                    "texto": "causa da multidão das tuas O., por causa da"
+                },
+                {
+                    "referencia": "Daniel 4.37",
+                    "texto": "dos céus; porque todas as suas O. são verdades;"
+                },
+                {
+                    "referencia": "Daniel 9.14",
+                    "texto": "nosso Deus, em todas as suas O., que fez, pois"
+                },
+                {
+                    "referencia": "Oséias 4.9",
+                    "texto": "seus caminhos e lhe darei a recompensa das suas O.."
+                },
+                {
+                    "referencia": "Oséias 7.2",
+                    "texto": "pois, os cercam as suas O,; diante da minha"
+                },
+                {
+                    "referencia": "Oséias 12.2",
+                    "texto": "seus caminhos; segundo as suas O., o recompensará."
+                },
+                {
+                    "referencia": "Amós 8.7",
+                    "texto": "não me esquecerei de todas as suas O. para sempre!"
+                },
+                {
+                    "referencia": "Jonas 3.10",
+                    "texto": "E Deus viu as O. deles, como se converteram do seu"
+                },
+                {
+                    "referencia": "Miquéias 2.7",
+                    "texto": "do Senhor? São estas as suas O.? E não é assim que"
+                },
+                {
+                    "referencia": "Miquéias 3.4",
+                    "texto": "tempo, visto que eles fizeram mal nas suas O.."
+                },
+                {
+                    "referencia": "Mg 7.13",
+                    "texto": "dos seus moradores, por causa do fruto das suas O.."
+                },
+                {
+                    "referencia": "Sofonias 3.7",
+                    "texto": "de madrugada, corromperam todas as suas O.."
+                },
+                {
+                    "referencia": "Sofonias 3.11",
+                    "texto": "de nenhuma das tuas Q., com que te"
+                },
+                {
+                    "referencia": "Zacarias 1.4",
+                    "texto": "maus caminhos e das vossas más O.. Mas não"
+                },
+                {
+                    "referencia": "Zacarias 1.6",
+                    "texto": "caminhos e segundo as nossas O., assim ele"
+                },
+                {
+                    "referencia": "Mateus 5.16",
+                    "texto": "que vejam as vossas boas O. e glorifiquem o"
+                },
+                {
+                    "referencia": "Mateus 16.27",
+                    "texto": "anjos; e, então, dará a cada um segundo as suas O.."
+                },
+                {
+                    "referencia": "Mateus 23.3",
+                    "texto": "em conformidade com as suas O., porque dizem e"
+                },
+                {
+                    "referencia": "Mateus 23.5",
+                    "texto": "E fazem todas as O, a fim de serem vistos pelos"
+                },
+                {
+                    "referencia": "Marcos 6.5",
+                    "texto": "E não podia fazer ali O, maravilhosas; somente"
+                },
+                {
+                    "referencia": "Lucas 11.48",
+                    "texto": "pois, que consentis nas O, de vossos pais;"
+                },
+                {
+                    "referencia": "Lucas 24.19",
+                    "texto": "que foi um profeta poderoso em O. e palavras"
+                },
+                {
+                    "referencia": "Jó 3.19",
+                    "texto": "as trevas do que a luz, porque as suas O. eram más."
+                },
+                {
+                    "referencia": "Jó 3.20",
+                    "texto": "para a luz para que as suas O. não sejam reprovadas."
+                },
+                {
+                    "referencia": "Jó 3.21",
+                    "texto": "a luz, a fim de que as suas O, sejam manifestas,"
+                },
+                {
+                    "referencia": "Jó 5.20",
+                    "texto": "e ele lhe mostrará maiores O. do que estas, para"
+                },
+                {
+                    "referencia": "Jó 5.36",
+                    "texto": "do que o de João, porque as O. que o Pai me deu"
+                },
+                {
+                    "referencia": "Jó 5.36",
+                    "texto": "deu para realizar, as mesmas O, que eu faço"
+                },
+                {
+                    "referencia": "Jó 6.28",
+                    "texto": "pois: Que faremos para executarmos as O, de Deus?"
+                },
+                {
+                    "referencia": "Jó 7.3",
+                    "texto": "que também os teus discípulos vejam as O. que fazes."
+                },
+                {
+                    "referencia": "Jó 7.7",
+                    "texto": "porquanto dele testifico que as suas O. são más."
+                },
+                {
+                    "referencia": "Jó 8.39",
+                    "texto": "fósseis filhos de Abraão, faríeis as O, de Abraão."
+                },
+                {
+                    "referencia": "Jó 8.41",
+                    "texto": "Vós fazeis as O. de vosso pai. Disseram-lhe, pois:"
+                },
+                {
+                    "referencia": "Jó 9.3",
+                    "texto": "foi assim para que se manifestem nele as O, de Deus."
+                },
+                {
+                    "referencia": "Jó 9.4",
+                    "texto": "Convém que eu faça as O. daquele que me enviou,"
+                },
+                {
+                    "referencia": "Jó 10.25",
+                    "texto": "dito, e não o credes. As O. que eu faço em"
+                },
+                {
+                    "referencia": "Jó 10.32",
+                    "texto": "Tenho-vos mostrado muitas O. boas procedentes de"
+                },
+                {
+                    "referencia": "Jó 10.32",
+                    "texto": "de meu Pai; por qual dessas O. me apedrejais?"
+                },
+                {
+                    "referencia": "Jó 10.37",
+                    "texto": "Se não faço as O, de meu Pai, não me acrediteis."
+                },
+                {
+                    "referencia": "Jó 10.38",
+                    "texto": "não credes em mim, crede nas O., para que"
+                },
+                {
+                    "referencia": "Jó 14.10",
+                    "texto": "mesmo, mas o Pai, que está em mim, é quem faz as Q.."
+                },
+                {
+                    "referencia": "Jó 14.11",
+                    "texto": "em mim; crede-me, ao menos, por causa das mesmas"
+                },
+                {
+                    "referencia": "Jó 14.12",
+                    "texto": "crê em mim também fará as O. que eu faço e as"
+                },
+                {
+                    "referencia": "Jó 15.24",
+                    "texto": "entre eles, não fizesse tais O., quais nenhum"
+                },
+                {
+                    "referencia": "Atos 7.22",
+                    "texto": "dos egípcios e era poderoso em suas palavras e O.."
+                },
+                {
+                    "referencia": "Atos 7.41",
+                    "texto": "ao ídolo, e se alegraram nas O. das suas mãos."
+                },
+                {
+                    "referencia": "Atos 9.36",
+                    "texto": "Esta estava cheia de boas O. e esmolas que fazia."
+                },
+                {
+                    "referencia": "Atos 19.25",
+                    "texto": "ajuntado com os oficiais de O, semelhantes, disse:"
+                },
+                {
+                    "referencia": "Atos 26.20",
+                    "texto": "se convertessem a Deus, fazendo O. dignas de arre-"
+                },
+                {
+                    "referencia": "Romanos 2.6",
+                    "texto": "o qual recompensará cada um segundo as suas O.,"
+                },
+                {
+                    "referencia": "Romanos 3.20",
+                    "texto": "diante dele pelas O. da lei, porque pela"
+                },
+                {
+                    "referencia": "Romanos 3.27",
+                    "texto": "É excluída. Por qual lei? Das O,? Não! Mas pela"
+                },
+                {
+                    "referencia": "Romanos 3.28",
+                    "texto": "que o homem é justificado pela fé, sem as O, da lei."
+                },
+                {
+                    "referencia": "Romanos 4.2",
+                    "texto": "foi justificado pelas O., tem de que se"
+                },
+                {
+                    "referencia": "Romanos 4.6",
+                    "texto": "a quem Deus imputa a justiça sem as O., dizendo:"
+                },
+                {
+                    "referencia": "Romanos 8.13",
+                    "texto": "pelo espírito mortificardes as O. do corpo, vivereis."
+                },
+                {
+                    "referencia": "Romanos 9.11",
+                    "texto": "ficasse firme, não por causa das Q., mas por"
+                },
+                {
+                    "referencia": "Romanos 9.32",
+                    "texto": "pela fé, mas como que pelas O. da lei. Tropeçaram"
+                },
+                {
+                    "referencia": "Romanos 11.6",
+                    "texto": "é por graça, já não é pelas O.; de outra maneira,"
+                },
+                {
+                    "referencia": "Romanos 13.3",
+                    "texto": "são terror para as boas O., mas para as más."
+                },
+                {
+                    "referencia": "Romanos 13.12",
+                    "texto": "chegado. Rejeitemos, pois, as O. das trevas e"
+                },
+                {
+                    "referencia": "Romanos 15.18",
+                    "texto": "para obediência dos gentios, por palavra e por O.;"
+                },
+                {
+                    "referencia": "2 Coríntios 11.15",
+                    "texto": "justiça; o fim dos quais será conforme as suas O.."
+                },
+                {
+                    "referencia": "G12.16",
+                    "texto": "não é justificado pelas O, da lei, mas pela fé"
+                },
+                {
+                    "referencia": "G12.16",
+                    "texto": "O. da lei, porquanto pelas O, da lei nenhuma"
+                },
+                {
+                    "referencia": "G13.2",
+                    "texto": "recebestes o Espírito pelas O, da lei ou pela"
+                },
+                {
+                    "referencia": "Gálatas 3.5",
+                    "texto": "entre vós o faz pelas b: da lei ou pela"
+                },
+                {
+                    "referencia": "Gálatas 3.10",
+                    "texto": "aqueles, pois, que são das O. da lei estão"
+                },
+                {
+                    "referencia": "GI 5.19",
+                    "texto": "Porque as O, da carne são manifestas, as quais"
+                },
+                {
+                    "referencia": "Efésios 2.9",
+                    "texto": "Não vem das Q., para que ninguém se glorie."
+                },
+                {
+                    "referencia": "Efésios 2.10",
+                    "texto": "Cristo Jesus para as boas Q., as quais Deus"
+                },
+                {
+                    "referencia": "Efésios 5.11",
+                    "texto": "E não comuniqueis com as Q, infrutuosas das"
+                },
+                {
+                    "referencia": "Colossenses 1.21",
+                    "texto": "entendimento pelas vossas O. más, agora,"
+                },
+                {
+                    "referencia": "C13.17",
+                    "texto": "por palavras ou por Q., fazei tudo em nome"
+                },
+                {
+                    "referencia": "1 Timóteo 2.10",
+                    "texto": "que fazem profissão de servir a Deus) com boas O.."
+                },
+                {
+                    "referencia": "1 Timóteo 5.10",
+                    "texto": "tendo testemunho de boas O., se criou os filhos,"
+                },
+                {
+                    "referencia": "1 Timóteo 5.25",
+                    "texto": "Assim mesmo também as boas O. são manifestas,"
+                },
+                {
+                    "referencia": "1 Timóteo 6.18",
+                    "texto": "o bem, enrigueçam em boas O., repartam de boa"
+                },
+                {
+                    "referencia": "2 Timóteo 1.9",
+                    "texto": "não segundo as nossas O., mas segundo o seu"
+                },
+                {
+                    "referencia": "2 Timóteo 4.14",
+                    "texto": "muitos males; o Senhor lhe pague segundo as suas"
+                },
+                {
+                    "referencia": "Tito 1.16",
+                    "texto": "a Deus, mas negam-no com as O., sendo abomináveis,"
+                },
+                {
+                    "referencia": "Tito 2.7",
+                    "texto": "te dá por exemplo de boas O,; na doutrina,"
+                },
+                {
+                    "referencia": "Tito 2.14",
+                    "texto": "para si um povo seu especial, zeloso de boas Q.."
+                },
+                {
+                    "referencia": "Tito 3.5",
+                    "texto": "não pelas O. de justiça que houvéssemos feito,"
+                },
+                {
+                    "referencia": "Tito 3.8",
+                    "texto": "procurem aplicar-se às boas O,; estas coisas são"
+                },
+                {
+                    "referencia": "Tito 3.14",
+                    "texto": "a aplicar-se às boas O., nas coisas"
+                },
+                {
+                    "referencia": "Hebreus 2.7",
+                    "texto": "coroaste e o constituíste sobre as O, de tuas mãos."
+                },
+                {
+                    "referencia": "Hebreus 3.9",
+                    "texto": "provaram e viram, por quarenta anos, as minhas O.."
+                },
+                {
+                    "referencia": "Hebreus 4.3",
+                    "texto": "no meu repouso; embora as suas O, estivessem"
+                },
+                {
+                    "referencia": "Hebreus 4.4",
+                    "texto": "E repousou Deus de todas as suas O, no sétimo dia."
+                },
+                {
+                    "referencia": "Hebreus 4.10",
+                    "texto": "ele próprio repousou de suas O., como Deus das suas."
+                },
+                {
+                    "referencia": "Hebreus 6.1",
+                    "texto": "do arrependimento de O, mortas e de fé em Deus,"
+                },
+                {
+                    "referencia": "Hebreus 10.24",
+                    "texto": "outros, para nos estimularmos ao amor e às boas O.,"
+                },
+                {
+                    "referencia": "Tiago 2.14",
+                    "texto": "que tem fé e não tiveras O.? Porventura, a fé"
+                },
+                {
+                    "referencia": "Tiago 2.17",
+                    "texto": "a fé, se não tiver as O., é morta em si mesma."
+                },
+                {
+                    "referencia": "Tiago 2.18",
+                    "texto": "Tu tens a fé, e eu tenho as O.; mostra-me a tua"
+                },
+                {
+                    "referencia": "Tiago 2.18",
+                    "texto": "O., eeu te mostrarei a minha fé pelas minhas O.."
+                },
+                {
+                    "referencia": "Tiago 2.20",
+                    "texto": "vão, queres tu saber que a fé sem as O, é morta?"
+                },
+                {
+                    "referencia": "Tiago 2.21",
+                    "texto": "não foi justificado pelas O,, quando ofereceu"
+                },
+                {
+                    "referencia": "Tiago 2.22",
+                    "texto": "a fé cooperou com as suas O. e que, pelas O.,"
+                },
+                {
+                    "referencia": "Tiago 2.22",
+                    "texto": "as suas D. e que, pelas Q., a fé foi aperfeiçoada,"
+                },
+                {
+                    "referencia": "Tiago 2.24",
+                    "texto": "o homem é justificado pelas O, e não somente pela fé."
+                },
+                {
+                    "referencia": "Tiago 2.25",
+                    "texto": "foi também justificada pelas O., quando recolheu"
+                },
+                {
+                    "referencia": "Te 2.26",
+                    "texto": "está morto, assim também a fé sem O. émorta."
+                },
+                {
+                    "referencia": "JB 3.13",
+                    "texto": "pelo seu bom trato, as suas O, em mansidão de sabe-"
+                },
+                {
+                    "referencia": "1 Pedro 2.12",
+                    "texto": "no Dia da visitação, pelas boas O. que em vós obser-"
+                },
+                {
+                    "referencia": "2 Pedro 2.8",
+                    "texto": "pelo que via e ouvia sobre as suas O. injustas)."
+                },
+                {
+                    "referencia": "2 Pedro 3.10",
+                    "texto": "se desfarão, e a terra e as O, que nela há se queimarão."
+                },
+                {
+                    "referencia": "1 João 3.8",
+                    "texto": "de Deus se manifestou: para desfazer as O. do diabo."
+                },
+                {
+                    "referencia": "1 João 3.12",
+                    "texto": "causa o matou? Porque as suas O. eram más, e as de"
+                },
+                {
+                    "referencia": "2 João 1.11",
+                    "texto": "Porque quem o saúda tem parte nas suas más Q.."
+                },
+                {
+                    "referencia": "3 João 1.10",
+                    "texto": "eu br trarei à memória as O. que ele faz,"
+                },
+                {
+                    "referencia": "Judas 1.15",
+                    "texto": "ímpios, por todas as suas O. de impiedade que"
+                },
+                {
+                    "referencia": "Apocalipse 2.2",
+                    "texto": "Eu sei as tuas O., eo teu trabalho, e a tua"
+                },
+                {
+                    "referencia": "Apocalipse 2.5",
+                    "texto": "e pratica as primeiras O.; quando não,"
+                },
+                {
+                    "referencia": "Apocalipse 2.6",
+                    "texto": "porém, isto: que aborreces as O. dos nicolaítas,"
+                },
+                {
+                    "referencia": "Apocalipse 2.9",
+                    "texto": "Éu sei as tuas O., e tribulação, e pobreza (mas tu"
+                },
+                {
+                    "referencia": "Apocalipse 2.13",
+                    "texto": "Fu sei as tuas O., e onde habitas, que é onde está"
+                },
+                {
+                    "referencia": "Apocalipse 2.19",
+                    "texto": "Eu conheço as tuas O,, eo teu amor, e o teu"
+                },
+                {
+                    "referencia": "Apocalipse 2.19",
+                    "texto": "e que as tuas últimas O, são mais do que"
+                },
+                {
+                    "referencia": "Apocalipse 2.22",
+                    "texto": "tribulação, se não se arrependerem das suas Q.."
+                },
+                {
+                    "referencia": "Apocalipse 2.23",
+                    "texto": "E darei a cada um de vós segundo as vossas O.."
+                },
+                {
+                    "referencia": "Apocalipse 2.26",
+                    "texto": "até ao fim as minhas O., eu lhe darei poder"
+                },
+                {
+                    "referencia": "Apocalipse 3.1",
+                    "texto": "estrelas: Eu sei as tuas O., que tens nome de"
+                },
+                {
+                    "referencia": "Apocalipse 3.2",
+                    "texto": "porque não achei as tuas O. perfeitas diante de Deus."
+                },
+                {
+                    "referencia": "Apocalipse 3.8",
+                    "texto": "Eu sei as tuas O.; eis que diante de ti pus uma"
+                },
+                {
+                    "referencia": "Apocalipse 3.15",
+                    "texto": "Eu sei as tuas O., que nem és frio nem quente."
+                },
+                {
+                    "referencia": "Apocalipse 9.20",
+                    "texto": "não se arrependeram das O. de suas mãos, para"
+                },
+                {
+                    "referencia": "Apocalipse 14.13",
+                    "texto": "descansem dos seus trabalhos, e as suas O, os sigam."
+                },
+                {
+                    "referencia": "Apocalipse 15.3",
+                    "texto": "e maravilhosas são as tuas O., Senhor, Deus"
+                },
+                {
+                    "referencia": "Apocalipse 16.11",
+                    "texto": "do Deus do céu e não se arrependeram das suas O.."
+                },
+                {
+                    "referencia": "Apocalipse 18.6",
+                    "texto": "em dobro conforme as suas O,; no cálice em que"
+                },
+                {
+                    "referencia": "Apocalipse 20.12",
+                    "texto": "que estavam escritas nos livros, segundo as suas O.."
+                },
+                {
+                    "referencia": "Apocalipse 20.13",
+                    "texto": "havia; e foram julgados cada um segundo as suas O.."
+                }
+            ]
+        }
+    ]
+}

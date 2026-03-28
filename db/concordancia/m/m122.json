@@ -1,0 +1,968 @@
+{
+    "m": [
+        {
+            "palavra": "MES",
+            "veja tambem": [],
+            "ocorrencias": 239,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 7.11",
+                    "texto": "da vida de Noé, no M. segundo, aos"
+                },
+                {
+                    "referencia": "Gênesis 7.11",
+                    "texto": "aos dezessete dias do M., naquele mesmo dia,"
+                },
+                {
+                    "referencia": "Gênesis 8.4",
+                    "texto": "a arca repousou, no sétimo M., no dia dezessete do"
+                },
+                {
+                    "referencia": "Gênesis 84",
+                    "texto": "M., no dia dezessete do M., sobre os montes de"
+                },
+                {
+                    "referencia": "Gênesis 8.5",
+                    "texto": "e minguando até ao décimo M.; no décimo M., no"
+                },
+                {
+                    "referencia": "Gênesis 8.13",
+                    "texto": "no ano seiscentos e um, no M., primeiro, no"
+                },
+                {
+                    "referencia": "Gênesis 8.13",
+                    "texto": "primeiro, no primeiro dia do M., as águas se"
+                },
+                {
+                    "referencia": "Gênesis 8.14",
+                    "texto": "E, no segundo ML., aos vinte e sete dias do M., a"
+                },
+                {
+                    "referencia": "Gênesis 8.14",
+                    "texto": "M., aos vinte e sete dias do M., a terra estava seca."
+                },
+                {
+                    "referencia": "Gênesis 29.14",
+                    "texto": "osso e a minha carne. E ficou com ele um M, inteiro."
+                },
+                {
+                    "referencia": "Êxodo 12.2",
+                    "texto": "Este mesmo M. vos será o princípio dos meses; este"
+                },
+                {
+                    "referencia": "Êxodo 12.3",
+                    "texto": "dizendo: Aos dez deste M., tome cada um para"
+                },
+                {
+                    "referencia": "Êxodo 12.6",
+                    "texto": "ao décimo quarto dia deste M., e todo o ajuntamento"
+                },
+                {
+                    "referencia": "Êxodo 12.18",
+                    "texto": "No primeiro M., aos catorze dias do M., à tarde,"
+                },
+                {
+                    "referencia": "x 12.18",
+                    "texto": "comereis pães asmos até vinte e um do M. à tarde."
+                },
+                {
+                    "referencia": "Êxodo 13.4",
+                    "texto": "Hoje, no M. de abibe, vós saís."
+                },
+                {
+                    "referencia": "Êxodo 13.5",
+                    "texto": "que mana leite e mel, guardarás este culto neste M.."
+                },
+                {
+                    "referencia": "Êxodo 16.1",
+                    "texto": "e Sinai, aos quinze dias do M. segundo, depois"
+                },
+                {
+                    "referencia": "Êxodo 19.1",
+                    "texto": "Ao terceiro M. da saída dos filhos de Israel da"
+                },
+                {
+                    "referencia": "Êxodo 23.15",
+                    "texto": "ao tempo apontado no M. de abibe; porque"
+                },
+                {
+                    "referencia": "Êxodo 34.18",
+                    "texto": "ao tempo apontado do M. de abibe; porque no"
+                },
+                {
+                    "referencia": "Êxodo 34.18",
+                    "texto": "do M. de abibe; porque no M. de abibe saíste do Egi-"
+                },
+                {
+                    "referencia": "Êxodo 40.2",
+                    "texto": "No primeiro M., no primeiro dia do M., levantarás o"
+                },
+                {
+                    "referencia": "Êxodo 40.2",
+                    "texto": "M., no primeiro dia do M., levantarás o"
+                },
+                {
+                    "referencia": "Êxodo 40.17",
+                    "texto": "E aconteceu no M. primeiro, no ano segundo, ao"
+                },
+                {
+                    "referencia": "Êxodo 40.17",
+                    "texto": "ano segundo, ao primeiro do M., que o tabernáculo"
+                },
+                {
+                    "referencia": "Levítico 16.29",
+                    "texto": "perpétuo: no sétimo M., aos dez do M.,"
+                },
+                {
+                    "referencia": "Levítico 16.29",
+                    "texto": "no sétimo M., aos dez do M., afligireis a vossa"
+                },
+                {
+                    "referencia": "Levítico 23.5",
+                    "texto": "no M. primeiro, aos catorze do M., pela tarde, é a"
+                },
+                {
+                    "referencia": "Levítico 23.5",
+                    "texto": "primeiro, aos catorze do M., pela tarde, é a"
+                },
+                {
+                    "referencia": "Levítico 23.6",
+                    "texto": "e aos quinze dias deste MI. é a Festa dos Asmos do"
+                },
+                {
+                    "referencia": "Levítico 23.24",
+                    "texto": "de Israel, dizendo: No M. sétimo, ao primeiro"
+                },
+                {
+                    "referencia": "Levítico 23.24",
+                    "texto": "No M. sétimo, ao primeiro do M., tereis descanso,"
+                },
+                {
+                    "referencia": "Levítico 23.27",
+                    "texto": "Mas, aos dez deste M. sétimo, será o Dia da"
+                },
+                {
+                    "referencia": "Levítico 23.32",
+                    "texto": "a vossa alma; aos nove do M., à tarde, duma"
+                },
+                {
+                    "referencia": "Levítico 23.34",
+                    "texto": "Aos quinze dias deste MI, sétimo, será a Festa"
+                },
+                {
+                    "referencia": "Levítico 23.39",
+                    "texto": "Porém, aos quinze dias do M. sétimo, quando tiverdes"
+                },
+                {
+                    "referencia": "Levítico 23.41",
+                    "texto": "é pelas vossas gerações; no M. sétimo, a celebrareis."
+                },
+                {
+                    "referencia": "Levítico 25.9",
+                    "texto": "Então, no M. sétimo, aos dez do M., farás passar a"
+                },
+                {
+                    "referencia": "Levítico 25.9",
+                    "texto": "no M. sétimo, aos dez do M., farás passar a"
+                },
+                {
+                    "referencia": "Levítico 27.6",
+                    "texto": "E, se for de um M. até cinco anos, a tua avaliação"
+                },
+                {
+                    "referencia": "Números 1.1",
+                    "texto": "no primeiro dia do segundo M., no segundo ano da"
+                },
+                {
+                    "referencia": "Números 1.18",
+                    "texto": "no primeiro dia do segundo M., e declararam a sua"
+                },
+                {
+                    "referencia": "Números 3.15",
+                    "texto": "contarás a todo varão da idade de um Me. para cima."
+                },
+                {
+                    "referencia": "Números 3.22",
+                    "texto": "todo varão da idade de um M. para cima, os que"
+                },
+                {
+                    "referencia": "Números 3.28",
+                    "texto": "todo varão da idade de um M. para cima, foram oito"
+                },
+                {
+                    "referencia": "Números 3.34",
+                    "texto": "número de todo varão de um M. para cima foram"
+                },
+                {
+                    "referencia": "Números 3.39",
+                    "texto": "gerações, todo varão de um M. para cima foram"
+                },
+                {
+                    "referencia": "Números 3.40",
+                    "texto": "de Israel da idade de um M, para cima e toma o"
+                },
+                {
+                    "referencia": "Números 3.43",
+                    "texto": "nomes dos da idade de um M. para cima, segundo os"
+                },
+                {
+                    "referencia": "Números 9.1",
+                    "texto": "sua saída da terra do Egito, no primeiro M., dizendo:"
+                },
+                {
+                    "referencia": "Números 9.3",
+                    "texto": "No dia catorze deste M., pela tarde, a seu tempo"
+                },
+                {
+                    "referencia": "Números 9.5",
+                    "texto": "no dia catorze do primeiro M., pela tarde, no"
+                },
+                {
+                    "referencia": "Números 9.11",
+                    "texto": "No segundo M., no dia catorze, de tarde, a"
+                },
+                {
+                    "referencia": "Números 9.22",
+                    "texto": "se detinha dois dias, ou um M., ou um ano, ficando"
+                },
+                {
+                    "referencia": "Números 10.11",
+                    "texto": "no segundo ano, no segundo M., aos vinte do M.,"
+                },
+                {
+                    "referencia": "Números 10.11",
+                    "texto": "no segundo M., aos vinte do M., que a nuvem se"
+                },
+                {
+                    "referencia": "Números 11.20",
+                    "texto": "mas um M. inteiro, até vos sair pelos narizes, até"
+                },
+                {
+                    "referencia": "Números 11.21",
+                    "texto": "tens dito: Dar-lhes-ei carne, e comerão um Me. in-"
+                },
+                {
+                    "referencia": "Números 18.16",
+                    "texto": "resgatarás, da idade de um Ml., segundo a tua"
+                },
+                {
+                    "referencia": "Números 20.1",
+                    "texto": "ao deserto de Zim, no M. primeiro, o povo"
+                },
+                {
+                    "referencia": "Números 26.62",
+                    "texto": "todo o varão da idade de um M. para cima; porque"
+                },
+                {
+                    "referencia": "Números 28.14",
+                    "texto": "da lua nova de cada M., segundo os meses"
+                },
+                {
+                    "referencia": "Números 28.16",
+                    "texto": "Porém, no primeiro M., aos catorze dias do M., éa"
+                },
+                {
+                    "referencia": "Números 28.16",
+                    "texto": "M., aos catorze dias do M., é a Páscoa do Senhor."
+                },
+                {
+                    "referencia": "Números 28.17",
+                    "texto": "E, aos quinze dias do mesmo M., haverá festa; sete"
+                },
+                {
+                    "referencia": "Números 29.1",
+                    "texto": "santa convocação no sétimo M., no primeiro dia do"
+                },
+                {
+                    "referencia": "Números 29.1",
+                    "texto": "M., no primeiro dia do M.; nenhuma obra servil"
+                },
+                {
+                    "referencia": "Números 29.6",
+                    "texto": "além do holocausto do M., e a sua oferta de"
+                },
+                {
+                    "referencia": "Números 29.7",
+                    "texto": "E, no dia dez deste sétimo M., tereis santa"
+                },
+                {
+                    "referencia": "Números 29.12",
+                    "texto": "quinze dias deste sétimo M., tereis santa"
+                },
+                {
+                    "referencia": "Números 33.3",
+                    "texto": "de Ramessés no primeiro ML, no dia quinze do"
+                },
+                {
+                    "referencia": "Números 33.3",
+                    "texto": "no dia quinze do primeiro M.; no seguinte dia da"
+                },
+                {
+                    "referencia": "Números 33.38",
+                    "texto": "Senhor; e morreu ali, no quinto M., do ano"
+                },
+                {
+                    "referencia": "Números 33.38",
+                    "texto": "de Israel da terra do Egito, no primeiro dia do M.."
+                },
+                {
+                    "referencia": "Deuteronômio 1.3",
+                    "texto": "que, no ano quadragésimo, no M, undécimo, no"
+                },
+                {
+                    "referencia": "Deuteronômio 1.3",
+                    "texto": "undécimo, no primeiro dia do M., Moisés falou aos"
+                },
+                {
+                    "referencia": "Deuteronômio 16.1",
+                    "texto": "Senhor, teu Deus; porque, no M., de abibe, o Senhor,"
+                },
+                {
+                    "referencia": "Deuteronômio 21.13",
+                    "texto": "a seu pai e a sua mãe um M, inteiro; e, depois,"
+                },
+                {
+                    "referencia": "Josué 4.19",
+                    "texto": "povo do Jordão no dia dez do M, primeiro; e"
+                },
+                {
+                    "referencia": "Josué 5.10",
+                    "texto": "a Páscoa no dia catorze do M., à tarde, nas"
+                },
+                {
+                    "referencia": "IRs 4.7",
+                    "texto": "e à sua casa; e cada um tinha a prover um M, no ano."
+                },
+                {
+                    "referencia": "IRs 4.27",
+                    "texto": "provedores, cada um no seu M., ao rei Salomão e a"
+                },
+                {
+                    "referencia": "1 Reis 5.14",
+                    "texto": "É os enviou ao Líbano, cada M. dez mil por sua vez;"
+                },
+                {
+                    "referencia": "1 Reis 5.14",
+                    "texto": "M. dez mil por sua vez; um M. estavam no Líbano, e"
+                },
+                {
+                    "referencia": "1 Reis 6.1",
+                    "texto": "de Salomão sobre Israel, no M. de zive (este é o"
+                },
+                {
+                    "referencia": "1 Reis 6.1",
+                    "texto": "no M, de zive (este é o M, segundo), Salomão"
+                },
+                {
+                    "referencia": "1 Reis 6.37",
+                    "texto": "se pôs o fundamento da Casa do Senhor, no M. de"
+                },
+                {
+                    "referencia": "1 Reis 6.38",
+                    "texto": "E, no ano undécimo, no M, de bul, que é o M."
+                },
+                {
+                    "referencia": "1 Reis 6.38",
+                    "texto": "no M. de bul, que é o M. oitavo, se acabou"
+                },
+                {
+                    "referencia": "1 Reis 8.2",
+                    "texto": "na festa, ao rei Salomão, no M. de etanim, que é o"
+                },
+                {
+                    "referencia": "1 Reis 8.2",
+                    "texto": "ao rei Salomão, no M. de etanim, que é o sétimo M.."
+                },
+                {
+                    "referencia": "1 Reis 12.32",
+                    "texto": "uma festa no oitavo M., no dia décimo quinto"
+                },
+                {
+                    "referencia": "1 Reis 12.32",
+                    "texto": "no dia décimo quinto do M., como a festa que se"
+                },
+                {
+                    "referencia": "E 12.33",
+                    "texto": "dia décimo quinto do oitavo M., do M. que ele"
+                },
+                {
+                    "referencia": "IRs 12.33",
+                    "texto": "quinto do oitavo MI., do M. que ele tinha"
+                },
+                {
+                    "referencia": "2 Reis 15.13",
+                    "texto": "Uzias, rei de Judá; e reinou um M, inteiro em Sa-"
+                },
+                {
+                    "referencia": "2 Reis 25.1",
+                    "texto": "do reinado de Zedequias, no M. décimo, aos dez do"
+                },
+                {
+                    "referencia": "2 Reis 25.1",
+                    "texto": "no M. décimo, aos dez do M., Nabucodonosor, rei"
+                },
+                {
+                    "referencia": "2 Reis 25.3",
+                    "texto": "Aos nove dias do quarto M., quando a cidade se via"
+                },
+                {
+                    "referencia": "2 Reis 25.8",
+                    "texto": "E, no quinto M., no sétimo dia do M. (este era o"
+                },
+                {
+                    "referencia": "2 Reis 25.8",
+                    "texto": "quinto M., no sétimo dia do M. (este era o ano"
+                },
+                {
+                    "referencia": "2 Reis 25.25",
+                    "texto": "porém, que, no sétimo M., veio Ismael, filho"
+                },
+                {
+                    "referencia": "2 Reis 25.27",
+                    "texto": "de Joaquim, rei de Judá, no M. duodécimo, aos"
+                },
+                {
+                    "referencia": "2 Reis 25.27",
+                    "texto": "duodécimo, aos vinte e sete do M., Evil-Merodaque,"
+                },
+                {
+                    "referencia": "1 Crônicas 12.15",
+                    "texto": "que passaram o Jordão no M. primeiro, quando ele"
+                },
+                {
+                    "referencia": "1 Crônicas 27.1",
+                    "texto": "turmas, entrando e saindo de M, em M., em todos"
+                },
+                {
+                    "referencia": "1 Crônicas 27.1",
+                    "texto": "entrando e saindo de M, em M., em todos os"
+                },
+                {
+                    "referencia": "1 Crônicas 27.2",
+                    "texto": "Sobre a primeira turma do M. primeiro estava"
+                },
+                {
+                    "referencia": "1 Crônicas 27.3",
+                    "texto": "todos os capitães dos exércitos, para o primeiro ML."
+                },
+                {
+                    "referencia": "1 Crônicas 27.4",
+                    "texto": "E sobre a turma do segundo M. era Dodai, o aoíta,"
+                },
+                {
+                    "referencia": "1 Crônicas 27.5",
+                    "texto": "do exército do terceiro M. era Benaia, filho de"
+                },
+                {
+                    "referencia": "1 Crônicas 27.7",
+                    "texto": "O quarto, para o quarto M., Asael, irmão de Joabe,"
+                },
+                {
+                    "referencia": "1 Crônicas 27.8",
+                    "texto": "O quinto, para o quinto M., o maioral Samute, o"
+                },
+                {
+                    "referencia": "1 Crônicas 27.9",
+                    "texto": "O sexto, para o sexto M., Ira, filho de Iques, o"
+                },
+                {
+                    "referencia": "1 Crônicas 27.10",
+                    "texto": "O sétimo, para o sétimo M., Heles, o pelonita, dos"
+                },
+                {
+                    "referencia": "1 Crônicas 27.11",
+                    "texto": "O oitavo, para o oitavo M., Sibecai, o nusatita, dos"
+                },
+                {
+                    "referencia": "1 Crônicas 27.12",
+                    "texto": "O nono, para o nono M., Abiezer, o anatotita, dos"
+                },
+                {
+                    "referencia": "1 Crônicas 27.13",
+                    "texto": "O décimo, para o décimo M., Maarai, o netofatita,"
+                },
+                {
+                    "referencia": "1 Crônicas 27.14",
+                    "texto": "O undécimo, para o undécimo M., Benaia, o"
+                },
+                {
+                    "referencia": "1 Crônicas 27.15",
+                    "texto": "duodécimo, para o duodécimo M., Heldai, o"
+                },
+                {
+                    "referencia": "2 Crônicas 3.2",
+                    "texto": "a edificar no segundo M., no dia segundo, no"
+                },
+                {
+                    "referencia": "2 Crônicas 5.3",
+                    "texto": "se congregaram ao rei na festa, que foi no sétimo M.."
+                },
+                {
+                    "referencia": "2 Crônicas 7.10",
+                    "texto": "vigésimo terceiro do sétimo WML, o rei deixou ir o"
+                },
+                {
+                    "referencia": "2 Crônicas 15.10",
+                    "texto": "em Jerusalém no terceiro M., no ano décimo do"
+                },
+                {
+                    "referencia": "2 Crônicas 29.3",
+                    "texto": "primeiro do seu reinado, no M. primeiro, abriu as"
+                },
+                {
+                    "referencia": "2 Crônicas 29.17",
+                    "texto": "a santificar ao primeiro do M. primeiro, e, ao"
+                },
+                {
+                    "referencia": "2 Crônicas 29.17",
+                    "texto": "dias; e, no dia décimo sexto do primeiro M., aca-"
+                },
+                {
+                    "referencia": "2 Crônicas 30.2",
+                    "texto": "em Jerusalém para celebrarem a Páscoa no segundo"
+                },
+                {
+                    "referencia": "2 Crônicas 30.13",
+                    "texto": "dos Pães Asmos, no segundo M.; uma mui grande"
+                },
+                {
+                    "referencia": "2 Crônicas 30.15",
+                    "texto": "décimo quarto do segundo M.; e os sacerdotes e"
+                },
+                {
+                    "referencia": "2 Crônicas 31.7",
+                    "texto": "No terceiro M., começaram a fazer os primeiros"
+                },
+                {
+                    "referencia": "2 Crônicas 31.7",
+                    "texto": "a fazer os primeiros montões e no sétimo M, aca-"
+                },
+                {
+                    "referencia": "2 Crônicas 35.1",
+                    "texto": "da Páscoa no décimo quarto dia do M. primeiro."
+                },
+                {
+                    "referencia": "Esdras 3.1",
+                    "texto": "Chegando, pois, o sétimo M. e estando os filhos de"
+                },
+                {
+                    "referencia": "Esdras 3.6",
+                    "texto": "o primeiro dia do sétimo M., começaram a oferecer"
+                },
+                {
+                    "referencia": "Esdras 3.8",
+                    "texto": "em Jerusalém, no segundo M., começaram"
+                },
+                {
+                    "referencia": "Esdras 6.15",
+                    "texto": "casa no dia terceiro do M. de Adar, que era o"
+                },
+                {
+                    "referencia": "Esdras 6.19",
+                    "texto": "celebraram a Páscoa no dia catorze do primeiro M.,"
+                },
+                {
+                    "referencia": "Esdras 7.8",
+                    "texto": "E, no M. quinto, veio ele a Jerusalém; e era o"
+                },
+                {
+                    "referencia": "Esdras 7.9",
+                    "texto": "no primeiro dia do primeiro MI., foi o princípio da"
+                },
+                {
+                    "referencia": "Esdras 7.9",
+                    "texto": "e, no primeiro dia do quinto M., chegou a"
+                },
+                {
+                    "referencia": "Esdras 8.31",
+                    "texto": "no dia doze do primeiro M., para irmos para"
+                },
+                {
+                    "referencia": "Esdras 10.9",
+                    "texto": "em Jerusalém; era o nono M., no dia vinte do"
+                },
+                {
+                    "referencia": "Esdras 10.9",
+                    "texto": "era o nono M., no dia vinte do M.; e todo o povo se"
+                },
+                {
+                    "referencia": "Esdras 10.16",
+                    "texto": "no primeiro dia do décimo M., para inquirirem"
+                },
+                {
+                    "referencia": "Esdras 10.17",
+                    "texto": "estranhas, até ao primeiro dia do primeiro M.."
+                },
+                {
+                    "referencia": "Neemias 1.1",
+                    "texto": "de Hacalias. E sucedeu no M. de quisleu, no ano"
+                },
+                {
+                    "referencia": "Neemias 2.1",
+                    "texto": "Sucedeu, pois, no M. de nisã, no ano vigésimo do rei"
+                },
+                {
+                    "referencia": "Neemias 8.1",
+                    "texto": "E chegado o sétimo M., e estando os filhos de Israel"
+                },
+                {
+                    "referencia": "Neemias 8.2",
+                    "texto": "os sábios para ouvirem, no primeiro dia do sétimo M.."
+                },
+                {
+                    "referencia": "Neemias 8.14",
+                    "texto": "em cabanas, na solenidade da festa, no sétimo Me.."
+                },
+                {
+                    "referencia": "Neemias 9.1",
+                    "texto": "no dia vinte e quatro deste M., se ajuntaram os"
+                },
+                {
+                    "referencia": "Ester 2.16",
+                    "texto": "à casa real, no décimo M., que é o M. de"
+                },
+                {
+                    "referencia": "Ester 2.16",
+                    "texto": "real, no décimo M., que é o M. de tebete, no"
+                },
+                {
+                    "referencia": "Ester 3.7",
+                    "texto": "No primeiro M. (que é o M. de nisã), no ano"
+                },
+                {
+                    "referencia": "Ester 3.7",
+                    "texto": "perante Hamã, de dia em dia e de M. em M., até ao"
+                },
+                {
+                    "referencia": "Ester 3.7",
+                    "texto": "Hamáã, de dia em dia e de M. em M., até ao"
+                },
+                {
+                    "referencia": "Ester 3.7",
+                    "texto": "ede M, em M., até ao duodécimo M., que é o M,"
+                },
+                {
+                    "referencia": "Ester 3.7",
+                    "texto": "M. em M., até ao duodécimo M., que é o M. de adar."
+                },
+                {
+                    "referencia": "Ester 3.12",
+                    "texto": "do rei no primeiro M.,, no dia treze do"
+                },
+                {
+                    "referencia": "Ester 3.13",
+                    "texto": "mesmo dia, a treze do duodécimo M., (que é M. de"
+                },
+                {
+                    "referencia": "Ester 3.13",
+                    "texto": "a treze do duodécimo M. (que é M. de adar), e que"
+                },
+                {
+                    "referencia": "Ester 8.9",
+                    "texto": "naquele mesmo tempo e no M. terceiro (que é o"
+                },
+                {
+                    "referencia": "Ester 8.9",
+                    "texto": "e no M, terceiro (que é o M. de sivã), aos vinte"
+                },
+                {
+                    "referencia": "Ester 8.12",
+                    "texto": "no dia treze do duodécimo M., que é o M. de adar."
+                },
+                {
+                    "referencia": "Ester 9.1",
+                    "texto": "E, no M., duodécimo, que é o M. de adar, no dia"
+                },
+                {
+                    "referencia": "Ester 9.1",
+                    "texto": "adar, no dia treze do mesmo M. em que chegou a"
+                },
+                {
+                    "referencia": "Ester 9.15",
+                    "texto": "também no dia catorze do M. de adar e mataram em"
+                },
+                {
+                    "referencia": "Ester 9.17",
+                    "texto": "isso no dia treze do M, de adar; e repousaram"
+                },
+                {
+                    "referencia": "Ester 9.19",
+                    "texto": "fizeram do dia catorze do M. de adar dia de alegria"
+                },
+                {
+                    "referencia": "Ester 9.21",
+                    "texto": "o dia catorze do M. de adar e o dia quinze"
+                },
+                {
+                    "referencia": "Ester 9.22",
+                    "texto": "dos seus inimigos e o MI. que se lhes mudou de"
+                },
+                {
+                    "referencia": "Jeremias 1.3",
+                    "texto": "que Jerusalém foi levada em cativeiro no quinto Me.."
+                },
+                {
+                    "referencia": "Jeremias 2.24",
+                    "texto": "que a buscarem não se cansarão; no M. dela a acharão."
+                },
+                {
+                    "referencia": "Jeremias 28.1",
+                    "texto": "rei de Judá, no ano quarto, no M. quinto, que"
+                },
+                {
+                    "referencia": "Jeremias 28.17",
+                    "texto": "Hananias, o profeta, no mesmo ano, no sétimo M.."
+                },
+                {
+                    "referencia": "Jeremias 36.9",
+                    "texto": "de Josias, rei de Judá, no M. nono, que"
+                },
+                {
+                    "referencia": "Jeremias 36.22",
+                    "texto": "na casa de inverno, pelo nono ML; e estava diante"
+                },
+                {
+                    "referencia": "Jeremias 39.1",
+                    "texto": "Zedequias, rei de Judá, no M. décimo, veio"
+                },
+                {
+                    "referencia": "Jeremias 39.2",
+                    "texto": "de Zedequias, no quarto M., aos nove do M., se"
+                },
+                {
+                    "referencia": "Jeremias 39.2",
+                    "texto": "no quarto M., aos nove do M., se fez a brecha na"
+                },
+                {
+                    "referencia": "Jeremias 41.1",
+                    "texto": "Sucedeu, porém, no M. sétimo, que veio Ismael, filho"
+                },
+                {
+                    "referencia": "Jeremias 524",
+                    "texto": "M. décimo, no décimo dia do M., que veio"
+                },
+                {
+                    "referencia": "Jeremias 52.6",
+                    "texto": "No M. quarto, aos nove do M., quando a fome"
+                },
+                {
+                    "referencia": "Jeremias 52.12",
+                    "texto": "E, no quinto M., no décimo dia do M, (este era o"
+                },
+                {
+                    "referencia": "Jeremias 52.12",
+                    "texto": "quinto M., no décimo dia do M, (este era o décimo"
+                },
+                {
+                    "referencia": "Jeremias 52.31",
+                    "texto": "de Joaquim, rei de Judá, no M. duodécimo, aos"
+                },
+                {
+                    "referencia": "Jeremias 52.31",
+                    "texto": "duodécimo, aos vinte e cinco do M., que"
+                },
+                {
+                    "referencia": "Ezequiel 1.1",
+                    "texto": "no trigésimo ano, no quarto M., no dia quinto do"
+                },
+                {
+                    "referencia": "Ezequiel 1.1",
+                    "texto": "quarto M., no dia quinto do M., que, estando eu no"
+                },
+                {
+                    "referencia": "Ezequiel 1.2",
+                    "texto": "No quinto dia do M. (no quinto ano do cativeiro do"
+                },
+                {
+                    "referencia": "Ezequiel 8.1",
+                    "texto": "pois, no sexto ano, no M. sexto, no quinto"
+                },
+                {
+                    "referencia": "Ezequiel 8.1",
+                    "texto": "no M. sexto, no quinto dia do M., estando eu"
+                },
+                {
+                    "referencia": "Ezequiel 20.1",
+                    "texto": "aconteceu, no sétimo ano, no M. quinto, aos dez do"
+                },
+                {
+                    "referencia": "Ezequiel 20.1",
+                    "texto": "no M. quinto, aos dez do M., que vieram alguns"
+                },
+                {
+                    "referencia": "Ezequiel 24.1",
+                    "texto": "no nono ano, no décimo M., aos dez do M., dizendo:"
+                },
+                {
+                    "referencia": "Ezequiel 26.1",
+                    "texto": "undécimo ano, ao primeiro do M., que veio a mim a"
+                },
+                {
+                    "referencia": "Ezequiel 29.1",
+                    "texto": "No décimo ano, no décimo M., no dia doze do M.,"
+                },
+                {
+                    "referencia": "Ezequiel 29.1",
+                    "texto": "décimo M., no dia doze do ML, veio a mim a"
+                },
+                {
+                    "referencia": "Ezequiel 29.17",
+                    "texto": "que, no ano vinte e sete, no M. primeiro, no"
+                },
+                {
+                    "referencia": "Ezequiel 29.17",
+                    "texto": "primeiro, no primeiro dia do M., veio a mim a"
+                },
+                {
+                    "referencia": "Ezequiel 30.20",
+                    "texto": "que, no ano undécimo, no M, primeiro, aos sete"
+                },
+                {
+                    "referencia": "Ezequiel 31.1",
+                    "texto": "no ano undécimo, no terceiro M., ao primeiro do M.,"
+                },
+                {
+                    "referencia": "Ezequiel 31.1",
+                    "texto": "terceiro M., ao primeiro do M., que veio a mim a"
+                },
+                {
+                    "referencia": "Ezequiel 32.1",
+                    "texto": "que, no ano duodécimo, no M. duodécimo, ao"
+                },
+                {
+                    "referencia": "Ezequiel 32.1",
+                    "texto": "M. duodécimo, ao primeiro do M., veio a mim a"
+                },
+                {
+                    "referencia": "Ezequiel 32.17",
+                    "texto": "ano duodécimo, aos quinze do M., veio a mim a"
+                },
+                {
+                    "referencia": "Ezequiel 33.21",
+                    "texto": "no décimo M., aos cinco do M. do nosso cativeiro,"
+                },
+                {
+                    "referencia": "Ezequiel 40.1",
+                    "texto": "do ano, no décimo dia do M., catorze anos depois"
+                },
+                {
+                    "referencia": "Ezequiel 45.18",
+                    "texto": "o Senhor Jeová: No primeiro ML., no primeiro dia do"
+                },
+                {
+                    "referencia": "Ezequiel 45.18",
+                    "texto": "M., no primeiro dia do M., tomarás um bezerro"
+                },
+                {
+                    "referencia": "Ezequiel 45.20",
+                    "texto": "farás no sétimo dia do M., por causa dos que"
+                },
+                {
+                    "referencia": "Ezequiel 45.21",
+                    "texto": "No primeiro M., no dia catorze do Mi., tereis a"
+                },
+                {
+                    "referencia": "Ezequiel 45.21",
+                    "texto": ". no dia catorze do Ml., tereis a Páscoa, uma"
+                },
+                {
+                    "referencia": "Ezequiel 45.25",
+                    "texto": "No sétimo M., no dia quinze do M., na festa, fará o"
+                },
+                {
+                    "referencia": "Ezequiel 45.25",
+                    "texto": "M., no dia quinze do M. na festa, fará o"
+                },
+                {
+                    "referencia": "Daniel 10.4",
+                    "texto": "vinte e quatro do primeiro M., eu estava à borda do"
+                },
+                {
+                    "referencia": "Ageu 1.1",
+                    "texto": "do rei Dario, no sexto M., no primeiro dia do"
+                },
+                {
+                    "referencia": "Ageu 11",
+                    "texto": "M., no primeiro dia do M., veio a palavra do"
+                },
+                {
+                    "referencia": "Ageu 1.15",
+                    "texto": "quarto dia do sexto M., no segundo ano do rei Dario."
+                },
+                {
+                    "referencia": "Ageu 2.1",
+                    "texto": "No sétimo M., ao vigésimo primeiro do M., veio a"
+                },
+                {
+                    "referencia": "Ageu 2.1",
+                    "texto": "ao vigésimo primeiro do M., veio a palavra do"
+                },
+                {
+                    "referencia": "Ageu 2.10",
+                    "texto": "Ao vigésimo quarto dia do M. nono, no segundo ano"
+                },
+                {
+                    "referencia": "Ageu 2.18",
+                    "texto": "desde o vigésimo quarto dia do M. nono, desde o dia"
+                },
+                {
+                    "referencia": "Zacarias 1.1",
+                    "texto": "No oitavo M. do segundo ano de Dario, veio a palavra"
+                },
+                {
+                    "referencia": "Zacarias 1.7",
+                    "texto": "Aos vinte e quatro dias do M. undécimo (que é o M."
+                },
+                {
+                    "referencia": "Zacarias 1.7",
+                    "texto": "do M., undécimo (que é o M. de sebate), no"
+                },
+                {
+                    "referencia": "Zacarias 7.1",
+                    "texto": "veio a Zacarias, no dia quarto do nono M., em quisleu."
+                },
+                {
+                    "referencia": "Zacarias 7.3",
+                    "texto": "Chorarei eu no quinto M., separando-me, como o"
+                },
+                {
+                    "referencia": "Zacarias 7.5",
+                    "texto": "no quinto e no sétimo M., durante estes"
+                },
+                {
+                    "referencia": "Zacarias 8.19",
+                    "texto": "O jejum do quarto M., e o jejum do quinto,"
+                },
+                {
+                    "referencia": "Zacarias 8.19",
+                    "texto": "do sétimo, e o jejum do décimo M. será para a casa"
+                },
+                {
+                    "referencia": "Zacarias 11.8",
+                    "texto": "os três pastores num M., porque se angustiou"
+                },
+                {
+                    "referencia": "Lucas 1.26",
+                    "texto": "E, no sexto ML., foi o anjo Gabriel enviado por Deus"
+                },
+                {
+                    "referencia": "Lucas 1.36",
+                    "texto": "sua velhice; e é este o sexto M. para aquela que era"
+                },
+                {
+                    "referencia": "Apocalipse 9.15",
+                    "texto": "para a hora, e dia, e M., e ano, a fim de"
+                },
+                {
+                    "referencia": "Apocalipse 22.2",
+                    "texto": "trutos, dando seu fruto de M. em M,, e as folhas"
+                },
+                {
+                    "referencia": "Apocalipse 22.2",
+                    "texto": "dando seu fruto de M. em M., e as folhas da"
+                }
+            ]
+        }
+    ]
+}

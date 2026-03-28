@@ -1,0 +1,918 @@
+{
+    "r": [
+        {
+            "palavra": "RESPONDEU",
+            "veja tambem": [
+                "res-"
+            ],
+            "ocorrencias": 226,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 18.27",
+                    "texto": "E R. Abraão, dizendo: Eis que, agora, me"
+                },
+                {
+                    "referencia": "Gênesis 23.10",
+                    "texto": "meio dos filhos de Hete; e R. Efrom, heteu,"
+                },
+                {
+                    "referencia": "Gênesis 23.14",
+                    "texto": "E R. Efrom a Abraão, dizendo-lhe:"
+                },
+                {
+                    "referencia": "Gênesis 24.58",
+                    "texto": "Irás tu com este varão? Ela R.: Irei."
+                },
+                {
+                    "referencia": "Gênesis 27.37",
+                    "texto": "Então, R. Isaque e disse a Esaú: Eis que o"
+                },
+                {
+                    "referencia": "Gênesis 27.39",
+                    "texto": "Então, R. Isaque, seu pai, e disse-lhe: Eis"
+                },
+                {
+                    "referencia": "Gênesis 31.31",
+                    "texto": "Então, R. Jacó e disse a Labão: Porque temia;"
+                },
+                {
+                    "referencia": "Gênesis 31.36",
+                    "texto": "e contendeu com Labão. E R. Jacó e disse a"
+                },
+                {
+                    "referencia": "Gênesis 31.43",
+                    "texto": "Então, R. Labão e disse eo Estas filhas"
+                },
+                {
+                    "referencia": "Gênesis 35.3",
+                    "texto": "um altar ao Deus que me R. no dia da minha"
+                },
+                {
+                    "referencia": "Gênesis 40.18",
+                    "texto": "Então, R. José e disse: Esta é a sua"
+                },
+                {
+                    "referencia": "Gênesis 41.16",
+                    "texto": "E R. José a Faraó, dizendo: Isso não está em"
+                },
+                {
+                    "referencia": "Êxodo 4.1",
+                    "texto": "Então, R. Moisés e disse: Mas eis que me não"
+                },
+                {
+                    "referencia": "Êxodo 19.8",
+                    "texto": "Então, todo o povo R. a uma voz e disse: Tudo"
+                },
+                {
+                    "referencia": "Êxodo 24.3",
+                    "texto": "os estatutos, então, o povo R. a uma voz. E"
+                },
+                {
+                    "referencia": "Números 11.28",
+                    "texto": "um dos seus jovens escolhidos, R. e disse:"
+                },
+                {
+                    "referencia": "Números 22.18",
+                    "texto": "Então, Balaão R, e disse aos servos de"
+                },
+                {
+                    "referencia": "Números 22.30",
+                    "texto": "alguma vez fazer assim contigo? E ele R.: Não."
+                },
+                {
+                    "referencia": "Números 23.12",
+                    "texto": "E ele R, e disse: Porventura, não terei"
+                },
+                {
+                    "referencia": "Números 23.26",
+                    "texto": "Porém Balaão R. e disse a Balaque: Não te"
+                },
+                {
+                    "referencia": "Josué 7.20",
+                    "texto": "E R. Acã a Josué e disse: Verdadeiramente"
+                },
+                {
+                    "referencia": "Josué 24.16",
+                    "texto": "Então, R. o povo e disse: Nunca nos aconteça"
+                },
+                {
+                    "referencia": "Juízes 6.13",
+                    "texto": "Mas Gideão lhe R.: Ai, senhor meu, se o Senhor"
+                },
+                {
+                    "referencia": "Juízes 19.28",
+                    "texto": "e vamo-nos, porém não R.; então, pô-la"
+                },
+                {
+                    "referencia": "Juízes 20.4",
+                    "texto": "Então, R. o homem levita, marido da mulher que"
+                },
+                {
+                    "referencia": "Rute 2.6",
+                    "texto": "E R. o moço que estava posto sobre os"
+                },
+                {
+                    "referencia": "Rute 2.11",
+                    "texto": "E R. Boaz e disse-lhe: Bem se me contou quanto"
+                },
+                {
+                    "referencia": "1 Samuel 1.15",
+                    "texto": "Porém Ana R. e disse: Não, senhor meu, eu sou"
+                },
+                {
+                    "referencia": "1 Samuel 1.17",
+                    "texto": "Então, R. Eli e disse: Vai em paz, e o Deus de"
+                },
+                {
+                    "referencia": "1 Samuel 4.17",
+                    "texto": "Então, R. o que trazia as novas e disse:"
+                },
+                {
+                    "referencia": "1 Samuel 4.20",
+                    "texto": "tiveste um filho. Ela, porém, não R., nem fez"
+                },
+                {
+                    "referencia": "1 Samuel 9.19",
+                    "texto": "E Samuel R, a Saul e disse: Eu sou o vidente;"
+                },
+                {
+                    "referencia": "1 Samuel 9.21",
+                    "texto": "Então, R. Saul e disse: Porventura, não sou eu"
+                },
+                {
+                    "referencia": "1 Samuel 10.12",
+                    "texto": "Então, um homem dali R, e disse: Pois quem é o"
+                },
+                {
+                    "referencia": "1 Samuel 14.28",
+                    "texto": "Então, R, um do povo e disse: Solenemente,"
+                },
+                {
+                    "referencia": "1 Samuel 14.37",
+                    "texto": "na mão de Israel? Porém aquele dia lhe não R.."
+                },
+                {
+                    "referencia": "1 Samuel 14.39",
+                    "texto": "morrerá. E nenhum de todo o povo lhe R.."
+                },
+                {
+                    "referencia": "1 Samuel 16.18",
+                    "texto": "Então, R, um dos jovens e disse: Eis que tenho"
+                },
+                {
+                    "referencia": "1 Samuel 20.28",
+                    "texto": "E R. Jônatas a Saul: Davi me pediu"
+                },
+                {
+                    "referencia": "1 Samuel 20.32",
+                    "texto": "Então, R. Jônatas a Saul, seu pai, e lhe"
+                },
+                {
+                    "referencia": "1 Samuel 21.5",
+                    "texto": "E R. Davi ao sacerdote e lhe disse: Sim, em"
+                },
+                {
+                    "referencia": "1 Samuel 22.9",
+                    "texto": "Então, R. Doegue, o edomita, que também estava"
+                },
+                {
+                    "referencia": "1 Samuel 22.14",
+                    "texto": "E R. Aimeleque ao rei e disse: E quem, entre"
+                },
+                {
+                    "referencia": "1 Samuel 23.4",
+                    "texto": "o Senhor, e S SERKOF lhe R. e disse:"
+                },
+                {
+                    "referencia": "1 Samuel 25.10",
+                    "texto": "E Nabal R. aos criados de Davi e disse: Quem é"
+                },
+                {
+                    "referencia": "1 Samuel 26.6",
+                    "texto": "E R. Davi e falou a Aimeleque, o heteu, e a"
+                },
+                {
+                    "referencia": "1 Samuel 26.14",
+                    "texto": "responderás, Abner? Então, Abner R. e disse:"
+                },
+                {
+                    "referencia": "1 Samuel 26.22",
+                    "texto": "Davi, então, R. e disse: Eis aqui a lança do"
+                },
+                {
+                    "referencia": "1 Samuel 28.6",
+                    "texto": "porém o Senhor lhe não R., nem por"
+                },
+                {
+                    "referencia": "1 Samuel 29.9",
+                    "texto": "R., porém, Aquis e disse a Davi: Bem o sei; e"
+                },
+                {
+                    "referencia": "2 Samuel 1.4",
+                    "texto": "Peço-te, dize-me. E ele lhe R.: O povo"
+                },
+                {
+                    "referencia": "2 Samuel 13.32",
+                    "texto": "de Simeia, irmão de Davi, R, e disse: Não"
+                },
+                {
+                    "referencia": "2 Samuel 14.18",
+                    "texto": "Então, R. o rei e disse à mulher: Peço-te que"
+                },
+                {
+                    "referencia": "2 Samuel 14.19",
+                    "texto": "anda contigo em tudo isso? E R. a mulher e"
+                },
+                {
+                    "referencia": "2 Samuel 15.21",
+                    "texto": "R., porém, Itai ao rei e disse: Vive o Senhor,"
+                },
+                {
+                    "referencia": "2 Samuel 19.21",
+                    "texto": "Então, R. Abisai, filho de Zeruia, e disse:"
+                },
+                {
+                    "referencia": "2 Samuel 20.20",
+                    "texto": "Então, R. Joabe e disse: Longe, longe de mim"
+                },
+                {
+                    "referencia": "2 Samuel 22.42",
+                    "texto": "sim, para o Senhor, porém não lhes R.."
+                },
+                {
+                    "referencia": "1 Reis 1.28",
+                    "texto": "E R. o rei Davi e disse: Chamai-me a"
+                },
+                {
+                    "referencia": "1 Reis 1.36",
+                    "texto": "Benaia, filho de Joiada, R. ao rei e"
+                },
+                {
+                    "referencia": "IRs 1.43",
+                    "texto": "E R. Jônatas e disse a Adonias: Certamente"
+                },
+                {
+                    "referencia": "1 Reis 2.22",
+                    "texto": "Então, R. o rei Salomão e disse a sua mãe: E"
+                },
+                {
+                    "referencia": "1 Reis 2.30",
+                    "texto": "rei, dizendo: Assim falou Joabe e assim me R.."
+                },
+                {
+                    "referencia": "1 Reis 3.27",
+                    "texto": "Então, R. o rei e disse: Dai a esta o menino"
+                },
+                {
+                    "referencia": "1 Reis 12.13",
+                    "texto": "E o rei R. ao povo duramente, porque deixara o"
+                },
+                {
+                    "referencia": "1 Reis 13.6",
+                    "texto": "Então, R. o rei e disse ao homem de Deus: Ora"
+                },
+                {
+                    "referencia": "1 Reis 18.21",
+                    "texto": "se Baal, segui-o. Porém o povo lhe não R, nada."
+                },
+                {
+                    "referencia": "1 Reis 18.24",
+                    "texto": "esse será Deus. E todo o povo R. e disse: É"
+                },
+                {
+                    "referencia": "1 Reis 20.4",
+                    "texto": "E R. o rei de Israel e disse: Conforme tua"
+                },
+                {
+                    "referencia": "1 Reis 20.11",
+                    "texto": "Porém o rei de Israel R. e disse: Dizei-lhe:"
+                },
+                {
+                    "referencia": "1 Reis 20.34",
+                    "texto": "pai as fez em Samaria. E eu, R. Acabe, te"
+                },
+                {
+                    "referencia": "2 Reis 1.10",
+                    "texto": "Mas Elias R. e disse ao capitão de cinquenta:"
+                },
+                {
+                    "referencia": "2 Reis 1.12",
+                    "texto": "E R, Elias e disse-lhe: Se eu sou homem de"
+                },
+                {
+                    "referencia": "2 Reis 3.11",
+                    "texto": "ao Senhor por ele? Então, R. um dos"
+                },
+                {
+                    "referencia": "2 Reis 7.2",
+                    "texto": "cuja mão o rei se encostava, R. ao homem de"
+                },
+                {
+                    "referencia": "2 Reis 7.13",
+                    "texto": "Então, um dos seus servos R, e disse:"
+                },
+                {
+                    "referencia": "2 Reis 18.36",
+                    "texto": "calou-se o povo e não lhe R, uma só palavra;"
+                },
+                {
+                    "referencia": "1 Crônicas 21.26",
+                    "texto": "e invocou o Senhor, o qual lhe R. com fogo do"
+                },
+                {
+                    "referencia": "2 Crônicas 2.11",
+                    "texto": "E Hirão, rei de Tiro, R. por escrito e enviou"
+                },
+                {
+                    "referencia": "2 Crônicas 10.13",
+                    "texto": "E o rei lhes R. asperamente, porque o rei"
+                },
+                {
+                    "referencia": "2 Crônicas 10.16",
+                    "texto": "dava ouvidos, então, o povo R. ao rei,"
+                },
+                {
+                    "referencia": "2 Crônicas 25.16",
+                    "texto": "que, falando-lhe ele, lhe R.: Puseram-te"
+                },
+                {
+                    "referencia": "2 Crônicas 29.31",
+                    "texto": "E R. Ezequias e disse: Agora, vos consagrastes"
+                },
+                {
+                    "referencia": "2 Crônicas 34.15",
+                    "texto": "E Hilquias R. e disse a Safã, o escrivão:"
+                },
+                {
+                    "referencia": "Esdras 10.2",
+                    "texto": "Então, R. Secanias, filho de Jeiel, um dos"
+                },
+                {
+                    "referencia": "Esdras 10.12",
+                    "texto": "E R. toda a congregação e disse em altas"
+                },
+                {
+                    "referencia": "Neemias 8.6",
+                    "texto": "o grande Deus; e todo o povo R.: Amém! Amém!"
+                },
+                {
+                    "referencia": "Ester 5.7",
+                    "texto": "Então, R. Ester e disse: Minha petição e"
+                },
+                {
+                    "referencia": "Ester 7.3",
+                    "texto": "Então, R. a rainha Ester e disse: Se, ó rei,"
+                },
+                {
+                    "referencia": "Jó 1.7",
+                    "texto": "De onde vens? E Satanás R. ao Senhor e"
+                },
+                {
+                    "referencia": "Jó 1.9",
+                    "texto": "Então, R. Satanás ao Senhor e disse:"
+                },
+                {
+                    "referencia": "Jó 2.2",
+                    "texto": "a Satanás: De onde vens? E R, Satanás ao"
+                },
+                {
+                    "referencia": "Jó 2.4",
+                    "texto": "Então, Satanás R. ao Senhor e disse: Pele por"
+                },
+                {
+                    "referencia": "Jó 4.1",
+                    "texto": "Então, R. Elifaz, o temanita, e disse:"
+                },
+                {
+                    "referencia": "Jó 6.1",
+                    "texto": "Então, Jó R. e disse:"
+                },
+                {
+                    "referencia": "Jó 8.1",
+                    "texto": "Então, R. Bildade, o suíta, e disse:"
+                },
+                {
+                    "referencia": "Jó 9.1",
+                    "texto": "Então, Jó R. e disse:"
+                },
+                {
+                    "referencia": "Jó 11.1",
+                    "texto": "Então, R. Zofar, o naamatita, e disse:"
+                },
+                {
+                    "referencia": "Jó 12.1",
+                    "texto": "Então, Jó R, e disse:"
+                },
+                {
+                    "referencia": "Jó 15.1",
+                    "texto": "Então, R. Elifaz, o temanita, e disse:"
+                },
+                {
+                    "referencia": "Jó 16.1",
+                    "texto": "Então, R. Jó e disse:"
+                },
+                {
+                    "referencia": "Jó 18.1",
+                    "texto": "Então, R. Bildade, o suíta, e disse:"
+                },
+                {
+                    "referencia": "Jó 19.1",
+                    "texto": "R., porém, Jó e disse:"
+                },
+                {
+                    "referencia": "Jó 19.16",
+                    "texto": "a meu criado, e ele me não R.; cheguei a"
+                },
+                {
+                    "referencia": "Jó 20.1",
+                    "texto": "Então, R. Zofar, o naamatita, e disse:"
+                },
+                {
+                    "referencia": "J621.1",
+                    "texto": "R., porém, Jó e disse:"
+                },
+                {
+                    "referencia": "Jó 22.1",
+                    "texto": "Então, R, Elifaz, o temanita, e disse:"
+                },
+                {
+                    "referencia": "Jó 23.1",
+                    "texto": "R., porém, Jó e disse:"
+                },
+                {
+                    "referencia": "Jó 25.1",
+                    "texto": "Então, R. Bildade, o suíta, e disse:"
+                },
+                {
+                    "referencia": "Jó 26.1",
+                    "texto": "Jó, porém, R. e disse:"
+                },
+                {
+                    "referencia": "Jó 32.6",
+                    "texto": "E &amp;, Eliú, filho de Baraquel, o buzita, e"
+                },
+                {
+                    "referencia": "Jó 34.1",
+                    "texto": "R. mais Eliú e disse:"
+                },
+                {
+                    "referencia": "Jó 35.1",
+                    "texto": "R. mais Eliú e disse:"
+                },
+                {
+                    "referencia": "Jó 38.1",
+                    "texto": "Depois disto, o Senhor R, a Jó de um"
+                },
+                {
+                    "referencia": "Jó 40.1",
+                    "texto": "R. mais o Senhor a Jó e disse:"
+                },
+                {
+                    "referencia": "Jó 40.3",
+                    "texto": "Então, Jó R. ao Senhor e disse:"
+                },
+                {
+                    "referencia": "Jó 40.6",
+                    "texto": "Então, o Senhor R. a Jó desde a tempestade e disse:"
+                },
+                {
+                    "referencia": "Jó 42.1",
+                    "texto": "Então, R. Jó ao Senhor e disse:"
+                },
+                {
+                    "referencia": "S118.41",
+                    "texto": "os livrasse; até ao Senhor, mas ele não lhes R.."
+                },
+                {
+                    "referencia": "SI 34.4",
+                    "texto": "Busquei ao Senhor, e ele me R.; livrou-me de"
+                },
+                {
+                    "referencia": "Cânticos 5.6",
+                    "texto": "busquei-o e não o achei; chamei-o, e não me R.."
+                },
+                {
+                    "referencia": "Isaías 6.11",
+                    "texto": "eu: até quando, Senhor? E R.: Até que se"
+                },
+                {
+                    "referencia": "Isaías 21.9",
+                    "texto": "e cavaleiros aos pares. Então, R. e disse:"
+                },
+                {
+                    "referencia": "Isaías 50.2",
+                    "texto": "apareceu? Chamei, e ninguém R.? Tanto se"
+                },
+                {
+                    "referencia": "Isaías 66.4",
+                    "texto": "porquanto clamei, e ninguém R.; falei, e não"
+                },
+                {
+                    "referencia": "Jeremias 23.35",
+                    "texto": "e cada um ao seu irmão: Que R, o Senhor? Que"
+                },
+                {
+                    "referencia": "Jeremias 23.37",
+                    "texto": "dirás ao profeta: O que te &amp;. o Senhor? O que"
+                },
+                {
+                    "referencia": "Daniel 2.5",
+                    "texto": "R., o rei e disse aos caldeus: O que foi me tem"
+                },
+                {
+                    "referencia": "Daniel 2.8",
+                    "texto": "R, o rei e disse: Percebo muito bem que vós"
+                },
+                {
+                    "referencia": "Daniel 2.15",
+                    "texto": "R, e disse a Arioque, encarregado do rei: Por"
+                },
+                {
+                    "referencia": "Daniel 2.26",
+                    "texto": "R. o rei e disse a Daniel (cujo nome era"
+                },
+                {
+                    "referencia": "Daniel 2.27",
+                    "texto": "R. Daniel na presença do rei e disse: O"
+                },
+                {
+                    "referencia": "Daniel 2.47",
+                    "texto": "R. o rei a Daniel e disse: Certamente, o vosso"
+                },
+                {
+                    "referencia": "Daniel 3.25",
+                    "texto": "R, e disse: Eu, porém, vejo quatro homens"
+                },
+                {
+                    "referencia": "Daniel 4.19",
+                    "texto": "o sonho, nem a sua interpretação. R."
+                },
+                {
+                    "referencia": "Daniel 5.17",
+                    "texto": "Então, R. Daniel e disse na presença do rei:"
+                },
+                {
+                    "referencia": "Daniel 6.12",
+                    "texto": "seria lançado na cova dos leões? K. o rei e"
+                },
+                {
+                    "referencia": "Jonas 2.2",
+                    "texto": "clamei ao Senhor, e ele me R.; do ventre do"
+                },
+                {
+                    "referencia": "Mg 6.5",
+                    "texto": "rei de Moabe, e do que lhe R. Balaão,"
+                },
+                {
+                    "referencia": "Habacuque 2.2",
+                    "texto": "Então, o Senhor me R. e disse: Escreve a visão"
+                },
+                {
+                    "referencia": "Ageu 2.14",
+                    "texto": "Então, R. Ageue disse: Assim é este povo, e"
+                },
+                {
+                    "referencia": "Zacarias 1.10",
+                    "texto": "Então, R, o homem que estava entre as murtas e"
+                },
+                {
+                    "referencia": "Zacarias 1.12",
+                    "texto": "Então, o anjo do Senhor R. e disse: Ó Senhor"
+                },
+                {
+                    "referencia": "Zacarias 1.13",
+                    "texto": "R, o Senhor ao anjo que falava comigo,"
+                },
+                {
+                    "referencia": "Zacarias 4.5",
+                    "texto": "Então, R. o anjo que falava comigo e me disse:"
+                },
+                {
+                    "referencia": "Zacarias 4.6",
+                    "texto": "E R. eme falou, dizehdo: Esta é a palavra do"
+                },
+                {
+                    "referencia": "Zacarias 4.13",
+                    "texto": "E ele me R., dizendo: Não sabes o que é isto?"
+                },
+                {
+                    "referencia": "Zacarias 6.5",
+                    "texto": "E o anjo R. e me disse: Estes são os quatro"
+                },
+                {
+                    "referencia": "Mateus 12.39",
+                    "texto": "Mas ele lhes R. e disse: Uma geração má e"
+                },
+                {
+                    "referencia": "Mateus 15.23",
+                    "texto": "Mas ele não lhe R, palavra. E os seus"
+                },
+                {
+                    "referencia": "Mateus 15.28",
+                    "texto": "Então, R, Jesus e disse-lhe: O mulher, grande"
+                },
+                {
+                    "referencia": "Mateus 20.21",
+                    "texto": "ele diz-lhe: Que queres? Ela R.: Dize que"
+                },
+                {
+                    "referencia": "Mateus 27.12",
+                    "texto": "dos sacerdotes e pelos anciãos, nada K.."
+                },
+                {
+                    "referencia": "Mateus 27.14",
+                    "texto": "E nem uma palavra lhe R., de sorte que o"
+                },
+                {
+                    "referencia": "Marcos 3.33",
+                    "texto": "E ele lhes R., dizendo: Quem é minha mãe e"
+                },
+                {
+                    "referencia": "Marcos 5.9",
+                    "texto": "Qual é o teu nome? E lhe R., dizendo:"
+                },
+                {
+                    "referencia": "Marcos 7.28",
+                    "texto": "Ela, porém, R. e disse-lhe: Sim, Senhor; mas"
+                },
+                {
+                    "referencia": "Marcos 9.38",
+                    "texto": "E João lhe R., dizendo: Mestre, vimos um que,"
+                },
+                {
+                    "referencia": "Marcos 14.61",
+                    "texto": "Mas ele calou-se e nada R.. O sumo sacerdote"
+                },
+                {
+                    "referencia": "Marcos 15.5",
+                    "texto": "Mas Jesus nada mais R., de maneira que Pilatos"
+                },
+                {
+                    "referencia": "Marcos 15.9",
+                    "texto": "E Pilatos lhes R., dizendo: Quereis que vos"
+                },
+                {
+                    "referencia": "Lucas 3.16",
+                    "texto": "R. João a todos, dizendo: Eu, na verdade,"
+                },
+                {
+                    "referencia": "Lucas 4.4",
+                    "texto": "E Jesuslhe R., dizendo: Escrito está que nem"
+                },
+                {
+                    "referencia": "Lucas 5.22",
+                    "texto": "os seus pensamentos, R. e disse-lhes:"
+                },
+                {
+                    "referencia": "Lucas 9.59",
+                    "texto": "a outro: Segue-me. Mas ele R.: Senhor, deixa"
+                },
+                {
+                    "referencia": "Lucas 13.23",
+                    "texto": "são poucos os que se salvam? E ele lhe R.:"
+                },
+                {
+                    "referencia": "Lucas 13.32",
+                    "texto": "E lhes R.; Ide e dizei àquela raposa: eis que"
+                },
+                {
+                    "referencia": "Lucas 16.6",
+                    "texto": "E ele R.: Cem medidas de azeite. E disse-lhe:"
+                },
+                {
+                    "referencia": "Lucas 16.7",
+                    "texto": "E tu quanto deves? E ele R.: Cem alqueires"
+                },
+                {
+                    "referencia": "Lucas 18.27",
+                    "texto": "Masele R.: As coisas que são impossíveis aos"
+                },
+                {
+                    "referencia": "Jó 1.21",
+                    "texto": "E disse: Não sou. És tu o profeta? E R.: Não."
+                },
+                {
+                    "referencia": "Jó 1.48",
+                    "texto": "onde me conheces tu? Jesus R, e disse-lhe:"
+                },
+                {
+                    "referencia": "Jó 1.49",
+                    "texto": "Natanael R, e disse-lhe: Rabi, tu és o Filho"
+                },
+                {
+                    "referencia": "Jó 1.50",
+                    "texto": "Jesus R. e disse-lhe: Porque te disse: vi-te"
+                },
+                {
+                    "referencia": "Jó 2.19",
+                    "texto": "Jesus R, e disse-lhes: Derribai este templo, e"
+                },
+                {
+                    "referencia": "Jó 3.3",
+                    "texto": "Jesus R, e disse-lhe: Na verdade, na verdade"
+                },
+                {
+                    "referencia": "Jó 3.5",
+                    "texto": "Jesus R.: Na verdade, na verdade te digo que"
+                },
+                {
+                    "referencia": "Jó 3.9",
+                    "texto": "Nicodemos R. e disse-lhe: Como pode ser isso?"
+                },
+                {
+                    "referencia": "Jó 3.10",
+                    "texto": "Jesus R. e disse-lhe: Tu és mestre de Israel e"
+                },
+                {
+                    "referencia": "Jó 3.27",
+                    "texto": "João R, e disse: O homem não pode receber"
+                },
+                {
+                    "referencia": "Jó 4.10",
+                    "texto": "Jesus R, e disse-lhe: Se tu conheceras o dom"
+                },
+                {
+                    "referencia": "Jó 4.13",
+                    "texto": "Jesus R, e disse-lhe: Qualquer que beber desta"
+                },
+                {
+                    "referencia": "Jó 4.17",
+                    "texto": "A mulher R, e disse: Não tenho marido."
+                },
+                {
+                    "referencia": "Jó 5.17",
+                    "texto": "E Jesus lhes R,: Meu Pai trabalha até agora, e"
+                },
+                {
+                    "referencia": "Jó 5.19",
+                    "texto": "Mas Jesus R, e disse-lhes: Na verdade, na"
+                },
+                {
+                    "referencia": "Jó 6.26",
+                    "texto": "Jesus R. e disse-lhes: Na verdade, na verdade"
+                },
+                {
+                    "referencia": "Jó 6.29",
+                    "texto": "Jesus R. e disse-lhes: A obra de Deus é esta:"
+                },
+                {
+                    "referencia": "Jó 643",
+                    "texto": "R., pois, Jesus e disse-lhes: Não murmureis"
+                },
+                {
+                    "referencia": "Jó 7.16",
+                    "texto": "Jesus R. e disse-lhes: A minha doutrina não é"
+                },
+                {
+                    "referencia": "Jó 7.20",
+                    "texto": "A multidão R. e disse: Tens demônio; quem"
+                },
+                {
+                    "referencia": "Jó 7.21",
+                    "texto": "R. Jesus e disse-lhes: Fiz uma obra, e todos"
+                },
+                {
+                    "referencia": "Jó 8.14",
+                    "texto": "R. Jesus e disse-lhes: Ainda que eu testifico"
+                },
+                {
+                    "referencia": "Jó 8.19",
+                    "texto": "Onde está teu Pai? Jesus R.: Não me"
+                },
+                {
+                    "referencia": "Jó 8.49",
+                    "texto": "Jesus R.: Eu não tenho demônio; antes, honro a"
+                },
+                {
+                    "referencia": "Jó 8.54",
+                    "texto": "Jesus R.: Se eu me glorifico a mim mesmo, a"
+                },
+                {
+                    "referencia": "Jó 9.11",
+                    "texto": "Ele R. e disse-lhes: O homem chamado Jesus fez"
+                },
+                {
+                    "referencia": "Jó 9.12",
+                    "texto": "Disseram-lhe, pois: Onde está ele? R.: Não sei."
+                },
+                {
+                    "referencia": "Jó 9.17",
+                    "texto": "que te abriu os olhos? E ele R.: Que é profeta."
+                },
+                {
+                    "referencia": "Jó 9.25",
+                    "texto": "R, ele, pois, e disse: Se é pecador, não sei;"
+                },
+                {
+                    "referencia": "Jó 9.30",
+                    "texto": "O homem R. e disse-lhes: Nisto, pois, está a"
+                },
+                {
+                    "referencia": "Jó 9.36",
+                    "texto": "Ele R. e disse: Quem é ele, Senhor, para que"
+                },
+                {
+                    "referencia": "Jó 12.23",
+                    "texto": "E Jesus lhes R., dizendo: É chegada a hora em"
+                },
+                {
+                    "referencia": "Jó 12.30",
+                    "texto": "KR. Jesus e disse: Não veio esta voz por amor"
+                },
+                {
+                    "referencia": "Jó 13.7",
+                    "texto": "R. Jesus e disse-lhe: O que eu faço, não o"
+                },
+                {
+                    "referencia": "Jó 13.26",
+                    "texto": "Jesus R.: É aquele a quem eu der o bocado"
+                },
+                {
+                    "referencia": "Jó 13.36",
+                    "texto": "para onde vais? Jesus lhe R.: Para onde eu"
+                },
+                {
+                    "referencia": "Jó 14.23",
+                    "texto": "Jesus R. e disse-lhe: Se alguém me ama,"
+                },
+                {
+                    "referencia": "Jó 18.8",
+                    "texto": "Jesus R.: Já vos disse que sou eu; se, pois me"
+                },
+                {
+                    "referencia": "Jó 18.20",
+                    "texto": "Jesuslhe R.: Eu falei abertamente ao mundo;"
+                },
+                {
+                    "referencia": "Jó 18.35",
+                    "texto": "Pilatos R.: Porventura, sou eu judeu? A tua"
+                },
+                {
+                    "referencia": "Jó 18.36",
+                    "texto": "R, Jesus: O meu Reino não é deste mundo; se o"
+                },
+                {
+                    "referencia": "Jó 18.37",
+                    "texto": "Pilatos: Logo tu és rei? Jesus R.: Tu dizes"
+                },
+                {
+                    "referencia": "Jó 19.11",
+                    "texto": "R. Jesus: Nenhum poder terias contra mim, se"
+                },
+                {
+                    "referencia": "Jó 19.22",
+                    "texto": "R. Pilatos: O que escrevi escrevi."
+                },
+                {
+                    "referencia": "Jó 20.28",
+                    "texto": "Tomé R. e disse-lhe: Senhor meu, e Deus meu!"
+                },
+                {
+                    "referencia": "Jó 21.15",
+                    "texto": "amas-me mais do que estes? E ele R.: Sim,"
+                },
+                {
+                    "referencia": "Atos 9.10",
+                    "texto": "em visão: Ananias! E ele R.: Eis-me aqui, Senhor!"
+                },
+                {
+                    "referencia": "Atos 10.47",
+                    "texto": "R., então, Pedro: Pode alguém, porventura,"
+                },
+                {
+                    "referencia": "Atos 21.13",
+                    "texto": "Mas Paulo R.: Que fazeis vós, chorando e"
+                },
+                {
+                    "referencia": "Atos 22.28",
+                    "texto": "E R. o tribuno: Eu com grande soma de dinheiro"
+                },
+                {
+                    "referencia": "Atos 24.10",
+                    "texto": "governador sinal que falasse, R.: Porque sei"
+                },
+                {
+                    "referencia": "Atos 24.25",
+                    "texto": "vindouro, Félix, espavorido, R.: Por"
+                },
+                {
+                    "referencia": "Atos 25.4",
+                    "texto": "Mas Festo R. que Paulo estava guardado em"
+                },
+                {
+                    "referencia": "Atos 25.12",
+                    "texto": "tendo falado com o conselho, R.: Apelaste"
+                },
+                {
+                    "referencia": "Atos 26.1",
+                    "texto": "Paulo, estendendo a mão em sua defesa, R.:"
+                },
+                {
+                    "referencia": "Atos 26.15",
+                    "texto": "eu: Quem és, Senhor? E ele R.: Eu sou"
+                }
+            ]
+        }
+    ]
+}

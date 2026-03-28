@@ -1,0 +1,50 @@
+{
+    "s": [
+        {
+            "palavra": "SERRAS",
+            "veja tambem": [
+                "serrar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "2 Samuel 12.31",
+                    "texto": "que havia nela, o pôs às S., e às talhadeiras"
+                }
+            ]
+        },
+        {
+            "palavra": "SERUGUE",
+            "veja tambem": [],
+            "ocorrencias": 6,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 11.20",
+                    "texto": "E viveu Reú trinta e dois anos e gerou a $.."
+                },
+                {
+                    "referencia": "Gênesis 11.21",
+                    "texto": "Reú, depois que gerou a S., duzentos e sete"
+                },
+                {
+                    "referencia": "Gênesis 11.22",
+                    "texto": "E viveu 8, trinta anos e gerou a Naor."
+                },
+                {
+                    "referencia": "Gênesis 11.23",
+                    "texto": "E viveu S., depois que gerou a Naor, duzentos"
+                },
+                {
+                    "referencia": "1 Crônicas 1.26",
+                    "texto": "S., Naor, Tera,"
+                },
+                {
+                    "referencia": "Lucas 3.35",
+                    "texto": "e Naor de S., e S., de Ragaú, e Ragaú, de"
+                }
+            ]
+        }
+    ]
+}

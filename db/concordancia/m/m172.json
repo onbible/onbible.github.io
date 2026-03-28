@@ -1,0 +1,74 @@
+{
+    "m": [
+        {
+            "palavra": "MODERADO",
+            "veja tambem": [
+                "moderar"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "1 Timóteo 3.3",
+                    "texto": "de torpe ganância, mas M., não"
+                },
+                {
+                    "referencia": "Tito 1.8",
+                    "texto": "hospitalidade, amigo do bem, M., justo, santo, tempe-"
+                }
+            ]
+        },
+        {
+            "palavra": "MODERADOS",
+            "veja tambem": [
+                "moderar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Tito 2.6",
+                    "texto": "Exorta semelhantemente os jovens a que sejam Me.."
+                }
+            ]
+        },
+        {
+            "palavra": "MODÉSTIA",
+            "veja tambem": [],
+            "ocorrencias": 3,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "1 Timóteo 2.9",
+                    "texto": "traje honesto, com pudor e M., não com"
+                },
+                {
+                    "referencia": "1 Timóteo 2.15",
+                    "texto": "luz filhos, se permanecer com M. na fé, no amor"
+                },
+                {
+                    "referencia": "1 Timóteo 3.4",
+                    "texto": "tendo seus filhos em sujeição, com toda a M."
+                }
+            ]
+        },
+        {
+            "palavra": "MODESTOS",
+            "veja tambem": [
+                "modéstia"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "Tito 3.2",
+                    "texto": "nem sejam contenciosos, mas ML, mostrando toda"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+  "livro": "Gênesis - בְּרֵאשִׁית - Bereshit",
+  "capítulo": 23,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E foram as vidas de Sara cem anos e vinte anos e sete anos; os anos da vida de Sara.",
+      "palavras": [
+        { "hebraico": "וַיִּהְיוּ֙", "transliteral": "wayyihyû", "traducao_palavra": "e foram" },
+        { "hebraico": "חַיֵּ֣י", "transliteral": "ḥayyê", "traducao_palavra": "vidas de" },
+        { "hebraico": "שָׂרָ֔ה", "transliteral": "śārâ", "traducao_palavra": "Sara" },
+        { "hebraico": "מֵאָ֥ה", "transliteral": "mēʾâ", "traducao_palavra": "cem" },
+        { "hebraico": "שָׁנָ֛ה", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "וְעֶשְׂרִ֥ים", "transliteral": "wəʿeśrîm", "traducao_palavra": "e vinte" },
+        { "hebraico": "שָׁנָ֖ה", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "וְשֶׁ֣בַע", "transliteral": "wəšebaʿ", "traducao_palavra": "e sete" },
+        { "hebraico": "שָׁנִ֑ים", "transliteral": "šānîm", "traducao_palavra": "anos" },
+        { "hebraico": "שְׁנֵ֖י", "transliteral": "šənê", "traducao_palavra": "anos de" },
+        { "hebraico": "חַיֵּ֥י", "transliteral": "ḥayyê", "traducao_palavra": "vida de" },
+        { "hebraico": "שָׂרָֽה׃", "transliteral": "śārâ", "traducao_palavra": "Sara" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E morreu Sara em Quiriate-Arba, ela [é] Hebrom, na terra de Canaã; e veio Abraão para lamentar Sara e para chorá-la.",
+      "palavras": [
+        { "hebraico": "וַתָּ֣מָת", "transliteral": "wattāmoṯ", "traducao_palavra": "e morreu" },
+        { "hebraico": "שָׂרָה", "transliteral": "śārâ", "traducao_palavra": "Sara" },
+        { "hebraico": "בְּקִרְיַ֣ת", "transliteral": "bəqiryat", "traducao_palavra": "em cidade de" },
+        { "hebraico": "אַרְבַּ֔ע", "transliteral": "ʾarbaʿ", "traducao_palavra": "Arba" },
+        { "hebraico": "הִ֥וא", "transliteral": "hîʾ", "traducao_palavra": "ela" },
+        { "hebraico": "חֶבְר֖וֹן", "transliteral": "ḥeḇrôn", "traducao_palavra": "Hebrom" },
+        { "hebraico": "בְּאֶ֣רֶץ", "transliteral": "bəʾereṣ", "traducao_palavra": "na terra de" },
+        { "hebraico": "כְּנָ֑עַן", "transliteral": "kənāʿan", "traducao_palavra": "Canaã" },
+        { "hebraico": "וַיָּבֹ֣א", "transliteral": "wayyāḇōʾ", "traducao_palavra": "e veio" },
+        { "hebraico": "אַבְרָהָ֔ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "לִסְפֹּ֥ד", "transliteral": "lispōḏ", "traducao_palavra": "para lamentar" },
+        { "hebraico": "לְשָׂרָ֖ה", "transliteral": "ləśārâ", "traducao_palavra": "a Sara" },
+        { "hebraico": "וְלִבְכֹּתָֽהּ׃", "transliteral": "wəliḇkōṯāh", "traducao_palavra": "e para chorá-la" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E levantou-se Abraão de diante da face de seu morto, e falou aos filhos de Hete, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיָּ֙קָם֙", "transliteral": "wayyāqom", "traducao_palavra": "e levantou-se" },
+        { "hebraico": "אַבְרָהָ֔ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "מֵעַ֖ל", "transliteral": "mēʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "פְּנֵ֣י", "transliteral": "pənê", "traducao_palavra": "face de" },
+        { "hebraico": "מֵת֑וֹ", "transliteral": "mēṯô", "traducao_palavra": "seu morto" },
+        { "hebraico": "וַיְדַבֵּ֥ר", "transliteral": "wayḏabbēr", "traducao_palavra": "e falou" },
+        { "hebraico": "אֶל־בְּנֵי־חֵ֖ת", "transliteral": "ʾel-bənê-ḥēṯ", "traducao_palavra": "a filhos de Hete" },
+        { "hebraico": "לֵאמֹֽר׃", "transliteral": "lēʾmōr", "traducao_palavra": "dizendo" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Estrangeiro e residente sou eu convosco; dai-me propriedade de sepulcro convosco, e sepultarei meu morto de diante de minha face.",
+      "palavras": [
+        { "hebraico": "גֵּר־וְתוֹשָׁ֥ב", "transliteral": "gēr-wəṯôšāḇ", "traducao_palavra": "estrangeiro e residente" },
+        { "hebraico": "אָנֹכִ֖י", "transliteral": "ʾānōḵî", "traducao_palavra": "eu" },
+        { "hebraico": "עִמָּכֶ֑ם", "transliteral": "ʿimmāḵem", "traducao_palavra": "com vós" },
+        { "hebraico": "תְּנ֨וּ", "transliteral": "tənû", "traducao_palavra": "dai" },
+        { "hebraico": "לִ֤י", "transliteral": "lî", "traducao_palavra": "a mim" },
+        { "hebraico": "אֲחֻזַּת־קֶ֙בֶר֙", "transliteral": "ʾăḥuẓẓat-qeḇer", "traducao_palavra": "propriedade de sepulcro" },
+        { "hebraico": "עִמָּכֶ֔ם", "transliteral": "ʿimmāḵem", "traducao_palavra": "com vós" },
+        { "hebraico": "וְאֶקְבְּרָ֥ה", "transliteral": "wəʾeqbərâ", "traducao_palavra": "e sepultarei" },
+        { "hebraico": "מֵתִ֖י", "transliteral": "mēṯî", "traducao_palavra": "meu morto" },
+        { "hebraico": "מִלְּפָנָֽי׃", "transliteral": "milləpānāy", "traducao_palavra": "de diante de minha face" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E responderam os filhos de Hete a Abraão, dizendo-lhe:",
+      "palavras": [
+        { "hebraico": "וַיַּעֲנ֧וּ", "transliteral": "wayyaʿănû", "traducao_palavra": "e responderam" },
+        { "hebraico": "בְנֵי־חֵ֛ת", "transliteral": "ḇənê-ḥēṯ", "traducao_palavra": "filhos de Hete" },
+        { "hebraico": "אֶת־אַבְרָהָ֖ם", "transliteral": "ʾeṯ-ʾaḇrāhām", "traducao_palavra": "a Abraão" },
+        { "hebraico": "לֵאמֹ֥ר", "transliteral": "lēʾmōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "לּֽוֹ׃", "transliteral": "lô", "traducao_palavra": "a ele" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Ouve-nos, meu senhor; um príncipe de Deus és tu no nosso meio; no melhor de nossos sepulcros sepulta o teu morto; nenhum de nós seu sepulcro negará a ti, de sepultar teu morto.",
+      "palavras": [
+        { "hebraico": "שְׁמָעֵ֣נוּ ׀", "transliteral": "šəmāʿēnû", "traducao_palavra": "ouve-nos" },
+        { "hebraico": "אֲדֹנִ֗י", "transliteral": "ʾăḏōnî", "traducao_palavra": "meu senhor" },
+        { "hebraico": "נְשִׂ֨יא", "transliteral": "nəśîʾ", "traducao_palavra": "príncipe de" },
+        { "hebraico": "אֱלֹהִ֤ים", "transliteral": "ʾĕlōhîm", "traducao_palavra": "Deus" },
+        { "hebraico": "אַתָּה֙", "transliteral": "ʾattâ", "traducao_palavra": "tu" },
+        { "hebraico": "בְּתוֹכֵ֔נוּ", "transliteral": "bəṯôḵēnû", "traducao_palavra": "no nosso meio" },
+        { "hebraico": "בְּמִבְחַ֣ר", "transliteral": "bəmiḇḥar", "traducao_palavra": "no escolhido/melhor de" },
+        { "hebraico": "קְבָרֵ֔ינוּ", "transliteral": "qəḇārênû", "traducao_palavra": "nossos sepulcros" },
+        { "hebraico": "קְבֹ֖ר", "transliteral": "qəḇōr", "traducao_palavra": "sepulta" },
+        { "hebraico": "אֶת־מֵתֶ֑ךָ", "transliteral": "ʾeṯ-mēṯeḵā", "traducao_palavra": "o teu morto" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem/ninguém" },
+        { "hebraico": "מִמֶּ֔נּוּ", "transliteral": "mimmennû", "traducao_palavra": "de nós" },
+        { "hebraico": "אֶת־קִבְר֛וֹ", "transliteral": "ʾeṯ-qiḇrô", "traducao_palavra": "o seu sepulcro" },
+        { "hebraico": "לֹא־יִכְלֶ֥ה", "transliteral": "lōʾ-yiḵleh", "traducao_palavra": "não impedirá/negará" },
+        { "hebraico": "מִמְּךָ֖", "transliteral": "mimməḵā", "traducao_palavra": "de ti" },
+        { "hebraico": "מִקְּבֹ֥ר", "transliteral": "miqqəḇōr", "traducao_palavra": "de sepultar" },
+        { "hebraico": "מֵתֶֽךָ׃", "transliteral": "mēṯeḵā", "traducao_palavra": "teu morto" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "E levantou-se Abraão e inclinou-se ao povo da terra, aos filhos de Hete.",
+      "palavras": [
+        { "hebraico": "וַיָּ֧קָם", "transliteral": "wayyāqom", "traducao_palavra": "e levantou-se" },
+        { "hebraico": "אַבְרָהָ֛ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "וַיִּשְׁתַּ֥חוּ", "transliteral": "wayyištāḥû", "traducao_palavra": "e inclinou-se" },
+        { "hebraico": "לְעַם־הָאָ֖רֶץ", "transliteral": "ləʿam-hāʾāreṣ", "traducao_palavra": "ao povo da terra" },
+        { "hebraico": "לִבְנֵי־חֵֽת׃", "transliteral": "liḇnê-ḥēṯ", "traducao_palavra": "aos filhos de Hete" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E falou com eles, dizendo: Se é com a vossa alma sepultar meu morto de diante de minha face, ouvi-me e intercedei por mim perante Efrom, filho de Zoar.",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּ֥ר", "transliteral": "wayḏabbēr", "traducao_palavra": "e falou" },
+        { "hebraico": "אִתָּ֖ם", "transliteral": "ʾittām", "traducao_palavra": "com eles" },
+        { "hebraico": "לֵאמֹ֑ר", "transliteral": "lēʾmōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "אִם־יֵ֣שׁ", "transliteral": "ʾim-yēš", "traducao_palavra": "se existe" },
+        { "hebraico": "אֶֽת־נַפְשְׁכֶ֗ם", "transliteral": "ʾeṯ-napšəḵem", "traducao_palavra": "com vossa alma/vontade" },
+        { "hebraico": "לִקְבֹּ֤ר", "transliteral": "liqbbōr", "traducao_palavra": "sepultar" },
+        { "hebraico": "אֶת־מֵתִי֙", "transliteral": "ʾeṯ-mēṯî", "traducao_palavra": "meu morto" },
+        { "hebraico": "מִלְּפָנַ֔י", "transliteral": "milləpānay", "traducao_palavra": "de diante de minha face" },
+        { "hebraico": "שְׁמָע֕וּנִי", "transliteral": "šəmāʿûnî", "traducao_palavra": "ouvi-me" },
+        { "hebraico": "וּפִגְעוּ־לִ֖י", "transliteral": "ûp̄iḡʿû-lî", "traducao_palavra": "e intercedei por mim" },
+        { "hebraico": "בְּעֶפְר֥וֹן", "transliteral": "bəʿep̄rôn", "traducao_palavra": "em/perante Efrom" },
+        { "hebraico": "בֶּן־צֹֽחַר׃", "transliteral": "ben-ṣōḥar", "traducao_palavra": "filho de Zoar" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E que ele me dê a caverna de Macpela, que [é] dele, que [está] na extremidade do seu campo; por dinheiro total a dê a mim no vosso meio, para propriedade de sepulcro.",
+      "palavras": [
+        { "hebraico": "וְיִתֶּן־לִ֗י", "transliteral": "wəyitten-lî", "traducao_palavra": "e ele dê a mim" },
+        { "hebraico": "אֶת־מְעָרַ֤ת", "transliteral": "ʾeṯ-məʿāraṯ", "traducao_palavra": "a caverna de" },
+        { "hebraico": "הַמַּכְפֵּלָה֙", "transliteral": "hammāḵpēlâ", "traducao_palavra": "Macpela" },
+        { "hebraico": "אֲשֶׁר־ל֔וֹ", "transliteral": "ʾăšer-lô", "traducao_palavra": "que a ele" },
+        { "hebraico": "אֲשֶׁ֖ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "בִּקְצֵ֣ה", "transliteral": "biqṣē", "traducao_palavra": "na extremidade de" },
+        { "hebraico": "שָׂדֵ֑הוּ", "transliteral": "śāḏēhû", "traducao_palavra": "seu campo" },
+        { "hebraico": "בְּכֶ֨סֶף", "transliteral": "bəḵesep̄", "traducao_palavra": "por prata/dinheiro" },
+        { "hebraico": "מָלֵ֜א", "transliteral": "mālēʾ", "traducao_palavra": "cheio/total" },
+        { "hebraico": "יִתְּנֶ֥נָּה", "transliteral": "yittənennâ", "traducao_palavra": "ele a dará" },
+        { "hebraico": "לִּ֛י", "transliteral": "lî", "traducao_palavra": "a mim" },
+        { "hebraico": "בְּתוֹכְכֶ֖ם", "transliteral": "bəṯôḵəḵem", "traducao_palavra": "no vosso meio" },
+        { "hebraico": "לַאֲחֻזַּת־קָֽבֶר׃", "transliteral": "laʾăḥuẓẓat-qāḇer", "traducao_palavra": "para propriedade de sepulcro" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E Efrom estava sentado no meio dos filhos de Hete; e respondeu Efrom, o hitita, a Abraão aos ouvidos dos filhos de Hete, para todos os que entravam na porta da sua cidade, dizendo:",
+      "palavras": [
+        { "hebraico": "וְעֶפְר֥וֹן", "transliteral": "wəʿep̄rôn", "traducao_palavra": "e Efrom" },
+        { "hebraico": "יֹשֵׁ֖ב", "transliteral": "yōšēḇ", "traducao_palavra": "estava sentado" },
+        { "hebraico": "בְּת֣וֹךְ", "transliteral": "bəṯôḵ", "traducao_palavra": "no meio de" },
+        { "hebraico": "בְּנֵי־חֵ֑ת", "transliteral": "bənê-ḥēṯ", "traducao_palavra": "filhos de Hete" },
+        { "hebraico": "וַיַּעַן֩", "transliteral": "wayyaʿan", "traducao_palavra": "e respondeu" },
+        { "hebraico": "עֶפְר֨וֹן", "transliteral": "ʿep̄rôn", "traducao_palavra": "Efrom" },
+        { "hebraico": "הַחִתִּ֨י", "transliteral": "haḥittî", "traducao_palavra": "o hitita" },
+        { "hebraico": "אֶת־אַבְרָהָ֜ם", "transliteral": "ʾeṯ-ʾaḇrāhām", "traducao_palavra": "a Abraão" },
+        { "hebraico": "בְּאָזְנֵ֥י", "transliteral": "bəʾāznê", "traducao_palavra": "nos ouvidos de" },
+        { "hebraico": "בְנֵי־חֵ֛ת", "transliteral": "ḇənê-ḥēṯ", "traducao_palavra": "filhos de Hete" },
+        { "hebraico": "לְכֹ֛ל", "transliteral": "ləḵōl", "traducao_palavra": "para todos" },
+        { "hebraico": "בָּאֵ֥י", "transliteral": "bāʾê", "traducao_palavra": "os que entravam" },
+        { "hebraico": "שַֽׁעַר־עִיר֖וֹ", "transliteral": "šaʿar-ʿîrô", "traducao_palavra": "porta de sua cidade" },
+        { "hebraico": "לֵאמֹֽר׃", "transliteral": "lēʾmōr", "traducao_palavra": "dizendo" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Não, meu senhor, ouve-me; o campo eu te dou, e a caverna que nele [está], a ti eu a dou; aos olhos dos filhos do meu povo eu a dou a ti; sepulta teu morto.",
+      "palavras": [
+        { "hebraico": "לֹֽא־אֲדֹנִ֣י", "transliteral": "lōʾ-ʾăḏōnî", "traducao_palavra": "não meu senhor" },
+        { "hebraico": "שְׁמָעֵ֔נוּ", "transliteral": "šəmāʿēnû", "traducao_palavra": "ouve-me" },
+        { "hebraico": "הַשָּׂדֶה֙", "transliteral": "haśśāḏeh", "traducao_palavra": "o campo" },
+        { "hebraico": "נָתַ֣תִּי", "transliteral": "nāṯattî", "traducao_palavra": "eu dei" },
+        { "hebraico": "לָ֔ךְ", "transliteral": "lāḵ", "traducao_palavra": "a ti" },
+        { "hebraico": "וְהַמְּעָרָ֥ה", "transliteral": "wəhamməʿārâ", "traducao_palavra": "e a caverna" },
+        { "hebraico": "אֲשֶׁר־בּ֖וֹ", "transliteral": "ʾăšer-bô", "traducao_palavra": "que nela" },
+        { "hebraico": "לְךָ֣", "transliteral": "ləḵā", "traducao_palavra": "a ti" },
+        { "hebraico": "נְתַתִּ֑יהָ", "transliteral": "nəṯattîhā", "traducao_palavra": "eu a dei" },
+        { "hebraico": "לְעֵינֵ֧י", "transliteral": "ləʿênê", "traducao_palavra": "aos olhos de" },
+        { "hebraico": "בְנֵי־עַמִּ֛י", "transliteral": "ḇənê-ʿammî", "traducao_palavra": "filhos do meu povo" },
+        { "hebraico": "נְתַתִּ֥יהָ", "transliteral": "nəṯattîhā", "traducao_palavra": "eu a dei" },
+        { "hebraico": "לָּ֖ךְ", "transliteral": "lāḵ", "traducao_palavra": "a ti" },
+        { "hebraico": "קְבֹ֥ר", "transliteral": "qəḇōr", "traducao_palavra": "sepulta" },
+        { "hebraico": "מֵתֶֽךָ׃", "transliteral": "mēṯeḵā", "traducao_palavra": "teu morto" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E inclinou-se Abraão perante o povo da terra.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁתַּ֖חוּ", "transliteral": "wayyištāḥû", "traducao_palavra": "e inclinou-se" },
+        { "hebraico": "אַבְרָהָ֑ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "לִפְנֵ֖י", "transliteral": "lip̄nê", "traducao_palavra": "diante de" },
+        { "hebraico": "עַ֥ם", "transliteral": "ʿam", "traducao_palavra": "povo de" },
+        { "hebraico": "הָאָֽרֶץ׃", "transliteral": "hāʾāreṣ", "traducao_palavra": "a terra" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E falou a Efrom aos ouvidos do povo da terra, dizendo: Somente se tu, rogo-te, ouve-me; darei o dinheiro do campo, toma-o de mim e sepultarei meu morto ali.",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּ֨ר", "transliteral": "wayḏabbēr", "traducao_palavra": "e falou" },
+        { "hebraico": "אֶל־עֶפְר֜וֹן", "transliteral": "ʾel-ʿep̄rôn", "traducao_palavra": "a Efrom" },
+        { "hebraico": "בְּאָזְנֵ֤י", "transliteral": "bəʾāznê", "traducao_palavra": "nos ouvidos de" },
+        { "hebraico": "עַם־הָאָ֙רֶץ֙", "transliteral": "ʿam-hāʾāreṣ", "traducao_palavra": "povo da terra" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lēʾmōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "אַ֣ךְ", "transliteral": "ʾaḵ", "traducao_palavra": "somente" },
+        { "hebraico": "אִם־אַתָּ֥ה", "transliteral": "ʾim-ʾattâ", "traducao_palavra": "se tu" },
+        { "hebraico": "לוּ", "transliteral": "lû", "traducao_palavra": "quem dera/rogo-te" },
+        { "hebraico": "שְׁמָעֵ֑נִי", "transliteral": "šəmāʿēnî", "traducao_palavra": "ouve-me" },
+        { "hebraico": "נָתַ֜תִּי", "transliteral": "nāṯattî", "traducao_palavra": "eu darei" },
+        { "hebraico": "כֶּ֤סֶף", "transliteral": "kesep̄", "traducao_palavra": "dinheiro de" },
+        { "hebraico": "הַשָּׂדֶה֙", "transliteral": "haśśāḏeh", "traducao_palavra": "o campo" },
+        { "hebraico": "קַ֣ח", "transliteral": "qaḥ", "traducao_palavra": "toma" },
+        { "hebraico": "מִמֶּ֔נִּי", "transliteral": "mimmennî", "traducao_palavra": "de mim" },
+        { "hebraico": "וְאֶקְבְּרָ֥ה", "transliteral": "wəʾeqbərâ", "traducao_palavra": "e sepultarei" },
+        { "hebraico": "אֶת־מֵתִ֖י", "transliteral": "ʾeṯ-mēṯî", "traducao_palavra": "o meu morto" },
+        { "hebraico": "שָֽׁמָּה׃", "transliteral": "šāmmâ", "traducao_palavra": "lá/ali" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E respondeu Efrom a Abraão, dizendo-lhe:",
+      "palavras": [
+        { "hebraico": "וַיַּ֧עַן", "transliteral": "wayyaʿan", "traducao_palavra": "e respondeu" },
+        { "hebraico": "עֶפְר֛וֹן", "transliteral": "ʿep̄rôn", "traducao_palavra": "Efrom" },
+        { "hebraico": "אֶת־אַבְרָהָ֥ם", "transliteral": "ʾeṯ-ʾaḇrāhām", "traducao_palavra": "a Abraão" },
+        { "hebraico": "לֵאמֹ֥ר", "transliteral": "lēʾmōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "לּֽוֹ׃", "transliteral": "lô", "traducao_palavra": "a ele" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Meu senhor, ouve-me; a terra de quatrocentos siclos de prata entre mim e entre ti, o que é isso? E teu morto sepulta.",
+      "palavras": [
+        { "hebraico": "אֲדֹנִ֣י", "transliteral": "ʾăḏōnî", "traducao_palavra": "meu senhor" },
+        { "hebraico": "שְׁמָעֵ֔נִי", "transliteral": "šəmāʿēnî", "traducao_palavra": "ouve-me" },
+        { "hebraico": "אֶרֶץ֩", "transliteral": "ʾereṣ", "traducao_palavra": "terra de" },
+        { "hebraico": "אַרְבַּ֨ע", "transliteral": "ʾarbaʿ", "traducao_palavra": "quatro" },
+        { "hebraico": "מֵאֹ֧ת", "transliteral": "mēʾōṯ", "traducao_palavra": "centenas" },
+        { "hebraico": "שֶֽׁקֶל־כֶּ֛סֶף", "transliteral": "šeqel-kesep̄", "traducao_palavra": "siclo de prata" },
+        { "hebraico": "בֵּינִ֥י", "transliteral": "bênî", "traducao_palavra": "entre mim" },
+        { "hebraico": "וּבֵינְךָ֖", "transliteral": "ûḇênəḵā", "traducao_palavra": "e entre ti" },
+        { "hebraico": "מַה־הִ֑וא", "transliteral": "mah-hîʾ", "traducao_palavra": "o que ela/isso" },
+        { "hebraico": "וְאֶת־מֵתְךָ֖", "transliteral": "wəʾeṯ-mēṯəḵā", "traducao_palavra": "e o teu morto" },
+        { "hebraico": "קְבֹֽר׃", "transliteral": "qəḇōr", "traducao_palavra": "sepulta" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E ouviu Abraão a Efrom; e pesou Abraão para Efrom a prata que falara aos ouvidos dos filhos de Hete: quatrocentos siclos de prata, passando ao mercador.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁמַ֣ע", "transliteral": "wayyišmaʿ", "traducao_palavra": "e ouviu" },
+        { "hebraico": "אַבְרָהָם֮", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "אֶל־עֶפְרוֹן֒", "transliteral": "ʾel-ʿep̄rôn", "traducao_palavra": "a Efrom" },
+        { "hebraico": "וַיִּשְׁקֹ֤ל", "transliteral": "wayyišqōl", "traducao_palavra": "e pesou" },
+        { "hebraico": "אַבְרָהָם֙", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "לְעֶפְרֹ֔ן", "transliteral": "ləʿep̄rōn", "traducao_palavra": "para Efrom" },
+        { "hebraico": "אֶת־הַכֶּ֕סֶף", "transliteral": "ʾeṯ-hakkesep̄", "traducao_palavra": "a prata" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "דִּבֶּ֖ר", "transliteral": "dibber", "traducao_palavra": "falou" },
+        { "hebraico": "בְּאָזְנֵ֣י", "transliteral": "bəʾāznê", "traducao_palavra": "nos ouvidos de" },
+        { "hebraico": "בְנֵi־חֵ֑ת", "transliteral": "ḇənê-ḥēṯ", "traducao_palavra": "filhos de Hete" },
+        { "hebraico": "אַרְבַּ֤ע", "transliteral": "ʾarbaʿ", "traducao_palavra": "quatro" },
+        { "hebraico": "מֵאֹוֹת֙", "transliteral": "mēʾôṯ", "traducao_palavra": "centenas" },
+        { "hebraico": "שֶׁ֣קֶל", "transliteral": "šeqel", "traducao_palavra": "siclo de" },
+        { "hebraico": "כֶּ֔סֶף", "transliteral": "kesep̄", "traducao_palavra": "prata" },
+        { "hebraico": "עֹבֵ֖ר", "transliteral": "ʿōḇēr", "traducao_palavra": "passando/corrente" },
+        { "hebraico": "לַסֹּחֵֽר׃", "transliteral": "lassōḥēr", "traducao_palavra": "ao mercador" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E foi estabelecido o campo de Efrom, que [está] em Macpela, que [está] diante de Manre; o campo e a caverna que nele [está], e toda árvore que no campo [está], em todo o seu limite ao redor.",
+      "palavras": [
+        { "hebraico": "וַיָּ֣קָם", "transliteral": "wayyāqom", "traducao_palavra": "e foi estabelecido/levantou" },
+        { "hebraico": "שְׂדֵ֣ה", "transliteral": "śəḏē", "traducao_palavra": "campo de" },
+        { "hebraico": "עֶפְר֗וֹן", "transliteral": "ʿep̄rôn", "traducao_palavra": "Efrom" },
+        { "hebraico": "אֲשֶׁר֙", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "בַּמַּכְפֵּלָ֔ה", "transliteral": "bammaḵpēlâ", "traducao_palavra": "em Macpela" },
+        { "hebraico": "אֲשֶׁ֖ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "לִפְנֵ֣י", "transliteral": "lip̄nê", "traducao_palavra": "diante de" },
+        { "hebraico": "מַמְרֵ֑א", "transliteral": "mamrē", "traducao_palavra": "Manre" },
+        { "hebraico": "הַשָּׂדֶה֙", "transliteral": "haśśāḏeh", "traducao_palavra": "o campo" },
+        { "hebraico": "וְהַמְּעָרָ֣ה", "transliteral": "wəhamməʿārâ", "traducao_palavra": "e a caverna" },
+        { "hebraico": "אֲשֶׁר־בּ֔וֹ", "transliteral": "ʾăšer-bô", "traducao_palavra": "que nela" },
+        { "hebraico": "וְכָל־הָעֵץ֙", "transliteral": "wəḵol-hāʿēṣ", "traducao_palavra": "e toda árvore" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "בַּשָּׂדֶ֔ה", "transliteral": "baśśāḏeh", "traducao_palavra": "no campo" },
+        { "hebraico": "בְּכָל־גְּבֻל֖וֹ", "transliteral": "bəḵāl-gəḇulô", "traducao_palavra": "em todo seu limite" },
+        { "hebraico": "סָבִֽיב׃", "transliteral": "sāḇîḇ", "traducao_palavra": "ao redor" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "A Abraão por compra, aos olhos dos filhos de Hete, entre todos os que entravam na porta da sua cidade.",
+      "palavras": [
+        { "hebraico": "לְאַבְרָהָ֥ם", "transliteral": "ləʾaḇrāhām", "traducao_palavra": "a Abraão" },
+        { "hebraico": "לְמִקְנָ֖ה", "transliteral": "ləmiqnâ", "traducao_palavra": "por aquisição/compra" },
+        { "hebraico": "לְעֵינֵ֣י", "transliteral": "ləʿênê", "traducao_palavra": "aos olhos de" },
+        { "hebraico": "בְנֵי־חֵ֑ת", "transliteral": "ḇənê-ḥēṯ", "traducao_palavra": "filhos de Hete" },
+        { "hebraico": "בְּכֹ֖ל", "transliteral": "bəḵōl", "traducao_palavra": "em todos" },
+        { "hebraico": "בָּאֵ֥י", "transliteral": "bāʾê", "traducao_palavra": "os que entravam" },
+        { "hebraico": "שַֽׁעַר־עִירֽוֹ׃", "transliteral": "šaʿar-ʿîrô", "traducao_palavra": "porta de sua cidade" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E depois disso, sepultou Abraão Sara, sua mulher, na caverna do campo de Macpela, diante de Manre, ela [é] Hebrom, na terra de Canaã.",
+      "palavras": [
+        { "hebraico": "וְאַחֲרֵי־כֵן֩", "transliteral": "wəʾaḥărê-ḵēn", "traducao_palavra": "e depois disso" },
+        { "hebraico": "קָבַ֨ר", "transliteral": "qāḇar", "traducao_palavra": "sepultou" },
+        { "hebraico": "אַבְרָהָ֜ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "אֶת־שָׂרָ֣ה", "transliteral": "ʾeṯ-śārâ", "traducao_palavra": "a Sara" },
+        { "hebraico": "אִשְׁתּ֗וֹ", "transliteral": "ʾištô", "traducao_palavra": "sua mulher" },
+        { "hebraico": "אֶל־מְעָרַ֞ת", "transliteral": "ʾel-məʿāraṯ", "traducao_palavra": "na caverna de" },
+        { "hebraico": "שְׂדֵ֧ה", "transliteral": "śəḏē", "traducao_palavra": "campo de" },
+        { "hebraico": "הַמַּכְפֵּלָ֛ה", "transliteral": "hammāḵpēlâ", "traducao_palavra": "Macpela" },
+        { "hebraico": "עַל־פְּנֵ֥י", "transliteral": "ʿal-pənê", "traducao_palavra": "diante de" },
+        { "hebraico": "מַמְרֵ֖א", "transliteral": "mamrē", "traducao_palavra": "Manre" },
+        { "hebraico": "הִ֣וא", "transliteral": "hîʾ", "traducao_palavra": "ela" },
+        { "hebraico": "חֶבְר֑וֹן", "transliteral": "ḥeḇrôn", "traducao_palavra": "Hebrom" },
+        { "hebraico": "בְּאֶ֖רֶץ", "transliteral": "bəʾereṣ", "traducao_palavra": "na terra de" },
+        { "hebraico": "כְּנָֽעַן׃", "transliteral": "kənāʿan", "traducao_palavra": "Canaã" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E foi estabelecido o campo e a caverna que nele [estava] a Abraão, para propriedade de sepulcro, dos filhos de Hete.",
+      "palavras": [
+        { "hebraico": "וַיָּ֨קָם", "transliteral": "wayyāqām", "traducao_palavra": "e foi estabelecido" },
+        { "hebraico": "הַשָּׂדֶ֜ה", "transliteral": "haśśāḏeh", "traducao_palavra": "o campo" },
+        { "hebraico": "וְהַמְּעָרָ֧ה", "transliteral": "wəhamməʿārâ", "traducao_palavra": "e a caverna" },
+        { "hebraico": "אֲשֶׁר־בּ֛וֹ", "transliteral": "ʾăšer-bô", "traducao_palavra": "que nela" },
+        { "hebraico": "לְאַבְרָהָ֖ם", "transliteral": "ləʾaḇrāhām", "traducao_palavra": "a Abraão" },
+        { "hebraico": "לַאֲחֻזַּת־קָ֑בֶר", "transliteral": "laʾăḥuẓẓat-qāḇer", "traducao_palavra": "para propriedade de sepulcro" },
+        { "hebraico": "מֵאֵ֥ת", "transliteral": "mēʾēṯ", "traducao_palavra": "de/da parte de" },
+        { "hebraico": "בְּנֵי־חֵֽת׃", "transliteral": "bənê-ḥēṯ", "traducao_palavra": "filhos de Hete" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+    "d": [
+        {
+            "palavra": "DEIXOU-A",
+            "veja tambem": [
+                "deixar"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "Juízes 11.38",
+                    "texto": "E disse ele: Vai. E D. ir por dois meses."
+                }
+            ]
+        },
+        {
+            "palavra": "DEIXOU-ME",
+            "veja tambem": [
+                "deixar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Lamentações 3.11",
+                    "texto": "meus caminhos e fez-me em pedaços; D. assolado."
+                }
+            ]
+        },
+        {
+            "palavra": "DEIXOU-OS",
+            "veja tambem": [
+                "deixar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Atos 18.19",
+                    "texto": "E chegou a Éfeso e D. ali; mas ele, entrando"
+                }
+            ]
+        }
+    ]
+}

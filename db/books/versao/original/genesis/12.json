@@ -1,0 +1,338 @@
+{
+  "livro": "Gênesis - בְּרֵאשִׁית - Bereshit",
+  "capítulo": 12,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E disse o SENHOR a Abrão: Sai da tua terra, da tua parentela e da casa de teu pai, para a terra que eu te mostrarei.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "יְהוָה֙", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־אַבְרָ֔ם", "transliteral": "ʾel-ʾaḇrām", "traducao_palavra": "a Abrão" },
+        { "hebraico": "לֶךְ־לְךָ֛", "transliteral": "leḵ-ləḵā", "traducao_palavra": "vai-te/sai" },
+        { "hebraico": "מֵאַרְצְךָ֥", "transliteral": "mēʾarṣəḵā", "traducao_palavra": "da tua terra" },
+        { "hebraico": "וּמִמֹּולַדְתְּךָ֖", "transliteral": "ûmimmôlaḏttəḵā", "traducao_palavra": "e da tua parentela" },
+        { "hebraico": "וּמִבֵּ֣ית", "transliteral": "ûmibbêṯ", "traducao_palavra": "e da casa de" },
+        { "hebraico": "אָבִ֑יךָ", "transliteral": "ʾāḇîḵā", "traducao_palavra": "teu pai" },
+        { "hebraico": "אֶל־הָאָ֖רֶץ", "transliteral": "ʾel-hāʾāreṣ", "traducao_palavra": "para a terra" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "אַרְאֶֽךָּ׃", "transliteral": "ʾarʾekkā", "traducao_palavra": "eu te mostrarei" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E far-te-ei uma grande nação, e abençoar-te-ei e engrandecerei o teu nome; e tu serás uma bênção.",
+      "palavras": [
+        { "hebraico": "וְאֶֽעֶשְׂךָ֙", "transliteral": "wəʾeʿeśəḵā", "traducao_palavra": "E far-te-ei" },
+        { "hebraico": "לְגֹ֣וי", "transliteral": "ləḡôy", "traducao_palavra": "em nação" },
+        { "hebraico": "גָּדֹ֔ול", "transliteral": "gāḏôl", "traducao_palavra": "grande" },
+        { "hebraico": "וַאֲבָרֶכְךָ֔", "transliteral": "waʾăḇāreḵəḵā", "traducao_palavra": "e abençoar-te-ei" },
+        { "hebraico": "וַאֲגַדְּלָ֖ה", "transliteral": "waʾăḡaddəlâ", "traducao_palavra": "e engrandecerei" },
+        { "hebraico": "שְׁמֶ֑ךָ", "transliteral": "šəmeḵā", "traducao_palavra": "teu nome" },
+        { "hebraico": "וֶהְיֵ֖ה", "transliteral": "wehəyēh", "traducao_palavra": "e sê" },
+        { "hebraico": "בְּרָכָֽה׃", "transliteral": "bərāḵâ", "traducao_palavra": "uma bênção" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E abençoarei os que te abençoarem, e amaldiçoarei o que te amaldiçoar; e em ti serão benditas todas as famílias da terra.",
+      "palavras": [
+        { "hebraico": "וַאֲבָֽרְכָה֙", "transliteral": "waʾăḇārəḵâ", "traducao_palavra": "E abençoarei" },
+        { "hebraico": "מְבָרְכֶ֔יךָ", "transliteral": "məḇārəḵeyḵā", "traducao_palavra": "os que te abençoarem" },
+        { "hebraico": "וּמְקַלֶּלְךָ֖", "transliteral": "ûməqalleleḵā", "traducao_palavra": "e o que te amaldiçoar" },
+        { "hebraico": "אָאֹ֑ר", "transliteral": "ʾāʾōr", "traducao_palavra": "amaldiçoarei" },
+        { "hebraico": "וְנִבְרְכ֣וּ", "transliteral": "wənibərəḵû", "traducao_palavra": "e serão benditas" },
+        { "hebraico": "בְךָ֔", "transliteral": "ḇəḵā", "traducao_palavra": "em ti" },
+        { "hebraico": "כֹּ֖ל", "transliteral": "kōl", "traducao_palavra": "todas" },
+        { "hebraico": "מִשְׁפְּחֹ֥ת", "transliteral": "mišpəḥōṯ", "traducao_palavra": "as famílias de" },
+        { "hebraico": "הָאֲדָמָֽה׃", "transliteral": "hāʾăḏāmâ", "traducao_palavra": "a terra/solo" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E partiu Abrão como o SENHOR lhe tinha dito, e foi Ló com ele; e era Abrão da idade de setenta e cinco anos quando saiu de Harã.",
+      "palavras": [
+        { "hebraico": "וַיֵּ֣לֶךְ", "transliteral": "wayyēleḵ", "traducao_palavra": "E foi/partiu" },
+        { "hebraico": "אַבְרָ֗ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "כַּאֲשֶׁ֨ר", "transliteral": "kaʾăšer", "traducao_palavra": "conforme" },
+        { "hebraico": "דִּבֶּ֤ר", "transliteral": "dibber", "traducao_palavra": "falou" },
+        { "hebraico": "אֵלָיו֙", "transliteral": "ʾēlāyw", "traducao_palavra": "a ele" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַיֵּ֥לֶךְ", "transliteral": "wayyēleḵ", "traducao_palavra": "e foi" },
+        { "hebraico": "אִתֹּ֖ו", "transliteral": "ʾittô", "traducao_palavra": "com ele" },
+        { "hebraico": "לֹ֑וט", "transliteral": "lôṭ", "traducao_palavra": "Ló" },
+        { "hebraico": "וְאַבְרָ֗ם", "transliteral": "wəʾaḇrām", "traducao_palavra": "e Abrão" },
+        { "hebraico": "בֶּן־חָמֵ֤שׁ", "transliteral": "ben-ḥāmēš", "traducao_palavra": "filho de cinco" },
+        { "hebraico": "שָׁנִים֙", "transliteral": "šānîm", "traducao_palavra": "anos" },
+        { "hebraico": "וְשִׁבְעִ֣ים", "transliteral": "wəšiḇʿîm", "traducao_palavra": "e setenta" },
+        { "hebraico": "שָׁנָ֔ה", "transliteral": "šānâ", "traducao_palavra": "anos" },
+        { "hebraico": "בְּצֵאתֹ֖ו", "transliteral": "bəṣēʾṯô", "traducao_palavra": "ao sair ele" },
+        { "hebraico": "מֵחָרָֽן׃", "transliteral": "mēḥārān", "traducao_palavra": "de Harã" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E tomou Abrão a Sarai, sua mulher, e a Ló, filho de seu irmão, e todos os bens que haviam adquirido, e as almas que lhes acresceram em Harã; e saíram para irem à terra de Canaã; e vieram à terra de Canaã.",
+      "palavras": [
+        { "hebraico": "וַיִּקַּ֣ח", "transliteral": "wayyiqqaḥ", "traducao_palavra": "E tomou" },
+        { "hebraico": "אַבְרָם֩", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "אֶת־שָׂרַ֨י", "transliteral": "ʾeṯ-śārāy", "traducao_palavra": "[obj] Sarai" },
+        { "hebraico": "אִשְׁתֹּ֜ו", "transliteral": "ʾištô", "traducao_palavra": "sua mulher" },
+        { "hebraico": "וֶאֶת־לֹ֣וט", "transliteral": "wəʾeṯ-lôṭ", "traducao_palavra": "e [obj] Ló" },
+        { "hebraico": "בֶּן־אָחִ֗יו", "transliteral": "ben-ʾāḥîw", "traducao_palavra": "filho de seu irmão" },
+        { "hebraico": "וְאֶת־כָּל־רְכוּשָׁם֙", "transliteral": "wəʾeṯ-kāl-rəḵûšām", "traducao_palavra": "e [obj] todos os seus bens" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "רָכָ֔שׁוּ", "transliteral": "rāḵāšû", "traducao_palavra": "adquiriram" },
+        { "hebraico": "וְאֶת־הַנֶּ֖פֶשׁ", "transliteral": "wəʾeṯ-hannep̄eš", "traducao_palavra": "e [obj] a alma/pessoas" },
+        { "hebraico": "אֲשֶׁר־עָשׂ֣וּ", "transliteral": "ʾăšer-ʿāśû", "traducao_palavra": "que fizeram/adquiriram" },
+        { "hebraico": "בְחָרָ֑ן", "transliteral": "ḇəḥārān", "traducao_palavra": "em Harã" },
+        { "hebraico": "וַיֵּצְא֗וּ", "transliteral": "wayyēṣəʾû", "traducao_palavra": "e saíram" },
+        { "hebraico": "לָלֶ֙כֶת֙", "transliteral": "lāleḵeṯ", "traducao_palavra": "para ir" },
+        { "hebraico": "אַ֣רְצָה", "transliteral": "ʾarṣâ", "traducao_palavra": "à terra de" },
+        { "hebraico": "כְּנַ֔עַן", "transliteral": "kənaʿan", "traducao_palavra": "Canaã" },
+        { "hebraico": "וַיָּבֹ֖אוּ", "transliteral": "wayyāḇōʾû", "traducao_palavra": "e vieram" },
+        { "hebraico": "אַ֥רְצָה", "transliteral": "ʾarṣâ", "traducao_palavra": "à terra de" },
+        { "hebraico": "כְּנָֽעַן׃", "transliteral": "kənāʿan", "traducao_palavra": "Canaã" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E atravessou Abrão a terra até ao lugar de Siquém, até ao carvalho de Moré; e estavam então os cananeus na terra.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲבֹ֤ר", "transliteral": "wayyaʿăḇōr", "traducao_palavra": "E atravessou" },
+        { "hebraico": "אַבְרָם֙", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "בָּאָ֔רֶץ", "transliteral": "bāʾāreṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "עַ֚ד", "transliteral": "ʿaḏ", "traducao_palavra": "até" },
+        { "hebraico": "מְקֹ֣ום", "transliteral": "məqôm", "traducao_palavra": "o lugar de" },
+        { "hebraico": "שְׁכֶ֔ם", "transliteral": "šəḵem", "traducao_palavra": "Siquém" },
+        { "hebraico": "עַ֖ד", "transliteral": "ʿaḏ", "traducao_palavra": "até" },
+        { "hebraico": "אֵלֹ֣ון", "transliteral": "ʾēlôn", "traducao_palavra": "o carvalho/terebinto de" },
+        { "hebraico": "מֹורֶ֑ה", "transliteral": "môreh", "traducao_palavra": "Moré" },
+        { "hebraico": "וְהַֽכְּנַעֲנִ֖י", "transliteral": "wəhakkənaʿănî", "traducao_palavra": "e o cananeu" },
+        { "hebraico": "אָ֥ז", "transliteral": "ʾāz", "traducao_palavra": "então" },
+        { "hebraico": "בָּאָֽרֶץ׃", "transliteral": "bāʾāreṣ", "traducao_palavra": "na terra" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "E apareceu o SENHOR a Abrão, e disse: À tua semente darei esta terra. E edificou ali um altar ao SENHOR, que lhe aparecera.",
+      "palavras": [
+        { "hebraico": "וַיֵּרָ֤א", "transliteral": "wayyērāʾ", "traducao_palavra": "E apareceu" },
+        { "hebraico": "יְהוָה֙", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־אַבְרָ֔ם", "transliteral": "ʾel-ʾaḇrām", "traducao_palavra": "a Abrão" },
+        { "hebraico": "וַיֹּ֕אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "לְזַרְעֲךָ֔", "transliteral": "ləzarʿăḵā", "traducao_palavra": "à tua semente" },
+        { "hebraico": "אֶתֵּ֖ן", "transliteral": "ʾettēn", "traducao_palavra": "darei" },
+        { "hebraico": "אֶת־הָאָ֣רֶץ", "transliteral": "ʾeṯ-hāʾāreṣ", "traducao_palavra": "[obj] a terra" },
+        { "hebraico": "הַזֹּ֑את", "transliteral": "hazzōʾṯ", "traducao_palavra": "esta" },
+        { "hebraico": "וַיִּ֤בֶן", "transliteral": "wayyiben", "traducao_palavra": "e edificou" },
+        { "hebraico": "שָׁם֙", "transliteral": "šām", "traducao_palavra": "ali" },
+        { "hebraico": "מִזְבֵּ֔חַ", "transliteral": "mizbēḥa", "traducao_palavra": "um altar" },
+        { "hebraico": "לַיהוָ֖ה", "transliteral": "laYHWH", "traducao_palavra": "ao SENHOR" },
+        { "hebraico": "הַנִּרְאֶ֥ה", "transliteral": "hannirʾeh", "traducao_palavra": "que aparecera" },
+        { "hebraico": "אֵלָֽיו׃", "transliteral": "ʾēlāyw", "traducao_palavra": "a ele" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E moveu-se dali para a montanha ao oriente de Betel, e armou a sua tenda, tendo Betel ao ocidente, e Ai ao oriente; e edificou ali um altar ao SENHOR, e invocou o nome do SENHOR.",
+      "palavras": [
+        { "hebraico": "וַיַּעְתֵּ֨ק", "transliteral": "wayyaʿətēq", "traducao_palavra": "E moveu-se" },
+        { "hebraico": "מִשָּׁ֜ם", "transliteral": "miššām", "traducao_palavra": "dali" },
+        { "hebraico": "הָהָ֗רָה", "transliteral": "hāhārâ", "traducao_palavra": "à montanha" },
+        { "hebraico": "מִקֶּ֛דֶם", "transliteral": "miqqedem", "traducao_palavra": "ao oriente de" },
+        { "hebraico": "לְבֵֽית־אֵ֖ל", "transliteral": "ləḇêṯ-ʾēl", "traducao_palavra": "Betel" },
+        { "hebraico": "וַיֵּ֣ט", "transliteral": "wayyēṭ", "traducao_palavra": "e estendeu/armou" },
+        { "hebraico": "אָהֳלֹ֑ה", "transliteral": "ʾāhŏlô", "traducao_palavra": "sua tenda" },
+        { "hebraico": "בֵּֽית־אֵ֥ל", "transliteral": "bêṯ-ʾēl", "traducao_palavra": "Betel" },
+        { "hebraico": "מִיָּ֖ם", "transliteral": "miyyām", "traducao_palavra": "ao mar/ocidente" },
+        { "hebraico": "וְהָעַ֣י", "transliteral": "wəhāʿay", "traducao_palavra": "e Ai" },
+        { "hebraico": "מִקֶּ֑דֶם", "transliteral": "miqqedem", "traducao_palavra": "ao oriente" },
+        { "hebraico": "וַיִּֽבֶן־שָׁ֤ם", "transliteral": "wayyiben-šām", "traducao_palavra": "e edificou ali" },
+        { "hebraico": "מִזְבֵּ֙חַ֙", "transliteral": "mizbēaḥ", "traducao_palavra": "um altar" },
+        { "hebraico": "לַיהוָ֔ה", "transliteral": "laYHWH", "traducao_palavra": "ao SENHOR" },
+        { "hebraico": "וַיִּקְרָ֖א", "transliteral": "wayyiqrāʾ", "traducao_palavra": "e invocou" },
+        { "hebraico": "בְּשֵׁ֥ם", "transliteral": "bəšēm", "traducao_palavra": "no nome de" },
+        { "hebraico": "יְהוָֽה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E partiu Abrão, indo e caminhando para o sul.",
+      "palavras": [
+        { "hebraico": "וַיִּסַּ֣ע", "transliteral": "wayyis-saʿ", "traducao_palavra": "E partiu" },
+        { "hebraico": "אַבְרָ֔ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "הָלֹ֥וךְ", "transliteral": "hālôḵ", "traducao_palavra": "indo" },
+        { "hebraico": "וְנָסֹ֖ועַ", "transliteral": "wənāsôaʿ", "traducao_palavra": "e caminhando" },
+        { "hebraico": "הַנֶּֽגְבָּה׃", "transliteral": "hanneḡbâ", "traducao_palavra": "para o Neguebe/Sul" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E havia fome naquela terra; e desceu Abrão ao Egito, para peregrinar ali, porquanto a fome era grave na terra.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֥י", "transliteral": "wayəhî", "traducao_palavra": "E houve" },
+        { "hebraico": "רָעָ֖ב", "transliteral": "rāʿāḇ", "traducao_palavra": "fome" },
+        { "hebraico": "בָּאָ֑רֶץ", "transliteral": "bāʾāreṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "וַיֵּ֨רֶד", "transliteral": "wayyēreḏ", "traducao_palavra": "e desceu" },
+        { "hebraico": "אַבְרָ֤ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "מִצְרַ֙יְמָה֙", "transliteral": "miṣəraymâ", "traducao_palavra": "ao Egito" },
+        { "hebraico": "לָג֣וּר", "transliteral": "lāḡûr", "traducao_palavra": "para peregrinar" },
+        { "hebraico": "שָׁ֔ם", "transliteral": "šām", "traducao_palavra": "ali" },
+        { "hebraico": "כִּֽי־כָבֵ֥ד", "transliteral": "kî-ḵāḇēḏ", "traducao_palavra": "porque pesada/grave" },
+        { "hebraico": "הָרָעָ֖ב", "transliteral": "hārāʿāḇ", "traducao_palavra": "a fome" },
+        { "hebraico": "בָּאָֽרֶץ׃", "transliteral": "bāʾāreṣ", "traducao_palavra": "na terra" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E aconteceu que, chegando ele para entrar no Egito, disse a Sarai, sua mulher: Ora, bem sei que és mulher formosa à vista;",
+      "palavras": [
+        { "hebraico": "וַיְהִ֕י", "transliteral": "wayəhî", "traducao_palavra": "E aconteceu" },
+        { "hebraico": "כַּאֲשֶׁ֥ר", "transliteral": "kaʾăšer", "traducao_palavra": "quando" },
+        { "hebraico": "הִקְרִ֖יב", "transliteral": "hiqərîḇ", "traducao_palavra": "aproximou-se" },
+        { "hebraico": "לָבֹ֣וא", "transliteral": "lāḇôʾ", "traducao_palavra": "para entrar" },
+        { "hebraico": "מִצְרָ֑יְמָה", "transliteral": "miṣərāyəmâ", "traducao_palavra": "no Egito" },
+        { "hebraico": "וַיֹּ֙אמֶר֙", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "אֶל־שָׂרַ֣י", "transliteral": "ʾel-śārāy", "traducao_palavra": "a Sarai" },
+        { "hebraico": "אִשְׁתֹּ֔ו", "transliteral": "ʾištô", "traducao_palavra": "sua mulher" },
+        { "hebraico": "הִנֵּה־נָ֣א", "transliteral": "hinnēh-nāʾ", "traducao_palavra": "Eis agora" },
+        { "hebraico": "יָדַ֔עְתִּי", "transliteral": "yāḏaʿtî", "traducao_palavra": "sei" },
+        { "hebraico": "כִּ֛י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "אִשָּׁ֥ה", "transliteral": "ʾiššâ", "traducao_palavra": "mulher" },
+        { "hebraico": "יְפַת־מַרְאֶ֖ה", "transliteral": "yəp̱aṯ-marʾeh", "traducao_palavra": "bela de aparência" },
+        { "hebraico": "אָֽתְּ׃", "transliteral": "ʾātt", "traducao_palavra": "[és] tu" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "e será que, quando os egípcios te virem, dirão: Esta é a sua mulher. E matar-me-ão a mim, e a ti guardarão em vida.",
+      "palavras": [
+        { "hebraico": "וְהָיָ֗ה", "transliteral": "wəhāyâ", "traducao_palavra": "E será" },
+        { "hebraico": "כִּֽי־יִרְא֤וּ", "transliteral": "kî-yirʾû", "traducao_palavra": "que verão" },
+        { "hebraico": "אֹתָךְ֙", "transliteral": "ʾōṯāḵ", "traducao_palavra": "te" },
+        { "hebraico": "הַמִּצְרִ֔ים", "transliteral": "hammiṣərîm", "traducao_palavra": "os egípcios" },
+        { "hebraico": "וְאָמְר֖וּ", "transliteral": "wəʾāmərû", "traducao_palavra": "e dirão" },
+        { "hebraico": "אִשְׁתֹּ֣ו", "transliteral": "ʾištô", "traducao_palavra": "sua mulher" },
+        { "hebraico": "זֹ֑את", "transliteral": "zōʾṯ", "traducao_palavra": "esta [é]" },
+        { "hebraico": "וְהָרְג֥וּ", "transliteral": "wəhārəḡû", "traducao_palavra": "e matarão" },
+        { "hebraico": "אֹתִ֖י", "transliteral": "ʾōṯî", "traducao_palavra": "me" },
+        { "hebraico": "וְאֹתָ֥ךְ", "transliteral": "wəʾōṯāḵ", "traducao_palavra": "e te" },
+        { "hebraico": "יְחַיּֽוּ׃", "transliteral": "yəḥayyû", "traducao_palavra": "deixarão viver" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Dize, peço-te, que és minha irmã, para que me vá bem por tua causa, e viva a minha alma por amor de ti.",
+      "palavras": [
+        { "hebraico": "אִמְרִי־נָ֖א", "transliteral": "ʾimərî-nāʾ", "traducao_palavra": "Dize, peço" },
+        { "hebraico": "אֲחֹ֣תִי", "transliteral": "ʾăḥōṯî", "traducao_palavra": "minha irmã" },
+        { "hebraico": "אָ֑תְּ", "transliteral": "ʾātt", "traducao_palavra": "[és] tu" },
+        { "hebraico": "לְמַ֙עַן֙", "transliteral": "ləmaʿan", "traducao_palavra": "para que" },
+        { "hebraico": "יִֽיטַב־לִ֣י", "transliteral": "yîṭaḇ-lî", "traducao_palavra": "vá bem para mim" },
+        { "hebraico": "בַעֲבוּרֵ֔ךְ", "transliteral": "ḇaʿăḇûrēḵ", "traducao_palavra": "por causa de ti" },
+        { "hebraico": "וְחָיְתָ֥ה", "transliteral": "wəḥāyəṯâ", "traducao_palavra": "e viva" },
+        { "hebraico": "נַפְשִׁ֖י", "transliteral": "nap̄šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "בִּגְלָלֵֽךְ׃", "transliteral": "biḡəlālēḵ", "traducao_palavra": "por causa de ti" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E aconteceu que, entrando Abrão no Egito, viram os egípcios a mulher, que era muito formosa.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֕י", "transliteral": "wayəhî", "traducao_palavra": "E foi/aconteceu" },
+        { "hebraico": "כְּבֹ֥וא", "transliteral": "kəḇôʾ", "traducao_palavra": "ao entrar" },
+        { "hebraico": "אַבְרָ֖ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "מִצְרָ֑יְמָה", "transliteral": "miṣərāyəmâ", "traducao_palavra": "no Egito" },
+        { "hebraico": "וַיִּרְא֤וּ", "transliteral": "wayyirʾû", "traducao_palavra": "e viram" },
+        { "hebraico": "הַמִּצְרִים֙", "transliteral": "hammiṣərîm", "traducao_palavra": "os egípcios" },
+        { "hebraico": "אֶת־הָ֣אִשָּׁ֔ה", "transliteral": "ʾeṯ-hāʾiššâ", "traducao_palavra": "[obj] a mulher" },
+        { "hebraico": "כִּֽי־יָפָ֥ה", "transliteral": "kî-yāp̄â", "traducao_palavra": "que bela" },
+        { "hebraico": "הִ֖וא", "transliteral": "hîw", "traducao_palavra": "ela [era]" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "məʾōḏ", "traducao_palavra": "muito" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E viram-na os príncipes de Faraó, e gabaram-na diante de Faraó; e foi a mulher levada à casa de Faraó.",
+      "palavras": [
+        { "hebraico": "וַיִּרְא֤וּ", "transliteral": "wayyirʾû", "traducao_palavra": "E viram" },
+        { "hebraico": "אֹתָהּ֙", "transliteral": "ʾōṯāh", "traducao_palavra": "ela" },
+        { "hebraico": "שָׂרֵ֣י", "transliteral": "śārê", "traducao_palavra": "príncipes de" },
+        { "hebraico": "פַרְעֹ֔ה", "transliteral": "p̱arəʿōh", "traducao_palavra": "Faraó" },
+        { "hebraico": "וַיְהַֽלְל֥וּ", "transliteral": "wayəhalləlû", "traducao_palavra": "e louvaram/gabaram" },
+        { "hebraico": "אֹתָ֖הּ", "transliteral": "ʾōṯāh", "traducao_palavra": "ela" },
+        { "hebraico": "אֶל־פַרְעֹ֑ה", "transliteral": "ʾel-p̱arəʿōh", "traducao_palavra": "a Faraó" },
+        { "hebraico": "וַתֻּקַּ֥ח", "transliteral": "wattuqqaḥ", "traducao_palavra": "e foi levada" },
+        { "hebraico": "הָאִשָּׁ֖ה", "transliteral": "hāʾiššâ", "traducao_palavra": "a mulher" },
+        { "hebraico": "בֵּ֥ית", "transliteral": "bêṯ", "traducao_palavra": "casa de" },
+        { "hebraico": "פַרְעֹֽה׃", "transliteral": "p̱arəʿōh", "traducao_palavra": "Faraó" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E fez bem a Abrão por causa dela; e ele teve ovelhas, e vacas, e jumentos, e servos, e servas, e jumentas, e camelos.",
+      "palavras": [
+        { "hebraico": "וּלְאַבְרָ֥ם", "transliteral": "ûləʾaḇrām", "traducao_palavra": "E a Abrão" },
+        { "hebraico": "הֵיטִ֖יב", "transliteral": "hêṭîḇ", "traducao_palavra": "fez bem" },
+        { "hebraico": "בַּעֲבוּרָ֑הּ", "transliteral": "baʿăḇûrāh", "traducao_palavra": "por causa dela" },
+        { "hebraico": "וַֽיְהִי־לֹ֤ו", "transliteral": "wayəhî-lô", "traducao_palavra": "e foram para ele" },
+        { "hebraico": "צֹאן־וּבָקָר֙", "transliteral": "ṣōn-ûḇāqār", "traducao_palavra": "ovelhas e gado" },
+        { "hebraico": "וַחֲמֹרִ֔ים", "transliteral": "waḥămōrîm", "traducao_palavra": "e jumentos" },
+        { "hebraico": "וַעֲבָדִים֙", "transliteral": "waʿăḇāḏîm", "traducao_palavra": "e servos" },
+        { "hebraico": "וּשְׁפָחֹ֔ת", "transliteral": "ûšəp̱āḥōṯ", "traducao_palavra": "e servas" },
+        { "hebraico": "וַאֲתֹנֹ֖ת", "transliteral": "waʾăṯōnōṯ", "traducao_palavra": "e jumentas" },
+        { "hebraico": "וּגְמַלִּֽים׃", "transliteral": "ûḡəmallîm", "traducao_palavra": "e camelos" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Feriu, porém, o SENHOR a Faraó com grandes pragas, e a sua casa, por causa de Sarai, mulher de Abrão.",
+      "palavras": [
+        { "hebraico": "וַיְנַגַּ֨ע", "transliteral": "wayənaggaʿ", "traducao_palavra": "E feriu" },
+        { "hebraico": "יְהוָ֧ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־פַּרְעֹ֛ה", "transliteral": "ʾeṯ-p̱arəʿōh", "traducao_palavra": "[obj] Faraó" },
+        { "hebraico": "נְגָעִ֥ים", "transliteral": "nəḡāʿîm", "traducao_palavra": "golpes/pragas" },
+        { "hebraico": "גְּדֹלִ֖ים", "transliteral": "gəḏōlîm", "traducao_palavra": "grandes" },
+        { "hebraico": "וְאֶת־בֵּיתֹ֑ו", "transliteral": "wəʾeṯ-bêṯô", "traducao_palavra": "e sua casa" },
+        { "hebraico": "עַל־דְּבַ֥ר", "transliteral": "ʿal-dəḇar", "traducao_palavra": "por causa de/pela palavra de" },
+        { "hebraico": "שָׂרַ֖י", "transliteral": "śārāy", "traducao_palavra": "Sarai" },
+        { "hebraico": "אֵ֥שֶׁת", "transliteral": "ʾēšeṯ", "traducao_palavra": "mulher de" },
+        { "hebraico": "אַבְרָֽם׃", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Então chamou Faraó a Abrão, e disse: Que é isto que me fizeste? Por que não me disseste que ela era tua mulher?",
+      "palavras": [
+        { "hebraico": "וַיִּקְרָ֤א", "transliteral": "wayyiqrāʾ", "traducao_palavra": "E chamou" },
+        { "hebraico": "פַרְעֹה֙", "transliteral": "p̱arəʿōh", "traducao_palavra": "Faraó" },
+        { "hebraico": "לְאַבְרָ֔ם", "transliteral": "ləʾaḇrām", "traducao_palavra": "a Abrão" },
+        { "hebraico": "וַיֹּ֕אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "מַה־זֹּ֖את", "transliteral": "mah-zzōʾṯ", "traducao_palavra": "O que [é] isto [que]" },
+        { "hebraico": "עָשִׂ֣יתָ", "transliteral": "ʿāśîṯā", "traducao_palavra": "fizeste" },
+        { "hebraico": "לִּ֑י", "transliteral": "llî", "traducao_palavra": "para mim?" },
+        { "hebraico": "לָ֚מָּה", "transliteral": "lāmmâ", "traducao_palavra": "Por que" },
+        { "hebraico": "לֹא־הִגַּ֣דְתָּ", "transliteral": "lōʾ-higgaḏttā", "traducao_palavra": "não contaste/mostraste" },
+        { "hebraico": "לִּ֔י", "transliteral": "llî", "traducao_palavra": "a mim" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "אִשְׁתְּךָ֖", "transliteral": "ʾištəḵā", "traducao_palavra": "tua mulher" },
+        { "hebraico": "הִֽוא׃", "transliteral": "hîw", "traducao_palavra": "[é] ela" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Por que disseste: É minha irmã? De maneira que a tomei por minha mulher; agora, pois, eis aqui tua mulher; toma-a e vai-te.",
+      "palavras": [
+        { "hebraico": "לָמָ֤ה", "transliteral": "lāmâ", "traducao_palavra": "Por que" },
+        { "hebraico": "אָמַ֙רְתָּ֙", "transliteral": "ʾāmarəttā", "traducao_palavra": "disseste" },
+        { "hebraico": "אֲחֹ֣תִי", "transliteral": "ʾăḥōṯî", "traducao_palavra": "minha irmã" },
+        { "hebraico": "הִ֔וא", "transliteral": "hîw", "traducao_palavra": "[é] ela" },
+        { "hebraico": "וָאֶקַּ֥ח", "transliteral": "wāʾeqqaḥ", "traducao_palavra": "e tomei" },
+        { "hebraico": "אֹתָ֖הּ", "transliteral": "ʾōṯāh", "traducao_palavra": "ela" },
+        { "hebraico": "לִ֣י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "לְאִשָּׁ֑ה", "transliteral": "ləʾiššâ", "traducao_palavra": "por mulher" },
+        { "hebraico": "וְעַתָּ֕ה", "transliteral": "wəʿattâ", "traducao_palavra": "e agora" },
+        { "hebraico": "הִנֵּ֥ה", "transliteral": "hinnēh", "traducao_palavra": "eis" },
+        { "hebraico": "אִשְׁתְּךָ֖", "transliteral": "ʾištəḵā", "traducao_palavra": "tua mulher" },
+        { "hebraico": "קַ֥ח", "transliteral": "qaḥ", "traducao_palavra": "toma" },
+        { "hebraico": "וָלֵֽךְ׃", "transliteral": "wālēḵ", "traducao_palavra": "e vai-te" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E Faraó deu ordens a seus homens a respeito dele; e acompanharam-no, a ele, e a sua mulher e a tudo o que tinha.",
+      "palavras": [
+        { "hebraico": "וַיְצַ֥ו", "transliteral": "wayəṣaw", "traducao_palavra": "E ordenou" },
+        { "hebraico": "עָלָ֛יו", "transliteral": "ʿālāyw", "traducao_palavra": "a respeito dele" },
+        { "hebraico": "פַּרְעֹ֖ה", "transliteral": "p̱arəʿōh", "traducao_palavra": "Faraó" },
+        { "hebraico": "אֲנָשִׁ֑ים", "transliteral": "ʾănāšîm", "traducao_palavra": "homens" },
+        { "hebraico": "וַיְשַׁלְּח֥וּ", "transliteral": "wayəšalləḥû", "traducao_palavra": "e acompanharam/enviaram" },
+        { "hebraico": "אֹתֹ֛ו", "transliteral": "ʾōṯô", "traducao_palavra": "ele" },
+        { "hebraico": "וְאֶת־אִשְׁתֹּ֖ו", "transliteral": "wəʾeṯ-ištô", "traducao_palavra": "e sua mulher" },
+        { "hebraico": "וְאֶת־כָּל־אֲשֶׁר־לֹֽו׃", "transliteral": "wəʾeṯ-kāl-ʾăšer-lô", "traducao_palavra": "e tudo o que era dele" }
+      ]
+    }
+  }
+}

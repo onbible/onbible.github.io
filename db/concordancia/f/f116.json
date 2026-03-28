@@ -1,0 +1,34 @@
+{
+    "f": [
+        {
+            "palavra": "FICARA",
+            "veja tambem": [
+                "ficar"
+            ],
+            "ocorrencias": 5,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Josué 13.27",
+                    "texto": "e Sucote, e Safom, que E do resto do"
+                },
+                {
+                    "referencia": "1 Reis 15.18",
+                    "texto": "toda a prata e ouro que E nos tesouros da"
+                },
+                {
+                    "referencia": "Jeremias 39.9",
+                    "texto": "E o resto do povo que É na cidade, e os rebeldes"
+                },
+                {
+                    "referencia": "Jeremias 41.10",
+                    "texto": "do rei, e todo o povo que E em Mispa, que"
+                },
+                {
+                    "referencia": "Lucas 18.24",
+                    "texto": "E, vendo Jesus que ele E muito triste, disse:"
+                }
+            ]
+        }
+    ]
+}

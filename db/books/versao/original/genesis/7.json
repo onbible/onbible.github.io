@@ -1,0 +1,392 @@
+{
+  "livro": "Gênesis - בְּרֵאשִׁית - Bereshit",
+  "capítulo": 7,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E disse o SENHOR a Noé: Entra tu e toda a tua casa na arca, porque a ti tenho visto justo diante de mim nesta geração.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "יְהוָה֙", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לְנֹ֔חַ", "transliteral": "lənōḥa", "traducao_palavra": "a Noé" },
+        { "hebraico": "בֹּֽא־אַתָּה֩", "transliteral": "bōʾ-ʾattâ", "traducao_palavra": "Entra tu" },
+        { "hebraico": "וְכָל־בֵּיתְךָ֖", "transliteral": "wəḵāl-bêṯəḵā", "traducao_palavra": "e toda a tua casa" },
+        { "hebraico": "אֶל־הַתֵּבָ֑ה", "transliteral": "ʾel-hattēḇâ", "traducao_palavra": "para a arca" },
+        { "hebraico": "כִּֽי־אֹתְךָ֥", "transliteral": "kî-ʾōṯəḵā", "traducao_palavra": "porque a ti" },
+        { "hebraico": "רָאִ֛יתִי", "transliteral": "rāʾîṯî", "traducao_palavra": "tenho visto" },
+        { "hebraico": "צַדִּ֥ique", "transliteral": "ṣaddîq", "traducao_palavra": "justo" },
+        { "hebraico": "לְפָנַ֖י", "transliteral": "ləp̱ānay", "traducao_palavra": "diante de mim" },
+        { "hebraico": "בַּדּ֥וֹר", "transliteral": "baddôr", "traducao_palavra": "na geração" },
+        { "hebraico": "הַזֶּֽה׃", "transliteral": "hazzeh", "traducao_palavra": "esta" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "De todo animal limpo tomarás para ti sete e sete, macho e sua fêmea; mas dos animais que não são limpos, dois, macho e sua fêmea.",
+      "palavras": [
+        { "hebraico": "מִכֹּ֣ל ׀", "transliteral": "mikkōl", "traducao_palavra": "De todo" },
+        { "hebraico": "הַבְּהֵמָ֣ה", "transliteral": "habbəhēmâ", "traducao_palavra": "o animal" },
+        { "hebraico": "הַטְּהוֹרָ֗ה", "transliteral": "haṭṭəhôrâ", "traducao_palavra": "o limpo" },
+        { "hebraico": "תִּֽקַּח־לְךָ֛", "transliteral": "tiqqaḥ-ləḵā", "traducao_palavra": "tomarás para ti" },
+        { "hebraico": "שִׁבְעָ֥ה", "transliteral": "šiḇʿâ", "traducao_palavra": "sete" },
+        { "hebraico": "שִׁבְעָ֖ה", "transliteral": "šiḇʿâ", "traducao_palavra": "sete" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "macho [homem]" },
+        { "hebraico": "וְאִשְׁתּ֑וֹ", "transliteral": "wəʾištô", "traducao_palavra": "e sua mulher" },
+        { "hebraico": "וּמִן־הַבְּהֵמָ֡ה", "transliteral": "ûmin-habbəhēmâ", "traducao_palavra": "e do animal" },
+        { "hebraico": "אֲ֠שֶׁר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "לֹ֣א", "transliteral": "lōʾ", "traducao_palavra": "não" },
+        { "hebraico": "טְהֹרָ֥ה", "transliteral": "ṭəhōrâ", "traducao_palavra": "limpo" },
+        { "hebraico": "הִ֛וא", "transliteral": "hîw", "traducao_palavra": "[é] ele" },
+        { "hebraico": "שְׁנַ֖יִם", "transliteral": "šənayim", "traducao_palavra": "dois" },
+        { "hebraico": "אִ֥ישׁ", "transliteral": "ʾîš", "traducao_palavra": "macho" },
+        { "hebraico": "וְאִשְׁתּֽוֹ׃", "transliteral": "wəʾištô", "traducao_palavra": "e sua mulher" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Também das aves dos céus sete e sete, macho e fêmea, para conservar viva a semente sobre a face de toda a terra.",
+      "palavras": [
+        { "hebraico": "גַּ֣ם", "transliteral": "gam", "traducao_palavra": "Também" },
+        { "hebraico": "מֵעוֹף", "transliteral": "mēʿôp̱", "traducao_palavra": "da ave de" },
+        { "hebraico": "הַשָּׁמַ֗יִם", "transliteral": "haššāmayim", "traducao_palavra": "os céus" },
+        { "hebraico": "שִׁבְעָ֥ה", "transliteral": "šiḇʿâ", "traducao_palavra": "sete" },
+        { "hebraico": "שִׁבְעָ֖ה", "transliteral": "šiḇʿâ", "traducao_palavra": "sete" },
+        { "hebraico": "זָכָ֣ר", "transliteral": "zāḵār", "traducao_palavra": "macho" },
+        { "hebraico": "וּנְקֵבָ֑ה", "transliteral": "ûnəqēḇâ", "traducao_palavra": "e fêmea" },
+        { "hebraico": "לְחַיֹּ֥ות", "transliteral": "ləḥayyôṯ", "traducao_palavra": "para manter vivo" },
+        { "hebraico": "זֶ֖רַע", "transliteral": "zeraʿ", "traducao_palavra": "semente" },
+        { "hebraico": "עַל־פְּנֵ֥י", "transliteral": "ʿal-pənê", "traducao_palavra": "sobre a face de" },
+        { "hebraico": "כָל־הָאָֽרֶץ׃", "transliteral": "ḵāl-hāʾāreṣ", "traducao_palavra": "toda a terra" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Porque, daqui a sete dias, farei chover sobre a terra quarenta dias e quarenta noites; e apagarei de sobre a face da terra toda a substância que fiz.",
+      "palavras": [
+        { "hebraico": "כִּי֩", "transliteral": "kî", "traducao_palavra": "Porque" },
+        { "hebraico": "לְיָמִ֨ים", "transliteral": "ləyāmîm", "traducao_palavra": "para dias" },
+        { "hebraico": "עוֹד", "transliteral": "ʿôḏ", "traducao_palavra": "ainda" },
+        { "hebraico": "שִׁבְעָ֜ה", "transliteral": "šiḇʿâ", "traducao_palavra": "sete" },
+        { "hebraico": "אָֽנֹכִ֗י", "transliteral": "ʾānōḵî", "traducao_palavra": "eu" },
+        { "hebraico": "מַמְטִיר", "transliteral": "mamṭîr", "traducao_palavra": "fazendo chover" },
+        { "hebraico": "עַל־הָאָ֔רֶץ", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" },
+        { "hebraico": "אַרְבָּעִ֣ים", "transliteral": "ʾarbbāʿîm", "traducao_palavra": "quarenta" },
+        { "hebraico": "יּוֹם", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "וְאַרְבָּעִ֖ים", "transliteral": "wəʾarbbāʿîm", "traducao_palavra": "e quarenta" },
+        { "hebraico": "לָ֑יְלָה", "transliteral": "lāyəlâ", "traducao_palavra": "noite" },
+        { "hebraico": "וּמָחִ֗יתִי", "transliteral": "ûmāḥîṯî", "traducao_palavra": "e apagarei" },
+        { "hebraico": "אֶֽת־כָּל־הַיְקוּם֙", "transliteral": "ʾeṯ-kāl-hayyəqûm", "traducao_palavra": "[obj] toda a existência" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "עָשִׂ֔יתִי", "transliteral": "ʿāśîṯî", "traducao_palavra": "fiz" },
+        { "hebraico": "מֵעַ֖ל", "transliteral": "mēʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "פְּנֵ֥י", "transliteral": "pənê", "traducao_palavra": "face de" },
+        { "hebraico": "הָאֲדָמָֽה׃", "transliteral": "hāʾăḏāmâ", "traducao_palavra": "o solo" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E fez Noé conforme tudo o que o SENHOR lhe ordenara.",
+      "palavras": [
+        { "hebraico": "וַיַּ֖עַשׂ", "transliteral": "wayyaʿaś", "traducao_palavra": "E fez" },
+        { "hebraico": "נֹ֑חַ", "transliteral": "nōḥa", "traducao_palavra": "Noé" },
+        { "hebraico": "כְּכֹ֥ל", "transliteral": "kəḵōl", "traducao_palavra": "conforme tudo" },
+        { "hebraico": "אֲשֶׁר־צִוָּ֖הוּ", "transliteral": "ʾăšer-ṣiwwāhû", "traducao_palavra": "que ordenou-lhe" },
+        { "hebraico": "יְהוָֽה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E era Noé da idade de seiscentos anos, quando o dilúvio de águas veio sobre a terra.",
+      "palavras": [
+        { "hebraico": "וְנֹ֕חַ", "transliteral": "wənōḥa", "traducao_palavra": "E Noé" },
+        { "hebraico": "בֶּן־שֵׁ֥שׁ", "transliteral": "ben-šēš", "traducao_palavra": "filho de seis" },
+        { "hebraico": "מֵאֹ֖ות", "transliteral": "mēʾōṯ", "traducao_palavra": "centenas" },
+        { "hebraico": "שָׁנָ֑ה", "transliteral": "šānâ", "traducao_palavra": "anos" },
+        { "hebraico": "וְהַמַּבּ֣וּל", "transliteral": "wəhammabbûl", "traducao_palavra": "e o dilúvio" },
+        { "hebraico": "הָיָ֥ה", "transliteral": "hāyâ", "traducao_palavra": "foi/estava" },
+        { "hebraico": "מַ֖יִם", "transliteral": "mayim", "traducao_palavra": "águas" },
+        { "hebraico": "עַל־הָאָֽרֶץ׃", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "E entrou Noé, e seus filhos, e sua mulher, e as mulheres de seus filhos com ele na arca, por causa das águas do dilúvio.",
+      "palavras": [
+        { "hebraico": "וַיָּ֣בֹא", "transliteral": "wayyāḇōʾ", "traducao_palavra": "E entrou" },
+        { "hebraico": "נֹ֗חַ", "transliteral": "nōḥa", "traducao_palavra": "Noé" },
+        { "hebraico": "וּבָנָ֧יו", "transliteral": "ûḇānāyw", "traducao_palavra": "e seus filhos" },
+        { "hebraico": "וְאִשְׁתּ֛וֹ", "transliteral": "wəʾištô", "traducao_palavra": "e sua mulher" },
+        { "hebraico": "וּנְשֵֽׁי־בָנָ֥יו", "transliteral": "ûnəšê-ḇānāyw", "traducao_palavra": "e as mulheres de seus filhos" },
+        { "hebraico": "אִתּ֖וֹ", "transliteral": "ʾittô", "traducao_palavra": "com ele" },
+        { "hebraico": "אֶל־הַתֵּבָ֑ה", "transliteral": "ʾel-hattēḇâ", "traducao_palavra": "para a arca" },
+        { "hebraico": "מִפְּנֵ֖י", "transliteral": "mippənê", "traducao_palavra": "por causa de" },
+        { "hebraico": "מֵ֥י", "transliteral": "mê", "traducao_palavra": "águas de" },
+        { "hebraico": "הַמַּבּֽוּל׃", "transliteral": "hammabbûl", "traducao_palavra": "o dilúvio" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Dos animais limpos, e dos animais que não são limpos, e das aves, e de todo o que se arrasta sobre a terra,",
+      "palavras": [
+        { "hebraico": "מִן־הַבְּהֵמָה֙", "transliteral": "min-habbəhēmâ", "traducao_palavra": "Do animal" },
+        { "hebraico": "הַטְּהוֹרָ֔ה", "transliteral": "haṭṭəhôrâ", "traducao_palavra": "o limpo" },
+        { "hebraico": "וּמִן־הַבְּהֵמָה֙", "transliteral": "ûmin-habbəhēmâ", "traducao_palavra": "e do animal" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "אֵינֶ֖נָּה", "transliteral": "ʾênennâ", "traducao_palavra": "não [é]" },
+        { "hebraico": "טְהֹרָ֑ה", "transliteral": "ṭəhōrâ", "traducao_palavra": "limpa" },
+        { "hebraico": "וּמִן־הָעֹ֔וף", "transliteral": "ûmin-hāʿôp̱", "traducao_palavra": "e da ave" },
+        { "hebraico": "וְכֹ֥ל", "transliteral": "wəḵōl", "traducao_palavra": "e todo" },
+        { "hebraico": "אֲשֶׁר־רֹמֵ֖שׂ", "transliteral": "ʾăšer-rōmēś", "traducao_palavra": "que rasteja" },
+        { "hebraico": "עַל־הָאֲדָמָֽה׃", "transliteral": "ʿal-hāʾăḏāmâ", "traducao_palavra": "sobre o solo" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "entraram de dois em dois para Noé na arca, macho e fêmea, como Deus ordenara a Noé.",
+      "palavras": [
+        { "hebraico": "שְׁנַ֨יִם", "transliteral": "šənayim", "traducao_palavra": "dois" },
+        { "hebraico": "שְׁנַ֜יִם", "transliteral": "šənayim", "traducao_palavra": "dois" },
+        { "hebraico": "בָּ֧אוּ", "transliteral": "bāʾû", "traducao_palavra": "entraram" },
+        { "hebraico": "אֶל־נֹ֛חַ", "transliteral": "ʾel-nōḥa", "traducao_palavra": "para Noé" },
+        { "hebraico": "אֶל־הַתֵּבָ֖ה", "transliteral": "ʾel-hattēḇâ", "traducao_palavra": "para a arca" },
+        { "hebraico": "זָכָ֣ר", "transliteral": "zāḵār", "traducao_palavra": "macho" },
+        { "hebraico": "וּנְקֵבָ֑ה", "transliteral": "ûnəqēḇâ", "traducao_palavra": "e fêmea" },
+        { "hebraico": "כַּאֲשֶׁ֛ר", "transliteral": "kaʾăšer", "traducao_palavra": "conforme" },
+        { "hebraico": "צִוָּ֥ה", "transliteral": "ṣiwwâ", "traducao_palavra": "ordenou" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕlōhîm", "traducao_palavra": "Deus" },
+        { "hebraico": "אֶת־נֹֽחַ׃", "transliteral": "ʾeṯ-nōḥa", "traducao_palavra": "[obj] Noé" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E aconteceu que, passados sete dias, as águas do dilúvio vieram sobre a terra.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֖י", "transliteral": "wayəhî", "traducao_palavra": "E foi/aconteceu" },
+        { "hebraico": "לְשִׁבְעַ֣ת", "transliteral": "ləšiḇʿaṯ", "traducao_palavra": "para os sete" },
+        { "hebraico": "הַיָּמִ֑ים", "transliteral": "hayyāmîm", "traducao_palavra": "os dias" },
+        { "hebraico": "וּמֵ֣י", "transliteral": "ûmê", "traducao_palavra": "e as águas de" },
+        { "hebraico": "הַמַּבּ֔וּל", "transliteral": "hammabbûl", "traducao_palavra": "o dilúvio" },
+        { "hebraico": "הָי֥וּ", "transliteral": "hāyû", "traducao_palavra": "foram/estiveram" },
+        { "hebraico": "עַל־הָאָֽרֶץ׃", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "No ano seiscentos da vida de Noé, no mês segundo, aos dezessete dias do mês, naquele mesmo dia se romperam todas as fontes do grande abismo, e as janelas dos céus se abriram.",
+      "palavras": [
+        { "hebraico": "בִּשְׁנַ֨ת", "transliteral": "bišnaṯ", "traducao_palavra": "No ano de" },
+        { "hebraico": "שֵׁשׁ־מֵאֹ֤ות", "transliteral": "šēš-mēʾôṯ", "traducao_palavra": "seis centenas" },
+        { "hebraico": "שָׁנָה֙", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "לְחַיֵּי־נֹ֔חַ", "transliteral": "ləḥayyê-nōḥa", "traducao_palavra": "para a vida de Noé" },
+        { "hebraico": "בַּחֹ֙דֶשׁ֙", "transliteral": "baḥōḏeš", "traducao_palavra": "no mês" },
+        { "hebraico": "הַשֵּׁנִ֔י", "transliteral": "haššēnî", "traducao_palavra": "o segundo" },
+        { "hebraico": "בְּשִׁבְעָֽה־עָשָׂ֥ר", "transliteral": "bəšiḇʿâ-ʿāśār", "traducao_palavra": "aos dezessete" },
+        { "hebraico": "יּ֖וֹם", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "לַחֹ֑דֶשׁ", "transliteral": "laḥōḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "בַּיּ֣וֹם", "transliteral": "bayyôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַזֶּ֗ה", "transliteral": "hazzeh", "traducao_palavra": "este" },
+        { "hebraico": "נִבְקְעוּ֙", "transliteral": "niḇqəʿû", "traducao_palavra": "romperam-se" },
+        { "hebraico": "כָּֽל־מַעְיְנֹת֙", "transliteral": "kāl-maʿyənōṯ", "traducao_palavra": "todas as fontes de" },
+        { "hebraico": "תְּה֣וֹם", "transliteral": "təhôm", "traducao_palavra": "abismo" },
+        { "hebraico": "רַבָּ֔ה", "transliteral": "rabbâ", "traducao_palavra": "grande" },
+        { "hebraico": "וַאֲרֻבֹּ֥ת", "transliteral": "waʾărubbōṯ", "traducao_palavra": "e as janelas de" },
+        { "hebraico": "הַשָּׁמַ֖יִם", "transliteral": "haššāmayim", "traducao_palavra": "os céus" },
+        { "hebraico": "נִפְתָּֽחוּ׃", "transliteral": "nip̱tāḥû", "traducao_palavra": "abriram-se" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E houve chuva sobre a terra quarenta dias e quarenta noites.",
+      "palavras": [
+        { "hebraico": "וַֽיְהִ֥י", "transliteral": "wayəhî", "traducao_palavra": "E houve" },
+        { "hebraico": "הַגֶּ֖שֶׁם", "transliteral": "haggešem", "traducao_palavra": "a chuva" },
+        { "hebraico": "עַל־הָאָ֑רֶץ", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" },
+        { "hebraico": "אַרְבָּעִ֣ים", "transliteral": "ʾarbbāʿîm", "traducao_palavra": "quarenta" },
+        { "hebraico": "יּוֹם", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "וְאַרְבָּעִ֖ים", "transliteral": "wəʾarbbāʿîm", "traducao_palavra": "e quarenta" },
+        { "hebraico": "לָֽיְלָה׃", "transliteral": "lāyəlâ", "traducao_palavra": "noite" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E naquele mesmo dia entraram Noé, Sem, Cam e Jafé, filhos de Noé, como também a mulher de Noé e as três mulheres de seus filhos com eles, na arca;",
+      "palavras": [
+        { "hebraico": "בְּעֶ֨צֶם", "transliteral": "bəʿeṣem", "traducao_palavra": "No próprio" },
+        { "hebraico": "הַיּ֤וֹם", "transliteral": "hayyôm", "traducao_palavra": "dia" },
+        { "hebraico": "הַזֶּה֙", "transliteral": "hazzeh", "traducao_palavra": "este" },
+        { "hebraico": "בָּ֣א", "transliteral": "bāʾ", "traducao_palavra": "entrou" },
+        { "hebraico": "נֹ֔חַ", "transliteral": "nōḥa", "traducao_palavra": "Noé" },
+        { "hebraico": "וְשֵׁם־וְחָ֥ם", "transliteral": "wəšēm-wəḥām", "traducao_palavra": "e Sem e Cam" },
+        { "hebraico": "וָיֶ֖פֶת", "transliteral": "wāyep̱eṯ", "traducao_palavra": "e Jafé" },
+        { "hebraico": "בְּנֵי־נֹ֑חַ", "transliteral": "bənê-nōḥa", "traducao_palavra": "filhos de Noé" },
+        { "hebraico": "וְאֵ֣שֶׁת", "transliteral": "wəʾēšeṯ", "traducao_palavra": "e mulher de" },
+        { "hebraico": "נֹ֗חַ", "transliteral": "nōḥa", "traducao_palavra": "Noé" },
+        { "hebraico": "וּשְׁלֹ֧שֶׁת", "transliteral": "ûšəlōšeṯ", "traducao_palavra": "e as três" },
+        { "hebraico": "נְשֵֽׁי־בָנָ֛יו", "transliteral": "nəšê-ḇānāyw", "traducao_palavra": "mulheres de seus filhos" },
+        { "hebraico": "אִתָּ֖ם", "transliteral": "ʾittām", "traducao_palavra": "com eles" },
+        { "hebraico": "אֶל־הַתֵּבָֽה׃", "transliteral": "ʾel-hattēḇâ", "traducao_palavra": "para a arca" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Eles, e todo o animal segundo a sua espécie, e todo o gado segundo a sua espécie, e todo o réptil que se arrasta sobre a terra segundo a sua espécie, e toda a ave segundo a sua espécie, todo o pássaro de toda a sorte de asa.",
+      "palavras": [
+        { "hebraico": "הֵ֜מָּה", "transliteral": "hēmmâ", "traducao_palavra": "Eles" },
+        { "hebraico": "וְכָל־הַחַיָּ֣ה", "transliteral": "wəḵāl-haḥayyâ", "traducao_palavra": "e toda vida" },
+        { "hebraico": "לְמִינָ֗הּ", "transliteral": "ləmînāh", "traducao_palavra": "conforme sua espécie" },
+        { "hebraico": "וְכָל־הַבְּהֵמָה֙", "transliteral": "wəḵāl-habbəhēmâ", "traducao_palavra": "e todo animal" },
+        { "hebraico": "לְמִינָ֔הּ", "transliteral": "ləmînāh", "traducao_palavra": "conforme sua espécie" },
+        { "hebraico": "וְכָל־הָרֶ֛מֶשׂ", "transliteral": "wəḵāl-hāremeś", "traducao_palavra": "e todo réptil" },
+        { "hebraico": "הָרֹמֵ֥שׂ", "transliteral": "hārōmēś", "traducao_palavra": "que rasteja" },
+        { "hebraico": "עַל־הָאָ֖רֶץ", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" },
+        { "hebraico": "לְמִינֵ֑הוּ", "transliteral": "ləmînēhû", "traducao_palavra": "conforme sua espécie" },
+        { "hebraico": "וְכָל־הָעֹ֣וף", "transliteral": "wəḵāl-hāʿôp̱", "traducao_palavra": "e toda ave" },
+        { "hebraico": "לְמִינֵ֔הוּ", "transliteral": "ləmînēhû", "traducao_palavra": "conforme sua espécie" },
+        { "hebraico": "כֹּ֥ל", "transliteral": "kōl", "traducao_palavra": "todo" },
+        { "hebraico": "צִפֹּ֖ור", "transliteral": "ṣippôr", "traducao_palavra": "pássaro" },
+        { "hebraico": "כָּל־כָּנָֽף׃", "transliteral": "kāl-kānāp̱", "traducao_palavra": "de toda asa" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E entraram para Noé na arca, de dois em dois de toda a carne em que havia espírito de vida.",
+      "palavras": [
+        { "hebraico": "וַיָּבֹ֥אוּ", "transliteral": "wayyāḇōʾû", "traducao_palavra": "E entraram" },
+        { "hebraico": "אֶל־נֹ֖חַ", "transliteral": "ʾel-nōḥa", "traducao_palavra": "para Noé" },
+        { "hebraico": "אֶל־הַתֵּבָ֑ה", "transliteral": "ʾel-hattēḇâ", "traducao_palavra": "para a arca" },
+        { "hebraico": "שְׁנַ֤יִם", "transliteral": "šənayim", "traducao_palavra": "dois" },
+        { "hebraico": "שְׁנַ֙יִם֙", "transliteral": "šənayim", "traducao_palavra": "dois" },
+        { "hebraico": "מִכָּל־הַבָּשָׂ֔ר", "transliteral": "mikkāl-habbāśār", "traducao_palavra": "de toda carne" },
+        { "hebraico": "אֲשֶׁר־בּ֖וֹ", "transliteral": "ʾăšer-bô", "traducao_palavra": "que nela [há]" },
+        { "hebraico": "ר֥וּחַ", "transliteral": "rûaḥ", "traducao_palavra": "espírito de" },
+        { "hebraico": "חַיִּֽים׃", "transliteral": "ḥayyîm", "traducao_palavra": "vida" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E os que entraram, macho e fêmea de toda a carne entraram, como Deus lhe tinha ordenado; e o SENHOR o fechou por fora.",
+      "palavras": [
+        { "hebraico": "וְהַבָּאִ֗ים", "transliteral": "wəhabbāʾîm", "traducao_palavra": "E os que entraram" },
+        { "hebraico": "זָכָ֨ר", "transliteral": "zāḵār", "traducao_palavra": "macho" },
+        { "hebraico": "וּנְקֵבָ֤ה", "transliteral": "ûnəqēḇâ", "traducao_palavra": "e fêmea" },
+        { "hebraico": "מִכָּל־בָּשָׂר֙", "transliteral": "mikkāl-bāśār", "traducao_palavra": "de toda carne" },
+        { "hebraico": "בָּ֔אוּ", "transliteral": "bāʾû", "traducao_palavra": "entraram" },
+        { "hebraico": "כַּאֲשֶׁ֛ר", "transliteral": "kaʾăšer", "traducao_palavra": "conforme" },
+        { "hebraico": "צִוָּ֥ה", "transliteral": "ṣiwwâ", "traducao_palavra": "ordenou" },
+        { "hebraico": "אֹתֹ֖ו", "transliteral": "ʾōṯô", "traducao_palavra": "o" },
+        { "hebraico": "אֱלֹהִ֑ים", "transliteral": "ʾĕlōhîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וַיִּסְגֹּ֥ר", "transliteral": "wayyisgōr", "traducao_palavra": "e fechou" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בַּעֲדֽוֹ׃", "transliteral": "baʿăḏô", "traducao_palavra": "por ele/atrás dele" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E houve o dilúvio quarenta dias sobre a terra, e cresceram as águas e levantaram a arca, e ela se elevou sobre a terra.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֧י", "transliteral": "wayəhî", "traducao_palavra": "E houve" },
+        { "hebraico": "הַמַּבּ֛וּל", "transliteral": "hammabbûl", "traducao_palavra": "o dilúvio" },
+        { "hebraico": "אַרְבָּעִ֥ים", "transliteral": "ʾarbbāʿîm", "traducao_palavra": "quarenta" },
+        { "hebraico": "יּ֖וֹם", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "עַל־הָאָ֑רֶץ", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" },
+        { "hebraico": "וַיִּרְבּ֣וּ", "transliteral": "wayyirbbû", "traducao_palavra": "e cresceram" },
+        { "hebraico": "הַמַּ֗יִם", "transliteral": "hammayim", "traducao_palavra": "as águas" },
+        { "hebraico": "וַיִּשְׂאוּ֙", "transliteral": "wayyiśʾû", "traducao_palavra": "e levantaram" },
+        { "hebraico": "אֶת־הַתֵּבָ֔ה", "transliteral": "ʾeṯ-hattēḇâ", "traducao_palavra": "[obj] a arca" },
+        { "hebraico": "וַתָּ֖רָם", "transliteral": "wattārām", "traducao_palavra": "e elevou-se" },
+        { "hebraico": "מֵעַ֥ל", "transliteral": "mēʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "הָאָֽרֶץ׃", "transliteral": "hāʾāreṣ", "traducao_palavra": "a terra" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "E prevaleceram as águas e cresceram grandemente sobre a terra; e a arca andava sobre a face das águas.",
+      "palavras": [
+        { "hebraico": "וַיִּגְבְּר֥וּ", "transliteral": "wayyiḡbərû", "traducao_palavra": "E prevaleceram" },
+        { "hebraico": "הַמַּ֛יִם", "transliteral": "hammayim", "traducao_palavra": "as águas" },
+        { "hebraico": "וַיִּרְבּ֥וּ", "transliteral": "wayyirbbû", "traducao_palavra": "e cresceram" },
+        { "hebraico": "מְאֹ֖ד", "transliteral": "məʾōḏ", "traducao_palavra": "grandemente" },
+        { "hebraico": "עַל־הָאָ֑רֶץ", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" },
+        { "hebraico": "וַתֵּ֥לֶךְ", "transliteral": "wattēleḵ", "traducao_palavra": "e andava" },
+        { "hebraico": "הַתֵּבָ֖ה", "transliteral": "hattēḇâ", "traducao_palavra": "a arca" },
+        { "hebraico": "עַל־פְּנֵ֥י", "transliteral": "ʿal-pənê", "traducao_palavra": "sobre a face de" },
+        { "hebraico": "הַמָּֽיִם׃", "transliteral": "hammāyim", "traducao_palavra": "as águas" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E as águas prevaleceram excessivamente sobre a terra; e todos os altos montes que havia debaixo de todo o céu, foram cobertos.",
+      "palavras": [
+        { "hebraico": "וְהַמַּ֗יִם", "transliteral": "wəhammayim", "traducao_palavra": "E as águas" },
+        { "hebraico": "גָּבְר֥וּ", "transliteral": "ḡāḇərû", "traducao_palavra": "prevaleceram" },
+        { "hebraico": "מְאֹ֛ד", "transliteral": "məʾōḏ", "traducao_palavra": "muito" },
+        { "hebraico": "מְאֹ֖ד", "transliteral": "məʾōḏ", "traducao_palavra": "muito" },
+        { "hebraico": "עַל־הָאָ֑רֶץ", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" },
+        { "hebraico": "וַיְכֻסּ֗וּ", "transliteral": "wayəḵussû", "traducao_palavra": "e foram cobertos" },
+        { "hebraico": "כָּל־הֶֽהָרִים֙", "transliteral": "kāl-heḥārîm", "traducao_palavra": "todos os montes" },
+        { "hebraico": "הַגְּבֹהִ֔ים", "transliteral": "haggəḇōhîm", "traducao_palavra": "altos" },
+        { "hebraico": "אֲשֶׁר־תַּ֖חַת", "transliteral": "ʾăšer-taḥaṯ", "traducao_palavra": "que debaixo de" },
+        { "hebraico": "כָּל־הַשָּׁמָֽיִם׃", "transliteral": "kāl-haššāmāyim", "traducao_palavra": "todos os céus" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Quinze côvados acima prevaleceram as águas; e os montes foram cobertos.",
+      "palavras": [
+        { "hebraico": "חֲמֵ֨שׁ", "transliteral": "ḥămēš", "traducao_palavra": "Cinco" },
+        { "hebraico": "עֶשְׂרֵ֤ה", "transliteral": "ʿeśrēh", "traducao_palavra": "dez [quinze]" },
+        { "hebraico": "אַמָּה֙", "transliteral": "ʾammâ", "traducao_palavra": "côvado" },
+        { "hebraico": "מִלְמַ֔עְלָה", "transliteral": "milmaʿlâ", "traducao_palavra": "acima" },
+        { "hebraico": "גָּבְר֖וּ", "transliteral": "ḡāḇərû", "traducao_palavra": "prevaleceram" },
+        { "hebraico": "הַמָּ֑יִם", "transliteral": "hammāyim", "traducao_palavra": "as águas" },
+        { "hebraico": "וַיְכֻסּ֖וּ", "transliteral": "wayəḵussû", "traducao_palavra": "e foram cobertos" },
+        { "hebraico": "הֶהָרִֽים׃", "transliteral": "heḥārîm", "traducao_palavra": "os montes" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E expirou toda a carne que se movia sobre a terra, tanto de ave como de gado e de animais selvagens, e de todo o réptil que se arrasta sobre a terra, e todo o homem.",
+      "palavras": [
+        { "hebraico": "וַיִּגְוַ֨ע", "transliteral": "wayyiḡwaʿ", "traducao_palavra": "E expirou" },
+        { "hebraico": "כָּל־בָּשָׂ֜ר", "transliteral": "kāl-bāśār", "traducao_palavra": "toda carne" },
+        { "hebraico": "הָרֹמֵ֣שׂ", "transliteral": "hārōmēś", "traducao_palavra": "que se move" },
+        { "hebraico": "עַל־הָאָ֗רֶץ", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" },
+        { "hebraico": "בָּעֹ֤וף", "transliteral": "bāʿôp̱", "traducao_palavra": "entre a ave" },
+        { "hebraico": "וּבַבְּהֵמָה֙", "transliteral": "ûḇabbəhēmâ", "traducao_palavra": "e entre o animal" },
+        { "hebraico": "וּבַחַיָּ֔ה", "transliteral": "ûḇaḥayyâ", "traducao_palavra": "e entre a vida selvagem" },
+        { "hebraico": "וּבְכָל־הַשֶּׁ֖רֶץ", "transliteral": "ûḇəḵāl-haššereṣ", "traducao_palavra": "e em todo enxame" },
+        { "hebraico": "הַשֹּׁרֵ֣ץ", "transliteral": "haššōrēṣ", "traducao_palavra": "que enxameia" },
+        { "hebraico": "עַל־הָאָ֑רֶץ", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" },
+        { "hebraico": "וְכֹ֖ל", "transliteral": "wəḵōl", "traducao_palavra": "e todo" },
+        { "hebraico": "הָאָדָֽם׃", "transliteral": "hāʾāḏām", "traducao_palavra": "o homem" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Tudo o que tinha fôlego de espírito de vida em suas narinas, de tudo o que havia na terra seca, morreu.",
+      "palavras": [
+        { "hebraico": "כֹּ֡ל", "transliteral": "kōl", "traducao_palavra": "Tudo" },
+        { "hebraico": "אֲשֶׁר֩", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "נִשְׁמַת־ר֨וּחַ", "transliteral": "nišmaṯ-rûaḥ", "traducao_palavra": "fôlego de espírito de" },
+        { "hebraico": "חַיִּ֜ים", "transliteral": "ḥayyîm", "traducao_palavra": "vida" },
+        { "hebraico": "בְּאַפָּ֗יו", "transliteral": "bəʾappāyw", "traducao_palavra": "em suas narinas" },
+        { "hebraico": "מִכֹּ֛ל", "transliteral": "mikkōl", "traducao_palavra": "de tudo" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "בֶּחָֽרָבָ֖ה", "transliteral": "beḥārāḇâ", "traducao_palavra": "em terra seca" },
+        { "hebraico": "מֵֽתוּ׃", "transliteral": "mēṯû", "traducao_palavra": "morreram" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "E apagou toda a substância que havia sobre a face da terra, desde o homem até ao animal, até ao réptil, e até à ave dos céus; e foram apagados da terra; e ficou somente Noé e os que com ele estavam na arca.",
+      "palavras": [
+        { "hebraico": "וַיִּ֜מַח", "transliteral": "wayyimaḥ", "traducao_palavra": "E apagou" },
+        { "hebraico": "אֶת־כָּל־הַיְקוּם֮", "transliteral": "ʾeṯ-kāl-hayyəqûm", "traducao_palavra": "[obj] toda a existência" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "עַל־פְּנֵ֣י", "transliteral": "ʿal-pənê", "traducao_palavra": "sobre a face de" },
+        { "hebraico": "הָאֲדָמָה֒", "transliteral": "hāʾăḏāmâ", "traducao_palavra": "o solo" },
+        { "hebraico": "מֵאָדָ֤ם", "transliteral": "mēʾāḏām", "traducao_palavra": "desde o homem" },
+        { "hebraico": "עַד־בְּהֵמָה֙", "transliteral": "ʿaḏ-bəhēmâ", "traducao_palavra": "até o animal" },
+        { "hebraico": "עַד־רֶ֔מֶשׂ", "transliteral": "ʿaḏ-remeś", "traducao_palavra": "até o réptil" },
+        { "hebraico": "וְעַד־עֹ֥וף", "transliteral": "wəʿaḏ-ʿôp̱", "traducao_palavra": "e até a ave de" },
+        { "hebraico": "הַשָּׁמַ֖יִם", "transliteral": "haššāmayim", "traducao_palavra": "os céus" },
+        { "hebraico": "וַיִּמָּח֖וּ", "transliteral": "wayyimmāḥû", "traducao_palavra": "e foram apagados" },
+        { "hebraico": "מִן־הָאָ֑רֶץ", "transliteral": "min-hāʾāreṣ", "traducao_palavra": "da terra" },
+        { "hebraico": "וַיִּשָּׁ֧אֶר", "transliteral": "wayyiššāʾer", "traducao_palavra": "e sobrou" },
+        { "hebraico": "אַךְ־נֹ֛חַ", "transliteral": "ʾak-nōḥa", "traducao_palavra": "somente Noé" },
+        { "hebraico": "וַאֲשֶׁ֥ר", "transliteral": "waʾăšer", "traducao_palavra": "e o que" },
+        { "hebraico": "אִתּ֖וֹ", "transliteral": "ʾittô", "traducao_palavra": "com ele" },
+        { "hebraico": "בַּתֵּבָֽה׃", "transliteral": "battēḇâ", "traducao_palavra": "na arca" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "E prevaleceram as águas sobre a terra cento e cinquenta dias.",
+      "palavras": [
+        { "hebraico": "וַיִּגְבְּר֥וּ", "transliteral": "wayyiḡbərû", "traducao_palavra": "E prevaleceram" },
+        { "hebraico": "הַמַּ֖יִם", "transliteral": "hammāyim", "traducao_palavra": "as águas" },
+        { "hebraico": "עַל־הָאָ֑רֶץ", "transliteral": "ʿal-hāʾāreṣ", "traducao_palavra": "sobre a terra" },
+        { "hebraico": "חֲמִשִּׁ֥ים", "transliteral": "ḥămiššîm", "traducao_palavra": "cinquenta" },
+        { "hebraico": "וּמְאַ֖ת", "transliteral": "ûməʾaṯ", "traducao_palavra": "e cem" },
+        { "hebraico": "יּֽוֹם׃", "transliteral": "yôm", "traducao_palavra": "dia" }
+      ]
+    }
+  }
+}

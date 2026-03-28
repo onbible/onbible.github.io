@@ -1,0 +1,656 @@
+{
+    "d": [
+        {
+            "palavra": "DESTA",
+            "veja tambem": [],
+            "ocorrencias": 161,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 6.15",
+                    "texto": "E D. maneira farás: de trezentos côvados o"
+                },
+                {
+                    "referencia": "Gênesis 10.11",
+                    "texto": "D. mesma terra saiu ele à Assíria e edificou a"
+                },
+                {
+                    "referencia": "Gênesis 18.4",
+                    "texto": "os vossos pés e recostai-vos debaixo D., árvore;"
+                },
+                {
+                    "referencia": "Gênesis 19.15",
+                    "texto": "estão, pra que não pereças na injustiça D. cidade."
+                },
+                {
+                    "referencia": "Gênesis 21.10",
+                    "texto": "o seu filho; porque o filho D. serva não herdará"
+                },
+                {
+                    "referencia": "Gênesis 21.13",
+                    "texto": "Mas também do filho D., serva farei uma nação,"
+                },
+                {
+                    "referencia": "Gênesis 24.13",
+                    "texto": "e as filhas dos varões D. cidade saem para"
+                },
+                {
+                    "referencia": "Gênesis 27.46",
+                    "texto": "como estas são das filhas D. terra, para que"
+                },
+                {
+                    "referencia": "Gênesis 29.27",
+                    "texto": "Cumpre a semana D.; então te daremos também a"
+                },
+                {
+                    "referencia": "Gênesis 29.28",
+                    "texto": "assim e cumpriu a semana D.; então, lhe deu por"
+                },
+                {
+                    "referencia": "Gênesis 30.20",
+                    "texto": "me deu a mim uma boa dádiva; D, vez morará o meu"
+                },
+                {
+                    "referencia": "Gênesis 31.13",
+                    "texto": "voto; levanta-te agora, sai-te D. terra e torna-te"
+                },
+                {
+                    "referencia": "Gênesis 33.15",
+                    "texto": "Deixarei logo contigo D. gente que está"
+                },
+                {
+                    "referencia": "Gênesis 34.30",
+                    "texto": "mal entre os moradores D. terra, entre os"
+                },
+                {
+                    "referencia": "Gênesis 40.14",
+                    "texto": "faças menção de mim a Faraó, e faze-me sair D. casa;"
+                },
+                {
+                    "referencia": "Gênesis 43.11",
+                    "texto": "isso; tomai do mais precioso D, terra em vossos"
+                },
+                {
+                    "referencia": "Gênesis 50.24",
+                    "texto": "visitará e vos fará subir D., terra para a terra"
+                },
+                {
+                    "referencia": "Êxodo 8.22",
+                    "texto": "que saibas que eu sou o Senhor no meio D, terra."
+                },
+                {
+                    "referencia": "Êxodo 10.17",
+                    "texto": "o meu pecado somente D, vez e que oreis ao"
+                },
+                {
+                    "referencia": "Êxodo 21.10",
+                    "texto": "não diminuirá o mantimento D., nem a sua veste,"
+                },
+                {
+                    "referencia": "Êxodo 37.8",
+                    "texto": "querubim a uma extremidade D. banda, e o outro"
+                },
+                {
+                    "referencia": "Êxodo 38.14",
+                    "texto": "As cortinas D. banda da porta eram de quinze"
+                },
+                {
+                    "referencia": "Levítico 18.27",
+                    "texto": "fizeram os homens D, terra, que nela"
+                },
+                {
+                    "referencia": "Números 14.9",
+                    "texto": "Senhor e não temais o povo D, terra, porquanto são"
+                },
+                {
+                    "referencia": "Números 14.14",
+                    "texto": "E o dirão aos moradores D, terra, que ouviram que"
+                },
+                {
+                    "referencia": "Números 16.21",
+                    "texto": "Apartai-vos do meio D, congregação, e os"
+                },
+                {
+                    "referencia": "Números 16.45",
+                    "texto": "Levantai-vos do meio D. con regação, e a"
+                },
+                {
+                    "referencia": "Números 20.10",
+                    "texto": "porventura, tiraremos água D. rocha para vós?"
+                },
+                {
+                    "referencia": "Números 21.13",
+                    "texto": "dali, partiram e alojaram-se D. banda de Arnom,"
+                },
+                {
+                    "referencia": "Números 22.1",
+                    "texto": "nas campinas de Moabe, D. banda do Jordão,"
+                },
+                {
+                    "referencia": "Números 22.24",
+                    "texto": "vinhas, havendo uma parede D, banda e uma parede"
+                },
+                {
+                    "referencia": "Números 24.11",
+                    "texto": "mas eis que o Senhor te privou D. honra."
+                },
+                {
+                    "referencia": "Números 31.47",
+                    "texto": "D., metade dos filhos de Israel, Moisés tomou um de"
+                },
+                {
+                    "referencia": "Deuteronômio 1.35",
+                    "texto": "Nenhum dos homens D, maligna geração verá esta boa"
+                },
+                {
+                    "referencia": "Deuteronômio 17.18",
+                    "texto": "escreverá para si um traslado D, lei num livro, do"
+                },
+                {
+                    "referencia": "Deuteronômio 17.19",
+                    "texto": "guardar todas as palavras D. lei e estes"
+                },
+                {
+                    "referencia": "Deuteronômio 27.3",
+                    "texto": "nelas todas as palavras D. lei, para entrares"
+                },
+                {
+                    "referencia": "Deuteronômio 27.8",
+                    "texto": "escreverás todas as palavras D. lei, exprimindo-as bem."
+                },
+                {
+                    "referencia": "Deuteronômio 27.26",
+                    "texto": "não confirmar as palavras D, lei, não as"
+                },
+                {
+                    "referencia": "Deuteronômio 28.58",
+                    "texto": "guardar todas as palavras D., lei, que estão"
+                },
+                {
+                    "referencia": "Deuteronômio 28.61",
+                    "texto": "não está escrita no livro D. lei, até que sejas destruído."
+                },
+                {
+                    "referencia": "Deuteronômio 29.19",
+                    "texto": "que, ouvindo as palavras D, maldição, se"
+                },
+                {
+                    "referencia": "Deuteronômio 29.22",
+                    "texto": "terras remotas, vendo as pragas D, terra, e as"
+                },
+                {
+                    "referencia": "Deuteronômio 29.24",
+                    "texto": "terra? Qual foi a causa do furor D. tão grande ira?"
+                },
+                {
+                    "referencia": "Deuteronômio 29.29",
+                    "texto": "sempre, para cumprirmos todas as palavras D. lei."
+                },
+                {
+                    "referencia": "Deuteronômio 31.12",
+                    "texto": "e tenham cuidado de fazer todas as palavras D, Lei;"
+                },
+                {
+                    "referencia": "Deuteronômio 31.24",
+                    "texto": "de escrever as palavras D. Lei num livro, até"
+                },
+                {
+                    "referencia": "Deuteronômio 32.46",
+                    "texto": "tenham cuidado de cumprir todas as palavras D. lei."
+                },
+                {
+                    "referencia": "Josué 1.8",
+                    "texto": "aparte da tua boca o livro D. Lei; antes, medita"
+                },
+                {
+                    "referencia": "Josué 1.14",
+                    "texto": "na terra que Moisés vos deu D, banda do Jordão;"
+                },
+                {
+                    "referencia": "Josué 1.15",
+                    "texto": "vos deu Moisés, o servo do Senhor, D, banda do"
+                },
+                {
+                    "referencia": "Josué 5.1",
+                    "texto": "dos amorreus que habitavam D, banda do Jordão, ao"
+                },
+                {
+                    "referencia": "Josué 21.43",
+                    "texto": "D. sorte, deu o Senhor a Israel toda a terra que"
+                },
+                {
+                    "referencia": "Josué 23.13",
+                    "texto": "aos vossos olhos; até que pereçais D, boa terra"
+                },
+                {
+                    "referencia": "Juízes 1.17",
+                    "texto": "a destruíram, e chamaram o nome D, cidade Horma."
+                },
+                {
+                    "referencia": "Juízes 1.23",
+                    "texto": "espiar a Betel (e foi dantes o nome D. cidade Luz)."
+                },
+                {
+                    "referencia": "Juízes 2.2",
+                    "texto": "concerto com os moradores D. terra; antes,"
+                },
+                {
+                    "referencia": "Juízes 11.2",
+                    "texto": "filhos, e, sendo os filhos D, mulher já grandes,"
+                },
+                {
+                    "referencia": "Juízes 18.29",
+                    "texto": "Israel, sendo, porém, dantes, o nome D., cidade Laís."
+                },
+                {
+                    "referencia": "Rute 4.12",
+                    "texto": "de Judá), da semente que o Senhor te der D. moça."
+                },
+                {
+                    "referencia": "1 Samuel 2.20",
+                    "texto": "O Senhor te dê semente D. mulher, pela"
+                },
+                {
+                    "referencia": "1 Samuel 14.4",
+                    "texto": "à guarnição dos filisteus, D. banda havia uma"
+                },
+                {
+                    "referencia": "1 Samuel 23.26",
+                    "texto": "E Saul ia D, banda do monte, e Davi e os seus"
+                },
+                {
+                    "referencia": "1 Samuel 31.7",
+                    "texto": "de Israel que estavam D. banda do vale e"
+                },
+                {
+                    "referencia": "1 Samuel 31.7",
+                    "texto": "D, banda do vale e D. banda do Jordão que"
+                },
+                {
+                    "referencia": "2 Samuel 2.13",
+                    "texto": "de Gibeão, e pararam estes D, banda do tanque"
+                },
+                {
+                    "referencia": "2 Samuel 11.19",
+                    "texto": "tu de contar ao rei todo o sucesso D. peleja,"
+                },
+                {
+                    "referencia": "2 Samuel 15.6",
+                    "texto": "E D. maneira fazia Absalão a todo o Israel que"
+                },
+                {
+                    "referencia": "2 Samuel 17.6",
+                    "texto": "lhe falou Absalão, dizendo: D. maneira falou"
+                },
+                {
+                    "referencia": "1 Reis 3.19",
+                    "texto": "E de noite morreu o filho D. mulher, porquanto se"
+                },
+                {
+                    "referencia": "1 Reis 844",
+                    "texto": "ao Senhor, para a banda D, cidade que tu"
+                },
+                {
+                    "referencia": "1 Reis 8.44",
+                    "texto": "cidade que tu elegeste e D. casa que"
+                },
+                {
+                    "referencia": "1 Reis 9.8",
+                    "texto": "E D. casa, que é tão exaltada, todo aquele que por"
+                },
+                {
+                    "referencia": "1 Reis 11.10",
+                    "texto": "E acerca D. matéria lhe tinha dado ordem que não"
+                },
+                {
+                    "referencia": "1 Reis 14.15",
+                    "texto": "águas, e arrancará a Israel D. boa terra que"
+                },
+                {
+                    "referencia": "1 Reis 17.17",
+                    "texto": "sucedeu que adoeceu o filho D. mulher, da dona da"
+                },
+                {
+                    "referencia": "1 Reis 22.20",
+                    "texto": "em Ramote-Gileade? E um dizia D. maneira, e ou-"
+                },
+                {
+                    "referencia": "2 Reis 1.2",
+                    "texto": "a Baal-Zebube, deus de Ecrom, se sararei D. doença."
+                },
+                {
+                    "referencia": "2 Reis 1.16",
+                    "texto": "consultar a sua palavra? Portanto, D. cama, a que"
+                },
+                {
+                    "referencia": "2 Reis 2.19",
+                    "texto": "Eis que boa é a habitação D. cidade, como o meu"
+                },
+                {
+                    "referencia": "2 Reis 6.30",
+                    "texto": "ouvindo o rei as palavras D, mulher, rasgou as"
+                },
+                {
+                    "referencia": "2 Reis 8.8",
+                    "texto": "ele ao Senhor, dizendo: Hei de eu sarar D. doença?"
+                },
+                {
+                    "referencia": "2 Reis 8.9",
+                    "texto": "me enviou a ti, a dizer: Sararei eu D, doença?"
+                },
+                {
+                    "referencia": "2 Reis 11.6",
+                    "texto": "guarda; assim, fareis a guarda D., casa, afastando"
+                },
+                {
+                    "referencia": "2 Reis 21.8",
+                    "texto": "farei mover o pé de Israel D. terra que tenho dado"
+                },
+                {
+                    "referencia": "1 Crônicas 2.18",
+                    "texto": "e de Jeriote; e os filhos D. foram estes:"
+                },
+                {
+                    "referencia": "2 Crônicas 6.34",
+                    "texto": "e orarem a ti para a banda D. cidade que"
+                },
+                {
+                    "referencia": "2 Crônicas 6.34",
+                    "texto": "cidade que escolheste, e D. casa que"
+                },
+                {
+                    "referencia": "2 Crônicas 6.38",
+                    "texto": "terra que deste a seus pais, e D. cidade que"
+                },
+                {
+                    "referencia": "2 Crônicas 6.38",
+                    "texto": "D. cidade que escolheste e D, casa que"
+                },
+                {
+                    "referencia": "2 Crônicas 7.21",
+                    "texto": "E, D. casa, que fora tão exaltada, qualquer que"
+                },
+                {
+                    "referencia": "2 Crônicas 18.19",
+                    "texto": "Disse mais: Um diz D. maneira, e"
+                },
+                {
+                    "referencia": "2 Crônicas 20.7",
+                    "texto": "tu fora os moradores D. terra, de diante"
+                },
+                {
+                    "referencia": "2 Crônicas 20.9",
+                    "texto": "nós nos apresentaremos diante D. casa e diante de"
+                },
+                {
+                    "referencia": "2 Crônicas 20.15",
+                    "texto": "nem vos assusteis por causa D. grande"
+                },
+                {
+                    "referencia": "2 Crônicas 24.18",
+                    "texto": "ira sobre Judá e Jerusalém por causa D. sua culpa."
+                },
+                {
+                    "referencia": "Esdras 4.16",
+                    "texto": "os seus muros se restaurarem, D, maneira não"
+                },
+                {
+                    "referencia": "Esdras 4.16",
+                    "texto": "maneira não terás porção alguma D, banda do rio."
+                },
+                {
+                    "referencia": "Esdras 6.7",
+                    "texto": "Deixa-os na obra D, Casa de Deus, para que o"
+                },
+                {
+                    "referencia": "Esdras 6.16",
+                    "texto": "fizeram a consagração D. Casa de Deus com alegria."
+                },
+                {
+                    "referencia": "Esdras 6.17",
+                    "texto": "para a consagração D, Casa de Deus cem"
+                },
+                {
+                    "referencia": "Esdras 7.24",
+                    "texto": "netineus e ministros D. Casa de Deus que"
+                },
+                {
+                    "referencia": "Ester 2.13",
+                    "texto": "D. maneira, pois, entrava a moça ao rei; tudo"
+                },
+                {
+                    "referencia": "SI 12.7",
+                    "texto": "Tu nos guardarás, Senhor; D. geração nos livrarás"
+                },
+                {
+                    "referencia": "Isaías 1.19",
+                    "texto": "Se quiserdes, e ouvirdes, comereis o bem D. terra."
+                },
+                {
+                    "referencia": "Isaías 20.6",
+                    "texto": "Então, dirão os moradores D. ilha, naquele dia:"
+                },
+                {
+                    "referencia": "Jeremias 6.12",
+                    "texto": "a mão contra os habitantes D, terra, diz o Senhor."
+                },
+                {
+                    "referencia": "Jeremias 8.3",
+                    "texto": "o resto dos que restarem D. raça maligna que"
+                },
+                {
+                    "referencia": "Jeremias 10.18",
+                    "texto": "assim diz o Senhor: Eis que D, vez arrojarei, comó"
+                },
+                {
+                    "referencia": "Jeremias 13.13",
+                    "texto": "todos os habitantes D, terra, e os reis"
+                },
+                {
+                    "referencia": "Jeremias 16.13",
+                    "texto": "lançar-vos-ei fora D. terra, para uma"
+                },
+                {
+                    "referencia": "Jeremias 16.21",
+                    "texto": "eis que lhes farei conhecer, D. vez lhes farei"
+                },
+                {
+                    "referencia": "Jeremias 17.24",
+                    "texto": "cargas pelas portas D, cidade no dia"
+                },
+                {
+                    "referencia": "Jeremias 17.25",
+                    "texto": "entrarão pelas portas D. cidade reis e"
+                },
+                {
+                    "referencia": "Jeremias 20.5",
+                    "texto": "darei toda a fazenda D. cidade, e todo o seu"
+                },
+                {
+                    "referencia": "Jeremias 21.4",
+                    "texto": "fora dos muros; e ajuntá-los-ei no meio D. cidade."
+                },
+                {
+                    "referencia": "Jeremias 21.6",
+                    "texto": "E ferirei os habitantes D. cidade, assim os homens"
+                },
+                {
+                    "referencia": "Jeremias 21.7",
+                    "texto": "e seus servos, e o povo, e os que D. cidade"
+                },
+                {
+                    "referencia": "Jeremias 22.4",
+                    "texto": "palavra, entrarão pelas portas D., casa os reis que"
+                },
+                {
+                    "referencia": "Jeremias 26.6",
+                    "texto": "casa seja como Siló e farei D. cidade uma maldição"
+                },
+                {
+                    "referencia": "Jeremias 26.18",
+                    "texto": "em montões de pedras, e o monte D. casa, como"
+                },
+                {
+                    "referencia": "Jeremias 32.36",
+                    "texto": "o Deus de Israel, acerca D. cidade, da qual"
+                },
+                {
+                    "referencia": "Jeremias 33.4",
+                    "texto": "de Israel, sobre as casas D. cidade e sobre as"
+                },
+                {
+                    "referencia": "Ezequiel 45.3",
+                    "texto": "E D. medida medirás um comprimento de vinte e"
+                },
+                {
+                    "referencia": "Ezequiel 45.7",
+                    "texto": "porém, terá a sua parte D. e da outra banda"
+                },
+                {
+                    "referencia": "Ezequiel 48.21",
+                    "texto": "será para o príncipe; D. e da outra banda da"
+                },
+                {
+                    "referencia": "Daniel 1.16",
+                    "texto": "D. sorte, o despenseiro tirou a porção do manjar"
+                },
+                {
+                    "referencia": "Daniel 12.5",
+                    "texto": "que estavam outros dois, um D. banda, à beira"
+                },
+                {
+                    "referencia": "J11.14",
+                    "texto": "anciãos e todos os moradores D. terra, na Casa do"
+                },
+                {
+                    "referencia": "Mg 3.12",
+                    "texto": "montões de pedras, e o monte D, casa, em lugares"
+                },
+                {
+                    "referencia": "Ageu 2.9",
+                    "texto": "A glória D, última casa será maior do que a da"
+                },
+                {
+                    "referencia": "Zacarias 3.9",
+                    "texto": "e tirarei a iniquidade D, terra, em um dia."
+                },
+                {
+                    "referencia": "Zacarias 7.5",
+                    "texto": "Fala a todo o povo D. terra e aos sacerdotes,"
+                },
+                {
+                    "referencia": "Zacarias 11.6",
+                    "texto": "mais piedade dos moradores D. terra, diz o Senhor,"
+                },
+                {
+                    "referencia": "Marcos 7.17",
+                    "texto": "seus discípulos o interrogavam acerca D. parábola."
+                },
+                {
+                    "referencia": "Lucas 7.31",
+                    "texto": "pois, compararei os homens D, geração, e a quem"
+                },
+                {
+                    "referencia": "Lucas 11.31",
+                    "texto": "Dia do Juízo com os homens D, geração e os"
+                },
+                {
+                    "referencia": "Lucas 11.50",
+                    "texto": "para que D. geração seja requerido o sangue de"
+                },
+                {
+                    "referencia": "Lucas 11.51",
+                    "texto": "templo; assim, vos digo, será requerido D, geração."
+                },
+                {
+                    "referencia": "Lucas 13.16",
+                    "texto": "E não convinha soltar D. prisão, no dia de sábado,"
+                },
+                {
+                    "referencia": "Lucas 18.11",
+                    "texto": "estando em pé, orava consigo D. maneira: Ó Deus,"
+                },
+                {
+                    "referencia": "Jó 4.13",
+                    "texto": "Qualquer que beber D. água tornará a ter sede,"
+                },
+                {
+                    "referencia": "Jó 12.27",
+                    "texto": "e que direi eu? Pai, salva-me D. hora; mas para"
+                },
+                {
+                    "referencia": "Atos 240",
+                    "texto": "exortava, dizendo: Salvai-vos D. geração perversa."
+                },
+                {
+                    "referencia": "Atos 5.20",
+                    "texto": "no templo e dizei ao povo todas as palavras D, vida."
+                },
+                {
+                    "referencia": "Atos 13.26",
+                    "texto": "a Deus, a vós vos é enviada a palavra D. salvação."
+                },
+                {
+                    "referencia": "Atos 16.10",
+                    "texto": "E, logo depois D. visão, procuramos partir para a"
+                },
+                {
+                    "referencia": "Atos 16.12",
+                    "texto": "que é a primeira cidade D. parte da Macedônia"
+                },
+                {
+                    "referencia": "Atos 23.16",
+                    "texto": "Paulo, tendo ouvido acerca D. cilada, foi, e"
+                },
+                {
+                    "referencia": "Atos 24.10",
+                    "texto": "já vai para muitos anos que D, nação és juiz,"
+                },
+                {
+                    "referencia": "Atos 25.20",
+                    "texto": "acerca da inquirição D., causa, perguntei se"
+                },
+                {
+                    "referencia": "Romanos 7.24",
+                    "texto": "homem que eu sou! Quem me livrará do corpo D,"
+                },
+                {
+                    "referencia": "Romanos 15.20",
+                    "texto": "E D. maneira me esforcei por anunciar o evangelho,"
+                },
+                {
+                    "referencia": "2 Coríntios 3.10",
+                    "texto": "não foi glorificado, por causa D. excelente glória."
+                },
+                {
+                    "referencia": "2 Coríntios 9.13",
+                    "texto": "visto como, na prova D. administração, glorificam"
+                },
+                {
+                    "referencia": "2 Timóteo 2.4",
+                    "texto": "se embaraça com negócio D. vida, a fim de"
+                },
+                {
+                    "referencia": "Hebreus 7.19",
+                    "texto": "coisa aperfeiçoou), e D, sorte é introduzida"
+                },
+                {
+                    "referencia": "Hebreus 9.11",
+                    "texto": "não feito por mãos, isto é, não D. criação,"
+                },
+                {
+                    "referencia": "Hebreus 13.22",
+                    "texto": "que suporteis a palavra D, exortação; porque"
+                },
+                {
+                    "referencia": "Apocalipse 1.3",
+                    "texto": "e os que ouvem as palavras D. profecia, e guardam"
+                },
+                {
+                    "referencia": "Apocalipse 22.19",
+                    "texto": "quaisquer palavras do livro D., profecia, Deus"
+                }
+            ]
+        }
+    ]
+}

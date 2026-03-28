@@ -1,0 +1,161 @@
+{
+  "livro": "Levítico - וַיִּקְרָא - Vayikra",
+  "capítulo": 2,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E quando uma alma trouxer oferta de manjares a YHWH, a sua oferta será de flor de farinha; e deitará sobre ela azeite, e porá sobre ela incenso.",
+      "palavras": [
+        { "hebraico": "וְנֶפֶשׁ", "transliteral": "wə-ne-p̄eš", "traducao_palavra": "e uma alma/pessoa" },
+        { "hebraico": "כִּי־תַקְרִיב", "transliteral": "kî-ṯaq-rîḇ", "traducao_palavra": "quando trouxer/oferecer" },
+        { "hebraico": "קָרְבַּן", "transliteral": "qā-rə-ban", "traducao_palavra": "uma oferta de" },
+        { "hebraico": "מִנְחָה", "transliteral": "min-ḥā", "traducao_palavra": "manjares" },
+        { "hebraico": "לַיהוָה", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "סֹלֶת", "transliteral": "sō-leṯ", "traducao_palavra": "flor de farinha" },
+        { "hebraico": "יִהְיֶה", "transliteral": "yih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "קָרְבָּנוֹ", "transliteral": "qā-rə-bā-nô", "traducao_palavra": "a sua oferta" },
+        { "hebraico": "וְיָצַק", "transliteral": "wə-yā-ṣaq", "traducao_palavra": "e deitará/derramará" },
+        { "hebraico": "עָלֶיהָ", "transliteral": "ʿā-le-hā", "traducao_palavra": "sobre ela" },
+        { "hebraico": "שֶׁמֶן", "transliteral": "še-men", "traducao_palavra": "azeite" },
+        { "hebraico": "וְנָתַן", "transliteral": "wə-nā-ṯan", "traducao_palavra": "e porá" },
+        { "hebraico": "עָלֶיהָ", "transliteral": "ʿā-le-hā", "traducao_palavra": "sobre ela" },
+        { "hebraico": "לְבֹנָה׃", "transliteral": "lə-ḇō-nā", "traducao_palavra": "incenso" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E a trará aos filhos de Arão, os sacerdotes; e dali tomará um punhado cheio da sua flor de farinha e do seu azeite, com todo o seu incenso; e o sacerdote queimará esta porção memorial sobre o altar; oferta queimada é, de aroma suave a YHWH.",
+      "palavras": [
+        { "hebraico": "וֶהֱבִיאָהּ", "transliteral": "we-hĕ-ḇî-ʾāh", "traducao_palavra": "e a trará" },
+        { "hebraico": "אֶל־בְּנֵי", "transliteral": "ʾel-bə-nê", "traducao_palavra": "aos filhos de" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "הַכֹּהֲנִים", "transliteral": "hak-kō-hă-nîm", "traducao_palavra": "os sacerdotes" },
+        { "hebraico": "וְקָמַץ", "transliteral": "wə-qā-maṣ", "traducao_palavra": "e tomará um punhado" },
+        { "hebraico": "מִשָּׁם", "transliteral": "miš-šām", "traducao_palavra": "dali" },
+        { "hebraico": "מְלֹא", "transliteral": "mə-lō", "traducao_palavra": "cheio de" },
+        { "hebraico": "קֻמְצוֹ", "transliteral": "qum-ṣô", "traducao_palavra": "seu punho" },
+        { "hebraico": "וְהִקְטִיר", "transliteral": "wə-hiq-ṭîr", "traducao_palavra": "e queimará" },
+        { "hebraico": "הַכֹּהֵן", "transliteral": "hak-kō-hên", "traducao_palavra": "o sacerdote" },
+        { "hebraico": "אֶת־אַזְכָּרָתָהּ", "transliteral": "ʾeṯ-ʾaz-kā-rā-ṯāh", "traducao_palavra": "a sua porção memorial" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E o que sobejar da oferta de manjares será de Arão e de seus filhos; coisa santíssima é, das ofertas queimadas de YHWH.",
+      "palavras": [
+        { "hebraico": "וְהַנּוֹתֶרֶת", "transliteral": "wə-han-nō-ṯe-reṯ", "traducao_palavra": "e o que sobejar" },
+        { "hebraico": "מִן־הַמִּנְחָה", "transliteral": "min-ham-min-ḥā", "traducao_palavra": "da oferta de manjares" },
+        { "hebraico": "לְאַהֲרֹן", "transliteral": "lə-ʾa-hă-rōn", "traducao_palavra": "para Arão" },
+        { "hebraico": "וּלְבָנָיו", "transliteral": "û-lə-ḇā-nāyw", "traducao_palavra": "e para seus filhos" },
+        { "hebraico": "קֹדֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santo de" },
+        { "hebraico": "קָדָשִׁים", "transliteral": "qā-ḏā-šîm", "traducao_palavra": "santos [santíssimo]" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E quando trouxeres oferta de manjares, cozida no forno, será de bolos asmos de flor de farinha, amassados com azeite, e coscorões asmos untados com azeite.",
+      "palavras": [
+        { "hebraico": "וְכִי", "transliteral": "wə-ḵî", "traducao_palavra": "e quando" },
+        { "hebraico": "תַקְרִב", "transliteral": "ṯaq-riḇ", "traducao_palavra": "trouxeres" },
+        { "hebraico": "קָרְבַּן", "transliteral": "qā-rə-ban", "traducao_palavra": "oferta de" },
+        { "hebraico": "מִנְחָה", "transliteral": "min-ḥā", "traducao_palavra": "manjares" },
+        { "hebraico": "מַאֲפֵה", "transliteral": "ma-ʾă-p̄ē", "traducao_palavra": "cozida de" },
+        { "hebraico": "תַנּוּר", "transliteral": "tan-nûr", "traducao_palavra": "forno" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E se a tua oferta for oferta de manjares da assadeira, será de flor de farinha sem fermento, amassada com azeite.",
+      "palavras": [
+        { "hebraico": "וְאִם־מִנְחָה", "transliteral": "wə-ʾim-min-ḥā", "traducao_palavra": "e se oferta de manjares" },
+        { "hebraico": "עַל־הַמַּחֲבַת", "transliteral": "ʿal-ham-ma-ḥă-ḇaṯ", "traducao_palavra": "sobre a assadeira/chapa" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Parti-la-ás em pedaços, e deitarás sobre ela azeite; oferta de manjares é.",
+      "palavras": [
+        { "hebraico": "פָּתוֹת", "transliteral": "pā-ṯôṯ", "traducao_palavra": "partirás" },
+        { "hebraico": "אֹתָהּ", "transliteral": "ʾō-ṯāh", "traducao_palavra": "ela" },
+        { "hebraico": "פִּתִּים", "transliteral": "pit-tîm", "traducao_palavra": "em pedaços" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "E se a tua oferta for oferta de manjares da sertã, far-se-á de flor de farinha com azeite.",
+      "palavras": [
+        { "hebraico": "וְאִם־מִנְחַת", "transliteral": "wə-ʾim-min-ḥaṯ", "traducao_palavra": "e se oferta de" },
+        { "hebraico": "מַרְחֶשֶׁת", "transliteral": "mar-ḥe-šeṯ", "traducao_palavra": "sertã/panela" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E trarás a oferta de manjares que se fizer destas coisas a YHWH; e se apresentará ao sacerdote, o qual a levará ao altar.",
+      "palavras": [
+        { "hebraico": "וְהֵבֵאתָ", "transliteral": "wə-hē-ḇê-ṯā", "traducao_palavra": "e trarás" },
+        { "hebraico": "אֶת־הַמִּנְחָה", "transliteral": "ʾeṯ-ham-min-ḥā", "traducao_palavra": "a oferta de manjares" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E o sacerdote tomará daquela oferta de manjares a sua porção memorial, e a queimará sobre o altar; oferta queimada é, de aroma suave a YHWH.",
+      "palavras": [
+        { "hebraico": "וְהֵרִים", "transliteral": "wə-hē-rîm", "traducao_palavra": "e levantará/tomará" },
+        { "hebraico": "הַכֹּהֵן", "transliteral": "hak-kō-hên", "traducao_palavra": "o sacerdote" },
+        { "hebraico": "מִן־הַמִּנְחָה", "transliteral": "min-ham-min-ḥā", "traducao_palavra": "da oferta de manjares" },
+        { "hebraico": "אֶת־אַזְכָּרָתָהּ", "transliteral": "ʾeṯ-ʾaz-kā-rā-ṯāh", "traducao_palavra": "a sua porção memorial" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E o que sobejar da oferta de manjares será de Arão e de seus filhos; coisa santíssima é, das ofertas queimadas de YHWH.",
+      "palavras": [
+        { "hebraico": "וְהַנּוֹתֶרֶת", "transliteral": "wə-han-nō-ṯe-reṯ", "traducao_palavra": "e o que sobejar" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Nenhuma oferta de manjares, que oferecerdes a YHWH, se fará com fermento; porque de nenhum fermento, nem de mel algum, queimareis oferta a YHWH.",
+      "palavras": [
+        { "hebraico": "כָּל־הַמִּנְחָה", "transliteral": "kāl-ham-min-ḥā", "traducao_palavra": "toda oferta de manjares" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תֵעָשֶׂה", "transliteral": "ṯê-ʿā-śeh", "traducao_palavra": "será feita" },
+        { "hebraico": "חָמֵץ", "transliteral": "ḥā-mêṣ", "traducao_palavra": "fermento" },
+        { "hebraico": "וְכָל־דְּבַשׁ", "transliteral": "wə-ḵāl-də-ḇaš", "traducao_palavra": "e qualquer mel" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Como oferta das primícias os oferecereis a YHWH; porém sobre o altar não subirão por aroma suave.",
+      "palavras": [
+        { "hebraico": "קָרְבַּן", "transliteral": "qā-rə-ban", "traducao_palavra": "oferta de" },
+        { "hebraico": "רֵאשִׁית", "transliteral": "rē-šîṯ", "traducao_palavra": "primícias" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E toda a oferta dos teus manjares salgarás com sal; e não deixarás faltar à tua oferta de manjares o sal da aliança do teu Deus; em todas as tuas ofertas oferecerás sal.",
+      "palavras": [
+        { "hebraico": "וְכָל־קָרְבַּן", "transliteral": "wə-ḵāl-qā-rə-ban", "traducao_palavra": "e toda oferta de" },
+        { "hebraico": "מִנְחָתְךָ", "transliteral": "min-ḥā-ṯə-ḵā", "traducao_palavra": "teus manjares" },
+        { "hebraico": "בַּמֶּלַח", "transliteral": "bam-me-laḥ", "traducao_palavra": "com o sal" },
+        { "hebraico": "תִּמְלָח", "transliteral": "tim-lāḥ", "traducao_palavra": "salgarás" },
+        { "hebraico": "מֶלַח", "transliteral": "me-laḥ", "traducao_palavra": "[o] sal de" },
+        { "hebraico": "בְּרִית", "transliteral": "bə-rîṯ", "traducao_palavra": "aliança de" },
+        { "hebraico": "אֱלֹהֶיךָ", "transliteral": "ʾĕ-lō-he-ḵā", "traducao_palavra": "teu Deus" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E, se ofereceres a YHWH oferta de manjares das primícias, oferecerás, para a oferta de manjares das tuas primícias, grãos verdes de cereais, tostados no fogo, isto é, o grão esmagado de espigas cheias.",
+      "palavras": [
+        { "hebraico": "וְאִם־תַּקְרִיב", "transliteral": "wə-ʾim-taq-rîḇ", "traducao_palavra": "e se ofereceres" },
+        { "hebraico": "מִנְחַת", "transliteral": "min-ḥaṯ", "traducao_palavra": "oferta de" },
+        { "hebraico": "בִּכּוּרִים", "transliteral": "bik-kû-rîm", "traducao_palavra": "primícias" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E sobre ela deitarás azeite, e porás sobre ela incenso; oferta de manjares é.",
+      "palavras": [
+        { "hebraico": "וְנָתַתָּ", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "עָלֶיהָ", "transliteral": "ʿā-le-hā", "traducao_palavra": "sobre ela" },
+        { "hebraico": "שֶׁמֶן", "transliteral": "še-men", "traducao_palavra": "azeite" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Assim o sacerdote queimará a sua porção memorial do seu grão esmagado e do seu azeite, com todo o seu incenso; oferta queimada é a YHWH.",
+      "palavras": [
+        { "hebraico": "וְהִקְטִיר", "transliteral": "wə-hiq-ṭîr", "traducao_palavra": "e queimará" },
+        { "hebraico": "הַכֹּהֵן", "transliteral": "hak-kō-hên", "traducao_palavra": "o sacerdote" },
+        { "hebraico": "אֶת־אַזְכָּרָתָהּ", "transliteral": "ʾeṯ-ʾaz-kā-rā-ṯāh", "traducao_palavra": "a sua porção memorial" }
+      ]
+    }
+  }
+}

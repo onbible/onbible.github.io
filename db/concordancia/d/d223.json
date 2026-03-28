@@ -1,0 +1,998 @@
+{
+    "d": [
+        {
+            "palavra": "DISSE-LHES",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 246,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 9.1",
+                    "texto": "a Noé e a seus filhos e D.: frutificai, e"
+                },
+                {
+                    "referencia": "Gênesis 29.4",
+                    "texto": "E D., Jacó: Meus irmãos, donde sois? E"
+                },
+                {
+                    "referencia": "En 29.6",
+                    "texto": "D. mais: Está ele bem? E disseram: Está bem,"
+                },
+                {
+                    "referencia": "Gênesis 37.6",
+                    "texto": "E D.: Ouvi, peço-vos, este sonho, que tenho sonhado"
+                },
+                {
+                    "referencia": "Gênesis 40.8",
+                    "texto": "há que o interprete. E José D.: Não são de"
+                },
+                {
+                    "referencia": "Gênesis 42.7",
+                    "texto": "e falou com eles asperamente, e D.: Donde"
+                },
+                {
+                    "referencia": "Gênesis 42.9",
+                    "texto": "que havia sonhado deles e D.: Vós sois"
+                },
+                {
+                    "referencia": "Gênesis 42.18",
+                    "texto": "E, ao terceiro dia, D. José: Fazei isso e"
+                },
+                {
+                    "referencia": "Gênesis 42.36",
+                    "texto": "Então, Jacó, seu pai, D.: Tendes-me"
+                },
+                {
+                    "referencia": "Gênesis 43.2",
+                    "texto": "que trouxeram do Egito, D. seu pai:"
+                },
+                {
+                    "referencia": "Gênesis 43.11",
+                    "texto": "Então; D. Israel, seu pai: Pois que assim é,"
+                },
+                {
+                    "referencia": "Gênesis 44.15",
+                    "texto": "E D. José: Que é isto que fizestes? Não"
+                },
+                {
+                    "referencia": "Gênesis 45.24",
+                    "texto": "seus irmãos, e partiram; e D.: Não"
+                },
+                {
+                    "referencia": "Gênesis 49.29",
+                    "texto": "Depois, ordenou-lhes e D.:; Fume congrego ao"
+                },
+                {
+                    "referencia": "Êxodo 1.18",
+                    "texto": "Egito chamou as parteiras e D.: Por que"
+                },
+                {
+                    "referencia": "Êxodo 5.4",
+                    "texto": "Então, D. o rei do Egito: Moisés e Arão, por"
+                },
+                {
+                    "referencia": "Êxodo 9.27",
+                    "texto": "chamar a Moisés e a Arão e D.: Esta vez"
+                },
+                {
+                    "referencia": "Êxodo 10.8",
+                    "texto": "outra vez a Faraó, e ele D.: Ide, servi"
+                },
+                {
+                    "referencia": "Êxodo 12.21",
+                    "texto": "todos os anciãos de Israel e D.: Escolhei, e"
+                },
+                {
+                    "referencia": "fx 16.15",
+                    "texto": "Porque não sabiam o que era. D., pois,"
+                },
+                {
+                    "referencia": "Êxodo 16.19",
+                    "texto": "E D. Moisés: Ninguém deixe dele para amanhã."
+                },
+                {
+                    "referencia": "Êxodo 16.23",
+                    "texto": "E ele D.: Isto é o que o Senhor tem dito:"
+                },
+                {
+                    "referencia": "Êxodo 19.25",
+                    "texto": "Então, Moisés desceu ao povo e D. isto."
+                },
+                {
+                    "referencia": "Êxodo 32.27",
+                    "texto": "E D.: Assim diz o Senhor, o Deus de Israel:"
+                },
+                {
+                    "referencia": "Êxodo 35.1",
+                    "texto": "dos filhos de Israel e D.: Estas são as"
+                },
+                {
+                    "referencia": "Levítico 10.4",
+                    "texto": "de Uziel, tio de Arão, e D.: Chegai,"
+                },
+                {
+                    "referencia": "Números 9.8",
+                    "texto": "E D. Moisés: Esperai, e ouvirei o que o"
+                },
+                {
+                    "referencia": "Números 13.17",
+                    "texto": "a espiar a terra de Canaã e D.: Subi por"
+                },
+                {
+                    "referencia": "Números 20.10",
+                    "texto": "diante da rocha, e Moisés D.: Ouvi agora,"
+                },
+                {
+                    "referencia": "Números 31.15",
+                    "texto": "E Moisés D.: Deixastes viver todas as mulheres?"
+                },
+                {
+                    "referencia": "Números 32.29",
+                    "texto": "e D, Moisés: Se os filhos de Gade e os filhos"
+                },
+                {
+                    "referencia": "Deuteronômio 5.1",
+                    "texto": "Moisés a todo o Israele D.: Ouve, ó"
+                },
+                {
+                    "referencia": "Deuteronômio 32.46",
+                    "texto": "D.: Aplicai o vosso coração a todas as"
+                },
+                {
+                    "referencia": "Josué 2.16",
+                    "texto": "E_D.: Ide-vos ao monte, para que, porventura,"
+                },
+                {
+                    "referencia": "Josué 4.5",
+                    "texto": "e D.: Passai diante da arca do Senhor, vosso"
+                },
+                {
+                    "referencia": "Josué 6.6",
+                    "texto": "filho de Num, os sacerdotes e D.: Levaia"
+                },
+                {
+                    "referencia": "Josué 9.8",
+                    "texto": "Nós somos teus servos. E D. Josué: Quem"
+                },
+                {
+                    "referencia": "Josué 17.15",
+                    "texto": "E D. Josué: Se tão grande povo és, sobe ao"
+                },
+                {
+                    "referencia": "Josué 22.2",
+                    "texto": "e D.: Tudo quanto Moisés, o servo do Senhor,"
+                },
+                {
+                    "referencia": "Josué 23.2",
+                    "texto": "juízes, e aos seus oficiais e D.: Eu já sou"
+                },
+                {
+                    "referencia": "Juízes 8.24",
+                    "texto": "E D. mais Gideão: Uma petição vos farei:"
+                },
+                {
+                    "referencia": "Juízes 9.7",
+                    "texto": "levantou a sua voz, e clamou, e D.: Ouvi-me"
+                },
+                {
+                    "referencia": "Juízes 14.12",
+                    "texto": "D., pois, Sansão: Fu vos darei um enigma a"
+                },
+                {
+                    "referencia": "Juízes 18.6",
+                    "texto": "E D. o sacerdote: Ide em paz; o caminho que"
+                },
+                {
+                    "referencia": "Juízes 18.18",
+                    "texto": "e a imagem de fundição, D. o"
+                },
+                {
+                    "referencia": "Juízes 19.23",
+                    "texto": "da casa, saiu a eles e D.: Não, irmãos"
+                },
+                {
+                    "referencia": "1 Samuel 2.23",
+                    "texto": "E D.: Por que fazeis tais coisas? Porque ouço"
+                },
+                {
+                    "referencia": "1 Samuel 17.8",
+                    "texto": "às companhias de Israel, e D.: Para que"
+                },
+                {
+                    "referencia": "2 Samuel 2.5",
+                    "texto": "homens de Jabes-Gileade e D,: Benditos"
+                },
+                {
+                    "referencia": "2 Samuel 4.9",
+                    "texto": "filhos de Rimom, o beerotita, D.: Vive o"
+                },
+                {
+                    "referencia": "IRs 13.12",
+                    "texto": "E D. seu pai: Por que caminho se foi? E viram"
+                },
+                {
+                    "referencia": "IRs 22.6",
+                    "texto": "quase quatrocentos homens e D.: Irei à peleja"
+                },
+                {
+                    "referencia": "2 Reis 1.2",
+                    "texto": "e enviou mensageiros e D.: Idee"
+                },
+                {
+                    "referencia": "2 Reis 2.17",
+                    "texto": "com ele, até se enfastiar;e D.: Enviai. E"
+                },
+                {
+                    "referencia": "2 Reis 2.18",
+                    "texto": "tendo ele ficado em Jericó; e D.: Eu não vos"
+                },
+                {
+                    "referencia": "2 Reis 10.24",
+                    "texto": "de fora oitenta homens e D.: Se escapar"
+                },
+                {
+                    "referencia": "2 Reis 11.15",
+                    "texto": "que comandavam as tropas e D.: Tirai-a para"
+                },
+                {
+                    "referencia": "1 Crônicas 15.12",
+                    "texto": "e D,: Vós sois os chefes dos pais entre os"
+                },
+                {
+                    "referencia": "2 Crônicas 10.9",
+                    "texto": "E D.: Que aconselhais vós que respondamos a"
+                },
+                {
+                    "referencia": "2 Crônicas 12.5",
+                    "texto": "por causa de Sisaque e D.: Assim diz o"
+                },
+                {
+                    "referencia": "2 Crônicas 18.5",
+                    "texto": "quatrocentos homens, e D.: Iremos à"
+                },
+                {
+                    "referencia": "2 Crônicas 23.14",
+                    "texto": "postos sobre o exército e D.: Tirai-a para"
+                },
+                {
+                    "referencia": "2 Crônicas 24.5",
+                    "texto": "os sacerdotes e os levitas e D.: Saí pelas"
+                },
+                {
+                    "referencia": "Esdras 8.28",
+                    "texto": "E D.: Consagrados sois do Senhor, e sagrados"
+                },
+                {
+                    "referencia": "Esdras 10.10",
+                    "texto": "Esdras, o sacerdote, e D.: Vós tendes"
+                },
+                {
+                    "referencia": "Neemias 5.7",
+                    "texto": "e com os magistrados e D.: Usura tomais"
+                },
+                {
+                    "referencia": "Neemias 5.8",
+                    "texto": "E D.: Nós resgatamos os judeus, nossos"
+                },
+                {
+                    "referencia": "Neemias 8.10",
+                    "texto": "D. mais: Ide, e comei as gorduras, e bebei as"
+                },
+                {
+                    "referencia": "Jeremias 35.5",
+                    "texto": "cheias de vinho e copos e D.: Bebei vinho."
+                },
+                {
+                    "referencia": "Jeremias 36.18",
+                    "texto": "E D. Baruque: Com a sua boca, ditava-me todas"
+                },
+                {
+                    "referencia": "Jeremias 42.4",
+                    "texto": "E D. Jeremias, o profeta: Eu vos ouvi; eis"
+                },
+                {
+                    "referencia": "Ezequiel 9.7",
+                    "texto": "E D.: Contaminai a casa, e enchei os átrios"
+                },
+                {
+                    "referencia": "Zacarias 11.12",
+                    "texto": "E eu D.: Se parece bem aos vossos olhos,"
+                },
+                {
+                    "referencia": "Mateus 8.26",
+                    "texto": "E ele D.: Por que temeis, homens de pequena"
+                },
+                {
+                    "referencia": "Mateus 9.12",
+                    "texto": "Jesus, porém, ouvindo, D.: Não necessitam de"
+                },
+                {
+                    "referencia": "Mateus 9.15",
+                    "texto": "E D. Jesus: Podem, porventura, andar tristes"
+                },
+                {
+                    "referencia": "Mateus 9.24",
+                    "texto": "D.: Retirai-vos, que a menina não está morta,"
+                },
+                {
+                    "referencia": "Mateus 9.28",
+                    "texto": "se aproximaram dele; e Jesus D.: Credes vós"
+                },
+                {
+                    "referencia": "Mateus 12.25",
+                    "texto": "os seus pensamentos, D,: Todo reino"
+                },
+                {
+                    "referencia": "Mateus 13.11",
+                    "texto": "Ele, respondendo, D.: Porque a vós é dado"
+                },
+                {
+                    "referencia": "Mateus 13.37",
+                    "texto": "E ele, respondendo, D.: O que semeia a boa ."
+                },
+                {
+                    "referencia": "Mateus 13.51",
+                    "texto": "E D. Jesus: Entendestes todas estas coisas?"
+                },
+                {
+                    "referencia": "Mateus 13.52",
+                    "texto": "E ele D.: Por isso, todo escriba instruído"
+                },
+                {
+                    "referencia": "Mateus 15.3",
+                    "texto": "Ele, porém, respondendo, D.: Por que"
+                },
+                {
+                    "referencia": "Mateus 15.10",
+                    "texto": "E, chamando a si a multidão, D.: Ouvi e entendei:"
+                },
+                {
+                    "referencia": "Mateus 15.34",
+                    "texto": "E Jesus D.: Quantos pães tendes? E eles"
+                },
+                {
+                    "referencia": "Mateus 16.2",
+                    "texto": "Mas ele, respondendo, D.: Quando é chegada a"
+                },
+                {
+                    "referencia": "Mateus 16.6",
+                    "texto": "E Jesus D.: Adverti e acautelai-vos do"
+                },
+                {
+                    "referencia": "Mateus 16.15",
+                    "texto": "D. ele: E vós, quem dizeis que eu sou?"
+                },
+                {
+                    "referencia": "Mateus 17.11",
+                    "texto": "E Jesus, respondendo, D.: Em verdade Elias"
+                },
+                {
+                    "referencia": "Mateus 17.22",
+                    "texto": "achando-se eles na Galileia, D. Jesus: O"
+                },
+                {
+                    "referencia": "Mateus 19.4",
+                    "texto": "Ele, porém, respondendo, D.: Não tendes lido"
+                },
+                {
+                    "referencia": "Mateus 19.8",
+                    "texto": "D. ele: Moisés, por causa da dureza do vosso"
+                },
+                {
+                    "referencia": "Mateus 19.26",
+                    "texto": "E Jesus, olhando para eles, D,: Aos homens é"
+                },
+                {
+                    "referencia": "Mateus 19.28",
+                    "texto": "E Jesus D.: Em verdade vos digo que vós, que"
+                },
+                {
+                    "referencia": "Mateus 20.17",
+                    "texto": "os seus doze discípulos e, no caminho, D.:"
+                },
+                {
+                    "referencia": "Mateus 21.13",
+                    "texto": "E D.: Está escrito: A minha casa será chamada"
+                },
+                {
+                    "referencia": "Mateus 21.21",
+                    "texto": "Jesus, porém, respondendo, D.: Em verdade vos"
+                },
+                {
+                    "referencia": "Mateus 21.24",
+                    "texto": "E Jesus, respondendo, D.: Eu também vos"
+                },
+                {
+                    "referencia": "Mateus 21.27",
+                    "texto": "disseram: Não sabemos. Ele D.: Nem eu vos"
+                },
+                {
+                    "referencia": "Mateus 21.31",
+                    "texto": "eles: O primeiro. D., Jesus: Em"
+                },
+                {
+                    "referencia": "Mateus 22.20",
+                    "texto": "E ele D.: De quem é esta sine e esta inscrição?"
+                },
+                {
+                    "referencia": "Mateus 22.29",
+                    "texto": "Jesus, porém, respondendo, D.: Errais, não"
+                },
+                {
+                    "referencia": "Mateus 2243",
+                    "texto": "D. ele: Como é, então, que Davi, em espírito,"
+                },
+                {
+                    "referencia": "Mateus 24.4",
+                    "texto": "E Jesus, respondendo, D.: Acautelai-vos, que"
+                },
+                {
+                    "referencia": "Mateus 26.10",
+                    "texto": "porém, conhecendo isso, D.: Por que"
+                },
+                {
+                    "referencia": "Mateus 26.45",
+                    "texto": "junto dos seus discípulos e D.: Dormi, agora,"
+                },
+                {
+                    "referencia": "Mateus 26.64",
+                    "texto": "D. Jesus: Tu o disseste; digo-vos, porém, que"
+                },
+                {
+                    "referencia": "Mateus 27.17",
+                    "texto": "estando eles reunidos, D. Pilatos: Qual"
+                },
+                {
+                    "referencia": "Mateus 27.21",
+                    "texto": "E, respondendo o governador, D.: Qual desses"
+                },
+                {
+                    "referencia": "Mateus 27.22",
+                    "texto": "D. Pilatos: Que farei, então, de Jesus,"
+                },
+                {
+                    "referencia": "Mateus 27.65",
+                    "texto": "E D, Pilatos: Tendes a guarda; ide, guardai-o"
+                },
+                {
+                    "referencia": "Mateus 28.10",
+                    "texto": "Então, Jesus D.: Não temais; ide dizer a meus"
+                },
+                {
+                    "referencia": "Marcos 2.17",
+                    "texto": "E Jesus, tendo ouvido isso, D.: Os sãos não"
+                },
+                {
+                    "referencia": "Marcos 2.19",
+                    "texto": "E Jesus D.: Podem, porventura, os filhos das"
+                },
+                {
+                    "referencia": "Marcos 2.25",
+                    "texto": "Mas ele D.: Nunca lestes o que fez Davi,"
+                },
+                {
+                    "referencia": "Marcos 2.27",
+                    "texto": "E D.: O sábado foi feito por causa do homem,"
+                },
+                {
+                    "referencia": "Marcos 3.23",
+                    "texto": "E, chamando-os a si, D. por parábolas: Como"
+                },
+                {
+                    "referencia": "Marcos 4.11",
+                    "texto": "E ele 1): A vós vos é dado saber os mistérios"
+                },
+                {
+                    "referencia": "Marcos 4.13",
+                    "texto": "E D.: Não percebeis esta parábola? Como,"
+                },
+                {
+                    "referencia": "Marcos 4.21",
+                    "texto": "E D.: Vem, porventura, a candeia para ser"
+                },
+                {
+                    "referencia": "Marcos 4.24",
+                    "texto": "E D.: Atendei ao que ides ouvir. Com a medida"
+                },
+                {
+                    "referencia": "Mic 4.35",
+                    "texto": "naquele dia, sendo já tarde, D.: Passemos"
+                },
+                {
+                    "referencia": "Marcos 4.40",
+                    "texto": "E D. Por que sois tão tímidos? Ainda não"
+                },
+                {
+                    "referencia": "Marcos 5.39",
+                    "texto": "E, entrando, D.: Por que vos alvoroçais e"
+                },
+                {
+                    "referencia": "Marcos 6.31",
+                    "texto": "E ele D.: Vinde vós, aqui à parte, a um lugar"
+                },
+                {
+                    "referencia": "Marcos 6.38",
+                    "texto": "E ele D.: Quantos pães tendes? Ide ver. E,"
+                },
+                {
+                    "referencia": "Marcos 6.50",
+                    "texto": "mas logo falou com eles e D.: Tende bom"
+                },
+                {
+                    "referencia": "Marcos 7.6",
+                    "texto": "E ele, respondendo, D.: Bem profetizou Isaías"
+                },
+                {
+                    "referencia": "Marcos 7.14",
+                    "texto": "outra vez a multidão, D.: Ouvi-me, vós"
+                },
+                {
+                    "referencia": "Marcos 7.18",
+                    "texto": "E ele D.: Assim também vós estais sem"
+                },
+                {
+                    "referencia": "Marcos 8.1",
+                    "texto": "Jesus chamou a si os seus discípulos e D.:"
+                },
+                {
+                    "referencia": "Marcos 8.17",
+                    "texto": "E Jesus, conhecendo isso, D.: Para que"
+                },
+                {
+                    "referencia": "Marcos 8.34",
+                    "texto": "com os seus discípulos, D.: Se alguém"
+                },
+                {
+                    "referencia": "Marcos 9.12",
+                    "texto": "E, respondendo ele, D.: Em verdade Elias virá"
+                },
+                {
+                    "referencia": "Marcos 9.29",
+                    "texto": "E D.: Esta casta não pode sair com coisa"
+                },
+                {
+                    "referencia": "Marcos 9.35",
+                    "texto": "chamou os doze e D.: Se alguém"
+                },
+                {
+                    "referencia": "Marcos 9.36",
+                    "texto": "no meio deles e, tomando-a nos seus braços, D.:"
+                },
+                {
+                    "referencia": "Marcos 10.3",
+                    "texto": "Mas ele, respondendo, D.: Que vos mandou Moisés?"
+                },
+                {
+                    "referencia": "Marcos 10.5",
+                    "texto": "E Jesus, respondendo, D.: Pela dureza do"
+                },
+                {
+                    "referencia": "Marcos 10.24",
+                    "texto": "mas Jesus, tornando a falar, D.: Filhos,"
+                },
+                {
+                    "referencia": "Mic 10.39",
+                    "texto": "Podemos. Jesus, porém, D.: Em verdade"
+                },
+                {
+                    "referencia": "Mic 10.42",
+                    "texto": "Mas Jesus, chamando-os a si, D.: Sabeis que"
+                },
+                {
+                    "referencia": "Marcos 11.22",
+                    "texto": "E Jesus, respondendo, D.: Tende fé em Deus,"
+                },
+                {
+                    "referencia": "Marcos 11.29",
+                    "texto": "Mas Jesus, respondendo, D.: Também eu vos"
+                },
+                {
+                    "referencia": "Marcos 12.15",
+                    "texto": "conhecendo a sua hipocrisia, D.: Por que me"
+                },
+                {
+                    "referencia": "Marcos 12.16",
+                    "texto": "E eles lha trouxeram. E D.: De quem é esta"
+                },
+                {
+                    "referencia": "Marcos 12.17",
+                    "texto": "E Jesus, respondendo, D.: Dai, pois, a César"
+                },
+                {
+                    "referencia": "Marcos 12.43",
+                    "texto": "chamando os seus discípulos, D.: Em verdade"
+                },
+                {
+                    "referencia": "Marcos 14.13",
+                    "texto": "dois dos seus discípulos e D.: Ide à cidade,"
+                },
+                {
+                    "referencia": "Marcos 14.20",
+                    "texto": "Mas ele, respondendo, D.: É um dos doze, que"
+                },
+                {
+                    "referencia": "Marcos 14.24",
+                    "texto": "E D.: Isto é o meu sangue, o sangue do Novo"
+                },
+                {
+                    "referencia": "Marcos 14.27",
+                    "texto": "E D, Jesus: Todos vós esta noite vos"
+                },
+                {
+                    "referencia": "Marcos 14.34",
+                    "texto": "E D.: A minha alma está profundamente triste"
+                },
+                {
+                    "referencia": "Marcos 14.41",
+                    "texto": "E voltou terceira vez e D.: Dormi agora e"
+                },
+                {
+                    "referencia": "Marcos 14.48",
+                    "texto": "E, respondendo Jesus, D.: Saístes com espadas"
+                },
+                {
+                    "referencia": "Marcos 16.6",
+                    "texto": "Porém ele D.: Não vos assusteis; buscais a"
+                },
+                {
+                    "referencia": "Marcos 16.15",
+                    "texto": "E D.: Ide por todo o mundo, pregai o"
+                },
+                {
+                    "referencia": "Lucas 3.11",
+                    "texto": "E, respondendo ele, D.: Quem tiver duas"
+                },
+                {
+                    "referencia": "Lucas 5.22",
+                    "texto": "seus pensamentos, respondeu e D.: Que"
+                },
+                {
+                    "referencia": "Lucas 5.31",
+                    "texto": "E Jesus, respondendo, D.: Não necessitam de"
+                },
+                {
+                    "referencia": "Lucas 5.36",
+                    "texto": "E D, também uma parábola: Ninguém tira um"
+                },
+                {
+                    "referencia": "Lucas 6.39",
+                    "texto": "E D. uma parábola: Pode, porventura, um cego"
+                },
+                {
+                    "referencia": "Lucas 7.22",
+                    "texto": "Respondendo, então, Jesus, D.: Ide e anunciai"
+                },
+                {
+                    "referencia": "Lucas 8.21",
+                    "texto": "Mas, respondendo ele, D.: Minha mãe e meus"
+                },
+                {
+                    "referencia": "Lucas 8.22",
+                    "texto": "barco com seus discípulos e D.: Passemos"
+                },
+                {
+                    "referencia": "Lucas 8.25",
+                    "texto": "E D.: Onde está a vossa fé? E eles, temendo,"
+                },
+                {
+                    "referencia": "Lucas 9.48",
+                    "texto": "e D.: Qualquer que receber esta criança em"
+                },
+                {
+                    "referencia": "Lucas 10.18",
+                    "texto": "E D.: Eu via Satanás, como raio, cair do céu."
+                },
+                {
+                    "referencia": "Lucas 10.23",
+                    "texto": "para os discípulos, D. em"
+                },
+                {
+                    "referencia": "Lucas 11.5",
+                    "texto": "À), também: Qual de vós terá um amigo e, se"
+                },
+                {
+                    "referencia": "Lucas 11.17",
+                    "texto": "ele os seus pensamentos, D.: Todo reino"
+                },
+                {
+                    "referencia": "Le 13.2",
+                    "texto": "E, respondendo Jesus, D.: Cuidais vós que"
+                },
+                {
+                    "referencia": "Lucas 16.15",
+                    "texto": "E D.: Vós sois os que vos justificais a vós"
+                },
+                {
+                    "referencia": "Lucas 17.14",
+                    "texto": "E ele, vendo-os, D.: Ide e mostrai-vos aos"
+                },
+                {
+                    "referencia": "Lucas 18.31",
+                    "texto": "E, tomando consigo os doze, D.: Eis que"
+                },
+                {
+                    "referencia": "Lucas 19.13",
+                    "texto": "seus, deu-lhes dez minas e D.: Negociai até"
+                },
+                {
+                    "referencia": "Lucas 19.40",
+                    "texto": "E, respondendo ele, D.: Digo-vos que, se"
+                },
+                {
+                    "referencia": "Lucas 20.3",
+                    "texto": "E, respondendo ele, D.: Também eu vos farei"
+                },
+                {
+                    "referencia": "Lucas 20.23",
+                    "texto": "ele a sua astúcia, D.: Por que me tentais?"
+                },
+                {
+                    "referencia": "Lucas 20.25",
+                    "texto": "D., então: Dai, pois, a César o que é de"
+                },
+                {
+                    "referencia": "Lucas 20.34",
+                    "texto": "E, respondendo Jesus, D.: Os filhos deste"
+                },
+                {
+                    "referencia": "Lucas 21.29",
+                    "texto": "E D. uma parábola: Olhai para a figueira e"
+                },
+                {
+                    "referencia": "Lucas 22.35",
+                    "texto": "E D.: Quando vos mandei sem bolsa, alforje ou"
+                },
+                {
+                    "referencia": "Lucas 22.36",
+                    "texto": "D., pois: Mas, agora, aquele que tiver bolsa,"
+                },
+                {
+                    "referencia": "Lucas 22.40",
+                    "texto": "quando chegou àquele lugar, D.: Orai, para"
+                },
+                {
+                    "referencia": "Le 22.46",
+                    "texto": "E D.: Por que estais dormindo? Levantai-vos,"
+                },
+                {
+                    "referencia": "Lucas 23.13",
+                    "texto": "dos sacerdotes, e os magistrados, e o povo, D.:"
+                },
+                {
+                    "referencia": "Lucas 24.36",
+                    "texto": "apresentou no meio deles e D.: Paz seja convosco."
+                },
+                {
+                    "referencia": "Jó 1.38",
+                    "texto": "e vendo que eles o seguiam, D.: Que buscais?"
+                },
+                {
+                    "referencia": "Jó 2.7",
+                    "texto": "D. Jesus: Enchei de água essas talhas. E"
+                },
+                {
+                    "referencia": "Jó 2.19",
+                    "texto": "Jesus respondeu e D.: Derribai este templo, e"
+                },
+                {
+                    "referencia": "Jó 4.34",
+                    "texto": "Jesus D.: A minha comida é fazer a vontade"
+                },
+                {
+                    "referencia": "Jó 5.19",
+                    "texto": "Mas Jesus respondeu e D.: Na verdade, na"
+                },
+                {
+                    "referencia": "Jó 6.26",
+                    "texto": "Jesus respondeu e D.: Na verdade, na verdade"
+                },
+                {
+                    "referencia": "Jó 6.29",
+                    "texto": "Jesus respondeu e D.: A obra de Deus é esta:"
+                },
+                {
+                    "referencia": "Jó 6.32",
+                    "texto": "D., pois, Jesus: Na verdade, na verdade vos"
+                },
+                {
+                    "referencia": "Jó 6.43",
+                    "texto": "Respondeu, pois, Jesus e D.: Não murmureis"
+                },
+                {
+                    "referencia": "Jó 6.61",
+                    "texto": "murmuravam a respeito disso, D.: Isto vos escanda-"
+                },
+                {
+                    "referencia": "Jó 7.6",
+                    "texto": "D., pois, Jesus: Ainda não é chegado o meu"
+                },
+                {
+                    "referencia": "Jó 7.16",
+                    "texto": "Jesus respondeu e D.: A minha doutrina não é"
+                },
+                {
+                    "referencia": "Jó 7.21",
+                    "texto": "Respondeu Jesus e D.: Fiz uma obra, e todos"
+                },
+                {
+                    "referencia": "Jó 7.33",
+                    "texto": "D., pois, Jesus: Ainda um pouco de tempo"
+                },
+                {
+                    "referencia": "Jó 7.50",
+                    "texto": "deles (o que de noite fora ter com Jesus), D.:"
+                },
+                {
+                    "referencia": "Jó 8.7",
+                    "texto": "endireitou-se e D.: Aquele que"
+                },
+                {
+                    "referencia": "Jó 8.14",
+                    "texto": "Respondeu Jesus e D.: Ainda que eu testifico"
+                },
+                {
+                    "referencia": "Jó 8.21",
+                    "texto": "D., pois, Jesus outra vez: Eu retiro-me, e"
+                },
+                {
+                    "referencia": "Jó 8.28",
+                    "texto": "D., pois, Jesus: Quando levantardes o Filho"
+                },
+                {
+                    "referencia": "Jó 8.39",
+                    "texto": "Nosso pai é Abraão. Jesus D.: Se fósseis"
+                },
+                {
+                    "referencia": "Jó 8.42",
+                    "texto": "D., pois, Jesus: Se Deus fosse o vosso Pai,"
+                },
+                {
+                    "referencia": "Jó 8.58",
+                    "texto": "D. Jesus: Em verdade, em verdade vos digo"
+                },
+                {
+                    "referencia": "Jó 9.11",
+                    "texto": "Ele respondeu e D.: O homem chamado Jesus fez"
+                },
+                {
+                    "referencia": "Jó 9.30",
+                    "texto": "O homem respondeu e D.: Nisto, pois, está a"
+                },
+                {
+                    "referencia": "Jó 9.41",
+                    "texto": "D. Jesus: Se fósseis cegos, não teríeis"
+                },
+                {
+                    "referencia": "Jó 10.6",
+                    "texto": "Jesus D. esta parábola, mas eles não"
+                },
+                {
+                    "referencia": "Jó 11.11",
+                    "texto": "Assim falou e, depois, D.: Lázaro, o nosso"
+                },
+                {
+                    "referencia": "Jó 11.14",
+                    "texto": "Então, Jesus D. claramente: Lázaro está morto,"
+                },
+                {
+                    "referencia": "Jó 11.44",
+                    "texto": "seu rosto, envolto num lenço. D. Jesus:"
+                },
+                {
+                    "referencia": "Jó 12.35",
+                    "texto": "D., pois, Jesus: A luz ainda está convosco"
+                },
+                {
+                    "referencia": "Jó 13.12",
+                    "texto": "se assentou outra vez à mesa, D,: Entendeis o"
+                },
+                {
+                    "referencia": "Jó 16.19",
+                    "texto": "que o queriam interrogar e D.: indagais"
+                },
+                {
+                    "referencia": "Jó 18.4",
+                    "texto": "haviam de vir, adiantou-se e D.: A quem buscais?"
+                },
+                {
+                    "referencia": "Jó 18.5",
+                    "texto": "A Jesus, o Nazareno. D., Jesus: Sou"
+                },
+                {
+                    "referencia": "Jó 18.29",
+                    "texto": "Então, Pilatos saiue D.: Que acusação"
+                },
+                {
+                    "referencia": "Jó 18.31",
+                    "texto": "D., pois, Pilatos: Levai-o vós e julgai-o"
+                },
+                {
+                    "referencia": "Jó 18.38",
+                    "texto": "isso, voltou até os judeus e D.: Não acho"
+                },
+                {
+                    "referencia": "Jó 19.4",
+                    "texto": "saiu outra vez fora e D.: Eis aqui"
+                },
+                {
+                    "referencia": "Jó 19.5",
+                    "texto": "ea veste de púrpura. E D, Pilatos:"
+                },
+                {
+                    "referencia": "Jó 19.6",
+                    "texto": "Crucifica-o! Crucifica-o! D. Pilatos:"
+                },
+                {
+                    "referencia": "Jó 19.15",
+                    "texto": "Tira! Tira! Crucifica-o! D, Pilatos:"
+                },
+                {
+                    "referencia": "Jó 20.2",
+                    "texto": "a quem Jesus amava e D.: Levaram o"
+                },
+                {
+                    "referencia": "Jó 20.19",
+                    "texto": "chegou Jesus, e pôs-se no meio, e D.: Paz"
+                },
+                {
+                    "referencia": "Jó 20.21",
+                    "texto": "D., pois, Jesus outra vez: Paz seja convosco!"
+                },
+                {
+                    "referencia": "Jó 20.22",
+                    "texto": "isso, assoprou sobre eles e D.: Recebei o"
+                },
+                {
+                    "referencia": "Jó 20.25",
+                    "texto": "Vimos o Senhor. Mas ele D.: Se eu não"
+                },
+                {
+                    "referencia": "Jó 21.5",
+                    "texto": "D., pois, Jesus: Filhos, tendes alguma coisa"
+                },
+                {
+                    "referencia": "Jó 21.10",
+                    "texto": "D. Jesus: Trazei dos peixes que agora apanhastes."
+                },
+                {
+                    "referencia": "Jó 21.12",
+                    "texto": "D. Jesus: Vinde, jantai. E nenhum dos"
+                },
+                {
+                    "referencia": "Atos 1.7",
+                    "texto": "E D.: Não vos pertence saber os tempos ou as"
+                },
+                {
+                    "referencia": "Atos 2.14",
+                    "texto": "com os onze, levantou a voze D.: Varões"
+                },
+                {
+                    "referencia": "Atos 2.38",
+                    "texto": "E D, Pedro: Arrependei-vos, e cada um de vós"
+                },
+                {
+                    "referencia": "Atos 10.28",
+                    "texto": "E D.: Vós bem sabeis que não é lícito a um"
+                },
+                {
+                    "referencia": "Atos 15.7",
+                    "texto": "levantou-se Pedro e D.: Varões"
+                },
+                {
+                    "referencia": "Atos 18.6",
+                    "texto": "eles, sacudiu as vestes e D.: O vosso"
+                },
+                {
+                    "referencia": "Atos 19.2",
+                    "texto": "D.: Recebestes vós já o Espírito Santo quando"
+                },
+                {
+                    "referencia": "Atos 20.18",
+                    "texto": "que chegaram junto dele, D.: Vós bem"
+                }
+            ]
+        }
+    ]
+}

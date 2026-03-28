@@ -1,0 +1,456 @@
+{
+    "f": [
+        {
+            "palavra": "FAMILIA",
+            "veja tambem": [],
+            "ocorrencias": 111,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 24.38",
+                    "texto": "à casa de meu pai e à minha É e tomarás mulher"
+                },
+                {
+                    "referencia": "Gênesis 24.40",
+                    "texto": "mulher para meu filho da minha É e da casa de"
+                },
+                {
+                    "referencia": "Gênesis 24.41",
+                    "texto": "quando fores à minha É; e, se não ta"
+                },
+                {
+                    "referencia": "Gênesis 35.2",
+                    "texto": "Então, disse Jacó à sua É e a todos os que com"
+                },
+                {
+                    "referencia": "Êxodo 12.4",
+                    "texto": "Mas, se a E for pequena para um cordeiro,"
+                },
+                {
+                    "referencia": "Levítico 20.5",
+                    "texto": "aquele homem e contra a sua É e o extirparei do"
+                },
+                {
+                    "referencia": "Levítico 25.10",
+                    "texto": "um à sua possessão, e tornareis, cada um à sua E."
+                },
+                {
+                    "referencia": "Levítico 25.41",
+                    "texto": "com ele, e tornará à sua F e à possessão"
+                },
+                {
+                    "referencia": "Levítico 25.49",
+                    "texto": "um dos seus parentes, da sua E, o resgatará;"
+                },
+                {
+                    "referencia": "Números 26.5",
+                    "texto": "foram Enoque, do qual era a E dos enoquitas;"
+                },
+                {
+                    "referencia": "Números 26.5",
+                    "texto": "É dos enoquitas; de Palu, a F dos paluítas;"
+                },
+                {
+                    "referencia": "Números 26.6",
+                    "texto": "de Hezrom, a E dos hezronitas; de Carmi, a"
+                },
+                {
+                    "referencia": "Números 26.6",
+                    "texto": "dos hezronitas; de Carmi, a E dos carmitas."
+                },
+                {
+                    "referencia": "Números 26.12",
+                    "texto": "suas famílias: de Nemuel, a E dos nemuelitas;"
+                },
+                {
+                    "referencia": "Números 26.12",
+                    "texto": "dos jaminitas; de Jaquim, a E dos jaquinitas;"
+                },
+                {
+                    "referencia": "Números 26.13",
+                    "texto": "de Zerá, a E dos zeraítas; de Saul, a E"
+                },
+                {
+                    "referencia": "Números 26.13",
+                    "texto": "E dos zeraítas; de Saul, a E dos saulitas."
+                },
+                {
+                    "referencia": "m 26.17",
+                    "texto": "de Arodi, a E dos aroditas; de Areli, a E"
+                },
+                {
+                    "referencia": "Números 26.17",
+                    "texto": "E dos aroditas; de Areli, a E dos arelitas."
+                },
+                {
+                    "referencia": "Números 26.20",
+                    "texto": "as suas famílias: de Selá, a E dos selaítas;"
+                },
+                {
+                    "referencia": "Números 26.20",
+                    "texto": "É dos perezitas; de Zerá, a F dos zeraítas."
+                },
+                {
+                    "referencia": "Números 26.21",
+                    "texto": "de Perez foram: de Hezrom, a É dos hezronitas;"
+                },
+                {
+                    "referencia": "Números 26.21",
+                    "texto": "dos hezronitas; de Hamul, a É dos hamulitas."
+                },
+                {
+                    "referencia": "Números 26.23",
+                    "texto": "famílias, foram: de Tola, a E dos tolaítas;"
+                },
+                {
+                    "referencia": "Números 26.23",
+                    "texto": "a E dos tolaítas; de Puva, a E dos puvitas;"
+                },
+                {
+                    "referencia": "Números 26.24",
+                    "texto": "de Jasube, a E dos jasubitas; de Sinrom, a"
+                },
+                {
+                    "referencia": "Números 26.24",
+                    "texto": "dos jasubitas; de Sinrom, a E dos sinronitas."
+                },
+                {
+                    "referencia": "Nim 26.26",
+                    "texto": "familias, foram: de Serede, a E dos sereditas;"
+                },
+                {
+                    "referencia": "Números 26.26",
+                    "texto": "E dos elonitas; de Jaleel, a F dos jaleelitas."
+                },
+                {
+                    "referencia": "Números 26.29",
+                    "texto": "Manassés foram: de Maquir, a É dos maquiritas;"
+                },
+                {
+                    "referencia": "Números 26.29",
+                    "texto": "gerou a Gileade; de Gileade, a F dos gileaditas."
+                },
+                {
+                    "referencia": "Números 26.30",
+                    "texto": "de Gileade: de Jezer, a F dos jezeritas;"
+                },
+                {
+                    "referencia": "Números 26.30",
+                    "texto": "dos jezeritas; de Heleque, a E dos helequitas;"
+                },
+                {
+                    "referencia": "Números 26.31",
+                    "texto": "e de Asriel, a E dos asrielitas; e de Siquém, a"
+                },
+                {
+                    "referencia": "Números 26.31",
+                    "texto": "dos asrielitas; e de Siquém, a E dos siquemitas;"
+                },
+                {
+                    "referencia": "Números 26.32",
+                    "texto": "e de Semida, a E dos semidaítas; e de Héfer, a"
+                },
+                {
+                    "referencia": "Números 26.32",
+                    "texto": "dos semidaítas; e de Héfer, a E dos heferitas."
+                },
+                {
+                    "referencia": "Números 26.35",
+                    "texto": "suas famílias: de Sutela, a E dos sutelaítas;"
+                },
+                {
+                    "referencia": "Números 26.35",
+                    "texto": "É dos bequeritas; de Taã, a E dos taanitas."
+                },
+                {
+                    "referencia": "Números 26.36",
+                    "texto": "os filhos de Sutela: de Erã, a E dos eranitas."
+                },
+                {
+                    "referencia": "Números 26.38",
+                    "texto": "as suas famílias: de Belá, a E dos belaítas;"
+                },
+                {
+                    "referencia": "Números 26.38",
+                    "texto": "dos asbelitas; de Airão, a E dos airamitas;"
+                },
+                {
+                    "referencia": "Números 26.39",
+                    "texto": "de Sufã, a E dos sufamitas; de Hufã, a E"
+                },
+                {
+                    "referencia": "Números 26.39",
+                    "texto": "dos sufamitas; de Hufã, a É dos hufamitas."
+                },
+                {
+                    "referencia": "Números 26.40",
+                    "texto": "Arde e Naamã: de Arde, a È dos arditas; de"
+                },
+                {
+                    "referencia": "Números 26.40",
+                    "texto": "dos arditas; de Naamã, a E dos naamanitas."
+                },
+                {
+                    "referencia": "Números 26.44",
+                    "texto": "famílias, foram: de Imna, a É dos imnaítas;"
+                },
+                {
+                    "referencia": "Números 26.45",
+                    "texto": "de Berias foram: de Héber, a E dos heberitas;"
+                },
+                {
+                    "referencia": "Números 26.45",
+                    "texto": "dos heberitas; de Malquiel, a Æ dos malquielitas."
+                },
+                {
+                    "referencia": "Números 26.48",
+                    "texto": "suas famílias: de Jazeel, a E dos jazeelitas;"
+                },
+                {
+                    "referencia": "Números 26.48",
+                    "texto": "E dos jazeelitas; de Guni, a E dos gunitas;"
+                },
+                {
+                    "referencia": "Números 26.49",
+                    "texto": "de Jezer, a E dos jezeritas; de Silém, a"
+                },
+                {
+                    "referencia": "Números 26.49",
+                    "texto": "dos jezeritas; de Silém, a E dos silemitas."
+                },
+                {
+                    "referencia": "Números 26.57",
+                    "texto": "suas famílias: de Gérson, a E dos gersonitas;"
+                },
+                {
+                    "referencia": "Números 26.57",
+                    "texto": "dos coatitas; de Merari, a É dos meraritas."
+                },
+                {
+                    "referencia": "Números 26.58",
+                    "texto": "são as famílias de Levi: a E dos libnitas, a"
+                },
+                {
+                    "referencia": "Números 26.58",
+                    "texto": "a E dos hebronitas, a É dos malitas, a"
+                },
+                {
+                    "referencia": "Números 26.58",
+                    "texto": "a E dos malitas, a E dos musitas, a"
+                },
+                {
+                    "referencia": "Números 26.58",
+                    "texto": "a E dos musitas, a E dos coraítas;"
+                },
+                {
+                    "referencia": "Números 27.4",
+                    "texto": "nosso pai do meio da sua E, porquanto não"
+                },
+                {
+                    "referencia": "Números 27.11",
+                    "texto": "lhe for o mais chegado da sua É, para que a"
+                },
+                {
+                    "referencia": "Números 36.6",
+                    "texto": "contanto que se casem na E da tribo de seu pai."
+                },
+                {
+                    "referencia": "Números 36.12",
+                    "texto": "a sua herança ficou na tribo da E de seu pai."
+                },
+                {
+                    "referencia": "Deuteronômio 29.18",
+                    "texto": "haja homem, nem mulher, nem E, nem tribo cujo"
+                },
+                {
+                    "referencia": "Josué 2.18",
+                    "texto": "mãe, e a teus irmãos, e a toda a É de teu pai."
+                },
+                {
+                    "referencia": "Josué 6.25",
+                    "texto": "vida à prostituta Raabe, e à E de seu pai, e a"
+                },
+                {
+                    "referencia": "Josué 7.14",
+                    "texto": "segundo as famílias; e a É que o Senhor"
+                },
+                {
+                    "referencia": "Josué 7.17",
+                    "texto": "a tribo de Judá, tomou a É de Zerá; e,"
+                },
+                {
+                    "referencia": "Josué 7.17",
+                    "texto": "de Zerá; e, fazendo chegar a E de Zerá, homem"
+                },
+                {
+                    "referencia": "Juízes 1.25",
+                    "texto": "porém àquele homem e a toda a sua É deixaram ir."
+                },
+                {
+                    "referencia": "Juízes 6.15",
+                    "texto": "a Israel? Eis que a minha É é a mais pobre"
+                },
+                {
+                    "referencia": "1 Samuel 9.21",
+                    "texto": "das tribos de Israel? E a minha É, a menor de"
+                },
+                {
+                    "referencia": "1 Samuel 10.21",
+                    "texto": "suas famílias, tomou-se a E de Matri; e dela"
+                },
+                {
+                    "referencia": "1 Samuel 18.18",
+                    "texto": "e qual é a minha vida ea E de meu pai em"
+                },
+                {
+                    "referencia": "2 Samuel 2.3",
+                    "texto": "com ele, cada um com a sua E; e habitaram nas"
+                },
+                {
+                    "referencia": "2 Reis 8.1",
+                    "texto": "evai-te tueatua E, e peregrina"
+                },
+                {
+                    "referencia": "2 Reis 8.2",
+                    "texto": "porque foi ela com a sua E e peregrinou na"
+                },
+                {
+                    "referencia": "1 Crônicas 4.27",
+                    "texto": "muitos filhos; e toda a sua E não se"
+                },
+                {
+                    "referencia": "1 Crônicas 6.54",
+                    "texto": "a saber: dos filhos de Arão, da E dos coatitas,"
+                },
+                {
+                    "referencia": "1 Crônicas 6.61",
+                    "texto": "de Coate, que restaram da E da tribo, da meia"
+                },
+                {
+                    "referencia": "1 Crônicas 6.70",
+                    "texto": "tiveram os que ficaram da E dos filhos de Coate."
+                },
+                {
+                    "referencia": "1 Crônicas 6.71",
+                    "texto": "Os filhos de Gérson, da E da meia tribo de"
+                },
+                {
+                    "referencia": "1 Crônicas 12.28",
+                    "texto": "jovem, varão valente, da E de seu pai,"
+                },
+                {
+                    "referencia": "1 Crônicas 13.14",
+                    "texto": "ficou a arca de Deus com a E de Óbede-Edom,"
+                },
+                {
+                    "referencia": "1 Crônicas 23.11",
+                    "texto": "foram contados em casa de seus pais por uma só E."
+                },
+                {
+                    "referencia": "Ester 9.28",
+                    "texto": "geração após geração, É, província e"
+                },
+                {
+                    "referencia": "Jó 32.2",
+                    "texto": "F Baraquel, o buzita, da Æ de Rão; contra"
+                },
+                {
+                    "referencia": "S168.6",
+                    "texto": "que o solitário viva em E; liberta aqueles"
+                },
+                {
+                    "referencia": "Zacarias 14.18",
+                    "texto": "E, se a E dos egípcios não subir, nem vier,"
+                },
+                {
+                    "referencia": "Mateus 10.25",
+                    "texto": "chamaram Belzebu ao pai de E, quanto mais aos"
+                },
+                {
+                    "referencia": "Mateus 13.27",
+                    "texto": "E os servos do pai de E indo ter com ele,"
+                },
+                {
+                    "referencia": "Mateus 13.52",
+                    "texto": "é semelhante a um pai de E que tira do seu"
+                },
+                {
+                    "referencia": "Mateus 20.1",
+                    "texto": "a um homem, pai de E, que saiu de"
+                },
+                {
+                    "referencia": "Mateus 20.11",
+                    "texto": "E, recebendo-o, murmuravam contra o pai de E,"
+                },
+                {
+                    "referencia": "Mateus 21.33",
+                    "texto": "Houve um homem, pai de E, que plantou"
+                },
+                {
+                    "referencia": "Mateus 24.43",
+                    "texto": "isto: se o pai de E soubesse a que"
+                },
+                {
+                    "referencia": "Lucas 2.4",
+                    "texto": "chamada Belém (porque era da casa e E de Davi),"
+                },
+                {
+                    "referencia": "Lucas 12.39",
+                    "texto": "porém, isto: se o pai de E soubesse a que"
+                },
+                {
+                    "referencia": "Lucas 13.25",
+                    "texto": "Quando o pai de E se levantar e cerrar a porta,"
+                },
+                {
+                    "referencia": "Lucas 14.21",
+                    "texto": "ao seu senkon Então, o pai de E, indignado,"
+                },
+                {
+                    "referencia": "Lucas 22.11",
+                    "texto": "E direis ao pai de É da casa: O mestre te diz:"
+                },
+                {
+                    "referencia": "Romanos 16.10",
+                    "texto": "em Cristo. Saudai aos da E de Aristóbulo."
+                },
+                {
+                    "referencia": "Romanos 16.11",
+                    "texto": "meu parente. Saudai aos da E de Narciso, os"
+                },
+                {
+                    "referencia": "1 Coríntios 1.11",
+                    "texto": "me foi comunicado pelos da E de Cloe que há"
+                },
+                {
+                    "referencia": "1 Coríntios 1.16",
+                    "texto": "E batizei também a Æ de Estéfanas; além destes,"
+                },
+                {
+                    "referencia": "1 Coríntios 16.15",
+                    "texto": "rogo, irmãos (sabeis que a F de Estéfanas é"
+                },
+                {
+                    "referencia": "Efésios 2.19",
+                    "texto": "mas concidadãos dos Santos e da E de Deus;"
+                },
+                {
+                    "referencia": "Efésios 3.15",
+                    "texto": "do qual toda a E nos céus e na terra toma o nome,"
+                },
+                {
+                    "referencia": "1 Timóteo 5.4",
+                    "texto": "para com a sua própria E e a recompensar"
+                },
+                {
+                    "referencia": "1 Timóteo 5.8",
+                    "texto": "e principalmente dos da sua E, negou a fé e é"
+                },
+                {
+                    "referencia": "Hebreus 11.7",
+                    "texto": "temeu, e, para salvação da sua É, preparou a"
+                }
+            ]
+        }
+    ]
+}

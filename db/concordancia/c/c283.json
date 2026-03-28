@@ -1,0 +1,388 @@
+{
+    "c": [
+        {
+            "palavra": "CONHECIMENTO",
+            "veja tambem": [],
+            "ocorrencias": 94,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "2 Crônicas 1.10",
+                    "texto": "pois, agora, sabedoria e C., para que"
+                },
+                {
+                    "referencia": "2 Crônicas 1.11",
+                    "texto": "mas pediste para ti sabedoria e C., para"
+                },
+                {
+                    "referencia": "2 Crônicas 1.12",
+                    "texto": "sabedoria e C. te são dados; e te darei"
+                },
+                {
+                    "referencia": "2 Crônicas 30.22",
+                    "texto": "tinham entendimento no bom C., do Senhor; e"
+                },
+                {
+                    "referencia": "Ester 2.22",
+                    "texto": "E veio isso ao C, de Mardoqueu, e ele o fez"
+                },
+                {
+                    "referencia": "Jó 21.14",
+                    "texto": "nós; porque não desejamos ter C. dos teus caminhos."
+                },
+                {
+                    "referencia": "Jó 29.16",
+                    "texto": "as causas de que não tinha Cc. inquiria com diligência;"
+                },
+                {
+                    "referencia": "Jó 36.12",
+                    "texto": "à espada serão passados e expirarão sem C."
+                },
+                {
+                    "referencia": "Jó 38.2",
+                    "texto": "que escurece o conselho com palavras sem C.?"
+                },
+                {
+                    "referencia": "Jó 42.3",
+                    "texto": "é aquele, dizes tu, que sem C. encobre o"
+                },
+                {
+                    "referencia": "SI 14.4",
+                    "texto": "Não terão C. os obreiros da iniquidade, que"
+                },
+                {
+                    "referencia": "S194.10",
+                    "texto": "E o que dá ao homemo C., não saberá?"
+                },
+                {
+                    "referencia": "S195.10",
+                    "texto": "erra de coração e não tem C, dos meus caminhos."
+                },
+                {
+                    "referencia": "Provérbios 1.4",
+                    "texto": "prudência, e aos jovens C. e bom siso;"
+                },
+                {
+                    "referencia": "Provérbios 1.22",
+                    "texto": "o escárnio? E vós, loucos, aborrecereiso C.?"
+                },
+                {
+                    "referencia": "Provérbios 1.29",
+                    "texto": "Porquanto aborreceram o C, e não preferiram"
+                },
+                {
+                    "referencia": "Provérbios 2.5",
+                    "texto": "o temor do Senhor e acharás o C, de Deus."
+                },
+                {
+                    "referencia": "Provérbios 2.6",
+                    "texto": "e da sua boca vem o C. e o entendimento."
+                },
+                {
+                    "referencia": "Provérbios 2.10",
+                    "texto": "entrará no teu coração, e o C. será suave à"
+                },
+                {
+                    "referencia": "Provérbios 3.13",
+                    "texto": "que acha sabedoria, e o homem que adquire C."
+                },
+                {
+                    "referencia": "Provérbios 3.20",
+                    "texto": "Pelo seu C., se fenderam os abismos, e as"
+                },
+                {
+                    "referencia": "Provérbios 4.7",
+                    "texto": "sim, com tudo o que possuis, adquire o C.."
+                },
+                {
+                    "referencia": "Provérbios 5.2",
+                    "texto": "meus avisos, e os teus lábios guardem o C.."
+                },
+                {
+                    "referencia": "Provérbios 8.9",
+                    "texto": "as entende e justas, para os que acham o C.."
+                },
+                {
+                    "referencia": "Provérbios 8.10",
+                    "texto": "correção, e não a pran, eo C. mais do que"
+                },
+                {
+                    "referencia": "Provérbios 11.9",
+                    "texto": "mas os justos são libertados pelo C.."
+                },
+                {
+                    "referencia": "Provérbios 12.1",
+                    "texto": "O que ama a correção ama o C., mas o que"
+                },
+                {
+                    "referencia": "Provérbios 12.23",
+                    "texto": "O homem avisado encobre o C., mas o coração"
+                },
+                {
+                    "referencia": "Provérbios 13.16",
+                    "texto": "Todo prudente age com C., mas o tolo"
+                },
+                {
+                    "referencia": "Provérbios 14.6",
+                    "texto": "não a acha, mas para o prudente o C. é fácil."
+                },
+                {
+                    "referencia": "Provérbios 14.7",
+                    "texto": "e nele não divisarás os lábios do C.."
+                },
+                {
+                    "referencia": "Provérbios 14.18",
+                    "texto": "mas os prudentes se coroarão de C.."
+                },
+                {
+                    "referencia": "Provérbios 15.7",
+                    "texto": "dos sábios derramarão o C., mas o"
+                },
+                {
+                    "referencia": "Provérbios 15.14",
+                    "texto": "O coração sábio buscará o C., masa boca"
+                },
+                {
+                    "referencia": "Provérbios 17.27",
+                    "texto": "palavras o que possuio C., eo homem de"
+                },
+                {
+                    "referencia": "Provérbios 18.15",
+                    "texto": "coração do sábio adquire o C., eo ouvido"
+                },
+                {
+                    "referencia": "Provérbios 19.2",
+                    "texto": "também ficar a alma sem C. não é bom; e"
+                },
+                {
+                    "referencia": "Provérbios 19.25",
+                    "texto": "aviso; repreende ao sábio, e aprenderá CG;"
+                },
+                {
+                    "referencia": "Provérbios 19.27",
+                    "texto": "de te desviares das palavras do C.."
+                },
+                {
+                    "referencia": "Provérbios 20.15",
+                    "texto": "de rubins, mas os lábios do C. são joia preciosa."
+                },
+                {
+                    "referencia": "Provérbios 21.11",
+                    "texto": "e, quando o sábio é instruído, recebe o"
+                },
+                {
+                    "referencia": "Provérbios 22.12",
+                    "texto": "Senhor conservam o que tem C., mas as"
+                },
+                {
+                    "referencia": "Provérbios 22.20",
+                    "texto": "coisas acerca de todo conselho e C.,"
+                },
+                {
+                    "referencia": "Provérbios 23.12",
+                    "texto": "coração e os teus ouvidos, às palavras do C.."
+                },
+                {
+                    "referencia": "Provérbios 24.4",
+                    "texto": "e pelo C, se encherão as câmaras de todas"
+                },
+                {
+                    "referencia": "Provérbios 24.5",
+                    "texto": "sábio é forte, e o varão de C., consolida a força."
+                },
+                {
+                    "referencia": "Provérbios 24.14",
+                    "texto": "Tal será o C, da sabedoria para a tua alma;"
+                },
+                {
+                    "referencia": "Provérbios 30.3",
+                    "texto": "aprendi a sabedoria, nem tenho o C., do Santo."
+                },
+                {
+                    "referencia": "Eclesiastes 2.26",
+                    "texto": "dele, dá Deus sabedoria, e C., e alegria;"
+                },
+                {
+                    "referencia": "Isaías 1.3",
+                    "texto": "seu dono, mas Israel não tem C., o meu"
+                },
+                {
+                    "referencia": "Isaías 11.2",
+                    "texto": "de fortaleza, e o Espírito de C. e de temor"
+                },
+                {
+                    "referencia": "Isaías 11.9",
+                    "texto": "a terra se encherá do C. do Senhor,"
+                },
+                {
+                    "referencia": "Isaías 44.19",
+                    "texto": "isso a peito, e já não têm C. nem"
+                },
+                {
+                    "referencia": "Isaías 53.11",
+                    "texto": "satisfeito; com o seu C., o meu"
+                },
+                {
+                    "referencia": "Isaías 59.8",
+                    "texto": "aquele que anda por elas não tem C. da paz."
+                },
+                {
+                    "referencia": "Daniel 14",
+                    "texto": "em ciência, e entendidos no C., e que"
+                },
+                {
+                    "referencia": "Daniel 1.17",
+                    "texto": "quatro jovens Deus deu o C. ea"
+                },
+                {
+                    "referencia": "Oséias 4.1",
+                    "texto": "há verdade, nem benignidade, nem C. de Deus"
+                },
+                {
+                    "referencia": "Oséias 4.6",
+                    "texto": "porque lhe faltou o C.; porque tu"
+                },
+                {
+                    "referencia": "Oséias 4.6",
+                    "texto": "porque tu rejeitasteo C., também eu"
+                },
+                {
+                    "referencia": "Oséias 6.6",
+                    "texto": "e não sacrifício; e o C. de Deus,"
+                },
+                {
+                    "referencia": "Habacuque 2.14",
+                    "texto": "a terra se encherá do C. da glória do"
+                },
+                {
+                    "referencia": "Lucas 1.77",
+                    "texto": "para dar ao seu povo C, da salvação, na"
+                },
+                {
+                    "referencia": "Jó 7.51",
+                    "texto": "sem primeiro o ouvir e ter C, do que faz?"
+                },
+                {
+                    "referencia": "Atos 4.13",
+                    "texto": "se maravilharam; e tinham C, de que"
+                },
+                {
+                    "referencia": "Atos 9.24",
+                    "texto": "as suas ciladas vieram ao C., de Saulo; e,"
+                },
+                {
+                    "referencia": "Atos 25.21",
+                    "texto": "para que fosse reservado ao C. de Augusto,"
+                },
+                {
+                    "referencia": "Atos 26.3",
+                    "texto": "sabendo eu que tens C, de todos os"
+                },
+                {
+                    "referencia": "Romanos 1.28",
+                    "texto": "se não importaram de ter C. de Deus,"
+                },
+                {
+                    "referencia": "Romanos 3.20",
+                    "texto": "da lei, porque pela lei vem o C, do pecado."
+                },
+                {
+                    "referencia": "Romanos 15.14",
+                    "texto": "de bondade, cheios de todo o C., podendo"
+                },
+                {
+                    "referencia": "1 Coríntios 1.5",
+                    "texto": "nele, em toda a palavra e em todo o C."
+                },
+                {
+                    "referencia": "1 Coríntios 8.7",
+                    "texto": "Mas nem em todos há C.; porque alguns até"
+                },
+                {
+                    "referencia": "1 Coríntios 15.34",
+                    "texto": "alguns ainda não têm o È de Deus;"
+                },
+                {
+                    "referencia": "2 Coríntios 2.14",
+                    "texto": "manifesta em todo lugar o cheiro do seu C.."
+                },
+                {
+                    "referencia": "2 Coríntios 4.6",
+                    "texto": "corações, para iluminação do C. da glória"
+                },
+                {
+                    "referencia": "2 Coríntios 10.5",
+                    "texto": "que se levanta contra o C, de Deus, e"
+                },
+                {
+                    "referencia": "Efésios 1.17",
+                    "texto": "Pai da glória, vos dê em seu C., o espírito"
+                },
+                {
+                    "referencia": "Efésios 4.13",
+                    "texto": "à unidade da fé e ao C, do Filho de"
+                },
+                {
+                    "referencia": "Filipenses 1.9",
+                    "texto": "mais e mais em ciência e em todo o C.."
+                },
+                {
+                    "referencia": "Filipenses 3.8",
+                    "texto": "as coisas, pela excelência do C, de Cristo"
+                },
+                {
+                    "referencia": "Colossenses 1.9",
+                    "texto": "de pedir que sejais cheios do C, da sua"
+                },
+                {
+                    "referencia": "C11.10",
+                    "texto": "em toda boa obra e crescendo no C., de Deus;"
+                },
+                {
+                    "referencia": "C12.2",
+                    "texto": "da inteligência, para C. do mistério"
+                },
+                {
+                    "referencia": "C13.10",
+                    "texto": "novo, que se renova para o C., segundo a"
+                },
+                {
+                    "referencia": "1 Timóteo 2.4",
+                    "texto": "homens se salvem e venham ao E da verdade."
+                },
+                {
+                    "referencia": "2 Timóteo 3.7",
+                    "texto": "sempre e nunca podem chegar ao C. da verdade."
+                },
+                {
+                    "referencia": "Tito 1.1",
+                    "texto": "a fé dos eleitos de Deus e o C, da verdade,"
+                },
+                {
+                    "referencia": "Hebreus 10.26",
+                    "texto": "depois de termos recebido o C, da verdade,"
+                },
+                {
+                    "referencia": "2 Pedro 1.2",
+                    "texto": "sejam multiplicadas, pelo C. de Deus e de"
+                },
+                {
+                    "referencia": "2 Pedro 1.3",
+                    "texto": "à vida e piedade, pelo C, daquele que"
+                },
+                {
+                    "referencia": "2 Pedro 1.8",
+                    "texto": "ociosos nem estéreis no C, de nosso"
+                },
+                {
+                    "referencia": "2 Pedro 2.20",
+                    "texto": "corrupções do mundo, pelo C. do Senhor e"
+                },
+                {
+                    "referencia": "2 Pedro 3.18",
+                    "texto": "antes, crescei na graça e C, de nosso"
+                }
+            ]
+        }
+    ]
+}

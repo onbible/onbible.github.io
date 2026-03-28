@@ -1,0 +1,704 @@
+{
+    "l": [
+        {
+            "palavra": "LIVRO",
+            "veja tambem": [],
+            "ocorrencias": 173,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 5.1",
+                    "texto": "Este é o L. das gerações de Adão. No dia em que"
+                },
+                {
+                    "referencia": "Êxodo 17.14",
+                    "texto": "isto para memória num L. e relata-o aos"
+                },
+                {
+                    "referencia": "Êxodo 24.7",
+                    "texto": "E tomou o L. do concerto e o leu aos ouvidos do"
+                },
+                {
+                    "referencia": "Êxodo 32.32",
+                    "texto": "não, risca-me, peço-te, do teu L., que tens escrito."
+                },
+                {
+                    "referencia": "Êxodo 32.33",
+                    "texto": "que pecar contra mim, a este riscarei eu do meu L.."
+                },
+                {
+                    "referencia": "Números 5.23",
+                    "texto": "estas mesmas maldições num L. e com a água amarga"
+                },
+                {
+                    "referencia": "Números 21.14",
+                    "texto": "Pelo que se diz no L. das Guerras do Senhor:"
+                },
+                {
+                    "referencia": "Deuteronômio 17.18",
+                    "texto": "si um traslado desta lei num L., do que está"
+                },
+                {
+                    "referencia": "Deuteronômio 28.58",
+                    "texto": "que estão escritas neste L., para temeres este"
+                },
+                {
+                    "referencia": "Deuteronômio 28.61",
+                    "texto": "que hão está escrita no L. desta lei, até que"
+                },
+                {
+                    "referencia": "Deuteronômio 29.20",
+                    "texto": "e toda maldição escrita neste L. jazerá sobre"
+                },
+                {
+                    "referencia": "Deuteronômio 29.21",
+                    "texto": "as maldições do concerto escrito neste L. da Lei."
+                },
+                {
+                    "referencia": "Deuteronômio 29.27",
+                    "texto": "sobre ela toda maldição que está escrita neste L.."
+                },
+                {
+                    "referencia": "Deuteronômio 30.10",
+                    "texto": "estatutos, escritos neste L. da Lei, quando te"
+                },
+                {
+                    "referencia": "Deuteronômio 31.24",
+                    "texto": "as palavras desta Lei num L., até de todo as acabar,"
+                },
+                {
+                    "referencia": "Deuteronômio 31.26",
+                    "texto": "Tomai este L. da Lei e ponde-o ao lado da arca do"
+                },
+                {
+                    "referencia": "Josué 1.8",
+                    "texto": "se aparte da tua boca o L. desta Lei; antes,"
+                },
+                {
+                    "referencia": "Josué 8.31",
+                    "texto": "o que está escrito no L. da Lei de Moisés,"
+                },
+                {
+                    "referencia": "Josué 8.34",
+                    "texto": "conforme tudo o que está escrito no L. da Lei."
+                },
+                {
+                    "referencia": "Josué 10.13",
+                    "texto": "Isso não está escrito no L. do Reto? O sol,"
+                },
+                {
+                    "referencia": "Josué 18.9",
+                    "texto": "as cidades, em sete partes, num L., e voltaram a"
+                },
+                {
+                    "referencia": "Josué 23.6",
+                    "texto": "tudo quanto está escrito no L. da Lei de Moisés,"
+                },
+                {
+                    "referencia": "Josué 24.26",
+                    "texto": "escreveu estas palavras no L. da Lei de Deus; e"
+                },
+                {
+                    "referencia": "1 Samuel 10.25",
+                    "texto": "do reino, e escreveu-o num L., e pô-lo perante o"
+                },
+                {
+                    "referencia": "2 Samuel 1.18",
+                    "texto": "o uso do arco. Eis que está escrito no L. do Reto:"
+                },
+                {
+                    "referencia": "1 Reis 11.41",
+                    "texto": "não estão escritos no L. da história de Salomão?"
+                },
+                {
+                    "referencia": "1 Reis 14.19",
+                    "texto": "eis que tudo está escrito no L, das Crônicas dos"
+                },
+                {
+                    "referencia": "1 Reis 14.29",
+                    "texto": "não está tudo escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "1 Reis 15.7",
+                    "texto": "não está tudo escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "1 Reis 15.23",
+                    "texto": "não está tudo escrito no L. das Crônicas"
+                },
+                {
+                    "referencia": "1 Reis 15.31",
+                    "texto": "não está tudo escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "1 Reis 16.5",
+                    "texto": "não está escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "IRs 16.14",
+                    "texto": "não está escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "1 Reis 16.20",
+                    "texto": "não está escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "1 Reis 16.27",
+                    "texto": "não está escrito no L, das Crônicas dos"
+                },
+                {
+                    "referencia": "1 Reis 22.39",
+                    "texto": "porventura, não está escrito no L. das Crônicas"
+                },
+                {
+                    "referencia": "1 Reis 22.46",
+                    "texto": "não está escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 1.18",
+                    "texto": "não está escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 8.23",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 10.34",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 12.19",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 13.8",
+                    "texto": "não estão escritos no L. das Crônicas"
+                },
+                {
+                    "referencia": "2 Reis 13.12",
+                    "texto": "porventura, não estão escritos no L. das Crônicas"
+                },
+                {
+                    "referencia": "2 Reis 14.6",
+                    "texto": "matou, como está escrito no L. da Lei de Moisés,"
+                },
+                {
+                    "referencia": "2 Reis 14.15",
+                    "texto": "porventura, não estão escritos no L, das Crônicas"
+                },
+                {
+                    "referencia": "2 Reis 14.18",
+                    "texto": "não está escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 14.28",
+                    "texto": "porventura, não estão escritos no L. das Crônicas"
+                },
+                {
+                    "referencia": "2 Reis 15.6",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 15.11",
+                    "texto": "eis que está escrito no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 15.15",
+                    "texto": "eis que estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 15.21",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 15.26",
+                    "texto": "eis que estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 15.31",
+                    "texto": "eis que estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 15.36",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 16.19",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 20.20",
+                    "texto": "não estão escritos no L. das Crônicas"
+                },
+                {
+                    "referencia": "2 Reis 21.17",
+                    "texto": "não estão escritos no L, das Crônicas"
+                },
+                {
+                    "referencia": "2 Reis 21.25",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 22.8",
+                    "texto": "ao escrivão Safã: Achei o L. da Lei na Casa do"
+                },
+                {
+                    "referencia": "2 Reis 22.8",
+                    "texto": "do Senhor. E Hilquias deu o L. a Safã, e ele o leu."
+                },
+                {
+                    "referencia": "2 Reis 22.10",
+                    "texto": "sacerdote Hilquias me deu um L.. E Safão leu"
+                },
+                {
+                    "referencia": "2 Reis 22.11",
+                    "texto": "ouvindo o rei as palavras do L. da Lei, rasgou as"
+                },
+                {
+                    "referencia": "2 Reis 22.13",
+                    "texto": "acerca das palavras deste L. que se achou;"
+                },
+                {
+                    "referencia": "2 Reis 22.13",
+                    "texto": "deram ouvidos às palavras deste L., para fazerem"
+                },
+                {
+                    "referencia": "2 Reis 22.16",
+                    "texto": "a saber, todas as palavras do L. que leu o rei de Judá."
+                },
+                {
+                    "referencia": "2 Reis 23.2",
+                    "texto": "deles todas as palavras do L. do concerto,"
+                },
+                {
+                    "referencia": "2 Reis 23.3",
+                    "texto": "que estavam escritas naquele L.; etodo o"
+                },
+                {
+                    "referencia": "2 Reis 23.21",
+                    "texto": "vosso Deus, como está escrito no L. do concerto."
+                },
+                {
+                    "referencia": "2 Reis 23.24",
+                    "texto": "da lei, que estavam escritas no L. que o"
+                },
+                {
+                    "referencia": "2 Reis 23.28",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "2 Reis 24.5",
+                    "texto": "não estão escritos no L. das Crônicas dos"
+                },
+                {
+                    "referencia": "1 Crônicas 9.1",
+                    "texto": "eis que estão escritos no L. dos reis de Israel;"
+                },
+                {
+                    "referencia": "2 Crônicas 9.29",
+                    "texto": "não estão escritos no L. da história de"
+                },
+                {
+                    "referencia": "2 Crônicas 16.11",
+                    "texto": "últimos, estão escritos no L, da história dos"
+                },
+                {
+                    "referencia": "2 Crônicas 17.9",
+                    "texto": "em Judá, e tinham consigo o L. da Lei do Senhor, e"
+                },
+                {
+                    "referencia": "2 Crônicas 20.34",
+                    "texto": "de Hanani, que as inseriu no L. da história dos"
+                },
+                {
+                    "referencia": "2 Crônicas 24.27",
+                    "texto": "Deus, eis que está escrito no L. da história dos"
+                },
+                {
+                    "referencia": "2 Crônicas 25.4",
+                    "texto": "como na Lei está escrito, no L. de Moisés, como o"
+                },
+                {
+                    "referencia": "2 Crônicas 25.26",
+                    "texto": "não estão escritos no L. da história dos"
+                },
+                {
+                    "referencia": "2 Crônicas 27.7",
+                    "texto": "eis que tudo está escrito no L. da história dos"
+                },
+                {
+                    "referencia": "2 Crônicas 28.26",
+                    "texto": "eis que está escrito no L. da história dos"
+                },
+                {
+                    "referencia": "2 Crônicas 32.32",
+                    "texto": "Isaías, filho de Amoz, e no L. da história dos"
+                },
+                {
+                    "referencia": "2 Crônicas 33.18",
+                    "texto": "Deus de Israel, eis que estão no L. da história"
+                },
+                {
+                    "referencia": "2 Crônicas 34.14",
+                    "texto": "Hilquias, o sacerdote, achou o L. da Lei do"
+                },
+                {
+                    "referencia": "2 Crônicas 34.15",
+                    "texto": "a Safã, o escrivão: Achei o L. da Lei na Casa do"
+                },
+                {
+                    "referencia": "2 Crônicas 34.15",
+                    "texto": "Lei na Casa do Senhor. E Hilquias deu o L. a Safã."
+                },
+                {
+                    "referencia": "2 Crônicas 34.16",
+                    "texto": "E Safã levou o L. ao rei e deu conta também ao"
+                },
+                {
+                    "referencia": "2 Crônicas 34.18",
+                    "texto": "O sacerdote Hilquias me deu um L.. E Safã leu"
+                },
+                {
+                    "referencia": "2 Crônicas 34.21",
+                    "texto": "Judá, sobre as palavras deste L. que se achou,"
+                },
+                {
+                    "referencia": "2 Crônicas 34.24",
+                    "texto": "que estão escritas no L. que se leu"
+                },
+                {
+                    "referencia": "2 Crônicas 34.30",
+                    "texto": "deles todas as palavras do L. do concerto,"
+                },
+                {
+                    "referencia": "2 Crônicas 35.12",
+                    "texto": "Senhor, como está escrito no L, de Moisés; e"
+                },
+                {
+                    "referencia": "2 Crônicas 35.27",
+                    "texto": "eis que estão escritos no L. da história dos"
+                },
+                {
+                    "referencia": "2 Crônicas 36.8",
+                    "texto": "eis que estão escritos no L. da história dos"
+                },
+                {
+                    "referencia": "Esdras 4.15",
+                    "texto": "para que se busque no L. das crônicas de teus"
+                },
+                {
+                    "referencia": "Esdras 4.15",
+                    "texto": "pais, e, então, acharás no L., das crônicas e -"
+                },
+                {
+                    "referencia": "Esdras 6.18",
+                    "texto": "em Jerusalém, conforme o escrito do L. de Moisés."
+                },
+                {
+                    "referencia": "Neemias 7.5",
+                    "texto": "as genealogias. E achei o L, da genealogia"
+                },
+                {
+                    "referencia": "Neemias 8.1",
+                    "texto": "o escriba, que trouxesse o L. da Lei de"
+                },
+                {
+                    "referencia": "Neemias 8.3",
+                    "texto": "ouvidos de todo o povo estavam atentos ao L. da Lei."
+                },
+                {
+                    "referencia": "Neemias 8.5",
+                    "texto": "E Esdras abriu o L. perante os olhos de todo o"
+                },
+                {
+                    "referencia": "Neemias 8.18",
+                    "texto": "E, de dia em dia, ele lia o L. da Lei de Deus,"
+                },
+                {
+                    "referencia": "Neemias 9.3",
+                    "texto": "no seu posto, leram no L, da Lei do Senhor,"
+                },
+                {
+                    "referencia": "Neemias 12.23",
+                    "texto": "das casas dos pais no L. das crônicas, até"
+                },
+                {
+                    "referencia": "Neemias 13.1",
+                    "texto": "Naquele dia, leu-se no L. de Moisés aos ouvidos do"
+                },
+                {
+                    "referencia": "Ester 2.23",
+                    "texto": "forca. Isso foi escrito no L. das crônicas"
+                },
+                {
+                    "referencia": "Ester 6.1",
+                    "texto": "rei; então, mandou trazer o L. das memórias das"
+                },
+                {
+                    "referencia": "Ester 9.32",
+                    "texto": "o que respeitava ao Purim; e escreveu-se num L.."
+                },
+                {
+                    "referencia": "Ester 10.2",
+                    "texto": "não estão escritas no L. das crônicas dos"
+                },
+                {
+                    "referencia": "Jó 31.35",
+                    "texto": "me responda e que o meu adversário escreva um L.."
+                },
+                {
+                    "referencia": "S140.7",
+                    "texto": "Eis aqui venho; no rolo do L. está escrito de mim:"
+                },
+                {
+                    "referencia": "S156.8",
+                    "texto": "lágrimas no teu odre; não estão elas no teu L.?"
+                },
+                {
+                    "referencia": "Salmos 69.28",
+                    "texto": "Sejam riscados do L. da vida e não sejam inscritos"
+                },
+                {
+                    "referencia": "S1139.16",
+                    "texto": "ainda informe, e no teu L. todas estas coisas"
+                },
+                {
+                    "referencia": "Isaías 29.11",
+                    "texto": "é como as palavras de um L. selado que se dá ao"
+                },
+                {
+                    "referencia": "Isaías 29.12",
+                    "texto": "Ou dá-se o L. ao que não sabe ler, dizendo: Ora,"
+                },
+                {
+                    "referencia": "Isaías 29.18",
+                    "texto": "ouvirão as palavras do L., e, dentre a"
+                },
+                {
+                    "referencia": "Isaías 30.8",
+                    "texto": "perante eles e aponta-o em um L.; para que fique"
+                },
+                {
+                    "referencia": "Isaías 34.4",
+                    "texto": "céus se enrolarão como um L., etodo o seu"
+                },
+                {
+                    "referencia": "Isaías 34.16",
+                    "texto": "Buscai no L. do Senhor e lede; nenhuma dessas"
+                },
+                {
+                    "referencia": "Jeremias 25.13",
+                    "texto": "quanto está escrito neste L., que profetizou"
+                },
+                {
+                    "referencia": "Jeremias 30.2",
+                    "texto": "Israel, dizendo: Escreve num L. todas as palavras"
+                },
+                {
+                    "referencia": "Tr 36.2",
+                    "texto": "Toma o rolo de um L. e escreve nele todas as"
+                },
+                {
+                    "referencia": "Jeremias 364",
+                    "texto": "que ele lhe tinha revelado, no rolo de um L.."
+                },
+                {
+                    "referencia": "Jeremias 36.8",
+                    "texto": "o profeta, lendo naquele L. as palavras do"
+                },
+                {
+                    "referencia": "Jeremias 36.10",
+                    "texto": "Leu, pois, Baruque naquele L. as palavras de"
+                },
+                {
+                    "referencia": "Jeremias 36.11",
+                    "texto": "de Safã, todas as palavras do Senhor, naquele L.,"
+                },
+                {
+                    "referencia": "Jeremias 36.13",
+                    "texto": "lendo-as Baruque, pelo L., aos ouvidos do povo."
+                },
+                {
+                    "referencia": "Jeremias 36.18",
+                    "texto": "estas palavras, e eu as escrevia, no L., comtinta."
+                },
+                {
+                    "referencia": "Jeremias 36.32",
+                    "texto": "de Jeremias, todas as palavras do L. que Jeoaquim,"
+                },
+                {
+                    "referencia": "Jeremias 45.1",
+                    "texto": "ele aquelas palavras, num L., da boca de"
+                },
+                {
+                    "referencia": "Jeremias 51.60",
+                    "texto": "Escreveu, pois, Jeremias num L. todo o mal que"
+                },
+                {
+                    "referencia": "Jeremias 51.63",
+                    "texto": "acabando tu de ler este L., o atarás a uma"
+                },
+                {
+                    "referencia": "Ezequiel 2.9",
+                    "texto": "para mim, e eis que nela estava um rolo de L.."
+                },
+                {
+                    "referencia": "Daniel 12.1",
+                    "texto": "o teu povo, todo aquele que se achar escrito no L.."
+                },
+                {
+                    "referencia": "Daniel 12.4",
+                    "texto": "estas palavras e sela este L., até ao fim do"
+                },
+                {
+                    "referencia": "Naum 1.1",
+                    "texto": "Peso de Nínive. L. da visão de Naum, o elcosita."
+                },
+                {
+                    "referencia": "Mateus 1.1",
+                    "texto": "L. da geração de Jesus Cristo, Filho de Davi,"
+                },
+                {
+                    "referencia": "Marcos 12.26",
+                    "texto": "não tendes lido no L. de Moisés como"
+                },
+                {
+                    "referencia": "Lucas 4.17",
+                    "texto": "E foi-lhe dado o L. do profeta Isaías; e, quando"
+                },
+                {
+                    "referencia": "Lucas 4.17",
+                    "texto": "Isaías; e, quando abriu o L., achou o lugar em"
+                },
+                {
+                    "referencia": "Lucas 4.20",
+                    "texto": "E, cerrando o L. e tornando a dá-lo ao ministro,"
+                },
+                {
+                    "referencia": "Lucas 20.42",
+                    "texto": "como o mesmo Davi diz no L. dos Salmos: Disse o"
+                },
+                {
+                    "referencia": "Jó 20.30",
+                    "texto": "outros sinais, que não estão escritos neste L.."
+                },
+                {
+                    "referencia": "Atos 1.20",
+                    "texto": "Porque no L. dos Salmos está escrito: Fique"
+                },
+                {
+                    "referencia": "Atos 7.42",
+                    "texto": "céu, como está escrito no L. dos profetas:"
+                },
+                {
+                    "referencia": "Gálatas 3.10",
+                    "texto": "coisas que estão escritas no L, da lei, para fazê-las."
+                },
+                {
+                    "referencia": "Filipenses 4.3",
+                    "texto": "cooperadores, cujos nomes estão no L. da vida."
+                },
+                {
+                    "referencia": "Hebreus 9.19",
+                    "texto": "e aspergiu tanto o mesmo L. como todo o povo,"
+                },
+                {
+                    "referencia": "Hebreus 10.7",
+                    "texto": "aqui venho (no princípio do L. está escrito de"
+                },
+                {
+                    "referencia": "Apocalipse 1.11",
+                    "texto": "O que vês, escreve-o num L. e envia-o às sete"
+                },
+                {
+                    "referencia": "Apocalipse 3.5",
+                    "texto": "riscarei o seu nome do L. da vida; e"
+                },
+                {
+                    "referencia": "Apocalipse 5.1",
+                    "texto": "assentado sobre o trono um L. escrito por dentro e"
+                },
+                {
+                    "referencia": "Apocalipse 5.2",
+                    "texto": "voz: Quem é digno de abrir o L. e de desatar os"
+                },
+                {
+                    "referencia": "Apocalipse 5.3",
+                    "texto": "da terra, podia abrir o L., nem olhar para ele."
+                },
+                {
+                    "referencia": "Apocalipse 5.4",
+                    "texto": "achado daio de abrir o L., nem de o ler, nem"
+                },
+                {
+                    "referencia": "Apocalipse 5.5",
+                    "texto": "Davi, que venceu para abrir o L. e desatar os"
+                },
+                {
+                    "referencia": "Apocalipse 5.7",
+                    "texto": "E veio e tomou o L. da destra do que estava"
+                },
+                {
+                    "referencia": "Apocalipse 5.8",
+                    "texto": "E, havendo tomado o L., os quatro animais e os"
+                },
+                {
+                    "referencia": "Apocalipse 59",
+                    "texto": "dizendo: Digno és de tomar o L. e de abrir os seus"
+                },
+                {
+                    "referencia": "Apocalipse 6.14",
+                    "texto": "E o céu retirou-se como um L. que se enrola; e"
+                },
+                {
+                    "referencia": "Apocalipse 13.8",
+                    "texto": "nomes não estão escritos no L. da vida do Cordeiro"
+                },
+                {
+                    "referencia": "Apocalipse 17.8",
+                    "texto": "nomes não estão escritos no L. da vida, desde a"
+                },
+                {
+                    "referencia": "Apocalipse 20.12",
+                    "texto": "os livros. E abriu-se outro L., que éo da"
+                },
+                {
+                    "referencia": "Apocalipse 20.15",
+                    "texto": "não foi achado escrito no L. da vida foi lançado"
+                },
+                {
+                    "referencia": "Apocalipse 21.27",
+                    "texto": "só os que estão inscritos no L. da vida do Cordeiro."
+                },
+                {
+                    "referencia": "Apocalipse 22.7",
+                    "texto": "aquele que guarda as palavras da profecia deste L.."
+                },
+                {
+                    "referencia": "Apocalipse 22.9",
+                    "texto": "dos que guardam as palavras deste L.. Adora a Deus."
+                },
+                {
+                    "referencia": "Apocalipse 22.10",
+                    "texto": "palavras da profecia deste L., porque próximo"
+                },
+                {
+                    "referencia": "Apocalipse 22.18",
+                    "texto": "palavras da profecia deste L. que, se alguém lhes"
+                },
+                {
+                    "referencia": "Apocalipse 22.18",
+                    "texto": "vir sobre ele as pragas que estão escritas neste L.;"
+                },
+                {
+                    "referencia": "Apocalipse 22.19",
+                    "texto": "tirar quaisquer palavras do L. desta profecia,"
+                },
+                {
+                    "referencia": "Apocalipse 22.19",
+                    "texto": "vida e da Cidade Santa, que estão escritas neste L.."
+                }
+            ]
+        }
+    ]
+}

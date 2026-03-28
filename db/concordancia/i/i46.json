@@ -1,0 +1,70 @@
+{
+    "i": [
+        {
+            "palavra": "INFERIOR",
+            "veja tambem": [],
+            "ocorrencias": 9,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Jó 12.3",
+                    "texto": "como vós e não vos sou L.; e quem não sabe"
+                },
+                {
+                    "referencia": "Jó 13.2",
+                    "texto": "vós o sabeis, o sei eu também; não vos sou L."
+                },
+                {
+                    "referencia": "Isaías 22.9",
+                    "texto": "são muitas; e ajuntareis as águas do viveiro L.."
+                },
+                {
+                    "referencia": "Ezequiel 43.13",
+                    "texto": "e quatro dedos); a parte Z. será de um"
+                },
+                {
+                    "referencia": "Daniel 2.39",
+                    "texto": "ti, se levantará outro reino, É. ao teu, e um"
+                },
+                {
+                    "referencia": "Lucas 17.24",
+                    "texto": "desde uma extremidade Z. do céu até à"
+                },
+                {
+                    "referencia": "Jó 2.10",
+                    "texto": "já têm bebido bem, então, o Z; mas tu"
+                },
+                {
+                    "referencia": "2 Coríntios 11.5",
+                    "texto": "penso que em nada fui I, aos mais"
+                },
+                {
+                    "referencia": "2 Coríntios 12.11",
+                    "texto": "vós, visto que em nada fui Z. aos mais"
+                }
+            ]
+        },
+        {
+            "palavra": "INFERIORES",
+            "veja tambem": [
+                "inferior"
+            ],
+            "ocorrencias": 3,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Josué 15.19",
+                    "texto": "lhe deu as fontes superiores e as fontes Z.."
+                },
+                {
+                    "referencia": "Juízes 1.15",
+                    "texto": "lhe deu as fontes superiores e as fontes L.."
+                },
+                {
+                    "referencia": "2 Coríntios 12.13",
+                    "texto": "em que tendes vós sido E. às outras"
+                }
+            ]
+        }
+    ]
+}

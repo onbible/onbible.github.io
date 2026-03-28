@@ -1,0 +1,512 @@
+{
+    "m": [
+        {
+            "palavra": "MARIDO",
+            "veja tambem": [],
+            "ocorrencias": 125,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 3.6",
+                    "texto": "e comeu, e deu também a seu M., e ele comeu"
+                },
+                {
+                    "referencia": "Gênesis 3.16",
+                    "texto": "o teu desejo será para o teu M., e ele te dominará."
+                },
+                {
+                    "referencia": "Gênesis 16.3",
+                    "texto": "e deu-a por mulher a Abrão, seu M., ao fim de"
+                },
+                {
+                    "referencia": "Gênesis 20.3",
+                    "texto": "mulher que tomaste; porque ela está casada com Me.."
+                },
+                {
+                    "referencia": "Gênesis 20.7",
+                    "texto": "restitui a mulher ao seu M., porque profeta é"
+                },
+                {
+                    "referencia": "Gênesis 29.32",
+                    "texto": "à minha aflição. Por isso, agora me amará o meu M."
+                },
+                {
+                    "referencia": "Gênesis 29.34",
+                    "texto": "esta vez se ajuntará meu MI. comigo, porque"
+                },
+                {
+                    "referencia": "Gênesis 30.15",
+                    "texto": "que hajas tomado o meu M.? Tomarás também as"
+                },
+                {
+                    "referencia": "Gênesis 30.18",
+                    "texto": "tenho dado minha serva ao meu M.. E chamou o"
+                },
+                {
+                    "referencia": "Gênesis 30.20",
+                    "texto": "desta vez morará o meu M. comigo, porque"
+                },
+                {
+                    "referencia": "Êxodo 21.22",
+                    "texto": "conforme o que lhe impuser o M. da mulher e"
+                },
+                {
+                    "referencia": "Levítico 21.3",
+                    "texto": "a ele, que ainda não teve ML; por ela se contaminará."
+                },
+                {
+                    "referencia": "Levítico 21.7",
+                    "texto": "mulher repudiada de seu M., pois o sacerdote"
+                },
+                {
+                    "referencia": "Números 5.13",
+                    "texto": "for oculto aos olhos de seu M., e ela o tiver"
+                },
+                {
+                    "referencia": "Números 5.19",
+                    "texto": "se não te apartaste de teu M, pela imundícia,"
+                },
+                {
+                    "referencia": "Números 5.20",
+                    "texto": "Mas, se te apartaste de teu M. e te contaminaste,"
+                },
+                {
+                    "referencia": "Números 5.20",
+                    "texto": "e algum homem, fora de teu M., se deitou contigo;"
+                },
+                {
+                    "referencia": "Números 5.27",
+                    "texto": "contaminado e contra seu M. tiver"
+                },
+                {
+                    "referencia": "Números 5.29",
+                    "texto": "a mulher, em poder de seu M., se desviar e for con-"
+                },
+                {
+                    "referencia": "Números 30.6",
+                    "texto": "E, se ela tiver M. e for obrigada a alguns votos"
+                },
+                {
+                    "referencia": "Números 30.7",
+                    "texto": "e seu M. o ouvir e se calar para com ela no dia"
+                },
+                {
+                    "referencia": "Números 30.8",
+                    "texto": "Mas, se seu M, lho vedar no dia em que o ouvir e"
+                },
+                {
+                    "referencia": "Números 30.10",
+                    "texto": "se fez voto na casa de seu M. ou ligou a sua"
+                },
+                {
+                    "referencia": "Números 30.11",
+                    "texto": "e seu M. o ouviu, e se calou para com ela, e lho"
+                },
+                {
+                    "referencia": "Números 30.12",
+                    "texto": "Porém, se seu M. lhos anulou no dia em que os"
+                },
+                {
+                    "referencia": "Números 30.12",
+                    "texto": "sua alma, não será válido; seu M. lhos anulou,"
+                },
+                {
+                    "referencia": "Naum 30.13",
+                    "texto": "para humilhar a alma, seu ML. o confirmará ou anu-"
+                },
+                {
+                    "referencia": "Números 30.14",
+                    "texto": "Porém, se seu M. de dia em dia se calar"
+                },
+                {
+                    "referencia": "Números 30.16",
+                    "texto": "ordenou a Moisés entre o M. e sua mulher, entre"
+                },
+                {
+                    "referencia": "Deuteronômio 21.13",
+                    "texto": "entrarás a ela, e tu serás seu M., e ela, tua mulher."
+                },
+                {
+                    "referencia": "Deuteronômio 22.22",
+                    "texto": "com mulher casada com M., então, ambos"
+                },
+                {
+                    "referencia": "Deuteronômio 24.4",
+                    "texto": "então, seu primeiro M., que a despediu, não"
+                },
+                {
+                    "referencia": "Deuteronômio 25.11",
+                    "texto": "de um chegar para livrar seu M. da mão do que o"
+                },
+                {
+                    "referencia": "Juízes 13.6",
+                    "texto": "mulher entrou e falou a seu M., dizendo: Um homem"
+                },
+                {
+                    "referencia": "Juízes 13.9",
+                    "texto": "no campo, porém não estava com ela seu M. Manoá."
+                },
+                {
+                    "referencia": "Juízes 13.10",
+                    "texto": "e correu, e noticiou a seu M., e disse-lhe:"
+                },
+                {
+                    "referencia": "Juízes 14.15",
+                    "texto": "de Sansão: Persuade a teu M. que nos declare"
+                },
+                {
+                    "referencia": "Juízes 19.3",
+                    "texto": "E seu M. se levantou e partiu após ela, para lhe"
+                },
+                {
+                    "referencia": "Juízes 20.4",
+                    "texto": "respondeu o homem levita, M. da mulher que"
+                },
+                {
+                    "referencia": "Rute 1.3",
+                    "texto": "E morreu Elimeleque, M., de Noemi; e ficou ela com"
+                },
+                {
+                    "referencia": "Rute 1.5",
+                    "texto": "desamparada dos seus dois filhos e deseu M.."
+                },
+                {
+                    "referencia": "Rute 1.9",
+                    "texto": "cada uma em casa de seu M.. E, beijando-as"
+                },
+                {
+                    "referencia": "Rute 1.12",
+                    "texto": "que já mui velha sou para ter M.; ainda quando eu"
+                },
+                {
+                    "referencia": "Rute 1.12",
+                    "texto": "ou ainda que esta noite tivesse M., e ainda"
+                },
+                {
+                    "referencia": "Rute 1.13",
+                    "texto": "por eles, sem tomardes M.? Não, filhas"
+                },
+                {
+                    "referencia": "Rute 2.1",
+                    "texto": "Noemi um parente de seu M., homem valente e"
+                },
+                {
+                    "referencia": "Rute 2.11",
+                    "texto": "depois da morte de teu M., e deixaste a teu"
+                },
+                {
+                    "referencia": "iSm 1.8",
+                    "texto": "Então, Elcana, seu M., lhe disse: Ana, por que"
+                },
+                {
+                    "referencia": "1 Samuel 1.22",
+                    "texto": "não subiu, mas disse a seu M.: Quando o menino"
+                },
+                {
+                    "referencia": "1 Samuel 1.23",
+                    "texto": "E Elcana, seu M., lhe disse: Faze o que bem te"
+                },
+                {
+                    "referencia": "1 Samuel 2.19",
+                    "texto": "Iha trazia quando com seu M. subia a"
+                },
+                {
+                    "referencia": "1 Samuel 4.19",
+                    "texto": "tomada e de que seu sogro e seu M. morreram,"
+                },
+                {
+                    "referencia": "iSm 4.21",
+                    "texto": "levada presa e por causa de seu sogro e de seu M.."
+                },
+                {
+                    "referencia": "1 Samuel 25.19",
+                    "texto": "de perto. Isso, porém, não declarou a seu M. Nabal."
+                },
+                {
+                    "referencia": "2 Samuel 3.15",
+                    "texto": "Isbosete e a tirou a seu M., a Paltiel, filho"
+                },
+                {
+                    "referencia": "2 Samuel 3.16",
+                    "texto": "E ia com ela seu M., caminhando, e chorando"
+                },
+                {
+                    "referencia": "2 Samuel 11.26",
+                    "texto": "de Urias que Urias, seu M., era morto,"
+                },
+                {
+                    "referencia": "2 Samuel 14.5",
+                    "texto": "verdade que sou uma mulher viúva, e morreu meu"
+                },
+                {
+                    "referencia": "2 Samuel 14.7",
+                    "texto": "de sorte que não deixam a meu M. nome, nem"
+                },
+                {
+                    "referencia": "2 Reis 4.1",
+                    "texto": "clamou a Eliseu dizendo: Meu M., teu servo,"
+                },
+                {
+                    "referencia": "2 Reis 4.9",
+                    "texto": "E ela disse a seu M.: Eis que tenho observado que"
+                },
+                {
+                    "referencia": "2 Reis 4.14",
+                    "texto": "disse: Ora, ela não tem filho, e seu M., é velho."
+                },
+                {
+                    "referencia": "2 Reis 4.22",
+                    "texto": "E chamou a seu M. e disse: Manda-me já um dos"
+                },
+                {
+                    "referencia": "2 Reis 4.26",
+                    "texto": "bem contigo? Vai bem com teu M.? Vai bem com"
+                },
+                {
+                    "referencia": "Provérbios 6.34",
+                    "texto": "furioso é o ciúme do M.; e de maneira"
+                },
+                {
+                    "referencia": "Provérbios 7.19",
+                    "texto": "Porque o M. não está em casa, foi fazer uma"
+                },
+                {
+                    "referencia": "Provérbios 124",
+                    "texto": "virtuosa é a coroa do seu M., mas a que procede"
+                },
+                {
+                    "referencia": "Provérbios 31.11",
+                    "texto": "O coração do seu M. está nela confiado, e a ela"
+                },
+                {
+                    "referencia": "Provérbios 31.23",
+                    "texto": "Conhece-se o seu M, nas portas, quando se assenta"
+                },
+                {
+                    "referencia": "Provérbios 31.28",
+                    "texto": "como também seu M., que a louva, dizendo:"
+                },
+                {
+                    "referencia": "Isaías 54.5",
+                    "texto": "o teu Criador é o teu M,; Senhor dos"
+                },
+                {
+                    "referencia": "Jeremias 6.11",
+                    "texto": "juntamente; porque até o M. com a mulher"
+                },
+                {
+                    "referencia": "Ezequiel 16.32",
+                    "texto": "que, em lugar de seu M., recebe os estranhos."
+                },
+                {
+                    "referencia": "Ezequiel 16.45",
+                    "texto": "mãe, que tinha nojo de seu M. e de seus filhos;"
+                },
+                {
+                    "referencia": "Ezequiel 44.25",
+                    "texto": "irmão, ou por irmã que não tiver M., se poderão"
+                },
+                {
+                    "referencia": "Oséias 2.2",
+                    "texto": "mulher, e eu não sou seu ML; e desvie ela as"
+                },
+                {
+                    "referencia": "Oséias 2.7",
+                    "texto": "e tornar-me-ei a meu primeiro M., porque"
+                },
+                {
+                    "referencia": "Oséias 2.16",
+                    "texto": "Senhor, que me chamarás: Meu M. e não me"
+                },
+                {
+                    "referencia": "Joel 1.8",
+                    "texto": "cingida de pano de saco pelo M. da sua mocidade."
+                },
+                {
+                    "referencia": "Mateus 1.16",
+                    "texto": "e Jacó gerou a José, M de Maria, da qual nasceu"
+                },
+                {
+                    "referencia": "Mateus 1.19",
+                    "texto": "Então, José, seu M., como era justo e a não"
+                },
+                {
+                    "referencia": "Marcos 10.12",
+                    "texto": "E, se a mulher deixar a seu M. e casar com outro,"
+                },
+                {
+                    "referencia": "Lucas 2.36",
+                    "texto": "em idade, e tinha vivido com o M, sete anos,"
+                },
+                {
+                    "referencia": "Lucas 16.18",
+                    "texto": "que casa com a repudiada pelo M. adultera também."
+                },
+                {
+                    "referencia": "Jó 4.16",
+                    "texto": "Disse-lhe Jesus: Vai, chama o teu M. e vem cá."
+                },
+                {
+                    "referencia": "Jó 4.17",
+                    "texto": "e disse: Não tenho M.. Disse-lhe Jesus:"
+                },
+                {
+                    "referencia": "Jó 4.17",
+                    "texto": "Disse-lhe Jesus: Disseste bem: Não tenho M.,"
+                },
+                {
+                    "referencia": "Atos 5.9",
+                    "texto": "pés dos que sepultaram o teu M., e também te"
+                },
+                {
+                    "referencia": "Atos 5.10",
+                    "texto": "acharam-na morta e a sepultaram junto de seu M.."
+                },
+                {
+                    "referencia": "Romanos 7.2",
+                    "texto": "mulher que está sujeita ao M., enquanto ele"
+                },
+                {
+                    "referencia": "Romanos 7.2",
+                    "texto": "lei; mas, morto o M., está livre da lei do M.."
+                },
+                {
+                    "referencia": "Romanos 7.3",
+                    "texto": "De sorte que, vivendo o M., será chamada adúltera"
+                },
+                {
+                    "referencia": "Romanos 7.3",
+                    "texto": "doutro ML; mas, morto o M., livre'está da"
+                },
+                {
+                    "referencia": "Romanos 7.3",
+                    "texto": "da lei e assim não será adúltera se for doutro M.."
+                },
+                {
+                    "referencia": "ICo 7.2",
+                    "texto": "própria mulher, e cada uma tenha o seu próprio M.."
+                },
+                {
+                    "referencia": "1 Coríntios 7.3",
+                    "texto": "+ pague à mulher a devida benevolência, e da"
+                },
+                {
+                    "referencia": "1 Coríntios 7.3",
+                    "texto": "benevolência, e da mesma sorte a mulher, ao Me.."
+                },
+                {
+                    "referencia": "1 Coríntios 7.4",
+                    "texto": "próprio corpo, mas tem-noo M.; e também, da"
+                },
+                {
+                    "referencia": "1 Coríntios 7.4",
+                    "texto": "e também, da mesma maneira, o MI, não tem poder"
+                },
+                {
+                    "referencia": "1 Coríntios 7.10",
+                    "texto": "eu, mas o Senhor, que a mulher se não aparte do M.."
+                },
+                {
+                    "referencia": "1 Coríntios 7.11",
+                    "texto": "ou que se reconcile com o M.; e que o M."
+                },
+                {
+                    "referencia": "1 Coríntios 7.11",
+                    "texto": "como M.; e que o M. não deixe a mulher."
+                },
+                {
+                    "referencia": "1 Coríntios 7.13",
+                    "texto": "E se alguma mulher tem M. descrente, e ele"
+                },
+                {
+                    "referencia": "1 Coríntios 7.14",
+                    "texto": "Porque o M. descrente é santificado pela mulher,"
+                },
+                {
+                    "referencia": "1 Coríntios 7.14",
+                    "texto": "é santificada pelo M.. Doutra sorte, os"
+                },
+                {
+                    "referencia": "1 Coríntios 7.16",
+                    "texto": "ó mulher, se salvarás teu M.? Ou, donde"
+                },
+                {
+                    "referencia": "1 Coríntios 7.16",
+                    "texto": "teu M.? Ou, donde sabes, ó M., se salvarás"
+                },
+                {
+                    "referencia": "1 Coríntios 7.34",
+                    "texto": "das coisas do mundo, em como há de agradar ao M.."
+                },
+                {
+                    "referencia": "1 Coríntios 7.39",
+                    "texto": "todo o tempo em que o seu M. vive; mas, se"
+                },
+                {
+                    "referencia": "1 Coríntios 7.39",
+                    "texto": "vive; mas, se falecer o seu M., fica livre para"
+                },
+                {
+                    "referencia": "2 Coríntios 11.2",
+                    "texto": "como uma virgem pura a um MÌ., a saber a Cristo."
+                },
+                {
+                    "referencia": "Gálatas 4.27",
+                    "texto": "da solitária são mais do que os da que tem M.."
+                },
+                {
+                    "referencia": "Efésios 5.22",
+                    "texto": "mulheres, sujeitai-vos a vosso M., como ao Senhor;"
+                },
+                {
+                    "referencia": "Efésios 5.23",
+                    "texto": "porque o M. é a cabeça da mulher, como também"
+                },
+                {
+                    "referencia": "Efésios 5.24",
+                    "texto": "também as mulheres sejam em tudo sujeitas a seu ML."
+                },
+                {
+                    "referencia": "Efésios 5.33",
+                    "texto": "mulher como a si mesmo, e a mulher reverencieo M.."
+                },
+                {
+                    "referencia": "Colossenses 3.18",
+                    "texto": "sujeitas a vosso próprio M., como convém no Senhor."
+                },
+                {
+                    "referencia": "1 Timóteo 2.12",
+                    "texto": "nem use de autoridade sobre o M., mas que esteja"
+                },
+                {
+                    "referencia": "1 Timóteo 3.2",
+                    "texto": "o bispo seja irrepreensível, M. de uma mulher,"
+                },
+                {
+                    "referencia": "1 Timóteo 5.9",
+                    "texto": "anos, e só a que tenha sido mulher de um só ML;"
+                },
+                {
+                    "referencia": "Tito 1.6",
+                    "texto": "que for irrepreensível, M. de uma mulher, que"
+                },
+                {
+                    "referencia": "Tito 2.5",
+                    "texto": "donas de casa, sujeitas a seu M., a fim de que a"
+                },
+                {
+                    "referencia": "1 Pedro 3.1",
+                    "texto": "sujeitas ao vosso próprio M., para que"
+                },
+                {
+                    "referencia": "1 Pedro 3.5",
+                    "texto": "em Deus e estavam sujeitas ao seu próprio M.,"
+                },
+                {
+                    "referencia": "Apocalipse 21.2",
+                    "texto": "adereçada como uma esposa ataviada para o seu M.."
+                }
+            ]
+        }
+    ]
+}

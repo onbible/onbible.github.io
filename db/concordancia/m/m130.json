@@ -1,0 +1,506 @@
+{
+    "m": [
+        {
+            "palavra": "MESMOS",
+            "veja tambem": [
+                "mesmo"
+            ],
+            "ocorrencias": 123,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Êxodo 5.7",
+                    "texto": "ontem e anteontem; vão eles M, e colham palha"
+                },
+                {
+                    "referencia": "Êxodo 5.11",
+                    "texto": "ide vós M., e tomai vós palha de onde a achardes;"
+                },
+                {
+                    "referencia": "Êxodo 30.37",
+                    "texto": "não o fareis para vós M.; santo será para o Senhor."
+                },
+                {
+                    "referencia": "Levítico 19.34",
+                    "texto": "amá-lo-eis como a vós M., pois"
+                },
+                {
+                    "referencia": "Números 14.37",
+                    "texto": "aqueles M. homens, que infamaram a terra,"
+                },
+                {
+                    "referencia": "Josué 24.22",
+                    "texto": "Sois testemunhas contra vós M, de que vós"
+                },
+                {
+                    "referencia": "Juízes 15.12",
+                    "texto": "lhes disse: Jurai-me que vós M. me não acometereis."
+                },
+                {
+                    "referencia": "Juízes 18.1",
+                    "texto": "havia rei em Israel, e nos M, dias a tribo dos"
+                },
+                {
+                    "referencia": "2 Crônicas 28.10",
+                    "texto": "porventura, não sois vós M. aqueles entre"
+                },
+                {
+                    "referencia": "2 Crônicas 32.21",
+                    "texto": "entrando na casa de seu deus, os M. que"
+                },
+                {
+                    "referencia": "Esdras 6.20",
+                    "texto": "e para seus irmãos, os sacerdotes, e parasi M.."
+                },
+                {
+                    "referencia": "Neemias 13.25",
+                    "texto": "filhas, nem para vossos filhos nem para vós M.."
+                },
+                {
+                    "referencia": "Ester 9.31",
+                    "texto": "estabelecido e como eles M. já o tinham"
+                },
+                {
+                    "referencia": "Jó 19.29",
+                    "texto": "Temei vós M. a espada; porque o furor traz os"
+                },
+                {
+                    "referencia": "Eclesiastes 3.18",
+                    "texto": "e eles possam ver que são em si M. como os animais."
+                },
+                {
+                    "referencia": "Isaías 3.9",
+                    "texto": "Ai da sua alma! Porque se fazem mala si M.."
+                },
+                {
+                    "referencia": "Isaías 5.21",
+                    "texto": "a seus próprios olhos e prudentes diante de si M.!"
+                },
+                {
+                    "referencia": "Isaías 44.11",
+                    "texto": "confundidos, pois os M. artífices são"
+                },
+                {
+                    "referencia": "Isaías 59.8",
+                    "texto": "tortuosas, as fizeram para si M.; todo aquele que"
+                },
+                {
+                    "referencia": "Jeremias 5.13",
+                    "texto": "não está com eles; assim lhes sucederá a des"
+                },
+                {
+                    "referencia": "Jeremias 7.19",
+                    "texto": "o Senhor, e não antes a si M., para contusão"
+                },
+                {
+                    "referencia": "Jeremias 11.17",
+                    "texto": "e da casa de Judá, que para si M. fizeram, pois"
+                },
+                {
+                    "referencia": "Jeremias 12.6",
+                    "texto": "deslealmente contigo; eles M., clamam após ti em"
+                },
+                {
+                    "referencia": "Jeremias 44.8",
+                    "texto": "peregrinardes, para que a vós M. vos"
+                },
+                {
+                    "referencia": "Ezequiel 69",
+                    "texto": "seus ídolos; e terão nojo de si M., por causa"
+                },
+                {
+                    "referencia": "Ezequiel 10.15",
+                    "texto": "ao alto; estes são os M. animais que vi"
+                },
+                {
+                    "referencia": "Ezequiel 20.30",
+                    "texto": "Vós vos contaminais a vós M., à maneira de"
+                },
+                {
+                    "referencia": "Ezequiel 20.43",
+                    "texto": "e tereis nojo de vós M., por todas as"
+                },
+                {
+                    "referencia": "Ezequiel 34.2",
+                    "texto": "Israel que se apascentam a si M.! Não"
+                },
+                {
+                    "referencia": "Ezequiel 34.8",
+                    "texto": "pois se apascentam a si M. e não"
+                },
+                {
+                    "referencia": "Ezequiel 34.10",
+                    "texto": "se apascentarão mais asi M; elivrarei as"
+                },
+                {
+                    "referencia": "Ezequiel 36.7",
+                    "texto": "ao redor de vós levem o seu opróbrio sobre si M.."
+                },
+                {
+                    "referencia": "Ezequiel 36.31",
+                    "texto": "bons; e tereis nojo em vós MI. das vossas"
+                },
+                {
+                    "referencia": "Ezequiel 44.8",
+                    "texto": "vos constituístes a vós M. guardas da minha"
+                },
+                {
+                    "referencia": "Oséias 4.14",
+                    "texto": "quando adulteram; porque eles M. com as"
+                },
+                {
+                    "referencia": "Amós 5.26",
+                    "texto": "a estrela do vosso deus, que fizestes para vós ML."
+                },
+                {
+                    "referencia": "Amós 8.14",
+                    "texto": "o caminho de Berseba; esses M. cairão e não"
+                },
+                {
+                    "referencia": "Zacarias 7.6",
+                    "texto": "bebestes, não foi para vós M. que comestes e bebestes?"
+                },
+                {
+                    "referencia": "Mateus 3.9",
+                    "texto": "e não presumais de vós M., dizendo: Temos por pai"
+                },
+                {
+                    "referencia": "Mateus 12.27",
+                    "texto": "os vossos filhos? Portanto, eles M. serão os"
+                },
+                {
+                    "referencia": "Mateus 15.16",
+                    "texto": "Jesus, porém, disse: Até vós M. estais ainda sem en-"
+                },
+                {
+                    "referencia": "Mateus 19.12",
+                    "texto": "que se castraram a si M. por causa do"
+                },
+                {
+                    "referencia": "Mateus 23.31",
+                    "texto": "Assim, vós M. testificais que sois filhos dos que"
+                },
+                {
+                    "referencia": "Marcos 4.17",
+                    "texto": "mas não têm raiz em si « antes, são temporãos;"
+                },
+                {
+                    "referencia": "Marcos 9.50",
+                    "texto": "o adubareis? Tende sal em vós M. e paz, uns com"
+                },
+                {
+                    "referencia": "Marcos 13.9",
+                    "texto": "Mas olhai por vós M., porque vos entregarão aos"
+                },
+                {
+                    "referencia": "Marcos 14.4",
+                    "texto": "E alguns houve que em si M se indignaram e"
+                },
+                {
+                    "referencia": "Lucas 1.2",
+                    "texto": "nos transmitiram os M. que os presenciaram"
+                },
+                {
+                    "referencia": "Lucas 3.8",
+                    "texto": "não comeceis a dizer em vós M.: Temos Abraão por"
+                },
+                {
+                    "referencia": "Lucas 7.30",
+                    "texto": "conselho de Deus contra si M., não tendo sido"
+                },
+                {
+                    "referencia": "Lucas 11.46",
+                    "texto": "difíceis de transportar, e vós ML. nem ainda com"
+                },
+                {
+                    "referencia": "Lucas 11.52",
+                    "texto": "a chave da ciência! Vós M. não entrastes e"
+                },
+                {
+                    "referencia": "Lucas 12.57",
+                    "texto": "que não julgais também por vós M. o que é justo?"
+                },
+                {
+                    "referencia": "Lucas 16.15",
+                    "texto": "que vos justificais a vós M. diante dos homens,"
+                },
+                {
+                    "referencia": "Lucas 17.3",
+                    "texto": "Olhai por vós M.. E, se teu irmão pecar contra"
+                },
+                {
+                    "referencia": "Lucas 18.9",
+                    "texto": "a uns que confiavam em si M., crendo que eram"
+                },
+                {
+                    "referencia": "Lucas 21.30",
+                    "texto": "brotar, vós sabeis por vós M., vendo-as, que"
+                },
+                {
+                    "referencia": "Lucas 22.71",
+                    "texto": "necessitamos? Pois nós M. o ouvimos da sua boca."
+                },
+                {
+                    "referencia": "Jó 3.28",
+                    "texto": "Vós M. me sois testemunhas de que disse: eu não"
+                },
+                {
+                    "referencia": "Jó 442",
+                    "texto": "que nós cremos, porque nós M, o temos ouvido e"
+                },
+                {
+                    "referencia": "Jó 6.53",
+                    "texto": "beberdes o seu sangue, não tereis vida em vós M.."
+                },
+                {
+                    "referencia": "Jó 17.13",
+                    "texto": "para que tenham a minha alegria completa em si M.."
+                },
+                {
+                    "referencia": "Atos 2.22",
+                    "texto": "por ele fez no meio de vós, como vós MÍ. bem sabeis;"
+                },
+                {
+                    "referencia": "Atos 16.37",
+                    "texto": "Não será assim; mas venham eles M. e"
+                },
+                {
+                    "referencia": "Atos 18.15",
+                    "texto": "que entre vós há, vede-o vós M.; porque eu não"
+                },
+                {
+                    "referencia": "Atos 20.30",
+                    "texto": "E que, dentre vós M., se levantarão homens que"
+                },
+                {
+                    "referencia": "Atos 20.34",
+                    "texto": "Vós M. sabeis que, para o que me era necessário,"
+                },
+                {
+                    "referencia": "Atos 24.15",
+                    "texto": "em Deus, como estes M. também esperam, de"
+                },
+                {
+                    "referencia": "Atos 24.20",
+                    "texto": "Ou digam estes M. se acharam em mim alguma"
+                },
+                {
+                    "referencia": "Romanos 1.27",
+                    "texto": "torpeza e recebendo em si M, a recompensa"
+                },
+                {
+                    "referencia": "Romanos 2.14",
+                    "texto": "são da lei, não tendo eles lei, para si M. são lei,"
+                },
+                {
+                    "referencia": "Romanos 8.23",
+                    "texto": "E não só ela, mas nós M., que temos as primícias"
+                },
+                {
+                    "referencia": "Romanos 8.23",
+                    "texto": "também gememos em nós M., esperando a"
+                },
+                {
+                    "referencia": "Romanos 11.25",
+                    "texto": "que não presumais de vós ML): que o"
+                },
+                {
+                    "referencia": "Romanos 12.16",
+                    "texto": "às humildes; não sejais sábios em vós ML."
+                },
+                {
+                    "referencia": "Romanos 12.19",
+                    "texto": "Não vos vingueis a vós M., amados, mas dai lugar"
+                },
+                {
+                    "referencia": "Romanos 13.2",
+                    "texto": "e os que resistem trarão sobre si M. a condenação."
+                },
+                {
+                    "referencia": "Romanos 15.1",
+                    "texto": "as fraquezas dos fracos e não agradar a nós M.."
+                },
+                {
+                    "referencia": "Romanos 15.14",
+                    "texto": "a respeito de vós, que vós M. estais cheios"
+                },
+                {
+                    "referencia": "1 Coríntios 6.8",
+                    "texto": "Mas vós MI. fazeis a injustiça e fazeis o dano e"
+                },
+                {
+                    "referencia": "1 Coríntios 6.19",
+                    "texto": "vós, proveniente de Deus, e que não sois de vós M.?"
+                },
+                {
+                    "referencia": "1 Coríntios 10.15",
+                    "texto": "Falo como a sábios; julgai vós M. o que digo."
+                },
+                {
+                    "referencia": "1 Coríntios 11.13",
+                    "texto": "Julgai entre vós M.: é decente que a mulher ore a"
+                },
+                {
+                    "referencia": "pes 11.31",
+                    "texto": "nós nos julgássemos a nós M., não seríamos jul-"
+                },
+                {
+                    "referencia": "2 Coríntios 1.9",
+                    "texto": "Mas já em nós M. tínhamos a sentença de morte,"
+                },
+                {
+                    "referencia": "2 Coríntios 3.1",
+                    "texto": "vez a louvar-nos a nós ML.? Ou necessitamos,"
+                },
+                {
+                    "referencia": "2 Coríntios 3.5",
+                    "texto": "alguma coisa, como de nós M., mas a nossa"
+                },
+                {
+                    "referencia": "2 Coríntios 4.5",
+                    "texto": "não nos pregamos a nós MÍ., mas a Cristo"
+                },
+                {
+                    "referencia": "2 Coríntios 4.5",
+                    "texto": "Cristo Jesus, o Senhor; e nós M., somos vossos"
+                },
+                {
+                    "referencia": "2 Coríntios 8.5",
+                    "texto": "mas também a si M. se deram"
+                },
+                {
+                    "referencia": "2 Coríntios 10.12",
+                    "texto": "alguns que se louvam a si ML; mas esses que se"
+                },
+                {
+                    "referencia": "2 Coríntios 10.12",
+                    "texto": "e se comparam consigo M. estão sem entendimen-"
+                },
+                {
+                    "referencia": "2 Coríntios 13.5",
+                    "texto": "Examinai-vos a vós M. se permaneceis na fé;"
+                },
+                {
+                    "referencia": "2 Coríntios 13.5",
+                    "texto": "Ou não sabeis, quanto a vós M., que Jesus"
+                },
+                {
+                    "referencia": "Gálatas 1.8",
+                    "texto": "Mas, ainda que nós MI. ou um anjo do céu vos"
+                },
+                {
+                    "referencia": "G12.17",
+                    "texto": "justificados em Cristo, nós M. também somos"
+                },
+                {
+                    "referencia": "Gálatas 6.13",
+                    "texto": "Porque nem ainda esses M., que se circuncidam"
+                },
+                {
+                    "referencia": "Filipenses 3.19",
+                    "texto": "deles é para confusão deles M, que só pensam"
+                },
+                {
+                    "referencia": "1 Tessalonicenses 1.9",
+                    "texto": "porque eles M. anunciam de nós qual a entrada que"
+                },
+                {
+                    "referencia": "1 Tessalonicenses 2.1",
+                    "texto": "Porque vós M., irmãos, bem sabeis que a nossa"
+                },
+                {
+                    "referencia": "1 Tessalonicenses 3.3",
+                    "texto": "tribulações; porque vós M. sabeis que para"
+                },
+                {
+                    "referencia": "1 Tessalonicenses 4.9",
+                    "texto": "que vos escreva, visto que vós M. estais"
+                },
+                {
+                    "referencia": "1 Tessalonicenses 5.2",
+                    "texto": "porque vós M. sabeis muito bem que o Dia do"
+                },
+                {
+                    "referencia": "2 Tessalonicenses 1.4",
+                    "texto": "de maneira que nós M., nos gloriamos de vós nas"
+                },
+                {
+                    "referencia": "2 Tessalonicenses 3.7",
+                    "texto": "Porque vós M. sabeis como convém imitar-nos, pois"
+                },
+                {
+                    "referencia": "a 3.9",
+                    "texto": "mas para vos dar em nós M, exemplo, para nos imi-"
+                },
+                {
+                    "referencia": "1 Timóteo 6.10",
+                    "texto": "da fé e se traspassaram a si M, com muitas dores."
+                },
+                {
+                    "referencia": "1 Timóteo 6.19",
+                    "texto": "que entesourem para si M. um bom fundamento"
+                },
+                {
+                    "referencia": "Hebreus 10.1",
+                    "texto": "das coisas, nunca, pelos M, sacrifícios que"
+                },
+                {
+                    "referencia": "Hebreus 10.11",
+                    "texto": "oferecendo muitas vezes os M. sacrifícios, que"
+                },
+                {
+                    "referencia": "Hebreus 10.34",
+                    "texto": "bens, sabendo que, em vós M., tendes nos céus"
+                },
+                {
+                    "referencia": "Hebreus 13.3",
+                    "texto": "maltratados, como sendo-o vós M. também no corpo."
+                },
+                {
+                    "referencia": "Tiago 2.4",
+                    "texto": "distinção dentro de vós M. e não vos fizestes"
+                },
+                {
+                    "referencia": "1 Pedro 1.12",
+                    "texto": "revelado que, não para si M., mas para nós,"
+                },
+                {
+                    "referencia": "2 Pedro 1.16",
+                    "texto": "compostas, mas nós MÍ. vimos a sua majestade,"
+                },
+                {
+                    "referencia": "2 Pedro 2.1",
+                    "texto": "resgatou, trazendo sobre si M. repentina perdição."
+                },
+                {
+                    "referencia": "2 Pedro 2.19",
+                    "texto": "liberdade, sendo eles M. servos da"
+                },
+                {
+                    "referencia": "1 João 1.8",
+                    "texto": "pecado, enganamo-nos a nós M., e não há verdade"
+                },
+                {
+                    "referencia": "2 João 1.8",
+                    "texto": "Olhai por vós M., para que não percamos o que"
+                },
+                {
+                    "referencia": "Judas 1.12",
+                    "texto": "e apascentando-se a si M. sem temor; são"
+                },
+                {
+                    "referencia": "Judas 1.20",
+                    "texto": "amados, edificando-vos a vós M. sobre a vossa"
+                },
+                {
+                    "referencia": "Judas 1.21",
+                    "texto": "conservai a vós M. no amor de Deus, esperando a"
+                },
+                {
+                    "referencia": "Apocalipse 1.7",
+                    "texto": "etodo olho o verá, até os M, que o"
+                }
+            ]
+        }
+    ]
+}

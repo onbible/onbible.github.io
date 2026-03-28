@@ -1,0 +1,67 @@
+{
+  "livro": "Gênesis - בְּרֵאשִׁית - Bereshit",
+  "capítulo": 33,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E levantou Jacó seus olhos e viu, e eis que Esaú vinha, e com ele quatrocentos homens; então repartiu os filhos entre Lia e Raquel, e as duas servas.",
+      "palavras": [
+        { "hebraico": "וַיִּשָּׂ֨א", "transliteral": "wa-yiś-śā", "traducao_palavra": "e levantou" },
+        { "hebraico": "יַעֲקֹ֜ב", "transliteral": "Ya-ʿă-qōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "עֵינָ֗יו", "transliteral": "ʿê-nāw", "traducao_palavra": "seus olhos" },
+        { "hebraico": "וַיַּרְא֙", "transliteral": "wa-yar", "traducao_palavra": "e viu" },
+        { "hebraico": "וְהִנֵּ֣ה", "transliteral": "wĕ-hin-nēh", "traducao_palavra": "e eis" },
+        { "hebraico": "עֵשָׂ֣ו", "transliteral": "ʿĒ-śāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "בָּ֔א", "transliteral": "bā", "traducao_palavra": "vinha" },
+        { "hebraico": "וְעִמּ֕וֹ", "transliteral": "wĕ-ʿim-mō", "traducao_palavra": "e com ele" },
+        { "hebraico": "אַרְבַּ֥ע", "transliteral": "ʾar-baʿ", "traducao_palavra": "quatro" },
+        { "hebraico": "מֵא֖וֹת", "transliteral": "mē-ʾōṯ", "traducao_palavra": "centenas de" },
+        { "hebraico": "אִ֑ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homens" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E correu Esaú ao seu encontro e o abraçou, e caiu sobre seu pescoço e o beijou; e choraram.",
+      "palavras": [
+        { "hebraico": "וַיָּ֨רָץ", "transliteral": "wa-yā-rāṣ", "traducao_palavra": "e correu" },
+        { "hebraico": "עֵשָׂ֤ו", "transliteral": "ʿĒ-śāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "לִקְרָאתֹו֙", "transliteral": "liq-rā-ṯō", "traducao_palavra": "ao seu encontro" },
+        { "hebraico": "וַֽיְחַבְּקֵ֔הוּ", "transliteral": "way-ḥab-bĕ-qē-hū", "traducao_palavra": "e o abraçou" },
+        { "hebraico": "וַיִּפֹּ֥ל", "transliteral": "wa-yip-pōl", "traducao_palavra": "e caiu" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "צַוָּארָ֖ו", "transliteral": "ṣaw-wā-rāw", "traducao_palavra": "seu pescoço" },
+        { "hebraico": "וַיִּשָּׁקֵ֑הוּ", "transliteral": "wa-yiš-šā-qē-hū", "traducao_palavra": "e o beijou" },
+        { "hebraico": "וַיִּבְכּֽוּ׃", "transliteral": "wa-yiḇ-kū", "traducao_palavra": "e choraram" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E disse Jacó: Não, rogo-te; se agora achei graça em teus olhos, recebe o meu presente da minha mão; porquanto vi o teu rosto, como quem vê o rosto de Deus, e te agradaste de mim.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "wa-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יַעֲקֹ֗ב", "transliteral": "Ya-ʿă-qōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "נָא֙", "transliteral": "nā", "traducao_palavra": "rogo-te" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "se" },
+        { "hebraico": "נָ֨א", "transliteral": "nā", "traducao_palavra": "agora" },
+        { "hebraico": "מָצָ֤אתִי", "transliteral": "mā-ṣā-ṯî", "traducao_palavra": "achei" },
+        { "hebraico": "חֵן֙", "transliteral": "ḥēn", "traducao_palavra": "graça" },
+        { "hebraico": "בְּעֵינֶ֔יךָ", "transliteral": "bĕ-ʿê-ne-ḵā", "traducao_palavra": "em teus olhos" },
+        { "hebraico": "וְלָקַחְתָּ֥", "transliteral": "wĕ-lā-qaḥ-tā", "traducao_palavra": "então recebe" },
+        { "hebraico": "מִנְחָתִ֖י", "transliteral": "min-ḥā-ṯî", "traducao_palavra": "meu presente" },
+        { "hebraico": "מִיָּדִ֑י", "transliteral": "mi-yā-dî", "traducao_palavra": "de minha mão" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E levantou ali um altar; e chamou-o: Deus, o Deus de Israel.",
+      "palavras": [
+        { "hebraico": "וַיַּצֶּב־", "transliteral": "wa-yaṣ-ṣeḇ-", "traducao_palavra": "e levantou/erigiu" },
+        { "hebraico": "שָׁ֖ם", "transliteral": "šām", "traducao_palavra": "ali" },
+        { "hebraico": "מִזְבֵּ֑חַ", "transliteral": "miz-bē-aḥ", "traducao_palavra": "um altar" },
+        { "hebraico": "וַיִּקְרָא־", "transliteral": "wa-yiq-rā-", "traducao_palavra": "e chamou-o" },
+        { "hebraico": "לֹ֔ו", "transliteral": "lō", "traducao_palavra": "para ele" },
+        { "hebraico": "אֵ֖ל", "transliteral": "ʾēl", "traducao_palavra": "Deus" },
+        { "hebraico": "אֱלֹהֵ֥י", "transliteral": "ʾĕ-lō-hê", "traducao_palavra": "o Deus de" },
+        { "hebraico": "יִשְׂרָאֵֽל׃", "transliteral": "Yiś-rā-ʾēl", "traducao_palavra": "Israel" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+    "m": [
+        {
+            "palavra": "MANASSITAS",
+            "veja tambem": [],
+            "ocorrencias": 4,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Deuteronômio 4.43",
+                    "texto": "para os gaditas; e a Golã, em Basă, para os M.."
+                },
+                {
+                    "referencia": "Deuteronômio 298",
+                    "texto": "e aos gaditas, e à meia tribo dos M.."
+                },
+                {
+                    "referencia": "2 Reis 10.33",
+                    "texto": "gaditas, e os rubenitas, eos M., desde"
+                },
+                {
+                    "referencia": "1 Crônicas 26.32",
+                    "texto": "e os gaditas, e a meia tribo dos M., para"
+                }
+            ]
+        },
+        {
+            "palavra": "MANATITAS",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "1 Crônicas 2.54",
+                    "texto": "e metade dos M., e os zoreus."
+                }
+            ]
+        },
+        {
+            "palavra": "MANAVA",
+            "veja tambem": [
+                "manar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Daniel 7.10",
+                    "texto": "Um rio de fogo M. e safa de diante dele; milhares"
+                }
+            ]
+        }
+    ]
+}

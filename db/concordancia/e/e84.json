@@ -1,0 +1,34 @@
+{
+    "e": [
+        {
+            "palavra": "ENORME",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Atos 18.14",
+                    "texto": "ó judeus, algum agravo ou crime E., com razão vos"
+                }
+            ]
+        },
+        {
+            "palavra": "ENORMES",
+            "veja tambem": [
+                "enorme"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "Amós 5.12",
+                    "texto": "as vossas transgressões e E. os vossos pecados;"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,758 @@
+{
+    "g": [
+        {
+            "palavra": "GEROU",
+            "veja tambem": [
+                "gerar"
+            ],
+            "ocorrencias": 186,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 4.18",
+                    "texto": "nasceu Irade, e Irade G. a Meujael, e"
+                },
+                {
+                    "referencia": "Gênesis 418",
+                    "texto": "e Meujael G. a Metusael, e Metusael G. a Lameque."
+                },
+                {
+                    "referencia": "Gênesis 5.3",
+                    "texto": "cento e trinta anos, e G. um filho à sua"
+                },
+                {
+                    "referencia": "Gênesis 54",
+                    "texto": "os dias de Adão, depois que G, a Sete, oitocentos"
+                },
+                {
+                    "referencia": "Gênesis 5.4",
+                    "texto": "G. a Sete, oitocentos anos, e G, filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 5.6",
+                    "texto": "E viveu Sete cento e cinco anos e G. a Enos."
+                },
+                {
+                    "referencia": "Gênesis 5.7",
+                    "texto": "E viveu Sete, depois que G. a Enos, oitocentos e"
+                },
+                {
+                    "referencia": "Gênesis 5.7",
+                    "texto": "a Enos, oitocentos e sete anos e G, filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 5.9",
+                    "texto": "E viveu Enos noventa anos; e G. a Cainã."
+                },
+                {
+                    "referencia": "Gênesis 5.10",
+                    "texto": "E viveu Enos, depois que G. a Cainã, oitocentos e"
+                },
+                {
+                    "referencia": "Gênesis 5.10",
+                    "texto": "oitocentos e quinze anos e G, filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 5.12",
+                    "texto": "E viveu Cainã setenta anos e G. a Maalalel."
+                },
+                {
+                    "referencia": "Gênesis 5.13",
+                    "texto": "E viveu Caină, depois que G, a Maalalel,"
+                },
+                {
+                    "referencia": "Gênesis 5.13",
+                    "texto": "oitocentos e quarenta anos e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 5.15",
+                    "texto": "viveu Maalalel sessenta e cinco anos e G. a Jarede."
+                },
+                {
+                    "referencia": "Gênesis 5.16",
+                    "texto": "viveu Maalalel, depois que G. a Jarede,"
+                },
+                {
+                    "referencia": "Gênesis 5.16",
+                    "texto": "oitocentos e trinta anos e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 5.18",
+                    "texto": "Jarede cento e sessenta e dois anos e G, a Enoque."
+                },
+                {
+                    "referencia": "Gênesis 5.19",
+                    "texto": "E viveu Jarede, depois que G, a Enoque, oitocentos"
+                },
+                {
+                    "referencia": "Gênesis 5.19",
+                    "texto": "a Enoque, oitocentos anos e G., filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 5.21",
+                    "texto": "viveu Enoque sessenta e cinco anos e G, a Metusalém"
+                },
+                {
+                    "referencia": "Gênesis 5.22",
+                    "texto": "Enoque com Deus, depois que G. a Metusalém,"
+                },
+                {
+                    "referencia": "Gênesis 5.22",
+                    "texto": "a Metusalém, trezentos anos e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 5.25",
+                    "texto": "cento e oitenta e sete anos e G, a Lameque."
+                },
+                {
+                    "referencia": "Gênesis 5.26",
+                    "texto": "viveu Metusalém, depois que G. a Lameque,"
+                },
+                {
+                    "referencia": "Gênesis 5.26",
+                    "texto": "e oitenta e dois anos e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 5.28",
+                    "texto": "Lameque cento e oitenta e dois anos e G. um filho."
+                },
+                {
+                    "referencia": "Gênesis 5.30",
+                    "texto": "E viveu Lameque, depois que G. a Noé, quinhentos e"
+                },
+                {
+                    "referencia": "Gênesis 5.30",
+                    "texto": "e noventa e cinco anos e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 5.32",
+                    "texto": "idade de quinhentos anos e G. Noé a Sem, Cam e Jafé."
+                },
+                {
+                    "referencia": "Gênesis 6.10",
+                    "texto": "E G. Noé três filhos: Sem, Cam e Jafé."
+                },
+                {
+                    "referencia": "Gênesis 10.8",
+                    "texto": "E Cuxe G. a Ninrode; este começou a ser poderoso"
+                },
+                {
+                    "referencia": "Gênesis 10.13",
+                    "texto": "E Mizraim G. a Ludim, e a Anamim, e a Leabim, e a"
+                },
+                {
+                    "referencia": "Gênesis 10.15",
+                    "texto": "E Canaã G, a Sidom, seu primogênito, e a Hete,"
+                },
+                {
+                    "referencia": "Gênesis 10.24",
+                    "texto": "E Arfaxade G. a Salá; e Salá G. a Éber."
+                },
+                {
+                    "referencia": "Gênesis 10.26",
+                    "texto": "E Joctã G, a Almodá, e a Selefe, e a Hazar-Mavé, e"
+                },
+                {
+                    "referencia": "Gênesis 11.10",
+                    "texto": "era da idade de cem anos e G. a Arfaxade, dois"
+                },
+                {
+                    "referencia": "Gênesis 11.11",
+                    "texto": "E viveu Sem, depois que G. a Arfaxade, quinhentos"
+                },
+                {
+                    "referencia": "Gênesis 11.11",
+                    "texto": "a Arfaxade, quinhentos anos; e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 11.12",
+                    "texto": "E viveu Arfaxade trinta e cinco anos e G. a Salá."
+                },
+                {
+                    "referencia": "Gênesis 11.13",
+                    "texto": "viveu Arfaxade, depois que G. a Salá,"
+                },
+                {
+                    "referencia": "Gênesis 11.13",
+                    "texto": "quatrocentos e três anos; e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 11.14",
+                    "texto": "E viveu Salá trinta anos e G. a Éber."
+                },
+                {
+                    "referencia": "Gênesis 11.15",
+                    "texto": "E viveu Salá, depois que G. a Eber, quatrocentos e"
+                },
+                {
+                    "referencia": "Gênesis 11.15",
+                    "texto": "quatrocentos e três anos; e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 11.16",
+                    "texto": "E viveu Éber trinta e quatro anos e G. a Pelegue."
+                },
+                {
+                    "referencia": "Gênesis 11.17",
+                    "texto": "E viveu Éber, depois que G. a Pelegue,"
+                },
+                {
+                    "referencia": "Gênesis 11.17",
+                    "texto": "quatrocentos e trinta anos; e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 11.18",
+                    "texto": "E viveu Pelegue trinta anos e G. a Reú."
+                },
+                {
+                    "referencia": "Gênesis 11.19",
+                    "texto": "E viveu Pelegue, depois que G. a Reú, duzentos e"
+                },
+                {
+                    "referencia": "Gênesis 11.19",
+                    "texto": "a Reú, duzentos e nove anos; e G, filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 11.20",
+                    "texto": "E viveu Reú trinta e dois anos e G. a Serugue."
+                },
+                {
+                    "referencia": "Gênesis 11.21",
+                    "texto": "E viveu Reú, depois que G. a Serugue, duzentos e"
+                },
+                {
+                    "referencia": "Gênesis 11.21",
+                    "texto": "Serugue, duzentos e sete anos; e Q. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 11.22",
+                    "texto": "E viveu Serugue trinta anos e G, a Naor."
+                },
+                {
+                    "referencia": "Gênesis 11.23",
+                    "texto": "E viveu Serugue, depois que G. a Naor, duzentos"
+                },
+                {
+                    "referencia": "Gênesis 11.23",
+                    "texto": "G. a Naor, duzentos anos; e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 11.24",
+                    "texto": "E viveu Naor vinte e nove anos e G, a Tera."
+                },
+                {
+                    "referencia": "Gênesis 11.25",
+                    "texto": "E viveu Naor, depois que G. a Tera, cento e"
+                },
+                {
+                    "referencia": "Gênesis 11.25",
+                    "texto": "a Tera, cento e dezenove anos; e G. filhos e filhas."
+                },
+                {
+                    "referencia": "Gênesis 11.26",
+                    "texto": "viveu Tera setenta anos e G. a Abrão, a Naor e a Harã"
+                },
+                {
+                    "referencia": "Gênesis 11.27",
+                    "texto": "as gerações de Tera: Tera G, a Abrão, a Naor e a"
+                },
+                {
+                    "referencia": "Gênesis 11.27",
+                    "texto": "Tera G. a Abrão, a Naor e a Harã; e Harã G. a Ló."
+                },
+                {
+                    "referencia": "Gênesis 22.23",
+                    "texto": "E Betuel G. Rebeca. Estes oito deu Milca a Naor,"
+                },
+                {
+                    "referencia": "Gênesis 24.36",
+                    "texto": "a mulher do meu senhor, G. um filho a meu"
+                },
+                {
+                    "referencia": "Gênesis 24.47",
+                    "texto": "Betuel, filho de Naor, que lhe G. Milca. Então,"
+                },
+                {
+                    "referencia": "Gênesis 25.3",
+                    "texto": "E Jocsã G. a Seba e a Dedã; e os filhos de Dedã"
+                },
+                {
+                    "referencia": "Gênesis 25.19",
+                    "texto": "de Isaque, filho de Abraão: Abraão G. a Isaque;"
+                },
+                {
+                    "referencia": "Gênesis 25.26",
+                    "texto": "E era Isaque da idade de sessenta anos quando os G."
+                },
+                {
+                    "referencia": "Números 26.29",
+                    "texto": "dos maguiritas; e Maquir G. a Gileade; de"
+                },
+                {
+                    "referencia": "Números 26.58",
+                    "texto": "musitas, a família dos coraítas; e Coate G. a Anrão."
+                },
+                {
+                    "referencia": "Números 26.59",
+                    "texto": "Levi no Egito; e esta, a Anrão G. Arão, e Moisés,"
+                },
+                {
+                    "referencia": "Deuteronômio 32.18",
+                    "texto": "da Rocha que te G.; e em esquecimento"
+                },
+                {
+                    "referencia": "Rute 4.18",
+                    "texto": "são, pois, as gerações de Perez: Perez G. a Esrom,"
+                },
+                {
+                    "referencia": "Rute 4.19",
+                    "texto": "e Esrom G. a Arão, e Arão G. a Aminadabe,"
+                },
+                {
+                    "referencia": "Rute 4.20",
+                    "texto": "e Aminadabe G. a Naassom, e Naassom G. a Salmom,"
+                },
+                {
+                    "referencia": "Rute 4.21",
+                    "texto": "e Salmom G. a Boaz, e Boaz G. a Obede,"
+                },
+                {
+                    "referencia": "Rute 4.22",
+                    "texto": "e Obede G. a Jessé, e Jessé G, a Davi."
+                },
+                {
+                    "referencia": "1 Crônicas 1.10",
+                    "texto": "E Cuxe G. a Ninrode, que começou a ser poderoso"
+                },
+                {
+                    "referencia": "1 Crônicas 1.11",
+                    "texto": "E Mizraim G. os ludeus, e os anameus, e os"
+                },
+                {
+                    "referencia": "1 Crônicas 1.13",
+                    "texto": "E Canaã G. a Sidom, seu primogênito, e a Hete,"
+                },
+                {
+                    "referencia": "1 Crônicas 1.18",
+                    "texto": "E Arfaxade G. a Selá, e Selá G. a Héber."
+                },
+                {
+                    "referencia": "1 Crônicas 1.20",
+                    "texto": "E Joctã G. a Almodá, e a Selefe, e a Hazar-Mavé, e"
+                },
+                {
+                    "referencia": "1 Crônicas 1.34",
+                    "texto": "Abraão, pois, G. a Isaque; e foram os filhos de"
+                },
+                {
+                    "referencia": "1 Crônicas 2.10",
+                    "texto": "E Rão G. a Aminadabe, e Aminadabe G. a Naassom,"
+                },
+                {
+                    "referencia": "1 Crônicas 2.10",
+                    "texto": "a Aminadabe, e Aminadabe G. a Naassom, príncipe"
+                },
+                {
+                    "referencia": "1 Crônicas 2.11",
+                    "texto": "e Naassom G. a Salma, e Salma G. a Boaz;"
+                },
+                {
+                    "referencia": "1 Crônicas 2.12",
+                    "texto": "e Boaz G. a Obede, e Obede G. a Jessé;"
+                },
+                {
+                    "referencia": "1 Crônicas 2.13",
+                    "texto": "e Jessé G, a Eliabe, seu primogênito, e Abinadabe,"
+                },
+                {
+                    "referencia": "1 Crônicas 2.18",
+                    "texto": "E Calebe, filho de Hezrom, G. filhos de Azuba, sua"
+                },
+                {
+                    "referencia": "1 Crônicas 2.20",
+                    "texto": "E Hur G. a Uri, e Uri G. a Bezalel."
+                },
+                {
+                    "referencia": "1 Crônicas 2.22",
+                    "texto": "E Segube G. a Jair; e este tinha vinte e três"
+                },
+                {
+                    "referencia": "1 Crônicas 2.36",
+                    "texto": "E Atai G. a Natã, e Natã G. a Zabade.,"
+                },
+                {
+                    "referencia": "1 Crônicas 2.37",
+                    "texto": "E Zabade G. a Eflal, e Eflal G. a Obede."
+                },
+                {
+                    "referencia": "1 Crônicas 2.38",
+                    "texto": "E Obede G. a Jeú, e Jeú G. a Azarias."
+                },
+                {
+                    "referencia": "1 Crônicas 2.39",
+                    "texto": "E Azarias G. a Heles, e Heles G. a Eleasa."
+                },
+                {
+                    "referencia": "1 Crônicas 2.40",
+                    "texto": "E Eleasa G. a Sismai, e Sismai G. a Salum."
+                },
+                {
+                    "referencia": "1 Crônicas 2.41",
+                    "texto": "E Salum G. a Jecamias, e Jecamias G. a Elisama."
+                },
+                {
+                    "referencia": "1 Crônicas 2.44",
+                    "texto": "E Sema G. a Raão, pai de Jorqueão; e Requém G,"
+                },
+                {
+                    "referencia": "1 Crônicas 2.44",
+                    "texto": "G. a Raão, pai de Jorqueão; e Requém G. a Samai."
+                },
+                {
+                    "referencia": "1 Crônicas 2.46",
+                    "texto": "teve a Harã, e a Mosa, e a Gazez; e Harã G. a Gazez."
+                },
+                {
+                    "referencia": "1 Crônicas 2.48",
+                    "texto": "De Maaca, concubina, G. Calebe a Seber e a Tiraná."
+                },
+                {
+                    "referencia": "1 Crônicas 4.2",
+                    "texto": "E Reaías, filho de Sobal, G. a Jaate; e Jaate"
+                },
+                {
+                    "referencia": "1 Crônicas 4.2",
+                    "texto": "Sobal, G. a Jaate; e Jaate G. a Aumai e a"
+                },
+                {
+                    "referencia": "1 Crônicas 4.8",
+                    "texto": "E Coz G. a Anube e a Zobeba; e as famílias de"
+                },
+                {
+                    "referencia": "1 Crônicas 4.11",
+                    "texto": "E Quelube, irmão de Suá, G. a Meir; este é o pai"
+                },
+                {
+                    "referencia": "1 Crônicas 4.12",
+                    "texto": "E Estom G. a Bete-Rafa, e a Paseia, e a Teina, pai"
+                },
+                {
+                    "referencia": "1 Crônicas 4.14",
+                    "texto": "E Meonotai G. a Ofra, e Seraías G. a Joabe, pai"
+                },
+                {
+                    "referencia": "1 Crônicas 4.14",
+                    "texto": "G. a Ofra, e Seraías G. a Joabe, pai dos do"
+                },
+                {
+                    "referencia": "1 Crônicas 4.18",
+                    "texto": "E sua mulher, judia, G. a Jerede, pai de Gedor, e"
+                },
+                {
+                    "referencia": "1 Crônicas 6.4",
+                    "texto": "Eleazar G, a Fineias, e Fineias G. a Abisua;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.5",
+                    "texto": "e Abisua G. a Buqui, e Buqui G, a Uzi;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.6",
+                    "texto": "e Uzi G. a Zeraías, e Zeraías G. a Meraiote;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.7",
+                    "texto": "e Meraiote G. a Amarias, e Amarias G. a Aitube;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.8",
+                    "texto": "e Aitube G, a Zadoque, e Zadoque G. a Aimaás;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.9",
+                    "texto": "e Aimaás G. a Azarias, e Azarias G. a Joanã;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.10",
+                    "texto": "e Joană G. a Azarias; este é o que administrou o"
+                },
+                {
+                    "referencia": "1 Crônicas 6.11",
+                    "texto": "E Azarias G. a Amarias, e Amarias G. a Aitube;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.12",
+                    "texto": "e Aitube G. a Zadoque, e Zadoque G. a Salum;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.13",
+                    "texto": "e Salum G, a Hilquias, e Hilquias G. a Azarias;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.14",
+                    "texto": "e Azarias G. a Serafas, e Seraías G. a Jeozadaque;"
+                },
+                {
+                    "referencia": "1 Crônicas 6.14",
+                    "texto": "Azarias G. a Seraías, e Seraías G. a Jeozadaque;"
+                },
+                {
+                    "referencia": "1 Crônicas 7.32",
+                    "texto": "E Héber G. a Jaflete, e a Somer, e a Hotão, e a"
+                },
+                {
+                    "referencia": "1 Crônicas 8.1",
+                    "texto": "E Benjamim G. a Belá, seu primogênito, a Asbel, o"
+                },
+                {
+                    "referencia": "1 Crônicas 8.7",
+                    "texto": "Gera; a estes Gera transportou e Q. a Uzá e a Aiude."
+                },
+                {
+                    "referencia": "1 Crônicas 8.8",
+                    "texto": "Husim e Baara), na terra de Moabe, G. filhos,"
+                },
+                {
+                    "referencia": "1 Crônicas 8.9",
+                    "texto": "e de Hodes, sua mulher, G. a Jobabe, e a Zíbia, e"
+                },
+                {
+                    "referencia": "1 Crônicas 8.11",
+                    "texto": "E de Husim G. a Abitube e a Elpaal."
+                },
+                {
+                    "referencia": "1 Crônicas 8.32",
+                    "texto": "E Miclote G. a Simeia, e também estes, defronte de"
+                },
+                {
+                    "referencia": "1 Crônicas 8.33",
+                    "texto": "E Ner G, a Quis, e Quis G. a Saul; e Saul G."
+                },
+                {
+                    "referencia": "1 Crônicas 8.33",
+                    "texto": "e Quis G. a Saul; e Saul G, a Jônatas, e a"
+                },
+                {
+                    "referencia": "1 Crônicas 8.34",
+                    "texto": "de Jônatas foi Meribe-Baal; e Meribe-Baal G. a Mica."
+                },
+                {
+                    "referencia": "1 Crônicas 8.36",
+                    "texto": "E Acaz G, a Jeoada, e Jeoada G. a Alemete, e a"
+                },
+                {
+                    "referencia": "1 Crônicas 8.36",
+                    "texto": "Alemete, e a Azmavete, e a Zinri; e Zinri G. a Mosa,"
+                },
+                {
+                    "referencia": "1 Crônicas 8.37",
+                    "texto": "e Mosa G. a Bineá, cujo filho foi Rafa, cujo filho"
+                },
+                {
+                    "referencia": "1 Crônicas 9.38",
+                    "texto": "E Miclote G, a Simeia, e também estes defronte de"
+                },
+                {
+                    "referencia": "1 Crônicas 9.39",
+                    "texto": "E Ner G, a Quis, e Quis G. a Saul, e Saul G."
+                },
+                {
+                    "referencia": "1 Crônicas 9.39",
+                    "texto": "e Quis G. a Saul, e Saul G. a Jônatas, e a"
+                },
+                {
+                    "referencia": "1 Crônicas 9.40",
+                    "texto": "de Jônatas foi Meribe-Baal, e Meribe-Baal G. a Mica."
+                },
+                {
+                    "referencia": "1 Crônicas 9.42",
+                    "texto": "E Acaz G. a Jaerá, e Jaerá G. a Alemete,e a"
+                },
+                {
+                    "referencia": "1 Crônicas 9.42",
+                    "texto": "Alemete, e a Azmavete, e a Zinri; e Zinri G. a Mosa."
+                },
+                {
+                    "referencia": "1 Crônicas 9.43",
+                    "texto": "E Mosa G. a Bineá, cujo filho foi Refaías, cujo"
+                },
+                {
+                    "referencia": "1 Crônicas 14.3",
+                    "texto": "mulheres em Jerusalém; e G. Davi ainda mais"
+                },
+                {
+                    "referencia": "2 Crônicas 11.21",
+                    "texto": "e sessenta concubinas; e G. vinte e oito"
+                },
+                {
+                    "referencia": "2 Crônicas 13.21",
+                    "texto": "para si catorze mulheres, e G. vinte e dois"
+                },
+                {
+                    "referencia": "2 Crônicas 24.3",
+                    "texto": "Joiada para ele duas mulheres; e G, filhos e filhas."
+                },
+                {
+                    "referencia": "Neemias 12.10",
+                    "texto": "E Jesua G. a Joiaguim, e Joiaquim G.a"
+                },
+                {
+                    "referencia": "Neemias 12.10",
+                    "texto": "e Joiaquim G. a Eliasibe, e Eliasibe G. a Joiada,"
+                },
+                {
+                    "referencia": "Neemias 12.11",
+                    "texto": "e Joiada G. a Jônatas, ggat: G. a Jadua."
+                },
+                {
+                    "referencia": "Provérbios 23.22",
+                    "texto": "Ouve a teu pai, que te G., e não desprezes a tua"
+                },
+                {
+                    "referencia": "Provérbios 23.25",
+                    "texto": "teu pai e tua mãe, e regozije-se a que te G.."
+                },
+                {
+                    "referencia": "Cânticos 3.4",
+                    "texto": "em casa de minha mãe, na câmara daquela que me G.."
+                },
+                {
+                    "referencia": "Isaías 49.21",
+                    "texto": "no teu coração: Quem me G. estes? Pois eu"
+                },
+                {
+                    "referencia": "Mateus 1.2",
+                    "texto": "Abraão G. a Isaque, e Isaque G. a Jacó, e Jacó"
+                },
+                {
+                    "referencia": "Mateus 1.2",
+                    "texto": "Isaque G. a Jacó, e Jacó G. a Judá e a seus irmãos,"
+                },
+                {
+                    "referencia": "Mateus 1.3",
+                    "texto": "e Judá G. de Tamar a Perez e a Zerá, e Perez G."
+                },
+                {
+                    "referencia": "Mateus 1.3",
+                    "texto": "ea Zerá, e Perez G. a Esrom, e Esrom G. a Arão."
+                },
+                {
+                    "referencia": "Mateus 1.4",
+                    "texto": "Arão G. a Aminadabe, e Aminadabe G. a Naassom,"
+                },
+                {
+                    "referencia": "Mateus 1.4",
+                    "texto": "e Aminadabe G. a Naassom, e Naassom G. a Salmom,"
+                },
+                {
+                    "referencia": "Mateus 1.5",
+                    "texto": "e Salmom G. de Raabe a Boaz, e Boaz G. de Rute"
+                },
+                {
+                    "referencia": "Mateus 1.5",
+                    "texto": "e Boaz G. de Rute a Obede, e Obede G. a Jessé."
+                },
+                {
+                    "referencia": "Mateus 1.6",
+                    "texto": "Jessé G. ao rei Davi, e o rei Davi G. a Salomão"
+                },
+                {
+                    "referencia": "Mateus 1.6",
+                    "texto": "ao rei Davi, e o rei Davi G. a Salomão da que"
+                },
+                {
+                    "referencia": "Mateus 1.7",
+                    "texto": "Salomão G. a Roboão, e Roboão G. a Abias, e"
+                },
+                {
+                    "referencia": "Mateus 1.7",
+                    "texto": "a Roboão, e Roboão G. a Abias, e Abias G. a Asa,"
+                },
+                {
+                    "referencia": "Mateus 1.8",
+                    "texto": "e Asa G. a Josafá, e Josafá G. a Jorão, e Jorão"
+                },
+                {
+                    "referencia": "Mateus 1.8",
+                    "texto": "Josafá, Fo G. a Jorão, e Jorão G. a Uzias,"
+                },
+                {
+                    "referencia": "Mateus 1.9",
+                    "texto": "e Uzias G. a Jotão, e Jotão G. a Acaz, e Acaz"
+                },
+                {
+                    "referencia": "Mateus 1.9",
+                    "texto": "aJotão, e Jotão G. a Acaz, e Acaz G, a Ezequias."
+                },
+                {
+                    "referencia": "Mateus 1.10",
+                    "texto": "Ezequias G. a Manassés, e Manassés G. a Amom, e"
+                },
+                {
+                    "referencia": "Mateus 1.10",
+                    "texto": "e Manassés G. a Amom, e Amom G. a Josias,"
+                },
+                {
+                    "referencia": "Mateus 1.11",
+                    "texto": "e Josias G. a Jeconias e a seus irmãos na"
+                },
+                {
+                    "referencia": "Mateus 1.12",
+                    "texto": "para a Babilônia, Jeconias G. a Salatiel, e"
+                },
+                {
+                    "referencia": "Mateus 1.12",
+                    "texto": "G. a Salatiel, e Salatiel G. a Zorobabel,"
+                },
+                {
+                    "referencia": "Mateus 1.13",
+                    "texto": "e Zorobabel G. a Abiúde, e Abiúde G, a"
+                },
+                {
+                    "referencia": "Mateus 1.13",
+                    "texto": "e Abiúde G. a Eliaquim, e Eliaquim G. a Azor,"
+                },
+                {
+                    "referencia": "Mateus 1.14",
+                    "texto": "e Azor G. a Sadoque, e Sadoque G, a Aquim, e"
+                },
+                {
+                    "referencia": "Mateus 1.14",
+                    "texto": "e Sadoque G. a Aquim, e Aquim G, a Fliúde,"
+                },
+                {
+                    "referencia": "Mateus 1.15",
+                    "texto": "e Eliúde G. a Eleazar, e Eleazar G, a Matã, e"
+                },
+                {
+                    "referencia": "Mateus 1.15",
+                    "texto": "a Eleazar, e Eleazar G. a Matã, e Matã G. a Jacó,"
+                },
+                {
+                    "referencia": "Mateus 1.16",
+                    "texto": "e Jacó G. a José, marido de Maria, da qual nasceu"
+                },
+                {
+                    "referencia": "Atos 7.8",
+                    "texto": "da circuncisão: e, assim, G. a Isaque e o"
+                },
+                {
+                    "referencia": "Atos 7.29",
+                    "texto": "estrangeiro na terra de Midiã, onde G. dois filhos."
+                },
+                {
+                    "referencia": "Tiago 1.18",
+                    "texto": "a sua vontade, ele nos G. pela palavra da"
+                },
+                {
+                    "referencia": "1 Pedro 1.3",
+                    "texto": "sua grande misericórdia, nos G. de novo para uma"
+                },
+                {
+                    "referencia": "1 João 5.1",
+                    "texto": "aquele que ama ao que o G. também ama ao que"
+                }
+            ]
+        }
+    ]
+}

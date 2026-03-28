@@ -1,0 +1,432 @@
+{
+    "h": [
+        {
+            "palavra": "HORA",
+            "veja tambem": [],
+            "ocorrencias": 105,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Josué 11.6",
+                    "texto": "porque amanhã a esta mesma H. eu os darei todos"
+                },
+                {
+                    "referencia": "Rute 2.14",
+                    "texto": "E, sendo já H. de comer, disse-lhe Boaz: Achega-te"
+                },
+                {
+                    "referencia": "iSm 20.31",
+                    "texto": "que envia e traze-mo nesta H., porque é digno de"
+                },
+                {
+                    "referencia": "2 Samuel 11.2",
+                    "texto": "E aconteceu, a H, da tarde, que Davi se levantou do"
+                },
+                {
+                    "referencia": "Isaías 26.17",
+                    "texto": "quando está próxima a sua H., tem dores de parto"
+                },
+                {
+                    "referencia": "Daniel 3.6",
+                    "texto": "não a adorar será na mesma H. lançado dentro do"
+                },
+                {
+                    "referencia": "Daniel 3.15",
+                    "texto": "não adorardes, sereis lançados, na mesma H., dentro"
+                },
+                {
+                    "referencia": "Daniel 4.19",
+                    "texto": "esteve atônito quase uma H., e os seus"
+                },
+                {
+                    "referencia": "Daniel 4.33",
+                    "texto": "Na mesma H., se cumpriu a palavra sobre"
+                },
+                {
+                    "referencia": "Daniel 5.5",
+                    "texto": "Na mesma H., apareceram uns dedos de mão de ho-"
+                },
+                {
+                    "referencia": "Daniel 9.21",
+                    "texto": "voando rapidamente e tocou-me à H. do sacrifício"
+                },
+                {
+                    "referencia": "Mateus 8.13",
+                    "texto": "te seja feito. E, naquela mesma H., o seu criado sarou."
+                },
+                {
+                    "referencia": "Mateus 10.19",
+                    "texto": "falar, porque, naquela mesma H., vos será"
+                },
+                {
+                    "referencia": "Mateus 14.15",
+                    "texto": "dizendo: O lugar é deserto, e a H. é já avançada;"
+                },
+                {
+                    "referencia": "Mateus 15.28",
+                    "texto": "como tu desejas. E, desde aquela H a sua filha"
+                },
+                {
+                    "referencia": "Mateus 17.18",
+                    "texto": "que saiu dele; e, desde aquela H., o menino sarou."
+                },
+                {
+                    "referencia": "Mateus 18.1",
+                    "texto": "Naquela mesma H., chegaram os discípulos ao pé de"
+                },
+                {
+                    "referencia": "Mateus 20.3",
+                    "texto": "E, saindo perto da H. terceira, viu outros que"
+                },
+                {
+                    "referencia": "Mateus 20.5",
+                    "texto": "Saindo outra vez, perto da H. sexta e nona, fez o mes-"
+                },
+                {
+                    "referencia": "Mateus 20.6",
+                    "texto": "E, saindo perto da H. undécima, encontrou outros"
+                },
+                {
+                    "referencia": "Mateus 20.9",
+                    "texto": "os que tinham ido perto da H. undécima, receberam"
+                },
+                {
+                    "referencia": "Mateus 20.12",
+                    "texto": "trabalharam só uma H., e tu os igualaste"
+                },
+                {
+                    "referencia": "Mateus 24.36",
+                    "texto": "Porém daquele Dia e H. ninguém sabe, nem os anjos"
+                },
+                {
+                    "referencia": "Mateus 2442",
+                    "texto": "porque não sabeis a que H. há de vir o vosso Senhor."
+                },
+                {
+                    "referencia": "Mateus 24.50",
+                    "texto": "dia em que o não espera e à H. em que ele não sabe,"
+                },
+                {
+                    "referencia": "Mateus 25.13",
+                    "texto": "não sabeis o Dia nem a H. em que o Filho do"
+                },
+                {
+                    "referencia": "Mateus 26.40",
+                    "texto": "e disse a Pedro: Então, nem uma H. pudeste vigiar"
+                },
+                {
+                    "referencia": "Mateus 26.45",
+                    "texto": "e repousai; eis que é chegada a H., e o Filho do"
+                },
+                {
+                    "referencia": "Mateus 27.45",
+                    "texto": "E, desde a H. sexta, houve trevas sobre toda a"
+                },
+                {
+                    "referencia": "Mateus 27.45",
+                    "texto": "houve trevas sobre toda a terra, até à H. nona."
+                },
+                {
+                    "referencia": "Mateus 27.46",
+                    "texto": "E, perto da Ħ. nona, exclamou Jesus em alta voz,"
+                },
+                {
+                    "referencia": "Marcos 13.11",
+                    "texto": "mas o que vos for dado naquela H., isso falai;"
+                },
+                {
+                    "referencia": "Marcos 13.32",
+                    "texto": "Mas, daquele Dia e H., ninguém sabe, nem os anjos"
+                },
+                {
+                    "referencia": "Marcos 14.35",
+                    "texto": "para que, se fosse possível, passasse dele aquela H.."
+                },
+                {
+                    "referencia": "Marcos 14.37",
+                    "texto": "a Pedro: Simão, dormes? Não podes vigiar uma H.?"
+                },
+                {
+                    "referencia": "Marcos 4.41",
+                    "texto": "descansai. Basta; é chegada a H. Eis que o Filho"
+                },
+                {
+                    "referencia": "Marcos 15.25",
+                    "texto": "E era a H, terceira, e o crucificaram."
+                },
+                {
+                    "referencia": "Marcos 15.33",
+                    "texto": "E, chegada a H. sexta, houve trevas sobre toda a"
+                },
+                {
+                    "referencia": "Marcos 15.33",
+                    "texto": "sexta, houve trevas sobre toda a terra até à H, nona."
+                },
+                {
+                    "referencia": "Marcos 15.34",
+                    "texto": "E, à H. nona, Jesus exclamou com grande voz,"
+                },
+                {
+                    "referencia": "Lucas 1.10",
+                    "texto": "do povo estava fora, orando, à H, do incenso."
+                },
+                {
+                    "referencia": "Lucas 2.38",
+                    "texto": "E, sobrevindo na mesma H., ela dava graças a Deus e"
+                },
+                {
+                    "referencia": "Lucas 7.21",
+                    "texto": "E, na mesma H., curou muitos de enfermidades, e"
+                },
+                {
+                    "referencia": "Lucas 1021",
+                    "texto": "Naquela mesma H., se alegrou Jesus no Espírito"
+                },
+                {
+                    "referencia": "Lucas 12.12",
+                    "texto": "Porque na mesma H, vos ensinará o Espírito Santo o"
+                },
+                {
+                    "referencia": "Lucas 12.39",
+                    "texto": "pai de família soubesse a que HH, havia de vir o"
+                },
+                {
+                    "referencia": "Lucas 12.40",
+                    "texto": "porque virá o Filho do Homem à H. que não imagi-"
+                },
+                {
+                    "referencia": "Lucas 12.46",
+                    "texto": "em que o não espera e numa H. que ele não sabe, e"
+                },
+                {
+                    "referencia": "Lucas 14.17",
+                    "texto": "E, à H, da ceia, mandou o seu servo dizer aos"
+                },
+                {
+                    "referencia": "Lucas 20.19",
+                    "texto": "mão dele naquela mesma H.; mas temeram o povo,"
+                },
+                {
+                    "referencia": "Lucas 22.14",
+                    "texto": "E, chegada a H., pôs-se à mesa, e, com ele, os doze"
+                },
+                {
+                    "referencia": "Lucas 22.53",
+                    "texto": "mim, mas esta é a vossa H. e o poder das trevas."
+                },
+                {
+                    "referencia": "Lucas 22.59",
+                    "texto": "E, passada quase uma H., um outro afirmava,"
+                },
+                {
+                    "referencia": "Lucas 23.44",
+                    "texto": "E era já quase a H. sexta, e houve trevas em toda a"
+                },
+                {
+                    "referencia": "Lucas 23.44",
+                    "texto": "sexta, e houve trevas em toda a terra até à Fl, nona,"
+                },
+                {
+                    "referencia": "Jó 1.39",
+                    "texto": "com ele aquele dia; e era já quase a H, décima."
+                },
+                {
+                    "referencia": "Jó 2.4",
+                    "texto": "que tenho eu contigo? Ainda não é chegada a minha H.."
+                },
+                {
+                    "referencia": "Jó 4.6",
+                    "texto": "assim junto da fonte. Era isso quase aÃ sexta."
+                },
+                {
+                    "referencia": "Jó 4.21",
+                    "texto": "Jesus: Mulher, crê-me que a H. vem em que nem"
+                },
+                {
+                    "referencia": "Jó 4.23",
+                    "texto": "Mas a H. vem, e agora é, em que os verdadeiros"
+                },
+                {
+                    "referencia": "Jó 4.52",
+                    "texto": "Perguntou-lhes, pois, a que H. se achara melhor; e"
+                },
+                {
+                    "referencia": "Jó 4.53",
+                    "texto": "pois, o pai que era aquela H. a mesma em que"
+                },
+                {
+                    "referencia": "Jó 5.25",
+                    "texto": "verdade vos digo que vem a H., e agora é, em que"
+                },
+                {
+                    "referencia": "Jó 5.28",
+                    "texto": "disso, porque vem a H. em que todos os que"
+                },
+                {
+                    "referencia": "Jó 7.30",
+                    "texto": "mão dele, porque ainda não era chegada a sua H.."
+                },
+                {
+                    "referencia": "Jó 8.20",
+                    "texto": "o prendeu, porque ainda não era chegada a sua H.."
+                },
+                {
+                    "referencia": "Jó 12.23",
+                    "texto": "dizendo: É chegada a H. em que o Filho do"
+                },
+                {
+                    "referencia": "Jó 12.27",
+                    "texto": "direi eu? Pai, salva-me desta H mas para isso"
+                },
+                {
+                    "referencia": "Jó 12.27",
+                    "texto": "salva-me desta H.; mas para isso vim a esta H.."
+                },
+                {
+                    "referencia": "Jó 13.1",
+                    "texto": "qie já era chegada a sua H. de passar deste"
+                },
+                {
+                    "referencia": "Jó 16.2",
+                    "texto": "das sinagogas; vem mesmo a H, em que qualquer que"
+                },
+                {
+                    "referencia": "Jó 16.4",
+                    "texto": "de que, quando chegar aquela H., vos lembreis de"
+                },
+                {
+                    "referencia": "Jó 16.21",
+                    "texto": "porque é chegada a sua H.; mas, depois de"
+                },
+                {
+                    "referencia": "Jó 16.25",
+                    "texto": "parábolas; chega, porém, a H. em que vos não"
+                },
+                {
+                    "referencia": "Jó 16.32",
+                    "texto": "Eis que chega a ZA e já se aproxima, em que vós"
+                },
+                {
+                    "referencia": "Jó 17.1",
+                    "texto": "céu, disse: Pai, é chegada a ĦH.; glorifica a teu"
+                },
+                {
+                    "referencia": "Jó 19.14",
+                    "texto": "da Páscoa e quase à H. sexta; e disse aos"
+                },
+                {
+                    "referencia": "Jó 19.27",
+                    "texto": "aí tua mãe. E desde aquela H. o discípulo a"
+                },
+                {
+                    "referencia": "Atos 2.15",
+                    "texto": "como vós pensais, sendo esta a terceira H. do dia."
+                },
+                {
+                    "referencia": "Atos 3.1",
+                    "texto": "João subiam juntos ao templo à Ħ, da oração, a nona."
+                },
+                {
+                    "referencia": "Atos 10.3",
+                    "texto": "Este, quase à H. nona do dia, viu claramente numa"
+                },
+                {
+                    "referencia": "Atos 10.9",
+                    "texto": "subiu Pedro ao terraço para orar, quase à H. sexta."
+                },
+                {
+                    "referencia": "Atos 10.30",
+                    "texto": "estava eu em jejum até esta H., orando em minha"
+                },
+                {
+                    "referencia": "Atos 10.30",
+                    "texto": "jejum até esta H., orando em minha casa à H. nona."
+                },
+                {
+                    "referencia": "Atos 11.11",
+                    "texto": "É eis que, na mesma H., pararam junto da casa em"
+                },
+                {
+                    "referencia": "Atos 16.18",
+                    "texto": "te mando que saias dela. É, na mesma H., saiu."
+                },
+                {
+                    "referencia": "Atos 16.33",
+                    "texto": "ele consigo naquela mesma H. da noite, lavou-lhes"
+                },
+                {
+                    "referencia": "Atos 22.13",
+                    "texto": "irmão, recobra a vista. E naquela mesma FL, o vi."
+                },
+                {
+                    "referencia": "Romanos 13.11",
+                    "texto": "conhecendo o tempo, que é já H. de despertarmos"
+                },
+                {
+                    "referencia": "1 Coríntios 4.11",
+                    "texto": "Até esta presente H., sofremos fome e sede, e"
+                },
+                {
+                    "referencia": "1 Coríntios 15.30",
+                    "texto": "Por que estamos nós também a toda H, em perigo?"
+                },
+                {
+                    "referencia": "Gálatas 2.5",
+                    "texto": "quais, nem ainda por uma H., cedemos com"
+                },
+                {
+                    "referencia": "1 João 2.18",
+                    "texto": "Filhinhos, é já a última H.; e, como ouvistes que"
+                },
+                {
+                    "referencia": "1 João 2.18",
+                    "texto": "por onde conhecemos que é já a última H.."
+                },
+                {
+                    "referencia": "Apocalipse 3.3",
+                    "texto": "um ladrão, e não saberás a que H. sobre ti virei."
+                },
+                {
+                    "referencia": "Apocalipse 3.10",
+                    "texto": "também eu te guardarei da H. da tentação que há"
+                },
+                {
+                    "referencia": "Apocalipse 8.1",
+                    "texto": "selo, fez-se silêncio no céu quase por meia H.."
+                },
+                {
+                    "referencia": "Apocalipse 9.15",
+                    "texto": "estavam reparados para a H., e dia, e mês, e ano,"
+                },
+                {
+                    "referencia": "Apocalipse 11.13",
+                    "texto": "E naquela mesma H, houve um grande terremoto, e"
+                },
+                {
+                    "referencia": "Apocalipse 14.7",
+                    "texto": "glória, porque vinda é a H. do seu juízo. E"
+                },
+                {
+                    "referencia": "Apocalipse 14.15",
+                    "texto": "foice e sega! É já vinda a H. de segar, porque"
+                },
+                {
+                    "referencia": "Apocalipse 17.12",
+                    "texto": "o poder como reis por uma FL, juntamente com a"
+                },
+                {
+                    "referencia": "Apocalipse 18.10",
+                    "texto": "aquela forte cidade! Pois numa H. veio o seu juízo."
+                },
+                {
+                    "referencia": "Apocalipse 18.16",
+                    "texto": "preciosas e pérolas! Porque numa FL. foram"
+                },
+                {
+                    "referencia": "Apocalipse 18.19",
+                    "texto": "razão da sua opulência! Porque numa HH, foi assolada."
+                }
+            ]
+        }
+    ]
+}

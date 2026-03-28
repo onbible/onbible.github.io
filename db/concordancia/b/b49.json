@@ -1,0 +1,38 @@
+{
+    "b": [
+        {
+            "palavra": "benignamente",
+            "veja tambem": [
+                "benigno"
+            ],
+            "ocorrencias": 6,
+            "fonte": "Bíblia ARA; Dicionário Bíblico",
+            "concordancias": [
+                {
+                    "referencia": "1 Samuel 1.11",
+                    "texto": "Senhor dos Exércitos! Se B. atentares"
+                },
+                {
+                    "referencia": "2 Reis 25.28",
+                    "texto": "E lhe falou B, e pôs o seu trono acima do"
+                },
+                {
+                    "referencia": "2 Crônicas 30.22",
+                    "texto": "E Ezequias falou B, a todos os levitas que"
+                },
+                {
+                    "referencia": "Isaías 40.2",
+                    "texto": "Falai B, a Jerusalém e bradai-lhe que já a"
+                },
+                {
+                    "referencia": "Jeremias 52.32",
+                    "texto": "e falou com ele B, e pôs o seu trono acima"
+                },
+                {
+                    "referencia": "Atos 28.7",
+                    "texto": "o qual nos recebeu e hospedou B. por três dias."
+                }
+            ]
+        }
+    ]
+}

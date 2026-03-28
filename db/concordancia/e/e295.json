@@ -1,0 +1,976 @@
+{
+    "e": [
+        {
+            "palavra": "EXERCITO",
+            "veja tambem": [],
+            "ocorrencias": 241,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 2.1",
+                    "texto": "céus, ea terra, e todo o seu E, foram acabados."
+                },
+                {
+                    "referencia": "Gênesis 21.22",
+                    "texto": "com Ficol, príncipe do seu E., falou com"
+                },
+                {
+                    "referencia": "Gênesis 21.32",
+                    "texto": "e Ficol, príncipe do seu E., e tornaram"
+                },
+                {
+                    "referencia": "Gênesis 26.26",
+                    "texto": "Ausate, seu amigo, e Ficol, príncipe do seu E.."
+                },
+                {
+                    "referencia": "Gênesis 32.2",
+                    "texto": "quando os viu: Este é o E. de Deus. E"
+                },
+                {
+                    "referencia": "Êxodo 14.4",
+                    "texto": "em Faraó e em todo o seu E.; e saberão os"
+                },
+                {
+                    "referencia": "Êxodo 14.9",
+                    "texto": "e os seus cavaleiros, e o seu E. e"
+                },
+                {
+                    "referencia": "Êxodo 14.17",
+                    "texto": "em Faraó, e em todo o seu E., e nos seus"
+                },
+                {
+                    "referencia": "fx 14.19",
+                    "texto": "de Deus, que ia adiante do E. de Israel, se"
+                },
+                {
+                    "referencia": "Êxodo 14.28",
+                    "texto": "e os cavaleiros de todo o E. de Faraó, que"
+                },
+                {
+                    "referencia": "Êxodo 15.4",
+                    "texto": "os carros de Faraó eo seu E.; eos seus"
+                },
+                {
+                    "referencia": "Números 2.3",
+                    "texto": "serão os da bandeira do E. de Judá,"
+                },
+                {
+                    "referencia": "Números 2.4",
+                    "texto": "E o seu E. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.6",
+                    "texto": "E o seu E. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.8",
+                    "texto": "E o seu E. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.9",
+                    "texto": "os que foram contados no E. de Judá, cento e"
+                },
+                {
+                    "referencia": "Números 2.10",
+                    "texto": "A bandeira do E. de Rúben, segundo os seus"
+                },
+                {
+                    "referencia": "Números 2.11",
+                    "texto": "E o seu E. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.13",
+                    "texto": "E o seu E. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.15",
+                    "texto": "E o seu E. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.16",
+                    "texto": "os que foram contados no E. de Rúben foram"
+                },
+                {
+                    "referencia": "Números 2.17",
+                    "texto": "tenda da congregação com o E, dos levitas no"
+                },
+                {
+                    "referencia": "Números 2.18",
+                    "texto": "A bandeira do E de Efraim, segundo os seus"
+                },
+                {
+                    "referencia": "Números 2.19",
+                    "texto": "E o seu È. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.21",
+                    "texto": "E o seu E. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.23",
+                    "texto": "E o seu É, e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.24",
+                    "texto": "os que foram contados no E. de Efraim foram"
+                },
+                {
+                    "referencia": "Números 2.25",
+                    "texto": "A bandeira do E. de Dã estará para o norte,"
+                },
+                {
+                    "referencia": "Números 2.26",
+                    "texto": "E o seu E. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.28",
+                    "texto": "E o seu E. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.30",
+                    "texto": "E o seu £. e os que foram contados deles foram"
+                },
+                {
+                    "referencia": "Números 2.31",
+                    "texto": "os que foram contados no E. de Dă foram cento"
+                },
+                {
+                    "referencia": "Números 4.3",
+                    "texto": "aquele que entrar neste E., para fazer obra"
+                },
+                {
+                    "referencia": "Números 10.14",
+                    "texto": "seus exércitos; e sobre o seu E. estava"
+                },
+                {
+                    "referencia": "Números 10.15",
+                    "texto": "E sobre o E. da tribo dos filhos de Issacar,"
+                },
+                {
+                    "referencia": "Números 10.16",
+                    "texto": "E sobre o E. da tribo dos filhos de Zebulom,"
+                },
+                {
+                    "referencia": "Números 10.18",
+                    "texto": "seus exércitos; e sobre o seu E. estava Elizur,"
+                },
+                {
+                    "referencia": "Números 10.19",
+                    "texto": "E sobre o E. da tribo dos filhos de Simeão,"
+                },
+                {
+                    "referencia": "Números 10.20",
+                    "texto": "E sobre o E. da tribo dos filhos de Gade,"
+                },
+                {
+                    "referencia": "Números 10.22",
+                    "texto": "seus exércitos; e sobre o seu E. estava"
+                },
+                {
+                    "referencia": "Números 10.23",
+                    "texto": "E sobre o E. da tribo dos filhos de Manassés,"
+                },
+                {
+                    "referencia": "Números 10.24",
+                    "texto": "E sobre o E. da tribo dos filhos de Benjamim,"
+                },
+                {
+                    "referencia": "Números 10.25",
+                    "texto": "seus exércitos; e sobre o seu E. estava"
+                },
+                {
+                    "referencia": "Números 10.26",
+                    "texto": "E sobre o E. da tribo dos filhos de Aser,"
+                },
+                {
+                    "referencia": "Números 10.27",
+                    "texto": "E sobre o E. da tribo dos filhos de Naftali,"
+                },
+                {
+                    "referencia": "Números 26.2",
+                    "texto": "de seus pais, todo que, em Israel, vai para o E.."
+                },
+                {
+                    "referencia": "Números 31.14",
+                    "texto": "contra os oficiais do E., capitães dos"
+                },
+                {
+                    "referencia": "Números 31.48",
+                    "texto": "sobre os milhares do E., os tribunos e"
+                },
+                {
+                    "referencia": "Deuteronômio 4.19",
+                    "texto": "a lua, e as estrelas, todo o E. dos céus, e"
+                },
+                {
+                    "referencia": "Deuteronômio 11.4",
+                    "texto": "nem o que fez ao E. dos egípcios, aos seus"
+                },
+                {
+                    "referencia": "Deuteronômio 17.3",
+                    "texto": "ao sol, ou à lua, ou a todo o E, do céu, o"
+                },
+                {
+                    "referencia": "Deuteronômio 23.9",
+                    "texto": "Quando o E. sair contra os teus inimigos,"
+                },
+                {
+                    "referencia": "Deuteronômio 23.10",
+                    "texto": "estiver limpo, sairá fora do E.; não entrará"
+                },
+                {
+                    "referencia": "Deuteronômio 23.10",
+                    "texto": "fora do E.; não entrará no meio do E.."
+                },
+                {
+                    "referencia": "Josué 5.14",
+                    "texto": "venho agora como príncipe do E. do Senhor."
+                },
+                {
+                    "referencia": "Josué 5.15",
+                    "texto": "Então, disse o príncipe do E. do Senhor a"
+                },
+                {
+                    "referencia": "Josué 22.12",
+                    "texto": "de Israel em Siló, para saírem contra eles em E.."
+                },
+                {
+                    "referencia": "Josué 22.33",
+                    "texto": "mais de subir contra eles em E., para"
+                },
+                {
+                    "referencia": "Juízes 4.2",
+                    "texto": "e Sísera era o capitão do seu E., o qual,"
+                },
+                {
+                    "referencia": "J 47",
+                    "texto": "Quisom a Sísera, capitão do E. de Jabim, com os"
+                },
+                {
+                    "referencia": "Juízes 4.15",
+                    "texto": "os seus carros, e todo o seu E. a fio de"
+                },
+                {
+                    "referencia": "Juízes 4.16",
+                    "texto": "após os carros e após o E., até"
+                },
+                {
+                    "referencia": "Juízes 4.16",
+                    "texto": "Harosete-Hagoim, e todo o E. de Sísera caiu"
+                },
+                {
+                    "referencia": "Juízes 7.21",
+                    "texto": "do arraial; então, todo o E. deitou a"
+                },
+                {
+                    "referencia": "Juízes 7.22",
+                    "texto": "e isto em todo o arraial; e o E. fugiu para"
+                },
+                {
+                    "referencia": "Juízes 8.6",
+                    "texto": "Salmuna na tua mão, para que demos pão ao teu E.?"
+                },
+                {
+                    "referencia": "Juízes 8.10",
+                    "texto": "homens, todos os que ficaram do E. dos filhos"
+                },
+                {
+                    "referencia": "Juízes 8.11",
+                    "texto": "e Jogbeá; e feriu aquele E., porquanto o"
+                },
+                {
+                    "referencia": "Juízes 8.11",
+                    "texto": "aquele E., porquanto o E. estava descuidado."
+                },
+                {
+                    "referencia": "Juízes 8.12",
+                    "texto": "a Zeba e a Salmuna, e afugentou todo o E.."
+                },
+                {
+                    "referencia": "Juízes 9.29",
+                    "texto": "a Abimelegue se disse: Multiplica o teu E. e sai."
+                },
+                {
+                    "referencia": "1 Samuel 10.26",
+                    "texto": "a Gibeá; e foram com ele, do E., aqueles cujo"
+                },
+                {
+                    "referencia": "1 Samuel 12.9",
+                    "texto": "na mão de Sísera, cabeça do E. de Hazor, e"
+                },
+                {
+                    "referencia": "1 Samuel 14.50",
+                    "texto": "e o nome do general do E., Abner, filho"
+                },
+                {
+                    "referencia": "1 Samuel 17.23",
+                    "texto": "eis que vinha subindo do E. dos filisteus o"
+                },
+                {
+                    "referencia": "1 Samuel 17.55",
+                    "texto": "disse a Abner, o chefe do E.: De quem é"
+                },
+                {
+                    "referencia": "1 Samuel 26.5",
+                    "texto": "filho de Ner, chefe do seu E,; e Saul estava"
+                },
+                {
+                    "referencia": "2 Samuel 1.3",
+                    "texto": "vens? E ele lhe disse: Escapei do E. de Israel."
+                },
+                {
+                    "referencia": "2 Samuel 2.8",
+                    "texto": "filho de Ner capitão do E. de Saul, tomou"
+                },
+                {
+                    "referencia": "2 Samuel 3.23",
+                    "texto": "pois, Joabe e todo o E. que vinha com"
+                },
+                {
+                    "referencia": "2 Samuel 8.9",
+                    "texto": "Hamate, que Davi ferira a todo o E. de Hadadezer,"
+                },
+                {
+                    "referencia": "2 Samuel 8.16",
+                    "texto": "filho de Zeruia, era sobre o E.; e Josafá,"
+                },
+                {
+                    "referencia": "2 Samuel 10.7",
+                    "texto": "contra eles a Joabe com todo o E. dos valentes."
+                },
+                {
+                    "referencia": "2 Samuel 10.16",
+                    "texto": "a Helã; e Sobaque, chefe do E. de Hadadezer,"
+                },
+                {
+                    "referencia": "2 Samuel 10.18",
+                    "texto": "ao mesmo Sobaque, general do E., feriu, e"
+                },
+                {
+                    "referencia": "2 Samuel 20.22",
+                    "texto": "Joabe estava sobre todo o E, de Israel; e"
+                },
+                {
+                    "referencia": "2 Samuel 24.2",
+                    "texto": "pois, o rei a Joabe, chefe do E., o qual tinha"
+                },
+                {
+                    "referencia": "2 Samuel 24.4",
+                    "texto": "e contra os chefes do E.. Joabe, pois,"
+                },
+                {
+                    "referencia": "2 Samuel 24.4",
+                    "texto": "pois, saiu com os chefes do E, diante da face"
+                },
+                {
+                    "referencia": "1 Reis 1.19",
+                    "texto": "sacerdote, e a Joabe, general do E., mas a teu"
+                },
+                {
+                    "referencia": "1 Reis 1.25",
+                    "texto": "do rei, e os capitães do E., ea Abiatar,"
+                },
+                {
+                    "referencia": "1 Reis 2.5",
+                    "texto": "o que fez aos dois chefes do E. de Israel, a"
+                },
+                {
+                    "referencia": "1 Reis 2.32",
+                    "texto": "a Abner; filho de Ner, chefe do E, de"
+                },
+                {
+                    "referencia": "1 Reis 2.32",
+                    "texto": "ea Amasa, filho de Jéter, chefe do E. de Judá."
+                },
+                {
+                    "referencia": "1 Reis 2.35",
+                    "texto": "Joiada, em seu lugar sobre o E. e a Zadoque, o"
+                },
+                {
+                    "referencia": "1 Reis 4.4",
+                    "texto": "de Joiada, era comandante do E.; Zadoque e"
+                },
+                {
+                    "referencia": "1 Reis 10.2",
+                    "texto": "com um mui grande E., com camelos ."
+                },
+                {
+                    "referencia": "1 Reis 11.15",
+                    "texto": "e subindo Joabe, o chefe do E., a enterrar os"
+                },
+                {
+                    "referencia": "1 Reis 11.21",
+                    "texto": "pais e que Joabe, chefe do E., era morto,"
+                },
+                {
+                    "referencia": "1 Reis 16.16",
+                    "texto": "rei sobre Israel a Onri, chefe do E. no arraial."
+                },
+                {
+                    "referencia": "1 Reis 20.19",
+                    "texto": "príncipes das províncias, e o E. que os seguia."
+                },
+                {
+                    "referencia": "1 Reis 20.25",
+                    "texto": "e numera outro E., como o E. que caiu de"
+                },
+                {
+                    "referencia": "1 Reis 20.25",
+                    "texto": "outro E., como o E. que caiu de ti,"
+                },
+                {
+                    "referencia": "1 Reis 22.19",
+                    "texto": "sobre o seu trono, e todo o E. do céu"
+                },
+                {
+                    "referencia": "1 Reis 22.34",
+                    "texto": "Vira a tua mão e tira-me do E., porque"
+                },
+                {
+                    "referencia": "1 Reis 22.36",
+                    "texto": "posto, passou um pregão pelo E., dizendo: Cada"
+                },
+                {
+                    "referencia": "2 Reis 3.9",
+                    "texto": "uma marcha de sete dias, e o E. e o, gado que"
+                },
+                {
+                    "referencia": "2 Reis 4.13",
+                    "texto": "por ti ao rei ou ao chefe do E.? E dissera"
+                },
+                {
+                    "referencia": "2 Reis 5.1",
+                    "texto": "E Naamã, chefe do E. do rei da Síria, era um"
+                },
+                {
+                    "referencia": "2 Reis 6.14",
+                    "texto": "e carros, e um grande E., os quais"
+                },
+                {
+                    "referencia": "2 Reis 6.15",
+                    "texto": "cedo e saiu, e eis que um E. tinha cercado a"
+                },
+                {
+                    "referencia": "2 Reis 6.24",
+                    "texto": "da Síria, ajuntou todo o seu E.; esubiue"
+                },
+                {
+                    "referencia": "2 Reis 7.6",
+                    "texto": "como o ruído de um grande E,; de maneira que"
+                },
+                {
+                    "referencia": "2 Reis 7.14",
+                    "texto": "e o rei os enviou após o E. dos siros,"
+                },
+                {
+                    "referencia": "2 Reis 9.5",
+                    "texto": "ele, eis que os capitães do E. estavam"
+                },
+                {
+                    "referencia": "2 Reis 17.16",
+                    "texto": "e se prostraram perante todo o E. tlo céu, e"
+                },
+                {
+                    "referencia": "2 Reis 18.17",
+                    "texto": "de Laquis, com um grande E., ao rei"
+                },
+                {
+                    "referencia": "2 Reis 21.3",
+                    "texto": "e se inclinou diante de todo o E. dos céus, e"
+                },
+                {
+                    "referencia": "2 Reis 21.5",
+                    "texto": "edificou altares a todo o E. dos céus em ambos"
+                },
+                {
+                    "referencia": "2 Reis 23.4",
+                    "texto": "e para o bosque, e para todo o E. dos céus; e"
+                },
+                {
+                    "referencia": "2 Reis 23.5",
+                    "texto": "lua, e aos mais planetas, e a todo o E. dos céus."
+                },
+                {
+                    "referencia": "2 Reis 25.1",
+                    "texto": "Jerusalém, ele e todo o seu E., ese"
+                },
+                {
+                    "referencia": "2 Reis 25.5",
+                    "texto": "Porém o E. dos caldeus perseguiu o rei e o"
+                },
+                {
+                    "referencia": "2 Reis 25.5",
+                    "texto": "campinas de Jericó; e todo o seu E. se dispersou."
+                },
+                {
+                    "referencia": "2 Reis 25.10",
+                    "texto": "E todo o E. dos caldeus, que estava com o"
+                },
+                {
+                    "referencia": "2 Reis 25.19",
+                    "texto": "como também ao escrivão-mor do E., que"
+                },
+                {
+                    "referencia": "1 Crônicas 7.11",
+                    "texto": "mil e duzentos, que saíam no E. à peleja."
+                },
+                {
+                    "referencia": "1 Crônicas 7.40",
+                    "texto": "nas suas genealogias, no E. para a"
+                },
+                {
+                    "referencia": "1 Crônicas 12.14",
+                    "texto": "Gade, foram os capitães do E.; um dos menores"
+                },
+                {
+                    "referencia": "1 Crônicas 12.21",
+                    "texto": "eles eram heróis valentes e foram capitães no E.."
+                },
+                {
+                    "referencia": "1 Crônicas 12.22",
+                    "texto": "até que se fez um grande E., como"
+                },
+                {
+                    "referencia": "1 Crônicas 12.22",
+                    "texto": "que se fez um grande E., como E. de Deus."
+                },
+                {
+                    "referencia": "1 Crônicas 12.33",
+                    "texto": "Zebulom, dos que saíam ao E., ordenados para"
+                },
+                {
+                    "referencia": "1 Crônicas 12.36",
+                    "texto": "Aser, dos que saíam para o E., para ordenarem"
+                },
+                {
+                    "referencia": "1 Crônicas 14.15",
+                    "texto": "saído diante de ti, a ferir o E. dos filisteus."
+                },
+                {
+                    "referencia": "1 Crônicas 14.16",
+                    "texto": "lhe ordenara; e feriram o E. dos filisteus"
+                },
+                {
+                    "referencia": "1 Crônicas 18.9",
+                    "texto": "que Davi destruíra todo o E. de Hadadezer,"
+                },
+                {
+                    "referencia": "1 Crônicas 18.15",
+                    "texto": "de Zeruia, tinha cargo do E.; e Josafá,"
+                },
+                {
+                    "referencia": "1 Crônicas 19.8",
+                    "texto": "Davi, enviou Joabe e todo o E. dos homens valorosos."
+                },
+                {
+                    "referencia": "1 Crônicas 19.16",
+                    "texto": "do rio; e Sofaque, capitão do E. de Hadadezer,"
+                },
+                {
+                    "referencia": "1 Crônicas 19.18",
+                    "texto": "homens de pé; e a Sofaque, capitão do E., matou."
+                },
+                {
+                    "referencia": "1 Crônicas 20.1",
+                    "texto": "para a guerra, Joabe levou o Æ., e destruiu"
+                },
+                {
+                    "referencia": "1 Crônicas 25.1",
+                    "texto": "com os capitães do E., separou para o"
+                },
+                {
+                    "referencia": "1 Crônicas 26.26",
+                    "texto": "e de centenas, e capitães do E. tinham consagrado;"
+                },
+                {
+                    "referencia": "1 Crônicas 27.5",
+                    "texto": "O terceiro capitão do E, do terceiro mês era"
+                },
+                {
+                    "referencia": "1 Crônicas 27.34",
+                    "texto": "e Abiatar; porém Joabe era chefe do E. do rei."
+                },
+                {
+                    "referencia": "2 Crônicas 13.3",
+                    "texto": "ordenou a peleja, com um E. de varões"
+                },
+                {
+                    "referencia": "2 Crônicas 14.8",
+                    "texto": "Tinha, pois, Asa um E. de trezentos mil de"
+                },
+                {
+                    "referencia": "2 Crônicas 149",
+                    "texto": "saiu contra eles, com um E. de um milhão"
+                },
+                {
+                    "referencia": "2 Crônicas 14.13",
+                    "texto": "do Senhor e diante do seu E.; e levaram"
+                },
+                {
+                    "referencia": "2 Crônicas 16.7",
+                    "texto": "confiaste no Senhor, teu Deus, o E. do rei da"
+                },
+                {
+                    "referencia": "2 Crônicas 16.8",
+                    "texto": "e os líbios um grande E., com muitíssimos"
+                },
+                {
+                    "referencia": "2 Crônicas 18.18",
+                    "texto": "no seu trono, e a todo o E. celestial em"
+                },
+                {
+                    "referencia": "2 Crônicas 18.33",
+                    "texto": "Vira a mão e tira-me do E., pa"
+                },
+                {
+                    "referencia": "2 Crônicas 23.14",
+                    "texto": "que estavam postos sobre o É, e disse-lhes:"
+                },
+                {
+                    "referencia": "2 Crônicas 24.23",
+                    "texto": "no decurso de um ano, que o E. da Síria subiu"
+                },
+                {
+                    "referencia": "2 Crônicas 24.24",
+                    "texto": "Porque, ainda que o E. dos siros viera com"
+                },
+                {
+                    "referencia": "2 Crônicas 24.24",
+                    "texto": "o Senhor deu nas suas mãos um E. de grande"
+                },
+                {
+                    "referencia": "2 Crônicas 25.5",
+                    "texto": "mil escolhidos que saíam ao E. e levavam"
+                },
+                {
+                    "referencia": "2 Crônicas 25.7",
+                    "texto": "rei, não deixes ir contigo o E. de Israel,"
+                },
+                {
+                    "referencia": "2 Crônicas 26.11",
+                    "texto": "Tinha também Uzias um E. de homens destros nas"
+                },
+                {
+                    "referencia": "2 Crônicas 26.13",
+                    "texto": "das suas ordens, havia um E. guerreiro de"
+                },
+                {
+                    "referencia": "2 Crônicas 26.14",
+                    "texto": "Uzias, para todo o E., escudos, e"
+                },
+                {
+                    "referencia": "2 Crônicas 28.9",
+                    "texto": "o qual saiu ao encontro do E. que vinha para"
+                },
+                {
+                    "referencia": "2 Crônicas 33.3",
+                    "texto": "e prostrou-se diante de todo o E. dos céus, e"
+                },
+                {
+                    "referencia": "2 Crônicas 33.5",
+                    "texto": "Edificou altares a todo o E. dos céus, em ambos"
+                },
+                {
+                    "referencia": "2 Crônicas 33.11",
+                    "texto": "sobre eles os príncipes do E. do rei da"
+                },
+                {
+                    "referencia": "Esdras 8.22",
+                    "texto": "de pedir ao rei E e cavaleiros para"
+                },
+                {
+                    "referencia": "Neemias 2.9",
+                    "texto": "tinha enviado comigo chefes do E. e cavaleiros."
+                },
+                {
+                    "referencia": "Neemias 4.2",
+                    "texto": "de seus irmãos e do E. de Samaria e"
+                },
+                {
+                    "referencia": "Neemias 9.6",
+                    "texto": "o céu dos céus e todo o seu E., a terra e tudo"
+                },
+                {
+                    "referencia": "Neemias 9.6",
+                    "texto": "os guardas em vida a todos, e o E. dos céus te adora."
+                },
+                {
+                    "referencia": "S127.3",
+                    "texto": "Ainda que um E. me cercasse, o meu coração não"
+                },
+                {
+                    "referencia": "S133.6",
+                    "texto": "feitos os céus; e todo o E. deles, pelo"
+                },
+                {
+                    "referencia": "S133.16",
+                    "texto": "salve com a grandeza de um E., nem o homem"
+                },
+                {
+                    "referencia": "S168.11",
+                    "texto": "deu a palavra; grande era o E. dos que"
+                },
+                {
+                    "referencia": "Salmos 136.15",
+                    "texto": "derribou a Faraó com o seu E, no mar Vermelho;"
+                },
+                {
+                    "referencia": "Cânticos 6.4",
+                    "texto": "Jerusalém, formidável como um E. com bandeiras."
+                },
+                {
+                    "referencia": "Cânticos 6.10",
+                    "texto": "como o sol, formidável como um E. com bandeiras?"
+                },
+                {
+                    "referencia": "Isaías 13.4",
+                    "texto": "dos Exércitos passa em revista o E. de guerra."
+                },
+                {
+                    "referencia": "Isaías 34.2",
+                    "texto": "e o seu furor sobre todo o E. delas; ele as"
+                },
+                {
+                    "referencia": "Isaías 34.4",
+                    "texto": "E todo o E. dos céus se gastará, e os céus se"
+                },
+                {
+                    "referencia": "Isaías 34.4",
+                    "texto": "como um livro, e todo o seu E. cairá como cai"
+                },
+                {
+                    "referencia": "Isaías 36.2",
+                    "texto": "ao rei Ezequias com um grande E.; e ele parou"
+                },
+                {
+                    "referencia": "Isaías 40.26",
+                    "texto": "quem produz por conta o seu E., quem a todas"
+                },
+                {
+                    "referencia": "Isaías 43.17",
+                    "texto": "o carro e o cavalo, o E. e a força; eles"
+                },
+                {
+                    "referencia": "Jeremias 8.2",
+                    "texto": "ao sol, e à lua, e a todo o E. do céu, a quem"
+                },
+                {
+                    "referencia": "Jeremias 19.13",
+                    "texto": "queimaram incenso a todo o E, dos céus e"
+                },
+                {
+                    "referencia": "Jeremias 32.2",
+                    "texto": "(Cercava, porém, então, o E. do rei da"
+                },
+                {
+                    "referencia": "Jeremias 33.22",
+                    "texto": "Como não se pode contar o E. dos céus, nem"
+                },
+                {
+                    "referencia": "Jeremias 34.1",
+                    "texto": "da Babilônia, e todo o seu E,, e todos os"
+                },
+                {
+                    "referencia": "Jeremias 34.7",
+                    "texto": "quando o E. do rei da Babilônia pelejava contra"
+                },
+                {
+                    "referencia": "Jeremias 34.21",
+                    "texto": "a sua morte, e nas mãos do E. do rei da"
+                },
+                {
+                    "referencia": "Jeremias 35.11",
+                    "texto": "vamo-nos a Jerusalém, por causa do E. dos"
+                },
+                {
+                    "referencia": "Jeremias 35.11",
+                    "texto": "E. dos caldeus e por causa do E. dos"
+                },
+                {
+                    "referencia": "Jeremias 37.5",
+                    "texto": "Contudo, o E. de Faraó saiu do Egito; ouvindo"
+                },
+                {
+                    "referencia": "Jeremias 37.7",
+                    "texto": "para se informar: Eis que o E. de Faraó,"
+                },
+                {
+                    "referencia": "Jeremias 37.10",
+                    "texto": "que ferísseis a todo o E. dos caldeus que"
+                },
+                {
+                    "referencia": "Jeremias 37.11",
+                    "texto": "que, subindo de Jerusalém o E. dos caldeus, por"
+                },
+                {
+                    "referencia": "Jeremias 37.11",
+                    "texto": "o E. dos caldeus, por causa do E. de Faraó,"
+                },
+                {
+                    "referencia": "Jeremias 38.3",
+                    "texto": "será entregue nas mãos do E. do rei da"
+                },
+                {
+                    "referencia": "Jeremias 39.1",
+                    "texto": "rei da Babilônia, e todo o seu E. contra"
+                },
+                {
+                    "referencia": "Jeremias 39.5",
+                    "texto": "Mas o E, dos caldeus os perseguiu; e alcançaram"
+                },
+                {
+                    "referencia": "Jeremias 46.2",
+                    "texto": "Acerca do Egito, contra o E, de Faraó Neco, rei"
+                },
+                {
+                    "referencia": "Jeremias 46.22",
+                    "texto": "porque marcharão com um E. e virão a ela"
+                },
+                {
+                    "referencia": "Jeremias 51.3",
+                    "texto": "perdoeis a seus jovens; destruí a todo o seu E.."
+                },
+                {
+                    "referencia": "Jeremias 52.4",
+                    "texto": "Jerusalém, ele e todo o seu E., ese"
+                },
+                {
+                    "referencia": "Jeremias 52.8",
+                    "texto": "Mas o E. dos caldeus seguiu o rei, e alcançaram"
+                },
+                {
+                    "referencia": "Jeremias 52.8",
+                    "texto": "de Jericó, e todo o seu E. se espalhou, abandonando-o."
+                },
+                {
+                    "referencia": "Jeremias 52.14",
+                    "texto": "E todo o E. dos caldeus que estavam com o"
+                },
+                {
+                    "referencia": "Jeremias 52.25",
+                    "texto": "também o escrivão-mor do E., que registrava"
+                },
+                {
+                    "referencia": "Ezequiel 1.24",
+                    "texto": "estrondo, como o estrépito de um E.; parando"
+                },
+                {
+                    "referencia": "Ezequiel 17.17",
+                    "texto": "E Faraó, nem com grande E., nem com uma"
+                },
+                {
+                    "referencia": "Ezequiel 27.10",
+                    "texto": "e os de Pute eram, no teu E., os teus"
+                },
+                {
+                    "referencia": "Ezequiel 27.11",
+                    "texto": "filhos de Arvade e o teu E. estavam sobre os"
+                },
+                {
+                    "referencia": "Ezequiel 29.18",
+                    "texto": "Babilônia, fez com que o seu E. prestasse um"
+                },
+                {
+                    "referencia": "Ezequiel 29.18",
+                    "texto": "de Tiro para ele, nem para o seu E., pelo"
+                },
+                {
+                    "referencia": "Ezequiel 29.19",
+                    "texto": "a sua presa, e isso será a paga para o seu E.."
+                },
+                {
+                    "referencia": "Ezequiel 32.31",
+                    "texto": "o próprio Faraó e todo o seu É., traspassados à"
+                },
+                {
+                    "referencia": "Ezequiel 37.10",
+                    "texto": "viveram e se puseram em pé, um É. grande em ex-"
+                },
+                {
+                    "referencia": "Ezequiel 38.4",
+                    "texto": "levarei a ti, com todo o teu £., cavalos e"
+                },
+                {
+                    "referencia": "Ezequiel 38.15",
+                    "texto": "todos a cavalo, grande ajuntamento e E. numeroso;"
+                },
+                {
+                    "referencia": "Daniel 3.20",
+                    "texto": "fortes que estavam no seu E. que atassem a"
+                },
+                {
+                    "referencia": "Daniel 4.35",
+                    "texto": "sua vontade, ele opera com o E. do céu e os"
+                },
+                {
+                    "referencia": "Daniel 8.10",
+                    "texto": "E se engrandeceu até ao E. dos céus; e a alguns"
+                },
+                {
+                    "referencia": "Daniel 8.10",
+                    "texto": "dos céus; e a alguns do E. e das estrelas"
+                },
+                {
+                    "referencia": "Daniel 8.11",
+                    "texto": "até ao príncipe do E.; e por ele foi"
+                },
+                {
+                    "referencia": "Daniel 8.12",
+                    "texto": "E o E. lhe foi entregue, com o sacrifício"
+                },
+                {
+                    "referencia": "Daniel 8.13",
+                    "texto": "seja entregue o santuário e o E., a fim de"
+                },
+                {
+                    "referencia": "Daniel 11.7",
+                    "texto": "em seu lugar e virá como E., e entrará nas"
+                },
+                {
+                    "referencia": "Daniel 11.13",
+                    "texto": "anos, virá à pressa com grande E. e com muita fa-"
+                },
+                {
+                    "referencia": "Daniel 11.25",
+                    "texto": "o rei do Sul, com um grande E., e o rei do Sul"
+                },
+                {
+                    "referencia": "Daniel 11.25",
+                    "texto": "com um grande e mui poderoso E.; mas não"
+                },
+                {
+                    "referencia": "Daniel 11.26",
+                    "texto": "o quebrantarão; e o E. dele se"
+                },
+                {
+                    "referencia": "Obadias 1.11",
+                    "texto": "levavam cativo o seu £., e os estranhos"
+                },
+                {
+                    "referencia": "Obadias 1.13",
+                    "texto": "as tuas mãos contra o seu E., no dia da"
+                },
+                {
+                    "referencia": "Obadias 1.20",
+                    "texto": "E os cativos desse E. dos filhos de Israel, que"
+                },
+                {
+                    "referencia": "Sofonias 1.5",
+                    "texto": "os telhados se curvam ao E. do céu; e os que"
+                },
+                {
+                    "referencia": "Zacarias 9.8",
+                    "texto": "da minha casa, contra o E., para que"
+                },
+                {
+                    "referencia": "Atos 7.42",
+                    "texto": "a que servissem ao E. do céu, como está"
+                },
+                {
+                    "referencia": "Apocalipse 19.19",
+                    "texto": "que estava assentado sobre o cavalo e ao seu E.."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,362 @@
+{
+    "s": [
+        {
+            "palavra": "SICLOS",
+            "veja tambem": [
+                "siclo"
+            ],
+            "ocorrencias": 87,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 23.15",
+                    "texto": "a terra é de quatrocentos 8. de prata; que é"
+                },
+                {
+                    "referencia": "Gênesis 23.16",
+                    "texto": "de Hete, quatrocentos S. de prata,"
+                },
+                {
+                    "referencia": "Gênesis 24.22",
+                    "texto": "para as suas mãos, do peso de dez S, de ouro,"
+                },
+                {
+                    "referencia": "Êxodo 21.32",
+                    "texto": "uma serva, dar-se-ão trinta S. de prata ao seu"
+                },
+                {
+                    "referencia": "Êxodo 30.23",
+                    "texto": "da mais pura mirra, quinhentos 5.; e de canela"
+                },
+                {
+                    "referencia": "Êxodo 30.23",
+                    "texto": "e de cálamo aromático, duzentos e cinquenta S.;"
+                },
+                {
+                    "referencia": "Êxodo 30.24",
+                    "texto": "e de cássia, quinhentos S., segundo o siclo do"
+                },
+                {
+                    "referencia": "Êxodo 38.24",
+                    "texto": "talentos e setecentos e trinta 4., conforme o"
+                },
+                {
+                    "referencia": "Êxodo 38.25",
+                    "texto": "e setenta e cinco $., conforme o siclo"
+                },
+                {
+                    "referencia": "Êxodo 38.28",
+                    "texto": "e setenta e cinco 8. fez os colchetes"
+                },
+                {
+                    "referencia": "Êxodo 38.29",
+                    "texto": "foi setenta talentos e dois mil e quatrocentos S.."
+                },
+                {
+                    "referencia": "Levítico 5.15",
+                    "texto": "conforme a tua estimação em S, de prata,"
+                },
+                {
+                    "referencia": "Levítico 27.3",
+                    "texto": "a tua avaliação de cinquenta S, de prata, segundo"
+                },
+                {
+                    "referencia": "Levítico 27.4",
+                    "texto": "se for fêmea, a tua avaliação será de trinta 3.."
+                },
+                {
+                    "referencia": "Levítico 27.5",
+                    "texto": "dum varão será de vinte S., e a da fêmea, de"
+                },
+                {
+                    "referencia": "Levítico 27.5",
+                    "texto": "será de vinte S., e a da fêmea, de dez $.."
+                },
+                {
+                    "referencia": "Levítico 27.6",
+                    "texto": "dum varão será de cinco S, de prata, e a tua"
+                },
+                {
+                    "referencia": "Levítico 27.6",
+                    "texto": "a tua avaliação da fêmea será de três S. de prata."
+                },
+                {
+                    "referencia": "Levítico 27.7",
+                    "texto": "tua avaliação será de quinze S., e a da fêmea, de"
+                },
+                {
+                    "referencia": "Levítico 27.7",
+                    "texto": "será de quinze S., e a da fêmea, de dez S.."
+                },
+                {
+                    "referencia": "Levítico 27.16",
+                    "texto": "de cevada será avaliado por cinquenta S. de prata."
+                },
+                {
+                    "referencia": "Números 3.47",
+                    "texto": "para cada cabeça cinco $,; conforme o siclo"
+                },
+                {
+                    "referencia": "Números 3.50",
+                    "texto": "e sessenta e cinco S., segundo o siclo"
+                },
+                {
+                    "referencia": "Números 7.13",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "Números 7.13",
+                    "texto": "de prata, do peso de setenta S., segundo o siclo"
+                },
+                {
+                    "referencia": "Números 7.14",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "Números 7.19",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "Números 7.19",
+                    "texto": "de prata, do peso de setenta $., segundo o siclo"
+                },
+                {
+                    "referencia": "Números 7.20",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "Números 7.25",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "Números 7.25",
+                    "texto": "de prata, do peso de setenta S., segundo o siclo"
+                },
+                {
+                    "referencia": "Números 7.26",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "Números 7.31",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "Números 7.31",
+                    "texto": "de prata, do peso de setenta S., segundo o siclo"
+                },
+                {
+                    "referencia": "Números 7.32",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "Números 7.37",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "Números 7.37",
+                    "texto": "de prata, do peso de setenta $., segundo o siclo"
+                },
+                {
+                    "referencia": "m 7.38",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "m 7.43",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "m 7.43",
+                    "texto": "de prata, do peso de setenta $., segundo o siclo"
+                },
+                {
+                    "referencia": "m 7.44",
+                    "texto": "uma taça de dez $., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "m 7.49",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "m 7.49",
+                    "texto": "de prata, do peso de setenta S., segundo o siclo"
+                },
+                {
+                    "referencia": "m 7.50",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "m 7.55",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "m 7.55",
+                    "texto": "de prata, do peso de setenta S., segundo o siclo"
+                },
+                {
+                    "referencia": "m 7.56",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "m 7.61",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "m 7.61",
+                    "texto": "de prata, do peso de setenta S., segundo o siclo"
+                },
+                {
+                    "referencia": "m 7.62",
+                    "texto": "uma taça de de S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "m 7.67",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "m 7.67",
+                    "texto": "de prata, do peso de setenta S., segundo o siclo"
+                },
+                {
+                    "referencia": "m 7.68",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "m 7.73",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "m 7.73",
+                    "texto": "de prata, do peso de setenta S., segundo o siclo"
+                },
+                {
+                    "referencia": "m 7.74",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "m 7.79",
+                    "texto": "do peso de cento e trinta S., uma bacia de"
+                },
+                {
+                    "referencia": "m 7.79",
+                    "texto": "de prata, do peso de setenta S., segundo o siclo"
+                },
+                {
+                    "referencia": "m 7.80",
+                    "texto": "uma taça de dez S., de ouro, cheia de incenso;"
+                },
+                {
+                    "referencia": "m 7.85",
+                    "texto": "de prata, de cento e trinta S., e cada bacia, de"
+                },
+                {
+                    "referencia": "m 7.85",
+                    "texto": "foi dois mil e quatrocentos $., segundo o"
+                },
+                {
+                    "referencia": "m 7.86",
+                    "texto": "de incenso, cada taça de dez S., segundo o siclo"
+                },
+                {
+                    "referencia": "m 7.86",
+                    "texto": "todo o ouro das taças foi de cento e vinte S.;"
+                },
+                {
+                    "referencia": "Números 18.16",
+                    "texto": "a tua avaliação, por cinco S. de dinheiro,"
+                },
+                {
+                    "referencia": "Números 31.52",
+                    "texto": "mile setecentos e cinquenta S., dos tribunos e"
+                },
+                {
+                    "referencia": "Deuteronômio 22.19",
+                    "texto": "e o condenarão em cem S. de prata, e os darão ao"
+                },
+                {
+                    "referencia": "Deuteronômio 22.29",
+                    "texto": "ao pai da moça cinquenta S. de prata; e,"
+                },
+                {
+                    "referencia": "Juízes 8.26",
+                    "texto": "que pediu mil e setecentos S. de ouro, afora as"
+                },
+                {
+                    "referencia": "ISm 17.5",
+                    "texto": "e era o peso da couraça de cinco mil S. de bronze."
+                },
+                {
+                    "referencia": "1 Samuel 17.7",
+                    "texto": "da sua lança, de seiscentos S, de ferro; e"
+                },
+                {
+                    "referencia": "2 Samuel 14.26",
+                    "texto": "o cabelo da sua cabeça duzentos S$., segundo o"
+                },
+                {
+                    "referencia": "2 Samuel 21.16",
+                    "texto": "cuja lança tinha trezentos §. de cobre, e que"
+                },
+                {
+                    "referencia": "2 Samuel 24.24",
+                    "texto": "comprou a eira e os bois por cinquenta S. de prata."
+                },
+                {
+                    "referencia": "IRs 10.16",
+                    "texto": "de ouro batido; seiscentos 8. de ouro mandou"
+                },
+                {
+                    "referencia": "IRs 10.29",
+                    "texto": "do Egito por seiscentos S. de prata, e o"
+                },
+                {
+                    "referencia": "2 Reis 5.5",
+                    "texto": "talentos de prata, e seis mil S. de ouro, e"
+                },
+                {
+                    "referencia": "2 Reis 15.20",
+                    "texto": "para cada homem cinquenta S. de prata; assim,"
+                },
+                {
+                    "referencia": "1 Crônicas 21.25",
+                    "texto": "por aquele lugar o peso de seiscentos S. de ouro."
+                },
+                {
+                    "referencia": "2 Crônicas 1.17",
+                    "texto": "cada carro por seiscentos S. de prata, e cada"
+                },
+                {
+                    "referencia": "2 Crônicas 3.9",
+                    "texto": "pregos era de cinquenta S. de ouro; e cobriu"
+                },
+                {
+                    "referencia": "2 Crônicas 9.15",
+                    "texto": "pavês mandou pesar seiscentos S, de ouro batido,"
+                },
+                {
+                    "referencia": "2 Crônicas 9.16",
+                    "texto": "mandou pesar trezentos S. de ouro; e Salomão"
+                },
+                {
+                    "referencia": "Neemias 5.15",
+                    "texto": "vinho e, além disso, quarenta S, de prata; ainda"
+                },
+                {
+                    "referencia": "Jeremias 32.9",
+                    "texto": "e pesei-lhe o dinheiro: dezessete S. de prata."
+                },
+                {
+                    "referencia": "Ezequiel 4.10",
+                    "texto": "comer, será do peso de vinte S. cada dia; de"
+                },
+                {
+                    "referencia": "Ezequiel 45.12",
+                    "texto": "será de vinte geras; vinte $., mais vinte e"
+                },
+                {
+                    "referencia": "Ezequiel 45.12",
+                    "texto": "ecinco S., mais quinze S. vos servirão de"
+                }
+            ]
+        }
+    ]
+}

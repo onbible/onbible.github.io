@@ -1,0 +1,30 @@
+{
+    "p": [
+        {
+            "palavra": "PASSANDO-SE",
+            "veja tambem": [
+                "passar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 38.12",
+                    "texto": "P., pois, muitos dias, morreu a filha de"
+                }
+            ]
+        },
+        {
+            "palavra": "PASSANDO-SE-LHE",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Levítico 25.30",
+                    "texto": "Mas, se, P, um ano inteiro, ainda não"
+                }
+            ]
+        }
+    ]
+}

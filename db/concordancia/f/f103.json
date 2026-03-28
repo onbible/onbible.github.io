@@ -1,0 +1,38 @@
+{
+    "f": [
+        {
+            "palavra": "FERREIROS",
+            "veja tambem": [
+                "ferreiro"
+            ],
+            "ocorrencias": 6,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "2 Reis 24.14",
+                    "texto": "e todos os carpinteiros e E; ninguém"
+                },
+                {
+                    "referencia": "2 Reis 24.16",
+                    "texto": "sete mil, e carpinteiros, e É, até mil,"
+                },
+                {
+                    "referencia": "2 Crônicas 24.12",
+                    "texto": "Casa do Senhor, como também É e"
+                },
+                {
+                    "referencia": "Jeremias 24.1",
+                    "texto": "de Judá, e os carpinteiros, e os E de"
+                },
+                {
+                    "referencia": "Jeremias 29.2",
+                    "texto": "e os carpinteiros, e os E de Jerusalém),"
+                },
+                {
+                    "referencia": "Zacarias 1.20",
+                    "texto": "E o Senhor me mostrou quatro E."
+                }
+            ]
+        }
+    ]
+}

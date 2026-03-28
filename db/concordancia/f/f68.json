@@ -1,0 +1,86 @@
+{
+    "f": [
+        {
+            "palavra": "FAZEM-ME",
+            "veja tambem": [
+                "fazer"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                }
+            ]
+        },
+        {
+            "palavra": "FAZEM-SE",
+            "veja tambem": [
+                "fazer"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "S114.1",
+                    "texto": "há Deus. Têm-se corrompido, F. abomináveis em"
+                }
+            ]
+        },
+        {
+            "palavra": "FAZEMO-LO",
+            "veja tambem": [
+                "fazer"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "1 João 1.10",
+                    "texto": "dissermos que não pecamos, E mentiroso, e a"
+                }
+            ]
+        },
+        {
+            "palavra": "FAZEMOS",
+            "veja tambem": [],
+            "ocorrencias": 7,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Deuteronômio 12.8",
+                    "texto": "conforme tudo o que hoje É aqui, cada qual"
+                },
+                {
+                    "referencia": "2 Reis 7.9",
+                    "texto": "uns para os outros: Não É bem; este dia é"
+                },
+                {
+                    "referencia": "Esdras 4.16",
+                    "texto": "Nós, pois, E notório ao rei que, se aquela"
+                },
+                {
+                    "referencia": "Esdras 7.24",
+                    "texto": "Também vos E saber acerca de todos os"
+                },
+                {
+                    "referencia": "Jeremias 26.19",
+                    "texto": "que falara contra eles. E nós não E um grande"
+                },
+                {
+                    "referencia": "2 Coríntios 8.1",
+                    "texto": "Também, irmãos, vos E conhecer a graça de Deus"
+                },
+                {
+                    "referencia": "1 João 3.22",
+                    "texto": "os seus mandamentos e E o que é"
+                }
+            ]
+        }
+    ]
+}

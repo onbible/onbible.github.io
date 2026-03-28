@@ -1,0 +1,54 @@
+{
+    "d": [
+        {
+            "palavra": "DIZ-LHE",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 20.21",
+                    "texto": "E ele D.: Que queres? Ela respondeu: Dize que"
+                }
+            ]
+        },
+        {
+            "palavra": "DIZ-LHES",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 3,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 20.7",
+                    "texto": "ninguém nos assalariou. D., ele: Ide vós"
+                },
+                {
+                    "referencia": "Mateus 20.23",
+                    "texto": "E D, ele: Na verdade bebereis o meu cálice, mas"
+                },
+                {
+                    "referencia": "Mateus 2142",
+                    "texto": "D. Jesus: Nunca lestes nas Escrituras: A pedra"
+                }
+            ]
+        },
+        {
+            "palavra": "DIZ-SE",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Isaías 22.13",
+                    "texto": "carne, e bebe-se vinho, e D.: Comamos e"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "q": [
+        {
+            "palavra": "QUATROCENTAS",
+            "veja tambem": [
+                "quatrocentos"
+            ],
+            "ocorrencias": 4,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Juízes 21.12",
+                    "texto": "moradores de Jabes-Gileade Q. moças"
+                },
+                {
+                    "referencia": "1 Reis 7.42",
+                    "texto": "e as Q. romãs, para as duas redes, a saber,"
+                },
+                {
+                    "referencia": "2 Crônicas 4.13",
+                    "texto": "e as Q. romãs para as duas redes: duas"
+                },
+                {
+                    "referencia": "Esdras 1.10",
+                    "texto": "trinta taças de ouro, Q. e dez taças de"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "f": [
+        {
+            "palavra": "FARDO",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 11.30",
+                    "texto": "Porque o meu jugo é suave, e o meu F é leve."
+                }
+            ]
+        },
+        {
+            "palavra": "FARDOS",
+            "veja tambem": [
+                "fardo"
+            ],
+            "ocorrencias": 4,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 49.14",
+                    "texto": "é jumento de fortes ossos, deitado entre dois E."
+                },
+                {
+                    "referencia": "Isaías 46.1",
+                    "texto": "bestas; as cargas dos vossos E são canseira"
+                },
+                {
+                    "referencia": "Ezequiel 27.24",
+                    "texto": "sorte de mercadorias, em E de jacinto e de"
+                },
+                {
+                    "referencia": "Mateus 23.4",
+                    "texto": "Pois atam É pesados e difíceis de suportar, e os"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "l": [
+        {
+            "palavra": "LEVANTOU-A",
+            "veja tambem": [
+                "levantar"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Daniel 3.1",
+                    "texto": "sua largura, de seis côvados; L. no campo de"
+                },
+                {
+                    "referencia": "Marcos 1.31",
+                    "texto": "a ela, tomou-a pela mão e L.; ea febre a"
+                }
+            ]
+        },
+        {
+            "palavra": "LEVANTOU-ME",
+            "veja tambem": [],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Ezequiel 3.12",
+                    "texto": "E L. o Espírito, e ouvi por detrás de mim"
+                },
+                {
+                    "referencia": "Ezequiel 43.5",
+                    "texto": "E L. o Espírito e me levou ao átrio"
+                }
+            ]
+        }
+    ]
+}

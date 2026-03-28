@@ -1,0 +1,254 @@
+{
+    "d": [
+        {
+            "palavra": "DIZE-ME",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 7,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 37.16",
+                    "texto": "disse: Procuro meus irmãos; D., peço-te, onde"
+                },
+                {
+                    "referencia": "2 Samuel 1.4",
+                    "texto": "Como foi lá isso? Peço-te, D.. E ele lhe"
+                },
+                {
+                    "referencia": "Cânticos 1.7",
+                    "texto": "D., ótu, a quem ama a minha alma: onde"
+                },
+                {
+                    "referencia": "Daniel 4.9",
+                    "texto": "e nenhum segredo te é difícil; D, as visões do"
+                },
+                {
+                    "referencia": "Jó 20.15",
+                    "texto": "disse-lhe: Senhor, se tu o levaste, D, onde o"
+                },
+                {
+                    "referencia": "Atos 5.8",
+                    "texto": "E disse-lhe Pedro: D., vendestes por tanto"
+                },
+                {
+                    "referencia": "Atos 22.27",
+                    "texto": "vindo o tribuno, disse-lhe: D., és tu romano?"
+                }
+            ]
+        },
+        {
+            "palavra": "DIZE-NO-LO",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "Jó 10.24",
+                    "texto": "suspensa? Se tu és o Cristo, D. abertamente."
+                }
+            ]
+        },
+        {
+            "palavra": "DIZE-NOS",
+            "veja tambem": [],
+            "ocorrencias": 5,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 22.17",
+                    "texto": "D., pois, que te parece: é lícito pagar o"
+                },
+                {
+                    "referencia": "Mateus 24.3",
+                    "texto": "em particular, dizendo: D, quando serão"
+                },
+                {
+                    "referencia": "Marcos 13.4",
+                    "texto": "D. quando serão essas coisas e que sinal haverá"
+                },
+                {
+                    "referencia": "Lucas 20.2",
+                    "texto": "e falaram-lhe, dizendo: D.: com que autoridade"
+                },
+                {
+                    "referencia": "Lucas 22.67",
+                    "texto": "Se tu és o Cristo, D.. Ele replicou:"
+                }
+            ]
+        },
+        {
+            "palavra": "DIZE-O",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 18.17",
+                    "texto": "E, se não as escutar, D, à igreja; e, se também"
+                }
+            ]
+        },
+        {
+            "palavra": "DIZEDOR",
+            "veja tambem": [
+                "diz"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Ezequiel 20.49",
+                    "texto": "Eles dizem de mim: Não é este um D. de parábolas?"
+                }
+            ]
+        },
+        {
+            "palavra": "DIZEI",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 32,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 373",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "1 Reis 20.9",
+                    "texto": "mensageiros de Ben-Hadade: D, ao rei, meu senhor:"
+                },
+                {
+                    "referencia": "2 Reis 18.19",
+                    "texto": "E Rabsaqué lhes disse: Ora, D. a Ezequias: Assim"
+                },
+                {
+                    "referencia": "2 Reis 22.15",
+                    "texto": "o Senhor, o Deus de Israel: D, ao homem que vos"
+                },
+                {
+                    "referencia": "1 Crônicas 16.35",
+                    "texto": "E D,: Salva-nos, ó Deus da nossa salvação, e"
+                },
+                {
+                    "referencia": "Isaías 3.10",
+                    "texto": "D. aos justos que bem lhes irá, porque comerão do"
+                },
+                {
+                    "referencia": "Isaías 8.10",
+                    "texto": "e ele será dissipado; D. a palavra, e ela"
+                },
+                {
+                    "referencia": "Isaías 35.4",
+                    "texto": "D. aos turbados de coração: Esforçai-vos e não"
+                },
+                {
+                    "referencia": "Isaías 36.4",
+                    "texto": "E Rabsaqué lhes disse: Ora, D. a Ezequias: Assim"
+                },
+                {
+                    "referencia": "Isaías 48.20",
+                    "texto": "e levai-o até ao fim da terra; D.: O Senhor remiu"
+                },
+                {
+                    "referencia": "Isaías 62.11",
+                    "texto": "às extremidades da terra: D. à filha de Sião:"
+                },
+                {
+                    "referencia": "Jeremias 4.5",
+                    "texto": "fazei ouvir em Jerusalém, e D.: Tocai a trombeta"
+                },
+                {
+                    "referencia": "Jeremias 31.7",
+                    "texto": "proclamai, cantai louvores e D.: Salva, Senhor,"
+                },
+                {
+                    "referencia": "Jeremias 31.10",
+                    "texto": "nas ilhas de longe, e D.: Aquele que."
+                },
+                {
+                    "referencia": "Jeremias 46.14",
+                    "texto": "ouvi-lo em Nofe e em Tafnes; D.: Apresenta-te e"
+                },
+                {
+                    "referencia": "Jeremias 48.17",
+                    "texto": "os que sabeis o seu nome; D.: Como se quebrou a"
+                },
+                {
+                    "referencia": "Jeremias 50.2",
+                    "texto": "e fazei ouvir, e não encubrais; D.: Tomada éa"
+                },
+                {
+                    "referencia": "Oséias 2.1",
+                    "texto": "D. a vossos irmãos: Ami; e a vossas irmãs: Ruama."
+                },
+                {
+                    "referencia": "Amós 3.9",
+                    "texto": "da terra do Egito e D.: Ajuntai-vos sobre"
+                },
+                {
+                    "referencia": "Mateus 21.5",
+                    "texto": "D. à filha de Sião: Eis que o teu Rei aí te vem,"
+                },
+                {
+                    "referencia": "Mateus 22.4",
+                    "texto": "outros servos, dizendo: D. aos convidados:"
+                },
+                {
+                    "referencia": "Mateus 28.7",
+                    "texto": "Ide, pois, imediatamente, e D. aos seus discípulos"
+                },
+                {
+                    "referencia": "Mateus 28.13",
+                    "texto": "D.: Vieram de noite os seus discípulos e, dormindo"
+                },
+                {
+                    "referencia": "Marcos 14.14",
+                    "texto": "E, onde quer que entrar, D. ao senhor da casa: O"
+                },
+                {
+                    "referencia": "Marcos 16.7",
+                    "texto": "Mas ide, D. a seus discípulos e a Pedro que ele"
+                },
+                {
+                    "referencia": "Lucas 10.5",
+                    "texto": "casa onde entrardes, D. primeiro: Paz seja"
+                },
+                {
+                    "referencia": "Lucas 10.10",
+                    "texto": "e vos não receberem, saindo por suas ruas, D.:"
+                },
+                {
+                    "referencia": "Lucas 11.2",
+                    "texto": "lhes disse: Quando orardes, D.: Pai, santificado"
+                },
+                {
+                    "referencia": "Lucas 13.32",
+                    "texto": "E lhes respondeu: Ide e D. àquela raposa: eis que"
+                },
+                {
+                    "referencia": "Lucas 17.10",
+                    "texto": "tudo o que vos for mandado, D.: Somos servos"
+                },
+                {
+                    "referencia": "Atos 5.20",
+                    "texto": "apresentai-vos no templo e D. ao povo todas as"
+                },
+                {
+                    "referencia": "C14.17",
+                    "texto": "E D. a Arquipo: Atenta para o ministério que"
+                }
+            ]
+        }
+    ]
+}

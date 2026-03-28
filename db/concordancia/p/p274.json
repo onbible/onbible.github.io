@@ -1,0 +1,30 @@
+{
+    "p": [
+        {
+            "palavra": "PRESENCIANDO",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Jeremias 32.24",
+                    "texto": "disseste se cumpriu, e eis aqui o estás P.."
+                }
+            ]
+        },
+        {
+            "palavra": "PRESENCIARAM",
+            "veja tambem": [
+                "presenciando"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Lucas 1.2",
+                    "texto": "os mesmos que os ÈP. desde o"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "d": [
+        {
+            "palavra": "DIZIA-LHES",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 5,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 3.7",
+                    "texto": "que vinham ao seu batismo, D.: Raça de"
+                },
+                {
+                    "referencia": "Marcos 6.10",
+                    "texto": "E D.: Na casa em que entrardes, ficai nela"
+                },
+                {
+                    "referencia": "Marcos 9.1",
+                    "texto": "D., também: Em verdade vos digo que, dos que"
+                },
+                {
+                    "referencia": "Marcos 12.38",
+                    "texto": "E, ensinando-os, D.: Guardai-vos dos"
+                },
+                {
+                    "referencia": "Jó 8.23",
+                    "texto": "E D.: Vós sois de baixo, eu sou de cima; vós"
+                }
+            ]
+        },
+        {
+            "palavra": "DIZIA-ME",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                }
+            ]
+        }
+    ]
+}

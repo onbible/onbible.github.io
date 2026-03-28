@@ -1,0 +1,54 @@
+{
+    "d": [
+        {
+            "palavra": "DANDO-ME",
+            "veja tambem": [
+                "dar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Romanos 9.1",
+                    "texto": "digo a verdade, não minto (dando-me testemunho a"
+                }
+            ]
+        },
+        {
+            "palavra": "DANDO-NOS",
+            "veja tambem": [
+                "dar"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "Josué 2.14",
+                    "texto": "nosso negócio; e será, pois, que, D. o Senhor"
+                }
+            ]
+        },
+        {
+            "palavra": "DANDO-VOS",
+            "veja tambem": [
+                "dar"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Isaías 55.3",
+                    "texto": "farei um concerto perpétuo, D, as firmes"
+                },
+                {
+                    "referencia": "Atos 14.17",
+                    "texto": "beneficiando-vos lá do céu, D. chuvas e"
+                }
+            ]
+        }
+    ]
+}

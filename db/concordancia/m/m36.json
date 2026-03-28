@@ -1,0 +1,396 @@
+{
+    "m": [
+        {
+            "palavra": "MANDADO",
+            "veja tambem": [],
+            "ocorrencias": 96,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 26.5",
+                    "texto": "minha voz e guardou o meu M, os meus"
+                },
+                {
+                    "referencia": "Gênesis 45.21",
+                    "texto": "deu-lhes carros, conforme o M. de Faraó; também"
+                },
+                {
+                    "referencia": "Êxodo 7.20",
+                    "texto": "assim como o Senhor tinha M.; e levantou a vara"
+                },
+                {
+                    "referencia": "Êxodo 16.16",
+                    "texto": "a palavra que o Senhor tem M.: Colhei dele cada"
+                },
+                {
+                    "referencia": "Êxodo 16.32",
+                    "texto": "a palavra que o Senhor tem M.: Encherás um"
+                },
+                {
+                    "referencia": "Êxodo 31.11",
+                    "texto": "o santuário; farão conforme tudo que te tenho M.."
+                },
+                {
+                    "referencia": "Êxodo 35.10",
+                    "texto": "vós virão e farão tudo o que o Senhor tem M.:"
+                },
+                {
+                    "referencia": "Levítico 18.30",
+                    "texto": "Portanto, guardareis o meu M., não fazendo"
+                },
+                {
+                    "referencia": "Números 3.16",
+                    "texto": "os contou conforme o M. do Senhor, como"
+                },
+                {
+                    "referencia": "Números 3.39",
+                    "texto": "contou Moisés e Arão, por M. do Senhor,"
+                },
+                {
+                    "referencia": "Números 3.51",
+                    "texto": "ea seus filhos, segundo o M. do Senhor, como o"
+                },
+                {
+                    "referencia": "Números 4.27",
+                    "texto": "ministério, será segundo o M. de Arão e de"
+                },
+                {
+                    "referencia": "Números 4.37",
+                    "texto": "Moisés e Arão, conforme o M. do Senhor pela"
+                },
+                {
+                    "referencia": "Números 4.41",
+                    "texto": "contaram Moisés e Arão, conforme o M. do Senhor."
+                },
+                {
+                    "referencia": "Números 4.45",
+                    "texto": "Moisés e Arão, conforme o M. do Senhor, pela"
+                },
+                {
+                    "referencia": "Números 4.49",
+                    "texto": "Conforme o M. do Senhor pela mão de Moisés,"
+                },
+                {
+                    "referencia": "Números 14.41",
+                    "texto": "Por que quebrantais o M, do Senhor? Pois"
+                },
+                {
+                    "referencia": "Números 15.23",
+                    "texto": "quanto o Senhor vos tem M, por mão de Moisés,"
+                },
+                {
+                    "referencia": "Números 22.18",
+                    "texto": "eu não poderia traspassar o M. do Senhor, meu"
+                },
+                {
+                    "referencia": "Números 23.20",
+                    "texto": "Eis que recebi M. de abençoar; pois ele tem"
+                },
+                {
+                    "referencia": "Números 24.13",
+                    "texto": "não posso traspassar o M. do Senhor,"
+                },
+                {
+                    "referencia": "Números 27.14",
+                    "texto": "da congregação, ao meu M. de me"
+                },
+                {
+                    "referencia": "Números 33.2",
+                    "texto": "as suas jornadas, conforme o M., do Senhor; e"
+                },
+                {
+                    "referencia": "Números 33.38",
+                    "texto": "subiu ao monte Hor, conforme o M, do Senhor; e"
+                },
+                {
+                    "referencia": "Números 36.5",
+                    "texto": "filhos de Israel, segundo o M, do Senhor,"
+                },
+                {
+                    "referencia": "Deuteronômio 1.26",
+                    "texto": "mas fostes rebeldes ao M. do Senhor, vosso Deus."
+                },
+                {
+                    "referencia": "Deuteronômio 1.43",
+                    "texto": "antes, fostes rebeldes ao M. do Senhor, e"
+                },
+                {
+                    "referencia": "Deuteronômio 6.17",
+                    "texto": "seus testemunhos e seus estatutos, que te tem M."
+                },
+                {
+                    "referencia": "Deuteronômio 9.23",
+                    "texto": "dado, rebeldes fostes ao M. do Senhor,"
+                },
+                {
+                    "referencia": "Deuteronômio 17.10",
+                    "texto": "E farás conforme o M, da palavra que te"
+                },
+                {
+                    "referencia": "Deuteronômio 17.11",
+                    "texto": "Conforme o M. da lei que te ensinarem e conforme"
+                },
+                {
+                    "referencia": "Deuteronômio 18.20",
+                    "texto": "nome, que eu lhe não tenho M. falar, ou o que"
+                },
+                {
+                    "referencia": "Josué 8.8",
+                    "texto": "do Senhor fareis; olhai que vo-lo tenho M.."
+                },
+                {
+                    "referencia": "Josué 13.6",
+                    "texto": "Israel em sorte por herança, como já to tenho M.."
+                },
+                {
+                    "referencia": "1 Samuel 25.40",
+                    "texto": "falaram, dizendo: Davi nos tem M. a ti, para"
+                },
+                {
+                    "referencia": "1 Reis 2.43",
+                    "texto": "o juramento do Senhor, nem o M. que te mandei?"
+                },
+                {
+                    "referencia": "1 Reis 13.17",
+                    "texto": "Porque me foi M. pela palavra do Senhor: Ali,"
+                },
+                {
+                    "referencia": "1 Reis 20.5",
+                    "texto": "Ainda que eu te tenha M., dizer: Tu me"
+                },
+                {
+                    "referencia": "2 Reis 18.36",
+                    "texto": "uma só palavra; porque M. do rei havia,"
+                },
+                {
+                    "referencia": "2 Reis 23.35",
+                    "texto": "dar esse dinheiro conforme o M, de Faraó; a cada"
+                },
+                {
+                    "referencia": "2 Reis 24.3",
+                    "texto": "E, na verdade, conforme o M, do Senhor, assim"
+                },
+                {
+                    "referencia": "1 Crônicas 23.28",
+                    "texto": "seu cargo era de estar ao M. dos filhos de Arão"
+                },
+                {
+                    "referencia": "1 Crônicas 28.19",
+                    "texto": "me deram a entender por M. do Senhor, a"
+                },
+                {
+                    "referencia": "2 Crônicas 8.14",
+                    "texto": "a cada porta; porque tal era o M., de Davi,"
+                },
+                {
+                    "referencia": "2 Crônicas 8.15",
+                    "texto": "E não se desviaram do M. do rei aos sacerdotes e"
+                },
+                {
+                    "referencia": "2 Crônicas 24.11",
+                    "texto": "mãos dos levitas, segundo o M. do rei, e vendo"
+                },
+                {
+                    "referencia": "2 Crônicas 24.21",
+                    "texto": "apedrejaram com pedras, por M. do rei, no pátio"
+                },
+                {
+                    "referencia": "2 Crônicas 29.15",
+                    "texto": "e vieram conforme o MI, do rei, pelas"
+                },
+                {
+                    "referencia": "2 Crônicas 29.25",
+                    "texto": "e com harpas, conforme o M. de Davi e de"
+                },
+                {
+                    "referencia": "2 Crônicas 29.25",
+                    "texto": "e do profeta Natã, porque este M. veio do"
+                },
+                {
+                    "referencia": "2 Crônicas 30.6",
+                    "texto": "o Israel e Judá e segundo o M. do rei, dizendo:"
+                },
+                {
+                    "referencia": "2 Crônicas 30.12",
+                    "texto": "só coração, para fazerem o M. do rei e dos"
+                },
+                {
+                    "referencia": "2 Crônicas 31.13",
+                    "texto": "de Conanias e Simei, seu irmão, por M. do rei"
+                },
+                {
+                    "referencia": "2 Crônicas 35.10",
+                    "texto": "os levitas, nas suas turmas, conforme o M. do rei."
+                },
+                {
+                    "referencia": "2 Crônicas 35.15",
+                    "texto": "no seu posto, segundo o M. de Davi, e de"
+                },
+                {
+                    "referencia": "2 Crônicas 35.16",
+                    "texto": "o altar do Senhor, segundo o M. do rei Josias."
+                },
+                {
+                    "referencia": "Esdras 6.14",
+                    "texto": "e a aperfeiçoaram conforme o M. do Deus de"
+                },
+                {
+                    "referencia": "Esdras 6.14",
+                    "texto": "Deus de Israel, e conforme o M. de Ciro, e de"
+                },
+                {
+                    "referencia": "Esdras 7.14",
+                    "texto": "seus sete conselheiros és ML, para fazeres"
+                },
+                {
+                    "referencia": "Esdras 7.23",
+                    "texto": "se ordenar, segundo o M. do Deus do céu,"
+                },
+                {
+                    "referencia": "Esdras 8.17",
+                    "texto": "E dei-lhes M. para Ido, chefe no lugar de"
+                },
+                {
+                    "referencia": "Esdras 10.3",
+                    "texto": "do Senhor e dos que tremem no M. do nosso Deus;"
+                },
+                {
+                    "referencia": "Neemias 11.23",
+                    "texto": "Porque havia um M. do rei acerca deles, a saber,"
+                },
+                {
+                    "referencia": "Neemias 12.24",
+                    "texto": "e darem graças, segundo o M. de Davi,"
+                },
+                {
+                    "referencia": "Neemias 12.45",
+                    "texto": "e porteiros, conforme o M, de Davi e de seu"
+                },
+                {
+                    "referencia": "Ester 1.15",
+                    "texto": "por não haver cumprido o M. do rei Assuero,"
+                },
+                {
+                    "referencia": "Ester 1.20",
+                    "texto": "É, ouvindo-se o M. que o rei decretar em todo o"
+                },
+                {
+                    "referencia": "Ester 2.8",
+                    "texto": "pois, que, divulgando-se o MI. do rei e a sua"
+                },
+                {
+                    "referencia": "Ester 2.20",
+                    "texto": "porque Ester cumpria o M. de Mardoqueu,"
+                },
+                {
+                    "referencia": "Ester 3.3",
+                    "texto": "a Mardoqueu: Por que traspassas o M. do rei?"
+                },
+                {
+                    "referencia": "Ester 4.5",
+                    "texto": "na presença dela) e deu-lhe M. para"
+                },
+                {
+                    "referencia": "Ester 5.5",
+                    "texto": "apressar a Hamã, que cumpra o M, de Ester."
+                },
+                {
+                    "referencia": "Ester 5.8",
+                    "texto": "de preparar, e amanhã farei conforme o M. do rei."
+                },
+                {
+                    "referencia": "Ester 9.13",
+                    "texto": "em Susã que façam conforme o M. de hoje; e"
+                },
+                {
+                    "referencia": "Ester 9.32",
+                    "texto": "E o M. de Ester estabeleceu o que respeitava ao"
+                },
+                {
+                    "referencia": "Jó 39.27",
+                    "texto": "se remonta a águia ao teu M. e põe no alto o"
+                },
+                {
+                    "referencia": "S178.23",
+                    "texto": "posto que tivesse M. às altas nuvens, e tivesse"
+                },
+                {
+                    "referencia": "Isaías 23.11",
+                    "texto": "os reinos; o Senhor deu M., contra Canaã,"
+                },
+                {
+                    "referencia": "Isaías 36.21",
+                    "texto": "palavra, porque havia M. do rei, dizendo:"
+                },
+                {
+                    "referencia": "Jeremias 14.15",
+                    "texto": "nome, sem que eu os tenha M., e dizem que nem"
+                },
+                {
+                    "referencia": "Daniel 2.15",
+                    "texto": "Por que se apressa tanto o M. da parte do rei?"
+                },
+                {
+                    "referencia": "Daniel 4.17",
+                    "texto": "e esta ordem, por M, dos santos; a"
+                },
+                {
+                    "referencia": "Jonas 3.7",
+                    "texto": "se divulgou em Nínive, por M. do rei e dos"
+                },
+                {
+                    "referencia": "Mateus 14.19",
+                    "texto": "Tendo M. que a multidão se assentasse sobre a"
+                },
+                {
+                    "referencia": "Mateus 27.26",
+                    "texto": "Barrabás e, tendo M. acoitar a Jesus,"
+                },
+                {
+                    "referencia": "Mateus 28.20",
+                    "texto": "as coisas que eu vos tenho ML; e eis que eu"
+                },
+                {
+                    "referencia": "Marcos 11.6",
+                    "texto": "como Jesus lhes tinha ML; e os deixaram ir,"
+                },
+                {
+                    "referencia": "Lucas 17.9",
+                    "texto": "servo, porque fez o que lhe foi ML? Creio que não."
+                },
+                {
+                    "referencia": "Lucas 17.10",
+                    "texto": "fizerdes tudo o que vos for M., dizei: Somos"
+                },
+                {
+                    "referencia": "Atos 10.33",
+                    "texto": "de Deus, para ouvir tudo quanto por Deus te é M.."
+                },
+                {
+                    "referencia": "Atos 18.2",
+                    "texto": "sua mulher (pois Cláudio tinha M que todos os"
+                },
+                {
+                    "referencia": "Atos 23.31",
+                    "texto": "a Paulo, como lhes fora M., o trouxeram de"
+                },
+                {
+                    "referencia": "Atos 25.23",
+                    "texto": "da cidade, sendo trazido Paulo por M. de Festo."
+                },
+                {
+                    "referencia": "1 Tessalonicenses 4.11",
+                    "texto": "com vossas próprias mãos, como já vo-lo temos ML;"
+                },
+                {
+                    "referencia": "1 Timóteo 1.1",
+                    "texto": "de Jesus Cristo, segundo o M. de Deus, nosso"
+                },
+                {
+                    "referencia": "Hebreus 9.20",
+                    "texto": "Este é o sangue do testamento que Deus vos tem M.."
+                }
+            ]
+        }
+    ]
+}

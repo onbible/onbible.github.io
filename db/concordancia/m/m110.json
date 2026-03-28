@@ -1,0 +1,54 @@
+{
+    "m": [
+        {
+            "palavra": "MENORES",
+            "veja tambem": [
+                "menor"
+            ],
+            "ocorrencias": 7,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "2 Reis 18.24",
+                    "texto": "rosto de um só príncipe dos M, servos de meu"
+                },
+                {
+                    "referencia": "1 Crônicas 12.14",
+                    "texto": "capitães do exército; um dos M. tinha o cargo"
+                },
+                {
+                    "referencia": "1 Crônicas 24.31",
+                    "texto": "como um de seus irmãos M, lançaram sortes"
+                },
+                {
+                    "referencia": "Isaías 22.24",
+                    "texto": "descendentes, todos os vasos M., desde as taças"
+                },
+                {
+                    "referencia": "Jeremias 49.20",
+                    "texto": "de Temã; certamente, os M. do rebanho"
+                },
+                {
+                    "referencia": "Jeremias 50.45",
+                    "texto": "dos caldeus; certamente, os M. do rebanho os"
+                },
+                {
+                    "referencia": "Mateus 5.19",
+                    "texto": "pois, que violar um destes M. mandamentos e"
+                }
+            ]
+        },
+        {
+            "palavra": "MENORIDADE",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 43.33",
+                    "texto": "e o menor segundo a sua M; do que os"
+                }
+            ]
+        }
+    ]
+}

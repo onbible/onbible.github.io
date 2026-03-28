@@ -1,0 +1,73 @@
+{
+    "m": [
+        {
+            "palavra": "MORTES",
+            "veja tambem": [
+                "morte"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 15.19",
+                    "texto": "os maus pensamentos, M., adultérios,"
+                },
+                {
+                    "referencia": "Atos 9.1",
+                    "texto": "respirando ainda ameaças e M. contra os"
+                }
+            ]
+        },
+        {
+            "palavra": "MORTÍFERA",
+            "veja tambem": [],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Jeremias 9.8",
+                    "texto": "Uma flecha M. é a língua deles; fala engano;"
+                },
+                {
+                    "referencia": "Marcos 16.18",
+                    "texto": "e, se beberem alguma coisa M., não lhes fará"
+                }
+            ]
+        },
+        {
+            "palavra": "MORTIFICADO",
+            "veja tambem": [
+                "mortificar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "1 Pedro 3.18",
+                    "texto": "para levar-nos a Deus; M., na"
+                }
+            ]
+        },
+        {
+            "palavra": "MORTIFICAI",
+            "veja tambem": [
+                "mortificar"
+            ],
+            "ocorrencias": 0,
+            "fonte": "",
+            "concordancias": []
+        },
+        {
+            "palavra": "MORTIFICARDES",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Romanos 8.13",
+                    "texto": "mas, se pelo espírito M., as obras"
+                }
+            ]
+        }
+    ]
+}

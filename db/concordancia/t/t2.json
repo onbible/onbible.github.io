@@ -1,0 +1,592 @@
+{
+    "t": [
+        {
+            "palavra": "TABERNÁCULO",
+            "veja tambem": [],
+            "ocorrencias": 145,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Êxodo 25.9",
+                    "texto": "te mostrar para modelo do T: e para modelo"
+                },
+                {
+                    "referencia": "Êxodo 26.1",
+                    "texto": "E o T. farás de dez cortinas de linho fino"
+                },
+                {
+                    "referencia": "Êxodo 26.6",
+                    "texto": "as cortinas, uma com a outra, e será um T.."
+                },
+                {
+                    "referencia": "Êxodo 26.7",
+                    "texto": "cabras por tenda sobre o T; de onze"
+                },
+                {
+                    "referencia": "Êxodo 26.12",
+                    "texto": "que sobejar, penderá sobre as costas do T."
+                },
+                {
+                    "referencia": "Êxodo 26.13",
+                    "texto": "de sobejo aos lados do T: de um e de"
+                },
+                {
+                    "referencia": "Êxodo 26.15",
+                    "texto": "também as tábuas para o T: de madeira de"
+                },
+                {
+                    "referencia": "Êxodo 26.17",
+                    "texto": "outra; assim farás com todas as tábuas do T."
+                },
+                {
+                    "referencia": "Êxodo 26.18",
+                    "texto": "E farás as tábuas para o T; assim: vinte"
+                },
+                {
+                    "referencia": "Êxodo 26.20",
+                    "texto": "tábuas ao outro lado do T., para a banda"
+                },
+                {
+                    "referencia": "Êxodo 26.22",
+                    "texto": "E ao lado do T: para o ocidente farás seis tábuas."
+                },
+                {
+                    "referencia": "Êxodo 26.23",
+                    "texto": "tábuas para os cantos do T., de ambos os lados;"
+                },
+                {
+                    "referencia": "Êxodo 26.26",
+                    "texto": "de cetim para as tábuas de um lado do T:"
+                },
+                {
+                    "referencia": "Êxodo 26.27",
+                    "texto": "as tábuas do outro lado do T;; como também"
+                },
+                {
+                    "referencia": "Êxodo 26.27",
+                    "texto": "as tábuas do outro lado do T., de ambas as"
+                },
+                {
+                    "referencia": "Êxodo 26.30",
+                    "texto": "Então, levantarás o T. conforme o modelo que"
+                },
+                {
+                    "referencia": "Êxodo 26.35",
+                    "texto": "defronte da mesa, ao lado do T, para o"
+                },
+                {
+                    "referencia": "Êxodo 27.9",
+                    "texto": "Farás também o pátio do T; ao lado do"
+                },
+                {
+                    "referencia": "Êxodo 27.19",
+                    "texto": "a todos os utensílios do T: em todo o seu"
+                },
+                {
+                    "referencia": "Êxodo 35.15",
+                    "texto": "ea coberta da porta à entrada do T;"
+                },
+                {
+                    "referencia": "Êxodo 35.18",
+                    "texto": "as estacas do f., e as estacas do pátio, e"
+                },
+                {
+                    "referencia": "Êxodo 36.8",
+                    "texto": "os que faziam a obra, fez o T. de dez"
+                },
+                {
+                    "referencia": "Êxodo 36.13",
+                    "texto": "uma com a outra; e foi feito, assim, um T."
+                },
+                {
+                    "referencia": "Êxodo 36.14",
+                    "texto": "para a tenda sobre o T.; de onze"
+                },
+                {
+                    "referencia": "x 36.20",
+                    "texto": "tábuas levantadas para o T., de madeira de cetim."
+                },
+                {
+                    "referencia": "Êxodo 36.22",
+                    "texto": "a outra; assim fez com todas as tábuas do T.."
+                },
+                {
+                    "referencia": "Êxodo 36.23",
+                    "texto": "pois, fez as tábuas para o T.; vinte"
+                },
+                {
+                    "referencia": "Êxodo 36.25",
+                    "texto": "tábuas ao outro lado do T; da banda do norte,"
+                },
+                {
+                    "referencia": "Êxodo 36.27",
+                    "texto": "E ao lado do T; para o ocidente fez seis tábuas."
+                },
+                {
+                    "referencia": "Êxodo 36.28",
+                    "texto": "tábuas para os cantos do T; aos dois lados,"
+                },
+                {
+                    "referencia": "Êxodo 36.31",
+                    "texto": "cetim; cinco para as tábuas de um lado do T.,"
+                },
+                {
+                    "referencia": "Êxodo 36.32",
+                    "texto": "as tábuas do outro lado do T; e outras"
+                },
+                {
+                    "referencia": "Êxodo 36.32",
+                    "texto": "barras para as tábuas do T. de ambas as"
+                },
+                {
+                    "referencia": "Êxodo 38.20",
+                    "texto": "E todas as estacas do T. e do pátio ao redor"
+                },
+                {
+                    "referencia": "Êxodo 38.21",
+                    "texto": "das coisas contadas do T, do Testemunho,"
+                },
+                {
+                    "referencia": "Êxodo 38.31",
+                    "texto": "pátio, e todas as estacas do T., etodas as"
+                },
+                {
+                    "referencia": "Êxodo 39.32",
+                    "texto": "se acabou toda a obra do T: da tenda da"
+                },
+                {
+                    "referencia": "Êxodo 39.33",
+                    "texto": "trouxeram a Moiséso T., ea tenda, e"
+                },
+                {
+                    "referencia": "Êxodo 39.40",
+                    "texto": "os utensílios do serviço do T., para a"
+                },
+                {
+                    "referencia": "Êxodo 40.2",
+                    "texto": "dia do mês, levantarás o T. da tenda da congregação,"
+                },
+                {
+                    "referencia": "Êxodo 40.5",
+                    "texto": "então, pendurarás a coberta da porta do"
+                },
+                {
+                    "referencia": "Êxodo 40.6",
+                    "texto": "diante da porta do T. da tenda da congregação."
+                },
+                {
+                    "referencia": "Êxodo 40.9",
+                    "texto": "azeite da unção e ungirás o T; e tudo o que"
+                },
+                {
+                    "referencia": "Êxodo 40.17",
+                    "texto": "ao primeiro do mês, que o T: foi levantado;"
+                },
+                {
+                    "referencia": "Êxodo 40.18",
+                    "texto": "porque Moisés levantou o T., e pôs as suas"
+                },
+                {
+                    "referencia": "Êxodo 40.19",
+                    "texto": "e estendeu a tenda sobreo T., e pôsa"
+                },
+                {
+                    "referencia": "Êxodo 40.21",
+                    "texto": "E levou a arca ao T., e pendurou o véu da"
+                },
+                {
+                    "referencia": "Êxodo 40.22",
+                    "texto": "da congregação, ao lado do T; para o norte,"
+                },
+                {
+                    "referencia": "Êxodo 40.24",
+                    "texto": "defronte da mesa, ao lado do É. para o sul,"
+                },
+                {
+                    "referencia": "Êxodo 40.28",
+                    "texto": "Pendurou também a coberta da porta do T.,"
+                },
+                {
+                    "referencia": "Êxodo 40.29",
+                    "texto": "do holocausto à porta do T. da tenda da"
+                },
+                {
+                    "referencia": "Êxodo 40.33",
+                    "texto": "também o pátio ao redor do T: e do altar e"
+                },
+                {
+                    "referencia": "Êxodo 40.34",
+                    "texto": "congregação, e a glória do Senhor encheu o T,"
+                },
+                {
+                    "referencia": "Êxodo 40.35",
+                    "texto": "sobre ela, e a glória do Senhor enchiao T."
+                },
+                {
+                    "referencia": "Êxodo 40.36",
+                    "texto": "se levantava de sobre o T, então, os"
+                },
+                {
+                    "referencia": "Êxodo 40.38",
+                    "texto": "estava de dia sobre o T., eo fogo"
+                },
+                {
+                    "referencia": "Levítico 8.10",
+                    "texto": "o azeite da unção, e ungiu o T; e tudo o que"
+                },
+                {
+                    "referencia": "Levítico 15.31",
+                    "texto": "contaminando o meu T:, que está"
+                },
+                {
+                    "referencia": "Levítico 17.4",
+                    "texto": "oferta ao Senhor diante do Z. do Senhor, a"
+                },
+                {
+                    "referencia": "Levítico 26.11",
+                    "texto": "E poreio meu T: no meio de vós, e a minha"
+                },
+                {
+                    "referencia": "Números 1.50",
+                    "texto": "tu, põe os levitas sobre o T do"
+                },
+                {
+                    "referencia": "Números 1.50",
+                    "texto": "e assentarão o seu arraial ao redor do T."
+                },
+                {
+                    "referencia": "Números 1.51",
+                    "texto": "E, quando o T. partir, os levitas o"
+                },
+                {
+                    "referencia": "Números 1.51",
+                    "texto": "o desarmarão; e, quando o T. assentar"
+                },
+                {
+                    "referencia": "Números 1.53",
+                    "texto": "as suas tendas ao redor do T; do Testemunho,"
+                },
+                {
+                    "referencia": "Números 1.53",
+                    "texto": "terão o cuidado da guarda do T. do Testemunho."
+                },
+                {
+                    "referencia": "Números 3.7",
+                    "texto": "para administrar o ministério do T,"
+                },
+                {
+                    "referencia": "Números 3.8",
+                    "texto": "Israel, para administrar o ministério do T.."
+                },
+                {
+                    "referencia": "Números 3.23",
+                    "texto": "as suas tendas atrás do T., ao ocidente."
+                },
+                {
+                    "referencia": "Números 3.25",
+                    "texto": "da congregação será o T., eatenda, e"
+                },
+                {
+                    "referencia": "Números 3.26",
+                    "texto": "do pátio, que estão junto ao T: e junto ao"
+                },
+                {
+                    "referencia": "Números 3.29",
+                    "texto": "as suas tendas ao lado do T, da banda do sul."
+                },
+                {
+                    "referencia": "Números 3.35",
+                    "texto": "as suas tendas ao lado do T., da banda do norte."
+                },
+                {
+                    "referencia": "Números 3.36",
+                    "texto": "Merari serão as tábuas do T., e os seus"
+                },
+                {
+                    "referencia": "Números 3.38",
+                    "texto": "as suas tendas diante do T., ao oriente,"
+                },
+                {
+                    "referencia": "Números 4.16",
+                    "texto": "da unção, o cargo de todo o T: e de"
+                },
+                {
+                    "referencia": "Números 4.25",
+                    "texto": "pois, as cortinas do T., ea tenda"
+                },
+                {
+                    "referencia": "Números 4.26",
+                    "texto": "do pátio, que está junto ao T: e junto ao"
+                },
+                {
+                    "referencia": "Números 4.31",
+                    "texto": "da congregação: as tábuas do É, eos"
+                },
+                {
+                    "referencia": "Números 5.17",
+                    "texto": "do pó que houver no chão do T. e o deitará"
+                },
+                {
+                    "referencia": "Números 7.1",
+                    "texto": "Moisés acabou de levantar o T., eo ungiu, e"
+                },
+                {
+                    "referencia": "Números 7.3",
+                    "texto": "cada um, um boi; e os trouxeram diante do T.."
+                },
+                {
+                    "referencia": "Números 9.15",
+                    "texto": "E, no dia de levantaro T, a nuvem cobriu o"
+                },
+                {
+                    "referencia": "Números 9.15",
+                    "texto": "e, à tarde, estava sobre o T como uma"
+                },
+                {
+                    "referencia": "Números 9.18",
+                    "texto": "que a nuvem parava sobre o T., assentavam"
+                },
+                {
+                    "referencia": "Números 9.19",
+                    "texto": "detinha muitos dias sobre o T., então, os"
+                },
+                {
+                    "referencia": "Números 9.20",
+                    "texto": "poucos dias estava sobre o T., segundo o"
+                },
+                {
+                    "referencia": "Números 9.22",
+                    "texto": "Ou, quando a nuvem sobre o T: se detinha"
+                },
+                {
+                    "referencia": "Números 10.17",
+                    "texto": "Então, desarmaram o T., e os filhos de"
+                },
+                {
+                    "referencia": "Números 10.17",
+                    "texto": "e os filhos de Merari partiram, levando o T.."
+                },
+                {
+                    "referencia": "Números 10.21",
+                    "texto": "e os outros levantaram o T., enquanto"
+                },
+                {
+                    "referencia": "Números 16.9",
+                    "texto": "administrar o ministério do T: do Senhor e"
+                },
+                {
+                    "referencia": "Números 17.13",
+                    "texto": "aquele que se aproximar do T, do Senhor,"
+                },
+                {
+                    "referencia": "Números 19.13",
+                    "texto": "não se purificar, contamina o T; do Senhor;"
+                },
+                {
+                    "referencia": "Números 31.30",
+                    "texto": "que têm cuidado da guarda do T. do Senhor."
+                },
+                {
+                    "referencia": "Números 31.47",
+                    "texto": "tinham cuidado da guarda do T. do Senhor,"
+                },
+                {
+                    "referencia": "Josué 22.19",
+                    "texto": "do Senhor, onde habita o T. do Senhor,"
+                },
+                {
+                    "referencia": "Josué 22.29",
+                    "texto": "Senhor, nosso Deus, que está perante o seu T.."
+                },
+                {
+                    "referencia": "2 Samuel 7.6",
+                    "texto": "ao dia de hoje; mas andei em tenda eem T.."
+                },
+                {
+                    "referencia": "1 Reis 1.39",
+                    "texto": "tomou o vaso do azeite do T. e ungiu a"
+                },
+                {
+                    "referencia": "1 Reis 2.28",
+                    "texto": "e Joabe fugiu para o T: do Senhor,"
+                },
+                {
+                    "referencia": "1 Reis 2.29",
+                    "texto": "Joabe tinha fugido para o T. do Senhor; e"
+                },
+                {
+                    "referencia": "1 Reis 2.30",
+                    "texto": "E veio Benaia ao T do Senhor e lhe disse:"
+                },
+                {
+                    "referencia": "1 Reis 84",
+                    "texto": "do Senhor para cima e o T. da"
+                },
+                {
+                    "referencia": "1 Reis 8.4",
+                    "texto": "sagrados que havia no T; assim os"
+                },
+                {
+                    "referencia": "1 Crônicas 6.32",
+                    "texto": "E ministravam diante do T: da tenda da"
+                },
+                {
+                    "referencia": "1 Crônicas 648",
+                    "texto": "para todo o ministério do T. da Casa de Deus."
+                },
+                {
+                    "referencia": "1 Crônicas 9.19",
+                    "texto": "e eram guardas dos umbrais do T; e seus"
+                },
+                {
+                    "referencia": "1 Crônicas 16.39",
+                    "texto": "os sacerdotes, diante do T. do Senhor,"
+                },
+                {
+                    "referencia": "1 Crônicas 17.5",
+                    "texto": "fui de tenda em tenda e de Tem T."
+                },
+                {
+                    "referencia": "1 Crônicas 21.29",
+                    "texto": "Porque o T. do Senhor, que Moisés fizera no"
+                },
+                {
+                    "referencia": "1 Crônicas 23.26",
+                    "texto": "que nunca mais levassem o T., nem algum"
+                },
+                {
+                    "referencia": "2 Crônicas 1.5",
+                    "texto": "de Hur, estava ali diante do T; do Senhor;"
+                },
+                {
+                    "referencia": "2 Crônicas 29.6",
+                    "texto": "e desviaram o rosto do T: do Senhor"
+                },
+                {
+                    "referencia": "S115.1",
+                    "texto": "quem habitará no teu T;? Quem morará"
+                },
+                {
+                    "referencia": "S127.5",
+                    "texto": "pavilhão; no oculto do seu T. me esconderá;"
+                },
+                {
+                    "referencia": "S127.6",
+                    "texto": "sacrifício de júbilo no seu T.; cantarei,"
+                },
+                {
+                    "referencia": "SI 61.4",
+                    "texto": "Habitarei no teu T. para sempre;"
+                },
+                {
+                    "referencia": "Números 10.11",
+                    "texto": "a nuvem se alçou de sobre o T, da congregação."
+                },
+                {
+                    "referencia": "S176.2",
+                    "texto": "E em Salém está o seu T., ea sua morada, em Sião."
+                },
+                {
+                    "referencia": "S178.60",
+                    "texto": "pelo que desamparou o T. em Siló, a tenda"
+                },
+                {
+                    "referencia": "Isaías 4.6",
+                    "texto": "E haverá um T: para sombra contra o calor do"
+                },
+                {
+                    "referencia": "Isaías 16.5",
+                    "texto": "benignidade, e sobre ele no T. de Davi se"
+                },
+                {
+                    "referencia": "Ezequiel 37.27",
+                    "texto": "E o meu T: estará com eles, e eu serei o seu"
+                },
+                {
+                    "referencia": "Ezequiel 41.1",
+                    "texto": "de largura da outra, que era a largura do T.."
+                },
+                {
+                    "referencia": "Atos 7.43",
+                    "texto": "Antes, tomastes o T. de Moloque e a estrela"
+                },
+                {
+                    "referencia": "Atos 7.44",
+                    "texto": "nossos pais no deserto o T; do Testemunho"
+                },
+                {
+                    "referencia": "Atos 7.46",
+                    "texto": "e pediu que pudesse achar T. para o Deus de Jacó."
+                },
+                {
+                    "referencia": "Atos 15.16",
+                    "texto": "voltarei e reedificarei o T. de Davi, que"
+                },
+                {
+                    "referencia": "2 Coríntios 5.1",
+                    "texto": "nossa casa terrestre deste T: se desfizer,"
+                },
+                {
+                    "referencia": "2 Coríntios 5.4",
+                    "texto": "nós, os que estamos neste T., gememos"
+                },
+                {
+                    "referencia": "Hebreus 8.2",
+                    "texto": "santuário e do verdadeiro T., o qual o"
+                },
+                {
+                    "referencia": "Hebreus 8.5",
+                    "texto": "estando já para acabar o T.; porque foi"
+                },
+                {
+                    "referencia": "Hebreus 9.2",
+                    "texto": "Porque um T estava preparado, o primeiro,"
+                },
+                {
+                    "referencia": "Hebreus 9.3",
+                    "texto": "do segundo véu, estava o T. que se chama"
+                },
+                {
+                    "referencia": "Hebreus 9.6",
+                    "texto": "os sacerdotes no primeiro {., cumprindo"
+                },
+                {
+                    "referencia": "Hebreus 9.8",
+                    "texto": "enquanto se conservava em pé o primeiro T.,"
+                },
+                {
+                    "referencia": "Hebreus 9.11",
+                    "texto": "por um maior e mais perfeito T, não feito"
+                },
+                {
+                    "referencia": "Hebreus 9.21",
+                    "texto": "aspergiu com sangue o T: e todos os"
+                },
+                {
+                    "referencia": "Hebreus 13.10",
+                    "texto": "não têm direito de comer os que servem ao T.."
+                },
+                {
+                    "referencia": "2 Pedro 1.13",
+                    "texto": "enquanto estiver neste T,"
+                },
+                {
+                    "referencia": "2 Pedro 1.14",
+                    "texto": "hei de deixar este meu T., como também"
+                },
+                {
+                    "referencia": "Apocalipse 13.6",
+                    "texto": "do seu nome, e do seu T., e dos que"
+                },
+                {
+                    "referencia": "Apocalipse 15.5",
+                    "texto": "olhei, e eis que o templo do T; do"
+                },
+                {
+                    "referencia": "Apocalipse 21.3",
+                    "texto": "céu, que dizia: Eis aqui o T. de Deus com"
+                }
+            ]
+        }
+    ]
+}

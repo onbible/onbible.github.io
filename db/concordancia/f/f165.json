@@ -1,0 +1,48 @@
+{
+    "f": [
+        {
+            "palavra": "FOGEM",
+            "veja tambem": [
+                "fugir"
+            ],
+            "ocorrencias": 5,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Josué 8.6",
+                    "texto": "da cidade; porque dirão: E diante de nós,"
+                },
+                {
+                    "referencia": "Jó 30.10",
+                    "texto": "Abominam-me, e E para longe de mim, e no meu"
+                },
+                {
+                    "referencia": "Provérbios 28.1",
+                    "texto": "E os ímpios, sem que ninguém os persiga; mas"
+                },
+                {
+                    "referencia": "1s 21.15",
+                    "texto": "Porque É diante das espadas, diante da espada"
+                },
+                {
+                    "referencia": "Naum 2.8",
+                    "texto": "tanque de águas; elas, porém, E agora. Parai,"
+                }
+            ]
+        },
+        {
+            "palavra": "FOGES",
+            "veja tambem": [
+                "fugir"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Jeremias 37.13",
+                    "texto": "a Jeremias, o profeta, dizendo: Tu É para os caldeus."
+                }
+            ]
+        }
+    ]
+}

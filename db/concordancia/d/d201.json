@@ -1,0 +1,858 @@
+{
+    "d": [
+        {
+            "palavra": "DIGO",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 211,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Êxodo 6.29",
+                    "texto": "a Faraó, rei do Egito, tudo quanto eu te D. a ti."
+                },
+                {
+                    "referencia": "1 Reis 2.22",
+                    "texto": "é meu irmão maior), para ele, D., e também"
+                },
+                {
+                    "referencia": "Jó 7.4",
+                    "texto": "Deitando-me a dormir, então, D.: quando me"
+                },
+                {
+                    "referencia": "Jó 9.22",
+                    "texto": "A coisa é esta; por isso, eu D, que ele consome ao"
+                },
+                {
+                    "referencia": "Jó 32.10",
+                    "texto": "Pelo que D.: Dai-me ouvidos, e também eu declararei"
+                },
+                {
+                    "referencia": "Eclesiastes 6.3",
+                    "texto": "disso não tiver um enterro, D, que um aborto é"
+                },
+                {
+                    "referencia": "Eclesiastes 8.2",
+                    "texto": "Eu D.: observa o mandamento do rei, e isso em"
+                },
+                {
+                    "referencia": "Eclesiastes 8.14",
+                    "texto": "segundo as obras dos justos. D. que também isso é"
+                },
+                {
+                    "referencia": "Isaías 22.4",
+                    "texto": "Portanto, D.: desviai de mim a vista, e chorarei"
+                },
+                {
+                    "referencia": "Isaías 24.16",
+                    "texto": "glória ao Justo; mas eu D,: emagreço,"
+                },
+                {
+                    "referencia": "Isaías 41.13",
+                    "texto": "pela tua mão direita e te D.: não temas, que eu"
+                },
+                {
+                    "referencia": "Isaías 46.10",
+                    "texto": "que ainda não sucederam; que D.: o meu conselho"
+                },
+                {
+                    "referencia": "Isaías 52.6",
+                    "texto": "dia, porque eu mesmo sou o que D.: Eis-me aqui."
+                },
+                {
+                    "referencia": "Jeremias 34.5",
+                    "texto": "Ah! Senhor! Porque sou eu que D. a palavra,"
+                },
+                {
+                    "referencia": "Jeremias 34.20",
+                    "texto": "entregá-los-ei, D. nas mãos de seus inimigos e nas"
+                },
+                {
+                    "referencia": "Ezequiel 2.8",
+                    "texto": "do homem, ouve o que eu te D., não sejas rebelde"
+                },
+                {
+                    "referencia": "Daniel 7.20",
+                    "texto": "caíram três, daquela ponta, D., que tinha olhos,"
+                },
+                {
+                    "referencia": "Daniel 9.21",
+                    "texto": "estando eu, D., ainda falando na oração, o varão"
+                },
+                {
+                    "referencia": "Zacarias 6.11",
+                    "texto": "recebe, D., prata e ouro, e faze coroas, e põe-nas"
+                },
+                {
+                    "referencia": "Mateus 3.9",
+                    "texto": "pai a Abraão; porque eu vos D. que mesmo destas"
+                },
+                {
+                    "referencia": "Mateus 5.18",
+                    "texto": "Porque em verdade vos D. que, até que o céu e a"
+                },
+                {
+                    "referencia": "Mateus 5.20",
+                    "texto": "Porque vos D. que, se a vossa justiça não exceder a"
+                },
+                {
+                    "referencia": "Mateus 5.22",
+                    "texto": "Eu, porém, vos D. que qualquer que, sem motivo, se"
+                },
+                {
+                    "referencia": "Mateus 5.26",
+                    "texto": "Em verdade te D. que, de maneira nenhuma, sairás"
+                },
+                {
+                    "referencia": "Mateus 5.28",
+                    "texto": "Eu porém, vos D, que qualquer que atentar numa"
+                },
+                {
+                    "referencia": "Mateus 5.32",
+                    "texto": "Eu, porém, vos D. que qualquer que repudiar sua"
+                },
+                {
+                    "referencia": "Mateus 5.34",
+                    "texto": "Eu, porém, vos D, que, de maneira nenhuma, jureis"
+                },
+                {
+                    "referencia": "Mateus 5.39",
+                    "texto": "Eu, porém, vos D, que não resistais ao mal; mas, se"
+                },
+                {
+                    "referencia": "Mateus 5.44",
+                    "texto": "Eu, porém, vos D.: Amai a vossos inimigos, bendizei"
+                },
+                {
+                    "referencia": "Mateus 6.2",
+                    "texto": "pelos homens. Em verdade vos D, que já"
+                },
+                {
+                    "referencia": "Mateus 6.5",
+                    "texto": "pelos homens. Em verdade vos D. que já receberam"
+                },
+                {
+                    "referencia": "Mateus 6.16",
+                    "texto": "que jejuam. Em verdade vos D. que já receberam"
+                },
+                {
+                    "referencia": "Mateus 6.25",
+                    "texto": "Por isso, vos D.: não andeis cuidadosos quanto à"
+                },
+                {
+                    "referencia": "Mateus 6.29",
+                    "texto": "E eu vos D. que nem mesmo Salomão, em toda a sua"
+                },
+                {
+                    "referencia": "Mateus 8.9",
+                    "texto": "às minhas ordens; e D, a este: vai, e ele"
+                },
+                {
+                    "referencia": "Mateus 8.10",
+                    "texto": "que o seguiam: Em verdade vos D. que nem mesmo"
+                },
+                {
+                    "referencia": "Mateus 8.11",
+                    "texto": "Mas eu vos D, que muitos virão do Oriente e do"
+                },
+                {
+                    "referencia": "Mateus 10.15",
+                    "texto": "Em verdade vos D. que, no Dia do Juízo, haverá"
+                },
+                {
+                    "referencia": "Mateus 10.23",
+                    "texto": "outra; porque em verdade vos D. que não acabareis"
+                },
+                {
+                    "referencia": "Mateus 10.27",
+                    "texto": "O que vos D. em trevas, dizei-o em luz; e o que"
+                },
+                {
+                    "referencia": "Mateus 1042",
+                    "texto": "de discípulo, em verdade vos D., que de modo algum"
+                },
+                {
+                    "referencia": "Mateus 11.9",
+                    "texto": "ver? Um profeta? Sim, vos D. eu, e muito mais"
+                },
+                {
+                    "referencia": "Mateus 11.11",
+                    "texto": "Em verdade vos D. que, entre os que de mulher têm"
+                },
+                {
+                    "referencia": "Mateus 11.22",
+                    "texto": "Por isso, eu vos D. que haverá menos rigor para"
+                },
+                {
+                    "referencia": "Mateus 11.24",
+                    "texto": "Porém eu vos D. que haverá menos rigor para os de"
+                },
+                {
+                    "referencia": "Mateus 12.6",
+                    "texto": "Pois eu vos D, que está aqui quem é maior do que o"
+                },
+                {
+                    "referencia": "Mateus 12.31",
+                    "texto": "Portanto, eu vos D.: todo pecado e blasfêmia se"
+                },
+                {
+                    "referencia": "Mateus 12.36",
+                    "texto": "Mas eu vos D. que de toda palavra ociosa que os"
+                },
+                {
+                    "referencia": "Mateus 13.17",
+                    "texto": "Porque em verdade vos D. que muitos profetas e"
+                },
+                {
+                    "referencia": "Mateus 16.18",
+                    "texto": "Pois também eu te D. que tu és Pedro e sobre esta"
+                },
+                {
+                    "referencia": "Mateus 16.28",
+                    "texto": "Em verdade vos D. que alguns há, dos que aqui"
+                },
+                {
+                    "referencia": "Mateus 17.20",
+                    "texto": "fé; porque em verdade vos D. que, se tiverdes fé"
+                },
+                {
+                    "referencia": "Mateus 18.3",
+                    "texto": "e disse: Em verdade vos D. que, se não vos"
+                },
+                {
+                    "referencia": "Mateus 18.10",
+                    "texto": "pequeninos, porque eu vos D, que os seus anjos"
+                },
+                {
+                    "referencia": "Mateus 18.13",
+                    "texto": "a acha, em verdade vos D, que maior prazer"
+                },
+                {
+                    "referencia": "Mateus 18.18",
+                    "texto": "Em verdade vos D. que tudo o que ligardes na terra"
+                },
+                {
+                    "referencia": "Mateus 18.19",
+                    "texto": "Também vos D, que, se dois de vós concordarem na"
+                },
+                {
+                    "referencia": "Mateus 18.22",
+                    "texto": "Jesus lhe disse: Não te D. que até sete, mas até"
+                },
+                {
+                    "referencia": "Mateus 19.9",
+                    "texto": "Eu vos D., porém, que qualquer que repudiar sua"
+                },
+                {
+                    "referencia": "Mateus 19.23",
+                    "texto": "discípulos: Em verdade vos D. que é difícil"
+                },
+                {
+                    "referencia": "Mateus 19.24",
+                    "texto": "E outra vez vos D. que é mais fácil passar um"
+                },
+                {
+                    "referencia": "Mateus 19.28",
+                    "texto": "disse-lhes: Em verdade vos D, que vós, que me"
+                },
+                {
+                    "referencia": "Mateus 21.21",
+                    "texto": "disse-lhes: Em verdade vos D. que, se tiverdes"
+                },
+                {
+                    "referencia": "Mateus 21.27",
+                    "texto": "Ele disse-lhes: Nem eu vos D. com que"
+                },
+                {
+                    "referencia": "Mateus 21.31",
+                    "texto": "Jesus: Em verdade vos D. que os publicanos"
+                },
+                {
+                    "referencia": "Mateus 2143",
+                    "texto": "Portanto, eu vos D. que o Reino de Deus vos será"
+                },
+                {
+                    "referencia": "Mateus 23.36",
+                    "texto": "Em verdade vos D. que todas essas coisas hão de vir"
+                },
+                {
+                    "referencia": "Mateus 23.39",
+                    "texto": "Porque eu vos D. que, desde agora, me não vereis"
+                },
+                {
+                    "referencia": "Mateus 24.2",
+                    "texto": "tudo isto? Em verdade vos D, que não ficará"
+                },
+                {
+                    "referencia": "Mateus 24.34",
+                    "texto": "Em verdade vos D. que não passará esta geração sem"
+                },
+                {
+                    "referencia": "nu 2447",
+                    "texto": "Em verdade vos D., que o porá sobre todos os seus"
+                },
+                {
+                    "referencia": "Mateus 25.12",
+                    "texto": "disse: Em verdade vos D. que vos não conheço."
+                },
+                {
+                    "referencia": "Mateus 25.40",
+                    "texto": "lhes dirá: Em verdade vos D. que, quando o"
+                },
+                {
+                    "referencia": "Mateus 25.45",
+                    "texto": "dizendo: Em verdade vos D. que, quando a um"
+                },
+                {
+                    "referencia": "Mateus 26.13",
+                    "texto": "Em verdade vos D. que, onde quer que este evangelho"
+                },
+                {
+                    "referencia": "Mateus 26.21",
+                    "texto": "comiam, disse: Em verdade vos D. que um de vós me"
+                },
+                {
+                    "referencia": "Mateus 26.34",
+                    "texto": "Jesus: Em verdade te D, que, nesta mesma"
+                },
+                {
+                    "referencia": "Marcos 3.28",
+                    "texto": "Na verdade vos D, que todos os pecados serão"
+                },
+                {
+                    "referencia": "Marcos 5.41",
+                    "texto": "que, traduzido, é Menina, atite D.: levanta-te."
+                },
+                {
+                    "referencia": "Marcos 6.11",
+                    "texto": "contra eles. Em verdade vos D. que haverá mais"
+                },
+                {
+                    "referencia": "Marcos 8.12",
+                    "texto": "um sinal? Em verdade vos D. que a esta"
+                },
+                {
+                    "referencia": "Marcos 9.1",
+                    "texto": "também: Em verdade vos D. que, dos que aqui"
+                },
+                {
+                    "referencia": "Marcos 9.41",
+                    "texto": "de Cristo, em verdade vos D. que não perderá o"
+                },
+                {
+                    "referencia": "Marcos 10.15",
+                    "texto": "Em verdade vos D. que qualquer que não receber o"
+                },
+                {
+                    "referencia": "Marcos 10.29",
+                    "texto": "disse: Em verdade vos D, que ninguém há,"
+                },
+                {
+                    "referencia": "Marcos 11.23",
+                    "texto": "porque em verdade vos D. que qualquer que disser a"
+                },
+                {
+                    "referencia": "Marcos 11.24",
+                    "texto": "Por isso, vos D. que tudo o que pedirdes, orando,"
+                },
+                {
+                    "referencia": "Marcos 12.43",
+                    "texto": "disse-lhes: Em verdade vos D. que esta pobre"
+                },
+                {
+                    "referencia": "Marcos 13.30",
+                    "texto": "Na verdade vos D, que não passará esta geração sem"
+                },
+                {
+                    "referencia": "Marcos 13.37",
+                    "texto": "E as coisas que vos D. digo-as a todos: Vigiai."
+                },
+                {
+                    "referencia": "Marcos 14.9",
+                    "texto": "Em verdade vos D., que, em todas as partes do mundo"
+                },
+                {
+                    "referencia": "Marcos 14.25",
+                    "texto": "Em verdade vos D. que não beberei mais do fruto da"
+                },
+                {
+                    "referencia": "Marcos 14.30",
+                    "texto": "Jesus: Em verdade te D. que hoje, nesta"
+                },
+                {
+                    "referencia": "Lucas 3.8",
+                    "texto": "Abraão por pai, porque eu vos D. que até destas"
+                },
+                {
+                    "referencia": "Lucas 4.24",
+                    "texto": "E disse: Em verdade vos D, que nenhum profeta é bem"
+                },
+                {
+                    "referencia": "Lucas 4.25",
+                    "texto": "Em verdade vos D. que muitas viúvas existiam em"
+                },
+                {
+                    "referencia": "Lucas 5.24",
+                    "texto": "(disse ao paralítico), eu te D,: Levanta-te, toma"
+                },
+                {
+                    "referencia": "Lucas 6.27",
+                    "texto": "Mas a vós, que ouvis, D.: Amai a vossos inimigos,"
+                },
+                {
+                    "referencia": "Lucas 6.46",
+                    "texto": "me chamais Senhor, Senhor, e não fazeis o que eu D,?"
+                },
+                {
+                    "referencia": "Lucas 7.8",
+                    "texto": "soldados sob o meu poder, e D. a este: vai; e ele"
+                },
+                {
+                    "referencia": "Lucas 7.14",
+                    "texto": "pararam) e disse: Jovem, eu te D.: Levanta-te."
+                },
+                {
+                    "referencia": "Lucas 7.26",
+                    "texto": "a ver? Um profeta? Sim, vos D., e muito mais do"
+                },
+                {
+                    "referencia": "Lucas 7.28",
+                    "texto": "E eu vos D. que, entre os nascidos de mulheres, não"
+                },
+                {
+                    "referencia": "Lucas 7.47",
+                    "texto": "Por isso, te D. que os seus muitos pecados lhe são"
+                },
+                {
+                    "referencia": "Lucas 10.24",
+                    "texto": "pois vos D, que muitos profetas e reis desejaram"
+                },
+                {
+                    "referencia": "Lucas 11.9",
+                    "texto": "E eu vos D, a vós: Pedi, e dar-se-vos-á; buscai, e"
+                },
+                {
+                    "referencia": "Lucas 11.51",
+                    "texto": "altar e o templo; assim, vos D., será requerido"
+                },
+                {
+                    "referencia": "Lucas 12.5",
+                    "texto": "para lançar no inferno; sim, vos D., a esse temei."
+                },
+                {
+                    "referencia": "Lucas 12.22",
+                    "texto": "discípulos: Portanto, vos D.: não estejais"
+                },
+                {
+                    "referencia": "Lucas 12.37",
+                    "texto": "achar vigiando! Em verdade vos D. que se cingirá, e"
+                },
+                {
+                    "referencia": "Lucas 12.44",
+                    "texto": "Em verdade vos D. que sobre todos os seus bens o"
+                },
+                {
+                    "referencia": "Lucas 12.51",
+                    "texto": "trazer paz à terra? Não, vos D., mas, antes, dissensão."
+                },
+                {
+                    "referencia": "Le 13.3",
+                    "texto": "Não, vos D.; antes, se vos não arrependerdes, todos"
+                },
+                {
+                    "referencia": "Lucas 13.5",
+                    "texto": "Não, vos D.; antes, se vos não arrependerdes, todos"
+                },
+                {
+                    "referencia": "Lucas 13.24",
+                    "texto": "estreita, porque eu vos À), que muitos"
+                },
+                {
+                    "referencia": "Lucas 13.35",
+                    "texto": "deserta. E em verdade vos D, que não me vereis"
+                },
+                {
+                    "referencia": "Lucas 14.24",
+                    "texto": "Porque eu vos D., que nenhum daqueles varões que"
+                },
+                {
+                    "referencia": "Lucas 15.10",
+                    "texto": "Assim vos D. que há alegria diante dos anjos de"
+                },
+                {
+                    "referencia": "Lucas 16.9",
+                    "texto": "E eu vos D.: granjeai amigos com as riquezas da"
+                },
+                {
+                    "referencia": "Lucas 18.17",
+                    "texto": "Em verdade vos P. que qualquer que não receber o"
+                },
+                {
+                    "referencia": "Lucas 18.29",
+                    "texto": "Ihes disse: Na verdade vos D, que ninguém há, que"
+                },
+                {
+                    "referencia": "Lucas 19.26",
+                    "texto": "Pois eu vos D. que a qualquer que tiver ser-lhe-á"
+                },
+                {
+                    "referencia": "Lucas 21.3",
+                    "texto": "e disse: Em verdade vos D. que lançou mais do que"
+                },
+                {
+                    "referencia": "Lucas 21.32",
+                    "texto": "Em verdade vos D. que não passará esta geração até"
+                },
+                {
+                    "referencia": "Lucas 22.16",
+                    "texto": "porque vos D. que não a comerei mais até que ela se"
+                },
+                {
+                    "referencia": "Lucas 22.18",
+                    "texto": "porque vos D. gae já não beberei do fruto da vide,"
+                },
+                {
+                    "referencia": "Lucas 22.37",
+                    "texto": "porquanto vos D, que importa que em mim se cum-"
+                },
+                {
+                    "referencia": "Pe 23.43",
+                    "texto": "Jesus: Em verdade te D, que hoje estarás"
+                },
+                {
+                    "referencia": "Jó 1.51",
+                    "texto": "Na verdade, na verdade vos D, que, daqui em"
+                },
+                {
+                    "referencia": "Jó 3.3",
+                    "texto": "Na verdade, na verdade te D. que aquele que não"
+                },
+                {
+                    "referencia": "Jó 3.5",
+                    "texto": "Na verdade, na verdade te D. que aquele que não"
+                },
+                {
+                    "referencia": "Jó 3.11",
+                    "texto": "Na verdade, na verdade te D. que nós dizemos o que"
+                },
+                {
+                    "referencia": "Jó 4.35",
+                    "texto": "a ceifa? Eis que eu vos D.: levantai os vossos"
+                },
+                {
+                    "referencia": "Jó 5.19",
+                    "texto": "Na verdade, na verdade vos D. que o Filho por si"
+                },
+                {
+                    "referencia": "Jó 5.24",
+                    "texto": "Na verdade, na verdade vos D. que quem ouve a minha"
+                },
+                {
+                    "referencia": "Jó 5.25",
+                    "texto": "Em verdade, em verdade vos D, que vem a hora, e"
+                },
+                {
+                    "referencia": "Jó 5.34",
+                    "texto": "testemunho de homem, mas D. isso, para que vos sal-"
+                },
+                {
+                    "referencia": "Jó 6.26",
+                    "texto": "Na verdade, na verdade vos D, que me buscais não"
+                },
+                {
+                    "referencia": "Jó 6.32",
+                    "texto": "Na verdade, na verdade vos D, que Moisés não"
+                },
+                {
+                    "referencia": "Jó 6.47",
+                    "texto": "Na verdade, na verdade vos D, que aquele que crê em"
+                },
+                {
+                    "referencia": "Jó 6.53",
+                    "texto": "Na verdade, na verdade vos D. que, se não"
+                },
+                {
+                    "referencia": "Jó 8.34",
+                    "texto": "Em verdade, em verdade vos D, que todo aquele que"
+                },
+                {
+                    "referencia": "Jó 8.45",
+                    "texto": "Mas porque vos D. a verdade, não me credes."
+                },
+                {
+                    "referencia": "Jó 8.46",
+                    "texto": "de pecado? E, se vos D. a verdade, por que"
+                },
+                {
+                    "referencia": "Jó 8.51",
+                    "texto": "Em verdade, em verdade vos D, que, se alguém"
+                },
+                {
+                    "referencia": "Jó 8.58",
+                    "texto": "Em verdade, em verdade vos D. que, antes que"
+                },
+                {
+                    "referencia": "Jó 10.1",
+                    "texto": "Na verdade, na verdade vos D. que aquele que não"
+                },
+                {
+                    "referencia": "Jó 10.7",
+                    "texto": "a dizer-lhes: Em verdade vos D. que eu sou a porta"
+                },
+                {
+                    "referencia": "Jó 12.24",
+                    "texto": "Na verdade, na verdade vos D. que, se o grão de"
+                },
+                {
+                    "referencia": "Jó 13.16",
+                    "texto": "Na verdade, na verdade vos D, que não é o servo"
+                },
+                {
+                    "referencia": "Jó 13.19",
+                    "texto": "Desde agora, vo-lo D., antes que aconteça, para"
+                },
+                {
+                    "referencia": "Jó 13.20",
+                    "texto": "Na verdade, na verdade vos D, que se alguém receber"
+                },
+                {
+                    "referencia": "Jó 13.21",
+                    "texto": "Na verdade, na verdade vos D. que um de vós me"
+                },
+                {
+                    "referencia": "Jó 13.33",
+                    "texto": "eu vou não podeis vós ir, eu vo-lo D, também agora."
+                },
+                {
+                    "referencia": "Jó 13.38",
+                    "texto": "Na verdade, na verdade te D. que não cantará o"
+                },
+                {
+                    "referencia": "Jó 14.10",
+                    "texto": "mim? As palavras que eu vos D., não as D. de mim"
+                },
+                {
+                    "referencia": "Jó 14.10",
+                    "texto": "que eu vos D., não as D, de mim mesmo, mas o"
+                },
+                {
+                    "referencia": "Jó 14.12",
+                    "texto": "Na verdade, na verdade vos D. cue aquele que crê em"
+                },
+                {
+                    "referencia": "Jó 16.20",
+                    "texto": "Na verdade, na verdade vos D. que vós chorastes e"
+                },
+                {
+                    "referencia": "Jó 16.23",
+                    "texto": "Na verdade, na verdade vos D. que tudo quanto"
+                },
+                {
+                    "referencia": "Jó 16.26",
+                    "texto": "em meu nome, e não vos D, que eu rogarei por"
+                },
+                {
+                    "referencia": "Jó 17.13",
+                    "texto": "Mas, agora, vou para ti e D. isto no mundo, para"
+                },
+                {
+                    "referencia": "Jó 21.18",
+                    "texto": "Na verdade, na verdade te D, que, quando eras mais"
+                },
+                {
+                    "referencia": "Atos 26.25",
+                    "texto": "ó potentíssimo Festo! Antes, D. palavras de"
+                },
+                {
+                    "referencia": "Romanos 9.1",
+                    "texto": "Em Cristo D, a verdade, não minto (dando-me"
+                },
+                {
+                    "referencia": "Romanos 10.18",
+                    "texto": "Mas D.: Porventura, não ouviram? Sim, por certo,"
+                },
+                {
+                    "referencia": "Romanos 10.19",
+                    "texto": "Mas D,: Porventura, Israel não o soube?"
+                },
+                {
+                    "referencia": "Romanos 11.1",
+                    "texto": "D., pois: porventura, rejeitou Deus o seu povo? De"
+                },
+                {
+                    "referencia": "Romanos 11.11",
+                    "texto": "D., pois: porventura, tropeçaram, para que caíssem?"
+                },
+                {
+                    "referencia": "Romanos 12.3",
+                    "texto": "pela graça que me é dada, D, a cada um dentre"
+                },
+                {
+                    "referencia": "Romanos 13.11",
+                    "texto": "E isto D., conhecendo o tempo, que é já hora de"
+                },
+                {
+                    "referencia": "Romanos 15.8",
+                    "texto": "D., pois, que Jesus Cristo foi ministro da"
+                },
+                {
+                    "referencia": "1 Coríntios 6.5",
+                    "texto": "Para vos envergonhar o D.: Não há, pois, entre vós"
+                },
+                {
+                    "referencia": "1 Coríntios 7.6",
+                    "texto": "D., porém, isso como que por permissão e não por"
+                },
+                {
+                    "referencia": "1 Coríntios 7.8",
+                    "texto": "D., porém, aos solteiros e às viúvas, que lhes é"
+                },
+                {
+                    "referencia": "1 Coríntios 7.12",
+                    "texto": "Mas, aos outros, D. eu, não o Senhor: se algum"
+                },
+                {
+                    "referencia": "1 Coríntios 7.29",
+                    "texto": "Isto, porém, vos D., irmãos: que o tempo se"
+                },
+                {
+                    "referencia": "1 Coríntios 7.35",
+                    "texto": "E D, isso para proveito vosso; não para vos"
+                },
+                {
+                    "referencia": "1 Coríntios 9.8",
+                    "texto": "D. eu isso segundo os homens? Ou não diz a lei"
+                },
+                {
+                    "referencia": "1 Coríntios 10.15",
+                    "texto": "Falo como a sábios; julgai vós mesmos o que D.."
+                },
+                {
+                    "referencia": "1 Coríntios 10.19",
+                    "texto": "Mas que D.? Que o ídolo é alguma coisa? Ou que o"
+                },
+                {
+                    "referencia": "1 Coríntios 10.20",
+                    "texto": "Antes, D. que as coisas que os gentios sacrificam,"
+                },
+                {
+                    "referencia": "1 Coríntios 10.29",
+                    "texto": "D., porém, a consciência, não a tua, mas a do"
+                },
+                {
+                    "referencia": "1 Coríntios 15.50",
+                    "texto": "E, agora, D. isto, irmãos: que carne e sangue não"
+                },
+                {
+                    "referencia": "1 Coríntios 15.51",
+                    "texto": "Eis aqui vos D. um mistério: Na verdade, nem todos"
+                },
+                {
+                    "referencia": "2 Coríntios 7.3",
+                    "texto": "Não D, isso para vossa condenação: pois já, antes,"
+                },
+                {
+                    "referencia": "2 Coríntios 8.8",
+                    "texto": "Não D. isso como quem manda, mas para provar, pela"
+                },
+                {
+                    "referencia": "2 Coríntios 8.13",
+                    "texto": "Mas não D. isso para que os outros tenham alívio, e"
+                },
+                {
+                    "referencia": "2 Coríntios 9.6",
+                    "texto": "E D. isto: Que o que semeia pouco pouco também"
+                },
+                {
+                    "referencia": "2 Coríntios 11.16",
+                    "texto": "Outra vez D.: ninguém me julgue insensato ou,"
+                },
+                {
+                    "referencia": "2 Coríntios 11.17",
+                    "texto": "O que D., não o D. segundo o Senhor, mas, como"
+                },
+                {
+                    "referencia": "2 Coríntios 11.21",
+                    "texto": "Envergonhado o D., como se nós fôssemos fracos,"
+                },
+                {
+                    "referencia": "2 Coríntios 13.2",
+                    "texto": "o disse e segunda vez o D., como quando estava"
+                },
+                {
+                    "referencia": "2 Coríntios 13.2",
+                    "texto": "mas agora, estando ausente, o D. aos que antes"
+                },
+                {
+                    "referencia": "GI 1.9",
+                    "texto": "agora de novo também vo-lo D.: se alguém vos"
+                },
+                {
+                    "referencia": "G12.6",
+                    "texto": "a aparência do homem), esses, D., que pareciam"
+                },
+                {
+                    "referencia": "G13.17",
+                    "texto": "Mas D. isto: que tendo sido o testamento"
+                },
+                {
+                    "referencia": "Gálatas 4.1",
+                    "texto": "D., pois, que, todo o tempo em que o herdeiro é"
+                },
+                {
+                    "referencia": "GI 5.2",
+                    "texto": "Eis que eu, Paulo, vos D. que, se vos deixardes"
+                },
+                {
+                    "referencia": "G15.16",
+                    "texto": "D., porém: Andai em Espírito e não cumprireis a"
+                },
+                {
+                    "referencia": "Efésios 1.11",
+                    "texto": "nele, D., em quem também fomos feitos herança,"
+                },
+                {
+                    "referencia": "Efésios 4.17",
+                    "texto": "E D. isto e testífico no Senhor, para que não"
+                },
+                {
+                    "referencia": "Filipenses 3.18",
+                    "texto": "vos disse e agora também D., chorando, que são"
+                },
+                {
+                    "referencia": "Filipenses 44",
+                    "texto": "sempre, no Senhor; outra vez D.: regozijai-vos."
+                },
+                {
+                    "referencia": "Filipenses 4.11",
+                    "texto": "Não D. isto como por necessidade, porque já aprendi"
+                },
+                {
+                    "referencia": "CI 2.4",
+                    "texto": "E D. isto para que ninguém vos engane com palavras"
+                },
+                {
+                    "referencia": "lTm 2.7",
+                    "texto": "Para o que (digo a verdade em Cristo, não minto) fui"
+                },
+                {
+                    "referencia": "2 Timóteo 2.7",
+                    "texto": "Considera o que D., porque o Senhor te dará"
+                },
+                {
+                    "referencia": "Filemom 1.21",
+                    "texto": "obediência, sabendo que ainda farás mais do que D.."
+                },
+                {
+                    "referencia": "1 João 5.16",
+                    "texto": "Há pecado para morte, e por esse não D. que ore."
+                },
+                {
+                    "referencia": "Apocalipse 2.24",
+                    "texto": "Mas eu vos D. a vós e aos restantes que estão em"
+                }
+            ]
+        }
+    ]
+}

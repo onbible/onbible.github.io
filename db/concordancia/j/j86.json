@@ -1,0 +1,46 @@
+{
+    "j": [
+        {
+            "palavra": "JURO",
+            "veja tambem": [],
+            "ocorrencias": 4,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 14.23",
+                    "texto": "e J. que, desde um fio até à correia dum sapato,"
+                },
+                {
+                    "referencia": "2 Samuel 19.7",
+                    "texto": "servos; porque, pelo Senhor, te J. que, se não"
+                },
+                {
+                    "referencia": "Neemias 5.10",
+                    "texto": "meus irmãos e meus moços, a J., lhes temos dado"
+                },
+                {
+                    "referencia": "Jeremias 44.26",
+                    "texto": "na terra do Egito: Eis que eu J. pelo meu grande"
+                }
+            ]
+        },
+        {
+            "palavra": "JUROS",
+            "veja tambem": [
+                "juro"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 25.27",
+                    "texto": "quando eu viesse, receberia o que é meu com ce"
+                },
+                {
+                    "referencia": "Lucas 19.23",
+                    "texto": "no banco, para que eu, vindo, o exigisse com os J.?"
+                }
+            ]
+        }
+    ]
+}

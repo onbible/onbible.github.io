@@ -1,0 +1,530 @@
+{
+  "livro": "Gênesis - בְּרֵאשִׁית - Bereshit",
+  "capítulo": 25,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E acrescentou Abraão e tomou mulher, e seu nome [era] Quetura.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֧סֶף", "transliteral": "wayyōsep̄", "traducao_palavra": "e acrescentou" },
+        { "hebraico": "אַבְרָהָ֛ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "וַיִּקַּ֥ח", "transliteral": "wayyiqqaḥ", "traducao_palavra": "e tomou" },
+        { "hebraico": "אִשָּׁ֖ה", "transliteral": "ʾiššâ", "traducao_palavra": "mulher" },
+        { "hebraico": "וּשְׁמָ֥הּ", "transliteral": "ûšəmāh", "traducao_palavra": "e seu nome" },
+        { "hebraico": "קְטוּרָֽה׃", "transliteral": "qəṭûrâ", "traducao_palavra": "Quetura" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E ela deu à luz para ele a Zinrã, e a Jocsã, e a Medã, e a Midiã, e a Isbaque, e a Suá.",
+      "palavras": [
+        { "hebraico": "וַתֵּ֨לֶד", "transliteral": "wattēleḏ", "traducao_palavra": "e ela deu à luz" },
+        { "hebraico": "לּ֜וֹ", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "אֶת־זִמְרָן֙", "transliteral": "ʾeṯ-zimrān", "traducao_palavra": "a Zinrã" },
+        { "hebraico": "וְאֶת־יָקְשָׁ֔ן", "transliteral": "wəʾeṯ-yoqšān", "traducao_palavra": "e a Jocsã" },
+        { "hebraico": "וְאֶת־מְדָ֖ן", "transliteral": "wəʾeṯ-məḏān", "traducao_palavra": "e a Medã" },
+        { "hebraico": "וְאֶת־מִדְיָ֑ן", "transliteral": "wəʾeṯ-miḏyān", "traducao_palavra": "e a Midiã" },
+        { "hebraico": "וְאֶת־יִשְׁבָּ֖ק", "transliteral": "wəʾeṯ-yišbāq", "traducao_palavra": "e a Isbaque" },
+        { "hebraico": "וְאֶת־שֽׁוּחַ׃", "transliteral": "wəʾeṯ-šûaḥ", "traducao_palavra": "e a Suá" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E Jocsã gerou a Sebá e a Dedã; e os filhos de Dedã foram Assurim, e Letusim, e Leumim.",
+      "palavras": [
+        { "hebraico": "וְיָקְשָׁ֣ן", "transliteral": "wəyoqšān", "traducao_palavra": "e Jocsã" },
+        { "hebraico": "יָלַ֔ד", "transliteral": "yālaḏ", "traducao_palavra": "gerou" },
+        { "hebraico": "אֶת־שְׁבָ֖א", "transliteral": "ʾeṯ-šəḇāʾ", "traducao_palavra": "a Sebá" },
+        { "hebraico": "וְאֶת־דְּדָ֑ן", "transliteral": "wəʾeṯ-dəḏān", "traducao_palavra": "e a Dedã" },
+        { "hebraico": "וּבְנֵ֣י", "transliteral": "ûḇənê", "traducao_palavra": "e filhos de" },
+        { "hebraico": "דְדָ֔ן", "transliteral": "dəḏān", "traducao_palavra": "Dedã" },
+        { "hebraico": "הָי֥וּ", "transliteral": "hāyû", "traducao_palavra": "foram" },
+        { "hebraico": "אַשּׁוּרִ֛ם", "transliteral": "ʾaššûrîm", "traducao_palavra": "Assurim" },
+        { "hebraico": "וּלְטוּשִׁ֖ים", "transliteral": "ûləṭûšîm", "traducao_palavra": "e Letusim" },
+        { "hebraico": "וּלְאֻמִּֽים׃", "transliteral": "ûləʾummîm", "traducao_palavra": "e Leumim" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E os filhos de Midiã: Efá, e Efer, e Enoque, e Abida, e Elda; todos estes [foram] filhos de Quetura.",
+      "palavras": [
+        { "hebraico": "וּבְנֵ֣י", "transliteral": "ûḇənê", "traducao_palavra": "e filhos de" },
+        { "hebraico": "מִדְיָ֗ן", "transliteral": "miḏyān", "traducao_palavra": "Midiã" },
+        { "hebraico": "עֵיפָ֤ה", "transliteral": "ʿêp̄â", "traducao_palavra": "Efá" },
+        { "hebraico": "וָעֵ֨פֶר֙", "transliteral": "wāʿēp̄er", "traducao_palavra": "e Efer" },
+        { "hebraico": "וַחֲנֹ֔ךְ", "transliteral": "waḥănōḵ", "traducao_palavra": "e Enoque" },
+        { "hebraico": "וַאֲבִידָ֖ע", "transliteral": "waʾăḇîḏāʿ", "traducao_palavra": "e Abida" },
+        { "hebraico": "וְאֶלְדָּעָ֑ה", "transliteral": "wəʾeldāʿâ", "traducao_palavra": "e Elda" },
+        { "hebraico": "כָּל־אֵ֖לֶּה", "transliteral": "kāl-ʾēlleh", "traducao_palavra": "todos estes" },
+        { "hebraico": "בְּנֵ֥י", "transliteral": "bənê", "traducao_palavra": "filhos de" },
+        { "hebraico": "קְטוּרָֽה׃", "transliteral": "qəṭûrâ", "traducao_palavra": "Quetura" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E deu Abraão tudo o que a ele [pertencia] a Isaque.",
+      "palavras": [
+        { "hebraico": "וַיִּתֵּ֧ן", "transliteral": "wayyittēn", "traducao_palavra": "e deu" },
+        { "hebraico": "אַבְרָהָ֛ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "אֶת־כָּל־אֲשֶׁר־ל֖וֹ", "transliteral": "ʾeṯ-kāl-ʾăšer-lô", "traducao_palavra": "tudo o que a ele" },
+        { "hebraico": "לְיִצְחָֽק׃", "transliteral": "ləyiṣḥāq", "traducao_palavra": "a Isaque" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E aos filhos das concubinas que Abraão [tinha], deu Abraão presentes; e enviou-os de sobre Isaque, seu filho, enquanto ele [ainda] vivia, para o oriente, para a terra do oriente.",
+      "palavras": [
+        { "hebraico": "וְלִבְנֵ֤י", "transliteral": "wəliḇnê", "traducao_palavra": "e aos filhos de" },
+        { "hebraico": "הַפִּֽילַגְשִׁים֙", "transliteral": "happîlaḡšîm", "traducao_palavra": "as concubinas" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "לְאַבְרָהָ֔ם", "transliteral": "ləʾaḇrāhām", "traducao_palavra": "a Abraão" },
+        { "hebraico": "נָתַ֥ן", "transliteral": "nāṯan", "traducao_palavra": "deu" },
+        { "hebraico": "אַבְרָהָ֖ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "מַתָּנֹ֑ת", "transliteral": "mattānōṯ", "traducao_palavra": "presentes" },
+        { "hebraico": "וַֽיְשַׁלְּחֵ֞ם", "transliteral": "wayšalləḥēm", "traducao_palavra": "e enviou-os" },
+        { "hebraico": "מֵעַ֨ל", "transliteral": "mēʿal", "traducao_palavra": "de sobre/afastado de" },
+        { "hebraico": "יִצְחָ֤ק", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "בְּנוֹ֙", "transliteral": "bənô", "traducao_palavra": "seu filho" },
+        { "hebraico": "בְּעוֹדֶ֣נּוּ", "transliteral": "bəʿôḏennû", "traducao_palavra": "em ainda ele/enquanto vivia" },
+        { "hebraico": "חַ֔י", "transliteral": "ḥay", "traducao_palavra": "vivo" },
+        { "hebraico": "קֵ֖דְמָה", "transliteral": "qēḏmâ", "traducao_palavra": "ao oriente" },
+        { "hebraico": "אֶל־אֶ֥רֶץ", "transliteral": "ʾel-ʾereṣ", "traducao_palavra": "para terra de" },
+        { "hebraico": "קֶֽדֶם׃", "transliteral": "qeḏem", "traducao_palavra": "oriente" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "E estes [são] os dias dos anos da vida de Abraão que viveu: cem anos e setenta anos e cinco anos.",
+      "palavras": [
+        { "hebraico": "וְאֵ֗לֶּה", "transliteral": "wəʾēlleh", "traducao_palavra": "e estes" },
+        { "hebraico": "יְמֵ֛י", "transliteral": "yəmê", "traducao_palavra": "dias de" },
+        { "hebraico": "שְׁנֵ֥י", "transliteral": "šənê", "traducao_palavra": "anos de" },
+        { "hebraico": "חַיֵּֽי־אַבְרָהָ֖ם", "transliteral": "ḥayyê-ʾaḇrāhām", "traducao_palavra": "vida de Abraão" },
+        { "hebraico": "אֲשֶׁר־חָ֑י", "transliteral": "ʾăšer-ḥāy", "traducao_palavra": "que viveu" },
+        { "hebraico": "מְאַ֥ת", "transliteral": "məʾat", "traducao_palavra": "cem" },
+        { "hebraico": "שָׁנָ֛ה", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "וְשִׁבְעִ֥ים", "transliteral": "wəšiḇʿîm", "traducao_palavra": "e setenta" },
+        { "hebraico": "שָׁנָ֖ה", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "וְחָמֵ֥שׁ", "transliteral": "wəḥāmēš", "traducao_palavra": "e cinco" },
+        { "hebraico": "שָׁנִֽים׃", "transliteral": "šānîm", "traducao_palavra": "anos" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E expirou e morreu Abraão em boa velhice, velho e farto; e foi reunido ao seu povo.",
+      "palavras": [
+        { "hebraico": "וַיִּגְוַ֨ע", "transliteral": "wayyiḡwaʿ", "traducao_palavra": "e expirou" },
+        { "hebraico": "וַיָּ֧מָת", "transliteral": "wayyāmāṯ", "traducao_palavra": "e morreu" },
+        { "hebraico": "אַבְרָהָ֛ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "בְּשֵׂיבָ֥ה", "transliteral": "bəśêḇâ", "traducao_palavra": "em velhice" },
+        { "hebraico": "טוֹבָ֖ה", "transliteral": "ṭôḇâ", "traducao_palavra": "boa" },
+        { "hebraico": "זָקֵ֣ן", "transliteral": "zāqēn", "traducao_palavra": "velho" },
+        { "hebraico": "וְשָׂבֵ֑עַ", "transliteral": "wəśāḇēaʿ", "traducao_palavra": "e farto/satisfeito" },
+        { "hebraico": "וַיֵּאָ֖סֶף", "transliteral": "wayyēʾāsep̄", "traducao_palavra": "e foi reunido" },
+        { "hebraico": "אֶל־עַמָּֽיו׃", "transliteral": "ʾel-ʿammāyw", "traducao_palavra": "ao seu povo" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E sepultaram-no Isaque e Ismael, seus filhos, na caverna de Macpela; no campo de Efrom, filho de Zoar, o hitita, que [está] diante de Manre.",
+      "palavras": [
+        { "hebraico": "וַיִּקְבְּר֨וּ", "transliteral": "wayyiqbərû", "traducao_palavra": "e sepultaram" },
+        { "hebraico": "אֹת֜וֹ", "transliteral": "ʾōṯô", "traducao_palavra": "o" },
+        { "hebraico": "יִצְחָ֤ק", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "וְיִשְׁמָעֵאל֙", "transliteral": "wəyišmāʿēl", "traducao_palavra": "e Ismael" },
+        { "hebraico": "בָּנָ֔יו", "transliteral": "bānāyw", "traducao_palavra": "seus filhos" },
+        { "hebraico": "אֶל־מְעָרַ֖ת", "transliteral": "ʾel-məʿāraṯ", "traducao_palavra": "na caverna de" },
+        { "hebraico": "הַמַּכְפֵּלָ֑ה", "transliteral": "hammāḵpēlâ", "traducao_palavra": "Macpela" },
+        { "hebraico": "אֶל־שְׂדֵ֞ה", "transliteral": "ʾel-śəḏē", "traducao_palavra": "no campo de" },
+        { "hebraico": "עֶפְרֹ֤ן", "transliteral": "ʿep̄rōn", "traducao_palavra": "Efrom" },
+        { "hebraico": "בֶּן־צֹ֙חַר֙", "transliteral": "ben-ṣōḥar", "traducao_palavra": "filho de Zoar" },
+        { "hebraico": "הַֽחִתִּ֔י", "transliteral": "haḥittî", "traducao_palavra": "o hitita" },
+        { "hebraico": "אֲשֶׁ֖ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "עַל־פְּנֵ֥י", "transliteral": "ʿal-pənê", "traducao_palavra": "diante de" },
+        { "hebraico": "מַמְרֵֽא׃", "transliteral": "mamrē", "traducao_palavra": "Manre" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "O campo que comprou Abraão dos filhos de Hete; ali foi sepultado Abraão e Sara, sua mulher.",
+      "palavras": [
+        { "hebraico": "הַשָּׂדֶ֛ה", "transliteral": "haśśāḏeh", "traducao_palavra": "o campo" },
+        { "hebraico": "אֲשֶׁר־קָנָ֥ה", "transliteral": "ʾăšer-qānâ", "traducao_palavra": "que comprou" },
+        { "hebraico": "אַבְרָהָ֖ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "מֵאֵ֣ת", "transliteral": "mēʾēṯ", "traducao_palavra": "de/da parte de" },
+        { "hebraico": "בְּנֵי־חֵ֑ת", "transliteral": "bənê-ḥēṯ", "traducao_palavra": "filhos de Hete" },
+        { "hebraico": "שָׁ֛מָּה", "transliteral": "šāmmâ", "traducao_palavra": "ali" },
+        { "hebraico": "קֻבַּ֥ר", "transliteral": "qubbar", "traducao_palavra": "foi sepultado" },
+        { "hebraico": "אַבְרָהָ֖ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "וְשָׂרָ֥ה", "transliteral": "wəśārâ", "traducao_palavra": "e Sara" },
+        { "hebraico": "אִשְׁתּֽוֹ׃", "transliteral": "ʾištô", "traducao_palavra": "sua mulher" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E foi, depois da morte de Abraão, que abençoou Deus a Isaque, seu filho; e habitou Isaque com Beer-Laai-Roi.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֗י", "transliteral": "wayhî", "traducao_palavra": "e foi" },
+        { "hebraico": "אַחֲרֵי֙", "transliteral": "ʾaḥărê", "traducao_palavra": "depois de" },
+        { "hebraico": "מ֣וֹת", "transliteral": "môṯ", "traducao_palavra": "morte de" },
+        { "hebraico": "אַבְרָהָ֔ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "וַיְבָ֥רֶךְ", "transliteral": "wayḇāreḵ", "traducao_palavra": "e abençoou" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕlōhîm", "traducao_palavra": "Deus" },
+        { "hebraico": "אֶת־יִצְחָ֣ק", "transliteral": "ʾeṯ-yiṣḥāq", "traducao_palavra": "a Isaque" },
+        { "hebraico": "בְּנ֑וֹ", "transliteral": "bənô", "traducao_palavra": "seu filho" },
+        { "hebraico": "וַיֵּ֣שֶׁב", "transliteral": "wayyēšeḇ", "traducao_palavra": "e habitou" },
+        { "hebraico": "יִצְחָ֔ק", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "עִם־בְּאֵ֥ר", "transliteral": "ʿim-bəʾēr", "traducao_palavra": "com poço de" },
+        { "hebraico": "לַחַ֥י", "transliteral": "laḥay", "traducao_palavra": "o Vivo" },
+        { "hebraico": "רֹאִֽי׃", "transliteral": "rōʾî", "traducao_palavra": "que me vê" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E estas [são] as gerações de Ismael, filho de Abraão, que deu à luz Agar, a egípcia, serva de Sara, para Abraão.",
+      "palavras": [
+        { "hebraico": "וְאֵ֨לֶּה", "transliteral": "wəʾēlleh", "traducao_palavra": "e estas" },
+        { "hebraico": "תֹּלְדֹ֣ת", "transliteral": "tōləḏōṯ", "traducao_palavra": "gerações de" },
+        { "hebraico": "יִשְׁמָעֵאל֮", "transliteral": "yišmāʿēl", "traducao_palavra": "Ismael" },
+        { "hebraico": "בֶּן־אַבְרָהָם֒", "transliteral": "ben-ʾaḇrāhām", "traducao_palavra": "filho de Abraão" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "יָלְדָ֨ה", "transliteral": "yāləḏâ", "traducao_palavra": "deu à luz" },
+        { "hebraico": "הָגָ֧ר", "transliteral": "hāḡār", "traducao_palavra": "Agar" },
+        { "hebraico": "הַמִּצְרִית֙", "transliteral": "hammiṣrîṯ", "traducao_palavra": "a egípcia" },
+        { "hebraico": "שִׁפְחַ֣ת", "transliteral": "šip̄ḥat", "traducao_palavra": "serva de" },
+        { "hebraico": "שָׂרָ֔ה", "transliteral": "śārâ", "traducao_palavra": "Sara" },
+        { "hebraico": "לְאַבְרָהָֽם׃", "transliteral": "ləʾaḇrāhām", "traducao_palavra": "para Abraão" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E estes [são] os nomes dos filhos de Ismael por seus nomes, pelas suas gerações: o primogênito de Ismael, Nebaiote; e Quedar, e Adbeel, e Mibsão.",
+      "palavras": [
+        { "hebraico": "וְאֵ֨לֶּה", "transliteral": "wəʾēlleh", "traducao_palavra": "e estes" },
+        { "hebraico": "שְׁמֹ֤ת", "transliteral": "šəmōṯ", "traducao_palavra": "nomes de" },
+        { "hebraico": "בְּנֵי", "transliteral": "bənê", "traducao_palavra": "filhos de" },
+        { "hebraico": "יִשְׁמָעֵאל֙", "transliteral": "yišmāʿēl", "traducao_palavra": "Ismael" },
+        { "hebraico": "בִּשְׁמֹתָ֔ם", "transliteral": "bišmōṯām", "traducao_palavra": "por seus nomes" },
+        { "hebraico": "לְתוֹלְדֹתָ֑ם", "transliteral": "ləṯôləḏōṯām", "traducao_palavra": "pelas suas gerações" },
+        { "hebraico": "בְּכֹ֤ר", "transliteral": "bəḵōr", "traducao_palavra": "primogênito de" },
+        { "hebraico": "יִשְׁמָעֵאל֙", "transliteral": "yišmāʿēl", "traducao_palavra": "Ismael" },
+        { "hebraico": "נְבָיֹ֔ת", "transliteral": "nəḇāyōṯ", "traducao_palavra": "Nebaiote" },
+        { "hebraico": "וְקֵדָ֥ר", "transliteral": "wəqēḏār", "traducao_palavra": "e Quedar" },
+        { "hebraico": "וְאַדְבְּאֵ֖ל", "transliteral": "wəʾaḏbəʾēl", "traducao_palavra": "e Adbeel" },
+        { "hebraico": "וּמִבְשָֽׂם׃", "transliteral": "ûmiḇśām", "traducao_palavra": "e Mibsão" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E Misma, e Dumá, e Massá.",
+      "palavras": [
+        { "hebraico": "וּמִשְׁמָ֥ע", "transliteral": "ûmišmāʿ", "traducao_palavra": "e Misma" },
+        { "hebraico": "וְדוּמָ֖ה", "transliteral": "wəḏûmâ", "traducao_palavra": "e Dumá" },
+        { "hebraico": "וּמַשָּֽׂא׃", "transliteral": "ûmaśśāʾ", "traducao_palavra": "e Massá" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Hadade, e Tema, Jetur, Nafis e Quedemá.",
+      "palavras": [
+        { "hebraico": "חֲדַ֣ד", "transliteral": "ḥăḏaḏ", "traducao_palavra": "Hadade" },
+        { "hebraico": "וְתֵימָ֔א", "transliteral": "wəṯêmāʾ", "traducao_palavra": "e Tema" },
+        { "hebraico": "יְט֥וּר", "transliteral": "yəṭûr", "traducao_palavra": "Jetur" },
+        { "hebraico": "נָפִ֖ישׁ", "transliteral": "nāp̄îš", "traducao_palavra": "Nafis" },
+        { "hebraico": "וָקֵ֥דְמָה׃", "transliteral": "wāqēḏmâ", "traducao_palavra": "e Quedemá" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Estes [são] os filhos de Ismael, e estes seus nomes por suas aldeias e por seus acampamentos; doze príncipes para seus povos.",
+      "palavras": [
+        { "hebraico": "אֵ֣לֶּה", "transliteral": "ʾēlleh", "traducao_palavra": "estes" },
+        { "hebraico": "הֵ֞ם", "transliteral": "hēm", "traducao_palavra": "eles" },
+        { "hebraico": "בְּנֵ֣י", "transliteral": "bənê", "traducao_palavra": "filhos de" },
+        { "hebraico": "יִשְׁמָעֵאל֮", "transliteral": "yišmāʿēl", "traducao_palavra": "Ismael" },
+        { "hebraico": "וְאֵ֣לֶּה", "transliteral": "wəʾēlleh", "traducao_palavra": "e estes" },
+        { "hebraico": "שְׁמֹתָם֒", "transliteral": "šəmōṯām", "traducao_palavra": "seus nomes" },
+        { "hebraico": "בְּחַצְרֵיהֶ֖ם", "transliteral": "bəḥaṣrêhem", "traducao_palavra": "por suas aldeias" },
+        { "hebraico": "וּבְטִֽירֹתָ֑ם", "transliteral": "ûḇəṭîrōṯām", "traducao_palavra": "e por seus acampamentos" },
+        { "hebraico": "שְׁנֵים־עָשָׂ֥ר", "transliteral": "šənêm-ʿāśār", "traducao_palavra": "doze" },
+        { "hebraico": "נְשִׂיאִ֖ם", "transliteral": "nəśîʾim", "traducao_palavra": "príncipes" },
+        { "hebraico": "לְאֻמֹּתָֽם׃", "transliteral": "ləʾummōṯām", "traducao_palavra": "para seus povos" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E estes [são] os anos da vida de Ismael: cem anos e trinta anos e sete anos; e expirou e morreu, e foi reunido ao seu povo.",
+      "palavras": [
+        { "hebraico": "וְאֵ֗לֶּה", "transliteral": "wəʾēlleh", "traducao_palavra": "e estes" },
+        { "hebraico": "שְׁנֵי֙", "transliteral": "šənê", "traducao_palavra": "anos de" },
+        { "hebraico": "חַיֵּ֣י", "transliteral": "ḥayyê", "traducao_palavra": "vida de" },
+        { "hebraico": "יִשְׁמָעֵאל֮", "transliteral": "yišmāʿēl", "traducao_palavra": "Ismael" },
+        { "hebraico": "מְאַ֣ת", "transliteral": "məʾat", "traducao_palavra": "cem" },
+        { "hebraico": "שָׁנָה֩", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "וּשְׁלֹשִׁ֨ים", "transliteral": "ûšəlōšîm", "traducao_palavra": "e trinta" },
+        { "hebraico": "שָׁנָ֜ה", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "וְשֶׁ֣בַע", "transliteral": "wəšebaʿ", "traducao_palavra": "e sete" },
+        { "hebraico": "שָׁנִ֑ים", "transliteral": "šānîm", "traducao_palavra": "anos" },
+        { "hebraico": "וַיִּגְוַ֣ע", "transliteral": "wayyiḡwaʿ", "traducao_palavra": "e expirou" },
+        { "hebraico": "וַיָּ֔מָת", "transliteral": "wayyāmāṯ", "traducao_palavra": "e morreu" },
+        { "hebraico": "וַיֵּאָ֖סֶף", "transliteral": "wayyēʾāsep̄", "traducao_palavra": "e foi reunido" },
+        { "hebraico": "אֶל־עַמָּֽיו׃", "transliteral": "ʾel-ʿammāyw", "traducao_palavra": "ao seu povo" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "E habitaram desde Havilá até Sur, que [está] diante do Egito, em vindo para a Assíria; diante de todos os seus irmãos ele habitou.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁכְּנ֨וּ", "transliteral": "wayyiškənû", "traducao_palavra": "e habitaram" },
+        { "hebraico": "מֵֽחֲוִילָ֜ה", "transliteral": "mēḥăwîlâ", "traducao_palavra": "desde Havilá" },
+        { "hebraico": "עַד־שׁ֗וּר", "transliteral": "ʿaḏ-šûr", "traducao_palavra": "até Sur" },
+        { "hebraico": "אֲשֶׁר֙", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "עַל־פְּנֵ֣י", "transliteral": "ʿal-pənê", "traducao_palavra": "diante de" },
+        { "hebraico": "מִצְרַ֔יִם", "transliteral": "miṣrayim", "traducao_palavra": "Egito" },
+        { "hebraico": "בֹּאֲכָ֖ה", "transliteral": "bōʾăḵâ", "traducao_palavra": "em vindo/na direção de" },
+        { "hebraico": "אַשּׁ֑וּרָה", "transliteral": "ʾaššûrâ", "traducao_palavra": "Assíria" },
+        { "hebraico": "עַל־פְּנֵ֥י", "transliteral": "ʿal-pənê", "traducao_palavra": "diante de" },
+        { "hebraico": "כָל־אֶחָ֖יו", "transliteral": "ḵol-ʾeḥāyw", "traducao_palavra": "todos seus irmãos" },
+        { "hebraico": "נָפָֽל׃", "transliteral": "nāp̄āl", "traducao_palavra": "caiu/habitou" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E estas [são] as gerações de Isaque, filho de Abraão; Abraão gerou a Isaque.",
+      "palavras": [
+        { "hebraico": "וְאֵ֛לֶּה", "transliteral": "wəʾēlleh", "traducao_palavra": "e estas" },
+        { "hebraico": "תּוֹלְדֹ֥ת", "transliteral": "tôləḏōṯ", "traducao_palavra": "gerações de" },
+        { "hebraico": "יִצְחָ֖ק", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "בֶּן־אַבְרָהָ֑ם", "transliteral": "ben-ʾaḇrāhām", "traducao_palavra": "filho de Abraão" },
+        { "hebraico": "אַבְרָהָ֖ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "הוֹלִ֥יד", "transliteral": "hôlîḏ", "traducao_palavra": "gerou" },
+        { "hebraico": "אֶת־יִצְחָֽק׃", "transliteral": "ʾeṯ-yiṣḥāq", "traducao_palavra": "a Isaque" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E era Isaque filho de quarenta anos em seu tomar a Rebeca, filha de Betuel, o arameu, de Padã-Arã, irmã de Labão, o arameu, para ele por mulher.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֤י", "transliteral": "wayhî", "traducao_palavra": "e foi" },
+        { "hebraico": "יִצְחָק֙", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "בֶּן־אַרְבָּעִ֣ים", "transliteral": "ben-ʾarbāʿîm", "traducao_palavra": "filho de quarenta" },
+        { "hebraico": "שָׁנָ֔ה", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "בְּקַחְתּ֣וֹ", "transliteral": "bəqaḥtô", "traducao_palavra": "em seu tomar" },
+        { "hebraico": "אֶת־רִבְקָ֗ה", "transliteral": "ʾeṯ-riḇqâ", "traducao_palavra": "a Rebeca" },
+        { "hebraico": "בַּת־בְּתוּאֵל֙", "transliteral": "baṯ-bəṯûʾēl", "traducao_palavra": "filha de Betuel" },
+        { "hebraico": "הָאֲרַמִּ֔י", "transliteral": "hāʾărammî", "traducao_palavra": "o arameu" },
+        { "hebraico": "מִפַּדַּ֖ן", "transliteral": "mippaḏdan", "traducao_palavra": "de Padã" },
+        { "hebraico": "אֲרָ֑ם", "transliteral": "ʾărām", "traducao_palavra": "Arã" },
+        { "hebraico": "אֲחֹ֛ת", "transliteral": "ʾăḥōṯ", "traducao_palavra": "irmã de" },
+        { "hebraico": "לָבָ֥ן", "transliteral": "lāḇān", "traducao_palavra": "Labão" },
+        { "hebraico": "הָאֲרַמִּ֖י", "transliteral": "hāʾărammî", "traducao_palavra": "o arameu" },
+        { "hebraico": "ל֥וֹ", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "לְאִשָּֽׁה׃", "transliteral": "ləʾiššâ", "traducao_palavra": "por mulher" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E suplicou Isaque a YHWH diante de sua mulher, pois estéril [era] ela; e deixou-se exorar YHWH por ele, e concebeu Rebeca, sua mulher.",
+      "palavras": [
+        { "hebraico": "וַיֶּעְתַּ֨ר", "transliteral": "wayyeʿtar", "traducao_palavra": "e suplicou" },
+        { "hebraico": "יִצְחָ֤ק", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "לַֽיהוָה֙", "transliteral": "laYHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "לְנֹ֣כַח", "transliteral": "lənōḵaḥ", "traducao_palavra": "diante de/por causa de" },
+        { "hebraico": "אִשְׁתּ֔וֹ", "transliteral": "ʾištô", "traducao_palavra": "sua mulher" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "עֲקָרָ֖ה", "transliteral": "ʿăqārâ", "traducao_palavra": "estéril" },
+        { "hebraico": "הִ֑וא", "transliteral": "hîʾ", "traducao_palavra": "ela" },
+        { "hebraico": "וַיֵּעָ֤תֶר", "transliteral": "wayyēʿāṯer", "traducao_palavra": "e deixou-se exorar" },
+        { "hebraico": "לּוֹ֙", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַתַּ֖הַר", "transliteral": "wattahar", "traducao_palavra": "e concebeu" },
+        { "hebraico": "רִבְקָ֥ה", "transliteral": "riḇqâ", "traducao_palavra": "Rebeca" },
+        { "hebraico": "אִשְׁתּֽוֹ׃", "transliteral": "ʾištô", "traducao_palavra": "sua mulher" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E lutaram os filhos no seu meio; e disse ela: Se [é] assim, por que isto eu? E foi para consultar a YHWH.",
+      "palavras": [
+        { "hebraico": "וַיִּתְרֹֽצֲצ֤וּ", "transliteral": "wayyiṯrōṣăṣû", "traducao_palavra": "e lutaram/chocaram-se" },
+        { "hebraico": "הַבָּנִים֙", "transliteral": "habbānîm", "traducao_palavra": "os filhos" },
+        { "hebraico": "בְּקִרְבָּ֔הּ", "transliteral": "bəqirbāh", "traducao_palavra": "no seu meio" },
+        { "hebraico": "וַתֹּ֣אמֶר", "transliteral": "wattōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "אִם־כֵּ֔ן", "transliteral": "ʾim-kēn", "traducao_palavra": "se assim" },
+        { "hebraico": "לָ֥מָּה", "transliteral": "lāmmâ", "traducao_palavra": "por que" },
+        { "hebraico": "זֶּ֖ה", "transliteral": "zzeh", "traducao_palavra": "isto" },
+        { "hebraico": "אָנֹ֑כִי", "transliteral": "ʾānōḵî", "traducao_palavra": "eu" },
+        { "hebraico": "וַתֵּ֖לֶךְ", "transliteral": "wattēleḵ", "traducao_palavra": "e foi" },
+        { "hebraico": "לִדְרֹ֥שׁ", "transliteral": "liḏrōš", "traducao_palavra": "para consultar" },
+        { "hebraico": "אֶת־יְהוָֽה׃", "transliteral": "ʾeṯ-YHWH", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "E disse YHWH a ela: Duas nações [estão] no teu ventre, e dois povos das tuas entranhas se separarão; e um povo de um [outro] povo será mais forte, e o maior servirá ao menor.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "יְהוָ֜ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לָ֗הּ", "transliteral": "lāh", "traducao_palavra": "a ela" },
+        { "hebraico": "שְׁנֵ֤י", "transliteral": "šənê", "traducao_palavra": "dois" },
+        { "hebraico": "גֹיִים֙", "transliteral": "ḡōyîm", "traducao_palavra": "nações" },
+        { "hebraico": "בְּבִטְנֵ֔ךְ", "transliteral": "bəḇiṭnēḵ", "traducao_palavra": "no teu ventre" },
+        { "hebraico": "וּשְׁנֵ֣י", "transliteral": "ûšənê", "traducao_palavra": "e dois" },
+        { "hebraico": "לְאֻמִּ֔ים", "transliteral": "ləʾummîm", "traducao_palavra": "povos" },
+        { "hebraico": "מִמֵּעַ֖יִךְ", "transliteral": "mimmēʿayyiḵ", "traducao_palavra": "das tuas entranhas" },
+        { "hebraico": "יִפָּרֵ֑דוּ", "transliteral": "yippārēḏû", "traducao_palavra": "se separarão" },
+        { "hebraico": "וּלְאֹם֙", "transliteral": "ûləʾōm", "traducao_palavra": "e povo" },
+        { "hebraico": "מִלְאֹ֣ם", "transliteral": "milʾōm", "traducao_palavra": "de um povo" },
+        { "hebraico": "יֶאֱמָ֔ץ", "transliteral": "yeʾĕmāṣ", "traducao_palavra": "será forte" },
+        { "hebraico": "וְרַ֖ב", "transliteral": "wəraḇ", "traducao_palavra": "e maior" },
+        { "hebraico": "יַעֲבֹ֥ד", "transliteral": "yaʿăḇōḏ", "traducao_palavra": "servirá" },
+        { "hebraico": "צָעִֽיר׃", "transliteral": "ṣāʿîr", "traducao_palavra": "menor" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "E completaram-se os seus dias para dar à luz; e eis [que havia] gêmeos no seu ventre.",
+      "palavras": [
+        { "hebraico": "וַיִּמְלְא֥וּ", "transliteral": "wayyimləʾû", "traducao_palavra": "e completaram-se" },
+        { "hebraico": "יָמֶ֖יהָ", "transliteral": "yāmehā", "traducao_palavra": "seus dias" },
+        { "hebraico": "לָלֶ֑דֶת", "transliteral": "lāleḏeṯ", "traducao_palavra": "para dar à luz" },
+        { "hebraico": "וְהִנֵּ֥ה", "transliteral": "wəhinnē", "traducao_palavra": "e eis" },
+        { "hebraico": "תוֹמִ֖ם", "transliteral": "ṯômim", "traducao_palavra": "gêmeos" },
+        { "hebraico": "בְּבִטְנָֽהּ׃", "transliteral": "bəḇiṭnāh", "traducao_palavra": "no seu ventre" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E saiu o primeiro ruivo, todo ele como um manto de pelos; e chamaram seu nome Esaú.",
+      "palavras": [
+        { "hebraico": "וַיֵּצֵ֤א", "transliteral": "wayyēṣēʾ", "traducao_palavra": "e saiu" },
+        { "hebraico": "הָרִאשׁוֹן֙", "transliteral": "hāriʾšôn", "traducao_palavra": "o primeiro" },
+        { "hebraico": "אַדְמוֹנִ֔י", "transliteral": "ʾaḏmōnî", "traducao_palavra": "ruivo" },
+        { "hebraico": "כֻּלּ֖וֹ", "transliteral": "kullô", "traducao_palavra": "todo ele" },
+        { "hebraico": "כְּאַדֶּ֣רֶת", "transliteral": "kəʾaddereṯ", "traducao_palavra": "como um manto" },
+        { "hebraico": "שֵׂעָ֑ר", "transliteral": "śēʿār", "traducao_palavra": "pelo" },
+        { "hebraico": "וַיִּקְרְא֥וּ", "transliteral": "wayyiqrəʾû", "traducao_palavra": "e chamaram" },
+        { "hebraico": "שְׁמ֖וֹ", "transliteral": "šəmô", "traducao_palavra": "seu nome" },
+        { "hebraico": "עֵשָֽׂו׃", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "E depois disso saiu o seu irmão, e sua mão agarrada no calcanhar de Esaú; e chamou seu nome Jacó; e Isaque [era] filho de sessenta anos no seu dar à luz eles.",
+      "palavras": [
+        { "hebraico": "וְאַחֲרֵי־כֵן֩", "transliteral": "wəʾaḥărê-ḵēn", "traducao_palavra": "e depois disso" },
+        { "hebraico": "יָצָ֨א", "transliteral": "yāṣāʾ", "traducao_palavra": "saiu" },
+        { "hebraico": "אָחִ֜יו", "transliteral": "ʾāḥîw", "traducao_palavra": "seu irmão" },
+        { "hebraico": "וְיָד֣וֹ", "transliteral": "wəyāḏô", "traducao_palavra": "e sua mão" },
+        { "hebraico": "אֹחֶזֶת֮", "transliteral": "ʾōḥezeṯ", "traducao_palavra": "agarrada/segurando" },
+        { "hebraico": "בַּעֲקֵ֣ב", "transliteral": "baʿăqēḇ", "traducao_palavra": "no calcanhar de" },
+        { "hebraico": "עֵשָׂו֒", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "וַיִּקְרָ֥א", "transliteral": "wayyiqrāʾ", "traducao_palavra": "e chamou" },
+        { "hebraico": "שְׁמ֖וֹ", "transliteral": "šəmô", "traducao_palavra": "seu nome" },
+        { "hebraico": "יַעֲקֹ֑ב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "וְיִצְחָ֛ק", "transliteral": "wəyiṣḥāq", "traducao_palavra": "e Isaque" },
+        { "hebraico": "בֶּן־שִׁשִּׁ֥ים", "transliteral": "ben-šiššîm", "traducao_palavra": "filho de sessenta" },
+        { "hebraico": "שָׁנָ֖ה", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "בְּלֶ֥דֶת", "transliteral": "beledeth", "traducao_palavra": "no dar à luz" },
+        { "hebraico": "אֹתָֽם׃", "transliteral": "ʾōṯām", "traducao_palavra": "eles" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "E cresceram os jovens; e era Esaú homem perito na caça, homem do campo; e Jacó homem íntegro, habitando [em] tendas.",
+      "palavras": [
+        { "hebraico": "וַֽיִּגְדְּלוּ֙", "transliteral": "wayyiḡdəlû", "traducao_palavra": "e cresceram" },
+        { "hebraico": "הַנְּעָרִ֔ים", "transliteral": "hannəʿārîm", "traducao_palavra": "os jovens" },
+        { "hebraico": "וַיְהִ֣י", "transliteral": "wayhî", "traducao_palavra": "e era" },
+        { "hebraico": "עֵשָׂ֗ו", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "אִ֛ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem" },
+        { "hebraico": "יֹדֵ֥עַ", "transliteral": "yōḏēaʿ", "traducao_palavra": "conhecedor/perito em" },
+        { "hebraico": "צַ֖יִד", "transliteral": "ṣayiḏ", "traducao_palavra": "caça" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem de" },
+        { "hebraico": "שָׂדֶ֑ה", "transliteral": "śāḏeh", "traducao_palavra": "campo" },
+        { "hebraico": "וְיַעֲקֹב֙", "transliteral": "wəyaʿăqōḇ", "traducao_palavra": "e Jacó" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem" },
+        { "hebraico": "תָּ֔ם", "transliteral": "tām", "traducao_palavra": "íntegro/quieto" },
+        { "hebraico": "יֹשֵׁ֖ב", "transliteral": "yōšēḇ", "traducao_palavra": "habitando" },
+        { "hebraico": "אֹהָלִֽים׃", "transliteral": "ʾōhālîm", "traducao_palavra": "tendas" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "E amava Isaque a Esaú, pois caça [estava] na sua boca; mas Rebeca amava a Jacó.",
+      "palavras": [
+        { "hebraico": "וַיֶּאֱהַ֥ב", "transliteral": "wayyeʾĕhaḇ", "traducao_palavra": "e amava" },
+        { "hebraico": "יִצְחָ֛ק", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "אֶת־עֵשָׂ֖ו", "transliteral": "ʾeṯ-ʿēśāw", "traducao_palavra": "a Esaú" },
+        { "hebraico": "כִּי־צַ֣יִד", "transliteral": "kî-ṣayiḏ", "traducao_palavra": "pois caça" },
+        { "hebraico": "בְּפִ֑יו", "transliteral": "bəp̄îw", "traducao_palavra": "na sua boca" },
+        { "hebraico": "וְרִבְקָ֖ה", "transliteral": "wəriḇqâ", "traducao_palavra": "mas Rebeca" },
+        { "hebraico": "אֹהֶ֥בֶת", "transliteral": "ʾōheḇeṯ", "traducao_palavra": "amando" },
+        { "hebraico": "אֶת־יַעֲקֹֽב׃", "transliteral": "ʾeṯ-yaʿăqōḇ", "traducao_palavra": "a Jacó" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "E cozinhou Jacó um cozido; e veio Esaú do campo, e ele [estava] exausto.",
+      "palavras": [
+        { "hebraico": "וַיָּ֥זֶד", "transliteral": "wayyāzeḏ", "traducao_palavra": "e cozinhou/ferveu" },
+        { "hebraico": "יַעֲקֹ֖ב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "נָזִ֑יד", "transliteral": "nāzîḏ", "traducao_palavra": "cozido" },
+        { "hebraico": "וַיָּבֹ֥א", "transliteral": "wayyāḇōʾ", "traducao_palavra": "e veio" },
+        { "hebraico": "עֵשָׂ֛ו", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "מִן־הַשָּׂדֶ֖ה", "transliteral": "min-haśśāḏeh", "traducao_palavra": "do campo" },
+        { "hebraico": "וְה֥וּא", "transliteral": "wəhûʾ", "traducao_palavra": "e ele" },
+        { "hebraico": "עָיֵֽף׃", "transliteral": "ʿāyēp̄", "traducao_palavra": "exausto" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "E disse Esaú a Jacó: Dá-me a engolir, rogo-te, desse vermelho, desse vermelho, pois exausto [estou] eu; por isso chamou seu nome Edom.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "עֵשָׂ֜ו", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "אֶל־יַעֲקֹ֗ב", "transliteral": "ʾel-yaʿăqōḇ", "traducao_palavra": "a Jacó" },
+        { "hebraico": "הַלְעִיטֵ֤נִי", "transliteral": "halʿîṭēnî", "traducao_palavra": "dá-me a engolir" },
+        { "hebraico": "נָא֙", "transliteral": "nāʾ", "traducao_palavra": "rogo-te" },
+        { "hebraico": "מִן־הָאָדֹ֤ם", "transliteral": "min-hāʾāḏōm", "traducao_palavra": "do vermelho" },
+        { "hebraico": "הָאָדֹם֙", "transliteral": "hāʾāḏōm", "traducao_palavra": "o vermelho" },
+        { "hebraico": "הַזֶּ֔ה", "transliteral": "hazzeh", "traducao_palavra": "este" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "עָיֵ֖ף", "transliteral": "ʿāyēp̄", "traducao_palavra": "exausto" },
+        { "hebraico": "אָנֹ֑כִי", "transliteral": "ʾānōḵî", "traducao_palavra": "eu" },
+        { "hebraico": "עַל־כֵּ֥ן", "transliteral": "ʿal-kēn", "traducao_palavra": "por isso" },
+        { "hebraico": "קָרָֽא־שְׁמ֖וֹ", "transliteral": "qārāʾ-šəmô", "traducao_palavra": "chamou seu nome" },
+        { "hebraico": "אֱדֽוֹם׃", "transliteral": "ʾĕḏôm", "traducao_palavra": "Edom" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "E disse Jacó: Vende-me hoje a tua primogenitura.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֖אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "יַעֲקֹ֑ב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "מִכְרָ֥ה", "transliteral": "miḵrâ", "traducao_palavra": "vende" },
+        { "hebraico": "כַיּ֛וֹם", "transliteral": "ḵayyôm", "traducao_palavra": "hoje" },
+        { "hebraico": "אֶת־בְּכֹרָתְךָ֖", "transliteral": "ʾeṯ-bəḵōrāṯəḵā", "traducao_palavra": "tua primogenitura" },
+        { "hebraico": "לִֽי׃", "transliteral": "lî", "traducao_palavra": "a mim" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "E disse Esaú: Eis que eu [estou] indo para morrer; e para que [serve] para mim primogenitura?",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶer", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "עֵשָׂ֔ו", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "הִנֵּ֛ה", "transliteral": "hinnē", "traducao_palavra": "eis" },
+        { "hebraico": "אָנֹכִ֥י", "transliteral": "ʾānōḵî", "traducao_palavra": "eu" },
+        { "hebraico": "הוֹלֵ֖ךְ", "transliteral": "hōlēḵ", "traducao_palavra": "indo" },
+        { "hebraico": "לָמ֑וּת", "transliteral": "lāmûṯ", "traducao_palavra": "para morrer" },
+        { "hebraico": "וְלָמָּה־זֶּ֥ה", "transliteral": "wəlāmmâ-zzeh", "traducao_palavra": "e para que isto" },
+        { "hebraico": "לִ֖י", "transliteral": "lî", "traducao_palavra": "a mim" },
+        { "hebraico": "בְּכֹרָֽה׃", "transliteral": "bəḵōrâ", "traducao_palavra": "primogenitura" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "E disse Jacó: Jura-me hoje; e jurou para ele, e vendeu sua primogenitura a Jacó.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "יַעֲקֹ֗ב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "הִשָּׁבְעָה", "transliteral": "hiššāḇəʿâ", "traducao_palavra": "jura" },
+        { "hebraico": "לִּי֙", "transliteral": "lî", "traducao_palavra": "a mim" },
+        { "hebraico": "כַּיּ֔וֹם", "transliteral": "kayyôm", "traducao_palavra": "hoje" },
+        { "hebraico": "וַיִּשָּׁבַ֖ע", "transliteral": "wayyiššāḇaʿ", "traducao_palavra": "e jurou" },
+        { "hebraico": "ל֑וֹ", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "וַיִּמְכֹּ֥ר", "transliteral": "wayyimkōr", "traducao_palavra": "e vendeu" },
+        { "hebraico": "אֶת־בְּכֹרָת֖וֹ", "transliteral": "ʾeṯ-bəḵōrāṯô", "traducao_palavra": "sua primogenitura" },
+        { "hebraico": "לְיַעֲקֹֽב׃", "transliteral": "ləyaʿăqōḇ", "traducao_palavra": "a Jacó" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "E Jacó deu a Esaú pão e cozido de lentilhas; e ele comeu, e bebeu, e levantou-se, e foi-se; e desprezou Esaú a primogenitura.",
+      "palavras": [
+        { "hebraico": "וְיַעֲקֹ֞ב", "transliteral": "wəyaʿăqōḇ", "traducao_palavra": "e Jacó" },
+        { "hebraico": "נָתַ֣ן", "transliteral": "nāṯan", "traducao_palavra": "deu" },
+        { "hebraico": "לְעֵשָׂ֗ו", "transliteral": "ləʿēśāw", "traducao_palavra": "a Esaú" },
+        { "hebraico": "לֶ֚חֶם", "transliteral": "leḥem", "traducao_palavra": "pão" },
+        { "hebraico": "וּנְזִ֣יד", "transliteral": "ûnəzîḏ", "traducao_palavra": "e cozido de" },
+        { "hebraico": "עֲדָשִׁ֔ים", "transliteral": "ʿăḏāšîm", "traducao_palavra": "lentilhas" },
+        { "hebraico": "וַיֹּ֣אכַל", "transliteral": "wayyōʾḵal", "traducao_palavra": "e ele comeu" },
+        { "hebraico": "וַיֵּ֔שְׁתְּ", "transliteral": "wayyēšt", "traducao_palavra": "e bebeu" },
+        { "hebraico": "וַיָּ֖קָם", "transliteral": "wayyāqom", "traducao_palavra": "e levantou-se" },
+        { "hebraico": "וַיֵּלַ֑ךְ", "transliteral": "wayyēlaḵ", "traducao_palavra": "e foi-se" },
+        { "hebraico": "וַיִּ֥בֶז", "transliteral": "wayyiḇez", "traducao_palavra": "e desprezou" },
+        { "hebraico": "עֵשָׂ֖ו", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "אֶת־הַבְּכֹרָֽה׃", "transliteral": "ʾeṯ-habbəḵōrâ", "traducao_palavra": "a primogenitura" }
+      ]
+    }
+  }
+}

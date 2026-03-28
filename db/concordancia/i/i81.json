@@ -1,0 +1,42 @@
+{
+    "i": [
+        {
+            "palavra": "IRASTE",
+            "veja tambem": [],
+            "ocorrencias": 3,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 4.6",
+                    "texto": "disse a Caim: Por que te L? E por que descaiu"
+                },
+                {
+                    "referencia": "Isaías 12.1",
+                    "texto": "ó Senhor, porque, ainda que te Z, contra mim, a"
+                },
+                {
+                    "referencia": "Isaías 64.5",
+                    "texto": "teus caminhos; eis que te J., porque pecamos;"
+                }
+            ]
+        },
+        {
+            "palavra": "IRDES",
+            "veja tambem": [
+                "ir"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Juízes 18.9",
+                    "texto": "Não sejais preguiçosos em L. para entrar a"
+                },
+                {
+                    "referencia": "2 Reis 1.3",
+                    "texto": "não há Deus em Israel, para Z. consultar a"
+                }
+            ]
+        }
+    ]
+}

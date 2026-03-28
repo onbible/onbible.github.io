@@ -1,0 +1,62 @@
+{
+    "p": [
+        {
+            "palavra": "POVOADA",
+            "veja tambem": [],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Jeremias 50.39",
+                    "texto": "avestruzes; e nunca mais será P, nem será"
+                },
+                {
+                    "referencia": "Ezequiel 26.17",
+                    "texto": "dirão: Como pereceste, ó bem P. e afamada"
+                }
+            ]
+        },
+        {
+            "palavra": "POVOAI",
+            "veja tambem": [
+                "povoar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 9.7",
+                    "texto": "e multiplicai-vos; P abundantemente a"
+                }
+            ]
+        },
+        {
+            "palavra": "POVOEM",
+            "veja tambem": [
+                "povoar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 8.17",
+                    "texto": "a terra, traze fora contigo; e P."
+                }
+            ]
+        },
+        {
+            "palavra": "POVOOU",
+            "veja tambem": [
+                "povoar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 9.19",
+                    "texto": "os filhos de Noé; e destes se P, toda a terra."
+                }
+            ]
+        }
+    ]
+}

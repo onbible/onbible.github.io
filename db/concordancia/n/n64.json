@@ -1,0 +1,414 @@
+{
+    "n": [
+        {
+            "palavra": "NOMES",
+            "veja tambem": [
+                "nome"
+            ],
+            "ocorrencias": 100,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 308",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "Gênesis 2.20",
+                    "texto": "E Adão pôs os N, a todo o gado, e às aves dos"
+                },
+                {
+                    "referencia": "Gênesis 25.13",
+                    "texto": "E estes são os N. dos filhos de Ismael pelos seus"
+                },
+                {
+                    "referencia": "Gênesis 25.13",
+                    "texto": "de Ismael pelos seus N., segundo as suas"
+                },
+                {
+                    "referencia": "Gênesis 25.16",
+                    "texto": "Ismael, e estes são os seus N, pelas suas vilas e"
+                },
+                {
+                    "referencia": "Gênesis 26.18",
+                    "texto": "de Abraão, e chamou-os pelos N, que os chamara"
+                },
+                {
+                    "referencia": "Gênesis 36.10",
+                    "texto": "Estes são os N. dos filhos de Esaú: Elifaz, filho"
+                },
+                {
+                    "referencia": "Gênesis 36.40",
+                    "texto": "E estes são os N., dos príncipes de Esaú, segundo"
+                },
+                {
+                    "referencia": "Gênesis 36.40",
+                    "texto": "os seus lugares, pelos seus AL: o príncipe"
+                },
+                {
+                    "referencia": "Gênesis 46.8",
+                    "texto": "E estes são os N, dos filhos de Israel, que vieram"
+                },
+                {
+                    "referencia": "Êxodo 1.1",
+                    "texto": "Estes, pois, são os N. dos filhos de Israel, que"
+                },
+                {
+                    "referencia": "Êxodo 6.16",
+                    "texto": "E estes são os N. dos filhos de Levi, segundo as"
+                },
+                {
+                    "referencia": "Êxodo 28.9",
+                    "texto": "e lavrarás nelas os N. dos filhos de Israel,"
+                },
+                {
+                    "referencia": "Êxodo 28.10",
+                    "texto": "seis dos seus N., numa pedra e os outros seis N."
+                },
+                {
+                    "referencia": "Êxodo 28.10",
+                    "texto": "pedra e os outros seis N. na outra pedra,"
+                },
+                {
+                    "referencia": "Êxodo 28.11",
+                    "texto": "estas duas pedras, com os N, dos filhos de"
+                },
+                {
+                    "referencia": "Êxodo 28.12",
+                    "texto": "e Arão levará os seus N. sobre ambos os"
+                },
+                {
+                    "referencia": "Êxodo 28.21",
+                    "texto": "aquelas pedras segundo os N. dos filhos de"
+                },
+                {
+                    "referencia": "Êxodo 28.21",
+                    "texto": "doze, segundo os seus N.; serão esculpidas"
+                },
+                {
+                    "referencia": "Êxodo 28.29",
+                    "texto": "Assim, Arão levará os N. dos filhos de Israel no"
+                },
+                {
+                    "referencia": "Êxodo 39.6",
+                    "texto": "com gravuras de selo, com os N. dos filhos de Israel."
+                },
+                {
+                    "referencia": "Êxodo 39.14",
+                    "texto": "pois, eram, segundo os N. dos filhos de"
+                },
+                {
+                    "referencia": "Êxodo 39.14",
+                    "texto": "Israel, doze, segundo os seus N.; de gravura de"
+                },
+                {
+                    "referencia": "Números 1.2",
+                    "texto": "pais, conforme o número dos N, de todo varão,"
+                },
+                {
+                    "referencia": "Números 1.5",
+                    "texto": "Estes, pois, são os N. dos homens que estarão"
+                },
+                {
+                    "referencia": "Números 1.17",
+                    "texto": "a estes homens, que foram declarados pelos seus N.."
+                },
+                {
+                    "referencia": "Números 1.18",
+                    "texto": "de seus pais, pelo número dos N, dos de vinte anos"
+                },
+                {
+                    "referencia": "Números 1.20",
+                    "texto": "de seus pais, pelo número dos N., cabeça por"
+                },
+                {
+                    "referencia": "Números 1.22",
+                    "texto": "seus contados, pelo número dos N., cabeça por"
+                },
+                {
+                    "referencia": "Números 1.24",
+                    "texto": "de seus pais, pelo número dos N. dos de vinte"
+                },
+                {
+                    "referencia": "Números 1.26",
+                    "texto": "de seus pais, pelo número dos N, dos de vinte"
+                },
+                {
+                    "referencia": "Números 1.28",
+                    "texto": "de seus pais, pelo número dos N., dos de vinte"
+                },
+                {
+                    "referencia": "Números 1.30",
+                    "texto": "de seus pais, pelo número dos N. dos de vinte"
+                },
+                {
+                    "referencia": "Números 1.32",
+                    "texto": "de seus pais, pelo número dos N. dos de vinte"
+                },
+                {
+                    "referencia": "Números 1.34",
+                    "texto": "de seus pais, pelo número dos N, dos de vinte"
+                },
+                {
+                    "referencia": "Números 1.36",
+                    "texto": "de seus pais, pelo número dos N. dos de vinte"
+                },
+                {
+                    "referencia": "Números 1.38",
+                    "texto": "de seus pais, pelo número dos N., dos de vinte"
+                },
+                {
+                    "referencia": "Números 1.40",
+                    "texto": "de seus pais, pelo número dos N, dos de vinte"
+                },
+                {
+                    "referencia": "Números 1.42",
+                    "texto": "de seus pais, pelo número dos N. dos de vinte"
+                },
+                {
+                    "referencia": "Números 3.2",
+                    "texto": "E estes são os N. dos filhos de Arão: o"
+                },
+                {
+                    "referencia": "Números 3.3",
+                    "texto": "Estes são os N. dos filhos de Arão, dos sacerdotes"
+                },
+                {
+                    "referencia": "Números 3.17",
+                    "texto": "os filhos de Levi pelos seus N.: Gérson, e Coate,"
+                },
+                {
+                    "referencia": "Números 3.18",
+                    "texto": "E estes são os N. dos filhos de Gérson pelas suas"
+                },
+                {
+                    "referencia": "Números 3.40",
+                    "texto": "de um mês para cima e toma o número dos seus N.."
+                },
+                {
+                    "referencia": "Números 3.43",
+                    "texto": "dos varões, pelo número dos N. dos da idade de um"
+                },
+                {
+                    "referencia": "Números 13.4",
+                    "texto": "E estes são os seus N.: Da tribo de Rúben, Samua,"
+                },
+                {
+                    "referencia": "Números 13.16",
+                    "texto": "Estes são os N. dos homens que Moisés enviou a"
+                },
+                {
+                    "referencia": "Números 26.33",
+                    "texto": "filhos, senão filhas; e os N. das filhas de"
+                },
+                {
+                    "referencia": "Números 26.53",
+                    "texto": "a terra em herança, segundo o número dos N.."
+                },
+                {
+                    "referencia": "Números 26.55",
+                    "texto": "por sortes; segundo os N. das tribos de seus"
+                },
+                {
+                    "referencia": "Números 27.1",
+                    "texto": "filho de José (e estes são os N. de suas"
+                },
+                {
+                    "referencia": "Números 32.38",
+                    "texto": "o nome, e Sibma; e os N. das cidades que"
+                },
+                {
+                    "referencia": "Números 32.38",
+                    "texto": "das cidades que edificaram chamaram por outros"
+                },
+                {
+                    "referencia": "Números 34.17",
+                    "texto": "Estes são os N. dos homens que vos repartirão a"
+                },
+                {
+                    "referencia": "Números 34.19",
+                    "texto": "E estes são os N, dos homens: da tribo de Judá,"
+                },
+                {
+                    "referencia": "Deuteronômio 7.24",
+                    "texto": "para que desfaças os seus N. de debaixo dos"
+                },
+                {
+                    "referencia": "Josué 17.3",
+                    "texto": "mas só filhas; e estes são os N. de suas"
+                },
+                {
+                    "referencia": "Josué 23.7",
+                    "texto": "ficaram convosco; e dos AY, de seus deuses não"
+                },
+                {
+                    "referencia": "Rute 1.2",
+                    "texto": "de sua mulher, Noemi, e os N. de seus dois"
+                },
+                {
+                    "referencia": "1 Samuel 14.49",
+                    "texto": "e Isvi, e Malquisua; e os I, de suas duas"
+                },
+                {
+                    "referencia": "1 Samuel 17.13",
+                    "texto": "a Saul à guerra; e eram os N. de seus três"
+                },
+                {
+                    "referencia": "2 Samuel 5.14",
+                    "texto": "E estes são os N, dos que lhe nasceram em"
+                },
+                {
+                    "referencia": "2 Samuel 23.8",
+                    "texto": "Estes são os N. dos valentes que Davi teve:"
+                },
+                {
+                    "referencia": "1 Reis 4.8",
+                    "texto": "E estes são os seus N.: Ben-Hur, nas montanhas de"
+                },
+                {
+                    "referencia": "1 Crônicas 4.38",
+                    "texto": "Estes, registrados por seus N., foram príncipes"
+                },
+                {
+                    "referencia": "1 Crônicas 441",
+                    "texto": "que estão descritos por seus N., vieram nos dias"
+                },
+                {
+                    "referencia": "1 Crônicas 6.17",
+                    "texto": "E estes são os N. dos filhos de Gérson: Libni e Simei."
+                },
+                {
+                    "referencia": "1 Crônicas 6.65",
+                    "texto": "dos filhos de Benjamim, às quais deram os seus N.."
+                },
+                {
+                    "referencia": "1 Crônicas 8.38",
+                    "texto": "e estes foram os seus N.: Azricão, e Bocru,"
+                },
+                {
+                    "referencia": "1 Crônicas 9.44",
+                    "texto": "e estes foram os seus N.: Azricão, e Bocru,"
+                },
+                {
+                    "referencia": "1 Crônicas 12.31",
+                    "texto": "foram apontados pelos seus N, para vir a fazer"
+                },
+                {
+                    "referencia": "1 Crônicas 14.4",
+                    "texto": "E estes são os IN, dos filhos que tinha em"
+                },
+                {
+                    "referencia": "1 Crônicas 16.41",
+                    "texto": "foram apontados pelos seus N., para louvarem ao"
+                },
+                {
+                    "referencia": "1 Crônicas 23.24",
+                    "texto": "contados pelo número dos N., segundo os seus"
+                },
+                {
+                    "referencia": "2 Crônicas 28.15",
+                    "texto": "foram apontados por seus N. se levantaram, e"
+                },
+                {
+                    "referencia": "Esdras 5.4",
+                    "texto": "dissemos: E quais são os N, dos homens que"
+                },
+                {
+                    "referencia": "Esdras 5.10",
+                    "texto": "também pelos seús N., para tos"
+                },
+                {
+                    "referencia": "Esdras 5.10",
+                    "texto": "que te pudéssemos escrever os N. dos homens que"
+                },
+                {
+                    "referencia": "Esdras 8.13",
+                    "texto": "filhos de Adonicão, seus N. eram estes:"
+                },
+                {
+                    "referencia": "Esdras 8.20",
+                    "texto": "netineus, que todos foram expressos por seus N.."
+                },
+                {
+                    "referencia": "Esdras 10.16",
+                    "texto": "seus pais, e todos pelos seus N.; e assentaram-se"
+                },
+                {
+                    "referencia": "S149.11",
+                    "texto": "em geração; dão às suas terras os seus próprios N.."
+                },
+                {
+                    "referencia": "SI 147.4",
+                    "texto": "das estrelas, chamando-as a todas pelos seus N.."
+                },
+                {
+                    "referencia": "Ezequiel 234",
+                    "texto": "E os seus N. eram: Oolá, a mais velha, e Oolibá,"
+                },
+                {
+                    "referencia": "Ezequiel 48.1",
+                    "texto": "E estes são os N, das tribos: desde a parte"
+                },
+                {
+                    "referencia": "Ezequiel 48.31",
+                    "texto": "cidade serão conforme os N, das tribos de"
+                },
+                {
+                    "referencia": "Daniel 1.7",
+                    "texto": "eunucos lhes pôs outros N., a saber: a Daniel"
+                },
+                {
+                    "referencia": "Oséias 2.17",
+                    "texto": "E da sua boca tirarei os ÌN, de baalins, e os seus"
+                },
+                {
+                    "referencia": "Oséias 2.17",
+                    "texto": "N. de baalins, e os seus N. não virão mais em memória."
+                },
+                {
+                    "referencia": "Zacarias 13.2",
+                    "texto": "que tirarei da terra os N. dos ídolos, e"
+                },
+                {
+                    "referencia": "Mateus 10.2",
+                    "texto": "Ora, os N. dos doze apóstolos são estes: O"
+                },
+                {
+                    "referencia": "Atos 18.15",
+                    "texto": "questão é de palavras, e de N., e da lei que"
+                },
+                {
+                    "referencia": "Filipenses 4.3",
+                    "texto": "os outros cooperadores, cujos N. estão no livro"
+                },
+                {
+                    "referencia": "3 João 1.15",
+                    "texto": "Os amigos te saúdam. Saúda os amigos pelos seus N.."
+                },
+                {
+                    "referencia": "Apocalipse 13.8",
+                    "texto": "sobre a terra, esses cujos N. não estão escritos"
+                },
+                {
+                    "referencia": "Apocalipse 17.3",
+                    "texto": "que estava cheia de N. de blasfêmia e"
+                },
+                {
+                    "referencia": "Apocalipse 17.8",
+                    "texto": "os que habitam na terra (cujos N. não estão"
+                },
+                {
+                    "referencia": "Apocalipse 21.12",
+                    "texto": "e, nas portas, doze anjos, e N, escritos sobre"
+                },
+                {
+                    "referencia": "Apocalipse 21.12",
+                    "texto": "escritos sobre elas, que são os N. das doze tribos"
+                },
+                {
+                    "referencia": "Apocalipse 21.14",
+                    "texto": "fundamentos e, neles, os N. dos doze apóstolos"
+                }
+            ]
+        }
+    ]
+}

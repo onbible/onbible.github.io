@@ -1,0 +1,204 @@
+{
+    "e": [
+        {
+            "palavra": "ENFERMIDADES",
+            "veja tambem": [
+                "enfermidade"
+            ],
+            "ocorrencias": 25,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Êxodo 15.26",
+                    "texto": "os seus estatutos, nenhuma das E. porei"
+                },
+                {
+                    "referencia": "Êxodo 23.25",
+                    "texto": "vossa água; e eu tirarei do meio de tias E.."
+                },
+                {
+                    "referencia": "Deuteronômio 28.59",
+                    "texto": "e duradouras pragas, e E. más e duradouras;"
+                },
+                {
+                    "referencia": "2 Crônicas 21.19",
+                    "texto": "com a doença, e morreu de más E.; eoseu"
+                },
+                {
+                    "referencia": "2 Crônicas 24.25",
+                    "texto": "dele (porque em grandes E. o"
+                },
+                {
+                    "referencia": "Salmos 103.3",
+                    "texto": "as tuas iniquidades e sara todas as tuas E.;"
+                },
+                {
+                    "referencia": "Eclesiastes 5.13",
+                    "texto": "vi debaixo do sol e atrai E.: as riquezas"
+                },
+                {
+                    "referencia": "Eclesiastes 5.16",
+                    "texto": "isto é um mal que causa E.: que,"
+                },
+                {
+                    "referencia": "Eclesiastes 5.17",
+                    "texto": "padecido muito enfado, e E., e cruel furor?"
+                },
+                {
+                    "referencia": "Isaías 53.4",
+                    "texto": "tomou sobre si as nossas E. e as nossas"
+                },
+                {
+                    "referencia": "Jeremias 16.4",
+                    "texto": "Morrerão de E. dolorosas e não serão"
+                },
+                {
+                    "referencia": "Mateus 4.23",
+                    "texto": "do Reino, e curando todas as E. e"
+                },
+                {
+                    "referencia": "Mateus 4.24",
+                    "texto": "acometidos de várias E. e tormentos,"
+                },
+                {
+                    "referencia": "Mateus 8.17",
+                    "texto": "Ele tomou sobre si as nossas É. e levou as"
+                },
+                {
+                    "referencia": "Mateus 9.35",
+                    "texto": "do Reino, e curando todas as E. e"
+                },
+                {
+                    "referencia": "Marcos 1.34",
+                    "texto": "enfermos de diversas E. e expulsou"
+                },
+                {
+                    "referencia": "Marcos 3.15",
+                    "texto": "o poder de curar as E. e expulsar os demônios:"
+                },
+                {
+                    "referencia": "Lucas 5.15",
+                    "texto": "ouvir e para ser por ele curada das suas £E.."
+                },
+                {
+                    "referencia": "Lucas 6.18",
+                    "texto": "e serem curados das suas E., como também"
+                },
+                {
+                    "referencia": "Lucas 7.21",
+                    "texto": "mesma hora, curou muitos de E., e males, e"
+                },
+                {
+                    "referencia": "Lucas 8.2",
+                    "texto": "de espíritos malignos e de E.: Maria,"
+                },
+                {
+                    "referencia": "Lucas 9.1",
+                    "texto": "sobre todos os demônios e para curarem E,;"
+                },
+                {
+                    "referencia": "Atos 19.12",
+                    "texto": "corpo aos enfermos, e as E. fugiam"
+                },
+                {
+                    "referencia": "Atos 28.9",
+                    "texto": "os demais que na ilha tinham E. e sararam,"
+                },
+                {
+                    "referencia": "1 Timóteo 5.23",
+                    "texto": "do teu estômago e das tuas frequentes E.."
+                }
+            ]
+        },
+        {
+            "palavra": "ENFERMO",
+            "veja tambem": [
+                "enfermar"
+            ],
+            "ocorrencias": 20,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 48.1",
+                    "texto": "a José: Eis que teu pai está E.. Então, tomou"
+                },
+                {
+                    "referencia": "SI 105.37",
+                    "texto": "e ouro, e entre as suas tribos não houve um só E.."
+                },
+                {
+                    "referencia": "Isaías 33.24",
+                    "texto": "E morador nenhum dirá: E. estou; porque o povo"
+                },
+                {
+                    "referencia": "Daniel 8.27",
+                    "texto": "Daniel, enfraqueci e estive E. alguns dias;"
+                },
+                {
+                    "referencia": "MI 1.8",
+                    "texto": "quando ofereceis o coxo ou o E., não faz mal!"
+                },
+                {
+                    "referencia": "MI 1.13",
+                    "texto": "o roubado, eo coxo, eo E.; assim"
+                },
+                {
+                    "referencia": "Mateus 25.39",
+                    "texto": "E, quando te vimos E. ou na prisão e fomos ver-te?"
+                },
+                {
+                    "referencia": "Mateus 25.43",
+                    "texto": "não me vestistes; e estando E. e na prisão,"
+                },
+                {
+                    "referencia": "Mateus 25.44",
+                    "texto": "sede, ou estrangeiro, ou nu, ou E., ouna"
+                },
+                {
+                    "referencia": "Lucas 7.10",
+                    "texto": "os que foram enviados, acharam são o servo E.."
+                },
+                {
+                    "referencia": "Jó 4.46",
+                    "texto": "oficial do rei, cujo filho estava E. em Cafarnaum."
+                },
+                {
+                    "referencia": "Jó 5.5",
+                    "texto": "homem que, havia trinta e oito anos, se achava E.."
+                },
+                {
+                    "referencia": "Jó 5.7",
+                    "texto": "O E. respondeu-lhe: Senhor, não tenho homem"
+                },
+                {
+                    "referencia": "Jó 11.1",
+                    "texto": "Estava, então, E. um certo Lázaro, de Betânia,"
+                },
+                {
+                    "referencia": "Jó 11.2",
+                    "texto": "os seus cabelos, cujo irmão, Lázaro, estava E.."
+                },
+                {
+                    "referencia": "Jó 11.3",
+                    "texto": "dizer: Senhor, eis que está É. aquele que tu amas."
+                },
+                {
+                    "referencia": "Jó 11.6",
+                    "texto": "Ouvindo, pois, que estava E., Aicou ainda dois"
+                },
+                {
+                    "referencia": "Atos 4.9",
+                    "texto": "benefício feito a um homem E. e do modo como foi"
+                },
+                {
+                    "referencia": "Atos 28.8",
+                    "texto": "Aconteceu estar de cama E. de febres e"
+                },
+                {
+                    "referencia": "Romanos 14.1",
+                    "texto": "Ora, quanto ao que está E. na fé, recebei-o, não"
+                }
+            ]
+        }
+    ]
+}

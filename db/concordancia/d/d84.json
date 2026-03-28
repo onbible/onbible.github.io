@@ -1,0 +1,582 @@
+{
+    "d": [
+        {
+            "palavra": "DENTRO",
+            "veja tambem": [
+                "dentre"
+            ],
+            "ocorrencias": 142,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 6.14",
+                    "texto": "na arca e a betumarás por D. e por fora com betume."
+                },
+                {
+                    "referencia": "Gênesis 18.24",
+                    "texto": "por causa dos cinquenta justos que estão D. dela?"
+                },
+                {
+                    "referencia": "Gênesis 18.26",
+                    "texto": "achar cinquenta justos D. da cidade,"
+                },
+                {
+                    "referencia": "Gênesis 25.22",
+                    "texto": "E os filhos lutavam D. dela; então, disse: Se"
+                },
+                {
+                    "referencia": "Gênesis 40.13",
+                    "texto": "D. ainda de três dias, Faraó levantará a tua"
+                },
+                {
+                    "referencia": "Gênesis 40.19",
+                    "texto": "D, ainda de três dias, Faraó levantará a tua"
+                },
+                {
+                    "referencia": "Êxodo 20.10",
+                    "texto": "nem o teu estrangeiro que está D, das tuas portas."
+                },
+                {
+                    "referencia": "Êxodo 25.11",
+                    "texto": "de ouro puro; por D. e por fora a"
+                },
+                {
+                    "referencia": "Êxodo 26.33",
+                    "texto": "a arca do Testemunho ali D. do véu; e este véu"
+                },
+                {
+                    "referencia": "Êxodo 27.5",
+                    "texto": "e as porás D. do cerco do altar para baixo, de"
+                },
+                {
+                    "referencia": "Êxodo 28.26",
+                    "texto": "na sua borda que estiver junto ao éfode por D.."
+                },
+                {
+                    "referencia": "Êxodo 37.2",
+                    "texto": "cobriu-a de ouro puro por D. e por fora; e"
+                },
+                {
+                    "referencia": "Êxodo 39.19",
+                    "texto": "na sua borda que estava junto ao éfode por D.."
+                },
+                {
+                    "referencia": "Levítico 10.18",
+                    "texto": "trouxe o seu sangue para D. do santuário:"
+                },
+                {
+                    "referencia": "Levítico 14.41",
+                    "texto": "e fará raspar a casa por D. ao redor, e o pó que"
+                },
+                {
+                    "referencia": "Levítico 16.2",
+                    "texto": "santuário em todo o tempo, para D. do véu,"
+                },
+                {
+                    "referencia": "Levítico 16.12",
+                    "texto": "de incenso aromático moído e o meterá D. do véu."
+                },
+                {
+                    "referencia": "Levítico 16.15",
+                    "texto": "e trará o seu sangue para D. do véu; e fará"
+                },
+                {
+                    "referencia": "Números 18.7",
+                    "texto": "do altar, e no que estiver D. do véu, isto"
+                },
+                {
+                    "referencia": "Deuteronômio 5.14",
+                    "texto": "algum teu, nem o estrangeiro que está D. de tuas"
+                },
+                {
+                    "referencia": "Deuteronômio 12.12",
+                    "texto": "servas, e o levita que está D. das vossas"
+                },
+                {
+                    "referencia": "Deuteronômio 12.15",
+                    "texto": "do Senhor, teu Deus, que te dá D, de todas as"
+                },
+                {
+                    "referencia": "Deuteronômio 12.18",
+                    "texto": "e tua serva, e o levita que está D. das tuas"
+                },
+                {
+                    "referencia": "Deuteronômio 12.21",
+                    "texto": "como te tenho ordenado; e comerás D. das tuas"
+                },
+                {
+                    "referencia": "Deuteronômio 14.21",
+                    "texto": "ao estrangeiro, que está D, das tuas portas,"
+                },
+                {
+                    "referencia": "Deuteronômio 14.27",
+                    "texto": "o levita que está D. das tuas portas;"
+                },
+                {
+                    "referencia": "Deuteronômio 14.29",
+                    "texto": "eo órfão, e a viúva, que estão D, das tuas"
+                },
+                {
+                    "referencia": "Deuteronômio 16.11",
+                    "texto": "e tua serva, e o levita que está D, das tuas"
+                },
+                {
+                    "referencia": "Deuteronômio 16.14",
+                    "texto": "e a viúva, que estão das tuas portas para D.."
+                },
+                {
+                    "referencia": "Deuteronômio 26.12",
+                    "texto": "órfão e à viúva, para que comam D. das tuas"
+                },
+                {
+                    "referencia": "Deuteronômio 31.12",
+                    "texto": "os teus estrangeiros que estão D. das tuas"
+                },
+                {
+                    "referencia": "Deuteronômio 32.25",
+                    "texto": "devastará a espada, e, por D., o pavor: ao"
+                },
+                {
+                    "referencia": "Josué 1.11",
+                    "texto": "Provede-vos de comida, porque, D. de três dias,"
+                },
+                {
+                    "referencia": "Juízes 9.26",
+                    "texto": "seus irmãos, e passaram para D. de Siquém; e os"
+                },
+                {
+                    "referencia": "1 Samuel 6.19",
+                    "texto": "porquanto olharam para D, da arca do Senhor,"
+                },
+                {
+                    "referencia": "1 Samuel 26.5",
+                    "texto": "e Saul estava deitado D. do lugar dos"
+                },
+                {
+                    "referencia": "1 Samuel 26.7",
+                    "texto": "Saul estava deitado, dormindo D. do lugar dos"
+                },
+                {
+                    "referencia": "2 Samuel 5.9",
+                    "texto": "e Davi foi edificando em redor, desde Milo até D.."
+                },
+                {
+                    "referencia": "2 Samuel 7.2",
+                    "texto": "de cedros e a arca de Deus mora D., de cortinas."
+                },
+                {
+                    "referencia": "2 Samuel 20.16",
+                    "texto": "uma mulher sábia gritou de D. da cidade: Ouvi,"
+                },
+                {
+                    "referencia": "1 Reis 6.15",
+                    "texto": "as paredes da casa por D. com tábuas de"
+                },
+                {
+                    "referencia": "1 Reis 6.15",
+                    "texto": "tudo cobriu com madeira por D. e cobriu o soalho"
+                },
+                {
+                    "referencia": "IRs 6.16",
+                    "texto": "soalho até às paredes, e por D, lhas edificou"
+                },
+                {
+                    "referencia": "1 Reis 6.18",
+                    "texto": "E o cedro da casa por D, era lavrado de botões e"
+                },
+                {
+                    "referencia": "1 Reis 6.19",
+                    "texto": "E, por D. da casa interior, preparou o oráculo,"
+                },
+                {
+                    "referencia": "1 Reis 6.21",
+                    "texto": "cobriu Salomão a casa por D. de ouro puro, e,"
+                },
+                {
+                    "referencia": "1 Reis 6.27",
+                    "texto": "no meio da casa de D.; e os querubins"
+                },
+                {
+                    "referencia": "IRs 6.29",
+                    "texto": "de palmas, e de flores abertas, por D. e por fora."
+                },
+                {
+                    "referencia": "1 Reis 6.30",
+                    "texto": "cobriu de ouro o soalho da casa, por D, e por fora."
+                },
+                {
+                    "referencia": "1 Reis 7.8",
+                    "texto": "havia outro pátio por D, do pórtico, de"
+                },
+                {
+                    "referencia": "1 Reis 7.9",
+                    "texto": "medida, serradas à serra por D. e por fora; e"
+                },
+                {
+                    "referencia": "1 Reis 7.25",
+                    "texto": "as suas partes posteriores, para a banda de D.."
+                },
+                {
+                    "referencia": "1 Reis 7.31",
+                    "texto": "E a sua boca estava D. da coroa, e era de um"
+                },
+                {
+                    "referencia": "2 Reis 6.30",
+                    "texto": "viu que trazia cilício por D., sobre a sua carne."
+                },
+                {
+                    "referencia": "2 Reis 7.11",
+                    "texto": "porteiros, e estes o anunciaram D, da casa do rei."
+                },
+                {
+                    "referencia": "2 Reis 7.13",
+                    "texto": "do resto que ficou aqui D., pois toda a"
+                },
+                {
+                    "referencia": "1 Crônicas 11.22",
+                    "texto": "e também desceu e feriu um leão D. de uma cova,"
+                },
+                {
+                    "referencia": "1 Crônicas 28.11",
+                    "texto": "e as suas recâmaras de D., como também"
+                },
+                {
+                    "referencia": "2 Crônicas 3.4",
+                    "texto": "altura, de cento e vinte, o que, D., cobriu com"
+                },
+                {
+                    "referencia": "2 Crônicas 4.4",
+                    "texto": "suas partes posteriores estavam para a banda de D.."
+                },
+                {
+                    "referencia": "2 Crônicas 4.22",
+                    "texto": "da casa, as suas portas de D, da Santidade"
+                },
+                {
+                    "referencia": "2 Crônicas 29.16",
+                    "texto": "E os sacerdotes entraram D. da Casa do Senhor,"
+                },
+                {
+                    "referencia": "2 Crônicas 29.18",
+                    "texto": "Então, entraram para D., ao rei Ezequias, e"
+                },
+                {
+                    "referencia": "Neemias 7.4",
+                    "texto": "porém pouco povo havia D. dela; e ainda as"
+                },
+                {
+                    "referencia": "Neemias 13.16",
+                    "texto": "Também tírios habitavam D. e traziam peixe e toda"
+                },
+                {
+                    "referencia": "Jó 19.27",
+                    "texto": "e, por isso, o meu coração se consome D. de mim."
+                },
+                {
+                    "referencia": "Jó 24.11",
+                    "texto": "D. dos seus muros fazem o azeite; pisam os"
+                },
+                {
+                    "referencia": "S122.14",
+                    "texto": "o meu coração é como cera e derreteu-se D, de mim."
+                },
+                {
+                    "referencia": "S140.10",
+                    "texto": "Não escondi a tua justiça D. do meu coração;"
+                },
+                {
+                    "referencia": "SI 42.11",
+                    "texto": "alma, e por que te perturbas D. de mim? Espera em"
+                },
+                {
+                    "referencia": "S143.5",
+                    "texto": "alma? E por que te perturbas D. de mim? Espera em"
+                },
+                {
+                    "referencia": "S155.4",
+                    "texto": "O meu coração está dorido D. de mim, e terrores"
+                },
+                {
+                    "referencia": "S155.11",
+                    "texto": "Maldade há lá D,; astúcia e engano não se apartam"
+                },
+                {
+                    "referencia": "S1101.7",
+                    "texto": "usa de engano não ficará D. da minha casa; o"
+                },
+                {
+                    "referencia": "S1109.22",
+                    "texto": "aflito e necessitado, e, D. de mim, está"
+                },
+                {
+                    "referencia": "SI 122.7",
+                    "texto": "Haja paz D. de teus muros e prosperidade D."
+                },
+                {
+                    "referencia": "SI 122.7",
+                    "texto": "de teus muros e prosperidade D. dos teus palácios."
+                },
+                {
+                    "referencia": "Salmos 147.13",
+                    "texto": "das tuas portas; abençoa aos teus filhos D. de ti."
+                },
+                {
+                    "referencia": "Provérbios 7.1",
+                    "texto": "minhas palavras e esconde D, de ti os meus manda-"
+                },
+                {
+                    "referencia": "Isaías 7.8",
+                    "texto": "o cabeça de Damasco, Rezim; e, D. de sessenta e"
+                },
+                {
+                    "referencia": "Isaías 15.4",
+                    "texto": "armados de Moabe clamam; a sua alma treme D. deles."
+                },
+                {
+                    "referencia": "Isaías 16.14",
+                    "texto": "falou o Senhor, dizendo: D. em três anos,"
+                },
+                {
+                    "referencia": "Isaías 19.3",
+                    "texto": "dos egípcios se esvaecerá D, deles; eu"
+                },
+                {
+                    "referencia": "Isaías 21.16",
+                    "texto": "assim me disse o Senhor: D. de um ano, tal"
+                },
+                {
+                    "referencia": "Isaías 26.9",
+                    "texto": "com o meu espírito, que está D. de mim,"
+                },
+                {
+                    "referencia": "Isaías 56.5",
+                    "texto": "lhes darei na minha casa e D, dos meus muros um"
+                },
+                {
+                    "referencia": "Jeremias 23.9",
+                    "texto": "coração está quebrantado D. de mim; todos os"
+                },
+                {
+                    "referencia": "Lamentações 1.20",
+                    "texto": "fora, me desfilhou a espada, D. de mim está"
+                },
+                {
+                    "referencia": "Lamentações 3.20",
+                    "texto": "alma, certamente, se lembra e se abate D. de mim."
+                },
+                {
+                    "referencia": "Ezequiel 2.10",
+                    "texto": "e ele estava escrito por D, e por fora; e nele"
+                },
+                {
+                    "referencia": "Ezequiel 3.24",
+                    "texto": "e me disse: Entra, encerra-te D. da tua casa."
+                },
+                {
+                    "referencia": "Ezequiel 7.15",
+                    "texto": "Fora está a espada, e D., a peste e a fome; o que"
+                },
+                {
+                    "referencia": "Ezequiel 8.3",
+                    "texto": "entrada da porta do pátio de D., que olha para o"
+                },
+                {
+                    "referencia": "Ezequiel 11.19",
+                    "texto": "e um espírito novo porei D, deles; e tirarei"
+                },
+                {
+                    "referencia": "Ezequiel 24.3",
+                    "texto": "a panela ao lume, e põe-na, e deita-lhe água D.,"
+                },
+                {
+                    "referencia": "Ezequiel 24.5",
+                    "texto": "fá-la ferver bem, e cozam-se D, dela os seus ossos."
+                },
+                {
+                    "referencia": "Ezequiel 36.26",
+                    "texto": "um coração novo e porei D. de vós um espírito"
+                },
+                {
+                    "referencia": "Ezequiel 36.27",
+                    "texto": "E porei D. de vós o meu espírito e farei que"
+                },
+                {
+                    "referencia": "Ezequiel 40.8",
+                    "texto": "Também mediu o vestíbulo da porta por D.: uma cana."
+                },
+                {
+                    "referencia": "Ezequiel 40.9",
+                    "texto": "dois côvados, e o vestíbulo da porta, por D.."
+                },
+                {
+                    "referencia": "Ezequiel 40.16",
+                    "texto": "fechar e nos seus pilares, D, da porta ao redor,"
+                },
+                {
+                    "referencia": "Ezequiel 40.16",
+                    "texto": "estavam à roda pela parte de D. e nos pilares"
+                },
+                {
+                    "referencia": "Ezequiel 40.43",
+                    "texto": "estavam fixadas por D. em redor; e sobre"
+                },
+                {
+                    "referencia": "Ezequiel 40.44",
+                    "texto": "dos cantores, no átrio de D., que estava da"
+                },
+                {
+                    "referencia": "Ezequiel 41.3",
+                    "texto": "E entrou D. e mediu o pilar da entrada: dois"
+                },
+                {
+                    "referencia": "Ezequiel 41.15",
+                    "texto": "cem côvados, com o templo de D. e os"
+                },
+                {
+                    "referencia": "Ezequiel 41.17",
+                    "texto": "porta, e até ao templo de D., e de fora, e até"
+                },
+                {
+                    "referencia": "Ezequiel 41.17",
+                    "texto": "toda a parede em redor, por D. e por fora, tudo"
+                },
+                {
+                    "referencia": "Ezequiel 42.4",
+                    "texto": "de largo, da banda de D., e um caminho de"
+                },
+                {
+                    "referencia": "Ezequiel 43.6",
+                    "texto": "voz que me foi dirigida de D. do templo; e um"
+                },
+                {
+                    "referencia": "Ezequiel 44.17",
+                    "texto": "servirem nas portas do átrio interior, D. da casa."
+                },
+                {
+                    "referencia": "pn 3.6",
+                    "texto": "será na mesma hora lançado D. do forno de fogo ar-"
+                },
+                {
+                    "referencia": "Daniel 3.11",
+                    "texto": "e adorasse seria lançado D. do forno de fogo ardente."
+                },
+                {
+                    "referencia": "Daniel 3.15",
+                    "texto": "sereis lançados, na mesma hora, D, do"
+                },
+                {
+                    "referencia": "Daniel 3.21",
+                    "texto": "e suas vestes e foram lançados D. do forno de"
+                },
+                {
+                    "referencia": "pn 3.23",
+                    "texto": "e Abede-Nego, caíram atados D, do forno de fogo ar-"
+                },
+                {
+                    "referencia": "Daniel 3.24",
+                    "texto": "nós três homens atados D. do fogo?"
+                },
+                {
+                    "referencia": "Daniel 3.25",
+                    "texto": "soltos, que andam passeando D. do fogo, e nada"
+                },
+                {
+                    "referencia": "Daniel 6.14",
+                    "texto": "e a favor de Daniel propôs D. do seu coração"
+                },
+                {
+                    "referencia": "Daniel 7.15",
+                    "texto": "o meu espírito foi abatido D. do corpo, e as"
+                },
+                {
+                    "referencia": "Amós 3.9",
+                    "texto": "alvoroços no meio dela e os oprimidos D. dela,"
+                },
+                {
+                    "referencia": "Jonas 1.3",
+                    "texto": "a sua passagem e desceu para D. dele, para ir"
+                },
+                {
+                    "referencia": "Habacuque 3.16",
+                    "texto": "nos meus ossos, e estremeci D. de mim;"
+                },
+                {
+                    "referencia": "Zacarias 5.8",
+                    "texto": "é a impiedade. E a lançou D, do efa e pôs"
+                },
+                {
+                    "referencia": "Zacarias 12.1",
+                    "texto": "a terra, e que forma o espírito do homem D., dele."
+                },
+                {
+                    "referencia": "Marcos 7.23",
+                    "texto": "estes males procedem de D. e contaminam o homem."
+                },
+                {
+                    "referencia": "Mic 14.54",
+                    "texto": "o seguiu de longe até D. do pátio do sumo"
+                },
+                {
+                    "referencia": "Marcos 15.16",
+                    "texto": "os soldados o levaram para D. do palácio, à sala"
+                },
+                {
+                    "referencia": "Lucas 11.7",
+                    "texto": "se ele, respondendo de D., disser: Não me"
+                },
+                {
+                    "referencia": "Lucas 19.44",
+                    "texto": "a tie a teus filhos que D. deti estiverem, e"
+                },
+                {
+                    "referencia": "Jó 18.16",
+                    "texto": "e falou à porteira, levando Pedro para D.."
+                },
+                {
+                    "referencia": "Jó 20.26",
+                    "texto": "outra vez os seus discípulos D., e, com eles,"
+                },
+                {
+                    "referencia": "Atos 5.23",
+                    "texto": "portas; mas, quando abrimos, ninguém achamos D.."
+                },
+                {
+                    "referencia": "Atos 9.25",
+                    "texto": "os discípulos, o desceram, D, de um cesto, pelo muro."
+                },
+                {
+                    "referencia": "Atos 10.23",
+                    "texto": "Então, chamando-os para D., os recebeu em casa."
+                },
+                {
+                    "referencia": "Atos 12.14",
+                    "texto": "a porta, mas, correndo para D., anunciou que"
+                },
+                {
+                    "referencia": "Atos 16.29",
+                    "texto": "E, pedindo luz, saltou D e, todo trêmulo, se"
+                },
+                {
+                    "referencia": "1 Coríntios 5.12",
+                    "texto": "que estão de fora? Não julgais vós os que estão D.?"
+                },
+                {
+                    "referencia": "2 Coríntios 7.5",
+                    "texto": "atribulados: por fora combates, temores por D.."
+                },
+                {
+                    "referencia": "Tiago 2.4",
+                    "texto": "não fizestes distinção D. de vós mesmos e não"
+                },
+                {
+                    "referencia": "Apocalipse 4.8",
+                    "texto": "seis asas e, ao redor e por D., estavam cheios"
+                },
+                {
+                    "referencia": "Apocalipse 5.1",
+                    "texto": "trono um livro escrito por D, e por fora, selado"
+                }
+            ]
+        }
+    ]
+}

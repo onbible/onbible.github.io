@@ -1,0 +1,399 @@
+{
+  "livro": "Gênesis - בְּרֵאשִׁית - Bereshit",
+  "capítulo": 28,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E chamou Isaque a Jacó, e abençoou-o, e ordenou-lhe e disse a ele: Não tomarás mulher das filhas de Canaã.",
+      "palavras": [
+        { "hebraico": "וַיִּקְרָ֥א", "transliteral": "wayyiqrāʾ", "traducao_palavra": "e chamou" },
+        { "hebraico": "יִצְחָ֛ק", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "אֶֽל־יַעֲקֹ֖ב", "transliteral": "ʾel-yaʿăqōḇ", "traducao_palavra": "para Jacó" },
+        { "hebraico": "וַיְבָ֣רֶךְ", "transliteral": "wayəḇāreḵ", "traducao_palavra": "e abençoou" },
+        { "hebraico": "אֹתֹ֑ו", "transliteral": "ʾōṯô", "traducao_palavra": "o" },
+        { "hebraico": "וַיְצַוֵּ֨הוּ֙", "transliteral": "wayəṣawwēhû", "traducao_palavra": "e ordenou-lhe" },
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "לֹ֔ו", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "לֹֽא־תִקַּ֥ח", "transliteral": "lōʾ-tiqqaḥ", "traducao_palavra": "não tomarás" },
+        { "hebraico": "אִשָּׁ֖ה", "transliteral": "ʾiššâ", "traducao_palavra": "mulher" },
+        { "hebraico": "מִבְּנוֹת֙", "transliteral": "mibbbənôṯ", "traducao_palavra": "das filhas de" },
+        { "hebraico": "כְּנָֽעַן׃", "transliteral": "kənāʿan", "traducao_palavra": "Canaã" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Levanta-te, vai para Padã-Arã, à casa de Betuel, pai de tua mãe; e toma para ti de lá mulher das filhas de Labão, irmão de tua mãe.",
+      "palavras": [
+        { "hebraico": "ק֥וּם", "transliteral": "qûm", "traducao_palavra": "levanta-te" },
+        { "hebraico": "לֵךְ֙", "transliteral": "lēḵ", "traducao_palavra": "vai" },
+        { "hebraico": "פַּדֶּ֣נָה", "transliteral": "paddenâ", "traducao_palavra": "para Padã" },
+        { "hebraico": "אֲרָ֔ם", "transliteral": "ʾărām", "traducao_palavra": "Arã" },
+        { "hebraico": "בֵּ֥יתָה", "transliteral": "bêṯâ", "traducao_palavra": "para casa de" },
+        { "hebraico": "בְתוּאֵ֖ל", "transliteral": "ḇəṯûʾēl", "traducao_palavra": "Betuel" },
+        { "hebraico": "אֲבִ֣י", "transliteral": "ʾăḇî", "traducao_palavra": "pai de" },
+        { "hebraico": "אִמֶּ֑ךָ", "transliteral": "ʾimmekā", "traducao_palavra": "tua mãe" },
+        { "hebraico": "וְקַח־לְךָ֤", "transliteral": "wəqaḥ-ləḵā", "traducao_palavra": "e toma para ti" },
+        { "hebraico": "מִשָּׁם֙", "transliteral": "miššām", "traducao_palavra": "de lá" },
+        { "hebraico": "אִשָּׁ֔ה", "transliteral": "ʾiššâ", "traducao_palavra": "mulher" },
+        { "hebraico": "מִבְּנֹ֥ות", "transliteral": "mibbbənôṯ", "traducao_palavra": "das filhas de" },
+        { "hebraico": "לָבָ֖ן", "transliteral": "lāḇān", "traducao_palavra": "Labão" },
+        { "hebraico": "אֲחִ֥י", "transliteral": "ʾăḥî", "traducao_palavra": "irmão de" },
+        { "hebraico": "אִמֶּֽךָ׃", "transliteral": "ʾimmekā", "traducao_palavra": "tua mãe" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E Deus Todo-Poderoso te abençoe, e te faça frutificar e te multiplique, para que sejas uma assembleia de povos.",
+      "palavras": [
+        { "hebraico": "וְאֵ֤ל", "transliteral": "wəʾēl", "traducao_palavra": "e Deus" },
+        { "hebraico": "שַׁדַּי֙", "transliteral": "šadday", "traducao_palavra": "Shaddai/Todo-Poderoso" },
+        { "hebraico": "יְבָרֵ֣ךְ", "transliteral": "yəḇārēḵ", "traducao_palavra": "abençoe" },
+        { "hebraico": "אֹתְךָ֔", "transliteral": "ʾōṯəḵā", "traducao_palavra": "a ti" },
+        { "hebraico": "וְיַפְרְךָ֖", "transliteral": "wəyap̄rəḵā", "traducao_palavra": "e te faça frutificar" },
+        { "hebraico": "וְיַרְבֶּ֑ךָ", "transliteral": "wəyarbeḵā", "traducao_palavra": "e te multiplique" },
+        { "hebraico": "וְהָיִ֖יתָ", "transliteral": "wəhāyîṯā", "traducao_palavra": "e sejas" },
+        { "hebraico": "לִקְהַ֥ל", "transliteral": "liqhal", "traducao_palavra": "para assembleia de" },
+        { "hebraico": "עַמִּֽים׃", "transliteral": "ʿammîm", "traducao_palavra": "povos" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E te dê a benção de Abraão, a ti e à tua semente contigo, para herdares a terra de tua peregrinação, que deu Deus a Abraão.",
+      "palavras": [
+        { "hebraico": "וְיִתֶּן־לְךָ֙", "transliteral": "wəyitten-ləḵā", "traducao_palavra": "e te dê" },
+        { "hebraico": "אֶת־בִּרְכַּ֣ת", "transliteral": "ʾeṯ-birkat", "traducao_palavra": "a benção de" },
+        { "hebraico": "אַבְרָהָ֔ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "לְךָ֖", "transliteral": "ləḵā", "traducao_palavra": "a ti" },
+        { "hebraico": "וּלְזַרְעֲךָ֣", "transliteral": "ûləzarʿăḵā", "traducao_palavra": "e à tua semente" },
+        { "hebraico": "אִתָּ֑ךְ", "transliteral": "ʾittāḵ", "traducao_palavra": "contigo" },
+        { "hebraico": "לְרִשְׁתְּךָ֙", "transliteral": "lərištəḵā", "traducao_palavra": "para herdares" },
+        { "hebraico": "אֶת־אֶ֣רֶץ", "transliteral": "ʾeṯ-ʾereṣ", "traducao_palavra": "a terra de" },
+        { "hebraico": "מְגֻרֶ֔יךָ", "transliteral": "məḡureyḵā", "traducao_palavra": "tua peregrinação" },
+        { "hebraico": "אֲשֶׁר־נָתַ֥ן", "transliteral": "ʾăšer-nāṯan", "traducao_palavra": "que deu" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕlōhîm", "traducao_palavra": "Deus" },
+        { "hebraico": "לְאַבְרָהָֽם׃", "transliteral": "ləʾaḇrāhām", "traducao_palavra": "a Abraão" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E enviou Isaque a Jacó, e ele foi para Padã-Arã, para Labão, filho de Betuel, o arameu, irmão de Rebeca, mãe de Jacó e Esaú.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלַ֤ח", "transliteral": "wayyišlaḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "יִצְחָק֙", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "אֶת־יַעֲקֹ֔ב", "transliteral": "ʾeṯ-yaʿăqōḇ", "traducao_palavra": "a Jacó" },
+        { "hebraico": "וַיֵּ֖לֶךְ", "transliteral": "wayyēleḵ", "traducao_palavra": "e ele foi" },
+        { "hebraico": "פַּדֶּ֣נָה", "transliteral": "paddenâ", "traducao_palavra": "para Padã" },
+        { "hebraico": "אֲרָ֑ם", "transliteral": "ʾărām", "traducao_palavra": "Arã" },
+        { "hebraico": "אֶל־לָבָ֨ן", "transliteral": "ʾel-lāḇān", "traducao_palavra": "para Labão" },
+        { "hebraico": "בֶּן־בְּתוּאֵל֙", "transliteral": "ben-bəṯûʾēl", "traducao_palavra": "filho de Betuel" },
+        { "hebraico": "הָאֲרַמִּ֔י", "transliteral": "hāʾărammî", "traducao_palavra": "o arameu" },
+        { "hebraico": "אֲחִ֣י", "transliteral": "ʾăḥî", "traducao_palavra": "irmão de" },
+        { "hebraico": "רִבְקָ֔ה", "transliteral": "riḇqâ", "traducao_palavra": "Rebeca" },
+        { "hebraico": "אֵ֥ם", "transliteral": "ʾēm", "traducao_palavra": "mãe de" },
+        { "hebraico": "יַעֲקֹ֖ב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "וְעֵשָֽׂו׃", "transliteral": "wəʿēśāw", "traducao_palavra": "e Esaú" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E viu Esaú que abençoara Isaque a Jacó, e enviara-o para Padã-Arã para tomar para si de lá mulher; em abençoando ele a ele, ordenou-lhe, dizendo: Não tomarás mulher das filhas de Canaã.",
+      "palavras": [
+        { "hebraico": "וַיַּ֣רְא", "transliteral": "wayyarʾ", "traducao_palavra": "e viu" },
+        { "hebraico": "עֵשָׂ֗ו", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "כִּֽי־בֵרַ֣ךְ", "transliteral": "kî-ḇēraḵ", "traducao_palavra": "que abençoara" },
+        { "hebraico": "יִצְחָק֮", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "אֶת־יַעֲקֹב֒", "transliteral": "ʾeṯ-yaʿăqōḇ", "traducao_palavra": "a Jacó" },
+        { "hebraico": "וְשִׁלַּ֤ח", "transliteral": "wəšillaḥ", "traducao_palavra": "e enviara" },
+        { "hebraico": "אֹתֹו֙", "transliteral": "ʾōṯô", "traducao_palavra": "o" },
+        { "hebraico": "פַּדֶּ֣נָה", "transliteral": "paddenâ", "traducao_palavra": "para Padã" },
+        { "hebraico": "אֲרָ֔ם", "transliteral": "ʾărām", "traducao_palavra": "Arã" },
+        { "hebraico": "לָקַֽח־לֹ֥ו", "transliteral": "lāqaḥ-lô", "traducao_palavra": "para tomar para si" },
+        { "hebraico": "מִשָּׁ֖ם", "transliteral": "miššām", "traducao_palavra": "de lá" },
+        { "hebraico": "אִשָּׁ֑ה", "transliteral": "ʾiššâ", "traducao_palavra": "mulher" },
+        { "hebraico": "בְּבָרֲכֹ֣ו", "transliteral": "bəḇārăḵô", "traducao_palavra": "em abençoando ele" },
+        { "hebraico": "אֹתֹ֔ו", "transliteral": "ʾōṯô", "traducao_palavra": "o" },
+        { "hebraico": "וַיְצַ֤ו", "transliteral": "wayəṣaw", "traducao_palavra": "e ordenou" },
+        { "hebraico": "עָלָיו֙", "transliteral": "ʿālāyw", "traducao_palavra": "sobre ele" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lēʾmōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "לֹֽא־תִקַּ֥ח", "transliteral": "lōʾ-tiqqaḥ", "traducao_palavra": "não tomarás" },
+        { "hebraico": "אִשָּׁ֖ה", "transliteral": "ʾiššâ", "traducao_palavra": "mulher" },
+        { "hebraico": "מִבְּנוֹת֙", "transliteral": "mibbbənôṯ", "traducao_palavra": "das filhas de" },
+        { "hebraico": "כְּנָֽעַן׃", "transliteral": "kənāʿan", "traducao_palavra": "Canaã" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "E ouviu Jacó a seu pai e a sua mãe; e foi para Padã-Arã.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁמַ֣ע", "transliteral": "wayyišmaʿ", "traducao_palavra": "e ouviu" },
+        { "hebraico": "יַעֲקֹ֔ב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "אֶל־אָבִ֖יו", "transliteral": "ʾel-ʾāḇîw", "traducao_palavra": "a seu pai" },
+        { "hebraico": "וְאֶל־אִמֹּ֑ו", "transliteral": "wəʾel-ʾimmô", "traducao_palavra": "e a sua mãe" },
+        { "hebraico": "וַיֵּ֖לֶךְ", "transliteral": "wayyēleḵ", "traducao_palavra": "e foi" },
+        { "hebraico": "פַּדֶּ֥נָה", "transliteral": "paddenâ", "traducao_palavra": "para Padã" },
+        { "hebraico": "אֲרָֽם׃", "transliteral": "ʾărām", "traducao_palavra": "Arã" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E viu Esaú que más [eram] as filhas de Canaã aos olhos de Isaque, seu pai.",
+      "palavras": [
+        { "hebraico": "וַיַּ֣רְא", "transliteral": "wayyarʾ", "traducao_palavra": "e viu" },
+        { "hebraico": "עֵשָׂ֔ו", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "רָעֹ֖ות", "transliteral": "rāʿôṯ", "traducao_palavra": "más" },
+        { "hebraico": "בְּנֹ֣ות", "transliteral": "bənôṯ", "traducao_palavra": "filhas de" },
+        { "hebraico": "כְּנָ֑עַן", "transliteral": "kənāʿan", "traducao_palavra": "Canaã" },
+        { "hebraico": "בְּעֵינֵ֖י", "transliteral": "bəʿênê", "traducao_palavra": "aos olhos de" },
+        { "hebraico": "יִצְחָ֥ק", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "אָבִֽיו׃", "transliteral": "ʾāḇîw", "traducao_palavra": "seu pai" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E foi Esaú para Ismael, e tomou a Maalate, filha de Ismael, filho de Abraão, irmã de Nebaiote, além de suas mulheres, para ele por mulher.",
+      "palavras": [
+        { "hebraico": "וַיֵּ֥לֶךְ", "transliteral": "wayyēleḵ", "traducao_palavra": "e foi" },
+        { "hebraico": "עֵשָׂ֖ו", "transliteral": "ʿēśāw", "traducao_palavra": "Esaú" },
+        { "hebraico": "אֶל־יִשְׁמָעֵ֑אל", "transliteral": "ʾel-yišmāʿēl", "traducao_palavra": "para Ismael" },
+        { "hebraico": "וַיִּקַּ֨ח", "transliteral": "wayyiqqaḥ", "traducao_palavra": "e tomou" },
+        { "hebraico": "אֶת־מָחֲלַ֨ת ׀", "transliteral": "ʾeṯ-māḥălat", "traducao_palavra": "a Maalate" },
+        { "hebraico": "בַּת־יִשְׁמָעֵ֨אל", "transliteral": "baṯ-yišmāʿēl", "traducao_palavra": "filha de Ismael" },
+        { "hebraico": "בֶּן־אַבְרָהָ֜ם", "transliteral": "ben-ʾaḇrāhām", "traducao_palavra": "filho de Abraão" },
+        { "hebraico": "אֲחֹ֧ות", "transliteral": "ʾăḥôṯ", "traducao_palavra": "irmã de" },
+        { "hebraico": "נְבָיֹ֛ות", "transliteral": "nəḇāyôṯ", "traducao_palavra": "Nebaiote" },
+        { "hebraico": "עַל־נָשָׁ֖יו", "transliteral": "ʿal-nāšāyw", "traducao_palavra": "além de suas mulheres" },
+        { "hebraico": "לֹ֥ו", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "לְאִשָּֽׁה׃", "transliteral": "ləʾiššâ", "traducao_palavra": "por mulher" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E saiu Jacó de Berseba e foi para Harã.",
+      "palavras": [
+        { "hebraico": "וַיֵּצֵ֥א", "transliteral": "wayyēṣēʾ", "traducao_palavra": "e saiu" },
+        { "hebraico": "יַעֲקֹ֖ב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "מִבְּאֵ֣ר", "transliteral": "mibbbəʾēr", "traducao_palavra": "de Ber" },
+        { "hebraico": "שָׁ֑בַע", "transliteral": "šāḇaʿ", "traducao_palavra": "Seba" },
+        { "hebraico": "וַיֵּ֖לֶךְ", "transliteral": "wayyēleḵ", "traducao_palavra": "e foi" },
+        { "hebraico": "חָרָֽנָה׃", "transliteral": "ḥārānâ", "traducao_palavra": "para Harã" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E encontrou no lugar e pernoitou lá, pois se pusera o sol; e tomou das pedras do lugar e colocou [por] seu travesseiro, e deitou-se no lugar aquele.",
+      "palavras": [
+        { "hebraico": "וַיִּפְגַּ֨ע", "transliteral": "wayyip̄gaʿ", "traducao_palavra": "e encontrou" },
+        { "hebraico": "בַּמָּקֹ֜ום", "transliteral": "bammāqôm", "traducao_palavra": "no lugar" },
+        { "hebraico": "וַיָּ֤לֶן", "transliteral": "wayyālen", "traducao_palavra": "e pernoitou" },
+        { "hebraico": "שָׁם֙", "transliteral": "šām", "traducao_palavra": "lá" },
+        { "hebraico": "כִּי־בָ֣א", "transliteral": "kî-ḇāʾ", "traducao_palavra": "pois viera/se pusera" },
+        { "hebraico": "הַשֶּׁ֔מֶשׁ", "transliteral": "haššemeš", "traducao_palavra": "o sol" },
+        { "hebraico": "וַיִּקַּח֙", "transliteral": "wayyiqqaḥ", "traducao_palavra": "e tomou" },
+        { "hebraico": "מֵאַבְנֵ֣י", "transliteral": "mēʾaḇnê", "traducao_palavra": "das pedras de" },
+        { "hebraico": "הַמָּקֹ֔ום", "transliteral": "hammāqôm", "traducao_palavra": "o lugar" },
+        { "hebraico": "וַיָּ֨שֶׂם֙", "transliteral": "wayyāśem", "traducao_palavra": "e colocou" },
+        { "hebraico": "מְרַֽאֲשֹׁתָ֔יו", "transliteral": "məraʾăšōṯāyw", "traducao_palavra": "seu travesseiro/cabeceira" },
+        { "hebraico": "וַיִּשְׁכַּ֖ב", "transliteral": "wayyiškaḇ", "traducao_palavra": "e deitou-se" },
+        { "hebraico": "בַּמָּקֹ֥ום", "transliteral": "bammāqôm", "traducao_palavra": "no lugar" },
+        { "hebraico": "הַהֽוּא׃", "transliteral": "hahûʾ", "traducao_palavra": "aquele" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E sonhou, e eis uma escada posta na terra, e o seu topo tocando os céus; e eis anjos de Deus subindo e descendo nela.",
+      "palavras": [
+        { "hebraico": "וַֽיַּחֲלֹ֗ם", "transliteral": "wayyaḥălōm", "traducao_palavra": "e sonhou" },
+        { "hebraico": "וְהִנֵּ֤ה", "transliteral": "wəhinnē", "traducao_palavra": "e eis" },
+        { "hebraico": "סֻלָּם֙", "transliteral": "sullām", "traducao_palavra": "escada" },
+        { "hebraico": "מֻצָּ֣ב", "transliteral": "muṣṣāḇ", "traducao_palavra": "posta" },
+        { "hebraico": "אַ֔רְצָה", "transliteral": "ʾarṣâ", "traducao_palavra": "na terra" },
+        { "hebraico": "וְרֹאשֹׁ֖ו", "transliteral": "wərōʾšô", "traducao_palavra": "e seu topo/cabeça" },
+        { "hebraico": "מַגִּ֣иעַ", "transliteral": "maggîaʿ", "traducao_palavra": "tocando/alcançando" },
+        { "hebraico": "הַשָּׁמָ֑יְמָה", "transliteral": "haššāmāyəmâ", "traducao_palavra": "os céus" },
+        { "hebraico": "וְהִנֵּה֙", "transliteral": "wəhinnē", "traducao_palavra": "e eis" },
+        { "hebraico": "מַלְאֲכֵ֣י", "transliteral": "malʾăḵê", "traducao_palavra": "anjos de" },
+        { "hebraico": "אֱלֹהִ֔ים", "transliteral": "ʾĕlōhîm", "traducao_palavra": "Deus" },
+        { "hebraico": "עֹלִ֥ים", "transliteral": "ʿōlîm", "traducao_palavra": "subindo" },
+        { "hebraico": "וְיֹרְדִ֖ים", "transliteral": "wəyōrəḏîm", "traducao_palavra": "e descendo" },
+        { "hebraico": "בֹּֽו׃", "transliteral": "bô", "traducao_palavra": "nela" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E eis YHWH postado sobre ela, e disse: Eu [sou] YHWH, Deus de Abraão, teu pai, e Deus de Isaque; a terra sobre a qual tu [estás] deitado, a ti a darei e à tua semente.",
+      "palavras": [
+        { "hebraico": "וְהִנֵּ֨ה", "transliteral": "wəhinnē", "traducao_palavra": "e eis" },
+        { "hebraico": "יְהוָ֜ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "נִצָּ֣ב", "transliteral": "niṣṣāḇ", "traducao_palavra": "postado" },
+        { "hebraico": "עָלָיו֮", "transliteral": "ʿālāyw", "traducao_palavra": "sobre ela/ele" },
+        { "hebraico": "וַיֹּאמַר֒", "transliteral": "wayyōʾmar", "traducao_palavra": "e disse" },
+        { "hebraico": "אֲנִ֣י", "transliteral": "ʾănî", "traducao_palavra": "eu" },
+        { "hebraico": "יְהוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֱלֹהֵי֙", "transliteral": "ʾĕlōhê", "traducao_palavra": "Deus de" },
+        { "hebraico": "אַבְרָהָ֣ם", "transliteral": "ʾaḇrāhām", "traducao_palavra": "Abraão" },
+        { "hebraico": "אָבִ֔יךָ", "transliteral": "ʾāḇîḵā", "traducao_palavra": "teu pai" },
+        { "hebraico": "וֵאלֹהֵ֖י", "transliteral": "wēʾlōhê", "traducao_palavra": "e Deus de" },
+        { "hebraico": "יִצְחָ֑ק", "transliteral": "yiṣḥāq", "traducao_palavra": "Isaque" },
+        { "hebraico": "הָאָ֗רֶץ", "transliteral": "hāʾāreṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "אֲשֶׁ֤ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "אַתָּה֙", "transliteral": "ʾattâ", "traducao_palavra": "tu" },
+        { "hebraico": "שֹׁכֵ֣ב", "transliteral": "šōḵēḇ", "traducao_palavra": "deitado" },
+        { "hebraico": "עָלֶ֔יהָ", "transliteral": "ʿāleyhā", "traducao_palavra": "sobre ela" },
+        { "hebraico": "לְךָ֥", "transliteral": "ləḵā", "traducao_palavra": "a ti" },
+        { "hebraico": "אֶתְּנֶ֖נָּה", "transliteral": "ʾettenennâ", "traducao_palavra": "a darei" },
+        { "hebraico": "וּלְזַרְעֶֽךָ׃", "transliteral": "ûləzarʿeḵā", "traducao_palavra": "e à tua semente" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E será a tua semente como o pó da terra, e romperás para o ocidente e para o oriente, e para o norte e para o sul; e serão benditas em ti todas as famílias da terra e em tua semente.",
+      "palavras": [
+        { "hebraico": "וְהָיָ֥ה", "transliteral": "wəhāyâ", "traducao_palavra": "e será" },
+        { "hebraico": "זַרְעֲךָ֙", "transliteral": "zarʿăḵā", "traducao_palavra": "tua semente" },
+        { "hebraico": "כַּעֲפַ֣ר", "transliteral": "kaʿăp̄ar", "traducao_palavra": "como pó de" },
+        { "hebraico": "הָאָ֔רֶץ", "transliteral": "hāʾāreṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "וּפָרַצְתָּ֥", "transliteral": "ûp̄āraṣtā", "traducao_palavra": "e romperás/espalharás" },
+        { "hebraico": "יָ֥מָּה", "transliteral": "yāmmâ", "traducao_palavra": "para o mar/ocidente" },
+        { "hebraico": "וָקֵ֖דְמָה", "transliteral": "wāqēḏmâ", "traducao_palavra": "e para o oriente" },
+        { "hebraico": "וְצָפֹ֥נָה", "transliteral": "wəṣāp̄ōnâ", "traducao_palavra": "e para o norte" },
+        { "hebraico": "וָנֶ֑גְבָּה", "transliteral": "wāneḡbâ", "traducao_palavra": "e para o sul/neguebe" },
+        { "hebraico": "וְנִבְרֲכ֣וּ", "transliteral": "wənibraḵû", "traducao_palavra": "e serão benditas" },
+        { "hebraico": "בְךָ֗", "transliteral": "ḇəḵā", "traducao_palavra": "em ti" },
+        { "hebraico": "כָּל־מִשְׁפְּחֹ֥ת", "transliteral": "kāl-mišpəḥōṯ", "traducao_palavra": "todas as famílias de" },
+        { "hebraico": "הָאֲדָמָ֖ה", "transliteral": "hāʾăḏāmâ", "traducao_palavra": "o solo/terra" },
+        { "hebraico": "וּבְזַרְעֶֽךָ׃", "transliteral": "ûḇəzarʿeḵā", "traducao_palavra": "e em tua semente" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E eis que eu [estou] contigo, e te guardarei em todo [lugar] por onde fores, e te farei retornar para esta terra; pois não te abandonarei até que tenha feito o que falei para ti.",
+      "palavras": [
+        { "hebraico": "וְהִנֵּ֨ה", "transliteral": "wəhinnē", "traducao_palavra": "e eis" },
+        { "hebraico": "אָנֹכִ֜י", "transliteral": "ʾānōḵî", "traducao_palavra": "eu" },
+        { "hebraico": "עִמָּ֗ךְ", "transliteral": "ʿimmāḵ", "traducao_palavra": "contigo" },
+        { "hebraico": "וּשְׁמַרְתִּ֨יךָ֙", "transliteral": "ûšəmarṯîḵā", "traducao_palavra": "e te guardarei" },
+        { "hebraico": "בְּכֹ֣ל", "transliteral": "bəḵōl", "traducao_palavra": "em todo" },
+        { "hebraico": "אֲשֶׁר־תֵּלֵ֔ךְ", "transliteral": "ʾăšer-tēlēḵ", "traducao_palavra": "que fores" },
+        { "hebraico": "וַהֲשִׁבֹתִ֖יךָ", "transliteral": "wahašiḇōṯîḵā", "traducao_palavra": "e te farei retornar" },
+        { "hebraico": "אֶל־הָאֲדָמָ֣ה", "transliteral": "ʾel-hāʾăḏāmâ", "traducao_palavra": "para o solo" },
+        { "hebraico": "הַזֹּ֑את", "transliteral": "hazzōʾṯ", "traducao_palavra": "este" },
+        { "hebraico": "כִּ֚י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "לֹ֣א", "transliteral": "lōʾ", "traducao_palavra": "não" },
+        { "hebraico": "אֶֽעֱזָבְךָ֔", "transliteral": "ʾeʿĕzāḇəḵā", "traducao_palavra": "te abandonarei" },
+        { "hebraico": "עַ֚ד", "transliteral": "ʿaḏ", "traducao_palavra": "até" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "אִם־עָשִׂ֔יתִי", "transliteral": "ʾim-ʿāśîṯî", "traducao_palavra": "que tenha feito" },
+        { "hebraico": "אֵ֥ת", "transliteral": "ʾēṯ", "traducao_palavra": "[partícula]" },
+        { "hebraico": "אֲשֶׁר־דִּבַּ֖רְתִּי", "transliteral": "ʾăšer-dibbarṯî", "traducao_palavra": "que falei" },
+        { "hebraico": "לָֽךְ׃", "transliteral": "lāḵ", "traducao_palavra": "para ti" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E despertou Jacó de seu sono e disse: Certamente YHWH está no lugar este, e eu não sabia.",
+      "palavras": [
+        { "hebraico": "וַיִּיקַ֣ץ", "transliteral": "wayyîqaṣ", "traducao_palavra": "e despertou" },
+        { "hebraico": "יַעֲקֹב֮", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "מִשְּׁנָתֹו֒", "transliteral": "miššənāṯô", "traducao_palavra": "de seu sono" },
+        { "hebraico": "וַיֹּ֕אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "e disse" },
+        { "hebraico": "אָכֵן֙", "transliteral": "ʾāḵēn", "traducao_palavra": "certamente" },
+        { "hebraico": "יֵ֣שׁ", "transliteral": "yēš", "traducao_palavra": "está/existe" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בַּמָּקֹ֖ום", "transliteral": "bammāqôm", "traducao_palavra": "no lugar" },
+        { "hebraico": "הַזֶּ֑ה", "transliteral": "hazzeh", "traducao_palavra": "este" },
+        { "hebraico": "וְאָנֹכִ֖י", "transliteral": "wəʾānōḵî", "traducao_palavra": "e eu" },
+        { "hebraico": "לֹ֥א", "transliteral": "lōʾ", "traducao_palavra": "não" },
+        { "hebraico": "יָדָֽעְתִּי׃", "transliteral": "yāḏāʿəttî", "traducao_palavra": "sabia" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E temeu e disse: Quão terrível [é] o lugar este! Não [é] isto senão casa de Deus, e isto [é] porta dos céus.",
+      "palavras": [
+        { "hebraico": "וַיִּירָא֙", "transliteral": "wayyîrāʾ", "traducao_palavra": "e temeu" },
+        { "hebraico": "וַיֹּאמַ֔ר", "transliteral": "wayyōʾmar", "traducao_palavra": "e disse" },
+        { "hebraico": "מַה־נֹּורָ֖א", "transliteral": "mah-nnôrāʾ", "traducao_palavra": "quão terrível" },
+        { "hebraico": "הַמָּקֹ֣ום", "transliteral": "hammāqôm", "traducao_palavra": "o lugar" },
+        { "hebraico": "הַזֶּ֑ה", "transliteral": "hazzeh", "traducao_palavra": "este" },
+        { "hebraico": "אֵ֣ין", "transliteral": "ʾên", "traducao_palavra": "não" },
+        { "hebraico": "זֶ֔ה", "transliteral": "zeh", "traducao_palavra": "isto" },
+        { "hebraico": "כִּ֚י", "transliteral": "kî", "traducao_palavra": "senão/pois" },
+        { "hebraico": "אִם־בֵּ֣ית", "transliteral": "ʾim-bêṯ", "traducao_palavra": "casa de" },
+        { "hebraico": "אֱלֹהִ֔ים", "transliteral": "ʾĕlōhîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְזֶ֖ה", "transliteral": "wəzeh", "traducao_palavra": "e isto" },
+        { "hebraico": "שַׁ֥עַר", "transliteral": "šaʿar", "traducao_palavra": "porta de" },
+        { "hebraico": "הַשָּׁמָֽיִם׃", "transliteral": "haššāmayim", "traducao_palavra": "os céus" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "E madrugou Jacó pela manhã, e tomou a pedra que colocara [por] seu travesseiro, e pô-la [como] coluna; e derramou azeite sobre o seu topo.",
+      "palavras": [
+        { "hebraico": "וַיַּשְׁכֵּ֨ם", "transliteral": "wayyaškēm", "traducao_palavra": "e madrugou" },
+        { "hebraico": "יַעֲקֹ֜ב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "בַּבֹּ֗קֶר", "transliteral": "ḇabbōqer", "traducao_palavra": "pela manhã" },
+        { "hebraico": "וַיִּקַּ֧ח", "transliteral": "wayyiqqaḥ", "traducao_palavra": "e tomou" },
+        { "hebraico": "אֶת־הָאֶ֛בֶן", "transliteral": "ʾeṯ-hāʾeḇen", "traducao_palavra": "a pedra" },
+        { "hebraico": "אֲשֶׁר־שָׂ֥ם", "transliteral": "ʾăšer-śām", "traducao_palavra": "que colocara" },
+        { "hebraico": "מְרַֽאֲשֹׁתָ֖יו", "transliteral": "məraʾăšōṯāyw", "traducao_palavra": "seu travesseiro" },
+        { "hebraico": "וַיָּ֥שֶׂם", "transliteral": "wayyāśem", "traducao_palavra": "e pô-la" },
+        { "hebraico": "אֹתָ֖הּ", "transliteral": "ʾōṯāh", "traducao_palavra": "a ela" },
+        { "hebraico": "מַצֵּבָ֑ה", "transliteral": "maṣṣēḇâ", "traducao_palavra": "coluna" },
+        { "hebraico": "וַיִּצֹ֥ק", "transliteral": "wayyiṣōq", "traducao_palavra": "e derramou" },
+        { "hebraico": "שֶׁ֖מֶן", "transliteral": "šemen", "traducao_palavra": "azeite" },
+        { "hebraico": "עַל־רֹאשָֽׁהּ׃", "transliteral": "ʿal-rōʾšāh", "traducao_palavra": "sobre seu topo" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E chamou o nome do lugar aquele Bete-el; mas Luz [era] nome da cidade anteriormente.",
+      "palavras": [
+        { "hebraico": "וַיִּקְרָ֛א", "transliteral": "wayyiqrāʾ", "traducao_palavra": "e chamou" },
+        { "hebraico": "אֶת־שֵׁם־הַמָּקֹ֥ום", "transliteral": "ʾeṯ-šēm-hammāqôm", "traducao_palavra": "o nome do lugar" },
+        { "hebraico": "הַה֖וּא", "transliteral": "hahûʾ", "traducao_palavra": "aquele" },
+        { "hebraico": "בֵּֽית־אֵ֑ל", "transliteral": "bêṯ-ʾēl", "traducao_palavra": "Bete-el (Casa de Deus)" },
+        { "hebraico": "וְאוּלָ֛ם", "transliteral": "wəʾûlām", "traducao_palavra": "mas/contudo" },
+        { "hebraico": "ל֥וּז", "transliteral": "lûz", "traducao_palavra": "Luz" },
+        { "hebraico": "שֵׁם־הָעִ֖יר", "transliteral": "šēm-hāʿîr", "traducao_palavra": "nome da cidade" },
+        { "hebraico": "לָרִאשֹׁנָֽה׃", "transliteral": "lāriʾšōnâ", "traducao_palavra": "anteriormente/primeiro" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E votou Jacó um voto, dizendo: Se for Deus comigo e me guardar no caminho este por onde eu ando, e me der pão para comer e vestes para vestir.",
+      "palavras": [
+        { "hebraico": "וַיִּדַּ֥ר", "transliteral": "wayyiḏḏar", "traducao_palavra": "e votou" },
+        { "hebraico": "יַעֲקֹ֖ב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "נֶ֣דֶר", "transliteral": "neḏer", "traducao_palavra": "voto" },
+        { "hebraico": "לֵאמֹ֑ר", "transliteral": "lēʾmōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "אִם־יִהְיֶ֨ה", "transliteral": "ʾim-yihyeh", "traducao_palavra": "se for" },
+        { "hebraico": "אֱלֹהִ֜ים", "transliteral": "ʾĕlōhîm", "traducao_palavra": "Deus" },
+        { "hebraico": "עִמָּדִ֗י", "transliteral": "ʿimmāḏî", "traducao_palavra": "comigo" },
+        { "hebraico": "וּשְׁמָרַ֙נִי֙", "transliteral": "ûšəmāranî", "traducao_palavra": "e me guardar" },
+        { "hebraico": "בַּדֶּ֤רֶךְ", "transliteral": "baddereḵ", "traducao_palavra": "no caminho" },
+        { "hebraico": "הַזֶּה֙", "transliteral": "hazzeh", "traducao_palavra": "este" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "אָנֹכִ֣י", "transliteral": "ʾānōḵî", "traducao_palavra": "eu" },
+        { "hebraico": "הוֹלֵ֔ךְ", "transliteral": "hōlēḵ", "traducao_palavra": "andando" },
+        { "hebraico": "וְנָֽתַן־לִ֥י", "transliteral": "wənāṯan-lî", "traducao_palavra": "e me der" },
+        { "hebraico": "לֶ֛חֶם", "transliteral": "leḥem", "traducao_palavra": "pão" },
+        { "hebraico": "לֶאֱכֹ֖ל", "transliteral": "leʾĕḵōl", "traducao_palavra": "para comer" },
+        { "hebraico": "וּבֶ֥גֶד", "transliteral": "ûḇeḡeḏ", "traducao_palavra": "e veste" },
+        { "hebraico": "לִלְבֹּֽשׁ׃", "transliteral": "lilbbōš", "traducao_palavra": "para vestir" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E eu retornar em paz para a casa de meu pai, e será YHWH para mim por Deus.",
+      "palavras": [
+        { "hebraico": "וְשַׁבְתִּ֥י", "transliteral": "wəšaḇtî", "traducao_palavra": "e eu retornar" },
+        { "hebraico": "בְשָׁלֹ֖ום", "transliteral": "ḇəšālôm", "traducao_palavra": "em paz" },
+        { "hebraico": "אֶל־בֵּ֣ית", "transliteral": "ʾel-bêṯ", "traducao_palavra": "para casa de" },
+        { "hebraico": "אָבִ֑י", "transliteral": "ʾāḇî", "traducao_palavra": "meu pai" },
+        { "hebraico": "וְהָיָ֧ה", "transliteral": "wəhāyâ", "traducao_palavra": "e será" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לִ֖י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "לֵאלֹהִֽים׃", "transliteral": "lēʾlōhîm", "traducao_palavra": "por Deus" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E a pedra esta que pus [como] coluna será casa de Deus; e tudo o que me deres, dizimar, sim, dizimarei para ti.",
+      "palavras": [
+        { "hebraico": "וְהָאֶ֨בֶן", "transliteral": "wəhāʾeḇen", "traducao_palavra": "e a pedra" },
+        { "hebraico": "הַזֹּאת֙", "transliteral": "hazzōʾṯ", "traducao_palavra": "esta" },
+        { "hebraico": "אֲשֶׁר־שַׂ֣מְתִּי", "transliteral": "ʾăšer-śamtî", "traducao_palavra": "que pus" },
+        { "hebraico": "מַצֵּבָ֔ה", "transliteral": "maṣṣēḇâ", "traducao_palavra": "coluna" },
+        { "hebraico": "יִהְיֶ֖ה", "transliteral": "yihyeh", "traducao_palavra": "será" },
+        { "hebraico": "בֵּ֣ית", "transliteral": "bêṯ", "traducao_palavra": "casa de" },
+        { "hebraico": "אֱלֹהִ֑ים", "transliteral": "ʾĕlōhîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְכֹל֙", "transliteral": "wəḵōl", "traducao_palavra": "e tudo" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾăšer", "traducao_palavra": "que" },
+        { "hebraico": "תִּתֶּן־לִ֔י", "transliteral": "titten-lî", "traducao_palavra": "deres a mim" },
+        { "hebraico": "עַשֵּׂ֖ר", "transliteral": "ʿaśśēr", "traducao_palavra": "dizimar" },
+        { "hebraico": "אֲעַשְּׂרֶ֥נּוּ", "transliteral": "ʾăʿaśśərennû", "traducao_palavra": "dizimarei" },
+        { "hebraico": "לָֽךְ׃", "transliteral": "lāḵ", "traducao_palavra": "para ti" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "t": [
+        {
+            "palavra": "TARDAR",
+            "veja tambem": [],
+            "ocorrencias": 3,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Daniel 9.19",
+                    "texto": "Senhor, atende-nos e opera sem LT; por amor de"
+                },
+                {
+                    "referencia": "Habacuque 2.3",
+                    "texto": "fim falará, e não mentirá;se T., espera-o,"
+                },
+                {
+                    "referencia": "1 Timóteo 3.15",
+                    "texto": "mas, se T., para que saibas como convém andar na"
+                }
+            ]
+        },
+        {
+            "palavra": "TARDARÁS",
+            "veja tambem": [
+                "tardar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Deuteronômio 23.21",
+                    "texto": "ao Senhor, teu Deus, não T em pagá-lo;"
+                }
+            ]
+        },
+        {
+            "palavra": "TARDAVA",
+            "veja tambem": [
+                "tardar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Êxodo 32.1",
+                    "texto": "vendo o povo que Moisés T; em descer do"
+                }
+            ]
+        }
+    ]
+}

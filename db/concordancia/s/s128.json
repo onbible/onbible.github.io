@@ -1,0 +1,70 @@
+{
+    "s": [
+        {
+            "palavra": "SEJA-LHE",
+            "veja tambem": [
+                "ser"
+            ],
+            "ocorrencias": 4,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 9.26",
+                    "texto": "seja o Senhor, Deus de Sem; e $. Canaã por servo."
+                },
+                {
+                    "referencia": "Gênesis 9.27",
+                    "texto": "e habite nas tendas de Sem; e S. Canaã por servo."
+                },
+                {
+                    "referencia": "Êxodo 12.48",
+                    "texto": "celebrar a Páscoa ao Senhor, 8, circuncidado"
+                },
+                {
+                    "referencia": "Daniel 4.16",
+                    "texto": "mais coração de homem, e S. dado coração de"
+                }
+            ]
+        },
+        {
+            "palavra": "SEJA-ME",
+            "veja tambem": [
+                "ser"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Atos 2.29",
+                    "texto": "Varões irmãos, S. lícito dizer-vos livremente"
+                }
+            ]
+        },
+        {
+            "palavra": "SEJA-VOS",
+            "veja tambem": [
+                "ser"
+            ],
+            "ocorrencias": 4,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Mateus 9.29",
+                    "texto": "os olhos deles, dizendo: S. feito segundo"
+                },
+                {
+                    "referencia": "Atos 2.14",
+                    "texto": "os que habitais em Jerusalém, S. isto"
+                },
+                {
+                    "referencia": "Atos 13.38",
+                    "texto": "S., pois, notório, varões irmãos, que por este"
+                },
+                {
+                    "referencia": "Atos 28.28",
+                    "texto": "S., pois, notório que esta salvação de Deus é"
+                }
+            ]
+        }
+    ]
+}

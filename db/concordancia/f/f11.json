@@ -1,0 +1,48 @@
+{
+    "f": [
+        {
+            "palavra": "FALA-LHE",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "2 Samuel 14.3",
+                    "texto": "E entra ao rei e É conforme esta palavra. E"
+                }
+            ]
+        },
+        {
+            "palavra": "FALA-LHES",
+            "veja tambem": [
+                "falar"
+            ],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "Êxodo 16.12",
+                    "texto": "dos filhos de Israel: E, dizendo: Entre"
+                }
+            ]
+        },
+        {
+            "palavra": "FALADA",
+            "veja tambem": [
+                "falar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Hebreus 2.2",
+                    "texto": "Porque, se a palavra Æ pelos anjos permaneceu"
+                }
+            ]
+        }
+    ]
+}

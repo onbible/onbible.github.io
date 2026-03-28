@@ -1,0 +1,50 @@
+{
+    "f": [
+        {
+            "palavra": "FAZE-TE",
+            "veja tambem": [
+                "fazer"
+            ],
+            "ocorrencias": 5,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Rute 4.11",
+                    "texto": "já valorosamente em Efrata e F nome afamado"
+                },
+                {
+                    "referencia": "Cânticos 2.17",
+                    "texto": "as sombras, volta, amado meu; É semelhante ao"
+                },
+                {
+                    "referencia": "Cânticos 8.14",
+                    "texto": "Vem depressa, amado meu, e É semelhante ao gamo"
+                },
+                {
+                    "referencia": "Miquéias 1.16",
+                    "texto": "E calva e tosquia-te, por causa dos filhos das"
+                },
+                {
+                    "referencia": "Lucas 5.4",
+                    "texto": "de falar, disse a Simão. : ao mar alto, e"
+                }
+            ]
+        },
+        {
+            "palavra": "FAZEDOR",
+            "veja tambem": [],
+            "ocorrencias": 2,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Top 406",
+                    "texto": "posição;"
+                },
+                {
+                    "referencia": "Tiago 1.25",
+                    "texto": "sendo ouvinte esquecido, mas E da obra, este"
+                }
+            ]
+        }
+    ]
+}

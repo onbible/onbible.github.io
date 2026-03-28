@@ -1,0 +1,62 @@
+{
+    "b": [
+        {
+            "palavra": "bolsa",
+            "veja tambem": [],
+            "ocorrencias": 9,
+            "fonte": "Bíblia ARA; Dicionário Bíblico",
+            "concordancias": [
+                {
+                    "referencia": "Deuteronômio 25.13",
+                    "texto": "Na tua B, não terás diversos pesos, um grande e um"
+                },
+                {
+                    "referencia": "Provérbios 1.14",
+                    "texto": "a tua sorte entre nós; teremos todos uma só B.."
+                },
+                {
+                    "referencia": "Provérbios 16.11",
+                    "texto": "são do Senhor; obra sua são todas as pedras da B.."
+                },
+                {
+                    "referencia": "Isaías 46.6",
+                    "texto": "Gastam o ouro da B. e pesam a prata nas balanças;"
+                },
+                {
+                    "referencia": "Lucas 10.4",
+                    "texto": "E não leveis B., nem alforje, nem sandálias; e a"
+                },
+                {
+                    "referencia": "Lucas 22.35",
+                    "texto": "Quando vos mandei sem B., alforje ou"
+                },
+                {
+                    "referencia": "Lucas 22.36",
+                    "texto": "Mas, agora, aquele que tiver B., tome-a, como"
+                },
+                {
+                    "referencia": "Jó 12.6",
+                    "texto": "porque era ladrão, e tinha a B., e tirava o que"
+                },
+                {
+                    "referencia": "Jó 13.29",
+                    "texto": "porque, como Judas tinha a B., pensavam alguns que"
+                }
+            ]
+        },
+        {
+            "palavra": "bolsas",
+            "veja tambem": [
+                "bolsa"
+            ],
+            "ocorrencias": 1,
+            "fonte": "Bíblia ARA; Dicionário Bíblico",
+            "concordancias": [
+                {
+                    "referencia": "Lucas 12.33",
+                    "texto": "esmolas, e fazei para vós B. que não se"
+                }
+            ]
+        }
+    ]
+}

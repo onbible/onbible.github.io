@@ -1,0 +1,606 @@
+{
+    "b": [
+        {
+            "palavra": "boa",
+            "veja tambem": [
+                "bom"
+            ],
+            "ocorrencias": 148,
+            "fonte": "Bíblia ARA; Dicionário Bíblico",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 1.4",
+                    "texto": "E viu Deus que era B, a luz; e fez Deus separação"
+                },
+                {
+                    "referencia": "Gênesis 2.9",
+                    "texto": "árvore agradável à vista e B. para comida, e a"
+                },
+                {
+                    "referencia": "Gênesis 3.6",
+                    "texto": "que aquela árvore era B. para se comer, e"
+                },
+                {
+                    "referencia": "Gênesis 15.15",
+                    "texto": "irás a teus pais em paz; em B. velhice serás sepultado."
+                },
+                {
+                    "referencia": "Gênesis 18.7",
+                    "texto": "e tomou uma vitela tenra e B., e deu-a ao moço, que"
+                },
+                {
+                    "referencia": "Gênesis 25.8",
+                    "texto": "Abraão expirou e morreu em B. velhice, velho e farto"
+                },
+                {
+                    "referencia": "Gênesis 30.20",
+                    "texto": "Leia: Deus me deu a mim uma B. dádiva; desta vez"
+                },
+                {
+                    "referencia": "Gênesis 41.37",
+                    "texto": "E esta palavra foi B. aos olhos de Faraó e aos olhos"
+                },
+                {
+                    "referencia": "Êxodo 3.8",
+                    "texto": "daquela terra a uma terra B, e larga, a uma terra"
+                },
+                {
+                    "referencia": "Ly 27.14",
+                    "texto": "o sacerdote a avaliará, seja B., seja má; como o"
+                },
+                {
+                    "referencia": "Números 13.19",
+                    "texto": "é a terra em que habita, se B, ou má; e quais são as"
+                },
+                {
+                    "referencia": "Números 14.7",
+                    "texto": "pelo meio da qual passamos a espiar é terra muito B.."
+                },
+                {
+                    "referencia": "Deuteronômio 1.25",
+                    "texto": "a dar resposta, e disseram: B. é a terra que nos"
+                },
+                {
+                    "referencia": "Deuteronômio 1.35",
+                    "texto": "maligna geração verá esta B, terra que jurei dar a"
+                },
+                {
+                    "referencia": "Deuteronômio 3.25",
+                    "texto": "passar, para que veja esta B. terra que está dalém"
+                },
+                {
+                    "referencia": "Es 3.25",
+                    "texto": "que está dalém do Jordão, esta B. montanha e o Lí-"
+                },
+                {
+                    "referencia": "Deuteronômio 4.21",
+                    "texto": "Jordão e que não entraria na B. terra que o Senhor,"
+                },
+                {
+                    "referencia": "Deuteronômio 4.22",
+                    "texto": "porém vós o passareis e possuireis aquela B. terra."
+                },
+                {
+                    "referencia": "Deuteronômio 6.18",
+                    "texto": "suceda, e entres, e possuas a B. terra, sobre a qual"
+                },
+                {
+                    "referencia": "Deuteronômio 8.7",
+                    "texto": "teu Deus, te mete numa B. terra, terra de"
+                },
+                {
+                    "referencia": "Deuteronômio 8.10",
+                    "texto": "ao Senhor, teu Deus, pela B. terra que te deu."
+                },
+                {
+                    "referencia": "Deuteronômio 9.6",
+                    "texto": "o Senhor, teu Deus, te dá esta B, terra para"
+                },
+                {
+                    "referencia": "Deuteronômio 11.17",
+                    "texto": "novidade, e cedo pereçais da B, terra que o Senhor"
+                },
+                {
+                    "referencia": "Josué 7.21",
+                    "texto": "vi entre os despojos uma B. capa babilônica, e"
+                },
+                {
+                    "referencia": "Josué 22.33",
+                    "texto": "E pareceu a resposta B, aos olhos dos filhos de"
+                },
+                {
+                    "referencia": "Josué 23.13",
+                    "texto": "olhos; até que pereçais desta B. terra que vos"
+                },
+                {
+                    "referencia": "Josué 23.15",
+                    "texto": "até vos destruir de sobre a B. terra que vos"
+                },
+                {
+                    "referencia": "Josué 23.16",
+                    "texto": "e logo perecereis de sobre a B, terra que vos deu."
+                },
+                {
+                    "referencia": "Juízes 8.25",
+                    "texto": "E disseram eles: De B., mente os daremos. E"
+                },
+                {
+                    "referencia": "Juízes 8.32",
+                    "texto": "Gideão, filho de Joás, numa B. velhice e foi"
+                },
+                {
+                    "referencia": "Juízes 18.9",
+                    "texto": "terra, e eis que é muitíssimo B.; pois estareis"
+                },
+                {
+                    "referencia": "1 Samuel 2.24",
+                    "texto": "filhos meus, porque não é B. fama esta que ouço;"
+                },
+                {
+                    "referencia": "1 Samuel 16.12",
+                    "texto": "e formoso de semblante, e de B. presença). E disse"
+                },
+                {
+                    "referencia": "1 Samuel 21.5",
+                    "texto": "e lhe disse: Sim, em B. fé, as mulheres se"
+                },
+                {
+                    "referencia": "2 Samuel 17.4",
+                    "texto": "E esta palavra pareceu B. aos olhos de Absalão, e"
+                },
+                {
+                    "referencia": "1 Reis 2.38",
+                    "texto": "E Simei disse ao rei: B. é essa palavra; como tem"
+                },
+                {
+                    "referencia": "1 Reis 2.42",
+                    "texto": "que morrerás? E tu me disseste: B. é essa"
+                },
+                {
+                    "referencia": "1 Reis 3.10",
+                    "texto": "E esta palavra pareceu B, aos olhos do Senhor, que"
+                },
+                {
+                    "referencia": "1 Reis 14.13",
+                    "texto": "se achou nele coisa B, para com o Senhor,"
+                },
+                {
+                    "referencia": "1 Reis 14.15",
+                    "texto": "e arrancará a Israel desta B. terra que tinha dado"
+                },
+                {
+                    "referencia": "1 Reis 18.24",
+                    "texto": "E todo o povo respondeu e disse: É B. esta palavra."
+                },
+                {
+                    "referencia": "2 Reis 2.19",
+                    "texto": "disseram a Eliseu: Eis que B. é a habitação desta"
+                },
+                {
+                    "referencia": "2 Reis 20.19",
+                    "texto": "disse Ezequias a Isaías: B. é a palavra do"
+                },
+                {
+                    "referencia": "1 Crônicas 28.8",
+                    "texto": "Deus, para que possuais esta B. terra e a"
+                },
+                {
+                    "referencia": "1 Crônicas 29.28",
+                    "texto": "E morreu numa B. velhice, cheio de dias, riquezas e"
+                },
+                {
+                    "referencia": "Esdras 7.9",
+                    "texto": "chegou a Jerusalém, segundo a B. mão do seu Deus"
+                },
+                {
+                    "referencia": "Esdras 8.18",
+                    "texto": "Etrouxeram-nos, segundo a B. mão de Deus sobre nós,"
+                },
+                {
+                    "referencia": "Esdras 8.31",
+                    "texto": "irmos para Jerusalém; e a B, mão do nosso Deus"
+                },
+                {
+                    "referencia": "Neemias 2.8",
+                    "texto": "E o rei mas deu, segundo a B. mão de Deus"
+                },
+                {
+                    "referencia": "Jó 6.25",
+                    "texto": "fortes são as palavras da B. razão! Mas que é o"
+                },
+                {
+                    "referencia": "Jó 23.4",
+                    "texto": "Com B. ordem exporia ante ele a minha causa e a"
+                },
+                {
+                    "referencia": "Jó 37.19",
+                    "texto": "nós nada poderemos pôr em B. ordem, por causa das"
+                },
+                {
+                    "referencia": "Salmos 51.18",
+                    "texto": "a Sião, segundo a tua B, vontade; edifica os"
+                },
+                {
+                    "referencia": "Si 106.4",
+                    "texto": "mim, Senhor, segundo a tua B, vontade para com o"
+                },
+                {
+                    "referencia": "Provérbios 4.2",
+                    "texto": "Pois dou-vos B. doutrina; não deixeis a minha lei."
+                },
+                {
+                    "referencia": "ry 12.25",
+                    "texto": "coração do homem o abate, mas uma B. palavra o"
+                },
+                {
+                    "referencia": "Provérbios 15.23",
+                    "texto": "da sua boca, e a palavra, a seu tempo, quão b, é!"
+                },
+                {
+                    "referencia": "Provérbios 15.30",
+                    "texto": "olhos alegra o coração; a B. fama engorda os ossos."
+                },
+                {
+                    "referencia": "Provérbios 18.22",
+                    "texto": "uma mulher acha uma coisa B, e alcançou a"
+                },
+                {
+                    "referencia": "Provérbios 31.13",
+                    "texto": "lãe linho e trabalha de B. vontade com as suas mãos."
+                },
+                {
+                    "referencia": "Py 31.18",
+                    "texto": "Prova e vê que é B. sua mercadoria; e a sua lâmpada"
+                },
+                {
+                    "referencia": "Eclesiastes 5.18",
+                    "texto": "Eis aqui o que eu vi, uma B. e bela coisa: comer, e"
+                },
+                {
+                    "referencia": "Eclesiastes 7.1",
+                    "texto": "Melhor é a B. fama do que o melhor unguento, e o dia"
+                },
+                {
+                    "referencia": "Eclesiastes 7.11",
+                    "texto": "Tão B. é a sabedoria como a herança, e dela tiram"
+                },
+                {
+                    "referencia": "Isaías 39.8",
+                    "texto": "disse Ezequias a Isaías: B. é a palavra do"
+                },
+                {
+                    "referencia": "Isaías 41.7",
+                    "texto": "dizendo da coisa soldada: B. é. Então, com"
+                },
+                {
+                    "referencia": "Isaías 50.4",
+                    "texto": "saiba dizer, a seu tempo, uma B, palavra ao que está"
+                },
+                {
+                    "referencia": "Jeremias 29.10",
+                    "texto": "e cumprirei sobre vós a minha B. palavra,"
+                },
+                {
+                    "referencia": "Jeremias 33.14",
+                    "texto": "em que cumprirei a palavra B. que falei à casa de"
+                },
+                {
+                    "referencia": "Jeremias 42.6",
+                    "texto": "Seja ela B. ou seja má, à voz do Senhor, nosso Deus,"
+                },
+                {
+                    "referencia": "Jeremias 42.10",
+                    "texto": "Se de B. mente ficardes nesta terra, então, vos"
+                },
+                {
+                    "referencia": "Ezequiel 17.8",
+                    "texto": "Numa B. terra, à borda de muitas águas, estava ela"
+                },
+                {
+                    "referencia": "Ezequiel 34.14",
+                    "texto": "ali, se deitarão numa B, malhada e pastarão"
+                },
+                {
+                    "referencia": "Oséias 4.13",
+                    "texto": "álamo, e do olmeiro, porque é B, a sua sombra; por"
+                },
+                {
+                    "referencia": "Mateus 7.17",
+                    "texto": "Assim, toda árvore B. produz bons frutos, e toda"
+                },
+                {
+                    "referencia": "Mateus 7.18",
+                    "texto": "Não pode a árvore B. dar maus frutos, nem a árvore"
+                },
+                {
+                    "referencia": "Mateus 12.33",
+                    "texto": "Ou dizeis que a árvore é B. e o seu fruto, bom, ou"
+                },
+                {
+                    "referencia": "Mateus 13.8",
+                    "texto": "E outra caiu em B, terra e deu fruto: um, a cem,"
+                },
+                {
+                    "referencia": "Mateus 13.23",
+                    "texto": "mas o que foi semeado em B. terra é o que ouve e"
+                },
+                {
+                    "referencia": "Mateus 13.24",
+                    "texto": "ao homem que semeia B. semente no seu campo;"
+                },
+                {
+                    "referencia": "Mateus 13.27",
+                    "texto": "não semeaste tu no teu campo B, semente? Por que"
+                },
+                {
+                    "referencia": "Mateus 13.37",
+                    "texto": "disse-lhes: O que semeia a B. semente é o Filho"
+                },
+                {
+                    "referencia": "Mateus 13.38",
+                    "texto": "o campo é o mundo, a B. semente são os filhos do"
+                },
+                {
+                    "referencia": "Mateus 26.10",
+                    "texto": "esta mulher? Pois praticou uma B, ação para comigo."
+                },
+                {
+                    "referencia": "Marcos 4.8",
+                    "texto": "E outra caiu em B. terra e deu fruto, que vingou e"
+                },
+                {
+                    "referencia": "Marcos 4.20",
+                    "texto": "que recebem a semente em B. terra são os que ouvem"
+                },
+                {
+                    "referencia": "Marcos 6.20",
+                    "texto": "muitas coisas, atendendo-o, e de B. vontade o ouvia."
+                },
+                {
+                    "referencia": "Marcos 12.37",
+                    "texto": "seu filho? E a grande multidão o ouvia de B. vontade."
+                },
+                {
+                    "referencia": "Marcos 14.6",
+                    "texto": "Deixai-a, para que a molestais? Ela fez-me B. obra."
+                },
+                {
+                    "referencia": "Lucas 2.14",
+                    "texto": "nas alturas, paz na terra, B. vontade para com os ho-"
+                },
+                {
+                    "referencia": "Lucas 6.38",
+                    "texto": "Dai, e ser-vos-á dado; B. medida, recalcada,"
+                },
+                {
+                    "referencia": "Lucas 643",
+                    "texto": "Porque não há B. árvore que dê mau fruto, nem má"
+                },
+                {
+                    "referencia": "Lucas 8.8",
+                    "texto": "E outra caiu em B. terra e, nascida, produziu fruto,"
+                },
+                {
+                    "referencia": "Lucas 8.15",
+                    "texto": "e a que caiu em B, terra, esses são os que, ouvindo"
+                },
+                {
+                    "referencia": "Lucas 10.42",
+                    "texto": "e Maria escolheu a B. parte, a qual não lhe"
+                },
+                {
+                    "referencia": "Jó 1.46",
+                    "texto": "Pode vir alguma coisa B. de Nazaré? Disse-lhe"
+                },
+                {
+                    "referencia": "Jó 6.21",
+                    "texto": "Então, eles, de B. mente, o receberam no barco; e"
+                },
+                {
+                    "referencia": "Jó 10.33",
+                    "texto": "apedrejamos por alguma obra B., mas pela blasfêmia,"
+                },
+                {
+                    "referencia": "Atos 6.3",
+                    "texto": "dentre vós, sete varões de B. reputação, cheios"
+                },
+                {
+                    "referencia": "Atos 21.17",
+                    "texto": "os irmãos nos receberam de muito B. vontade."
+                },
+                {
+                    "referencia": "Atos 23.1",
+                    "texto": "tenho andado diante de Deus com toda a B. consci-"
+                },
+                {
+                    "referencia": "Romanos 1.10",
+                    "texto": "de Deus, se me ofereça B, ocasião de ir ter convosco."
+                },
+                {
+                    "referencia": "Romanos 7.16",
+                    "texto": "se faço o que não quero, consinto com a lei, que é B,"
+                },
+                {
+                    "referencia": "Romanos 11.24",
+                    "texto": "a natureza, enxertado na B. oliveira, quanto"
+                },
+                {
+                    "referencia": "Romanos 12.2",
+                    "texto": "experimenteis qual seja a B., agradável e"
+                },
+                {
+                    "referencia": "1 Coríntios 5.6",
+                    "texto": "Não é B, a vossa jactância. Não sabeis que um pouco"
+                },
+                {
+                    "referencia": "1 Coríntios 9.17",
+                    "texto": "E, por isso, se o faço de B. mente, terei prêmio;"
+                },
+                {
+                    "referencia": "1 Coríntios 16.12",
+                    "texto": "agora; irá, porém, quando se lhe ofereça B. ocasião"
+                },
+                {
+                    "referencia": "2 Coríntios 6.8",
+                    "texto": "desonra, por infâmia e por B, fama, como"
+                },
+                {
+                    "referencia": "2C09.8",
+                    "texto": "tudo, toda suficiência, superabundeis em toda B. obre"
+                },
+                {
+                    "referencia": "2 Coríntios 11.19",
+                    "texto": "sendo vós sensatos, de B. mente tolerais os insen-"
+                },
+                {
+                    "referencia": "2 Coríntios 12.9",
+                    "texto": "se aperfeiçoa na fraqueza. De B. vontade, pois, me"
+                },
+                {
+                    "referencia": "2 Coríntios 12.15",
+                    "texto": "Eu, de muito B. vontade, gastarei e me deixarei"
+                },
+                {
+                    "referencia": "G16.12",
+                    "texto": "os que querem mostrar B. aparência na carne,"
+                },
+                {
+                    "referencia": "Efésios 4.29",
+                    "texto": "torpe, mas só a que for B, para promover a"
+                },
+                {
+                    "referencia": "Efésios 6.7",
+                    "texto": "servindo de B. vontade como ao Senhor e não como aos"
+                },
+                {
+                    "referencia": "Filipenses 1.6",
+                    "texto": "aquele que em vós começou a B, obra a aperfeiçoará"
+                },
+                {
+                    "referencia": "Ep 1.15",
+                    "texto": "a Cristo por inveja e porfia, mas outros de B, mente;"
+                },
+                {
+                    "referencia": "Filipenses 2.13",
+                    "texto": "o querer como o efetuar, segundo a sua B, vontade."
+                },
+                {
+                    "referencia": "Filipenses 4.8",
+                    "texto": "o que é amável, tudo o que é de B. fama, se há"
+                },
+                {
+                    "referencia": "Colossenses 1.10",
+                    "texto": "tudo, frutificando em toda B. obra e crescendo no"
+                },
+                {
+                    "referencia": "1 Tessalonicenses 2.8",
+                    "texto": "sendo-vos tão afeiçoados, de B. vontade quiséramos"
+                },
+                {
+                    "referencia": "1 Tessalonicenses 3.1",
+                    "texto": "não podendo esperar mais, de B, mente quisemos"
+                },
+                {
+                    "referencia": "YTs 3.6",
+                    "texto": "amor e de como sempre tendes B. lembrança de nós,"
+                },
+                {
+                    "referencia": "2 Tessalonicenses 2.16",
+                    "texto": "em graça nos deu uma eterna consolação e B. espe"
+                },
+                {
+                    "referencia": "2 Tessalonicenses 2.17",
+                    "texto": "coração e vos conforte em toda B, palavra e obra."
+                },
+                {
+                    "referencia": "1 Timóteo 1.5",
+                    "texto": "de um coração puro, e de uma B. consciência, e de"
+                },
+                {
+                    "referencia": "1 Timóteo 1.8",
+                    "texto": "Sabemos, porém, que a lei é B., se alguém dela us:"
+                },
+                {
+                    "referencia": "1 Timóteo 1.18",
+                    "texto": "que houve acerca de ti, milites por elas B. milícia,"
+                },
+                {
+                    "referencia": "1 Timóteo 1.19",
+                    "texto": "conservando a fé e a B, consciência, rejeitando a"
+                },
+                {
+                    "referencia": "1 Timóteo 3.13",
+                    "texto": "adquirirão para si uma B. posição e muita"
+                },
+                {
+                    "referencia": "1 Timóteo 4.4",
+                    "texto": "toda criatura de Deus é B., e não há nada que"
+                },
+                {
+                    "referencia": "Tm 5.10",
+                    "texto": "se socorreu os aflitos, se praticou toda B. obra."
+                },
+                {
+                    "referencia": "1 Timóteo 6.12",
+                    "texto": "Milita a B. milícia da fé, toma posse da vida"
+                },
+                {
+                    "referencia": "1 Timóteo 6.12",
+                    "texto": "foste chamado, tendo já feito B, confissão diante de"
+                },
+                {
+                    "referencia": "1 Timóteo 6.13",
+                    "texto": "de Pôncio Pilatos deu o testemunho de B, confissão"
+                },
+                {
+                    "referencia": "1 Timóteo 6.18",
+                    "texto": "em boas obras, repartam de B. mente e sejam co-"
+                },
+                {
+                    "referencia": "2 Timóteo 2.21",
+                    "texto": "para uso do Senhor e preparado para toda B. obra."
+                },
+                {
+                    "referencia": "2 Timóteo 3.17",
+                    "texto": "perfeito e perfeitamente instruído para toda B. obra"
+                },
+                {
+                    "referencia": "Tito 1.5",
+                    "texto": "Creta, para que pusesses em B, ordem as coisas que"
+                },
+                {
+                    "referencia": "Tito 1.16",
+                    "texto": "e desobedientes, e reprovados para toda B, obra."
+                },
+                {
+                    "referencia": "Tito 2.10",
+                    "texto": "antes, mostrando toda a B. lealdade, para que,"
+                },
+                {
+                    "referencia": "Tito 3.1",
+                    "texto": "lhes obedeçam e estejam preparados para toda B. obra;"
+                },
+                {
+                    "referencia": "Hebreus 13.18",
+                    "texto": "porque confiamos que temos B, consciência, como"
+                },
+                {
+                    "referencia": "Hebreus 13.21",
+                    "texto": "vos aperfeiçoe em toda a B. obra, para fazerdes a"
+                },
+                {
+                    "referencia": "Tiago 1.17",
+                    "texto": "Toda B dádiva e todo dom perfeito vêm do alto,"
+                },
+                {
+                    "referencia": "1 Pedro 3.16",
+                    "texto": "tendo uma B. consciência, para que, naquilo em que"
+                },
+                {
+                    "referencia": "1 Pedro 3.21",
+                    "texto": "carne, mas da indagação de uma B. consciência para"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "f": [
+        {
+            "palavra": "FINS",
+            "veja tambem": [
+                "fim"
+            ],
+            "ocorrencias": 4,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Provérbios 16.4",
+                    "texto": "para os seus próprios É e até ao ímpio, para"
+                },
+                {
+                    "referencia": "Jeremias 16.19",
+                    "texto": "A ti virão as nações desde os F da terra e dirão:"
+                },
+                {
+                    "referencia": "Miquéias 5.4",
+                    "texto": "agora será ele engrandecido até aos F da terra."
+                },
+                {
+                    "referencia": "1 Coríntios 10.11",
+                    "texto": "nosso, para quem já são chegados os E. dos séculos."
+                }
+            ]
+        },
+        {
+            "palavra": "FINTOU",
+            "veja tambem": [],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "2 Reis 23.35",
+                    "texto": "aquele ouro a Faraó; porém E a terra, para dar"
+                }
+            ]
+        }
+    ]
+}

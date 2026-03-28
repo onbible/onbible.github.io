@@ -1,0 +1,946 @@
+{
+    "d": [
+        {
+            "palavra": "DEUSES",
+            "veja tambem": [
+                "deus"
+            ],
+            "ocorrencias": 233,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 31.30",
+                    "texto": "à casa de teu pai, por que furtaste os meus D.?"
+                },
+                {
+                    "referencia": "Gênesis 31.32",
+                    "texto": "Com quem achares os teus D., esse não viva;"
+                },
+                {
+                    "referencia": "Gênesis 35.2",
+                    "texto": "com ele estavam: Tirai os D. estranhos que há"
+                },
+                {
+                    "referencia": "Gênesis 35.4",
+                    "texto": "deram a Jacó todos os D. estranhos que"
+                },
+                {
+                    "referencia": "Êxodo 12.12",
+                    "texto": "animais; e sobre todos os D. do Egito farei"
+                },
+                {
+                    "referencia": "Êxodo 15.11",
+                    "texto": "quem é como tu entre os D.? Quem é como tu,"
+                },
+                {
+                    "referencia": "Êxodo 18.11",
+                    "texto": "é maior que todos os D.; porque na coisa em"
+                },
+                {
+                    "referencia": "Êxodo 20.3",
+                    "texto": "Não terás outros D, diante de mim."
+                },
+                {
+                    "referencia": "Êxodo 20.23",
+                    "texto": "Não fareis outros D, comigo; D. de prata ou"
+                },
+                {
+                    "referencia": "Êxodo 20.23",
+                    "texto": "comigo; D. de prata ou D., de ouro não fareis"
+                },
+                {
+                    "referencia": "Êxodo 22.20",
+                    "texto": "O que sacrificar aos D, e não só ao Senhor será morte"
+                },
+                {
+                    "referencia": "Êxodo 23.13",
+                    "texto": "e do nome de outros D, nem vos"
+                },
+                {
+                    "referencia": "Êxodo 23.24",
+                    "texto": "inclinarás diante dos seus D., nem os servirás,"
+                },
+                {
+                    "referencia": "Êxodo 23.32",
+                    "texto": "farás concerto algum com eles ou com os seus D.."
+                },
+                {
+                    "referencia": "Êxodo 23.33",
+                    "texto": "mim; se servires aos seus D., certamente será"
+                },
+                {
+                    "referencia": "Êxodo 32.1",
+                    "texto": "Levanta-te, faze-nos D, que vão adiante"
+                },
+                {
+                    "referencia": "Êxodo 324",
+                    "texto": "Então, disseram: Estes são teus D,, ó Israel, que"
+                },
+                {
+                    "referencia": "Êxodo 32.8",
+                    "texto": "e disseram: Estes são os teus D., ó Israel, que"
+                },
+                {
+                    "referencia": "Êxodo 32.23",
+                    "texto": "eles me disseram: Faze-nos D. que vão adiante de"
+                },
+                {
+                    "referencia": "Êxodo 32.31",
+                    "texto": "pecou pecado grande, fazendo para si D. de ouro."
+                },
+                {
+                    "referencia": "Êxodo 34.15",
+                    "texto": "se prostituam após os seus D., nem sacrifiquem"
+                },
+                {
+                    "referencia": "Êxodo 34.15",
+                    "texto": "nem sacrifiquem aos seus D., e tu, convidado"
+                },
+                {
+                    "referencia": "Êxodo 34.16",
+                    "texto": "prostituindo-se após os seus D., façam que também"
+                },
+                {
+                    "referencia": "Êxodo 34.16",
+                    "texto": "também teus filhos se prostituam após os seus D.."
+                },
+                {
+                    "referencia": "Êxodo 34.17",
+                    "texto": "Não farás para ti D, de fundição."
+                },
+                {
+                    "referencia": "Levítico 19.4",
+                    "texto": "os ídolos, nem vos fareis D. de fundição. Eu"
+                },
+                {
+                    "referencia": "Iv 26.30",
+                    "texto": "sobre o cadáver dos vossos D,; a minha alma se"
+                },
+                {
+                    "referencia": "Números 25.2",
+                    "texto": "aos sacrifícios dos seus D,; e o povo comeu e"
+                },
+                {
+                    "referencia": "Números 25.2",
+                    "texto": "D.; eo povo comeu e inclinou-se aos seus D.."
+                },
+                {
+                    "referencia": "Números 33.4",
+                    "texto": "o Senhor executado os seus juízos nos seus D.."
+                },
+                {
+                    "referencia": "Deuteronômio 4.7",
+                    "texto": "há tão grande, que tenha D. tão chegados como"
+                },
+                {
+                    "referencia": "Deuteronômio 4.28",
+                    "texto": "E ali servireis a D, que são obra de mãos de"
+                },
+                {
+                    "referencia": "Deuteronômio 5.7",
+                    "texto": "Não terás outros D. diante de mim."
+                },
+                {
+                    "referencia": "Deuteronômio 6.14",
+                    "texto": "Não seguireis outros D., os D. dos povos que"
+                },
+                {
+                    "referencia": "Deuteronômio 6.14",
+                    "texto": "seguireis outros D., os D. dos povos que"
+                },
+                {
+                    "referencia": "Deuteronômio 7.4",
+                    "texto": "para que servissem a outros D,; ea ira do Senhor"
+                },
+                {
+                    "referencia": "Deuteronômio 7.16",
+                    "texto": "e não servirás a seus D., pois isso te"
+                },
+                {
+                    "referencia": "Deuteronômio 7.25",
+                    "texto": "de escultura de seus D. queimarás a fogo; a"
+                },
+                {
+                    "referencia": "Deuteronômio 8.19",
+                    "texto": "teu Deus, e se ouvires outros D., e os"
+                },
+                {
+                    "referencia": "Deuteronômio 10.17",
+                    "texto": "vosso Deus, é o Deus dos D, e o Senhor dos"
+                },
+                {
+                    "referencia": "Deuteronômio 11.16",
+                    "texto": "desvieis, e sirvais a outros D,, e vos inclineis"
+                },
+                {
+                    "referencia": "Deuteronômio 11.28",
+                    "texto": "ordeno, para seguirdes outros D, que não conheces"
+                },
+                {
+                    "referencia": "Deuteronômio 12.2",
+                    "texto": "serviram os seus D., sobre as altas"
+                },
+                {
+                    "referencia": "Deuteronômio 12.3",
+                    "texto": "imagens esculpidas dos seus D., e apagareis o"
+                },
+                {
+                    "referencia": "Deuteronômio 12.30",
+                    "texto": "perguntes acerca dos seus D., dizendo: Assim"
+                },
+                {
+                    "referencia": "Deuteronômio 12.30",
+                    "texto": "serviram estas nações os seus D., do mesmo modo"
+                },
+                {
+                    "referencia": "Deuteronômio 12.31",
+                    "texto": "aborrece fizeram eles a seus D., pois até seus"
+                },
+                {
+                    "referencia": "Deuteronômio 12.31",
+                    "texto": "e suas filhas queimaram com fogo aos seus D.."
+                },
+                {
+                    "referencia": "Deuteronômio 13.2",
+                    "texto": "dizendo: Vamos após outros D., que não"
+                },
+                {
+                    "referencia": "Deuteronômio 13.6",
+                    "texto": "segredo: Vamos e sirvamos a outros D., que não"
+                },
+                {
+                    "referencia": "Deuteronômio 13.7",
+                    "texto": "dentre os D. dos povos que estão em redor de vós,"
+                },
+                {
+                    "referencia": "Deuteronômio 13.13",
+                    "texto": "Vamos e sirvamos a outros D, que não conheceste,"
+                },
+                {
+                    "referencia": "Deuteronômio 17.3",
+                    "texto": "que for, e servir a outros D., e se encurvar a"
+                },
+                {
+                    "referencia": "Deuteronômio 18.20",
+                    "texto": "que falar em nome de outros D., o tal profeta mor"
+                },
+                {
+                    "referencia": "Deuteronômio 20.18",
+                    "texto": "que fizeram a seus D., e pequeis contra"
+                },
+                {
+                    "referencia": "Deuteronômio 28.14",
+                    "texto": "para andares após outros D,, para os servires."
+                },
+                {
+                    "referencia": "Deuteronômio 28.36",
+                    "texto": "pais; e ali servirás a outros D., feitos de"
+                },
+                {
+                    "referencia": "Deuteronômio 28.64",
+                    "texto": "e ali servirás a outros D, que não"
+                },
+                {
+                    "referencia": "Deuteronômio 29.18",
+                    "texto": "nosso Deus, e vá servir aos D. destas nações;"
+                },
+                {
+                    "referencia": "Deuteronômio 29.26",
+                    "texto": "e serviram a outros D., e se inclinaram"
+                },
+                {
+                    "referencia": "Deuteronômio 29.26",
+                    "texto": "e se inclinaram diante deles; D. que os não"
+                },
+                {
+                    "referencia": "Deuteronômio 30.17",
+                    "texto": "para te inclinares a outros D,, e os servires,"
+                },
+                {
+                    "referencia": "Deuteronômio 31.16",
+                    "texto": "e se prostituirá, indo após os D. dos estranhos"
+                },
+                {
+                    "referencia": "Deuteronômio 31.18",
+                    "texto": "que tiver feito, por se haver tornado a outros D,."
+                },
+                {
+                    "referencia": "Deuteronômio 31.20",
+                    "texto": "então, se tornarão a outros D., eos"
+                },
+                {
+                    "referencia": "Deuteronômio 32.16",
+                    "texto": "Com D., estranhos o provocaram a zelos; com"
+                },
+                {
+                    "referencia": "Deuteronômio 32.17",
+                    "texto": "aos diabos, não a Deus; aos D, que não"
+                },
+                {
+                    "referencia": "Deuteronômio 32.17",
+                    "texto": "que não conheceram, novos D. que vieram há"
+                },
+                {
+                    "referencia": "Deuteronômio 32.37",
+                    "texto": "dirá: Onde estão os seus D., a rocha em quem con"
+                },
+                {
+                    "referencia": "Josué 22.22",
+                    "texto": "D., o Senhor, o Deus dos D., o Senhor ele o"
+                },
+                {
+                    "referencia": "Josué 23.7",
+                    "texto": "e dos nomes de seus D, não façais menção,"
+                },
+                {
+                    "referencia": "Josué 23.16",
+                    "texto": "e fordes, e servirdes a outros D., e a eles vos"
+                },
+                {
+                    "referencia": "Josué 24.2",
+                    "texto": "de Abraão e pai de Naor, e serviram a outros D.."
+                },
+                {
+                    "referencia": "Josué 24.14",
+                    "texto": "com verdade, e deitai fora os D. aos quais"
+                },
+                {
+                    "referencia": "Josué 24.15",
+                    "texto": "hoje a quem sirvais: se os D. a quem serviram"
+                },
+                {
+                    "referencia": "Josué 24.15",
+                    "texto": "que estavam dalém do rio, ou os D. dos amorreus,"
+                },
+                {
+                    "referencia": "Josué 24.16",
+                    "texto": "que deixemos o Senhor para servirmos a outros D.;"
+                },
+                {
+                    "referencia": "Josué 24.20",
+                    "texto": "o Senhor e servirdes a D. estranhos, então,"
+                },
+                {
+                    "referencia": "Josué 24.23",
+                    "texto": "Agora, pois, deitai fora os D. estranhos que há"
+                },
+                {
+                    "referencia": "Juízes 2.3",
+                    "texto": "às vossas costas, e os seus D. vos serão por laço."
+                },
+                {
+                    "referencia": "Juízes 2.12",
+                    "texto": "Egito, e foram-se após outros D., dentre os"
+                },
+                {
+                    "referencia": "Juízes 2.17",
+                    "texto": "se prostituíram após outros D. e encurvaram-se a"
+                },
+                {
+                    "referencia": "Juízes 2.19",
+                    "texto": "pais, andando após outros D., servindo-os e"
+                },
+                {
+                    "referencia": "Juízes 3.6",
+                    "texto": "os deles as suas filhas; e serviram a seus D.."
+                },
+                {
+                    "referencia": "Juízes 5.8",
+                    "texto": "E, se escolhia D, novos, logo a guerra estava às"
+                },
+                {
+                    "referencia": "Juízes 6.10",
+                    "texto": "vosso Deus; não temais aos D, dos amorreus, em"
+                },
+                {
+                    "referencia": "Juízes 10.6",
+                    "texto": "baalins, e a Astarote, e aos D. da Síria, e aos"
+                },
+                {
+                    "referencia": "Juízes 10.6",
+                    "texto": "e aos D. de Sidom, e aos D. de Moabe, e"
+                },
+                {
+                    "referencia": "Juízes 10.6",
+                    "texto": "e aos D. de Moabe, e aos D. dos filhos de"
+                },
+                {
+                    "referencia": "Juízes 10.6",
+                    "texto": "D. dos filhos de Amom, e aos D. dos"
+                },
+                {
+                    "referencia": "Juízes 10.13",
+                    "texto": "a mim e servistes a outros D,; pelo que não vos"
+                },
+                {
+                    "referencia": "Juízes 10.16",
+                    "texto": "E tiraram os D. alheios do meio de si e serviram"
+                },
+                {
+                    "referencia": "Juízes 17.5",
+                    "texto": "homem, Mica, uma casa de D., e fez um éfode e"
+                },
+                {
+                    "referencia": "Juízes 18.24",
+                    "texto": "Então, ele disse: Os meus D., que eu fiz, me"
+                },
+                {
+                    "referencia": "Rute 1.15",
+                    "texto": "ao seu povo e aos seus D.; volta tu também"
+                },
+                {
+                    "referencia": "1 Samuel 4.8",
+                    "texto": "da mão destes grandiosos D.? Estes são os"
+                },
+                {
+                    "referencia": "ISm 48",
+                    "texto": "D.? Estes são os D, que feriram os"
+                },
+                {
+                    "referencia": "1 Samuel 7.3",
+                    "texto": "ao Senhor, tirai dentre vós os D. estranhos e os"
+                },
+                {
+                    "referencia": "1 Samuel 8.8",
+                    "texto": "a mim me deixou, e a outros D. serviu, assim"
+                },
+                {
+                    "referencia": "1 Samuel 26.19",
+                    "texto": "herança do Senhor, dizendo: Vai, serve a outros D.."
+                },
+                {
+                    "referencia": "ISm 28.13",
+                    "texto": "a mulher disse a Saul: Vejo D. que sobem da terra."
+                },
+                {
+                    "referencia": "2 Samuel 7.23",
+                    "texto": "do Egito, desterrando as nações e a seus D.?"
+                },
+                {
+                    "referencia": "1 Reis 9.6",
+                    "texto": "fordes, e servirdes a outros D., e vos curvardes"
+                },
+                {
+                    "referencia": "IRs 9.9",
+                    "texto": "seus pais, e se apegaram a D. alheios, e se"
+                },
+                {
+                    "referencia": "IRs 11.2",
+                    "texto": "coração para seguirdes os seus D,. A estas se"
+                },
+                {
+                    "referencia": "1 Reis 11.4",
+                    "texto": "o coração para seguir outros D.; eo seu coração"
+                },
+                {
+                    "referencia": "1 Reis 11.8",
+                    "texto": "quais queimavam incenso e sacrificavam a seus D.."
+                },
+                {
+                    "referencia": "1 Reis 11.10",
+                    "texto": "em seguimento de outros D.; porém não guardou"
+                },
+                {
+                    "referencia": "1 Reis 12.28",
+                    "texto": "a Jerusalém; vês aqui teus D., ó Israel, que"
+                },
+                {
+                    "referencia": "IRs 14.9",
+                    "texto": "ti, e foste, e fizeste outros D. e imagens de"
+                },
+                {
+                    "referencia": "IRs 19.2",
+                    "texto": "dizer-lhe: Assim me façam os D. e outro tanto,"
+                },
+                {
+                    "referencia": "IRs 20.10",
+                    "texto": "e disse: Assim me façam os D. e outro tanto, que"
+                },
+                {
+                    "referencia": "IRs 20.23",
+                    "texto": "da Síria lhe disseram: Seus D. são D. dos"
+                },
+                {
+                    "referencia": "IRs 20.23",
+                    "texto": "disseram: Seus D, são D, dos montes; por"
+                },
+                {
+                    "referencia": "2 Reis 5.17",
+                    "texto": "nem sacrifício a outros D., senão ao Senhor."
+                },
+                {
+                    "referencia": "2 Reis 17.7",
+                    "texto": "mão de Faraó, rei do Egito; e temeram a outros D.."
+                },
+                {
+                    "referencia": "2 Reis 17.29",
+                    "texto": "cada nação fez os seus D., e os puseram nas"
+                },
+                {
+                    "referencia": "2 Reis 17.31",
+                    "texto": "fogo a Adrameleque e a Anameleque, D. de Sefar-"
+                },
+                {
+                    "referencia": "2 Reis 17.33",
+                    "texto": "temiam e também a seus D. serviam, segundo o"
+                },
+                {
+                    "referencia": "2 Reis 17.35",
+                    "texto": "Não temereis a outros D., nem vos"
+                },
+                {
+                    "referencia": "2 Reis 17.37",
+                    "texto": "observar todos os dias; e não temereis a outros D.."
+                },
+                {
+                    "referencia": "2 Reis 17.38",
+                    "texto": "vos não esquecereis; e não temereis a outros D.."
+                },
+                {
+                    "referencia": "2 Reis 18.33",
+                    "texto": "Porventura, os D. das nações puderam livrar, cada"
+                },
+                {
+                    "referencia": "2 Reis 18.34",
+                    "texto": "Que é feito dos D. de Hamate e de Arpade? Que é"
+                },
+                {
+                    "referencia": "2 Reis 18.34",
+                    "texto": "de Arpade? Que é feito dos D. de Sefarvaim, Hena"
+                },
+                {
+                    "referencia": "2 Reis 18.35",
+                    "texto": "são eles dentre todos os D. das terras, os que"
+                },
+                {
+                    "referencia": "2 Reis 19.12",
+                    "texto": "Porventura, as livraram os D. das nações, a quem"
+                },
+                {
+                    "referencia": "2 Reis 19.18",
+                    "texto": "E lançaram os seus D, no fogo, porquanto D."
+                },
+                {
+                    "referencia": "2 Reis 19.18",
+                    "texto": "D. no fogo, porquanto D. não eram, mas obra"
+                },
+                {
+                    "referencia": "2 Reis 22.17",
+                    "texto": "queimaram incenso a outros D., para me provo-"
+                },
+                {
+                    "referencia": "1 Crônicas 5.25",
+                    "texto": "seus pais e foram após os D. dos povos da terra,"
+                },
+                {
+                    "referencia": "1 Crônicas 14.12",
+                    "texto": "E deixaram ali seus D.; e ordenou Davi que se"
+                },
+                {
+                    "referencia": "ICr 16.25",
+                    "texto": "ser louvado, e mais tremendo é do que todos os D.."
+                },
+                {
+                    "referencia": "1 Crônicas 16.26",
+                    "texto": "Porque todos os D. das nações são vaidades; porém"
+                },
+                {
+                    "referencia": "2 Crônicas 2.5",
+                    "texto": "porque o nosso Deus é maior do que todos os D."
+                },
+                {
+                    "referencia": "2 Crônicas 7.19",
+                    "texto": "e fordes, e servirdes a outros D., evos"
+                },
+                {
+                    "referencia": "2 Crônicas 7.22",
+                    "texto": "do Egito, e se deram a outros D., ese"
+                },
+                {
+                    "referencia": "2 Crônicas 13.8",
+                    "texto": "os bezerros de ouro que Jeroboão vos fez para D.."
+                },
+                {
+                    "referencia": "2 Crônicas 13.9",
+                    "texto": "logo se faz sacerdote daqueles que não são D.."
+                },
+                {
+                    "referencia": "2 Crônicas 14.3",
+                    "texto": "tirou os altares dos D, estranhos e os"
+                },
+                {
+                    "referencia": "2 Crônicas 25.14",
+                    "texto": "edomitas, trouxe consigo os D. dos filhos de"
+                },
+                {
+                    "referencia": "2 Crônicas 25.14",
+                    "texto": "de Seir, tomou-os por seus D., e prostrou-se"
+                },
+                {
+                    "referencia": "2 Crônicas 25.15",
+                    "texto": "lhe disse: Por que buscaste D, do povo, que a"
+                },
+                {
+                    "referencia": "2 Crônicas 25.20",
+                    "texto": "inimigos, porquanto buscaram os D. dos edomitas."
+                },
+                {
+                    "referencia": "2 Crônicas 28.23",
+                    "texto": "Porque sacrificou aos D. de Damasco, que o"
+                },
+                {
+                    "referencia": "2 Crônicas 28.23",
+                    "texto": "e disse: Visto que os D. dos reis da"
+                },
+                {
+                    "referencia": "2 Crônicas 28.25",
+                    "texto": "queimar incenso a outros D.; assim provocou à"
+                },
+                {
+                    "referencia": "2 Crônicas 32.13",
+                    "texto": "de qualquer maneira os D. das nações"
+                },
+                {
+                    "referencia": "2 Crônicas 32.14",
+                    "texto": "Qual é, de todos os D, daquelas nações que meus"
+                },
+                {
+                    "referencia": "2 Crônicas 32.17",
+                    "texto": "ele, dizendo: Assim como os D. das nações das"
+                },
+                {
+                    "referencia": "2 Crônicas 32.19",
+                    "texto": "Deus de Jerusalém, como dos D. dos povos da"
+                },
+                {
+                    "referencia": "2 Crônicas 33.15",
+                    "texto": "tirou da Casa do Senhor os D. estranhos e o"
+                },
+                {
+                    "referencia": "2 Crônicas 34.25",
+                    "texto": "incenso perante outros D., para me provocarem"
+                },
+                {
+                    "referencia": "Esdras 1.7",
+                    "texto": "de Jerusalém e que tinha posto na casa de seus D.."
+                },
+                {
+                    "referencia": "S195.3",
+                    "texto": "é Deus grande e Rei grande acima de todos os D.."
+                },
+                {
+                    "referencia": "S196.4",
+                    "texto": "digno de louvor, mais tremendo do que todos os D.."
+                },
+                {
+                    "referencia": "S196.5",
+                    "texto": "Porque todos os D. dos povos são coisas vãs; mas"
+                },
+                {
+                    "referencia": "S197.7",
+                    "texto": "inúteis; prostrai-vos diante dele todos os D.."
+                },
+                {
+                    "referencia": "S197.9",
+                    "texto": "toda a terra; muito mais elevado que todos os D.."
+                },
+                {
+                    "referencia": "Salmos 136.2",
+                    "texto": "Louvai ao Deus dos D.; porque a sua benignidade é"
+                },
+                {
+                    "referencia": "S1138.1",
+                    "texto": "meu coração; na presença dos D. a ti cantarei louvores."
+                },
+                {
+                    "referencia": "Isaías 21.9",
+                    "texto": "as imagens de escultura dos seus D. se quebraram"
+                },
+                {
+                    "referencia": "Isaías 36.18",
+                    "texto": "nos livrará. Porventura, os D. das nações"
+                },
+                {
+                    "referencia": "Isaías 36.19",
+                    "texto": "Onde estão os D. de Hamate e de Arpade? Onde"
+                },
+                {
+                    "referencia": "Isaías 36.19",
+                    "texto": "e de Arpade? Onde estão os D, de Sefarvaim?"
+                },
+                {
+                    "referencia": "Isaías 36.20",
+                    "texto": "são eles, dentre todos os D, desses países, os"
+                },
+                {
+                    "referencia": "Isaías 37.12",
+                    "texto": "Porventura, as livraram os D. das nações que meus"
+                },
+                {
+                    "referencia": "Isaías 37.19",
+                    "texto": "E lançaram no fogo os seus D.; porque D. não"
+                },
+                {
+                    "referencia": "Isaías 37.19",
+                    "texto": "fogo os seus D.; porque D. não eram, senão"
+                },
+                {
+                    "referencia": "Isaías 41.23",
+                    "texto": "para que saibamos que sois D.; fazei bem ou"
+                },
+                {
+                    "referencia": "Isaías 42.17",
+                    "texto": "e dizem às imagens de fundição: Vós sois nossos D.."
+                },
+                {
+                    "referencia": "Jeremias 1.16",
+                    "texto": "a mim, e queimaram incenso a D. estranhos, e se"
+                },
+                {
+                    "referencia": "Jeremias 2.11",
+                    "texto": "nação que trocasse os seus D., posto não serem"
+                },
+                {
+                    "referencia": "Jeremias 2.28",
+                    "texto": "Onde, pois, estão os teus D., que fizeste para"
+                },
+                {
+                    "referencia": "Jeremias 2.28",
+                    "texto": "tua tribulação; porque os teus D., ó Judá, são"
+                },
+                {
+                    "referencia": "Jeremias 5.7",
+                    "texto": "mim e juram pelos que não são D.; depois de os eu"
+                },
+                {
+                    "referencia": "Jeremias 5.19",
+                    "texto": "vós me deixastes e servistes a D, estranhos na"
+                },
+                {
+                    "referencia": "Jeremias 7.6",
+                    "texto": "nem andardes após outros D. para vosso"
+                },
+                {
+                    "referencia": "Jeremias 7.9",
+                    "texto": "a Baal, e andareis após outros D, que não conhecestes,"
+                },
+                {
+                    "referencia": "Jeremias 7.18",
+                    "texto": "e oferecem libações a outros D., para me"
+                },
+                {
+                    "referencia": "Jeremias 10.11",
+                    "texto": "Assim lhes direis: Os D, que não fizeram os céus"
+                },
+                {
+                    "referencia": "Jeremias 11.10",
+                    "texto": "e eles andaram após D. estranhos para os"
+                },
+                {
+                    "referencia": "Jeremias 11.12",
+                    "texto": "de Jerusalém e clamarão aos D. a que eles"
+                },
+                {
+                    "referencia": "Jeremias 11.13",
+                    "texto": "tuas cidades, foram os teus D., ó Judá! E,"
+                },
+                {
+                    "referencia": "Jeremias 13.10",
+                    "texto": "do seu coração e anda após D, alheios, para"
+                },
+                {
+                    "referencia": "Jeremias 16.11",
+                    "texto": "diz o Senhor, e se foram após D. alheios, e os"
+                },
+                {
+                    "referencia": "Jeremias 16.13",
+                    "texto": "vossos pais; e ali servireis a D. estranhos, de"
+                },
+                {
+                    "referencia": "Jeremias 16.20",
+                    "texto": "Fará um homem para si D. que, contudo, não são D.?"
+                },
+                {
+                    "referencia": "Jeremias 16.20",
+                    "texto": "um homem para si D. que, contudo, não são D.?"
+                },
+                {
+                    "referencia": "Jeremias 19.4",
+                    "texto": "queimaram incenso a outros D., que nunca"
+                },
+                {
+                    "referencia": "Jeremias 19.13",
+                    "texto": "dos céus e ofereceram libações a D, estranhos."
+                },
+                {
+                    "referencia": "Jeremias 22.9",
+                    "texto": "e se inclinaram diante de D. alheios, e os serviram."
+                },
+                {
+                    "referencia": "Jeremias 25.6",
+                    "texto": "e não andeis após D. alheios para os servirdes e"
+                },
+                {
+                    "referencia": "Jeremias 32.29",
+                    "texto": "e ofereceram libações a outros D., para me"
+                },
+                {
+                    "referencia": "Jeremias 35.15",
+                    "texto": "vossas ações, e não sigais a outros D. para"
+                },
+                {
+                    "referencia": "Jeremias 43.12",
+                    "texto": "lançarei fogo às casas dos D, do Egito, e ele"
+                },
+                {
+                    "referencia": "Jeremias 43.13",
+                    "texto": "do Egito; e as casas dos D, do Egito queimará."
+                },
+                {
+                    "referencia": "Jeremias 44.3",
+                    "texto": "queimar incenso e servir a D. estranhos, que"
+                },
+                {
+                    "referencia": "Jeremias 44.5",
+                    "texto": "maldade, para não queimarem incenso a D. estranhos."
+                },
+                {
+                    "referencia": "Jeremias 44.8",
+                    "texto": "mãos, queimando incenso a D, estranhos na terra"
+                },
+                {
+                    "referencia": "Jeremias 44.15",
+                    "texto": "queimavam incenso a D. estranhos e todas"
+                },
+                {
+                    "referencia": "Jeremias 46.25",
+                    "texto": "a Faraó, e ao Egito, e aos seus D., e aos seus"
+                },
+                {
+                    "referencia": "Jeremias 48.35",
+                    "texto": "sacrifique nos altos e queime incenso aos seus D.,"
+                },
+                {
+                    "referencia": "Jeremias 50.2",
+                    "texto": "estão os seus ídolos, e caídos estão os seus D.."
+                },
+                {
+                    "referencia": "Daniel 2.11",
+                    "texto": "diante do rei senão os D., cuja morada não"
+                },
+                {
+                    "referencia": "Daniel 2.47",
+                    "texto": "o vosso Deus é Deus dos D., eo Senhor dos"
+                },
+                {
+                    "referencia": "Daniel 3.12",
+                    "texto": "não fizeram caso de ti; a teus D. não servem,"
+                },
+                {
+                    "referencia": "Daniel 3.14",
+                    "texto": "que vós não servis a meus D, nem adorais a"
+                },
+                {
+                    "referencia": "Daniel 3.18",
+                    "texto": "rei, que não serviremos a teus D, nem adoraremos"
+                },
+                {
+                    "referencia": "Daniel 3.25",
+                    "texto": "eo aspecto do quarto é semelhante ao filho dos D.."
+                },
+                {
+                    "referencia": "Daniel 4.8",
+                    "texto": "e no qual há o espírito dos D. santos; e eu"
+                },
+                {
+                    "referencia": "Daniel 4.9",
+                    "texto": "que há em ti o espírito dos D. santos, e nenhum"
+                },
+                {
+                    "referencia": "Daniel 4.18",
+                    "texto": "tu podes; pois há em ti o espírito dos D. santos."
+                },
+                {
+                    "referencia": "Daniel 5.4",
+                    "texto": "vinho e deram louvores aos D, de ouro, de prata,"
+                },
+                {
+                    "referencia": "Daniel 5.11",
+                    "texto": "que tem o espírito dos D, santos; e nos dias"
+                },
+                {
+                    "referencia": "Daniel 5.11",
+                    "texto": "como a sabedoria dos D.; e teu pai, o"
+                },
+                {
+                    "referencia": "Daniel 5.14",
+                    "texto": "que o espírito dos D. está em ti e que a"
+                },
+                {
+                    "referencia": "Daniel 5.23",
+                    "texto": "além disso, deste louvores aos D., de prata, de"
+                },
+                {
+                    "referencia": "Daniel 11.8",
+                    "texto": "E também os seus D., com a multidão das suas"
+                },
+                {
+                    "referencia": "Daniel 11.36",
+                    "texto": "deus; e contra o Deus dos D, falará coisas"
+                },
+                {
+                    "referencia": "Daniel 11.37",
+                    "texto": "E não terá respeito aos D, de seus pais, nem terá"
+                },
+                {
+                    "referencia": "Oséias 3.1",
+                    "texto": "embora eles olhem para outros D. e amem os"
+                },
+                {
+                    "referencia": "Amós 2.8",
+                    "texto": "e na casa de seus D. bebem o vinho dos"
+                },
+                {
+                    "referencia": "Sofonias 2.11",
+                    "texto": "porque aniquilará todos os D. da terra; e todos"
+                },
+                {
+                    "referencia": "Jó 10.34",
+                    "texto": "Não está escrito na vossa lei: Eu disse: sois D.?"
+                },
+                {
+                    "referencia": "Jó 10.35",
+                    "texto": "Pois, se a lei chamou D. àqueles a quem a palavra"
+                },
+                {
+                    "referencia": "Atos 7.40",
+                    "texto": "dizendo a Arão: Faze-nos D. que vão adiante de"
+                },
+                {
+                    "referencia": "Atos 14.11",
+                    "texto": "licaônica: Fizeram-se os D. semelhantes aos"
+                },
+                {
+                    "referencia": "Atos 17.18",
+                    "texto": "Parece que é pregador de D. estranhos."
+                },
+                {
+                    "referencia": "Atos 19.26",
+                    "texto": "multidão, dizendo que não são D. os que se fazem"
+                },
+                {
+                    "referencia": "1 Coríntios 8.5",
+                    "texto": "também alguns que se chamem D., quer no céu quer"
+                },
+                {
+                    "referencia": "1 Coríntios 8.5",
+                    "texto": "quer na terra (como há muitos D, e muitos senhores),"
+                },
+                {
+                    "referencia": "GI 4.8",
+                    "texto": "a Deus, servíeis aos que por natureza não são D.."
+                }
+            ]
+        }
+    ]
+}

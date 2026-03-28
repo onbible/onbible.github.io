@@ -1,0 +1,382 @@
+{
+    "d": [
+        {
+            "palavra": "DIZE",
+            "veja tambem": [
+                "dizer"
+            ],
+            "ocorrencias": 92,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 12.13",
+                    "texto": "D., peço-te, que és minha irmã, para que me vá bem"
+                },
+                {
+                    "referencia": "Gênesis 20.13",
+                    "texto": "em todo o lugar aonde viermos: D, de mim: É meu"
+                },
+                {
+                    "referencia": "Gênesis 45.17",
+                    "texto": "E disse Faraó a José: D. a teus irmãos: Fazei isto:"
+                },
+                {
+                    "referencia": "Êxodo 6.6",
+                    "texto": "Portanto, D, aos filhos de Israel: Eu sou o Senhor,"
+                },
+                {
+                    "referencia": "Êxodo 6.29",
+                    "texto": "dizendo: Eu sou o Senhor; D. a Faraó, rei do"
+                },
+                {
+                    "referencia": "Êxodo 7.19",
+                    "texto": "mais o Senhor a Moisés: D. a Arão: Toma tua"
+                },
+                {
+                    "referencia": "Êxodo 8.5",
+                    "texto": "mais o Senhor a Moisés: D, a Arão: Estende a"
+                },
+                {
+                    "referencia": "Êxodo 8.16",
+                    "texto": "mais o Senhor a Moisés: D, a Arão: Estende a"
+                },
+                {
+                    "referencia": "Êxodo 14.15",
+                    "texto": "Moisés: Por que clamas a mim? D, aos filhos de"
+                },
+                {
+                    "referencia": "Êxodo 16.9",
+                    "texto": "Depois, disse Moisés a Arão: D, a toda a"
+                },
+                {
+                    "referencia": "Êxodo 33.5",
+                    "texto": "Senhor tinha dito a Moisés: D. aos filhos de"
+                },
+                {
+                    "referencia": "Levítico 16.2",
+                    "texto": "pois, o Senhor a Moisés: D. a Arão, teu irmão,"
+                },
+                {
+                    "referencia": "Levítico 22.2",
+                    "texto": "D. a Arão e a seus filhos que se apartem das coisas"
+                },
+                {
+                    "referencia": "Números 5.6",
+                    "texto": "D. aos filhos de Israel: Quando homem ou mulher"
+                },
+                {
+                    "referencia": "Números 16.37",
+                    "texto": "D, a Eleazar, filho de Arão, o sacerdote, que tome"
+                },
+                {
+                    "referencia": "Números 19.2",
+                    "texto": "o Senhor ordenou, dizendo: D. aos filhos de"
+                },
+                {
+                    "referencia": "Números 25.12",
+                    "texto": "Portanto, D.: Eis que lhe dou o meu concerto de"
+                },
+                {
+                    "referencia": "Josué 7.13",
+                    "texto": "santifica o povo e D.: Santificai-vos para"
+                },
+                {
+                    "referencia": "Juízes 12.6",
+                    "texto": "então, lhe diziam: D., pois, chibolete; porém ele"
+                },
+                {
+                    "referencia": "1 Samuel 9.27",
+                    "texto": "cidade, Samuel disse a Saul: D, ao moço que passe"
+                },
+                {
+                    "referencia": "1 Samuel 16.2",
+                    "texto": "bezerra das vacas em tuas mãos e D.: Vim para"
+                },
+                {
+                    "referencia": "2 Samuel 7.5",
+                    "texto": "Vai e D, a meu servo, a Davi: Assim diz o Senhor:"
+                },
+                {
+                    "referencia": "2 Samuel 18.21",
+                    "texto": "Joabe a um cuxita: Vai tu e D. ao rei o que viste."
+                },
+                {
+                    "referencia": "2 Samuel 24.12",
+                    "texto": "Vai e D. a Davi: Assim diz o Senhor: três coisas te"
+                },
+                {
+                    "referencia": "IRs 14.7",
+                    "texto": "Vai e D. a Jeroboão: Assim diz o Senhor, Deus de"
+                },
+                {
+                    "referencia": "1 Reis 18.8",
+                    "texto": "disse-lhe ele: Eu sou; vai e D, a teu senhor: Eis"
+                },
+                {
+                    "referencia": "1 Reis 18.11",
+                    "texto": "E, agora, dizes tu: Vai, D. a teu senhor: Eis que"
+                },
+                {
+                    "referencia": "1 Reis 18.44",
+                    "texto": "do mar. Então, disse ele: Sobe e D, a Acabe:"
+                },
+                {
+                    "referencia": "2 Reis 9.3",
+                    "texto": "sobre a sua cabeça, e D.: Assim diz o"
+                },
+                {
+                    "referencia": "2 Reis 20.5",
+                    "texto": "Volta e D, a Ezequias, chefe do meu povo: Assim diz"
+                },
+                {
+                    "referencia": "1 Crônicas 174",
+                    "texto": "Vai e D. a Davi, meu servo: Assim diz o Senhor: Tu"
+                },
+                {
+                    "referencia": "Ester 5.14",
+                    "texto": "cóvados de altura, e amanhã D. ao rei que"
+                },
+                {
+                    "referencia": "S135.3",
+                    "texto": "aos que me perseguem; D, à minha alma: Eu sou"
+                },
+                {
+                    "referencia": "Provérbios 7.4",
+                    "texto": "D. à Sabedoria: Tu és minha irmã; e à prudência"
+                },
+                {
+                    "referencia": "Isaías 6.9",
+                    "texto": "Então, disse ele: Vai e D. a este povo: Ouvis, de"
+                },
+                {
+                    "referencia": "Isaías 38.5",
+                    "texto": "Vai e D. a Ezequias: Assim diz o Senhor, o Deus de"
+                },
+                {
+                    "referencia": "Isaías 40.9",
+                    "texto": "levanta-a, não temas e D. às cidades de"
+                },
+                {
+                    "referencia": "Jeremias 3.12",
+                    "texto": "para a banda do Norte, e D.: Volta, ó rebelde"
+                },
+                {
+                    "referencia": "H 7.2",
+                    "texto": "proclama ali esta palavra, e D.: Ouvi a palavra do"
+                },
+                {
+                    "referencia": "Jeremias 13.18",
+                    "texto": "D. ao rei e à rainha: Humilhai-vos e assentai-vos"
+                },
+                {
+                    "referencia": "Je 19.3",
+                    "texto": "E D.: Ouvi a palavra do Senhor ó reis de Judá e"
+                },
+                {
+                    "referencia": "Je 22.2",
+                    "texto": "e D.: Ouve a palavra do Senhor, ó rei de Judá, que"
+                },
+                {
+                    "referencia": "Tr 26.2",
+                    "texto": "átrio da Casa do Senhor e D, a todas as cidades"
+                },
+                {
+                    "referencia": "Tr 35.13",
+                    "texto": "o Deus de Israel: Vai e D, aos homens de Judá"
+                },
+                {
+                    "referencia": "Jeremias 48.19",
+                    "texto": "ao que vai fugindo, e à que escapou D.: Que sucedeu?"
+                },
+                {
+                    "referencia": "Ezequiel 6.11",
+                    "texto": "com a mão, e bate como pé, e D.: Ah! Por todas as"
+                },
+                {
+                    "referencia": "Ezequiel 11.16",
+                    "texto": "Portanto, D.: Assim diz o Senhor Jeová: Ainda que"
+                },
+                {
+                    "referencia": "Ezequiel 11.17",
+                    "texto": "Portanto, D.: Assim diz o Senhor Jeová: Hei de"
+                },
+                {
+                    "referencia": "Ezequiel 12.11",
+                    "texto": "D.: Eu sou o vosso maravilhoso sinal. Assim como eu"
+                },
+                {
+                    "referencia": "Ezequiel 13.2",
+                    "texto": "que são profetizadores e D. aos que só"
+                },
+                {
+                    "referencia": "Ezequiel 13.11",
+                    "texto": "D. aos que rebocam de cal não adubada que ela"
+                },
+                {
+                    "referencia": "Ezequiel 14.6",
+                    "texto": "Portanto, D. à casa de Israel: Assim diz o Senhor"
+                },
+                {
+                    "referencia": "Ezequiel 16.3",
+                    "texto": "E D.: Assim diz o Senhor Jeová a Jerusalém: A tua"
+                },
+                {
+                    "referencia": "Ezequiel 17.3",
+                    "texto": "E D.: Assim diz o Senhor Jeová: Uma grande águia,"
+                },
+                {
+                    "referencia": "Ezequiel 17.9",
+                    "texto": "D.: Assim diz o Senhor Jeová: Ela prosperará? Não"
+                },
+                {
+                    "referencia": "Ezequiel 17.12",
+                    "texto": "D., agora, à casa rebelde: Não sabeis o que"
+                },
+                {
+                    "referencia": "Ezequiel 20.30",
+                    "texto": "Portanto, D. à casa de Israel: Assim diz o Senhor"
+                },
+                {
+                    "referencia": "Ezequiel 20.47",
+                    "texto": "E D. ao bosque do Sul: Ouve a palavra do Senhor:"
+                },
+                {
+                    "referencia": "Ezequiel 21.3",
+                    "texto": "E D. à terra de Israel: Assim diz o Senhor: Eis que"
+                },
+                {
+                    "referencia": "Ezequiel 21.9",
+                    "texto": "Filho do homem, profetiza e D.: Assim diz o Senhor:"
+                },
+                {
+                    "referencia": "Ezequiel 21.28",
+                    "texto": "filho do homem, profetiza e D.: Assim diz o Senhor"
+                },
+                {
+                    "referencia": "Ezequiel 21.28",
+                    "texto": "Amom e acerca do seu desprezo; D., pois: A espada,"
+                },
+                {
+                    "referencia": "Ezequiel 22.3",
+                    "texto": "e D.: Assim diz o Senhor Jeová: Ai da cidade que"
+                },
+                {
+                    "referencia": "Ezequiel 24.21",
+                    "texto": "D. à casa de Israel: Assim diz o Senhor Jeová: Eis"
+                },
+                {
+                    "referencia": "Ezequiel 25.3",
+                    "texto": "E D. aos filhos de Amom: Ouvi a palavra do Senhor"
+                },
+                {
+                    "referencia": "Ezequiel 27.3",
+                    "texto": "E D. a Tiro, que habita nas estradas do mar e"
+                },
+                {
+                    "referencia": "Ezequiel 28.2",
+                    "texto": "Filho do homem, D, ao ríncipe de Tiro: Assim diz o"
+                },
+                {
+                    "referencia": "Ezequiel 29.3",
+                    "texto": "Fala e D.: Assim diz o Senhor Jeová: Eis-me contra"
+                },
+                {
+                    "referencia": "Ezequiel 30.2",
+                    "texto": "Filho do homem, profetiza e D.: Assim diz o Senhor"
+                },
+                {
+                    "referencia": "Ezequiel 31.2",
+                    "texto": "Filho do homem, D. a Faraó, rei do Egito, e à sua"
+                },
+                {
+                    "referencia": "Ezequiel 33.10",
+                    "texto": "Tu, pois, filho do homem, D. à casa de Israel:"
+                },
+                {
+                    "referencia": "Ezequiel 33.12",
+                    "texto": "Tu, pois, filho do homem, D. aos filhos do teu"
+                },
+                {
+                    "referencia": "Ezequiel 34.2",
+                    "texto": "de Israel; profetiza e D. aos pastores: Assim"
+                },
+                {
+                    "referencia": "Ezequiel 36.1",
+                    "texto": "aos montes de Israel e D.: Montes de Israel,"
+                },
+                {
+                    "referencia": "Ezequiel 36.3",
+                    "texto": "portanto, profetiza e D.: Assim diz o Senhor Jeová:"
+                },
+                {
+                    "referencia": "Ezequiel 36.6",
+                    "texto": "sobre a terra de Israel e D. aos montes, e aos"
+                },
+                {
+                    "referencia": "Ezequiel 36.22",
+                    "texto": "D., portanto, à casa de Israel: Assim diz o Senhor"
+                },
+                {
+                    "referencia": "Ezequiel 37.9",
+                    "texto": "profetiza, ó filho do homem, e D. ao espírito:"
+                },
+                {
+                    "referencia": "Ezequiel 38.3",
+                    "texto": "E D.: Assim diz o Senhor Jeová: Eis que eu sou"
+                },
+                {
+                    "referencia": "Ezequiel 38.14",
+                    "texto": "ó filho do homem, e D. a Gogue: Assim diz"
+                },
+                {
+                    "referencia": "Ezequiel 39.1",
+                    "texto": "ainda contra Gogue e D.: Assim diz o"
+                },
+                {
+                    "referencia": "Ezequiel 39.17",
+                    "texto": "assim diz o Senhor Jeová: D, às aves de toda"
+                },
+                {
+                    "referencia": "Ezequiel 44.6",
+                    "texto": "E D. aos rebeldes, à casa de Israel: Assim diz o"
+                },
+                {
+                    "referencia": "Daniel 2.4",
+                    "texto": "O rei, vive eternamente! D, o sonho a teus"
+                },
+                {
+                    "referencia": "Daniel 4.18",
+                    "texto": "vi; tu, pois, Beltessazar, D. a"
+                },
+                {
+                    "referencia": "Mateus 8.8",
+                    "texto": "debaixo do meu telhado, mas D. somente uma"
+                },
+                {
+                    "referencia": "Mateus 20.21",
+                    "texto": "Que queres? Ela respondeu: D, que estes meus"
+                },
+                {
+                    "referencia": "Lucas 4.3",
+                    "texto": "Se tu és o Filho de Deus, D. a esta pedra que se"
+                },
+                {
+                    "referencia": "Lucas 7.7",
+                    "texto": "digno de ir ter contigo; D., porém, uma"
+                },
+                {
+                    "referencia": "Lucas 7.42",
+                    "texto": "pagar, perdoou-lhes a ambos. D., pois: qual deles"
+                },
+                {
+                    "referencia": "Lucas 12.13",
+                    "texto": "um da multidão: Mestre, D. a meu irmão que"
+                },
+                {
+                    "referencia": "Atos 28.26",
+                    "texto": "dizendo: Vai a este povo e D.: De ouvido, ouvireis"
+                }
+            ]
+        }
+    ]
+}

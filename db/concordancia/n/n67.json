@@ -1,0 +1,624 @@
+{
+    "n": [
+        {
+            "palavra": "NORTE",
+            "veja tambem": [],
+            "ocorrencias": 153,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 13.14",
+                    "texto": "onde estás, para a banda do N., e do sul, e do"
+                },
+                {
+                    "referencia": "Gênesis 28.14",
+                    "texto": "ocidente, e ao oriente, e ao N., eao sul; e em"
+                },
+                {
+                    "referencia": "Êxodo 26.20",
+                    "texto": "ao outro lado do tabernáculo, para a banda do N.,"
+                },
+                {
+                    "referencia": "Êxodo 26.35",
+                    "texto": "para o sul; e a mesa porás à banda do N.."
+                },
+                {
+                    "referencia": "Êxodo 27.11",
+                    "texto": "Assim também do lado do N. as cortinas na longura"
+                },
+                {
+                    "referencia": "Êxodo 36.25",
+                    "texto": "tábuas ao outro lado do tabernáculo da banda do N.,"
+                },
+                {
+                    "referencia": "Êxodo 38.11",
+                    "texto": "e da banda do N., cortinas de cem côvados; as suas"
+                },
+                {
+                    "referencia": "Êxodo 40.22",
+                    "texto": "ao lado do tabernáculo para o N., fora do véu."
+                },
+                {
+                    "referencia": "Levítico 1.11",
+                    "texto": "do altar, para a banda do N., perante o Senhor;"
+                },
+                {
+                    "referencia": "Números 2.25",
+                    "texto": "de Dã estará para o N., segundo os seus"
+                },
+                {
+                    "referencia": "Números 3.35",
+                    "texto": "suas tendas ao lado do tabernáculo, da banda do N.."
+                },
+                {
+                    "referencia": "Números 34.7",
+                    "texto": "E este vos será o termo do N.: desde o mar Grande"
+                },
+                {
+                    "referencia": "Números 34.9",
+                    "texto": "serão em Hazar-Enã; este vos será o termo do N.."
+                },
+                {
+                    "referencia": "Números 35.5",
+                    "texto": "dois mil côvados, e da banda do N., dois mil"
+                },
+                {
+                    "referencia": "Deuteronômio 2.3",
+                    "texto": "rodeado bastante esta montanha; virai-vos para o N.."
+                },
+                {
+                    "referencia": "Deuteronômio 3.27",
+                    "texto": "teus olhos ao ocidente, e ao N., e ao sul, e ao"
+                },
+                {
+                    "referencia": "Josué 8.11",
+                    "texto": "e alojaram-se da banda do N. de Ai; e havia"
+                },
+                {
+                    "referencia": "Josué 8.13",
+                    "texto": "o arraial que estava ao N, da cidade e a sua"
+                },
+                {
+                    "referencia": "Josué 11.2",
+                    "texto": "e aos reis que estavam ao N., nas montanhas, na"
+                },
+                {
+                    "referencia": "Josué 13.3",
+                    "texto": "até ao termo de Ecrom, parao N., que se conta ser"
+                },
+                {
+                    "referencia": "Josué 15.5",
+                    "texto": "do Jordão; e o termo para o N., será da baía do"
+                },
+                {
+                    "referencia": "Josué 15.6",
+                    "texto": "Bete-Hogla, e passará do N. a Bete-Arabá, e"
+                },
+                {
+                    "referencia": "Josué 15.7",
+                    "texto": "vale de Acor, e olhará pelo N. para Gilgal, a"
+                },
+                {
+                    "referencia": "Josué 15.8",
+                    "texto": "que está no fim do vale dos Refains, da banda do N.."
+                },
+                {
+                    "referencia": "Josué 15.10",
+                    "texto": "monte de Jearim da banda do N.; esta é Quesalom;"
+                },
+                {
+                    "referencia": "Josué 15.11",
+                    "texto": "ao lado de Ecrom para o N., e este termo irá a"
+                },
+                {
+                    "referencia": "Josué 16.6",
+                    "texto": "junto a Micmetate, desde o N., etorna este termo"
+                },
+                {
+                    "referencia": "Josué 17.9",
+                    "texto": "o termo de Manassés estava ao N. do ribeiro,"
+                },
+                {
+                    "referencia": "Josué 17.10",
+                    "texto": "ao sul, e Manassés ao N., eo mar era o seu"
+                },
+                {
+                    "referencia": "Josué 17.10",
+                    "texto": "e o mar era o seu termo; pelo N. tocavam em Aser"
+                },
+                {
+                    "referencia": "Josué 18.5",
+                    "texto": "sul, e a casa de José ficará no seu termo para o N.."
+                },
+                {
+                    "referencia": "Josué 18.12",
+                    "texto": "termo foi para a banda do N., desde o Jordão; e"
+                },
+                {
+                    "referencia": "Josué 18.12",
+                    "texto": "ao lado de Jericó para o N., e subia pela"
+                },
+                {
+                    "referencia": "Josué 18.16",
+                    "texto": "no vale dos Refains, parao N., e descia pelo"
+                },
+                {
+                    "referencia": "Josué 18.17",
+                    "texto": "e ia desde o N., e sata a En-Semes, e dali saía a"
+                },
+                {
+                    "referencia": "Josué 18.18",
+                    "texto": "lado, defronte de Arabá para o N, e descia a Arabá."
+                },
+                {
+                    "referencia": "Josué 18.19",
+                    "texto": "lado de Bete-Hogla para o N., estando as saídas"
+                },
+                {
+                    "referencia": "Josué 18.19",
+                    "texto": "do mar Salgado para o N., na extremidade do"
+                },
+                {
+                    "referencia": "Josué 19.14",
+                    "texto": "tornava este termo para o N. a Hanatom, e as suas"
+                },
+                {
+                    "referencia": "Josué 19.27",
+                    "texto": "e ao vale de Ifta-El, ao N. de Bete-Emeque e"
+                },
+                {
+                    "referencia": "Josué 24.30",
+                    "texto": "está no monte de Efraim, para o N, do monte de Gaás."
+                },
+                {
+                    "referencia": "Juízes 2.9",
+                    "texto": "no monte de Efraim, para oN. dọ monte Gaás."
+                },
+                {
+                    "referencia": "Juízes 12.1",
+                    "texto": "de Efraim, e passaram para o N., e disseram a"
+                },
+                {
+                    "referencia": "Juízes 21.19",
+                    "texto": "em Siló, que se celebra para o N. de Betel, da"
+                },
+                {
+                    "referencia": "1 Samuel 14.5",
+                    "texto": "Uma penha para o N. estava defronte de Micmás, e a"
+                },
+                {
+                    "referencia": "1 Reis 7.25",
+                    "texto": "três que olhavam para o N., e três que olhavam"
+                },
+                {
+                    "referencia": "2 Reis 16.14",
+                    "texto": "Senhor e pô-lo ao lado do seu altar, da banda do N.."
+                },
+                {
+                    "referencia": "1 Crônicas 9.24",
+                    "texto": "ventos: ao oriente, ao ocidente, ao N. e ao sul."
+                },
+                {
+                    "referencia": "1 Crônicas 26.14",
+                    "texto": "conselheiro prudente, e saiu-lhe a sorte do N.."
+                },
+                {
+                    "referencia": "1 Crônicas 26.17",
+                    "texto": "estavam seis levitas; ao N., quatro por dia; ao"
+                },
+                {
+                    "referencia": "2 Crônicas 4.4",
+                    "texto": "três que olhavam para o N., e três que olhavam"
+                },
+                {
+                    "referencia": "Jó 26.7",
+                    "texto": "O N. estende sobre o vazio; suspende a terra sobre"
+                },
+                {
+                    "referencia": "Jó 37.9",
+                    "texto": "recâmaras do sul sai o pé de vento e, do N., o frio."
+                },
+                {
+                    "referencia": "Jó 37.22",
+                    "texto": "o esplendor de ouro vem do N.; pois em Deus há uma"
+                },
+                {
+                    "referencia": "S148.2",
+                    "texto": "Sião sobre os lados do N., a cidade do grande Rei."
+                },
+                {
+                    "referencia": "S189.12",
+                    "texto": "O N. eo Sul, tu os criaste; o Tabor e o Hermom"
+                },
+                {
+                    "referencia": "SI 107.3",
+                    "texto": "das terras do Oriente e do Ocidente, do N, e do Sul."
+                },
+                {
+                    "referencia": "Provérbios 25.23",
+                    "texto": "O vento N. afugenta a chuva, e a língua fingida, a"
+                },
+                {
+                    "referencia": "Eclesiastes 1.6",
+                    "texto": "e faz o seu giro para o N.; continuamente vai"
+                },
+                {
+                    "referencia": "Eclesiastes 11.3",
+                    "texto": "a árvore para o sul ou para o N., no lugar em que"
+                },
+                {
+                    "referencia": "Cânticos 4.16",
+                    "texto": "Levanta-te, vento N., e vem tu, vento sul; assopra"
+                },
+                {
+                    "referencia": "Isaías 14.13",
+                    "texto": "me assentarei, da banda dos lados do XN.."
+                },
+                {
+                    "referencia": "Isaías 14.31",
+                    "texto": "estás toda derretida; porque do N. vem uma"
+                },
+                {
+                    "referencia": "Isaías 41.25",
+                    "texto": "Suscito a um do N., e ele há de vir; desde o"
+                },
+                {
+                    "referencia": "Isaías 43.6",
+                    "texto": "Direi ao N.: Dá; e ao Sul: Não retenhas; trazei"
+                },
+                {
+                    "referencia": "Isaías 49.12",
+                    "texto": "longe, e eis que aqueles, do N. e do Ocidente, e"
+                },
+                {
+                    "referencia": "Jeremias 1.13",
+                    "texto": "panida a ferver, cuja face está para a banda do N.."
+                },
+                {
+                    "referencia": "Jeremias 1.14",
+                    "texto": "É disse-me o Senhor: Do N., se descobrirá o mal"
+                },
+                {
+                    "referencia": "Jeremias 1.15",
+                    "texto": "as famílias dos reinos do N., diz o Senhor; e"
+                },
+                {
+                    "referencia": "Jeremias 3.12",
+                    "texto": "palavras para a banda do N., e dize: Volta, ó"
+                },
+                {
+                    "referencia": "Jeremias 3.18",
+                    "texto": "e virão, juntas, da terra do N,, para a terra"
+                },
+                {
+                    "referencia": "Jeremias 46",
+                    "texto": "porque eu trago um mal do N., uma grande destruição."
+                },
+                {
+                    "referencia": "Jeremias 6.1",
+                    "texto": "porque da banda do N. espreita um mal"
+                },
+                {
+                    "referencia": "Jeremias 6.22",
+                    "texto": "que um povo vem da terra do N., e uma grande nação"
+                },
+                {
+                    "referencia": "Jeremias 10.22",
+                    "texto": "grande tumulto da terra do N., para fazer das"
+                },
+                {
+                    "referencia": "Jeremias 13.20",
+                    "texto": "olhos e vede os que vêm do N.; onde está o rebanho"
+                },
+                {
+                    "referencia": "Jeremias 15.12",
+                    "texto": "alguém quebrar o ferro, o ferro do N., ou o aço?"
+                },
+                {
+                    "referencia": "Jeremias 16.15",
+                    "texto": "filhos de Israel da terra do N. e de todas as"
+                },
+                {
+                    "referencia": "Jeremias 23.8",
+                    "texto": "casa de Israel da terra do N. e de todas as"
+                },
+                {
+                    "referencia": "Jeremias 25.9",
+                    "texto": "a todas as gerações do N., diz o Senhor, como"
+                },
+                {
+                    "referencia": "Jeremias 25.26",
+                    "texto": "e a todos os reis do N., os de perto e os de"
+                },
+                {
+                    "referencia": "Jeremias 31.8",
+                    "texto": "que os trarei da terra do N e os congregarei das"
+                },
+                {
+                    "referencia": "Jeremias 46.6",
+                    "texto": "o herói; para a banda do N., junto à borda do"
+                },
+                {
+                    "referencia": "Jeremias 46.10",
+                    "texto": "tem um sacrifício na terra do N., junto ao rio Eufrates."
+                },
+                {
+                    "referencia": "Jeremias 46.20",
+                    "texto": "é o Egito, mas já vem a destruição; vem do N.."
+                },
+                {
+                    "referencia": "Jeremias 46.24",
+                    "texto": "envergonhada; foi entregue na mão do povo do N.."
+                },
+                {
+                    "referencia": "Jeremias 47.2",
+                    "texto": "que se levantam as águas do N., e tornar-se-ão em"
+                },
+                {
+                    "referencia": "Jeremias 50.3",
+                    "texto": "contra ela uma nação do N., que fará da sua"
+                },
+                {
+                    "referencia": "Jeremias 50.9",
+                    "texto": "grandes nações da terra do N., e se prepararão"
+                },
+                {
+                    "referencia": "Jeremias 50.41",
+                    "texto": "Eis que um povo vem do N., e uma grande nação e"
+                },
+                {
+                    "referencia": "Jeremias 5148",
+                    "texto": "sobre a Babilônia, porque do N. lhe virão os"
+                },
+                {
+                    "referencia": "Ezequiel 14",
+                    "texto": "vento tempestuoso vinha do N., e uma grande"
+                },
+                {
+                    "referencia": "Ezequiel 8.3",
+                    "texto": "de dentro, que olha para o N., onde estava"
+                },
+                {
+                    "referencia": "Ezequiel 8.5",
+                    "texto": "teus olhos para o caminho do N.. E levantei os"
+                },
+                {
+                    "referencia": "Ezequiel 8.5",
+                    "texto": "do N., eeis que da banda do N., à porta do"
+                },
+                {
+                    "referencia": "Ezequiel 8.14",
+                    "texto": "que está da banda do N., e eis que estavam"
+                },
+                {
+                    "referencia": "Ezequiel 9.2",
+                    "texto": "porta alta, que olha para o N., cada um com as"
+                },
+                {
+                    "referencia": "Ezequiel 20.47",
+                    "texto": "se queimarão todos os rostos, desde o Sul até ao N.."
+                },
+                {
+                    "referencia": "Ezequiel 21.4",
+                    "texto": "da bainha contra toda carne, desde o Sul até ao N.."
+                },
+                {
+                    "referencia": "Ezequiel 26.7",
+                    "texto": "rei de Babilônia, desde o N., o rei dos reis,"
+                },
+                {
+                    "referencia": "Ezequiel 32.30",
+                    "texto": "Ali estão os príncipes do N., todos eles, e todos"
+                },
+                {
+                    "referencia": "Ezequiel 38.6",
+                    "texto": "casa de Togarma, da banda do N., e todas as suas"
+                },
+                {
+                    "referencia": "Ezequiel 38.15",
+                    "texto": "do teu lugar, das bandas do N., tu e muitos"
+                },
+                {
+                    "referencia": "Ezequiel 39.2",
+                    "texto": "te farei subir das bandas do N., ete trarei aos"
+                },
+                {
+                    "referencia": "Ezequiel 40.19",
+                    "texto": "por fora: cem côvados da banda do oriente e do N.."
+                },
+                {
+                    "referencia": "Ezequiel 40.20",
+                    "texto": "olhava para o caminho do N., no átrio exterior,"
+                },
+                {
+                    "referencia": "Ezequiel 40.23",
+                    "texto": "defronte da porta do N. e do oriente; e"
+                },
+                {
+                    "referencia": "Ezequiel 40.35",
+                    "texto": "Então, me levou à porta do N, e mediu conforme"
+                },
+                {
+                    "referencia": "Ezequiel 40.40",
+                    "texto": "para a entrada da porta do N. havia duas mesas; e"
+                },
+                {
+                    "referencia": "Ezequiel 40.44",
+                    "texto": "do oriente, a qual olhava para o caminho do N.."
+                },
+                {
+                    "referencia": "Ezequiel 40.46",
+                    "texto": "que olha para o caminho do N, é para os sacerdotes"
+                },
+                {
+                    "referencia": "Ezequiel 41.11",
+                    "texto": "entrada para o caminho do N,, e outra entrada"
+                },
+                {
+                    "referencia": "Ezequiel 42.1",
+                    "texto": "e que estavam defronte do edifício, da banda do N.."
+                },
+                {
+                    "referencia": "Ezequiel 42.2",
+                    "texto": "côvados era a entrada do N.; e a largura era de"
+                },
+                {
+                    "referencia": "Ezequiel 42.4",
+                    "texto": "côvado; e as suas entradas eram para o lado do N.."
+                },
+                {
+                    "referencia": "Ezequiel 42.11",
+                    "texto": "e olhava para o caminho do N.; conforme o seu"
+                },
+                {
+                    "referencia": "Ezequiel 42.13",
+                    "texto": "me disse: As câmaras do N, e as câmaras do"
+                },
+                {
+                    "referencia": "Ezequiel 42.17",
+                    "texto": "Mediu a banda do N.: quinhentas canas com a cana"
+                },
+                {
+                    "referencia": "Ezequiel 44.4",
+                    "texto": "pelo caminho da porta do N., diante da casa; e"
+                },
+                {
+                    "referencia": "Ezequiel 46.9",
+                    "texto": "pelo caminho da porta do N., para adorar,"
+                },
+                {
+                    "referencia": "Ezequiel 46.9",
+                    "texto": "sairá pelo caminho da porta do N.; não tornará"
+                },
+                {
+                    "referencia": "Ezequiel 46.19",
+                    "texto": "as quais olhavam para o N.; e eis que ali"
+                },
+                {
+                    "referencia": "Ezequiel 47.2",
+                    "texto": "pelo caminho da porta do N. e me fez dar uma"
+                },
+                {
+                    "referencia": "Ezequiel 47.15",
+                    "texto": "termo da terra, da banda do N,: desde o mar"
+                },
+                {
+                    "referencia": "Ezequiel 47.17",
+                    "texto": "de Damasco, e na direção do N. está o termo de"
+                },
+                {
+                    "referencia": "Ezequiel 47.17",
+                    "texto": "está o termo de Hamate; este será o termo do N.."
+                },
+                {
+                    "referencia": "Ezequiel 47.18",
+                    "texto": "será o Jordão; desde o termo do N., até ao mar do"
+                },
+                {
+                    "referencia": "Ezequiel 48.1",
+                    "texto": "desde a parte extrema do N., da banda do"
+                },
+                {
+                    "referencia": "Ezequiel 48.1",
+                    "texto": "no termo de Damasco, para o N., ao pé de"
+                },
+                {
+                    "referencia": "Ezequiel 48.10",
+                    "texto": "será dos sacerdotes; para o N. vinte e cinco mil"
+                },
+                {
+                    "referencia": "Ezequiel 48.16",
+                    "texto": "as suas medidas: a banda do N., de quatro mil e"
+                },
+                {
+                    "referencia": "Ezequiel 48.17",
+                    "texto": "da cidade serão, para o N., de duzentas e"
+                },
+                {
+                    "referencia": "Ezequiel 48.30",
+                    "texto": "da cidade, desde a banda do N.: quatro mil e"
+                },
+                {
+                    "referencia": "Ezequiel 48.31",
+                    "texto": "Israel: três portas parao N.: a porta de Rúben,"
+                },
+                {
+                    "referencia": "Daniel 8.4",
+                    "texto": "para o ocidente, e para o N., e para o meio-dia;"
+                },
+                {
+                    "referencia": "Daniel 11.6",
+                    "texto": "do rei do Sul virá ao rei do N. para fazer um"
+                },
+                {
+                    "referencia": "Daniel 11.7",
+                    "texto": "nas fortalezas do rei do N., e operará"
+                },
+                {
+                    "referencia": "Daniel 11.8",
+                    "texto": "por alguns anos, ele persistirá contra o rei do N.."
+                },
+                {
+                    "referencia": "Daniel 11.11",
+                    "texto": "contra ele, contra o rei do N.; ele porá em"
+                },
+                {
+                    "referencia": "Daniel 11.13",
+                    "texto": "Porque o rei do N. tornará, e porá em campo uma"
+                },
+                {
+                    "referencia": "Daniel 11.15",
+                    "texto": "E o rei do N, virá, e levantará baluartes, e"
+                },
+                {
+                    "referencia": "Daniel 11.40",
+                    "texto": "lutará com ele, e o rei do N. o acometerá com"
+                },
+                {
+                    "referencia": "Daniel 11.44",
+                    "texto": "os rumores do Oriente e do N., o espantarão; e"
+                },
+                {
+                    "referencia": "Ji 2.20",
+                    "texto": "E aquele que é do N. farei partir para longe de"
+                },
+                {
+                    "referencia": "Amós 8.12",
+                    "texto": "um mar até outro mar e do N. até ao Oriente;"
+                },
+                {
+                    "referencia": "Sofonias 2.13",
+                    "texto": "também a sua mão contra o N., e destruirá a"
+                },
+                {
+                    "referencia": "Zacarias 26",
+                    "texto": "Oh! Fugi, agora, da terra do N., diz o Senhor,"
+                },
+                {
+                    "referencia": "Zacarias 66",
+                    "texto": "pretos sai para a terra do N., e os brancos saem"
+                },
+                {
+                    "referencia": "Zacarias 68",
+                    "texto": "que saíram para a terra do N. fizeram repousar o"
+                },
+                {
+                    "referencia": "Zacarias 6.8",
+                    "texto": "fizeram repousar o meu Espírito na terra do N.."
+                },
+                {
+                    "referencia": "Zacarias 14.4",
+                    "texto": "do monte se apartará para o N., ea outra"
+                },
+                {
+                    "referencia": "Lucas 13.29",
+                    "texto": "Oriente, e do Ocidente, e do N., e do Sul e"
+                },
+                {
+                    "referencia": "Apocalipse 21.13",
+                    "texto": "três portas; da banda do N., três portas; da"
+                }
+            ]
+        }
+    ]
+}

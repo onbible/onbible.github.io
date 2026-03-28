@@ -1,0 +1,265 @@
+{
+    "p": [
+        {
+            "palavra": "PERGUNTEI",
+            "veja tambem": [
+                "perguntar"
+            ],
+            "ocorrencias": 3,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 24.47",
+                    "texto": "Então, lhe P. e disse: De quem és filha? E ela"
+                },
+                {
+                    "referencia": "Juízes 13.6",
+                    "texto": "Deus, terribilíssima; e não lhe P. de onde"
+                },
+                {
+                    "referencia": "Atos 25.20",
+                    "texto": "da inquirição desta causa, P. se queria ir a"
+                }
+            ]
+        },
+        {
+            "palavra": "PERGUNTEI-LHES",
+            "veja tambem": [
+                "perguntar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Neemias 1.2",
+                    "texto": "ele e alguns de Judá; e P pelos"
+                }
+            ]
+        },
+        {
+            "palavra": "PERGUNTEIS",
+            "veja tambem": [
+                "perguntar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Lucas 12.29",
+                    "texto": "Não P, pois, que haveis de comer ou que"
+                }
+            ]
+        },
+        {
+            "palavra": "PERGUNTEMOS-LHO",
+            "veja tambem": [
+                "perguntar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 24.57",
+                    "texto": "E disseram: Chamemos a donzela e P.."
+                }
+            ]
+        },
+        {
+            "palavra": "PERGUNTES",
+            "veja tambem": [
+                "perguntar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Deuteronômio 12.30",
+                    "texto": "diante de ti; e que não P. acerca dos"
+                }
+            ]
+        },
+        {
+            "palavra": "PERGUNTO",
+            "veja tambem": [
+                "perguntar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Atos 10.29",
+                    "texto": "chamado, vim sem contradizer. P., pois: por que"
+                }
+            ]
+        },
+        {
+            "palavra": "PERGUNTO-TE",
+            "veja tambem": [
+                "perguntar"
+            ],
+            "ocorrencias": 1,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Jeremias 38.14",
+                    "texto": "e disse o rei a Jeremias: P. uma"
+                }
+            ]
+        },
+        {
+            "palavra": "PERGUNTOU",
+            "veja tambem": [
+                "perguntar",
+                "perguntar"
+            ],
+            "ocorrencias": 36,
+            "fonte": "",
+            "concordancias": [
+                {
+                    "referencia": "Gênesis 32.29",
+                    "texto": "E Jacó lhe P. e disse: Dá-me, peço-te, a saber"
+                },
+                {
+                    "referencia": "Gênesis 38.21",
+                    "texto": "E P. aos homens daquele lugar, dizendo: Onde"
+                },
+                {
+                    "referencia": "Gênesis 40.7",
+                    "texto": "Então, P, aos eunucos de Faraó, que com ele"
+                },
+                {
+                    "referencia": "Gênesis 43.7",
+                    "texto": "varão particularmente nos P, por nós e pela"
+                },
+                {
+                    "referencia": "Gênesis 43.27",
+                    "texto": "E ele lhes P, como estavam e disse: Vosso pai,"
+                },
+                {
+                    "referencia": "Gênesis 44.19",
+                    "texto": "Meu senhor P. a seus servos, dizendo: Tendes"
+                },
+                {
+                    "referencia": "1 Samuel 17.22",
+                    "texto": "à batalha; e, chegando, P, a seus irmãos"
+                },
+                {
+                    "referencia": "1 Samuel 28.6",
+                    "texto": "E P. Saul ao Senhor, porém o Senhor lhe não"
+                },
+                {
+                    "referencia": "2 Samuel 11.3",
+                    "texto": "E enviou Davi e P, por aquela mulher; e"
+                },
+                {
+                    "referencia": "2 Samuel 11.7",
+                    "texto": "Vindo, pois, Urias a ele, P, Davi como ficava"
+                },
+                {
+                    "referencia": "2 Reis 8.6",
+                    "texto": "E o rei P, à mulher, e ela lho contou; então,"
+                },
+                {
+                    "referencia": "2 Crônicas 31.9",
+                    "texto": "E P, Ezequias aos sacerdotes e aos levitas"
+                },
+                {
+                    "referencia": "Ester 1.13",
+                    "texto": "Então, B o rei aos sábios que entendiam dos"
+                },
+                {
+                    "referencia": "Jeremias 37.17",
+                    "texto": "soltá-lo. Então, o rei lhe P, em sua casa,"
+                },
+                {
+                    "referencia": "Marcos 6.24",
+                    "texto": "E, saindo ela, P, à sua mãe: Que pedirei? E"
+                },
+                {
+                    "referencia": "Marcos 8.27",
+                    "texto": "de Filipe; e, no caminho, P, aos seus"
+                },
+                {
+                    "referencia": "Marcos 9.16",
+                    "texto": "E P. aos escribas: Que é que discutis com eles?"
+                },
+                {
+                    "referencia": "Marcos 9.21",
+                    "texto": "E P, ao pai dele: Quanto tempo há que lhe"
+                },
+                {
+                    "referencia": "Marcos 10.17",
+                    "texto": "se ajoelhou diante dele e lhe B: Bom Mestre,"
+                },
+                {
+                    "referencia": "Marcos 14.60",
+                    "texto": "sumo sacerdote no Sinédrio, P, a Jesus,"
+                },
+                {
+                    "referencia": "Marcos 15.2",
+                    "texto": "E Pilatos lhe P.: Tu és o Rei dos judeus? E"
+                },
+                {
+                    "referencia": "Lucas 18.36",
+                    "texto": "E, ouvindo passar a multidão, P, que era aquilo."
+                },
+                {
+                    "referencia": "Lucas 23.6",
+                    "texto": "ouvindo falar da Galileia, P. se aquele"
+                },
+                {
+                    "referencia": "Lucas 24.19",
+                    "texto": "E ele Ihes P.: Quais? E eles lhe disseram: As"
+                },
+                {
+                    "referencia": "Atos 21.33",
+                    "texto": "atar com duas cadeias, e lhe P quem era e o"
+                },
+                {
+                    "referencia": "Atos 23.34",
+                    "texto": "o governador lida a carta, P. de que"
+                },
+                {
+                    "referencia": "Gênesis 37.15",
+                    "texto": "andava errado pelo campo, e P. o varão,"
+                },
+                {
+                    "referencia": "Marcos 8.23",
+                    "texto": "olhos e impondo-lhe as mãos, P. se via"
+                },
+                {
+                    "referencia": "Marcos 12.28",
+                    "texto": "lhes tinha respondido bem, P.: Qual é o"
+                },
+                {
+                    "referencia": "Marcos 1544",
+                    "texto": "E, chamando o centurião, P, se já"
+                },
+                {
+                    "referencia": "Lucas 8.30",
+                    "texto": "E P, Jesus, dizendo: Qual é o teu nome? E"
+                },
+                {
+                    "referencia": "Lucas 15.26",
+                    "texto": "E, chamando um dos servos, P, que era aquilo."
+                },
+                {
+                    "referencia": "Lucas 18.18",
+                    "texto": "E P um certo príncipe, dizendo: Bom"
+                },
+                {
+                    "referencia": "Le 1840",
+                    "texto": "que lho trouxessem; e, chegando ele, P,"
+                },
+                {
+                    "referencia": "Lucas 23.3",
+                    "texto": "E Pilatos P., dizendo: Tu és o Rei dos"
+                },
+                {
+                    "referencia": "Atos 23.19",
+                    "texto": "pela mão e pondo-se à parte, P em"
+                }
+            ]
+        }
+    ]
+}

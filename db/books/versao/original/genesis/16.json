@@ -1,0 +1,281 @@
+{
+  "livro": "Gênesis - בְּרֵאשִׁית - Bereshit",
+  "capítulo": 16,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Ora Sarai, mulher de Abrão, não lhe gerava filhos, e ele tinha uma serva egípcia, cujo nome era Agar.",
+      "palavras": [
+        { "hebraico": "וְשָׂרַי֙", "transliteral": "wəśāray", "traducao_palavra": "E Sarai" },
+        { "hebraico": "אֵ֣שֶׁת אַבְרָ֔ם", "transliteral": "ʾēšeṯ ʾaḇrām", "traducao_palavra": "mulher de Abrão" },
+        { "hebraico": "לֹ֥א", "transliteral": "lōʾ", "traducao_palavra": "não" },
+        { "hebraico": "יָלְדָ֖ה", "transliteral": "yāləḏâ", "traducao_palavra": "gerou/dera à luz" },
+        { "hebraico": "לֹ֑ו", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "וְלָהּ֙", "transliteral": "wəlāh", "traducao_palavra": "e para ela [havia]" },
+        { "hebraico": "שִׁפְחָ֣ה", "transliteral": "šip̱əḥâ", "traducao_palavra": "uma serva" },
+        { "hebraico": "מִצְרִ֔ית", "transliteral": "miṣrîṯ", "traducao_palavra": "egípcia" },
+        { "hebraico": "וּשְׁמָ֖הּ", "transliteral": "ûšəmāh", "traducao_palavra": "e seu nome [era]" },
+        { "hebraico": "הָגָֽר׃", "transliteral": "hāḡār", "traducao_palavra": "Agar" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E disse Sarai a Abrão: Eis que o SENHOR me impediu de gerar; entra, pois, à minha serva; porventura terei filhos dela. E ouviu Abrão a voz de Sarai.",
+      "palavras": [
+        { "hebraico": "וַתֹּ֨אמֶר", "transliteral": "wattōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "שָׂרַ֜י", "transliteral": "śāray", "traducao_palavra": "Sarai" },
+        { "hebraico": "אֶל־אַבְרָ֗ם", "transliteral": "ʾel-ʾaḇrām", "traducao_palavra": "a Abrão" },
+        { "hebraico": "הִנֵּה־נָ֞א", "transliteral": "hinnēh-nāʾ", "traducao_palavra": "Eis agora" },
+        { "hebraico": "עֲצָרַ֤נִי", "transliteral": "ʿăṣāranî", "traducao_palavra": "impediu-me" },
+        { "hebraico": "יְהוָה֙", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מִלֶּ֔דֶת", "transliteral": "milleḏeṯ", "traducao_palavra": "de gerar" },
+        { "hebraico": "בֹּא־נָא֙", "transliteral": "bōʾ-nāʾ", "traducao_palavra": "entra, peço" },
+        { "hebraico": "אֶל־שִׁפְחָתִ֔י", "transliteral": "ʾel-šip̱əḥāṯî", "traducao_palavra": "para minha serva" },
+        { "hebraico": "א֧וּלַי", "transliteral": "ʾûlay", "traducao_palavra": "quem sabe/talvez" },
+        { "hebraico": "אִבָּנֶ֖ה", "transliteral": "ʾibbāneh", "traducao_palavra": "serei edificada" },
+        { "hebraico": "מִמֶּ֑נָּה", "transliteral": "mimmennâ", "traducao_palavra": "através dela" },
+        { "hebraico": "וַיִּשְׁמַ֥ע", "transliteral": "wayyišmaʿ", "traducao_palavra": "e ouviu" },
+        { "hebraico": "אַבְרָ֖ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "לְקֹ֥ול", "transliteral": "ləqôl", "traducao_palavra": "a voz de" },
+        { "hebraico": "שָׂרָֽי׃", "transliteral": "śārāy", "traducao_palavra": "Sarai" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Assim tomou Sarai, mulher de Abrão, a Agar egípcia, sua serva, ao fim de dez anos que Abrão habitara na terra de Canaã, e deu-a por mulher a Abrão seu marido.",
+      "palavras": [
+        { "hebraico": "וַתִּקַּ֞ח", "transliteral": "wattiqqaḥ", "traducao_palavra": "E tomou" },
+        { "hebraico": "שָׂרַ֣י", "transliteral": "śāray", "traducao_palavra": "Sarai" },
+        { "hebraico": "אֵֽשֶׁת־אַבְרָ֗ם", "transliteral": "ʾēšeṯ-ʾaḇrām", "traducao_palavra": "mulher de Abrão" },
+        { "hebraico": "אֶת־הָגָ֣ר", "transliteral": "ʾeṯ-hāḡār", "traducao_palavra": "[obj] Agar" },
+        { "hebraico": "הַמִּצְרִית֙", "transliteral": "hammiṣrîṯ", "traducao_palavra": "a egípcia" },
+        { "hebraico": "שִׁפְחָתָ֔הּ", "transliteral": "šip̱əḥāṯāh", "traducao_palavra": "sua serva" },
+        { "hebraico": "מִקֵּץ֙", "transliteral": "miqqēṣ", "traducao_palavra": "ao fim de" },
+        { "hebraico": "עֶ֣שֶׂר", "transliteral": "ʿeśer", "traducao_palavra": "dez" },
+        { "hebraico": "שָׁנִ֔ים", "transliteral": "šānîm", "traducao_palavra": "anos" },
+        { "hebraico": "לְשֶׁ֥בֶת", "transliteral": "ləšeḇeṯ", "traducao_palavra": "de habitar" },
+        { "hebraico": "אַבְרָ֖ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "בְּאֶ֣רֶץ", "transliteral": "bəʾereṣ", "traducao_palavra": "na terra de" },
+        { "hebraico": "כְּנָ֑עַן", "transliteral": "kənaʿan", "traducao_palavra": "Canaã" },
+        { "hebraico": "וַתִּתֵּ֥ן", "transliteral": "wattittēn", "traducao_palavra": "e deu" },
+        { "hebraico": "אֹתָ֛הּ", "transliteral": "ʾōṯāh", "traducao_palavra": "ela" },
+        { "hebraico": "לְאַבְרָ֥ם", "transliteral": "ləʾaḇrām", "traducao_palavra": "a Abrão" },
+        { "hebraico": "אִישָׁ֖הּ", "transliteral": "ʾîšāh", "traducao_palavra": "seu marido" },
+        { "hebraico": "לֹ֥ו", "transliteral": "lô", "traducao_palavra": "lhe" },
+        { "hebraico": "לְאִשָּֽׁה׃", "transliteral": "ləʾiššâ", "traducao_palavra": "por mulher" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E ele possuiu a Agar, e ela concebeu; e vendo ela que concebera, foi sua senhora desprezada aos seus olhos.",
+      "palavras": [
+        { "hebraico": "וַיָּבֹ֥א", "transliteral": "wayyāḇôʾ", "traducao_palavra": "E veio [entrou]" },
+        { "hebraico": "אֶל־הָגָ֖ר", "transliteral": "ʾel-hāḡār", "traducao_palavra": "a Agar" },
+        { "hebraico": "וַתַּ֑הַר", "transliteral": "wattahar", "traducao_palavra": "e concebeu" },
+        { "hebraico": "וַתֵּ֙רֶא֙", "transliteral": "wattēreʾ", "traducao_palavra": "e vendo" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "הָרָ֔תָה", "transliteral": "hārāṯâ", "traducao_palavra": "concebera" },
+        { "hebraico": "וַתֵּקַ֥ל", "transliteral": "wattēqal", "traducao_palavra": "e foi leve/desprezada" },
+        { "hebraico": "גְּבִרְתָּ֖הּ", "transliteral": "ḡəḇirttāh", "traducao_palavra": "sua senhora" },
+        { "hebraico": "בְּעֵינֶֽיהָ׃", "transliteral": "bəʿêneyhā", "traducao_palavra": "em seus olhos" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Então disse Sarai a Abrão: Meu agravo seja sobre ti; eu pus a minha serva em teu seio; vendo ela agora que concebeu, sou desprezada aos seus olhos; o SENHOR julgue entre mim e ti.",
+      "palavras": [
+        { "hebraico": "וַתֹּ֨אמֶר", "transliteral": "wattōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "שָׂרַ֣י", "transliteral": "śāray", "traducao_palavra": "Sarai" },
+        { "hebraico": "אֶל־אַבְרָם֮", "transliteral": "ʾel-ʾaḇrām", "traducao_palavra": "a Abrão" },
+        { "hebraico": "חֲמָסִ֣י", "transliteral": "ḥămāsî", "traducao_palavra": "minha violência/agravo" },
+        { "hebraico": "עָלֶיךָ֒", "transliteral": "ʿāleyḵā", "traducao_palavra": "[seja] sobre ti" },
+        { "hebraico": "אָנֹכִ֗י", "transliteral": "ʾānōḵî", "traducao_palavra": "eu" },
+        { "hebraico": "נָתַ֤תִּי", "transliteral": "nāṯattî", "traducao_palavra": "pus/dei" },
+        { "hebraico": "שִׁפְחָתִי֙", "transliteral": "šip̱əḥāṯî", "traducao_palavra": "minha serva" },
+        { "hebraico": "בְּחֵיקֶ֔ךָ", "transliteral": "bəḥêqeqā", "traducao_palavra": "em teu seio" },
+        { "hebraico": "וַתֵּ֙רֶא֙", "transliteral": "wattēreʾ", "traducao_palavra": "e ela vendo" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "הָרָ֔תָה", "transliteral": "hārāṯâ", "traducao_palavra": "concebera" },
+        { "hebraico": "וָאֵקַ֖ל", "transliteral": "wāʾēqal", "traducao_palavra": "e fui leve/desprezada" },
+        { "hebraico": "בְּעֵינֶ֑יהָ", "transliteral": "bəʿêneyhā", "traducao_palavra": "em seus olhos" },
+        { "hebraico": "יִשְׁפֹּ֥ט", "transliteral": "yišppōṭ", "traducao_palavra": "julgue" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בֵּינִ֥י", "transliteral": "bênî", "traducao_palavra": "entre mim" },
+        { "hebraico": "וּבֵינֶֽיךָ׃", "transliteral": "ûḇêneyḵā", "traducao_palavra": "e entre ti" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E disse Abrão a Sarai: Eis que tua serva está na tua mão; faze-lhe o que for bom aos teus olhos. E afligiu-a Sarai, e ela fugiu de sua face.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "אַבְרָ֜ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "אֶל־שָׂרַ֗י", "transliteral": "ʾel-śāray", "traducao_palavra": "a Sarai" },
+        { "hebraico": "הִנֵּ֤ה", "transliteral": "hinnēh", "traducao_palavra": "Eis" },
+        { "hebraico": "שִׁפְחָתֵךְ֙", "transliteral": "šip̱əḥāṯēḵ", "traducao_palavra": "tua serva" },
+        { "hebraico": "בְּיָדֵ֔ךְ", "transliteral": "bəyāḏēḵ", "traducao_palavra": "[está] em tua mão" },
+        { "hebraico": "עֲשִׂי־לָ֖הּ", "transliteral": "ʿăśî-lāh", "traducao_palavra": "faze a ela" },
+        { "hebraico": "הַטֹּ֣וב", "transliteral": "haṭṭôḇ", "traducao_palavra": "o bom" },
+        { "hebraico": "בְּעֵינָ֑יִךְ", "transliteral": "bəʿênāyiḵ", "traducao_palavra": "em teus olhos" },
+        { "hebraico": "וַתְּעַנֶּ֣הָ", "transliteral": "wattəʿannehā", "traducao_palavra": "e afligiu-a" },
+        { "hebraico": "שָׂרַ֔י", "transliteral": "śāray", "traducao_palavra": "Sarai" },
+        { "hebraico": "וַתִּבְרַ֖ח", "transliteral": "wattibraḥ", "traducao_palavra": "e fugiu ela" },
+        { "hebraico": "מִפָּנֶֽיהָ׃", "transliteral": "mippāneyhā", "traducao_palavra": "de sua face" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "E o anjo do SENHOR a achou junto a uma fonte de água no deserto, junto à fonte no caminho de Sur.",
+      "palavras": [
+        { "hebraico": "וַֽיִּמְצָאָ֞הּ", "transliteral": "wayyimṣāʾāh", "traducao_palavra": "E achou-a" },
+        { "hebraico": "מַלְאַ֧ךְ", "transliteral": "malʾaḵ", "traducao_palavra": "o anjo de" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "עַל־עֵ֥ין", "transliteral": "ʿal-ʿên", "traducao_palavra": "junto a fonte de" },
+        { "hebraico": "הַמַּ֖יִם", "transliteral": "hammayim", "traducao_palavra": "água" },
+        { "hebraico": "בַּמִּדְבָּ֑ר", "transliteral": "bammiḏbbār", "traducao_palavra": "no deserto" },
+        { "hebraico": "עַל־הָעַ֖יִן", "transliteral": "ʿal-hāʿayin", "traducao_palavra": "junto à fonte" },
+        { "hebraico": "בְּדֶ֥רֶךְ", "transliteral": "bəḏereḵ", "traducao_palavra": "no caminho de" },
+        { "hebraico": "שֽׁוּר׃", "transliteral": "šûr", "traducao_palavra": "Sur" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E disse: Agar, serva de Sarai, donde vens? E para onde vais? E ela disse: Venho fugida da face de Sarai, minha senhora.",
+      "palavras": [
+        { "hebraico": "וַיֹּאמַ֗ר", "transliteral": "wayyōʾmar", "traducao_palavra": "E disse" },
+        { "hebraico": "הָגָ֞ר", "transliteral": "hāḡār", "traducao_palavra": "Agar" },
+        { "hebraico": "שִׁפְחַ֣ת", "transliteral": "šip̱əḥaṯ", "traducao_palavra": "serva de" },
+        { "hebraico": "שָׂרַ֔י", "transliteral": "śāray", "traducao_palavra": "Sarai" },
+        { "hebraico": "אֵֽי־מִזֶּ֥ה", "transliteral": "ʾê-mizzeh", "traducao_palavra": "donde" },
+        { "hebraico": "בָ֖את", "transliteral": "ḇāʾṯ", "traducao_palavra": "vieste" },
+        { "hebraico": "וְאָ֣נָה", "transliteral": "wəʾānâ", "traducao_palavra": "e para onde" },
+        { "hebraico": "תֵלֵ֑כִי", "transliteral": "ṯēlēḵî", "traducao_palavra": "vais?" },
+        { "hebraico": "וַתֹּ֕אמֶר", "transliteral": "wattōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "מִפְּנֵי֙", "transliteral": "mippənê", "traducao_palavra": "da face de" },
+        { "hebraico": "שָׂרַ֣י", "transliteral": "śāray", "traducao_palavra": "Sarai" },
+        { "hebraico": "גְּבִרְתִּ֔י", "transliteral": "ḡəḇirttî", "traducao_palavra": "minha senhora" },
+        { "hebraico": "אָנֹכִ֖י", "transliteral": "ʾānōḵî", "traducao_palavra": "eu" },
+        { "hebraico": "בֹּרַֽחַת׃", "transliteral": "bōraḥaṯ", "traducao_palavra": "[estou] fugindo" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Então lhe disse o anjo do SENHOR: Torna para tua senhora, e humilha-te debaixo de suas mãos.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "לָהּ֙", "transliteral": "lāh", "traducao_palavra": "a ela" },
+        { "hebraico": "מַלְאַ֣ךְ", "transliteral": "malʾaḵ", "traducao_palavra": "o anjo de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "שׁ֖וּבִי", "transliteral": "šûḇî", "traducao_palavra": "volta" },
+        { "hebraico": "אֶל־גְּבִרְתֵּ֑ךְ", "transliteral": "ʾel-ḡəḇirttēḵ", "traducao_palavra": "para tua senhora" },
+        { "hebraico": "וְהִתְעַנִּ֖י", "transliteral": "wəhiṯʿannî", "traducao_palavra": "e humilha-te" },
+        { "hebraico": "תַּ֥חַת", "transliteral": "taḥaṯ", "traducao_palavra": "debaixo de" },
+        { "hebraico": "יָדֶֽיהָ׃", "transliteral": "yāḏeyhā", "traducao_palavra": "suas mãos" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Disse-lhe mais o anjo do SENHOR: Multiplicarei sobremaneira a tua semente, que não será contada, por numerosa que será.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֥אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "לָהּ֙", "transliteral": "lāh", "traducao_palavra": "a ela" },
+        { "hebraico": "מַלְאַ֣ךְ", "transliteral": "malʾaḵ", "traducao_palavra": "o anjo de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "הַרְבָּ֥ה אַרְבֶּ֖ה", "transliteral": "harbbâ ʾarbbeh", "traducao_palavra": "multiplicando multiplicarei" },
+        { "hebraico": "אֶת־זַרְעֵ֑ךְ", "transliteral": "ʾeṯ-zarʿēḵ", "traducao_palavra": "[obj] tua semente" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wəlōʾ", "traducao_palavra": "e não" },
+        { "hebraico": "יִסָּפֵ֖ר", "transliteral": "yissāp̱ēr", "traducao_palavra": "será contada" },
+        { "hebraico": "מֵרֹֽב׃", "transliteral": "mērōḇ", "traducao_palavra": "de abundância" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Disse-lhe também o anjo do SENHOR: Eis que concebeste, e darás à luz um filho, e chamarás o seu nome Ismael; porquanto o SENHOR ouviu a tua aflição.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמֶר", "transliteral": "wayyōʾmer", "traducao_palavra": "E disse" },
+        { "hebraico": "לָהּ֙", "transliteral": "lāh", "traducao_palavra": "a ela" },
+        { "hebraico": "מַלְאַ֣ךְ", "transliteral": "malʾaḵ", "traducao_palavra": "o anjo de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "הִנָּ֥ךְ", "transliteral": "hinnāḵ", "traducao_palavra": "Eis que tu" },
+        { "hebraico": "הָרָ֖ה", "transliteral": "hārâ", "traducao_palavra": "[estás] grávida" },
+        { "hebraico": "וְיֹלַ֣דְתְּ", "transliteral": "wəyōlaḏtt", "traducao_palavra": "e darás à luz" },
+        { "hebraico": "בֵּ֔ן", "transliteral": "bēn", "traducao_palavra": "um filho" },
+        { "hebraico": "וְקָרָ֥את", "transliteral": "wəqārāʾṯ", "traducao_palavra": "e chamarás" },
+        { "hebraico": "שְׁמֹ֖ו", "transliteral": "šəmô", "traducao_palavra": "seu nome" },
+        { "hebraico": "יִשְׁמָעֵ֑אל", "transliteral": "yišmāʿēl", "traducao_palavra": "Ismael" },
+        { "hebraico": "כִּֽי־שָׁמַ֥ע", "transliteral": "kî-šāmaʿ", "traducao_palavra": "porque ouviu" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־עָנְיֵֽךְ׃", "transliteral": "ʾel-ʿonəyēḵ", "traducao_palavra": "para tua aflição" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E ele será homem onagro; a sua mão será contra todos, e a mão de todos contra ele; e habitará defronte da face de todos os seus irmãos.",
+      "palavras": [
+        { "hebraico": "וְה֤וּא", "transliteral": "wəhû", "traducao_palavra": "E ele" },
+        { "hebraico": "יִהְיֶה֙", "transliteral": "yihyeh", "traducao_palavra": "será" },
+        { "hebraico": "פֶּ֣רֶא", "transliteral": "pereaʾ", "traducao_palavra": "asno selvagem/onagro" },
+        { "hebraico": "אָדָ֔ם", "transliteral": "ʾāḏām", "traducao_palavra": "[de] homem" },
+        { "hebraico": "יָדֹ֣ו", "transliteral": "yāḏô", "traducao_palavra": "sua mão" },
+        { "hebraico": "בַכֹּ֔ל", "transliteral": "ḇakkōl", "traducao_palavra": "em todos" },
+        { "hebraico": "וְיַ֥ד", "transliteral": "wəyaḏ", "traducao_palavra": "e a mão de" },
+        { "hebraico": "כֹּ֖ל", "transliteral": "kōl", "traducao_palavra": "todos" },
+        { "hebraico": "בֹּ֑ו", "transliteral": "bô", "traducao_palavra": "nele" },
+        { "hebraico": "וְעַל־פְּנֵ֥י", "transliteral": "wəʿal-pənê", "traducao_palavra": "e sobre a face de" },
+        { "hebraico": "כָל־אֶחָ֖יו", "transliteral": "ḵāl-ʾeḥāyw", "traducao_palavra": "todos os seus irmãos" },
+        { "hebraico": "יִשְׁכֹּֽן׃", "transliteral": "yiškōn", "traducao_palavra": "habitará" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E ela chamou o nome do SENHOR, que com ela falava: Tu és Deus que vê; porque disse: Não olhei eu também para aqui depois daquele que me vê?",
+      "palavras": [
+        { "hebraico": "וַתִּקְרָ֤א", "transliteral": "wattiqrāʾ", "traducao_palavra": "E chamou" },
+        { "hebraico": "שֵׁם־יְהוָה֙", "transliteral": "šēm-YHWH", "traducao_palavra": "nome de YHWH" },
+        { "hebraico": "הַדֹּבֵ֣ר", "transliteral": "haddōḇēr", "traducao_palavra": "o que falava" },
+        { "hebraico": "אֵלֶ֔יהָ", "transliteral": "ʾēleyhā", "traducao_palavra": "a ela" },
+        { "hebraico": "אַתָּ֖ה", "transliteral": "ʾattâ", "traducao_palavra": "Tu" },
+        { "hebraico": "אֵ֣ל", "transliteral": "ʾēl", "traducao_palavra": "Deus" },
+        { "hebraico": "רֳאִ֑י", "transliteral": "rŏʾî", "traducao_palavra": "da visão/que vê" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "אָמְרָ֗ה", "transliteral": "ʾāmərâ", "traducao_palavra": "disse" },
+        { "hebraico": "הֲגַ֥ם", "transliteral": "hăḡam", "traducao_palavra": "Acaso também" },
+        { "hebraico": "הֲלֹ֛ם", "transliteral": "hălōm", "traducao_palavra": "aqui" },
+        { "hebraico": "רָאִ֖יתִי", "transliteral": "rāʾîṯî", "traducao_palavra": "vi" },
+        { "hebraico": "אַחֲרֵ֥י", "transliteral": "ʾaḥărê", "traducao_palavra": "depois de" },
+        { "hebraico": "רֹאִֽי׃", "transliteral": "rōʾî", "traducao_palavra": "meu vidente/quem me vê" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Por isso se chamou aquele poço: Beer-Laai-Roi; eis que está entre Cades e Berede.",
+      "palavras": [
+        { "hebraico": "עַל־כֵּן֙", "transliteral": "ʿal-kēn", "traducao_palavra": "Por isso" },
+        { "hebraico": "קָרָ֣א", "transliteral": "qārāʾ", "traducao_palavra": "chamou-se" },
+        { "hebraico": "לַבְּאֵ֔ר", "transliteral": "labbəʾēr", "traducao_palavra": "ao poço" },
+        { "hebraico": "בְּאֵ֥ר", "transliteral": "bəʾēr", "traducao_palavra": "Poço de" },
+        { "hebraico": "לַחַ֥י", "transliteral": "laḥay", "traducao_palavra": "o que vive" },
+        { "hebraico": "רֹאִ֑י", "transliteral": "rōʾî", "traducao_palavra": "me vê" },
+        { "hebraico": "הִנֵּ֥ה", "transliteral": "hinnēh", "traducao_palavra": "eis que" },
+        { "hebraico": "בֵין־קָדֵ֖שׁ", "transliteral": "bên-qāḏēš", "traducao_palavra": "entre Cades" },
+        { "hebraico": "וּבֵ֥ין", "transliteral": "ûḇên", "traducao_palavra": "e entre" },
+        { "hebraico": "בָּֽרֶד׃", "transliteral": "bāreḏ", "traducao_palavra": "Berede" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E Agar deu à luz um filho a Abrão; e Abrão chamou o nome de seu filho que Agar dera à luz, Ismael.",
+      "palavras": [
+        { "hebraico": "וַתֵּ֧לֶד", "transliteral": "wattēleḏ", "traducao_palavra": "E gerou" },
+        { "hebraico": "הָגָ֛ר", "transliteral": "hāḡār", "traducao_palavra": "Agar" },
+        { "hebraico": "לְאַבְרָ֖ם", "transliteral": "ləʾaḇrām", "traducao_palavra": "a Abrão" },
+        { "hebraico": "בֵּ֑ן", "transliteral": "bēn", "traducao_palavra": "um filho" },
+        { "hebraico": "וַיִּקְרָ֨א", "transliteral": "wayyiqrāʾ", "traducao_palavra": "e chamou" },
+        { "hebraico": "אַבְרָ֧ם", "transliteral": "ʾaḇrām", "traducao_palavra": "Abrão" },
+        { "hebraico": "שֶׁם־בְּנֹ֛ו", "transliteral": "šem-bənô", "traducao_palavra": "o nome de seu filho" },
+        { "hebraico": "אֲשֶׁר־יָלְדָ֥ה", "transliteral": "ʾăšer-yāləḏâ", "traducao_palavra": "que gerou" },
+        { "hebraico": "הָגָ֖ר", "transliteral": "hāḡār", "traducao_palavra": "Agar" },
+        { "hebraico": "יִשְׁמָעֵֽאל׃", "transliteral": "yišmāʿēl", "traducao_palavra": "Ismael" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E era Abrão da idade de oitenta e seis anos, quando Agar deu à luz Ismael a Abrão.",
+      "palavras": [
+        { "hebraico": "וְאַבְרָ֕ם", "transliteral": "wəʾaḇrām", "traducao_palavra": "E Abrão" },
+        { "hebraico": "בֶּן־שְׁמֹנִ֥ים", "transliteral": "ben-šəmōnîm", "traducao_palavra": "filho de oitenta" },
+        { "hebraico": "שָׁנָ֖ה", "transliteral": "šānâ", "traducao_palavra": "ano" },
+        { "hebraico": "וְשֵׁ֣שׁ", "transliteral": "wəšēš", "traducao_palavra": "e seis" },
+        { "hebraico": "שָׁנִ֑ים", "transliteral": "šānîm", "traducao_palavra": "anos" },
+        { "hebraico": "בְּלֶֽדֶת־הָגָ֥ר", "transliteral": "bəleḏeṯ-hāḡār", "traducao_palavra": "ao gerar Agar" },
+        { "hebraico": "אֶת־יִשְׁמָעֵ֖אל", "transliteral": "ʾeṯ-yišmāʿēl", "traducao_palavra": "[obj] Ismael" },
+        { "hebraico": "לְאַבְרָֽם׃", "transliteral": "ləʾaḇrām", "traducao_palavra": "a Abrão" }
+      ]
+    }
+  }
+}
