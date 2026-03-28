@@ -104,10 +104,14 @@ export default function HomePage() {
 function BookCard({ book, number }) {
   const cat = CATEGORY[book.abbrev] || 'default';
   return (
-    <Link to={`/book/${book.abbrev}`} className={`book-card pt-element cat-${cat}`}>
+    <Link
+      to={`/book/${book.abbrev}`}
+      className={`book-card pt-element cat-${cat}`}
+      title={`${book.name}\n${number}º livro da Bíblia\n${book.chapters.length} capítulos`}
+    >
       <div className="pt-top">
-        <span className="pt-number">{number}</span>
-        <span className="pt-chapters">{book.chapters.length}</span>
+        <span className="pt-number" title={`${number}º livro da Bíblia`}>{number}</span>
+        <span className="pt-chapters" title={`${book.chapters.length} capítulos`}>{book.chapters.length}</span>
       </div>
       <div className="pt-symbol">{book.abbrev.toUpperCase()}</div>
       <div className="pt-name">{book.name}</div>
