@@ -18,6 +18,15 @@ onBibleDB.version(2).stores({
   reading_plan:   'day_key',
 });
 
+onBibleDB.version(3).stores({
+  preferences:    'key',
+  reading_state:  'book_abbrev',
+  notes:          '++id, book, chapter, verse, text',
+  highlights:     '++id, book, chapter, verse, color',
+  reading_plan:   'day_key',
+  sermons:        '++id, title, created_at, updated_at',
+});
+
 // ─── DB API ────────────────────────────────────────────────────────────────
 export const DB = {
   // Preferences
@@ -99,6 +108,24 @@ export const DB = {
   },
   async getAllPlanDone() {
     return onBibleDB.reading_plan.toArray();
+  },
+
+  // Sermons
+  async getAllSermons() {
+    return onBibleDB.sermons.orderBy('updated_at').reverse().toArray();
+  },
+  async getSermon(id) {
+    return onBibleDB.sermons.get(id);
+  },
+  async createSermon(title, body) {
+    const now = Date.now();
+    return onBibleDB.sermons.add({ title, body, created_at: now, updated_at: now });
+  },
+  async updateSermon(id, title, body) {
+    await onBibleDB.sermons.update(id, { title, body, updated_at: Date.now() });
+  },
+  async deleteSermon(id) {
+    await onBibleDB.sermons.delete(id);
   },
 
   // Migration guard
