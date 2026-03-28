@@ -32,6 +32,5 @@ Dicionário Bíblico: Para consulta rápida de termos e seus significados.
 
 Projeção de Versículos (Modo Slide): Uma interface otimizada para apresentações em tela cheia (Datashow), com controles de navegação simples e design limpo.
 
-na tela inicial coloque uma sessão que exibe o versículo do dia
 
-adicionar Modo Tela Cheia
+

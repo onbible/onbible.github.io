@@ -359,6 +359,77 @@ body {
   letter-spacing: 0.08em;
 }
 
+/* ── Category Filter Badges ── */
+.cat-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px 28px 6px;
+}
+.cat-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 1.5px solid;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s, opacity 0.15s;
+  white-space: nowrap;
+}
+.cat-badge i { font-size: 9px; }
+.cat-badge:hover { transform: translateY(-1px); }
+.cat-badge.active { color: #fff !important; transform: scale(1.05); }
+
+.cat-badge-all  { color: var(--text-muted); border-color: var(--border); }
+.cat-badge-all.active { background: var(--text-muted); border-color: var(--text-muted); }
+.cat-badge-law  { color: #e74c3c; border-color: #e74c3c; }
+.cat-badge-hist { color: #e67e22; border-color: #e67e22; }
+.cat-badge-poet { color: #b7950b; border-color: #f1c40f; }
+.cat-badge-pmaj { color: #27ae60; border-color: #2ecc71; }
+.cat-badge-pmin { color: #16a085; border-color: #1abc9c; }
+.cat-badge-gosp { color: #2980b9; border-color: #3498db; }
+.cat-badge-acts { color: #8e44ad; border-color: #9b59b6; }
+.cat-badge-paul { color: #d63384; border-color: #e84393; }
+.cat-badge-gen  { color: #6c5ce7; border-color: #6c5ce7; }
+.cat-badge-rev  { color: #e84393; border-color: #fd79a8; }
+
+.cat-badge-law.active  { background: #e74c3c; border-color: #e74c3c; }
+.cat-badge-hist.active { background: #e67e22; border-color: #e67e22; }
+.cat-badge-poet.active { background: #b7950b; border-color: #b7950b; }
+.cat-badge-pmaj.active { background: #27ae60; border-color: #27ae60; }
+.cat-badge-pmin.active { background: #16a085; border-color: #16a085; }
+.cat-badge-gosp.active { background: #2980b9; border-color: #2980b9; }
+.cat-badge-acts.active { background: #8e44ad; border-color: #8e44ad; }
+.cat-badge-paul.active { background: #d63384; border-color: #d63384; }
+.cat-badge-gen.active  { background: #6c5ce7; border-color: #6c5ce7; }
+.cat-badge-rev.active  { background: #e84393; border-color: #e84393; }
+
+[data-theme="dark"] .cat-badge-law  { color: #ff6b6b; border-color: #ff6b6b; }
+[data-theme="dark"] .cat-badge-hist { color: #ffa94d; border-color: #ffa94d; }
+[data-theme="dark"] .cat-badge-poet { color: #ffd43b; border-color: #ffd43b; }
+[data-theme="dark"] .cat-badge-pmaj { color: #51cf66; border-color: #51cf66; }
+[data-theme="dark"] .cat-badge-pmin { color: #38d9a9; border-color: #38d9a9; }
+[data-theme="dark"] .cat-badge-gosp { color: #4dabf7; border-color: #4dabf7; }
+[data-theme="dark"] .cat-badge-acts { color: #cc5de8; border-color: #cc5de8; }
+[data-theme="dark"] .cat-badge-paul { color: #f783ac; border-color: #f783ac; }
+[data-theme="dark"] .cat-badge-gen  { color: #9775fa; border-color: #9775fa; }
+[data-theme="dark"] .cat-badge-rev  { color: #ffa8c5; border-color: #ffa8c5; }
+
+[data-theme="dark"] .cat-badge-law.active  { background: #e74c3c; border-color: #e74c3c; }
+[data-theme="dark"] .cat-badge-hist.active { background: #e67e22; border-color: #e67e22; }
+[data-theme="dark"] .cat-badge-poet.active { background: #b7950b; border-color: #b7950b; }
+[data-theme="dark"] .cat-badge-pmaj.active { background: #27ae60; border-color: #27ae60; }
+[data-theme="dark"] .cat-badge-pmin.active { background: #16a085; border-color: #16a085; }
+[data-theme="dark"] .cat-badge-gosp.active { background: #2980b9; border-color: #2980b9; }
+[data-theme="dark"] .cat-badge-acts.active { background: #8e44ad; border-color: #8e44ad; }
+[data-theme="dark"] .cat-badge-paul.active { background: #d63384; border-color: #d63384; }
+[data-theme="dark"] .cat-badge-gen.active  { background: #6c5ce7; border-color: #6c5ce7; }
+[data-theme="dark"] .cat-badge-rev.active  { background: #e84393; border-color: #e84393; }
+
 /* Recent / Continue Reading */
 .recent-books {
   display: flex;
