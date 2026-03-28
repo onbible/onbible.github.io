@@ -871,8 +871,87 @@ body {
 .dot-clear  { background: #f3f4f6; color: #6b7280; }
 .dot-note   { background: #6366f1; }
 .dot-ref    { background: #10b981; }
+.dot-share  { background: #25d366; }
 [data-theme="dark"] .dot-clear { background: #2a2a40; color: #aaa; }
 [data-theme="sepia"] .dot-clear { background: #ddd0b6; color: #7a6652; }
+
+/* Verse selection mode */
+.verse-item.select-mode { cursor: pointer; }
+.verse-item.verse-selected {
+  background: color-mix(in srgb, var(--primary) 15%, transparent);
+  border-radius: 4px;
+  outline: 2px solid var(--primary);
+  outline-offset: 1px;
+}
+
+/* Share floating bar */
+.share-bar {
+  position: fixed;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  z-index: 4000;
+  animation: shareBarIn 0.2s ease-out;
+  max-width: calc(100vw - 32px);
+}
+@media (min-width: 768px) {
+  .share-bar { bottom: 28px; }
+}
+@keyframes shareBarIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(12px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+.share-bar-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary);
+  white-space: nowrap;
+}
+.share-bar-actions {
+  display: flex;
+  gap: 8px;
+}
+.share-bar-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.share-bar-btn:disabled { opacity: 0.4; cursor: default; }
+.share-bar-btn.whatsapp {
+  background: #25d366;
+  color: #fff;
+}
+.share-bar-btn.whatsapp:hover:not(:disabled) { background: #1fb855; }
+.share-bar-btn.copy {
+  background: var(--primary);
+  color: #fff;
+}
+.share-bar-btn.copy:hover:not(:disabled) { background: color-mix(in srgb, var(--primary) 85%, #000); }
+.share-bar-btn.cancel {
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+  padding: 8px 10px;
+}
 
 /* Cross references panel */
 .cross-ref-chapter-panel {

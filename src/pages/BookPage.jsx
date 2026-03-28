@@ -19,10 +19,13 @@ export default function BookPage() {
   const [availableImages, setAvailableImages] = useState([]);
   const [imageModal, setImageModal] = useState(null); // { src, title }
   const [noteModal, setNoteModal]   = useState(null); // { verse, text }
+  const [selectMode, setSelectMode] = useState(false);
+  const [selected, setSelected]     = useState(new Set());
   const noteTextRef = useRef(null);
   const popoverRef = useRef(null);
 
   const book = bibleData ? Object.values(bibleData).find(b => b.abbrev === abbrev) : null;
+  const verses = book ? (book.chapters[chapter - 1] || []) : [];
 
   // Load verse image index
   useEffect(() => {
@@ -84,12 +87,88 @@ export default function BookPage() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [abbrev]);
 
+  // Exit select mode when chapter changes
+  useEffect(() => {
+    setSelectMode(false);
+    setSelected(new Set());
+  }, [chapter]);
+
+  // Enter select mode from popover
+  const enterSelectMode = useCallback(() => {
+    if (!popover) return;
+    const { verse } = popover;
+    setPopover(null);
+    setSelectMode(true);
+    setSelected(new Set([verse]));
+  }, [popover]);
+
+  // Toggle verse selection
+  const toggleSelect = useCallback((verse) => {
+    setSelected(prev => {
+      const next = new Set(prev);
+      if (next.has(verse)) next.delete(verse);
+      else next.add(verse);
+      return next;
+    });
+  }, []);
+
+  // Build share text
+  const buildShareText = useCallback(() => {
+    if (!book || selected.size === 0) return '';
+    const sorted = [...selected].sort((a, b) => a - b);
+    const lines = sorted.map(v => {
+      const txt = verses[v - 1];
+      return `${v} ${txt}`;
+    });
+    const range = sorted.length === 1
+      ? `${sorted[0]}`
+      : `${sorted[0]}-${sorted[sorted.length - 1]}`;
+    return `📖 ${book.name} ${chapter}:${range}\n\n${lines.join('\n')}\n\n— Bíblia OnBible\nhttps://onbible.github.io/`;
+  }, [book, chapter, selected, verses]);
+
+  // Share to WhatsApp
+  const shareWhatsApp = useCallback(() => {
+    const text = buildShareText();
+    if (!text) return;
+    const url = `https://wa.me/?text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank');
+  }, [buildShareText]);
+
+  // Copy to clipboard
+  const copyToClipboard = useCallback(async () => {
+    const text = buildShareText();
+    if (!text) return;
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      // fallback
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+    }
+    setSelectMode(false);
+    setSelected(new Set());
+  }, [buildShareText]);
+
+  // Cancel selection
+  const cancelSelect = useCallback(() => {
+    setSelectMode(false);
+    setSelected(new Set());
+  }, []);
+
   // Verse click
   const handleVerseClick = useCallback((e, verse) => {
     e.stopPropagation();
+    if (selectMode) {
+      toggleSelect(verse);
+      return;
+    }
     const rect = e.currentTarget.getBoundingClientRect();
     setPopover({ verse, x: rect.left, y: rect.top });
-  }, []);
+  }, [selectMode, toggleSelect]);
 
   // Close popover on outside click
   useEffect(() => {
@@ -170,8 +249,6 @@ export default function BookPage() {
     );
   }
 
-  const verses = book.chapters[chapter - 1] || [];
-
   return (
     <>
       {/* Header */}
@@ -226,7 +303,7 @@ export default function BookPage() {
             <span
               key={verse}
               id={`v-${verse}`}
-              className={`verse-item${hlColor ? ` hl-${hlColor}` : ''}`}
+              className={`verse-item${hlColor ? ` hl-${hlColor}` : ''}${selected.has(verse) ? ' verse-selected' : ''}${selectMode ? ' select-mode' : ''}`}
               onClick={(e) => handleVerseClick(e, verse)}
             >
               <sup className="verse-number">{verse}</sup>
@@ -365,6 +442,30 @@ export default function BookPage() {
           </div>
           <div className="hl-dot dot-ref" title="Referências" onClick={showRefs}>
             <i className="fas fa-link" />
+          </div>
+          <div className="hl-dot dot-share" title="Compartilhar" onClick={enterSelectMode}>
+            <i className="fas fa-share-alt" />
+          </div>
+        </div>
+      )}
+
+      {/* Share floating bar */}
+      {selectMode && (
+        <div className="share-bar">
+          <div className="share-bar-info">
+            <i className="fas fa-check-circle" />
+            <span>{selected.size} versículo{selected.size !== 1 ? 's' : ''}</span>
+          </div>
+          <div className="share-bar-actions">
+            <button className="share-bar-btn whatsapp" onClick={shareWhatsApp} disabled={selected.size === 0}>
+              <i className="fab fa-whatsapp" /> WhatsApp
+            </button>
+            <button className="share-bar-btn copy" onClick={copyToClipboard} disabled={selected.size === 0}>
+              <i className="fas fa-copy" /> Copiar
+            </button>
+            <button className="share-bar-btn cancel" onClick={cancelSelect}>
+              <i className="fas fa-times" />
+            </button>
           </div>
         </div>
       )}
