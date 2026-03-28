@@ -135,14 +135,14 @@ export default function BookPage() {
             disabled={chapter === 1}
             style={{ padding: '6px 12px', borderRadius: '8px', border: '1px solid var(--border)', background: 'var(--bg-secondary)', color: 'var(--text)', cursor: 'pointer' }}
           >
-            <i className="fas fa-chevron-left" />
+            <i className="fas fa-chevron-left"></i> Anterior
           </button>
           <button
             onClick={() => goToChapter(Math.min(book.chapters.length, chapter + 1))}
             disabled={chapter === book.chapters.length}
             style={{ padding: '6px 12px', borderRadius: '8px', border: '1px solid var(--border)', background: 'var(--bg-secondary)', color: 'var(--text)', cursor: 'pointer' }}
           >
-            <i className="fas fa-chevron-right" />
+            Próximo <i className="fas fa-chevron-right"></i>
           </button>
         </div>
       </div>
