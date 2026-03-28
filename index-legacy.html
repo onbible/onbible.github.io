@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>OnBible</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="OnBible" name="description" />
+    <meta content="" name="OnBible" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- Begin Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <!--
+    <link rel="manifest" href="/manifest.json">
+    -->
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <meta name="theme-color" content="#ffffff">
+    <!-- End Favicon -->
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- App -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="assets/libs/dexie.min.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+
+    <script language="javascript" type="text/javascript">
+        function doReload(catid) {
+            document.location = 'index.html';
+        }
+    </script>
+    <!-- Web Manifest para PWA -->
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body data-topbar="light">
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo.png" alt="" height="30">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo.png" alt="" height="60">
+                            </span>
+                        </a>
+
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo.png" alt="" height="22">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo.png" alt="" height="20">
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect"
+                        id="vertical-menu-btn">
+                        <i class="mdi mdi-backburger"></i>
+                    </button>
+
+                    <div class="p-3">
+                        <input type="text" class="form-control form-control-sm mt-1" placeholder="Filtrar por nome..." id="filterBooks">
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="vertical-menu">
+
+            <div data-simplebar class="h-100">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <div class="d-inline-block icons-sm mr-1">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <span>Bíblia</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="markers.html" class="waves-effect">
+                                <div class="d-inline-block icons-sm mr-1">
+                                    <i class="fas fa-bookmark"></i>
+                                </div>
+                                <span>Marcadores</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="bible_play.html" class="waves-effect">
+                                <div class="d-inline-block icons-sm mr-1"><i class="fas fa-play"></i></div>
+                                <span>Bíblia Play</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <div class="d-inline-block icons-sm mr-1"><i class="fas fa-info-circle"></i></div>
+                                <span>Sobre</span>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="javascript: void(0);">
+                                        <div class="d-inline-block icons-sm mr-1"><i class="fas fa-info"></i></div>
+                                        <span>Info</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript: void(0);">
+                                        <div class="d-inline-block icons-sm mr-1"><i class="fas fa-donate"></i></div>
+                                        <span>Doação</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript: void(0);">
+                                        <div class="d-inline-block icons-sm mr-1"><i class="fas fa-bug"></i></div>
+                                        <span>Bug</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="changelog.html" class="waves-effect">
+                                        <div class="d-inline-block icons-sm mr-1"><i class="fas fa-history"></i></div>
+                                        <span>Atualizações</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+
+                <div class="page-content-wrapper">
+                    <div class="container-fluid">
+                        <br /><br /><br />
+                        <style>
+                            .skeleton-text {
+                                background-color: #e2e5e8;
+                                border-radius: 4px;
+                                animation: placeholder-glow 2s ease-in-out infinite;
+                            }
+                            .skeleton-title {
+                                height: 1.25rem;
+                                width: 70%;
+                            }
+                            .skeleton-subtitle {
+                                height: 1rem;
+                                width: 50%;
+                            }
+                            .skeleton-icon {
+                                width: 40px;
+                                height: 40px;
+                                background-color: #e2e5e8;
+                                border-radius: 5px;
+                                animation: placeholder-glow 2s ease-in-out infinite;
+                            }
+                            @keyframes placeholder-glow {
+                                50% { opacity: 0.5; }
+                            }
+                        </style>
+                        <div class="row" id="books">
+                            <!-- Skeleton loader items -->
+                            <script>
+                                for (let i = 0; i < 8; i++) {
+                                    document.write(`
+                                    <div class="col-xl-3 col-md-6 mb-4 skeleton-item">
+                                        <div class="card shadow h-100 py-2">
+                                            <div class="card-body">
+                                                <div class="row no-gutters align-items-center">
+                                                    <div class="col mr-2">
+                                                        <div class="skeleton-text skeleton-title mb-2"></div>
+                                                        <div class="skeleton-text skeleton-subtitle"></div>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <div class="skeleton-icon"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    `);
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            2020-<script>document.write(new Date().getFullYear())</script> © OnBible.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-right d-none d-sm-block">
+                                <i class="mdi mdi-heart text-danger"></i> by RodriguesFAS
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+    <!-- Mobile Bottom Navigation -->
+    <style>
+        .mobile-bottom-nav {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: #ffffff;
+            border-top: 1px solid #e5e7eb;
+            box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+            z-index: 10000;
+            padding: 0;
+        }
+        .mobile-bottom-nav ul {
+            display: flex;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .mobile-bottom-nav ul li {
+            flex: 1;
+        }
+        .mobile-bottom-nav ul li a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            gap: 3px;
+            color: #9ca3af;
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: 500;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            transition: color 0.15s ease;
+        }
+        .mobile-bottom-nav ul li a i {
+            font-size: 20px;
+            line-height: 1;
+        }
+        .mobile-bottom-nav ul li a.active,
+        .mobile-bottom-nav ul li a:hover {
+            color: #4f46e5;
+        }
+        .mobile-bottom-nav ul li a.active i {
+            transform: scale(1.1);
+        }
+        @media (max-width: 768px) {
+            .mobile-bottom-nav { display: block; }
+            body { padding-bottom: 60px; }
+            .vertical-menu { display: none !important; }
+            .main-content { margin-left: 0 !important; }
+        }
+    </style>
+    <nav class="mobile-bottom-nav" role="navigation" aria-label="Navegação principal">
+        <ul>
+            <li><a href="index.html" class="active"><i class="fas fa-book"></i><span>Bíblia</span></a></li>
+            <li><a href="markers.html"><i class="fas fa-bookmark"></i><span>Marcas</span></a></li>
+            <li><a href="bible_play.html"><i class="fas fa-headphones"></i><span>Ouvir</span></a></li>
+            <li><a href="settings.html"><i class="fas fa-cog"></i><span>Config.</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Right bar overlay-->
+    <div class="rightbar-overlay"></div>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+
+    <script src="https://unicons.iconscout.com/release/v2.0.1/script/monochrome/bundle.js"></script>
+
+
+    <script src="assets/js/app.js"></script>
+
+    <!-- Script PWA -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js').then(reg => {
+                    console.log('Service Worker registrado localmente:', reg.scope);
+                }).catch(err => {
+                    console.warn('Falha no Service Worker:', err);
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>
