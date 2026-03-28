@@ -15,9 +15,19 @@ export default function BookPage() {
   const [highlights, setHighlights] = useState({});
   const [notes, setNotes]           = useState({});
   const [popover, setPopover]       = useState(null); // { verse, x, y }
+  const [availableImages, setAvailableImages] = useState([]);
+  const [imageModal, setImageModal] = useState(null); // { src, title }
   const popoverRef = useRef(null);
 
   const book = bibleData ? Object.values(bibleData).find(b => b.abbrev === abbrev) : null;
+
+  // Load verse image index
+  useEffect(() => {
+    fetch('/db/imgs/index.json')
+      .then(r => r.json())
+      .then(setAvailableImages)
+      .catch(() => setAvailableImages([]));
+  }, []);
 
   // Load last chapter
   useEffect(() => {
@@ -175,6 +185,19 @@ export default function BookPage() {
             >
               <sup className="verse-number">{verse}</sup>
               {notes[verse] && <span className="note-icon"><i className="fas fa-sticky-note"></i></span>}
+              {availableImages.includes(`${abbrev}-${chapter}:${verse}.png`) && (
+                <i
+                  className="fas fa-image verse-image-icon"
+                  title="Visualizar Ilustração"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setImageModal({
+                      src: `/db/imgs/${abbrev}-${chapter}:${verse}.png`,
+                      title: `${book.name} ${chapter}:${verse}`,
+                    });
+                  }}
+                />
+              )}
               {text}{' '}
             </span>
           );
@@ -187,6 +210,21 @@ export default function BookPage() {
           bibleData={bibleData}
         />
       </div>
+
+      {/* Image Modal */}
+      {imageModal && (
+        <div className="image-modal-overlay" onClick={() => setImageModal(null)}>
+          <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className="image-modal-header">
+              <h5>Ilustração — {imageModal.title}</h5>
+              <button onClick={() => setImageModal(null)}>&times;</button>
+            </div>
+            <div className="image-modal-body">
+              <img src={imageModal.src} alt={`Ilustração - ${imageModal.title}`} />
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Highlight Popover */}
       {popover && (
