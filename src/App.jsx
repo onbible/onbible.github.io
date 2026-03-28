@@ -16,6 +16,9 @@ export default function App() {
     const saved = localStorage.getItem('app_theme') || (localStorage.getItem('dark_mode') === '1' ? 'dark' : 'light');
     setTheme(saved);
     document.documentElement.setAttribute('data-theme', saved);
+    // Apply saved font size
+    const fs = localStorage.getItem('reading_font_size');
+    if (fs) document.documentElement.style.setProperty('--reading-font-size', fs + 'px');
   }, []);
 
   const setAppTheme = (t) => {

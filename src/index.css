@@ -406,7 +406,7 @@ body {
 .bible-text {
   padding: 20px 28px;
   line-height: 1.9;
-  font-size: 17px;
+  font-size: var(--reading-font-size, 17px);
 }
 .verse-item {
   cursor: pointer;
@@ -810,6 +810,31 @@ body {
   border-radius: 50%;
   border: 2px solid var(--border);
   flex-shrink: 0;
+}
+
+/* Font size controls */
+.font-size-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+.font-size-btn:hover { border-color: var(--primary); color: var(--primary); }
+.font-size-slider {
+  width: 100%;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+.font-preview {
+  color: var(--text);
 }
 
 /* Responsive */

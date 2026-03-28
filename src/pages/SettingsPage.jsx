@@ -12,6 +12,15 @@ const THEMES = [
 export default function SettingsPage({ theme, setAppTheme }) {
   const { version, changeVersion } = useBibleData();
   const [status, setStatus] = useState('');
+  const [fontSize, setFontSize] = useState(() => {
+    return parseInt(localStorage.getItem('reading_font_size') || '17', 10);
+  });
+
+  const changeFontSize = (size) => {
+    setFontSize(size);
+    localStorage.setItem('reading_font_size', String(size));
+    document.documentElement.style.setProperty('--reading-font-size', size + 'px');
+  };
 
   const exportBackup = async () => {
     try {
@@ -28,6 +37,7 @@ export default function SettingsPage({ theme, setAppTheme }) {
           dark_mode:    localStorage.getItem('dark_mode'),
           app_theme:    localStorage.getItem('app_theme'),
           reading_font: localStorage.getItem('reading_font'),
+          reading_font_size: localStorage.getItem('reading_font_size'),
         },
       };
       const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
@@ -132,6 +142,40 @@ export default function SettingsPage({ theme, setAppTheme }) {
               </button>
             ))}
           </div>
+        </div>
+
+        {/* Font Size */}
+        <div className="settings-section">
+          <h5><i className="fas fa-text-height" style={{ marginRight: '6px' }}></i>Tamanho da Fonte</h5>
+          <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '12px' }}>Ajuste o tamanho do texto bíblico.</p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <button
+              onClick={() => changeFontSize(Math.max(12, fontSize - 1))}
+              className="font-size-btn"
+            >
+              <i className="fas fa-minus" />
+            </button>
+            <span style={{ fontSize: fontSize + 'px', fontWeight: 600, minWidth: '44px', textAlign: 'center' }}>{fontSize}px</span>
+            <button
+              onClick={() => changeFontSize(Math.min(28, fontSize + 1))}
+              className="font-size-btn"
+            >
+              <i className="fas fa-plus" />
+            </button>
+          </div>
+          <div style={{ marginTop: '10px' }}>
+            <input
+              type="range"
+              min="12"
+              max="28"
+              value={fontSize}
+              onChange={(e) => changeFontSize(+e.target.value)}
+              className="font-size-slider"
+            />
+          </div>
+          <p className="font-preview" style={{ fontSize: fontSize + 'px', lineHeight: 1.9, marginTop: '12px', padding: '12px', background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: '8px' }}>
+            No princípio, criou Deus os céus e a terra.
+          </p>
         </div>
       </div>
     </>
