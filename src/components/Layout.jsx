@@ -15,14 +15,6 @@ export default function Layout({ children, theme, toggleTheme }) {
           <NavLink to="/settings"     ><i className="fas fa-cog" />         <span>Configurações</span></NavLink>
           <NavLink to="/changelog"    ><i className="fas fa-history" />     <span>Atualizações</span></NavLink>
         </nav>
-        <div style={{ position: 'absolute', bottom: '16px', left: 0, right: 0, padding: '0 16px' }}>
-          <button
-            onClick={toggleTheme}
-            style={{ width: '100%', padding: '8px', borderRadius: '8px', border: '1px solid var(--border)', background: 'var(--bg)', color: 'var(--text)', cursor: 'pointer', fontSize: '13px' }}
-          >
-            {theme === 'dark' ? <><i className="fas fa-sun" style={{ marginRight: '6px' }}></i>Modo Claro</> : <><i className="fas fa-moon" style={{ marginRight: '6px' }}></i>Modo Escuro</>}
-          </button>
-        </div>
       </aside>
 
       {/* Main */}

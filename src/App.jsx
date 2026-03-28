@@ -34,7 +34,7 @@ export default function App() {
           <Route path="/book/:abbrev"  element={<BookPage />} />
           <Route path="/markers"       element={<MarkersPage />} />
           <Route path="/play"          element={<PlayPage />} />
-          <Route path="/settings"      element={<SettingsPage />} />
+          <Route path="/settings"      element={<SettingsPage theme={theme} toggleTheme={toggleTheme} />} />
           <Route path="/changelog"     element={<ChangelogPage />} />
           <Route path="*"              element={<Navigate to="/" replace />} />
         </Routes>

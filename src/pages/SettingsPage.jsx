@@ -3,7 +3,7 @@ import { DB, onBibleDB } from '../lib/db';
 import { VERSIONS } from '../lib/bibleVersions';
 import { useBibleData } from '../hooks/useBible';
 
-export default function SettingsPage() {
+export default function SettingsPage({ theme, toggleTheme }) {
   const { version, changeVersion } = useBibleData();
   const [status, setStatus] = useState('');
 
@@ -68,7 +68,7 @@ export default function SettingsPage() {
   return (
     <>
       <div className="page-header">
-        <h1>⚙️ Configurações</h1>
+        <h1><i className="fas fa-cog" style={{ marginRight: '8px' }}></i>Configurações</h1>
       </div>
       <div style={{ padding: '20px 28px' }}>
 
@@ -111,8 +111,16 @@ export default function SettingsPage() {
         {/* Theme */}
         <div className="settings-section">
           <h5><i className="fas fa-palette" style={{ marginRight: '6px' }}></i>Aparência</h5>
-          <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '12px' }}>O tema pode ser alternado pelo botão no menu lateral.</p>
-          <p style={{ fontSize: '13px' }}>Tema atual: <strong>{localStorage.getItem('dark_mode') === '1' ? 'Escuro' : 'Claro'}</strong></p>
+          <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '12px' }}>Alterne entre o modo claro e escuro.</p>
+          <button
+            onClick={toggleTheme}
+            style={{ padding: '10px 20px', borderRadius: '8px', border: '1px solid var(--border)', background: 'var(--bg)', color: 'var(--text)', fontWeight: 600, cursor: 'pointer', fontSize: '14px' }}
+          >
+            {theme === 'dark'
+              ? <><i className="fas fa-sun" style={{ marginRight: '6px' }}></i>Mudar para Modo Claro</>
+              : <><i className="fas fa-moon" style={{ marginRight: '6px' }}></i>Mudar para Modo Escuro</>
+            }
+          </button>
         </div>
       </div>
     </>
