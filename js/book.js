@@ -106,6 +106,10 @@ function change_chapter(page) {
     if (skeleton) skeleton.style.display = 'block';
     if (listing_table) listing_table.style.display = 'none';
 
+    // Hide cross-references panel when changing chapters
+    var refPanel = document.getElementById('cross-references-panel');
+    if (refPanel) refPanel.style.display = 'none';
+
     let htmlBuffer = "";
 
     for (var i = (page - 1) * records_per_page; i < (page * records_per_page); i++) {
@@ -215,19 +219,10 @@ async function saveHighlight(color) {
 
 async function showReferences() {
     if (!activeVerseNum) return;
-    var book = param['abbrev'];
-    var chapter = current_page;
-    var verseNum = activeVerseNum;
-
-    // Close highlight popover
     var popover = document.getElementById('hl-popover');
     if (popover) popover.style.display = 'none';
-
-    // Call the ReferenceManager
     if (window.ReferenceManager) {
-        ReferenceManager.openPanel(book, chapter, verseNum);
-    } else {
-        console.error("ReferenceManager not loaded");
+        ReferenceManager.openPanel(param['abbrev'], current_page, activeVerseNum);
     }
 }
 

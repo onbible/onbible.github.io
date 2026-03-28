@@ -1,129 +1,176 @@
-// js/references.js
+// js/references.js — Referências Cruzadas via TSK (josephilipraja/Bible-Cross-Reference-JSON)
+// Os 32 arquivos JSON correspondem aos 66 livros da Bíblia divididos em grupos.
 
 const ReferenceManager = {
-    // Mapping of book names (pt-br) to English (used by TSK JSON)
-    bookMap: {
-        "gn": "Genesis", "ex": "Exodus", "lv": "Leviticus", "nm": "Numbers", "dt": "Deuteronomy",
-        "js": "Joshua", "jz": "Judges", "rt": "Ruth", "1sm": "1 Samuel", "2sm": "2 Samuel",
-        "1rs": "1 Kings", "2rs": "2 Kings", "1cr": "1 Chronicles", "2cr": "2 Chronicles",
-        "ed": "Ezra", "ne": "Nehemiah", "et": "Esther", "jo": "Job", "sl": "Psalms",
-        "pv": "Proverbs", "ec": "Ecclesiastes", "ct": "Song of Solomon", "is": "Isaiah",
-        "jr": "Jeremiah", "lm": "Lamentations", "ez": "Ezekiel", "dn": "Daniel",
-        "os": "Hosea", "jl": "Joel", "am": "Amos", "ob": "Obadiah", "jn": "Jonah",
-        "mq": "Micah", "na": "Nahum", "hc": "Habakkuk", "sf": "Zephaniah", "ag": "Haggai",
-        "zc": "Zechariah", "ml": "Malachi", "mt": "Matthew", "mc": "Mark", "lc": "Luke",
-        "joa": "John", "at": "Acts", "rm": "Romans", "1co": "1 Corinthians", "2co": "2 Corinthians",
-        "gl": "Galatians", "ef": "Ephesians", "fp": "Philippians", "cl": "Colossians",
-        "1ts": "1 Thessalonians", "2ts": "2 Thessalonians", "1tm": "1 Timothy", "2tm": "2 Timothy",
-        "tt": "Titus", "fm": "Philemon", "hb": "Hebrews", "tg": "James", "1pe": "1 Peter",
-        "2pe": "2 Peter", "1jo": "1 John", "2jo": "2 John", "3jo": "3 John", "jd": "Jude", "ap": "Revelation"
+    // Mapeamento: abreviação OnBible → número do arquivo TSK → posição dentro do arquivo
+    // O repositório usa 32 arquivos cobrindo grupos de livros.
+    // Cada arquivo é um objeto: { "BookName Chapter:Verse": ["Ref1", "Ref2", ...] }
+    bookFileMap: {
+        // Old Testament
+        "gn":  {f:1,  name:"Genesis"},    "ex":  {f:2,  name:"Exodus"},
+        "lv":  {f:3,  name:"Leviticus"},  "nm":  {f:4,  name:"Numbers"},
+        "dt":  {f:5,  name:"Deuteronomy"},"js":  {f:6,  name:"Joshua"},
+        "jz":  {f:7,  name:"Judges"},     "rt":  {f:7,  name:"Ruth"},
+        "1sm": {f:8,  name:"1 Samuel"},   "2sm": {f:8,  name:"2 Samuel"},
+        "1rs": {f:9,  name:"1 Kings"},    "2rs": {f:9,  name:"2 Kings"},
+        "1cr": {f:10, name:"1 Chronicles"},"2cr":{f:10, name:"2 Chronicles"},
+        "ed":  {f:11, name:"Ezra"},       "ne":  {f:11, name:"Nehemiah"},
+        "et":  {f:11, name:"Esther"},     "jo":  {f:12, name:"Job"},
+        "sl":  {f:13, name:"Psalms"},     "pv":  {f:14, name:"Proverbs"},
+        "ec":  {f:14, name:"Ecclesiastes"},"ct": {f:14, name:"Song of Solomon"},
+        "is":  {f:15, name:"Isaiah"},     "jr":  {f:16, name:"Jeremiah"},
+        "lm":  {f:16, name:"Lamentations"},"ez": {f:17, name:"Ezekiel"},
+        "dn":  {f:17, name:"Daniel"},     "os":  {f:18, name:"Hosea"},
+        "jl":  {f:18, name:"Joel"},       "am":  {f:18, name:"Amos"},
+        "ob":  {f:18, name:"Obadiah"},    "jn":  {f:18, name:"Jonah"},
+        "mq":  {f:18, name:"Micah"},      "na":  {f:18, name:"Nahum"},
+        "hc":  {f:18, name:"Habakkuk"},   "sf":  {f:18, name:"Zephaniah"},
+        "ag":  {f:18, name:"Haggai"},     "zc":  {f:18, name:"Zechariah"},
+        "ml":  {f:18, name:"Malachi"},
+        // New Testament
+        "mt":  {f:19, name:"Matthew"},    "mc":  {f:20, name:"Mark"},
+        "lc":  {f:21, name:"Luke"},       "joa": {f:22, name:"John"},
+        "at":  {f:23, name:"Acts"},       "rm":  {f:24, name:"Romans"},
+        "1co": {f:25, name:"1 Corinthians"},"2co":{f:25, name:"2 Corinthians"},
+        "gl":  {f:26, name:"Galatians"},  "ef":  {f:26, name:"Ephesians"},
+        "fp":  {f:26, name:"Philippians"},"cl":  {f:26, name:"Colossians"},
+        "1ts": {f:27, name:"1 Thessalonians"},"2ts":{f:27, name:"2 Thessalonians"},
+        "1tm": {f:27, name:"1 Timothy"},  "2tm": {f:27, name:"2 Timothy"},
+        "tt":  {f:27, name:"Titus"},      "fm":  {f:27, name:"Philemon"},
+        "hb":  {f:28, name:"Hebrews"},    "tg":  {f:29, name:"James"},
+        "1pe": {f:29, name:"1 Peter"},    "2pe": {f:29, name:"2 Peter"},
+        "1jo": {f:30, name:"1 John"},     "2jo": {f:30, name:"2 John"},
+        "3jo": {f:30, name:"3 John"},     "jd":  {f:30, name:"Jude"},
+        "ap":  {f:31, name:"Revelation"}
     },
 
-    // Mapping of index files in josephilipraja/Bible-Cross-Reference-JSON
-    // Since it's split into 32 files, we need a way to find which file contains which book.
-    // However, I will use a more direct source if possible.
-    // Let's use a simpler mapping: each book has its own JSON in some repos.
-    
-    async loadReferences(bookAbbrev, chapter, verse) {
-        const bookName = this.bookMap[bookAbbrev];
-        if (!bookName) return [];
+    // Cache para evitar baixar o mesmo arquivo múltiplas vezes
+    _cache: {},
 
-        const verseRef = `${bookName} ${chapter}:${verse}`;
-        const container = document.getElementById('references-list');
-        const countBadge = document.getElementById('references-count');
-        
-        container.innerHTML = '<div class="text-center p-4"><div class="spinner-border text-primary" role="status"></div><p class="mt-2">Buscando referências...</p></div>';
-        countBadge.innerText = '0';
+    // Nome PT-BR para exibição
+    ptNames: {
+        "Genesis":"Gênesis","Exodus":"Êxodo","Leviticus":"Levítico","Numbers":"Números",
+        "Deuteronomy":"Deuteronômio","Joshua":"Josué","Judges":"Juízes","Ruth":"Rute",
+        "1 Samuel":"1 Samuel","2 Samuel":"2 Samuel","1 Kings":"1 Reis","2 Kings":"2 Reis",
+        "1 Chronicles":"1 Crônicas","2 Chronicles":"2 Crônicas","Ezra":"Esdras",
+        "Nehemiah":"Neemias","Esther":"Ester","Job":"Jó","Psalms":"Salmos",
+        "Proverbs":"Provérbios","Ecclesiastes":"Eclesiastes","Song of Solomon":"Cânticos",
+        "Isaiah":"Isaías","Jeremiah":"Jeremias","Lamentations":"Lamentações",
+        "Ezekiel":"Ezequiel","Daniel":"Daniel","Hosea":"Oséias","Joel":"Joel",
+        "Amos":"Amós","Obadiah":"Obadias","Jonah":"Jonas","Micah":"Miqueias",
+        "Nahum":"Naum","Habakkuk":"Habacuque","Zephaniah":"Sofonias","Haggai":"Ageu",
+        "Zechariah":"Zacarias","Malachi":"Malaquias","Matthew":"Mateus","Mark":"Marcos",
+        "Luke":"Lucas","John":"João","Acts":"Atos","Romans":"Romanos",
+        "1 Corinthians":"1 Coríntios","2 Corinthians":"2 Coríntios","Galatians":"Gálatas",
+        "Ephesians":"Efésios","Philippians":"Filipenses","Colossians":"Colossenses",
+        "1 Thessalonians":"1 Tessalonicenses","2 Thessalonians":"2 Tessalonicenses",
+        "1 Timothy":"1 Timóteo","2 Timothy":"2 Timóteo","Titus":"Tito",
+        "Philemon":"Filemon","Hebrews":"Hebreus","James":"Tiago",
+        "1 Peter":"1 Pedro","2 Peter":"2 Pedro","1 John":"1 João",
+        "2 John":"2 João","3 John":"3 João","Jude":"Judas","Revelation":"Apocalipse"
+    },
+
+    async loadFile(fileNum) {
+        if (this._cache[fileNum]) return this._cache[fileNum];
+        const url = `https://raw.githubusercontent.com/josephilipraja/Bible-Cross-Reference-JSON/master/${fileNum}.json`;
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error(`Arquivo ${fileNum}.json não encontrado.`);
+        const data = await resp.json();
+        this._cache[fileNum] = data;
+        return data;
+    },
+
+    async openPanel(bookAbbrev, chapter, verse) {
+        const panel = document.getElementById('cross-references-panel');
+        const list  = document.getElementById('references-list');
+        const title = document.getElementById('cross-ref-title');
+        if (!panel) return;
+
+        const info = this.bookFileMap[bookAbbrev];
+        if (!info) { panel.style.display = 'none'; return; }
+
+        const ptBook = this.ptNames[info.name] || info.name;
+        title.innerHTML = `<i class="fas fa-link" style="margin-right:6px;"></i>Referências — ${ptBook} ${chapter}:${verse}`;
+        panel.style.display = 'block';
+        list.innerHTML = '<div style="color:#9ca3af;font-size:13px;padding:8px 0;">Buscando referências...</div>';
+
+        // Scroll para o painel
+        setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
 
         try {
-            // Using a slightly more organized TSK source that is per-book if possible, 
-            // or we use the 1-32 mapping. For simplicity and reliability, 
-            // I'll fetch a book-specific JSON from a known mirror.
-            const url = `https://raw.githubusercontent.com/thiagobodruk/bible-references/master/json/${bookName}.json`;
-            const response = await fetch(url);
-            if (!response.ok) throw new Error("Não foi possível carregar as referências para este livro.");
-            
-            const data = await response.json();
-            // Expected format: { "1": { "1": ["Ref 1", "Ref 2"] } }
-            const refs = data[chapter] ? data[chapter][verse] : [];
+            const data = await this.loadFile(info.f);
+            // Chave no formato "BookName Chapter:Verse"
+            const key = `${info.name} ${chapter}:${verse}`;
+            const refs = data[key];
 
             if (!refs || refs.length === 0) {
-                container.innerHTML = '<div class="text-center p-4"><i class="fas fa-info-circle mb-2 fa-2x text-muted"></i><p>Nenhuma referência cruzada encontrada para este versículo.</p></div>';
+                list.innerHTML = '<div style="color:#9ca3af;font-size:13px;padding:8px 0;"><i class="fas fa-info-circle" style="margin-right:4px;"></i>Nenhuma referência encontrada para este versículo.</div>';
                 return;
             }
 
-            countBadge.innerText = refs.length;
-            container.innerHTML = '';
-            
+            list.innerHTML = '';
             refs.forEach(ref => {
+                const ptRef = this._translateRef(ref);
                 const item = document.createElement('div');
-                item.className = 'reference-item p-3 mb-2 border rounded hover-bg-light';
-                item.style.cursor = 'pointer';
+                item.className = 'cross-ref-item';
                 item.innerHTML = `
-                    <div class="d-flex justify-content-between align-items-center">
-                        <strong class="text-primary">${ref}</strong>
-                        <i class="fas fa-chevron-right text-muted small"></i>
-                    </div>
-                    <div class="reference-preview mt-2 small text-muted italic" id="preview-${ref.replace(/[:\s]/g, '-')}">
-                        Carregando versículo...
-                    </div>
+                    <div class="cross-ref-ref">${ptRef}</div>
+                    <div class="cross-ref-text" id="crt-${ref.replace(/[:\s]/g,'-')}">Carregando...</div>
                 `;
-                item.onclick = () => this.showPreview(ref);
-                container.appendChild(item);
-                
-                // Load preview text immediately
-                this.loadRefPreview(ref);
+                list.appendChild(item);
+                this._loadRefText(ref, `crt-${ref.replace(/[:\s]/g,'-')}`);
             });
-
         } catch (e) {
-            console.error("Reference load error", e);
-            container.innerHTML = '<div class="alert alert-warning">Falha ao carregar referências. Verifique sua conexão.</div>';
+            list.innerHTML = `<div style="color:#ef4444;font-size:13px;">${e.message}</div>`;
         }
     },
 
-    async loadRefPreview(ref) {
-        const previewId = `preview-${ref.replace(/[:\s]/g, '-')}`;
-        const previewEl = document.getElementById(previewId);
-        
+    _translateRef(ref) {
+        // ref: "Genesis 1:1"  →  "Gênesis 1:1"
+        for (const [en, pt] of Object.entries(this.ptNames)) {
+            if (ref.startsWith(en + ' ')) {
+                return pt + ref.slice(en.length);
+            }
+        }
+        return ref;
+    },
+
+    async _loadRefText(ref, elId) {
+        const el = document.getElementById(elId);
+        if (!el) return;
         try {
-            // Parse reference (ex: "John 3:16" or "1 John 2:1")
-            const parts = ref.match(/^(.+?)\s(\d+):(\d+)/);
-            if (!parts) return;
-            
-            const bookName = parts[1];
-            const chapter = parts[2];
-            const verse = parts[3];
+            // Descobrir abbrev a partir do nome EN
+            const match = ref.match(/^(.+?)\s(\d+):(\d+)$/);
+            if (!match) { el.innerText = ''; return; }
+            const [, bookEn, ch, vs] = match;
+            const entry = Object.entries(this.bookFileMap).find(([,v]) => v.name === bookEn);
+            if (!entry) { el.innerText = ''; return; }
+            const abbrev = entry[0];
 
-            // Map English book name back to our abbrev to find text
-            const abbrev = Object.keys(this.bookMap).find(key => this.bookMap[key] === bookName);
-            if (!abbrev) {
-                previewEl.innerText = "(Texto não disponível)";
-                return;
-            }
-
-            // Fetch the text from our current bible_url (main.js)
-            const response = await fetch(bible_url);
-            const data = await response.json();
-            const bookData = Object.values(data).find(b => b.abbrev === abbrev);
-            
-            if (bookData && bookData.chapters[chapter-1] && bookData.chapters[chapter-1][verse-1]) {
-                previewEl.innerText = bookData.chapters[chapter-1][verse-1];
+            // Buscar texto na Bíblia carregada
+            const resp = await fetch(bible_url);
+            const bibleData = await resp.json();
+            const book = Object.values(bibleData).find(b => b.abbrev === abbrev);
+            if (book && book.chapters[+ch-1] && book.chapters[+ch-1][+vs-1]) {
+                el.innerText = book.chapters[+ch-1][+vs-1];
             } else {
-                previewEl.innerText = "(Versículo não encontrado na tradução atual)";
+                el.innerText = '';
             }
-        } catch (e) {
-            previewEl.innerText = "(Erro ao carregar texto)";
+        } catch(e) {
+            el.innerText = '';
         }
-    },
-
-    openPanel(book, chapter, verse) {
-        // Trigger Bootstrap Offcanvas
-        const offCanvasEl = document.getElementById('offcanvasReferences');
-        const bsOffcanvas = new bootstrap.Offcanvas(offCanvasEl);
-        
-        document.getElementById('ref-title').innerText = `Referências: ${this.bookMap[book]} ${chapter}:${verse}`;
-        bsOffcanvas.show();
-        
-        this.loadReferences(book, chapter, verse);
     }
 };
+
+function showReferences() {
+    // Chamado pelo botão no popover (definido em book.js)
+    if (!window.activeVerseNum) return;
+    const popover = document.getElementById('hl-popover');
+    if (popover) popover.style.display = 'none';
+    ReferenceManager.openPanel(param['abbrev'], current_page, window.activeVerseNum);
+}
+
+function closeCrossReferences() {
+    const panel = document.getElementById('cross-references-panel');
+    if (panel) panel.style.display = 'none';
+}

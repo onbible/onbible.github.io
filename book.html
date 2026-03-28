@@ -427,6 +427,59 @@
             font-size: 14px;
         }
         
+        /* Cross References Panel */
+        #cross-ref-inner {
+            border-top: 2px solid #e5e7eb;
+            animation: fadeInUp 0.3s ease;
+        }
+        body.dark-mode #cross-ref-inner {
+            border-top-color: #2d2d40 !important;
+        }
+        body.dark-mode #cross-references-panel h6 {
+            color: #818cf8 !important;
+        }
+        .cross-ref-item {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 10px 14px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .cross-ref-item:hover {
+            background: #eff0ff;
+            border-color: #c7d2fe;
+        }
+        body.dark-mode .cross-ref-item {
+            background: #1e1e30;
+            border-color: #2d2d40;
+            color: #c7d2fe;
+        }
+        body.dark-mode .cross-ref-item:hover {
+            background: #2a2a40;
+        }
+        .cross-ref-ref {
+            font-weight: 600;
+            color: #4f46e5;
+            font-size: 13px;
+        }
+        body.dark-mode .cross-ref-ref {
+            color: #818cf8;
+        }
+        .cross-ref-text {
+            font-size: 12px;
+            color: #6b7280;
+            margin-top: 4px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        body.dark-mode .cross-ref-text { color: #9ca3af; }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
         .verse-item .note-icon {
             font-size: 0.7em;
             color: #6366f1;
@@ -724,6 +777,17 @@
                                                     <div class="sk-line" style="width:82%"></div>
                                                 </div>
                                                 <div id="view_text" align='justify' style="display:none;"></div>
+
+                                                <!-- Referências Cruzadas -->
+                                                <div id="cross-references-panel" style="display:none; margin-top: 24px;">
+                                                    <div id="cross-ref-inner" style="border-top: 2px solid #e5e7eb; padding-top: 16px;">
+                                                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                                                            <h6 id="cross-ref-title" style="margin:0; font-size:14px; font-weight:600; color:#4f46e5;"><i class="fas fa-link" style="margin-right:6px;"></i>Referências Cruzadas</h6>
+                                                            <button onclick="closeCrossReferences()" style="border:none;background:none;color:#9ca3af;cursor:pointer;font-size:18px;line-height:1;">&times;</button>
+                                                        </div>
+                                                        <div id="references-list" style="display:flex; flex-direction:column; gap:8px;"></div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -1092,28 +1156,9 @@
     <script src="assets/js/app.js"></script>
     <script src="js/references.js"></script>
 
-    <!-- Offcanvas Referências -->
-    <div id="offcanvasReferences" style="position: fixed; top: 0; right: 0; width: 400px; max-width: 90vw; height: 100%; background: #fff; z-index: 10005; transform: translateX(100%); transition: transform 0.3s ease; box-shadow: -5px 0 15px rgba(0,0,0,0.1); display: flex; flex-direction: column;">
-        <div style="padding: 15px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; background: #f8f9fa;">
-            <h5 id="ref-title" style="margin: 0; font-size: 18px;">Referências</h5>
-            <button onclick="document.getElementById('offcanvasReferences').style.transform = 'translateX(100%)'" style="border: none; background: none; font-size: 20px; cursor: pointer;">&times;</button>
-        </div>
-        <div style="padding: 15px; flex: 1; overflow-y: auto;">
-            <p style="font-size: 13px; color: #666;"><span id="references-count">0</span> referências encontradas.</p>
-            <div id="references-list"></div>
-        </div>
-    </div>
-    <script>
-        // Polyfill para garantir bootstrap.Offcanvas funcione no references.js
-        window.bootstrap = window.bootstrap || {};
-        window.bootstrap.Offcanvas = function(el) {
-            return {
-                show: function() { el.style.transform = 'translateX(0)'; },
-                hide: function() { el.style.transform = 'translateX(100%)'; }
-            };
-        };
-    </script>
+
     <!-- Script PWA -->
+
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
