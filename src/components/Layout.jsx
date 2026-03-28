@@ -11,6 +11,7 @@ export default function Layout({ children, theme, setAppTheme }) {
         <nav className="sidebar-nav">
           <NavLink to="/"          end><i className="fas fa-book" />        <span>Bíblia</span></NavLink>
           <NavLink to="/markers"      ><i className="fas fa-bookmark" />    <span>Marcadores</span></NavLink>
+          <NavLink to="/plan"         ><i className="fas fa-calendar-check" /><span>Plano de Leitura</span></NavLink>
           <NavLink to="/play"         ><i className="fas fa-headphones" />  <span>Bíblia Play</span></NavLink>
           <NavLink to="/settings"     ><i className="fas fa-cog" />         <span>Configurações</span></NavLink>
           <NavLink to="/changelog"    ><i className="fas fa-history" />     <span>Atualizações</span></NavLink>
@@ -34,6 +35,7 @@ export default function Layout({ children, theme, setAppTheme }) {
         <ul>
           <li><NavLink to="/"       end><i className="fas fa-book" /><span>Bíblia</span></NavLink></li>
           <li><NavLink to="/markers"   ><i className="fas fa-bookmark" /><span>Marcas</span></NavLink></li>
+          <li><NavLink to="/plan"      ><i className="fas fa-calendar-check" /><span>Plano</span></NavLink></li>
           <li><NavLink to="/play"      ><i className="fas fa-headphones" /><span>Ouvir</span></NavLink></li>
           <li><NavLink to="/settings"  ><i className="fas fa-cog" /><span>Config.</span></NavLink></li>
         </ul>

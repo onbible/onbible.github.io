@@ -7,6 +7,7 @@ import MarkersPage from './pages/MarkersPage';
 import PlayPage from './pages/PlayPage';
 import SettingsPage from './pages/SettingsPage';
 import ChangelogPage from './pages/ChangelogPage';
+import ReadingPlanPage from './pages/ReadingPlanPage';
 import { DB } from './lib/db';
 
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="/"              element={<HomePage />} />
           <Route path="/book/:abbrev"  element={<BookPage />} />
           <Route path="/markers"       element={<MarkersPage />} />
+          <Route path="/plan"          element={<ReadingPlanPage />} />
           <Route path="/play"          element={<PlayPage />} />
           <Route path="/settings"      element={<SettingsPage theme={theme} setAppTheme={setAppTheme} />} />
           <Route path="/changelog"     element={<ChangelogPage />} />

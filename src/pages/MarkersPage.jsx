@@ -83,7 +83,7 @@ export default function MarkersPage() {
         {notes.filter(n => !highlights.find(h => h.book === n.book && h.chapter === n.chapter && h.verse === n.verse)).length > 0 && (
           <>
             <h5 style={{ fontSize: '13px', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', margin: '24px 0 12px' }}>
-              Apenas Notas
+              Anotações
             </h5>
             {notes
               .filter(n => !highlights.find(h => h.book === n.book && h.chapter === n.chapter && h.verse === n.verse))

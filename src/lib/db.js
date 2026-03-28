@@ -10,6 +10,14 @@ onBibleDB.version(1).stores({
   highlights:    '++id, book, chapter, verse, color',
 });
 
+onBibleDB.version(2).stores({
+  preferences:    'key',
+  reading_state:  'book_abbrev',
+  notes:          '++id, book, chapter, verse, text',
+  highlights:     '++id, book, chapter, verse, color',
+  reading_plan:   'day_key',
+});
+
 // ─── DB API ────────────────────────────────────────────────────────────────
 export const DB = {
   // Preferences
@@ -79,6 +87,18 @@ export const DB = {
   },
   async getNotesForChapter(book, chapter) {
     return onBibleDB.notes.where({ book, chapter: parseInt(chapter) }).toArray();
+  },
+
+  // Reading Plan
+  async getPlanDone(month, day) {
+    const rec = await onBibleDB.reading_plan.get(`${month}-${day}`);
+    return rec ? rec.done : false;
+  },
+  async setPlanDone(month, day, done) {
+    await onBibleDB.reading_plan.put({ day_key: `${month}-${day}`, done });
+  },
+  async getAllPlanDone() {
+    return onBibleDB.reading_plan.toArray();
   },
 
   // Migration guard
