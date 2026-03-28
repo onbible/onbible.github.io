@@ -1,6 +1,7 @@
-import { useState, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useBibleData } from '../hooks/useBible';
+import { onBibleDB } from '../lib/db';
 
 const OT_BOOKS = ['gn','ex','lv','nm','dt','js','jz','rt','1sm','2sm','1rs','2rs','1cr','2cr','ed','ne','et','jo','sl','pv','ec','ct','is','jr','lm','ez','dn','os','jl','am','ob','jn','mq','na','hc','sf','ag','zc','ml'];
 const NT_START = 'mt';
@@ -32,10 +33,26 @@ const CATEGORY = {
 export default function HomePage() {
   const { bibleData, loading, error } = useBibleData();
   const [search, setSearch] = useState('');
+  const [recentBooks, setRecentBooks] = useState([]);
 
   const books = useMemo(() => {
     if (!bibleData) return [];
     return Object.values(bibleData);
+  }, [bibleData]);
+
+  // Load reading state from DB
+  useEffect(() => {
+    if (!bibleData) return;
+    onBibleDB.reading_state.toArray().then(states => {
+      const items = states
+        .map(s => {
+          const book = Object.values(bibleData).find(b => b.abbrev === s.book_abbrev);
+          if (!book) return null;
+          return { abbrev: s.book_abbrev, name: book.name, chapter: s.last_chapter, total: book.chapters.length };
+        })
+        .filter(Boolean);
+      setRecentBooks(items);
+    });
   }, [bibleData]);
 
   const filtered = useMemo(() => {
@@ -75,6 +92,28 @@ export default function HomePage() {
           onChange={e => setSearch(e.target.value)}
         />
       </div>
+
+      {/* Continue Reading */}
+      {recentBooks.length > 0 && !search.trim() && (
+        <>
+          <div className="testament-divider">
+            <i className="fas fa-book-reader" style={{ marginRight: '6px' }}></i>Continuar Leitura
+          </div>
+          <div className="recent-books">
+            {recentBooks.map(r => (
+              <Link key={r.abbrev} to={`/book/${r.abbrev}`} className="recent-book-card">
+                <div className="recent-book-name">{r.name}</div>
+                <div className="recent-book-chapter">
+                  Capítulo {r.chapter} <span className="recent-book-of">/ {r.total}</span>
+                </div>
+                <div className="recent-book-progress">
+                  <div className="recent-book-bar" style={{ width: `${Math.round((r.chapter / r.total) * 100)}%` }}></div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </>
+      )}
 
       {otBooks.length > 0 && (
         <>
