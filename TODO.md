@@ -13,8 +13,6 @@ Este documento consolida as sugestões arquiteturais, visuais e de funcionalidad
 - [ ] **Dicionário Strong e Léxicos (Grego/Hebraico):** Destacar passagens sublinhadas que, ao serem clicadas, mostram as raízes etimológicas.
 - [ ] **Referências Cruzadas Interativas:** Ao clicar num versículo (ex: Mateus 24:15), a aplicação deve abrir um painel rápido com o trecho citado do Antigo Testamento (ex: Daniel).
 
-## 🏗️ Melhorias de Código e Arquitetura
 
-- [ ] **Migração de Framework Frontend:** Substituir os scripts soltos do jQuery por ferramentas estáticas modernas para Single Page Applications (SPAs) reativas (ex: **React, Next.js ou Vue**). 
 
 

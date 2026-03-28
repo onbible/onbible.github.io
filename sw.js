@@ -1,4 +1,4 @@
-const CACHE_NAME = 'onbible-cache-v2';
+const CACHE_NAME = 'onbible-cache-v3';
 
 // Recursos críticos para a primeira inicialização offline
 const PRECACHE_ASSETS = [
@@ -65,7 +65,8 @@ self.addEventListener('activate', (event) => {
 
 // Cache-First with Network Fallback Strategy
 self.addEventListener('fetch', (event) => {
-    if (event.request.method !== 'GET') return;
+    // Apenas GET requests e esquemas http/https (ignora chrome-extension:// etc)
+    if (event.request.method !== 'GET' || !event.request.url.startsWith('http')) return;
 
     event.respondWith(
         caches.match(event.request).then((cachedResponse) => {
@@ -92,8 +93,9 @@ self.addEventListener('fetch', (event) => {
                     cache.put(event.request, responseToCache);
                 });
                 return networkResponse;
-            }).catch(() => {
-                console.log('[SW] Network error. No cache available.');
+            }).catch((error) => {
+                console.error('[SW] Network error. No cache available for:', event.request.url, error);
+                return Response.error();
             });
         })
     );
