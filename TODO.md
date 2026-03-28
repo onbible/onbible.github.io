@@ -21,12 +21,8 @@ Permita compartilhar ou não o sermão.
 na leitura da biblia, seria bom ter a possibilidade de selecionar mais de uma versão da blia e abrir elas em colunas para fazer comparação.
 
 
-quando o usuário concluie o plano de leitura anaula no final você gera um  lindo Certificado de Leitura da Bíblia
 
 
-na Ilustração — Daniel 7:9 seria legal trazer o veciculo reverente em baixo da imagem quando estiver visualizando.
-
-Concordância Bíblica: Permite localizar todas as ocorrências de uma palavra ou frase em toda a Bíblia.
 
 
 

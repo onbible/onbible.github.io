@@ -13,6 +13,7 @@ import AboutPage from './pages/AboutPage';
 import SermonsPage from './pages/SermonsPage';
 import ProjectorPage from './pages/ProjectorPage';
 import DictionaryPage from './pages/DictionaryPage';
+import ConcordancePage from './pages/ConcordancePage';
 import { DB } from './lib/db';
 
 export default function App() {
@@ -51,6 +52,7 @@ export default function App() {
           <Route path="/sermons"      element={<SermonsPage />} />
           <Route path="/projector"    element={<ProjectorPage />} />
           <Route path="/dictionary"   element={<DictionaryPage />} />
+          <Route path="/concordance" element={<ConcordancePage />} />
           <Route path="/about"         element={<AboutPage />} />
           <Route path="*"              element={<Navigate to="/" replace />} />
         </Routes>
