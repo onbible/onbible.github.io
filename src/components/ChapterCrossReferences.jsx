@@ -1,36 +1,35 @@
 import { useState, useEffect } from 'react';
-import { BOOK_FILE_MAP, PT_NAMES, loadFile, translateRef, getVerseText } from './CrossReferences';
+import { BOOK_FILE_MAP, ABBREV_TO_TSK, TSK_PT_NAMES, loadFile, translateRef, getVerseText, findRefsForVerse } from './CrossReferences';
 
 export default function ChapterCrossReferences({ bookAbbrev, chapter, bibleData }) {
-  const [allRefs, setAllRefs]       = useState({}); // { verseNum: [ref1, ref2, ...] }
+  const [allRefs, setAllRefs]       = useState({}); // { verseNum: ["GEN 1 2", ...] }
   const [loading, setLoading]       = useState(true);
   const [collapsed, setCollapsed]   = useState(false);
   const [expandedVerse, setExpandedVerse] = useState(null);
 
-  const info = BOOK_FILE_MAP[bookAbbrev];
-  const ptBook = info ? (PT_NAMES[info.n] || info.n) : bookAbbrev;
+  const fileNum = BOOK_FILE_MAP[bookAbbrev];
+  const tskAbbrev = ABBREV_TO_TSK[bookAbbrev];
+  const ptBook = tskAbbrev ? (TSK_PT_NAMES[tskAbbrev] || bookAbbrev) : bookAbbrev;
 
   useEffect(() => {
-    if (!info) { setLoading(false); setAllRefs({}); return; }
+    if (!fileNum || !tskAbbrev) { setLoading(false); setAllRefs({}); return; }
     setLoading(true);
     setExpandedVerse(null);
-    loadFile(info.f)
+    loadFile(fileNum)
       .then(data => {
+        const prefix = `${tskAbbrev} ${chapter} `;
         const map = {};
-        for (const [key, refs] of Object.entries(data)) {
-          if (!key.startsWith(info.n + ' ')) continue;
-          const m = key.match(/(\d+):(\d+)$/);
-          if (!m) continue;
-          const ch = +m[1], vs = +m[2];
-          if (ch === chapter && refs.length > 0) {
-            map[vs] = refs;
-          }
+        for (const entry of Object.values(data)) {
+          if (!entry.v || !entry.v.startsWith(prefix)) continue;
+          if (!entry.r || Object.keys(entry.r).length === 0) continue;
+          const vs = +entry.v.split(' ')[2];
+          map[vs] = Object.values(entry.r);
         }
         setAllRefs(map);
       })
       .catch(() => setAllRefs({}))
       .finally(() => setLoading(false));
-  }, [bookAbbrev, chapter, info]);
+  }, [bookAbbrev, chapter, fileNum, tskAbbrev]);
 
   const verseNums = Object.keys(allRefs).map(Number).sort((a, b) => a - b);
   const hasRefs = verseNums.length > 0;
@@ -87,11 +86,11 @@ export default function ChapterCrossReferences({ bookAbbrev, chapter, bibleData 
 
                 {isExpanded && (
                   <div className="cross-ref-verse-refs">
-                    {refs.map(ref => {
+                    {refs.map((ref, i) => {
                       const pt = translateRef(ref);
                       const text = getVerseText(bibleData, ref);
                       return (
-                        <div key={ref} className="cross-ref-item">
+                        <div key={`${ref}-${i}`} className="cross-ref-item">
                           <div className="cross-ref-ref">{pt}</div>
                           {text && <div className="cross-ref-text">{text}</div>}
                         </div>
