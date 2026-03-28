@@ -47,7 +47,7 @@ const PT_NAMES = {
 
 const fileCache = {};
 
-async function loadFile(num) {
+export async function loadFile(num) {
   if (fileCache[num]) return fileCache[num];
   const url = `https://raw.githubusercontent.com/josephilipraja/Bible-Cross-Reference-JSON/master/${num}.json`;
   const resp = await fetch(url);
@@ -56,14 +56,16 @@ async function loadFile(num) {
   return data;
 }
 
-function translateRef(ref) {
+export { BOOK_FILE_MAP, PT_NAMES };
+
+export function translateRef(ref) {
   for (const [en, pt] of Object.entries(PT_NAMES)) {
     if (ref.startsWith(en + ' ')) return pt + ref.slice(en.length);
   }
   return ref;
 }
 
-function getVerseText(bibleData, refStr) {
+export function getVerseText(bibleData, refStr) {
   const m = refStr.match(/^(.+?)\s(\d+):(\d+)$/);
   if (!m) return null;
   const [, bookEn, ch, vs] = m;

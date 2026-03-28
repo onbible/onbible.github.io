@@ -312,6 +312,107 @@ body {
 [data-theme="dark"] .dot-clear { background: #2a2a40; color: #aaa; }
 
 /* Cross references panel */
+.cross-ref-chapter-panel {
+  margin-top: 28px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-secondary);
+}
+.cross-ref-chapter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  cursor: pointer;
+  user-select: none;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+.cross-ref-chapter-header:hover {
+  background: rgba(79,70,229,0.05);
+}
+.cross-ref-chapter-header h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary);
+}
+.cross-ref-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 10px;
+}
+.cross-ref-toggle-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 14px;
+  padding: 4px;
+}
+.cross-ref-chapter-body {
+  padding: 8px 12px 12px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.cross-ref-verse-group {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+.cross-ref-verse-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  user-select: none;
+  background: var(--bg);
+  transition: background 0.15s;
+}
+.cross-ref-verse-header:hover, .cross-ref-verse-header.active {
+  background: rgba(79,70,229,0.06);
+}
+.cross-ref-verse-label {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text);
+}
+.cross-ref-count {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+.cross-ref-verse-refs {
+  padding: 4px 12px 8px;
+}
+.ref-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  color: #10b981;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-right: 2px;
+  vertical-align: super;
+  opacity: 0.6;
+  transition: opacity 0.15s, color 0.15s;
+}
+.ref-icon:hover, .ref-icon-active {
+  opacity: 1;
+  color: #059669;
+}
 .cross-ref-panel {
   margin-top: 24px;
   border-top: 2px solid var(--border);

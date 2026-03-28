@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useBibleData } from '../hooks/useBible';
 import { DB } from '../lib/db';
-import CrossReferences from '../components/CrossReferences';
+import ChapterCrossReferences from '../components/ChapterCrossReferences';
 
 const HL_COLORS = ['yellow', 'green', 'blue', 'pink'];
 
@@ -15,7 +15,6 @@ export default function BookPage() {
   const [highlights, setHighlights] = useState({});
   const [notes, setNotes]           = useState({});
   const [popover, setPopover]       = useState(null); // { verse, x, y }
-  const [crossRefs, setCrossRefs]   = useState(null); // { verse }
   const popoverRef = useRef(null);
 
   const book = bibleData ? Object.values(bibleData).find(b => b.abbrev === abbrev) : null;
@@ -40,14 +39,12 @@ export default function BookPage() {
       setNotes(nMap);
     }
     load();
-    setCrossRefs(null);
   }, [abbrev, chapter]);
 
   // Save chapter
   const goToChapter = useCallback((ch) => {
     setChapter(ch);
     DB.setChapter(abbrev, ch);
-    setCrossRefs(null);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [abbrev]);
 
@@ -100,15 +97,11 @@ export default function BookPage() {
     }
   }, [popover, abbrev, chapter]);
 
-  // Cross references
+  // Cross references (from popover)
   const showRefs = useCallback(() => {
     if (!popover) return;
-    const verse = popover.verse;
     setPopover(null);
-    setCrossRefs({ verse });
-    setTimeout(() => {
-      document.getElementById('cross-ref-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 100);
+    document.getElementById('cross-ref-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, [popover]);
 
   if (loading || !book) {
@@ -187,16 +180,12 @@ export default function BookPage() {
           );
         })}
 
-        {/* Cross References Panel */}
-        {crossRefs && (
-          <CrossReferences
-            bookAbbrev={abbrev}
-            chapter={chapter}
-            verse={crossRefs.verse}
-            bibleData={bibleData}
-            onClose={() => setCrossRefs(null)}
-          />
-        )}
+        {/* Cross References Panel — always visible */}
+        <ChapterCrossReferences
+          bookAbbrev={abbrev}
+          chapter={chapter}
+          bibleData={bibleData}
+        />
       </div>
 
       {/* Highlight Popover */}
