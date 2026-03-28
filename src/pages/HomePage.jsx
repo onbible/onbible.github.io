@@ -221,36 +221,38 @@ export default function HomePage() {
 
       {/* ── Search Box ── */}
       <div className="search-wrapper" ref={searchBoxRef}>
-        <div className="search-box">
-          <i className="fas fa-search" />
-          <input
-            type="text"
-            placeholder={searchMode === 'books' ? 'Buscar livro...' : 'Buscar na Bíblia... (ex: amor, João 3:16)'}
-            value={search}
-            onChange={e => handleSearch(e.target.value)}
-            onFocus={() => { if (search.trim()) setShowResults(true); }}
-          />
-          {search && (
-            <button className="search-clear" onClick={() => { setSearch(''); setVerseResults([]); setShowResults(false); }}>
-              <i className="fas fa-times" />
-            </button>
-          )}
-        </div>
+        <div className="search-row">
+          <div className="search-box">
+            <i className="fas fa-search" />
+            <input
+              type="text"
+              placeholder={searchMode === 'books' ? 'Buscar livro...' : 'Buscar na Bíblia... (ex: amor, João 3:16)'}
+              value={search}
+              onChange={e => handleSearch(e.target.value)}
+              onFocus={() => { if (search.trim()) setShowResults(true); }}
+            />
+            {search && (
+              <button className="search-clear" onClick={() => { setSearch(''); setVerseResults([]); setShowResults(false); }}>
+                <i className="fas fa-times" />
+              </button>
+            )}
+          </div>
 
-        {/* Mode toggle */}
-        <div className="search-mode-toggle">
-          <button
-            className={`search-mode-btn ${searchMode === 'books' ? 'active' : ''}`}
-            onClick={() => { setSearchMode('books'); setShowResults(false); setVerseResults([]); }}
-          >
-            <i className="fas fa-book" /> Livros
-          </button>
-          <button
-            className={`search-mode-btn ${searchMode === 'bible' ? 'active' : ''}`}
-            onClick={() => setSearchMode('bible')}
-          >
-            <i className="fas fa-search" /> Buscar na Bíblia
-          </button>
+          {/* Mode toggle */}
+          <div className="search-mode-toggle">
+            <button
+              className={`search-mode-btn ${searchMode === 'books' ? 'active' : ''}`}
+              onClick={() => { setSearchMode('books'); setShowResults(false); setVerseResults([]); }}
+            >
+              <i className="fas fa-book" /> Livros
+            </button>
+            <button
+              className={`search-mode-btn ${searchMode === 'bible' ? 'active' : ''}`}
+              onClick={() => setSearchMode('bible')}
+            >
+              <i className="fas fa-search" /> Buscar
+            </button>
+          </div>
         </div>
 
         {/* ── Bible Search Results Dropdown ── */}
