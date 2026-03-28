@@ -18,14 +18,9 @@ Este documento consolida as sugestões arquiteturais, visuais e de funcionalidad
 
 - [ ] **Referências Cruzadas Interativas:** Ao clicar num versículo (ex: Mateus 24:15), a aplicação deve abrir um painel rápido com o trecho citado do Antigo Testamento (ex: Daniel).
 
-
-ná pagina principal temos o pesquisar livro, quero outra opção ou se possível no mesmo pesquisar, pesquisar ocorrencias e ou pesquisar passagem biblica em toda a biblia
-
-crie um item, Sobre, lá você fala um pouco sobre o projeto e descreve todas as funcionalidades que temos
-
 remova os arquivos da versão legada que não usamos mais
 
-permita que o usuário selecione veciculos e compartilhe via whatsapp
+
 
 Preciso de um item do menu chamado Sermões, onde o usuário pode escrever seus sermos para pregar e ir referenciando facilmente passagens da biblia.
 

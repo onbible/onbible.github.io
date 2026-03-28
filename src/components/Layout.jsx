@@ -15,6 +15,7 @@ export default function Layout({ children, theme, setAppTheme }) {
           <NavLink to="/play"         ><i className="fas fa-headphones" />  <span>Bíblia Play</span></NavLink>
           <NavLink to="/settings"     ><i className="fas fa-cog" />         <span>Configurações</span></NavLink>
           <NavLink to="/changelog"    ><i className="fas fa-history" />     <span>Atualizações</span></NavLink>
+          <NavLink to="/about"        ><i className="fas fa-info-circle" /> <span>Sobre</span></NavLink>
         </nav>
       </aside>
 
