@@ -1,8 +1,23 @@
-import { useState } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default function Layout({ children, theme, setAppTheme }) {
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  useEffect(() => {
+    const onChange = () => setIsFullscreen(!!document.fullscreenElement);
+    document.addEventListener('fullscreenchange', onChange);
+    return () => document.removeEventListener('fullscreenchange', onChange);
+  }, []);
+
+  const toggleFullscreen = useCallback(() => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(() => {});
+    } else {
+      document.exitFullscreen().catch(() => {});
+    }
+  }, []);
 
   return (
     <div className={`app-layout${sidebarOpen ? '' : ' sidebar-collapsed'}`}>
@@ -22,13 +37,22 @@ export default function Layout({ children, theme, setAppTheme }) {
 
       {/* Main */}
       <main className="app-main">
-        <button
-          className="sidebar-toggle"
-          onClick={() => setSidebarOpen(s => !s)}
-          title={sidebarOpen ? 'Esconder menu' : 'Mostrar menu'}
-        >
-          <i className={`fas fa-${sidebarOpen ? 'angle-double-left' : 'angle-double-right'}`}></i>
-        </button>
+        <div className="app-main-toolbar">
+          <button
+            className="sidebar-toggle"
+            onClick={() => setSidebarOpen(s => !s)}
+            title={sidebarOpen ? 'Esconder menu' : 'Mostrar menu'}
+          >
+            <i className={`fas fa-${sidebarOpen ? 'angle-double-left' : 'angle-double-right'}`}></i>
+          </button>
+          <button
+            className="fullscreen-toggle"
+            onClick={toggleFullscreen}
+            title={isFullscreen ? 'Sair da tela cheia' : 'Tela cheia'}
+          >
+            <i className={`fas fa-${isFullscreen ? 'compress' : 'expand'}`}></i>
+          </button>
+        </div>
         {children}
       </main>
 
