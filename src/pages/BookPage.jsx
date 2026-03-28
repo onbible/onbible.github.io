@@ -18,6 +18,8 @@ export default function BookPage() {
   const [popover, setPopover]       = useState(null); // { verse, x, y }
   const [availableImages, setAvailableImages] = useState([]);
   const [imageModal, setImageModal] = useState(null); // { src, title }
+  const [noteModal, setNoteModal]   = useState(null); // { verse, text }
+  const noteTextRef = useRef(null);
   const popoverRef = useRef(null);
 
   const book = bibleData ? Object.values(bibleData).find(b => b.abbrev === abbrev) : null;
@@ -120,8 +122,19 @@ export default function BookPage() {
     const { verse } = popover;
     setPopover(null);
     const existing = await DB.getNote(abbrev, chapter, verse);
-    const text = window.prompt(`Nota — versículo ${verse}:\n\n(Deixe vazio para remover)`, existing || '');
-    if (text === null) return; // cancelled
+    setNoteModal({ verse, text: existing || '' });
+  }, [popover, abbrev, chapter]);
+
+  // Focus textarea when note modal opens
+  useEffect(() => {
+    if (noteModal && noteTextRef.current) {
+      noteTextRef.current.focus();
+    }
+  }, [noteModal]);
+
+  const saveNote = useCallback(async () => {
+    if (!noteModal) return;
+    const { verse, text } = noteModal;
     if (text.trim() === '') {
       await DB.deleteNote(abbrev, chapter, verse);
       setNotes(prev => { const n = {...prev}; delete n[verse]; return n; });
@@ -129,7 +142,16 @@ export default function BookPage() {
       await DB.setNote(abbrev, chapter, verse, text.trim());
       setNotes(prev => ({ ...prev, [verse]: text.trim() }));
     }
-  }, [popover, abbrev, chapter]);
+    setNoteModal(null);
+  }, [noteModal, abbrev, chapter]);
+
+  const deleteNote = useCallback(async () => {
+    if (!noteModal) return;
+    const { verse } = noteModal;
+    await DB.deleteNote(abbrev, chapter, verse);
+    setNotes(prev => { const n = {...prev}; delete n[verse]; return n; });
+    setNoteModal(null);
+  }, [noteModal, abbrev, chapter]);
 
   // Cross references (from popover)
   const showRefs = useCallback(() => {
@@ -282,6 +304,41 @@ export default function BookPage() {
             </div>
             <div className="image-modal-body">
               <img src={imageModal.src} alt={`Ilustração - ${imageModal.title}`} />
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Note Modal */}
+      {noteModal && (
+        <div className="note-modal-overlay" onClick={() => setNoteModal(null)}>
+          <div className="note-modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className="note-modal-header">
+              <h5><i className="fas fa-sticky-note" style={{ color: '#f59e0b', marginRight: '8px' }} />Nota — Versículo {noteModal.verse}</h5>
+              <button onClick={() => setNoteModal(null)}>&times;</button>
+            </div>
+            <div className="note-modal-body">
+              <textarea
+                ref={noteTextRef}
+                className="note-modal-textarea"
+                placeholder="Escreva sua nota aqui..."
+                value={noteModal.text}
+                onChange={(e) => setNoteModal(prev => ({ ...prev, text: e.target.value }))}
+              />
+            </div>
+            <div className="note-modal-footer">
+              {notes[noteModal.verse] && (
+                <button className="note-modal-btn delete" onClick={deleteNote}>
+                  <i className="fas fa-trash-alt" /> Remover
+                </button>
+              )}
+              <div style={{ flex: 1 }} />
+              <button className="note-modal-btn cancel" onClick={() => setNoteModal(null)}>
+                Cancelar
+              </button>
+              <button className="note-modal-btn save" onClick={saveNote}>
+                <i className="fas fa-check" /> Salvar
+              </button>
             </div>
           </div>
         </div>
