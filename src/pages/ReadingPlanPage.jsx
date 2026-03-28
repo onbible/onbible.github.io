@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { PLAN, MONTH_NAMES } from '../lib/readingPlan';
 import { DB } from '../lib/db';
+import ReadingCertificate from '../components/ReadingCertificate';
 
 export default function ReadingPlanPage() {
   const today = new Date();
@@ -10,6 +11,8 @@ export default function ReadingPlanPage() {
   const [selectedMonth, setSelectedMonth] = useState(currentMonth);
   const [completed, setCompleted]         = useState({}); // { "1-1": true, "3-15": true, ... }
   const [loading, setLoading]             = useState(true);
+  const [showCert, setShowCert]           = useState(false);
+  const [certName, setCertName]           = useState('');
 
   // Load all completion data
   useEffect(() => {
@@ -41,6 +44,19 @@ export default function ReadingPlanPage() {
   const monthDays   = PLAN[selectedMonth] || [];
   const monthDone   = monthDays.filter((_, i) => completed[`${selectedMonth}-${i + 1}`]).length;
   const monthPct    = monthDays.length > 0 ? Math.round((monthDone / monthDays.length) * 100) : 0;
+
+  const isComplete = doneDays >= totalDays && totalDays > 0;
+
+  const handleOpenCert = () => {
+    const saved = localStorage.getItem('cert_user_name') || '';
+    setCertName(saved);
+    setShowCert(true);
+  };
+
+  const handleSaveName = (name) => {
+    setCertName(name);
+    localStorage.setItem('cert_user_name', name);
+  };
 
   if (loading) {
     return (
@@ -131,6 +147,39 @@ export default function ReadingPlanPage() {
           );
         })}
       </div>
+
+      {/* Completion banner */}
+      {isComplete && (
+        <div className="plan-complete-banner">
+          <div className="plan-complete-icon">
+            <i className="fas fa-award" />
+          </div>
+          <h3>Parabéns! Você completou a leitura da Bíblia!</h3>
+          <p>Toda a Escritura Sagrada foi lida com dedicação e fé. Gere seu certificado de conclusão.</p>
+          <div className="plan-cert-name-row">
+            <input
+              type="text"
+              className="plan-cert-name-input"
+              placeholder="Seu nome para o certificado"
+              value={certName}
+              onChange={e => handleSaveName(e.target.value)}
+              maxLength={60}
+            />
+          </div>
+          <button className="plan-cert-btn" onClick={handleOpenCert}>
+            <i className="fas fa-certificate" /> Gerar Certificado
+          </button>
+        </div>
+      )}
+
+      {/* Certificate modal */}
+      {showCert && (
+        <ReadingCertificate
+          userName={certName}
+          year={2026}
+          onClose={() => setShowCert(false)}
+        />
+      )}
     </>
   );
 }

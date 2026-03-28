@@ -24,7 +24,7 @@ onBibleDB.version(3).stores({
   notes:          '++id, book, chapter, verse, text',
   highlights:     '++id, book, chapter, verse, color',
   reading_plan:   'day_key',
-  sermons:        '++id, title, created_at, updated_at',
+  sermons:        '++id, title, created_at, updated_at, isPublic',
 });
 
 // ─── DB API ────────────────────────────────────────────────────────────────
@@ -117,12 +117,17 @@ export const DB = {
   async getSermon(id) {
     return onBibleDB.sermons.get(id);
   },
-  async createSermon(title, body) {
+  async createSermon(title, body, isPublic = false) {
     const now = Date.now();
-    return onBibleDB.sermons.add({ title, body, created_at: now, updated_at: now });
+    return onBibleDB.sermons.add({ title, body, isPublic, created_at: now, updated_at: now });
   },
-  async updateSermon(id, title, body) {
-    await onBibleDB.sermons.update(id, { title, body, updated_at: Date.now() });
+  async updateSermon(id, title, body, isPublic) {
+    const update = { title, body, updated_at: Date.now() };
+    if (typeof isPublic === 'boolean') update.isPublic = isPublic;
+    await onBibleDB.sermons.update(id, update);
+  },
+  async setSermonPrivacy(id, isPublic) {
+    await onBibleDB.sermons.update(id, { isPublic });
   },
   async deleteSermon(id) {
     await onBibleDB.sermons.delete(id);

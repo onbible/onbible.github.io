@@ -9,19 +9,10 @@ Este documento consolida as sugestões arquiteturais, visuais e de funcionalidad
 - [ ] **Assistente LLM Nativo (Offline-First):** Integrar modelos de linguagem compactos que rodam puramente no navegador e celular da pessoa (via WebGPU usando WebLLM ou Transformers.js). Explicar versículos, história e contextos, tudo usando poder de processamento do próprio aparelho, sem precisar nunca de rede.
   
 - [ ] **Gerador de Esboços de Pregação Autônomo:** Utilizar a IA no navegador para conectar versículos que o pastor destacou e estruturar automaticamente um sermão expositivo, protegendo a privacidade dele (nada vai para um servidor na internet).
-  
-- [ ] **Busca Semântica no Dispositivo:** Permitir pesquisa de conceitos complexos na Bíblia inteira ("*parábolas de Jesus sobre administração financeira*") construindo uma base de *embeddings* offline que busca por "sentido" ao invés de textos exatos.
-
-- [ ] **Referências Cruzadas Interativas:** Ao clicar num versículo (ex: Mateus 24:15), a aplicação deve abrir um painel rápido com o trecho citado do Antigo Testamento (ex: Daniel).
-
-remova os arquivos da versão legada que não usamos mais.
 
 Permita compartilhar ou não o sermão.
 
-na leitura da biblia, seria bom ter a possibilidade de selecionar mais de uma versão da blia e abrir elas em colunas para fazer comparação.
-
-
-
+remova os arquivos da versão legada que não usamos mais, cuida, muito cuidado, para não apagar nossos arquivos da aplicação atual.
 
 
 

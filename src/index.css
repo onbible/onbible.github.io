@@ -1780,6 +1780,179 @@ body {
   flex-shrink: 0;
 }
 
+/* ── Plan Completion Banner ── */
+.plan-complete-banner {
+  margin: 20px 28px 28px;
+  padding: 28px 24px;
+  background: linear-gradient(135deg, #fef9e7 0%, #fdf2d1 50%, #f9e8b0 100%);
+  border: 2px solid #c9a84c;
+  border-radius: 16px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+[data-theme="dark"] .plan-complete-banner {
+  background: linear-gradient(135deg, #2a2520 0%, #332a1e 50%, #3d2e18 100%);
+  border-color: #b8943f;
+}
+.plan-complete-icon {
+  font-size: 48px;
+  color: #c9a84c;
+  margin-bottom: 10px;
+  animation: certPulse 2s infinite;
+}
+@keyframes certPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+.plan-complete-banner h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #5a4019;
+  margin: 0 0 8px;
+}
+[data-theme="dark"] .plan-complete-banner h3 { color: #f0d68a; }
+.plan-complete-banner p {
+  font-size: 14px;
+  color: #7a6652;
+  margin: 0 0 16px;
+}
+[data-theme="dark"] .plan-complete-banner p { color: #bfa76e; }
+.plan-cert-name-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+.plan-cert-name-input {
+  width: 100%;
+  max-width: 340px;
+  padding: 10px 14px;
+  border: 1.5px solid #c9a84c;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  background: rgba(255,255,255,.7);
+  color: #3e2c1c;
+  outline: none;
+  transition: border-color .2s;
+}
+[data-theme="dark"] .plan-cert-name-input {
+  background: rgba(0,0,0,.25);
+  color: #f0d68a;
+  border-color: #b8943f;
+}
+.plan-cert-name-input:focus {
+  border-color: #8b5e34;
+}
+.plan-cert-name-input::placeholder {
+  color: #b8943f;
+  font-weight: 400;
+}
+.plan-cert-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #c9a84c, #8b5e34);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 4px 16px rgba(139,94,52,.3);
+}
+.plan-cert-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(139,94,52,.4);
+}
+
+/* ── Certificate Modal ── */
+.cert-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9500;
+  background: rgba(0,0,0,.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  animation: fadeIn .3s;
+}
+.cert-container {
+  background: var(--bg);
+  border-radius: 16px;
+  max-width: 95vw;
+  max-height: 95vh;
+  overflow: auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 16px 60px rgba(0,0,0,.35);
+}
+.cert-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 2;
+  transition: all .15s;
+}
+.cert-close:hover {
+  color: var(--text);
+  background: var(--border);
+}
+.cert-canvas {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,.15);
+}
+.cert-actions {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0 4px;
+  gap: 12px;
+}
+.cert-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #c9a84c, #8b5e34);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 4px 16px rgba(139,94,52,.3);
+}
+.cert-download-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(139,94,52,.4);
+}
+
+@media (max-width: 600px) {
+  .plan-complete-banner { margin: 14px 14px 20px; padding: 20px 16px; }
+  .plan-complete-banner h3 { font-size: 17px; }
+  .cert-container { padding: 12px; }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .app-sidebar { display: none; }
