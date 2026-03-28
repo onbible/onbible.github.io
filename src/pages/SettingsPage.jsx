@@ -3,7 +3,13 @@ import { DB, onBibleDB } from '../lib/db';
 import { VERSIONS } from '../lib/bibleVersions';
 import { useBibleData } from '../hooks/useBible';
 
-export default function SettingsPage({ theme, toggleTheme }) {
+const THEMES = [
+  { key: 'light', label: 'Claro', icon: 'fa-sun',     color: '#f9fafb' },
+  { key: 'sepia',  label: 'Sépia', icon: 'fa-book-open', color: '#f4ecd8' },
+  { key: 'dark',  label: 'Escuro', icon: 'fa-moon',    color: '#12121f' },
+];
+
+export default function SettingsPage({ theme, setAppTheme }) {
   const { version, changeVersion } = useBibleData();
   const [status, setStatus] = useState('');
 
@@ -20,6 +26,7 @@ export default function SettingsPage({ theme, toggleTheme }) {
         },
         localStorage: {
           dark_mode:    localStorage.getItem('dark_mode'),
+          app_theme:    localStorage.getItem('app_theme'),
           reading_font: localStorage.getItem('reading_font'),
         },
       };
@@ -111,16 +118,20 @@ export default function SettingsPage({ theme, toggleTheme }) {
         {/* Theme */}
         <div className="settings-section">
           <h5><i className="fas fa-palette" style={{ marginRight: '6px' }}></i>Aparência</h5>
-          <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '12px' }}>Alterne entre o modo claro e escuro.</p>
-          <button
-            onClick={toggleTheme}
-            style={{ padding: '10px 20px', borderRadius: '8px', border: '1px solid var(--border)', background: 'var(--bg)', color: 'var(--text)', fontWeight: 600, cursor: 'pointer', fontSize: '14px' }}
-          >
-            {theme === 'dark'
-              ? <><i className="fas fa-sun" style={{ marginRight: '6px' }}></i>Mudar para Modo Claro</>
-              : <><i className="fas fa-moon" style={{ marginRight: '6px' }}></i>Mudar para Modo Escuro</>
-            }
-          </button>
+          <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '12px' }}>Escolha o tema de sua preferência.</p>
+          <div className="theme-picker">
+            {THEMES.map(t => (
+              <button
+                key={t.key}
+                className={`theme-btn${theme === t.key ? ' active' : ''}`}
+                onClick={() => setAppTheme(t.key)}
+              >
+                <span className="theme-preview" style={{ background: t.color }} />
+                <i className={`fas ${t.icon}`} style={{ marginRight: '6px' }} />
+                {t.label}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </>

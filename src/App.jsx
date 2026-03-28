@@ -13,28 +13,26 @@ export default function App() {
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
-    // Apply persisted theme
-    const savedTheme = localStorage.getItem('dark_mode') === '1' ? 'dark' : 'light';
-    setTheme(savedTheme);
-    document.documentElement.setAttribute('data-theme', savedTheme);
+    const saved = localStorage.getItem('app_theme') || (localStorage.getItem('dark_mode') === '1' ? 'dark' : 'light');
+    setTheme(saved);
+    document.documentElement.setAttribute('data-theme', saved);
   }, []);
 
-  const toggleTheme = () => {
-    const next = theme === 'dark' ? 'light' : 'dark';
-    setTheme(next);
-    localStorage.setItem('dark_mode', next === 'dark' ? '1' : '0');
-    document.documentElement.setAttribute('data-theme', next);
+  const setAppTheme = (t) => {
+    setTheme(t);
+    localStorage.setItem('app_theme', t);
+    document.documentElement.setAttribute('data-theme', t);
   };
 
   return (
     <BrowserRouter>
-      <Layout theme={theme} toggleTheme={toggleTheme}>
+      <Layout theme={theme} setAppTheme={setAppTheme}>
         <Routes>
           <Route path="/"              element={<HomePage />} />
           <Route path="/book/:abbrev"  element={<BookPage />} />
           <Route path="/markers"       element={<MarkersPage />} />
           <Route path="/play"          element={<PlayPage />} />
-          <Route path="/settings"      element={<SettingsPage theme={theme} toggleTheme={toggleTheme} />} />
+          <Route path="/settings"      element={<SettingsPage theme={theme} setAppTheme={setAppTheme} />} />
           <Route path="/changelog"     element={<ChangelogPage />} />
           <Route path="*"              element={<Navigate to="/" replace />} />
         </Routes>

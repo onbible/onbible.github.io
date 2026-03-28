@@ -21,6 +21,16 @@
   --text-muted: #9ca3af;
 }
 
+[data-theme="sepia"] {
+  --bg: #f4ecd8;
+  --bg-secondary: #ebe3ce;
+  --border: #d5c9a8;
+  --text: #3e2c1c;
+  --text-muted: #7a6652;
+  --primary: #8b5e34;
+  --primary-light: #b07840;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -264,6 +274,18 @@ body {
 [data-theme="dark"] .cat-gen  { border-color: #6c5ce7; background: rgba(108,92,231,0.06); }
 [data-theme="dark"] .cat-rev  { border-color: #fd79a8; background: rgba(253,121,168,0.06); }
 
+/* Sepia mode category adjustments */
+[data-theme="sepia"] .cat-law  { border-color: #c0392b; background: rgba(192,57,43,0.08); }
+[data-theme="sepia"] .cat-hist { border-color: #c27020; background: rgba(194,112,32,0.08); }
+[data-theme="sepia"] .cat-poet { border-color: #b8960e; background: rgba(184,150,14,0.08); }
+[data-theme="sepia"] .cat-pmaj { border-color: #27a85a; background: rgba(39,168,90,0.08); }
+[data-theme="sepia"] .cat-pmin { border-color: #17967d; background: rgba(23,150,125,0.08); }
+[data-theme="sepia"] .cat-gosp { border-color: #2980b9; background: rgba(41,128,185,0.08); }
+[data-theme="sepia"] .cat-acts { border-color: #8345a0; background: rgba(131,69,160,0.08); }
+[data-theme="sepia"] .cat-paul { border-color: #c23576; background: rgba(194,53,118,0.08); }
+[data-theme="sepia"] .cat-gen  { border-color: #5a4cc2; background: rgba(90,76,194,0.08); }
+[data-theme="sepia"] .cat-rev  { border-color: #d06080; background: rgba(208,96,128,0.08); }
+
 .testament-divider {
   padding: 8px 28px 4px;
   font-size: 11px;
@@ -418,6 +440,10 @@ body {
 [data-theme="dark"] .hl-green  { background: rgba(74,222,128,0.2); }
 [data-theme="dark"] .hl-blue   { background: rgba(96,165,250,0.2); }
 [data-theme="dark"] .hl-pink   { background: rgba(244,114,182,0.2); }
+[data-theme="sepia"] .hl-yellow { background: rgba(200,170,50,0.25); }
+[data-theme="sepia"] .hl-green  { background: rgba(50,160,80,0.18); }
+[data-theme="sepia"] .hl-blue   { background: rgba(60,120,200,0.18); }
+[data-theme="sepia"] .hl-pink   { background: rgba(200,90,140,0.18); }
 
 .note-icon {
   font-size: 10px;
@@ -576,6 +602,7 @@ body {
 .dot-note   { background: #6366f1; }
 .dot-ref    { background: #10b981; }
 [data-theme="dark"] .dot-clear { background: #2a2a40; color: #aaa; }
+[data-theme="sepia"] .dot-clear { background: #ddd0b6; color: #7a6652; }
 
 /* Cross references panel */
 .cross-ref-chapter-panel {
@@ -750,6 +777,40 @@ body {
   margin-bottom: 16px;
 }
 .settings-section h5 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+
+/* Theme picker */
+.theme-picker {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.theme-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 2px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.theme-btn:hover { border-color: var(--primary); }
+.theme-btn.active {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(79,70,229,0.18);
+}
+.theme-preview {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  flex-shrink: 0;
+}
 
 /* Responsive */
 @media (max-width: 768px) {

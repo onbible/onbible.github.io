@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-export default function Layout({ children, theme, toggleTheme }) {
+export default function Layout({ children, theme, setAppTheme }) {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   return (
