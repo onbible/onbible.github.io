@@ -1,0 +1,31 @@
+{
+    "livro": "Cantares de Salomâo",
+    "capitulo": 1,
+    "titulos": {
+        "2": "Esposa",
+        "5": "Esposa",
+        "8": "Esposo",
+        "12": "Esposa",
+        "15": "Esposo",
+        "16": "Esposa"
+    },
+    "versiculos": {
+        "1": "Cântico dos cânticos de Salomão.",
+        "2": "Beije-me com os beijos",
+        "3": "Suave é o aroma",
+        "4": "Leve-me com você!",
+        "5": "Eu sou morena e bonita,",
+        "6": "Não olhem para a minha",
+        "7": "Diga-me, ó amado",
+        "8": "Se você, a mais bela",
+        "9": "Comparo você, minha querida,",
+        "10": "O seu rosto fica lindo",
+        "11": "Faremos para você",
+        "12": "Enquanto o rei está assentado",
+        "13": "O meu amado é para mim",
+        "14": "O meu amado é para mim",
+        "15": "Como você é bela,",
+        "16": "Como você é belo, meu amado!",
+        "17": "As vigas da nossa casa"
+    }
+}

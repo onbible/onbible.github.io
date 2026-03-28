@@ -1,0 +1,27 @@
+{
+    "livro": "Cantares de Salomâo",
+    "capitulo": 6,
+    "titulos": {
+        "1": "Coro",
+        "2": "Esposa",
+        "4": "Esposo",
+        "10": "Coro",
+        "11": "Esposa",
+        "13": "Coro"
+    },
+    "versiculos": {
+        "1": "Para onde foi o seu amado,",
+        "2": "O meu amado desceu",
+        "3": "Eu sou do meu amado,",
+        "4": "Minha querida,",
+        "5": "Desvie de mim os seus olhos,",
+        "6": "Os seus dentes são como",
+        "7": "As suas faces, como romã partida,",
+        "8": "Sessenta são as rainhas,",
+        "9": "mas uma só é a minha pombinha",
+        "10": "Quem é esta que aparece",
+        "11": "Desci ao jardim das nogueiras,",
+        "12": "Não sei como,",
+        "13": "Volte, volte, sulamita!"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "livro": "Salmos",
+    "capitulo": 123,
+    "titulos": {
+        "1": "Canção de peregrinos."
+    },
+    "versiculos": {
+        "1": "Ó Senhor Deus, levanto os olhos a ti, que tens o trono no céu.",
+        "2": "Como o escravo depende do seu dono e como as escravas dependem das suas donas, assim olhamos para ti, ó Senhor , nosso Deus, esperando que tenhas compaixão de nós.",
+        "3": "Tem compaixão de nós, ó Senhor ! Tem compaixão, pois somos tratados com muito desprezo.",
+        "4": "Somos sempre desprezados pelos ricos, e os orgulhosos zombam de nós."
+    }
+}

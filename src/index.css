@@ -2943,3 +2943,212 @@ body {
   .proj-nav-next { right: 4px; }
   .proj-hint { font-size: 10px; }
 }
+
+/* ══════════════════════════════════════════
+   Dictionary Page
+   ══════════════════════════════════════════ */
+.dict-search-wrap {
+  padding: 12px 28px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.dict-search-wrap .search-box { flex: 1; }
+.dict-count {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* Alphabet bar */
+.dict-alpha-bar {
+  display: flex;
+  gap: 3px;
+  padding: 10px 28px 0;
+  flex-wrap: wrap;
+}
+.dict-alpha-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dict-alpha-btn:hover {
+  background: var(--primary);
+  color: #fff;
+}
+.dict-alpha-btn.active {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* Entry list */
+.dict-list {
+  padding: 10px 28px 28px;
+  max-height: calc(100vh - 240px);
+  overflow-y: auto;
+}
+.dict-empty {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 40px 0;
+  font-size: 15px;
+}
+
+/* Entry card */
+.dict-entry-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: border-color .15s, box-shadow .15s;
+}
+.dict-entry-card:hover {
+  border-color: var(--primary);
+  box-shadow: 0 2px 8px rgba(99,102,241,.12);
+}
+.dict-entry-head {
+  margin-bottom: 2px;
+}
+.dict-entry-term {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  text-transform: capitalize;
+}
+.dict-entry-preview {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Load more */
+.dict-load-more {
+  text-align: center;
+  padding: 12px 0;
+}
+.dict-load-more button {
+  padding: 8px 20px;
+  border: 1.5px solid var(--primary);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s;
+}
+.dict-load-more button:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* Detail modal */
+.dict-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  background: rgba(0,0,0,.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn .2s;
+}
+.dict-modal {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  max-width: 560px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 24px;
+  position: relative;
+  box-shadow: 0 12px 40px rgba(0,0,0,.2);
+}
+.dict-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 18px;
+  cursor: pointer;
+  padding: 4px;
+}
+.dict-modal-close:hover { color: var(--text); }
+.dict-modal-header {
+  margin-bottom: 16px;
+}
+.dict-modal-term {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text);
+  margin: 0;
+  text-transform: capitalize;
+}
+.dict-modal-section {
+  margin-bottom: 16px;
+}
+.dict-modal-section h4 {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  font-weight: 700;
+}
+.dict-modal-def {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0;
+}
+.dict-modal-extra {
+  font-style: italic;
+  color: var(--text-muted);
+}
+.dict-ref-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.dict-ref-tag {
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+@media (max-width: 600px) {
+  .dict-search-wrap, .dict-alpha-bar, .dict-list { padding-left: 14px; padding-right: 14px; }
+  .dict-modal { padding: 18px; border-radius: 12px; }
+  .dict-modal-term { font-size: 19px; }
+}

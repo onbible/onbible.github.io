@@ -1,0 +1,13 @@
+{
+    "livro": "Salmos",
+    "capitulo": 123,
+    "titulos": {
+        "1": "Oração por compaixão"
+    },
+    "versiculos": {
+        "1": "A ti, que habitas nos céus,",
+        "2": "Como os olhos dos servos",
+        "3": "Tem compaixão de nós, Senhor ,",
+        "4": "A nossa alma está saturada"
+    }
+}

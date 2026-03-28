@@ -28,9 +28,8 @@ na Ilustração — Daniel 7:9 seria legal trazer o veciculo reverente em baixo 
 
 Concordância Bíblica: Permite localizar todas as ocorrências de uma palavra ou frase em toda a Bíblia.
 
-Dicionário Bíblico: Para consulta rápida de termos e seus significados.
 
-Projeção de Versículos (Modo Slide): Uma interface otimizada para apresentações em tela cheia (Datashow), com controles de navegação simples e design limpo.
+
 
 
 

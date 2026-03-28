@@ -1,0 +1,30 @@
+{
+    "livro": "Cantares de Salomâo",
+    "capitulo": 8,
+    "titulos": {
+        "5": "Coro",
+        "6": "Esposa",
+        "8": "Os irmãos",
+        "10": "Esposa",
+        "11": "Coro",
+        "12": "Esposa",
+        "13": "Esposo",
+        "14": "Esposa"
+    },
+    "versiculos": {
+        "1": "Quem dera que você",
+        "2": "Eu o levaria para a casa",
+        "3": "A sua mão esquerda estaria",
+        "4": "Filhas de Jerusalém,",
+        "5": "Quem é esta que vem",
+        "6": "Ponha-me como selo",
+        "7": "As muitas águas não poderiam",
+        "8": "Temos uma irmãzinha",
+        "9": "Se ela fosse uma muralha,",
+        "10": "Eu sou uma muralha,",
+        "11": "Salomão teve uma vinha",
+        "12": "A minha vinha,",
+        "13": "Você, que habita nos jardins,",
+        "14": "Venha depressa, meu amado,"
+    }
+}

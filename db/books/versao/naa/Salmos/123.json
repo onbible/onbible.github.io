@@ -1,0 +1,13 @@
+{
+    "livro": "Salmos",
+    "capitulo": 123,
+    "titulos": {
+        "1": "Oração por compaixão"
+    },
+    "versiculos": {
+        "1": "Cântico de peregrinação A ti, que habitas nos céus, u elevo os olhos!",
+        "2": "Como os olhos dos servos estão atentos às mãos dos seus senhores, e os olhos da serva, à mão de sua senhora, assim os nossos olhos estão atentos ao SENHOR, nosso Deus, até que tenha compaixão de nós.",
+        "3": "Tem compaixão de nós, SENHOR, tem compaixão, pois estamos saturados de tanto desprezo.",
+        "4": "A nossa alma está saturada da zombaria dos arrogantes e do desprezo dos soberbos."
+    }
+}

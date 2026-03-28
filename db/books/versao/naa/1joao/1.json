@@ -1,0 +1,21 @@
+{
+    "livro": "1 João",
+    "capitulo": 1,
+    "titulos": {
+        "1": "Prólogo. O Verbo da vida e a comunhão com Deus",
+        "5": "Deus é luz",
+        "8": "O pecado, a confissão, o perdão"
+    },
+    "versiculos": {
+        "1": "O que era desde o princípio, a o que ouvimos, o que vimos com os nossos próprios olhos, b o que contemplamos e as nossas mãos apalparam, c a respeito do Verbo da vida d",
+        "2": "— e a vida se manifestou, e e nós a vimos e dela damos testemunho, e anunciamos a vocês a vida eterna, que estava com o Pai e nos foi manifestada —,",
+        "3": "o que vimos e ouvimos anunciamos também a vocês, para que também vocês tenham comunhão conosco. Ora, a nossa comunhão é com o Pai e com o seu Filho, Jesus Cristo. f",
+        "4": "E escrevemos estas coisas para que a nossa alegria seja completa. g",
+        "5": "A mensagem que dele ouvimos e que anunciamos a vocês é esta: Deus é luz, h e não há nele treva nenhuma.",
+        "6": "Se dissermos que mantemos comunhão com ele e andarmos nas trevas, mentimos e não praticamos a verdade.",
+        "7": "Se andarmos na luz, como ele está na luz, mantemos comunhão uns com os outros, e o sangue de Jesus, seu Filho, nos purifica de todo pecado. i",
+        "8": "Se dissermos que não temos pecado nenhum, j a nós mesmos enganamos, e a verdade não está em nós.",
+        "9": "Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar os pecados e nos purificar de toda injustiça. k",
+        "10": "Se dissermos que não cometemos pecado, fazemos dele um mentiroso, e a sua palavra não está em nós."
+    }
+}

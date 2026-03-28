@@ -1,0 +1,29 @@
+{
+    "livro": "Cantares de Salomâo",
+    "capitulo": 5,
+    "titulos": {
+        "1": "Esposo",
+        "2": "Esposa",
+        "3": "Esposa",
+        "9": "Coro",
+        "10": "Esposa"
+    },
+    "versiculos": {
+        "1": "Já entrei no meu jardim,",
+        "2": "Eu dormia, mas o meu coração",
+        "3": "Já tirei a minha túnica!",
+        "4": "O meu amado meteu a mão",
+        "5": "Eu me levantei para abrir a porta",
+        "6": "Abri a porta ao meu amado,",
+        "7": "Os guardas, que rondavam",
+        "8": "Filhas de Jerusalém, jurem:",
+        "9": "O que é que o seu amado tem",
+        "10": "O meu amado é alvo e rosado,",
+        "11": "A sua cabeça é como o ouro",
+        "12": "Os seus olhos são como pombas",
+        "13": "As suas faces são como",
+        "14": "As suas mãos são",
+        "15": "As suas pernas são",
+        "16": "O seu falar é muito suave;"
+    }
+}

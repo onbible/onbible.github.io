@@ -1,0 +1,15 @@
+{
+    "livro": "Salmos",
+    "capitulo": 150,
+    "titulos": {
+        "1": "Doxologia final"
+    },
+    "versiculos": {
+        "1": "Aleluia! Louvai a Deus no seu santuário; louvai-o no firmamento, obra do seu poder.",
+        "2": "Louvai-o pelos seus poderosos feitos; louvai-o consoante a sua muita grandeza.",
+        "3": "Louvai-o ao som da trombeta; louvai-o com saltério e com harpa.",
+        "4": "Louvai-o com adufes e danças; louvai-o com instrumentos de cordas e com flautas.",
+        "5": "Louvai-o com címbalos sonoros; louvai-o com címbalos retumbantes.",
+        "6": "Todo ser que respira louve ao SENHOR. Aleluia!"
+    }
+}

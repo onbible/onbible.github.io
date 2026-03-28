@@ -1,0 +1,28 @@
+{
+    "livro": "Amós",
+    "capitulo": 1,
+    "titulos": {
+        "3": "Síria",
+        "6": "Filístia",
+        "9": "Tiro",
+        "11": "Edom",
+        "13": "Amom"
+    },
+    "versiculos": {
+        "1": "Palavras que, em visão, vieram a Amós, um pastor da cidade de Tecoa, a respeito de Israel. Isso aconteceu nos dias de Uzias, rei de Judá, e nos dias de Jeroboão, filho de Joás, rei de Israel, dois anos antes do terremoto.",
+        "2": "Amós disse:",
+        "3": "Assim diz o Senhor :",
+        "4": "Por isso, porei fogo",
+        "5": "Quebrarei os ferrolhos",
+        "6": "Assim diz o Senhor :",
+        "7": "Por isso, porei fogo",
+        "8": "Eliminarei o morador de Asdode",
+        "9": "Assim diz o Senhor :",
+        "10": "Por isso, porei fogo",
+        "11": "Assim diz o Senhor :",
+        "12": "Por isso, porei fogo em Temã,",
+        "13": "Assim diz o Senhor :",
+        "14": "Por isso, porei fogo",
+        "15": "O seu rei irá para o cativeiro,"
+    }
+}

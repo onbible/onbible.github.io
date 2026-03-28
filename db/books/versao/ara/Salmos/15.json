@@ -1,0 +1,14 @@
+{
+    "livro": "Salmos",
+    "capitulo": 15,
+    "titulos": {
+        "1": "O cidadão dos céus"
+    },
+    "versiculos": {
+        "1": "Salmo de Davi [1] Quem, SENHOR, habitará no teu tabernáculo? Quem há de morar no teu santo monte?",
+        "2": "O que vive com integridade, e pratica a justiça, e, de coração, fala a verdade;",
+        "3": "o que não difama com sua língua, não faz mal ao próximo, nem lança injúria contra o seu vizinho;",
+        "4": "o que, a seus olhos, tem por desprezível ao réprobo, mas honra aos que temem ao SENHOR; o que jura com dano próprio e não se retrata;",
+        "5": "o que não empresta o seu dinheiro com usura, nem aceita suborno contra o inocente. Quem deste modo procede não será jamais abalado."
+    }
+}
