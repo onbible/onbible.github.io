@@ -2753,3 +2753,193 @@ body {
   .strongs-detail-lemma { font-size: 32px; }
   .strongs-search-input::placeholder { font-size: 11px; }
 }
+
+/* ══════════════════════════════════════════
+   Projector / Slide Mode
+   ══════════════════════════════════════════ */
+.proj-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-size: 20px;
+  color: var(--text-muted);
+  gap: 10px;
+}
+
+.proj-container {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  user-select: none;
+}
+
+/* ── Toolbars ── */
+.proj-toolbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  background: rgba(0,0,0,.85);
+  transition: opacity .4s, transform .4s;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.proj-toolbar-top {
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.proj-toolbar-bottom {
+  justify-content: center;
+}
+.proj-toolbar-left,
+.proj-toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Hide controls */
+.proj-container.controls-hidden .proj-toolbar {
+  opacity: 0;
+  pointer-events: none;
+}
+.proj-container.controls-hidden .proj-toolbar-top {
+  transform: translateY(-100%);
+}
+.proj-container.controls-hidden .proj-toolbar-bottom {
+  transform: translateY(100%);
+}
+.proj-container.controls-hidden .proj-nav-btn {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ── Selects / Buttons ── */
+.proj-select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,.2);
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+.proj-select:focus { border-color: var(--primary); }
+.proj-select option { background: #1a1a2e; color: #fff; }
+
+.proj-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,.2);
+  background: rgba(255,255,255,.08);
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background .15s;
+}
+.proj-icon-btn:hover { background: rgba(255,255,255,.2); }
+
+.proj-font-label {
+  font-size: 12px;
+  min-width: 40px;
+  text-align: center;
+  color: rgba(255,255,255,.6);
+}
+
+/* ── Stage ── */
+.proj-stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  min-height: 0;
+}
+
+/* ── Nav arrows ── */
+.proj-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 48px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: rgba(255,255,255,.06);
+  color: rgba(255,255,255,.5);
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: opacity .4s, background .15s, color .15s;
+}
+.proj-nav-prev { left: 12px; }
+.proj-nav-next { right: 12px; }
+.proj-nav-btn:hover {
+  background: rgba(255,255,255,.15);
+  color: #fff;
+}
+
+/* ── Verse display ── */
+.proj-verse-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 80px;
+  max-width: 1200px;
+  width: 100%;
+}
+.proj-verse-text {
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 300;
+  letter-spacing: .02em;
+  text-shadow: 0 2px 12px rgba(0,0,0,.6);
+  word-break: break-word;
+}
+.proj-verse-ref {
+  margin-top: 28px;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgba(255,255,255,.5);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+/* ── Hint bar ── */
+.proj-hint {
+  font-size: 11px;
+  color: rgba(255,255,255,.35);
+  letter-spacing: .03em;
+}
+
+/* ── Mobile adjustments ── */
+@media (max-width: 768px) {
+  .proj-toolbar { padding: 8px 10px; }
+  .proj-select { font-size: 11px; padding: 5px 6px; }
+  .proj-icon-btn { width: 30px; height: 30px; font-size: 12px; }
+  .proj-font-label { font-size: 11px; min-width: 32px; }
+  .proj-verse-area { padding: 24px 20px; }
+  .proj-verse-ref { font-size: 16px; margin-top: 18px; }
+  .proj-nav-btn { width: 36px; height: 60px; font-size: 18px; }
+  .proj-nav-prev { left: 4px; }
+  .proj-nav-next { right: 4px; }
+  .proj-hint { font-size: 10px; }
+}

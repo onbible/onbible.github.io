@@ -11,6 +11,7 @@ import ChangelogPage from './pages/ChangelogPage';
 import ReadingPlanPage from './pages/ReadingPlanPage';
 import AboutPage from './pages/AboutPage';
 import SermonsPage from './pages/SermonsPage';
+import ProjectorPage from './pages/ProjectorPage';
 import { DB } from './lib/db';
 
 export default function App() {
@@ -47,6 +48,7 @@ export default function App() {
           <Route path="/settings"      element={<SettingsPage theme={theme} setAppTheme={setAppTheme} />} />
           <Route path="/changelog"     element={<ChangelogPage />} />
           <Route path="/sermons"      element={<SermonsPage />} />
+          <Route path="/projector"    element={<ProjectorPage />} />
           <Route path="/about"         element={<AboutPage />} />
           <Route path="*"              element={<Navigate to="/" replace />} />
         </Routes>
