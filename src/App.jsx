@@ -19,6 +19,9 @@ export default function App() {
     // Apply saved font size
     const fs = localStorage.getItem('reading_font_size');
     if (fs) document.documentElement.style.setProperty('--reading-font-size', fs + 'px');
+    // Apply saved font family
+    const ff = localStorage.getItem('reading_font_family');
+    if (ff) document.documentElement.style.setProperty('--reading-font-family', ff);
   }, []);
 
   const setAppTheme = (t) => {

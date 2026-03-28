@@ -9,17 +9,37 @@ const THEMES = [
   { key: 'dark',  label: 'Escuro', icon: 'fa-moon',    color: '#12121f' },
 ];
 
+const FONTS = [
+  { key: "'Inter', sans-serif",          label: 'Inter' },
+  { key: "'Merriweather', serif",        label: 'Merriweather' },
+  { key: "'Lora', serif",                label: 'Lora' },
+  { key: "'Noto Serif', serif",          label: 'Noto Serif' },
+  { key: "'Georgia', serif",             label: 'Georgia' },
+  { key: "'Roboto', sans-serif",         label: 'Roboto' },
+  { key: "'Open Sans', sans-serif",      label: 'Open Sans' },
+  { key: "system-ui, sans-serif",        label: 'Sistema' },
+];
+
 export default function SettingsPage({ theme, setAppTheme }) {
   const { version, changeVersion } = useBibleData();
   const [status, setStatus] = useState('');
   const [fontSize, setFontSize] = useState(() => {
     return parseInt(localStorage.getItem('reading_font_size') || '17', 10);
   });
+  const [fontFamily, setFontFamily] = useState(() => {
+    return localStorage.getItem('reading_font_family') || "'Inter', sans-serif";
+  });
 
   const changeFontSize = (size) => {
     setFontSize(size);
     localStorage.setItem('reading_font_size', String(size));
     document.documentElement.style.setProperty('--reading-font-size', size + 'px');
+  };
+
+  const changeFontFamily = (ff) => {
+    setFontFamily(ff);
+    localStorage.setItem('reading_font_family', ff);
+    document.documentElement.style.setProperty('--reading-font-family', ff);
   };
 
   const exportBackup = async () => {
@@ -38,6 +58,7 @@ export default function SettingsPage({ theme, setAppTheme }) {
           app_theme:    localStorage.getItem('app_theme'),
           reading_font: localStorage.getItem('reading_font'),
           reading_font_size: localStorage.getItem('reading_font_size'),
+          reading_font_family: localStorage.getItem('reading_font_family'),
         },
       };
       const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
@@ -173,9 +194,27 @@ export default function SettingsPage({ theme, setAppTheme }) {
               className="font-size-slider"
             />
           </div>
-          <p className="font-preview" style={{ fontSize: fontSize + 'px', lineHeight: 1.9, marginTop: '12px', padding: '12px', background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: '8px' }}>
+          <p className="font-preview" style={{ fontSize: fontSize + 'px', fontFamily: fontFamily, lineHeight: 1.9, marginTop: '12px', padding: '12px', background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: '8px' }}>
             No princípio, criou Deus os céus e a terra.
           </p>
+        </div>
+
+        {/* Font Family */}
+        <div className="settings-section">
+          <h5><i className="fas fa-font" style={{ marginRight: '6px' }}></i>Estilo da Fonte</h5>
+          <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '12px' }}>Escolha a fonte para a leitura bíblica.</p>
+          <div className="font-family-picker">
+            {FONTS.map(f => (
+              <button
+                key={f.key}
+                className={`font-family-btn${fontFamily === f.key ? ' active' : ''}`}
+                style={{ fontFamily: f.key }}
+                onClick={() => changeFontFamily(f.key)}
+              >
+                {f.label}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </>
