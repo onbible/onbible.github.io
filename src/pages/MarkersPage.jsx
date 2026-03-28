@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { DB } from '../lib/db';
 import { useBibleData } from '../hooks/useBible';
@@ -7,6 +7,8 @@ export default function MarkersPage() {
   const [highlights, setHighlights] = useState([]);
   const [notes, setNotes]           = useState([]);
   const [loading, setLoading]       = useState(true);
+  const [editModal, setEditModal]   = useState(null); // { id, book, chapter, verse, text }
+  const editTextRef = useRef(null);
   const { bibleData } = useBibleData();
   const navigate = useNavigate();
 
@@ -32,6 +34,39 @@ export default function MarkersPage() {
   };
 
   const HL_COLORS = { yellow: '#fde047', green: '#4ade80', blue: '#60a5fa', pink: '#f472b6' };
+
+  // Focus textarea when edit modal opens
+  useEffect(() => {
+    if (editModal && editTextRef.current) editTextRef.current.focus();
+  }, [editModal]);
+
+  const openEditNote = (n, e) => {
+    e.stopPropagation();
+    setEditModal({ id: n.id, book: n.book, chapter: n.chapter, verse: n.verse, text: n.text });
+  };
+
+  const saveEditNote = async () => {
+    if (!editModal) return;
+    const { book, chapter, verse, text } = editModal;
+    if (text.trim() === '') return deleteNote();
+    await DB.setNote(book, chapter, verse, text.trim());
+    setNotes(prev => prev.map(n => n.book === book && n.chapter === chapter && n.verse === verse ? { ...n, text: text.trim() } : n));
+    setEditModal(null);
+  };
+
+  const deleteNote = async (e) => {
+    if (e) e.stopPropagation();
+    if (!editModal) return;
+    const { book, chapter, verse } = editModal;
+    await DB.deleteNote(book, chapter, verse);
+    setNotes(prev => prev.filter(n => !(n.book === book && n.chapter === chapter && n.verse === verse)));
+    setEditModal(null);
+  };
+
+  const confirmDeleteNote = (n, e) => {
+    e.stopPropagation();
+    setEditModal({ id: n.id, book: n.book, chapter: n.chapter, verse: n.verse, text: n.text, confirmDelete: true });
+  };
 
   if (loading) return <div style={{ padding: '28px', color: 'var(--text-muted)' }}>Carregando...</div>;
 
@@ -73,7 +108,15 @@ export default function MarkersPage() {
                     {getBookName(h.book)} {h.chapter}:{h.verse}
                   </div>
                   {text && <div className="marker-text">"{text}"</div>}
-                  {note  && <div className="marker-note"><i className="fas fa-sticky-note" style={{ marginRight: '4px' }}></i>{note.text}</div>}
+                  {note && (
+                    <div className="marker-note">
+                      <i className="fas fa-sticky-note" style={{ marginRight: '4px' }}></i>{note.text}
+                      <span className="marker-actions">
+                        <button title="Editar nota" onClick={(e) => openEditNote(note, e)}><i className="fas fa-pen" /></button>
+                        <button title="Excluir nota" onClick={(e) => confirmDeleteNote(note, e)}><i className="fas fa-trash-alt" /></button>
+                      </span>
+                    </div>
+                  )}
                 </div>
               );
             })}
@@ -93,13 +136,66 @@ export default function MarkersPage() {
                   <div key={n.id} className="marker-item" onClick={() => navigate(`/book/${n.book}?c=${n.chapter}&v=${n.verse}`)}>
                     <div className="marker-ref"><i className="fas fa-sticky-note" style={{ marginRight: '4px' }}></i>{getBookName(n.book)} {n.chapter}:{n.verse}</div>
                     {text && <div className="marker-text">"{text}"</div>}
-                    <div className="marker-note">{n.text}</div>
+                    <div className="marker-note">
+                      {n.text}
+                      <span className="marker-actions">
+                        <button title="Editar nota" onClick={(e) => openEditNote(n, e)}><i className="fas fa-pen" /></button>
+                        <button title="Excluir nota" onClick={(e) => confirmDeleteNote(n, e)}><i className="fas fa-trash-alt" /></button>
+                      </span>
+                    </div>
                   </div>
                 );
               })}
           </>
         )}
       </div>
+
+      {/* Edit / Delete Note Modal */}
+      {editModal && (
+        <div className="note-modal-overlay" onClick={() => setEditModal(null)}>
+          <div className="note-modal-content" onClick={(e) => e.stopPropagation()}>
+            {editModal.confirmDelete ? (
+              <>
+                <div className="note-modal-header">
+                  <h5><i className="fas fa-exclamation-triangle" style={{ color: '#ef4444', marginRight: '8px' }} />Excluir Nota</h5>
+                  <button onClick={() => setEditModal(null)}>&times;</button>
+                </div>
+                <div className="note-modal-body" style={{ fontSize: '14px' }}>
+                  <p style={{ margin: '0 0 8px' }}>Deseja remover esta nota de <strong>{getBookName(editModal.book)} {editModal.chapter}:{editModal.verse}</strong>?</p>
+                  <div className="marker-note" style={{ marginTop: '8px', padding: '10px', background: 'var(--bg-secondary)', borderRadius: '8px', fontStyle: 'italic' }}>{editModal.text}</div>
+                </div>
+                <div className="note-modal-footer">
+                  <div style={{ flex: 1 }} />
+                  <button className="note-modal-btn cancel" onClick={() => setEditModal(null)}>Cancelar</button>
+                  <button className="note-modal-btn delete" onClick={deleteNote}><i className="fas fa-trash-alt" /> Excluir</button>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="note-modal-header">
+                  <h5><i className="fas fa-sticky-note" style={{ color: '#f59e0b', marginRight: '8px' }} />Editar Nota — {getBookName(editModal.book)} {editModal.chapter}:{editModal.verse}</h5>
+                  <button onClick={() => setEditModal(null)}>&times;</button>
+                </div>
+                <div className="note-modal-body">
+                  <textarea
+                    ref={editTextRef}
+                    className="note-modal-textarea"
+                    placeholder="Escreva sua nota aqui..."
+                    value={editModal.text}
+                    onChange={(e) => setEditModal(prev => ({ ...prev, text: e.target.value }))}
+                  />
+                </div>
+                <div className="note-modal-footer">
+                  <button className="note-modal-btn delete" onClick={deleteNote}><i className="fas fa-trash-alt" /> Remover</button>
+                  <div style={{ flex: 1 }} />
+                  <button className="note-modal-btn cancel" onClick={() => setEditModal(null)}>Cancelar</button>
+                  <button className="note-modal-btn save" onClick={saveEditNote}><i className="fas fa-check" /> Salvar</button>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+      )}
     </>
   );
 }
