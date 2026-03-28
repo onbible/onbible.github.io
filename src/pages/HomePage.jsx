@@ -1,10 +1,12 @@
-import { useState, useEffect, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect, useMemo, useRef, useCallback } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { useBibleData } from '../hooks/useBible';
 import { onBibleDB } from '../lib/db';
 
 const OT_BOOKS = ['gn','ex','lv','nm','dt','js','jz','rt','1sm','2sm','1rs','2rs','1cr','2cr','ed','ne','et','jo','sl','pv','ec','ct','is','jr','lm','ez','dn','os','jl','am','ob','jn','mq','na','hc','sf','ag','zc','ml'];
 const NT_START = 'mt';
+
+const MAX_RESULTS = 80;
 
 // Categories for periodic-table coloring
 const CATEGORY = {
@@ -30,10 +32,71 @@ const CATEGORY = {
   ap:'rev',
 };
 
+/* ── Passage reference parser ── */
+const REF_RE = /^(.+?)\s+(\d+)(?::(\d+)(?:\s*-\s*(\d+))?)?$/;
+
+function parseRef(query, books) {
+  const m = query.trim().match(REF_RE);
+  if (!m) return null;
+  const [, rawBook, ch, v1, v2] = m;
+  const q = rawBook.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const found = books.find(b => {
+    const name = b.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const abbr = b.abbrev.toLowerCase();
+    return name === q || name.startsWith(q) || abbr === q;
+  });
+  if (!found) return null;
+  const chapter = parseInt(ch);
+  if (chapter < 1 || chapter > found.chapters.length) return null;
+  return {
+    book: found,
+    chapter,
+    verse: v1 ? parseInt(v1) : null,
+    verseTo: v2 ? parseInt(v2) : null,
+  };
+}
+
+/* ── Text search across Bible ── */
+function searchVerses(query, books) {
+  const q = query.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const results = [];
+  for (const book of books) {
+    for (let ci = 0; ci < book.chapters.length; ci++) {
+      const chap = book.chapters[ci];
+      for (let vi = 0; vi < chap.length; vi++) {
+        const text = chap[vi];
+        const normalized = text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        if (normalized.includes(q)) {
+          results.push({ book, chapter: ci + 1, verse: vi + 1, text });
+          if (results.length >= MAX_RESULTS) return results;
+        }
+      }
+    }
+  }
+  return results;
+}
+
+/* ── Highlight matched text helper ── */
+function highlightMatch(text, query) {
+  if (!query) return text;
+  const q = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const parts = text.split(new RegExp(`(${q})`, 'ig'));
+  return parts.map((p, i) =>
+    p.toLowerCase() === query.toLowerCase()
+      ? <mark key={i}>{p}</mark>
+      : p
+  );
+}
+
 export default function HomePage() {
   const { bibleData, loading, error } = useBibleData();
+  const navigate = useNavigate();
   const [search, setSearch] = useState('');
+  const [searchMode, setSearchMode] = useState('books'); // 'books' | 'bible'
   const [recentBooks, setRecentBooks] = useState([]);
+  const [showResults, setShowResults] = useState(false);
+  const searchBoxRef = useRef(null);
+  const debounceRef = useRef(null);
 
   const books = useMemo(() => {
     if (!bibleData) return [];
@@ -55,14 +118,79 @@ export default function HomePage() {
     });
   }, [bibleData]);
 
+  // Close results dropdown when clicking outside
+  useEffect(() => {
+    const handler = (e) => {
+      if (searchBoxRef.current && !searchBoxRef.current.contains(e.target)) {
+        setShowResults(false);
+      }
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, []);
+
+  // Debounced Bible text search
+  const [verseResults, setVerseResults] = useState([]);
+  const [searching, setSearching] = useState(false);
+
+  const doBibleSearch = useCallback((q) => {
+    if (!q || q.length < 3 || !books.length) {
+      setVerseResults([]);
+      setSearching(false);
+      return;
+    }
+    setSearching(true);
+    // Use requestIdleCallback/setTimeout to avoid blocking UI
+    const id = setTimeout(() => {
+      setVerseResults(searchVerses(q, books));
+      setSearching(false);
+    }, 0);
+    return () => clearTimeout(id);
+  }, [books]);
+
+  const handleSearch = useCallback((val) => {
+    setSearch(val);
+    if (val.trim()) setShowResults(true);
+    else { setShowResults(false); setVerseResults([]); }
+
+    if (searchMode === 'bible') {
+      clearTimeout(debounceRef.current);
+      debounceRef.current = setTimeout(() => doBibleSearch(val.trim()), 300);
+    }
+  }, [searchMode, doBibleSearch]);
+
+  // Re-trigger bible search when mode switches
+  useEffect(() => {
+    if (searchMode === 'bible' && search.trim().length >= 3) {
+      doBibleSearch(search.trim());
+    }
+  }, [searchMode]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Passage reference detected
+  const passageRef = useMemo(() => {
+    if (searchMode !== 'bible' || !search.trim()) return null;
+    return parseRef(search, books);
+  }, [search, books, searchMode]);
+
+  // Book filter (only in books mode)
   const filtered = useMemo(() => {
+    if (searchMode === 'bible') return books;
     if (!search.trim()) return books;
     const q = search.toLowerCase();
     return books.filter(b => b.name.toLowerCase().includes(q) || b.abbrev.toLowerCase().includes(q));
-  }, [books, search]);
+  }, [books, search, searchMode]);
 
   const otBooks = filtered.filter(b => OT_BOOKS.includes(b.abbrev));
   const ntBooks = filtered.filter(b => !OT_BOOKS.includes(b.abbrev));
+
+  const goToPassage = useCallback((abbrev, chapter, verse) => {
+    const url = verse
+      ? `/book/${abbrev}?c=${chapter}&v=${verse}`
+      : `/book/${abbrev}?c=${chapter}`;
+    navigate(url);
+    setShowResults(false);
+    setSearch('');
+  }, [navigate]);
 
   if (loading) return (
     <div style={{ padding: '28px' }}>
@@ -83,14 +211,106 @@ export default function HomePage() {
       <div className="page-header">
         <h1><i className="fas fa-bible" style={{ marginRight: '8px' }}></i>Bíblia</h1>
       </div>
-      <div className="search-box">
-        <i className="fas fa-search" />
-        <input
-          type="text"
-          placeholder="Buscar livro..."
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-        />
+
+      {/* ── Search Box ── */}
+      <div className="search-wrapper" ref={searchBoxRef}>
+        <div className="search-box">
+          <i className="fas fa-search" />
+          <input
+            type="text"
+            placeholder={searchMode === 'books' ? 'Buscar livro...' : 'Buscar na Bíblia... (ex: amor, João 3:16)'}
+            value={search}
+            onChange={e => handleSearch(e.target.value)}
+            onFocus={() => { if (search.trim()) setShowResults(true); }}
+          />
+          {search && (
+            <button className="search-clear" onClick={() => { setSearch(''); setVerseResults([]); setShowResults(false); }}>
+              <i className="fas fa-times" />
+            </button>
+          )}
+        </div>
+
+        {/* Mode toggle */}
+        <div className="search-mode-toggle">
+          <button
+            className={`search-mode-btn ${searchMode === 'books' ? 'active' : ''}`}
+            onClick={() => { setSearchMode('books'); setShowResults(false); setVerseResults([]); }}
+          >
+            <i className="fas fa-book" /> Livros
+          </button>
+          <button
+            className={`search-mode-btn ${searchMode === 'bible' ? 'active' : ''}`}
+            onClick={() => setSearchMode('bible')}
+          >
+            <i className="fas fa-search" /> Buscar na Bíblia
+          </button>
+        </div>
+
+        {/* ── Bible Search Results Dropdown ── */}
+        {searchMode === 'bible' && showResults && search.trim() && (
+          <div className="bible-search-results">
+            {/* Passage reference */}
+            {passageRef && (
+              <div className="search-section">
+                <div className="search-section-title">
+                  <i className="fas fa-map-marker-alt" /> Passagem encontrada
+                </div>
+                <button
+                  className="search-passage-btn"
+                  onClick={() => goToPassage(passageRef.book.abbrev, passageRef.chapter, passageRef.verse)}
+                >
+                  <span className="search-passage-ref">
+                    {passageRef.book.name} {passageRef.chapter}
+                    {passageRef.verse ? `:${passageRef.verse}` : ''}
+                    {passageRef.verseTo ? `-${passageRef.verseTo}` : ''}
+                  </span>
+                  <i className="fas fa-arrow-right" />
+                </button>
+              </div>
+            )}
+
+            {/* Occurrences */}
+            {search.trim().length >= 3 && (
+              <div className="search-section">
+                <div className="search-section-title">
+                  <i className="fas fa-font" /> Ocorrências
+                  {!searching && verseResults.length > 0 && (
+                    <span className="search-count">
+                      {verseResults.length >= MAX_RESULTS ? `${MAX_RESULTS}+` : verseResults.length} resultado{verseResults.length !== 1 ? 's' : ''}
+                    </span>
+                  )}
+                </div>
+                {searching ? (
+                  <div className="search-loading">
+                    <i className="fas fa-spinner fa-spin" /> Buscando...
+                  </div>
+                ) : verseResults.length === 0 ? (
+                  <div className="search-empty">Nenhuma ocorrência encontrada.</div>
+                ) : (
+                  <div className="search-verse-list">
+                    {verseResults.map((r, i) => (
+                      <button
+                        key={i}
+                        className="search-verse-item"
+                        onClick={() => goToPassage(r.book.abbrev, r.chapter, r.verse)}
+                      >
+                        <span className="search-verse-ref">
+                          {r.book.name} {r.chapter}:{r.verse}
+                        </span>
+                        <span className="search-verse-text">
+                          {highlightMatch(r.text, search.trim())}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+            {search.trim().length > 0 && search.trim().length < 3 && !passageRef && (
+              <div className="search-empty">Digite ao menos 3 caracteres para buscar ocorrências.</div>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Continue Reading */}
