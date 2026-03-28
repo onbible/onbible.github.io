@@ -13,16 +13,12 @@ Este documento consolida as sugestões arquiteturais, visuais e de funcionalidad
 - [ ] **Busca Semântica no Dispositivo:** Permitir pesquisa de conceitos complexos na Bíblia inteira ("*parábolas de Jesus sobre administração financeira*") construindo uma base de *embeddings* offline que busca por "sentido" ao invés de textos exatos.
   
 - [ ] **Comparador de Versões (Split-Screen):** O estudante deve conseguir dividir a tela ao meio, com a versão NVI (entendimento) na esquerda e ACF (fidelidade clássica) na direita.
-  
-- [ ] **Dicionário Strong e Léxicos (Grego/Hebraico):** Destacar passagens sublinhadas que, ao serem clicadas, mostram as raízes etimológicas.
 
 - [ ] **Referências Cruzadas Interativas:** Ao clicar num versículo (ex: Mateus 24:15), a aplicação deve abrir um painel rápido com o trecho citado do Antigo Testamento (ex: Daniel).
 
-remova os arquivos da versão legada que não usamos mais
+remova os arquivos da versão legada que não usamos mais.
 
-
-
-Preciso de um item do menu chamado Sermões, onde o usuário pode escrever seus sermos para pregar e ir referenciando facilmente passagens da biblia.
+Permita compartilhar ou não o sermão.
 
 na leitura da biblia, seria bom ter a possibilidade de selecionar mais de uma versão da blia e abrir elas em colunas para fazer comparação.
 

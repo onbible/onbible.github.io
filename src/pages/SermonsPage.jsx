@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useBibleData } from '../hooks/useBible';
 import { DB } from '../lib/db';
+import { searchStrongs, lookupStrong } from '../lib/strongs';
 
 /* ── Reference helpers ── */
 function formatRefLabel(bookName, chapter, verse, verseTo) {
@@ -59,17 +60,48 @@ function getVerseText(ref) {
   return chap.map((t, i) => `${i + 1} ${t}`).join('\n');
 }
 
+/* ── Formatting helpers ── */
+const FORMAT_ACTIONS = [
+  { key: 'bold',      icon: 'fa-bold',           title: 'Negrito',         wrap: ['**', '**'],       placeholder: 'texto em negrito' },
+  { key: 'italic',    icon: 'fa-italic',          title: 'Itálico',         wrap: ['*', '*'],         placeholder: 'texto em itálico' },
+  { key: 'underline', icon: 'fa-underline',       title: 'Sublinhado',      wrap: ['__', '__'],       placeholder: 'texto sublinhado' },
+  { key: 'strike',    icon: 'fa-strikethrough',   title: 'Tachado',         wrap: ['~~', '~~'],       placeholder: 'texto tachado' },
+  { key: 'sep1' },
+  { key: 'h1',        icon: 'fa-heading',         title: 'Título',          prefix: '## ',            placeholder: 'Título' },
+  { key: 'h2',        icon: 'fa-heading',         title: 'Subtítulo',       prefix: '### ',           placeholder: 'Subtítulo', small: true },
+  { key: 'sep2' },
+  { key: 'ul',        icon: 'fa-list-ul',         title: 'Lista',           prefix: '- ',             placeholder: 'item da lista' },
+  { key: 'ol',        icon: 'fa-list-ol',         title: 'Lista numerada',  prefix: '1. ',            placeholder: 'item da lista' },
+  { key: 'quote',     icon: 'fa-quote-right',     title: 'Citação',         prefix: '> ',             placeholder: 'citação' },
+  { key: 'sep3' },
+  { key: 'hr',        icon: 'fa-minus',           title: 'Separador',       insert: '\n---\n' },
+];
+
 export default function SermonsPage() {
   const { bibleData } = useBibleData();
   const [sermons, setSermons] = useState([]);
-  const [view, setView] = useState('list'); // 'list' | 'editor'
-  const [editId, setEditId] = useState(null);
+  const [view, setView] = useState(() => {
+    return sessionStorage.getItem('sermon_editId') ? 'editor' : 'list';
+  });
+  const [editId, setEditId] = useState(() => {
+    const saved = sessionStorage.getItem('sermon_editId');
+    return saved && saved !== 'new' ? Number(saved) : null;
+  });
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
   const [expandedRefs, setExpandedRefs] = useState({});
   const [deleteConfirm, setDeleteConfirm] = useState(null);
   const [showBible, setShowBible] = useState(false);
   const bodyRef = useRef(null);
+
+  /* ── Strong's Dictionary state ── */
+  const [strongsOpen, setStrongsOpen]       = useState(false);
+  const [strongsQuery, setStrongsQuery]     = useState('');
+  const [strongsLang, setStrongsLang]       = useState('all');
+  const [strongsResults, setStrongsResults] = useState([]);
+  const [strongsDetail, setStrongsDetail]   = useState(null);
+  const [strongsLoading, setStrongsLoading] = useState(false);
+  const strongsTimerRef = useRef(null);
 
   /* ── Bible browser state ── */
   const [bibleStep, setBibleStep] = useState('books'); // 'books' | 'chapters' | 'verses'
@@ -83,11 +115,24 @@ export default function SermonsPage() {
   }, [bibleData]);
 
   useEffect(() => { DB.getAllSermons().then(setSermons); }, []);
+  useEffect(() => { DB.getPref('sermon_bible_open', false).then(v => setShowBible(v)); }, []);
+
+  // Restore editor state on refresh
+  useEffect(() => {
+    const savedId = sessionStorage.getItem('sermon_editId');
+    if (savedId && savedId !== 'new') {
+      DB.getSermon(Number(savedId)).then(s => {
+        if (s) { setTitle(s.title); setBody(s.body || ''); }
+        else { setView('list'); sessionStorage.removeItem('sermon_editId'); }
+      });
+    }
+  }, []);
 
   /* ── Sermon CRUD ── */
   const openNew = useCallback(() => {
     setEditId(null); setTitle(''); setBody('');
-    setView('editor'); setShowBible(false);
+    setView('editor');
+    sessionStorage.setItem('sermon_editId', 'new');
     resetBible();
   }, []);
 
@@ -95,7 +140,8 @@ export default function SermonsPage() {
     const s = await DB.getSermon(id);
     if (!s) return;
     setEditId(s.id); setTitle(s.title); setBody(s.body || '');
-    setView('editor'); setShowBible(false);
+    setView('editor');
+    sessionStorage.setItem('sermon_editId', String(s.id));
     resetBible();
   }, []);
 
@@ -105,6 +151,7 @@ export default function SermonsPage() {
     else await DB.createSermon(t, body);
     setSermons(await DB.getAllSermons());
     setView('list');
+    sessionStorage.removeItem('sermon_editId');
   }, [editId, title, body]);
 
   const confirmDelete = useCallback((id) => setDeleteConfirm(id), []);
@@ -117,7 +164,7 @@ export default function SermonsPage() {
     if (editId === deleteConfirm) setView('list');
   }, [deleteConfirm, editId]);
 
-  const goBack = useCallback(() => setView('list'), []);
+  const goBack = useCallback(() => { setView('list'); sessionStorage.removeItem('sermon_editId'); }, []);
 
   /* ── Bible browser helpers ── */
   function resetBible() {
@@ -134,6 +181,38 @@ export default function SermonsPage() {
 
   const toggleVerse = useCallback((vNum) => {
     setSelVerses(prev => prev.includes(vNum) ? prev.filter(v => v !== vNum) : [...prev, vNum].sort((a, b) => a - b));
+  }, []);
+
+  /* ── Strong's search with debounce ── */
+  useEffect(() => {
+    if (!strongsOpen) return;
+    if (!strongsQuery.trim()) {
+      setStrongsResults([]); setStrongsDetail(null); return;
+    }
+    clearTimeout(strongsTimerRef.current);
+    strongsTimerRef.current = setTimeout(async () => {
+      setStrongsLoading(true);
+      try {
+        const res = await searchStrongs(strongsQuery, strongsLang);
+        setStrongsResults(res);
+        if (res.length === 1 && res[0].id.toLowerCase() === strongsQuery.toLowerCase().trim()) {
+          setStrongsDetail(res[0]);
+        } else {
+          setStrongsDetail(null);
+        }
+      } catch { setStrongsResults([]); }
+      finally { setStrongsLoading(false); }
+    }, 300);
+    return () => clearTimeout(strongsTimerRef.current);
+  }, [strongsQuery, strongsLang, strongsOpen]);
+
+  const openStrongsDetail = useCallback(async (id) => {
+    const entry = await lookupStrong(id);
+    if (entry) setStrongsDetail(entry);
+  }, []);
+
+  const closeStrongs = useCallback(() => {
+    setStrongsOpen(false); setStrongsQuery(''); setStrongsResults([]); setStrongsDetail(null);
   }, []);
 
   const insertSelectedVerses = useCallback(() => {
@@ -165,19 +244,95 @@ export default function SermonsPage() {
     setSelVerses([]);
   }, [selBook, selChapter, selVerses, body]);
 
-  /* ── Render body with inline references ── */
+  /* ── Text formatting ── */
+  const applyFormat = useCallback((action) => {
+    const ta = bodyRef.current;
+    if (!ta) return;
+    const start = ta.selectionStart;
+    const end = ta.selectionEnd;
+    const sel = body.slice(start, end);
+
+    let newBody, cursorPos;
+
+    if (action.insert) {
+      // Insert a fixed string (e.g. ---) 
+      newBody = body.slice(0, start) + action.insert + body.slice(end);
+      cursorPos = start + action.insert.length;
+    } else if (action.wrap) {
+      // Wrap selection: **text**
+      const text = sel || action.placeholder;
+      const wrapped = action.wrap[0] + text + action.wrap[1];
+      newBody = body.slice(0, start) + wrapped + body.slice(end);
+      if (sel) {
+        cursorPos = start + wrapped.length;
+      } else {
+        cursorPos = start + action.wrap[0].length;
+      }
+    } else if (action.prefix) {
+      // Line prefix: ensure we're at start of line
+      const lineStart = body.lastIndexOf('\n', start - 1) + 1;
+      const text = sel || action.placeholder;
+      // If at start of line or selection starts a line
+      if (start === lineStart) {
+        newBody = body.slice(0, start) + action.prefix + text + body.slice(end);
+        cursorPos = start + action.prefix.length + text.length;
+      } else {
+        newBody = body.slice(0, start) + '\n' + action.prefix + text + body.slice(end);
+        cursorPos = start + 1 + action.prefix.length + text.length;
+      }
+    }
+
+    setBody(newBody);
+    setTimeout(() => {
+      ta.focus();
+      if (!sel && action.wrap) {
+        // Select placeholder text
+        const selStart = cursorPos;
+        const selEnd = cursorPos + (action.placeholder || '').length;
+        ta.setSelectionRange(selStart, selEnd);
+      } else {
+        ta.setSelectionRange(cursorPos, cursorPos);
+      }
+    }, 0);
+  }, [body]);
+
+  /* ── Render body with inline references + markdown ── */
   const renderBody = useCallback((text) => {
+    // First split by reference tags
     const parts = text.split(/(【[^】]+】)/g);
-    return parts.map((part, i) => {
-      const m = part.match(/^【(.+)】$/);
-      if (m && books.length) {
-        const refStr = m[1];
+
+    const renderFormattedLine = (line) => {
+      // Apply inline formatting: **bold**, *italic*, __underline__, ~~strike~~
+      const tokens = [];
+      // Use a regex that captures formatting markers
+      const inlineRe = /(\*\*(.+?)\*\*|\*(.+?)\*|__(.+?)__|~~(.+?)~~)/g;
+      let last = 0;
+      let match;
+      while ((match = inlineRe.exec(line)) !== null) {
+        if (match.index > last) tokens.push(line.slice(last, match.index));
+        if (match[2]) tokens.push(<strong key={`b${match.index}`}>{match[2]}</strong>);
+        else if (match[3]) tokens.push(<em key={`i${match.index}`}>{match[3]}</em>);
+        else if (match[4]) tokens.push(<u key={`u${match.index}`}>{match[4]}</u>);
+        else if (match[5]) tokens.push(<s key={`s${match.index}`}>{match[5]}</s>);
+        last = match.index + match[0].length;
+      }
+      if (last < line.length) tokens.push(line.slice(last));
+      return tokens.length ? tokens : [line];
+    };
+
+    const elements = [];
+    let partKey = 0;
+
+    for (const part of parts) {
+      const refMatch = part.match(/^【(.+)】$/);
+      if (refMatch && books.length) {
+        const refStr = refMatch[1];
         const ref = parseRef(refStr, books);
         if (ref) {
-          const key = `${i}-${refStr}`;
+          const key = `${partKey}-${refStr}`;
           const isExpanded = expandedRefs[key];
-          return (
-            <span key={i} className="sermon-ref-inline">
+          elements.push(
+            <span key={partKey} className="sermon-ref-inline">
               <button className="sermon-ref-tag"
                 onClick={() => setExpandedRefs(prev => ({ ...prev, [key]: !prev[key] }))}
                 title="Clique para expandir/recolher">
@@ -187,12 +342,83 @@ export default function SermonsPage() {
               {isExpanded && <span className="sermon-ref-expanded">{getVerseText(ref)}</span>}
             </span>
           );
+          partKey++;
+          continue;
         }
       }
-      return <span key={i}>{part.split('\n').map((line, j, arr) => (
-        <span key={j}>{line}{j < arr.length - 1 && <br />}</span>
-      ))}</span>;
-    });
+
+      // Process markdown blocks line by line
+      const lines = part.split('\n');
+      let i = 0;
+      while (i < lines.length) {
+        const line = lines[i];
+
+        // Horizontal rule
+        if (/^---+$/.test(line.trim())) {
+          elements.push(<hr key={partKey++} className="sermon-fmt-hr" />);
+          i++; continue;
+        }
+        // Headings
+        if (/^### (.+)/.test(line)) {
+          elements.push(<h4 key={partKey++} className="sermon-fmt-h3">{renderFormattedLine(line.replace(/^### /, ''))}</h4>);
+          i++; continue;
+        }
+        if (/^## (.+)/.test(line)) {
+          elements.push(<h3 key={partKey++} className="sermon-fmt-h2">{renderFormattedLine(line.replace(/^## /, ''))}</h3>);
+          i++; continue;
+        }
+        // Block quote (collect consecutive > lines)
+        if (/^> (.*)/.test(line)) {
+          const quoteLines = [];
+          while (i < lines.length && /^> (.*)/.test(lines[i])) {
+            quoteLines.push(lines[i].replace(/^> /, ''));
+            i++;
+          }
+          elements.push(
+            <blockquote key={partKey++} className="sermon-fmt-quote">
+              {quoteLines.map((ql, qi) => <span key={qi}>{renderFormattedLine(ql)}{qi < quoteLines.length - 1 && <br />}</span>)}
+            </blockquote>
+          );
+          continue;
+        }
+        // Unordered list (collect consecutive - lines)
+        if (/^- (.+)/.test(line)) {
+          const items = [];
+          while (i < lines.length && /^- (.+)/.test(lines[i])) {
+            items.push(lines[i].replace(/^- /, ''));
+            i++;
+          }
+          elements.push(
+            <ul key={partKey++} className="sermon-fmt-ul">
+              {items.map((item, ii) => <li key={ii}>{renderFormattedLine(item)}</li>)}
+            </ul>
+          );
+          continue;
+        }
+        // Ordered list (collect consecutive N. lines)
+        if (/^\d+\.\s+(.+)/.test(line)) {
+          const items = [];
+          while (i < lines.length && /^\d+\.\s+(.+)/.test(lines[i])) {
+            items.push(lines[i].replace(/^\d+\.\s+/, ''));
+            i++;
+          }
+          elements.push(
+            <ol key={partKey++} className="sermon-fmt-ol">
+              {items.map((item, ii) => <li key={ii}>{renderFormattedLine(item)}</li>)}
+            </ol>
+          );
+          continue;
+        }
+        // Normal line
+        if (line === '') {
+          elements.push(<br key={partKey++} />);
+        } else {
+          elements.push(<span key={partKey++}>{renderFormattedLine(line)}<br /></span>);
+        }
+        i++;
+      }
+    }
+    return elements;
   }, [books, expandedRefs]);
 
   const extractedRefs = useMemo(() => {
@@ -278,8 +504,15 @@ export default function SermonsPage() {
         </div>
         <div style={{ display: 'flex', gap: '8px' }}>
           <button
+            className="sermon-toolbar-btn"
+            onClick={() => setStrongsOpen(true)}
+            title="Dicionário Strong"
+          >
+            <i className="fas fa-language" /> Strong
+          </button>
+          <button
             className={`sermon-toolbar-btn${showBible ? ' active' : ''}`}
-            onClick={() => setShowBible(p => !p)}
+            onClick={() => setShowBible(p => { const next = !p; DB.setPref('sermon_bible_open', next); return next; })}
             title="Abrir/fechar Bíblia"
           >
             <i className="fas fa-bible" /> Bíblia
@@ -292,6 +525,19 @@ export default function SermonsPage() {
         {/* ── Left: Editor ── */}
         <div className="sermon-editor">
           <input className="sermon-title-input" type="text" placeholder="Título do Sermão" value={title} onChange={e => setTitle(e.target.value)} />
+
+          {/* Formatting toolbar */}
+          <div className="sermon-fmt-toolbar">
+            {FORMAT_ACTIONS.map(a => {
+              if (a.key.startsWith('sep')) return <span key={a.key} className="sermon-fmt-sep" />;
+              return (
+                <button key={a.key} className="sermon-fmt-btn" title={a.title} onClick={() => applyFormat(a)}>
+                  <i className={`fas ${a.icon}`} style={a.small ? { fontSize: '10px' } : undefined} />
+                  {a.small && <span style={{ fontSize: '9px', marginLeft: '1px' }}>2</span>}
+                </button>
+              );
+            })}
+          </div>
 
           <textarea ref={bodyRef} className="sermon-body-textarea"
             placeholder={"Escreva o conteúdo do sermão aqui...\n\nAbra a Bíblia ao lado para selecionar versículos e inseri-los."}
@@ -396,6 +642,125 @@ export default function SermonsPage() {
           </div>
         )}
       </div>
+
+      {/* Strong's Dictionary Modal */}
+      {strongsOpen && (
+        <div className="strongs-overlay" onClick={closeStrongs}>
+          <div className="strongs-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="strongs-modal-header">
+              <h5><i className="fas fa-language" style={{ marginRight: '8px', color: 'var(--primary)' }} />Dicionário Strong</h5>
+              <button onClick={closeStrongs}>&times;</button>
+            </div>
+
+            <div className="strongs-search-bar">
+              <div className="strongs-search-input-wrap">
+                <i className="fas fa-search strongs-search-icon" />
+                <input
+                  type="text"
+                  className="strongs-search-input"
+                  placeholder="Buscar por número (H430, G26), transliteração ou palavra..."
+                  value={strongsQuery}
+                  onChange={(e) => setStrongsQuery(e.target.value)}
+                  autoFocus
+                />
+                {strongsQuery && (
+                  <button className="strongs-search-clear" onClick={() => { setStrongsQuery(''); setStrongsResults([]); setStrongsDetail(null); }}>
+                    <i className="fas fa-times" />
+                  </button>
+                )}
+              </div>
+              <div className="strongs-lang-tabs">
+                {[['all','Todos'],['hebrew','Hebraico'],['greek','Grego']].map(([val, label]) => (
+                  <button
+                    key={val}
+                    className={`strongs-lang-tab${strongsLang === val ? ' active' : ''}`}
+                    onClick={() => setStrongsLang(val)}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="strongs-modal-body">
+              {strongsDetail && (
+                <div className="strongs-detail-card">
+                  <button className="strongs-detail-back" onClick={() => setStrongsDetail(null)}>
+                    <i className="fas fa-arrow-left" /> Voltar aos resultados
+                  </button>
+                  <div className="strongs-detail-head">
+                    <span className={`strongs-badge ${strongsDetail.lang === 'Hebraico' ? 'heb' : 'grk'}`}>
+                      {strongsDetail.id}
+                    </span>
+                    <span className="strongs-detail-lang">{strongsDetail.lang}</span>
+                  </div>
+                  <div className="strongs-detail-lemma">{strongsDetail.lemma}</div>
+                  <div className="strongs-detail-row">
+                    <span className="strongs-detail-label">Transliteração:</span>
+                    <span className="strongs-detail-value">{strongsDetail.translit}</span>
+                  </div>
+                  <div className="strongs-detail-row">
+                    <span className="strongs-detail-label">Pronúncia:</span>
+                    <span className="strongs-detail-value strongs-pron">{strongsDetail.pron}</span>
+                  </div>
+                  <div className="strongs-detail-def">
+                    <span className="strongs-detail-label">Definição:</span>
+                    <p>{strongsDetail.def}</p>
+                  </div>
+                </div>
+              )}
+
+              {!strongsDetail && strongsLoading && (
+                <div className="strongs-loading">
+                  <i className="fas fa-spinner fa-spin" /> Buscando...
+                </div>
+              )}
+
+              {!strongsDetail && !strongsLoading && strongsQuery && strongsResults.length === 0 && (
+                <div className="strongs-empty">
+                  <i className="fas fa-search" style={{ fontSize: '24px', marginBottom: '8px', opacity: 0.4 }} />
+                  <p>Nenhum resultado para "<strong>{strongsQuery}</strong>"</p>
+                </div>
+              )}
+
+              {!strongsDetail && !strongsLoading && strongsResults.length > 0 && (
+                <div className="strongs-results-list">
+                  {strongsResults.map((entry) => (
+                    <div key={entry.id} className="strongs-result-item" onClick={() => openStrongsDetail(entry.id)}>
+                      <div className="strongs-result-top">
+                        <span className={`strongs-badge sm ${entry.lang === 'Hebraico' ? 'heb' : 'grk'}`}>
+                          {entry.id}
+                        </span>
+                        <span className="strongs-result-lemma">{entry.lemma}</span>
+                        <span className="strongs-result-translit">({entry.translit})</span>
+                      </div>
+                      <div className="strongs-result-def">{entry.def.length > 100 ? entry.def.slice(0, 100) + '…' : entry.def}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {!strongsDetail && !strongsQuery && (
+                <div className="strongs-welcome">
+                  <div className="strongs-welcome-icon">
+                    <i className="fas fa-book-open" />
+                  </div>
+                  <h6>Léxico Bíblico Strong</h6>
+                  <p>Pesquise raízes etimológicas em Hebraico (AT) e Grego (NT).</p>
+                  <div className="strongs-examples">
+                    <span onClick={() => setStrongsQuery('H430')}>H430 — Elohim</span>
+                    <span onClick={() => setStrongsQuery('H3068')}>H3068 — YHWH</span>
+                    <span onClick={() => setStrongsQuery('G26')}>G26 — Agapē</span>
+                    <span onClick={() => setStrongsQuery('G5485')}>G5485 — Charis</span>
+                    <span onClick={() => setStrongsQuery('G3056')}>G3056 — Logos</span>
+                    <span onClick={() => setStrongsQuery('H7965')}>H7965 — Shalom</span>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }
