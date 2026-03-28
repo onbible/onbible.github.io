@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Layout from './components/Layout';
+import DashboardPage from './pages/DashboardPage';
 import HomePage from './pages/HomePage';
 import BookPage from './pages/BookPage';
 import MarkersPage from './pages/MarkersPage';
@@ -37,7 +38,8 @@ export default function App() {
     <BrowserRouter>
       <Layout theme={theme} setAppTheme={setAppTheme}>
         <Routes>
-          <Route path="/"              element={<HomePage />} />
+          <Route path="/"              element={<DashboardPage />} />
+          <Route path="/bible"         element={<HomePage />} />
           <Route path="/book/:abbrev"  element={<BookPage />} />
           <Route path="/markers"       element={<MarkersPage />} />
           <Route path="/plan"          element={<ReadingPlanPage />} />

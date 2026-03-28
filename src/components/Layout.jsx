@@ -24,7 +24,8 @@ export default function Layout({ children, theme, setAppTheme }) {
       {/* Sidebar */}
       <aside className="app-sidebar">
         <nav className="sidebar-nav">
-          <NavLink to="/"          end><i className="fas fa-book" />        <span>Bíblia</span></NavLink>
+          <NavLink to="/"          end><i className="fas fa-home" />        <span>Início</span></NavLink>
+          <NavLink to="/bible"        ><i className="fas fa-bible" />       <span>Bíblia</span></NavLink>
           <NavLink to="/markers"      ><i className="fas fa-bookmark" />    <span>Marcadores</span></NavLink>
           <NavLink to="/plan"         ><i className="fas fa-calendar-check" /><span>Plano de Leitura</span></NavLink>
           <NavLink to="/play"         ><i className="fas fa-headphones" />  <span>Bíblia Play</span></NavLink>
@@ -59,7 +60,8 @@ export default function Layout({ children, theme, setAppTheme }) {
       {/* Bottom Nav (mobile) */}
       <nav className="bottom-nav">
         <ul>
-          <li><NavLink to="/"       end><i className="fas fa-book" /><span>Bíblia</span></NavLink></li>
+          <li><NavLink to="/"       end><i className="fas fa-home" /><span>Início</span></NavLink></li>
+          <li><NavLink to="/bible"     ><i className="fas fa-bible" /><span>Bíblia</span></NavLink></li>
           <li><NavLink to="/markers"   ><i className="fas fa-bookmark" /><span>Marcas</span></NavLink></li>
           <li><NavLink to="/plan"      ><i className="fas fa-calendar-check" /><span>Plano</span></NavLink></li>
           <li><NavLink to="/play"      ><i className="fas fa-headphones" /><span>Ouvir</span></NavLink></li>
