@@ -1,9 +1,11 @@
 import { useState, useCallback, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import PwaInstallBanner from './PwaInstallBanner';
 
 export default function Layout({ children, theme, setAppTheme }) {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [pwaBannerVisible, setPwaBannerVisible] = useState(false);
 
   useEffect(() => {
     const onChange = () => setIsFullscreen(!!document.fullscreenElement);
@@ -20,7 +22,12 @@ export default function Layout({ children, theme, setAppTheme }) {
   }, []);
 
   return (
-    <div className={`app-layout${sidebarOpen ? '' : ' sidebar-collapsed'}`}>
+    <div
+      className={`app-layout${sidebarOpen ? '' : ' sidebar-collapsed'}${
+        pwaBannerVisible ? ' with-pwa-banner' : ''
+      }`}
+    >
+      <PwaInstallBanner onVisibilityChange={setPwaBannerVisible} />
       {/* Sidebar */}
       <aside className="app-sidebar">
         <nav className="sidebar-nav">
