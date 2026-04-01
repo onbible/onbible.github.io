@@ -24,6 +24,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Corrigido
 
+- GitHub Pages: rotas diretas da SPA React (ex.: `/book/sl`) devolviam 404 — o build passa a gerar `404.html` idêntico ao `index.html` para o Pages servir a app nesses URLs (`vite.config.js`, `scripts/copy-spa-404.js`)
 - Dev (Vite): removido `//# sourceMappingURL` de `assets/libs/dexie.min.js` — o ficheiro `dexie.min.js.map` não existia e o servidor emitia `ENOENT` ao tentar carregar o source map
 - Dark mode: expandida a cobertura CSS para mais de 50 seletores (cards, topbar, sidebar, botões, selects, footer)
 - Dark mode: adicionado suporte ao Bottom Nav e ao seletor de fontes
