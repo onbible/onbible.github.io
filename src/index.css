@@ -3841,6 +3841,54 @@ body {
   color: #fff;
 }
 
+/* PDF Books thumbnails */
+.pdf-grid-wrap {
+  padding: 12px 28px 28px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 12px;
+}
+.pdf-thumb-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg-secondary);
+  color: var(--text);
+  cursor: pointer;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: border-color .15s, transform .12s, box-shadow .15s;
+  font-family: inherit;
+}
+.pdf-thumb-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(99,102,241,.15);
+}
+.pdf-thumb-cover {
+  display: block;
+  aspect-ratio: 3 / 4;
+  border-radius: 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+.pdf-thumb-frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #fff;
+}
+.pdf-thumb-title {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.35;
+  min-height: 36px;
+}
+
 /* Modal / Detail view */
 .hymn-overlay {
   position: fixed;
@@ -4027,6 +4075,12 @@ body {
 @media (max-width: 600px) {
   .hymn-search-wrap,
   .hymn-list { padding-left: 14px; padding-right: 14px; }
+  .pdf-grid-wrap {
+    padding-left: 14px;
+    padding-right: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+  }
   .hymn-modal { border-radius: 12px; }
   .hymn-modal-header { padding: 22px 18px 0; }
   .hymn-modal-body { padding: 16px 18px; }

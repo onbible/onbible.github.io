@@ -4,6 +4,7 @@ import {
   normalizePdfBookTitle,
   normalizeSearchText,
   filterPdfBooks,
+  buildPdfPreviewUrl,
 } from '../src/pages/PdfBooksPage';
 
 describe('PdfBooksPage helpers', () => {
@@ -30,5 +31,10 @@ describe('PdfBooksPage helpers', () => {
     expect(filterPdfBooks(items, 'casados')).toHaveLength(1);
     expect(filterPdfBooks(items, 'satanas')).toHaveLength(1);
     expect(filterPdfBooks(items, '')).toHaveLength(2);
+  });
+
+  it('should build preview url with first-page fragment', () => {
+    expect(buildPdfPreviewUrl('a-isca-de-satanas.pdf'))
+      .toContain('/db/books/pdf/a-isca-de-satanas.pdf#page=1');
   });
 });

@@ -22,6 +22,9 @@ export const normalizePdfBookTitle = (filename) => {
     .join(' ');
 };
 
+export const buildPdfPreviewUrl = (file) =>
+  `/db/books/pdf/${encodeURIComponent(file)}#page=1&view=FitH&toolbar=0&navpanes=0&scrollbar=0`;
+
 export const filterPdfBooks = (books, query) => {
   if (!query.trim()) return books;
   const q = normalizeSearchText(query);
@@ -101,21 +104,27 @@ export default function PdfBooksPage() {
           ))}
         </div>
       ) : (
-        <div className="hymn-list">
+        <div className="pdf-grid-wrap">
           {filtered.length === 0 && (
             <div className="hymn-empty">
               <i className="fas fa-search" /> Nenhum livro encontrado.
             </div>
           )}
-          {filtered.map((book, index) => (
+          {filtered.map((book) => (
             <button
               key={book.file}
-              className="hymn-card"
+              className="pdf-thumb-card"
               onClick={() => setSelectedBook(book)}
             >
-              <span className="hymn-card-number">{index + 1}</span>
-              <span className="hymn-card-title">{book.title}</span>
-              <i className="fas fa-chevron-right hymn-card-arrow" />
+              <span className="pdf-thumb-cover">
+                <iframe
+                  title={`Capa de ${book.title}`}
+                  src={buildPdfPreviewUrl(book.file)}
+                  loading="lazy"
+                  className="pdf-thumb-frame"
+                />
+              </span>
+              <span className="pdf-thumb-title">{book.title}</span>
             </button>
           ))}
         </div>
