@@ -6,6 +6,27 @@ import ChapterCrossReferences from '../components/ChapterCrossReferences';
 
 const HL_COLORS = ['yellow', 'green', 'blue', 'pink'];
 
+export const applyHighlightMap = (currentHighlights, verses, color) => {
+  const next = { ...currentHighlights };
+  verses.forEach((verse) => {
+    if (color === 'clear') delete next[verse];
+    else next[verse] = color;
+  });
+  return next;
+};
+
+export const expandSelectionRange = (selectedSet) => {
+  const sorted = [...selectedSet].sort((a, b) => a - b);
+  if (sorted.length < 2) return sorted;
+  const start = sorted[0];
+  const end = sorted[sorted.length - 1];
+  const range = [];
+  for (let verse = start; verse <= end; verse += 1) {
+    range.push(verse);
+  }
+  return range;
+};
+
 export default function BookPage() {
   const { abbrev } = useParams();
   const navigate = useNavigate();
@@ -159,6 +180,11 @@ export default function BookPage() {
     setSelected(new Set());
   }, []);
 
+  const selectRange = useCallback(() => {
+    const expanded = expandSelectionRange(selected);
+    setSelected(new Set(expanded));
+  }, [selected]);
+
   // Verse click
   const handleVerseClick = useCallback((e, verse) => {
     e.stopPropagation();
@@ -194,6 +220,21 @@ export default function BookPage() {
       setHighlights(prev => ({ ...prev, [verse]: color }));
     }
   }, [popover, abbrev, chapter]);
+
+  const saveHighlightForSelected = useCallback(async (color) => {
+    if (selected.size === 0) return;
+    const versesToApply = [...selected];
+
+    if (color === 'clear') {
+      await Promise.all(versesToApply.map((verse) => DB.deleteHighlight(abbrev, chapter, verse)));
+    } else {
+      await Promise.all(versesToApply.map((verse) => DB.setHighlight(abbrev, chapter, verse, color)));
+    }
+
+    setHighlights((prev) => applyHighlightMap(prev, versesToApply, color));
+    setSelectMode(false);
+    setSelected(new Set());
+  }, [selected, abbrev, chapter]);
 
   // Note
   const showNoteModal = useCallback(async () => {
@@ -457,11 +498,31 @@ export default function BookPage() {
             <span>{selected.size} versículo{selected.size !== 1 ? 's' : ''}</span>
           </div>
           <div className="share-bar-actions">
+            {HL_COLORS.map((c) => (
+              <button
+                key={c}
+                className={`hl-dot dot-${c}`}
+                title={`Sublinhar (${c})`}
+                onClick={() => saveHighlightForSelected(c)}
+                disabled={selected.size === 0}
+              />
+            ))}
+            <button
+              className="hl-dot dot-clear"
+              title="Remover marcação"
+              onClick={() => saveHighlightForSelected('clear')}
+              disabled={selected.size === 0}
+            >
+              <i className="fas fa-eraser" />
+            </button>
             <button className="share-bar-btn whatsapp" onClick={shareWhatsApp} disabled={selected.size === 0}>
               <i className="fab fa-whatsapp" /> WhatsApp
             </button>
             <button className="share-bar-btn copy" onClick={copyToClipboard} disabled={selected.size === 0}>
               <i className="fas fa-copy" /> Copiar
+            </button>
+            <button className="share-bar-btn" onClick={selectRange} disabled={selected.size < 2}>
+              <i className="fas fa-arrows-alt-v" /> Intervalo
             </button>
             <button className="share-bar-btn cancel" onClick={cancelSelect}>
               <i className="fas fa-times" />

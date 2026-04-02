@@ -43,6 +43,10 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 - Estrutura: diretório `script/` removido; `generated_path.py` passa a estar em `scripts/` junto aos restantes scripts do projeto.
 - Estrutura: scripts legacy da raiz (`/js`) migrados para `assets/js`; páginas HTML atualizadas para carregar os ficheiros no novo caminho.
+- Leitura bíblica: modo de seleção múltipla de versículos agora também permite sublinhar/remover marcação em lote (além de compartilhar), agilizando marcações em sequência (`src/pages/BookPage.jsx`).
+- Testes: adicionados cenários unitários para aplicação/remoção de sublinhado em múltiplos versículos (`tests/bookPage.test.js`).
+- Leitura bíblica: adicionado botão **Intervalo** no modo de seleção múltipla para preencher automaticamente os versículos entre o menor e o maior selecionado (`src/pages/BookPage.jsx`).
+- Testes: cobertura da expansão de seleção por intervalo (`tests/bookPage.test.js`).
 
 ---
 
