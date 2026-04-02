@@ -7,6 +7,7 @@ import {
   buildPdfPreviewUrl,
   buildPdfFileUrl,
   getPdfCacheKey,
+  applyOfflineOnlyFilter,
 } from '../src/pages/PdfBooksPage';
 
 describe('PdfBooksPage helpers', () => {
@@ -43,5 +44,15 @@ describe('PdfBooksPage helpers', () => {
   it('should build file url and cache key', () => {
     expect(buildPdfFileUrl('livro.pdf')).toBe('/db/books/pdf/livro.pdf');
     expect(getPdfCacheKey('livro.pdf')).toBe('/db/books/pdf/livro.pdf');
+  });
+
+  it('should filter only offline when enabled', () => {
+    const items = [
+      { file: 'a.pdf', title: 'A' },
+      { file: 'b.pdf', title: 'B' },
+    ];
+    const offlineMap = { 'a.pdf': true, 'b.pdf': false };
+    expect(applyOfflineOnlyFilter(items, offlineMap, true)).toHaveLength(1);
+    expect(applyOfflineOnlyFilter(items, offlineMap, false)).toHaveLength(2);
   });
 });

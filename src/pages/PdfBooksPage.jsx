@@ -41,6 +41,11 @@ export const filterPdfBooks = (books, query) => {
   });
 };
 
+export const applyOfflineOnlyFilter = (books, offlineMap, enabled) => {
+  if (!enabled) return books;
+  return books.filter((book) => !!offlineMap[book.file]);
+};
+
 export default function PdfBooksPage() {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -51,6 +56,9 @@ export default function PdfBooksPage() {
   );
   const [offlineMap, setOfflineMap] = useState({});
   const [offlineBusy, setOfflineBusy] = useState({});
+  const [offlineOnly, setOfflineOnly] = useState(
+    () => localStorage.getItem('pdf_books_offline_only') === '1'
+  );
 
   useEffect(() => {
     (async () => {
@@ -71,7 +79,10 @@ export default function PdfBooksPage() {
     })();
   }, []);
 
-  const filtered = useMemo(() => filterPdfBooks(books, search), [books, search]);
+  const filtered = useMemo(() => {
+    const bySearch = filterPdfBooks(books, search);
+    return applyOfflineOnlyFilter(bySearch, offlineMap, offlineOnly);
+  }, [books, search, offlineMap, offlineOnly]);
 
   const closeReader = useCallback(() => setSelectedBook(null), []);
 
@@ -80,6 +91,10 @@ export default function PdfBooksPage() {
   useEffect(() => {
     localStorage.setItem('pdf_books_view_mode', viewMode);
   }, [viewMode]);
+
+  useEffect(() => {
+    localStorage.setItem('pdf_books_offline_only', offlineOnly ? '1' : '0');
+  }, [offlineOnly]);
 
   useEffect(() => {
     if (!books.length || typeof window === 'undefined' || !('caches' in window)) return;
@@ -162,6 +177,14 @@ export default function PdfBooksPage() {
             type="button"
           >
             <i className="fas fa-th-large" /> Grade
+          </button>
+          <button
+            className={`search-mode-btn ${offlineOnly ? 'active' : ''}`}
+            onClick={() => setOfflineOnly((v) => !v)}
+            type="button"
+            title="Mostrar apenas livros salvos offline"
+          >
+            <i className="fas fa-cloud-download-alt" /> Só offline
           </button>
         </div>
         <span className="hymn-count">
