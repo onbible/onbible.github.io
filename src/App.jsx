@@ -16,6 +16,7 @@ import DictionaryPage from './pages/DictionaryPage';
 import ConcordancePage from './pages/ConcordancePage';
 import HymnalPage from './pages/HymnalPage';
 import HarpaPage from './pages/HarpaPage';
+import PdfBooksPage from './pages/PdfBooksPage';
 import { DB } from './lib/db';
 
 export default function App() {
@@ -57,6 +58,7 @@ export default function App() {
           <Route path="/concordance" element={<ConcordancePage />} />
           <Route path="/hymnal"      element={<HymnalPage />} />
           <Route path="/harpa"       element={<HarpaPage />} />
+          <Route path="/books"       element={<PdfBooksPage />} />
           <Route path="/about"         element={<AboutPage />} />
           <Route path="*"              element={<Navigate to="/" replace />} />
         </Routes>

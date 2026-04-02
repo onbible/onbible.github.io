@@ -42,6 +42,7 @@ export default function Layout({ children, theme, setAppTheme }) {
           <NavLink to="/concordance" ><i className="fas fa-search-plus" /> <span>Concordância</span></NavLink>
           <NavLink to="/hymnal"       ><i className="fas fa-music" />       <span>Cantor Cristão</span></NavLink>
           <NavLink to="/harpa"        ><i className="fas fa-guitar" />      <span>Harpa Cristã</span></NavLink>
+          <NavLink to="/books"        ><i className="fas fa-book-reader" /> <span>Livros PDF</span></NavLink>
           <NavLink to="/settings"     ><i className="fas fa-cog" />         <span>Configurações</span></NavLink>
           <NavLink to="/changelog"    ><i className="fas fa-history" />     <span>Atualizações</span></NavLink>
           <NavLink to="/about"        ><i className="fas fa-info-circle" /> <span>Sobre</span></NavLink>

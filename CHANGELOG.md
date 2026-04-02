@@ -15,6 +15,9 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 - Página **Harpa Cristã** (`/harpa`): listagem dos louvores com busca por número ou título, leitura da letra em modal com estrofes/coro, ajuste de fonte e navegação entre louvores (`src/pages/HarpaPage.jsx`). Consome dados de `/db/harpacrista/`.
 - Menu **Harpa Cristã** na sidebar, e atalho no **Acesso Rápido** do Dashboard
 - Testes unitários base da Harpa Cristã (`tests/harpaPage.test.js`)
+- Área **Livros PDF** (`/books`): listagem de livros com busca por título, abertura em leitor incorporado e ação para abrir em nova aba (`src/pages/PdfBooksPage.jsx`, `db/books/pdf/pdf_index.json`).
+- Menu **Livros PDF** na sidebar, e atalho no **Acesso Rápido** do Dashboard
+- Testes unitários para helpers da área de PDFs (`tests/pdfBooksPage.test.js`)
 - Banner de instalação PWA: notificação no topo para quem usa o site no navegador (não instalado), com botão «Instalar» no Chrome/Edge e instruções para «Adicionar ao ecrã inicial» no iOS; adiável por 14 dias (`PwaInstallBanner.jsx`, `src/lib/pwaInstall.js`)
 - Gerenciamento de Notas nos Versículos: novo modal de anotações acessível pelo menu de marcação (`book.html`, `js/book.js`)
 - Indicador visual de Notas: ícone de nota (📝) exibido ao lado de versículos com anotações salvas
