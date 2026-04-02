@@ -32,12 +32,21 @@ O CHANGELOG segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/
 2. Localize a seção `## [Unreleased]`
 3. Adicione sua mudança na categoria correta (`Adicionado`, `Corrigido`, `Alterado` ou `Removido`)
 4. Seja específico: mencione o arquivo afetado, o comportamento anterior e o novo
-
-// turbo
-5. Verifique se o CHANGELOG está atualizado antes de commitar:
+5. **Checklist antes de concluir a tarefa:** se alterou `src/`, `tests/`, `db/` com impacto no utilizador, ou configuração de build, o `CHANGELOG.md` **tem** de constar no mesmo conjunto de alterações (commit ou PR).
+6. Verifique se o CHANGELOG está atualizado antes de commitar:
 ```bash
 git diff CHANGELOG.md
 ```
+
+## Hook `pre-commit` (Husky)
+
+Após `npm install`, o Husky instala o hook em `.husky/pre-commit`, que executa `scripts/check-changelog-staged.mjs`.
+
+- Se existirem alterações **em stage** em `src/` ou `tests/` sem `CHANGELOG.md` também em stage, o commit **falha** com mensagem de ajuda.
+- Para um commit pontual sem atualizar o changelog (ex.: WIP interno): `SKIP_CHANGELOG=1 git commit ...`
+- Para contornar todos os hooks: `git commit --no-verify` (evitar em alterações que deviam ter changelog).
+
+Teste manual da regra: `npm run check:changelog` (usa o mesmo critério com o que já está no stage).
 
 ## Ao Criar uma Release
 

@@ -2187,6 +2187,40 @@ body {
   color: var(--text);
 }
 
+.about-contrib {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--text);
+  max-width: 640px;
+}
+.about-contrib p {
+  margin: 0;
+}
+.about-contrib code {
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  word-break: break-word;
+}
+.about-contrib a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+.about-contrib a:hover {
+  text-decoration: underline;
+}
+[data-theme="dark"] .about-contrib code {
+  background: rgba(0, 0, 0, 0.25);
+}
+
 /* Footer */
 .about-footer {
   text-align: center;

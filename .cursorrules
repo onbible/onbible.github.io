@@ -20,6 +20,9 @@ You are Antigravity, the AI Coding Assistant. Follow these mandatory rules for e
 - Maintain the "Premium" look: clean layouts, subtle shadows, harmonious colors, and smooth translations.
 - Support both Light and Dark modes in every new UI element.
 
-## 📜 Documentation
-- Always update `CHANGELOG.md` for every relevant change.
-- Follow the workflow in `.agents/workflows/update-changelog.md`.
+## 📜 Changelog — obrigatório (não dispensável)
+- **Regra:** Depois de **cada** alteração relevante no repositório (comportamento, UI, dados, rotas, testes, build ou documentação de produto), atualizar **`CHANGELOG.md`** na secção **`[Unreleased]`**, na **mesma sessão de trabalho**, antes de dar a tarefa como concluída.
+- **Regra:** Não encerrar implementação sem entrada no changelog correspondente. Exceção mínima: mudanças puramente cosméticas sem efeito para utilizadores (ex.: só espaços em comentário).
+- **Formato:** `Adicionado` / `Corrigido` / `Alterado` / `Removido`; ser específico e citar ficheiros principais.
+- **Workflow:** seguir `.agents/workflows/update-changelog.md` e, antes de concluir, confirmar que `CHANGELOG.md` aparece no diff quando houve mudança funcional.
+- **Automação:** o hook `pre-commit` (Husky) falha se `src/` ou `tests/` estiverem no stage sem `CHANGELOG.md`; exceção pontual: `SKIP_CHANGELOG=1 git commit ...` (ver `.agents/workflows/update-changelog.md`).

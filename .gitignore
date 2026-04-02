@@ -31,7 +31,9 @@ vitest.log
 *.swp
 *.swo
 
-# Project Search Indexes
-.agents/
+# Project Search Indexes (`.agents/*` + exceção: workflows versionados)
+.agents/*
+!.agents/workflows/
+!.agents/workflows/**
 .gemini/
 .antigravity/

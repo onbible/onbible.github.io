@@ -9,8 +9,9 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Adicionado
 
-- Leitura bíblica: ao selecionar uma palavra no texto, aparece um tooltip com a definição do **Dicionário Bíblico** (quando existe entrada), com atalho para a página do dicionário (`src/pages/BookPage.jsx`, `src/index.css`, `src/lib/dictionaryData.js`).
-- Testes unitários para normalização, extração da palavra e carregamento das entradas do dicionário (`tests/dictionaryData.test.js`).
+- **Git / Husky:** hook `pre-commit` (`.husky/pre-commit`) que bloqueia o commit quando há alterações em stage em `src/` ou `tests/` sem `CHANGELOG.md` também em stage; script `scripts/check-changelog-staged.mjs`, política em `scripts/changelog-policy.mjs`, testes em `tests/changelog-policy.test.js`; comando `npm run check:changelog`; variável `SKIP_CHANGELOG=1` para exceções pontuais (`package.json`, `package-lock.json`).
+- Leitura bíblica (**React**): tooltip ao selecionar uma palavra no texto do versículo com definição do **Dicionário Bíblico** (entrada exata por termo normalizado), posicionamento acima/abaixo da seleção, exclusão de áreas fora de `.verse-item` (ex.: referências cruzadas), link para `/dictionary` (`src/pages/BookPage.jsx`, `src/index.css`, `src/lib/dictionaryData.js`).
+- Testes unitários do cliente do dicionário: normalização, primeira palavra da seleção, busca por termo, carga de chunks com `fetch` mockado (`tests/dictionaryData.test.js`).
 
 - Página **Cantor Cristão** (`/hymnal`): listagem de 581 hinos com busca por número ou título, visualização da letra com separação de estrofes/coro, controle de tamanho de fonte, navegação entre hinos (setas do teclado), e skeleton loaders (`src/pages/HymnalPage.jsx`). Consome dados de `/db/cantorcristao/`.
 - Menu **Cantor Cristão** na sidebar, e atalho no **Acesso Rápido** do Dashboard
@@ -36,6 +37,8 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Corrigido
 
+- `.gitignore`: o padrão anterior (`.agents/`) impedia `git add` de `.agents/workflows/`; passa a ignorar o conteúdo de `.agents` com exceção explícita para `workflows/`, alinhado com o workflow de changelog referenciado em `.cursorrules`.
+
 - Dev (Vite): porta do servidor alterada de `5173` para `2222` em ambiente local (`vite.config.js`)
 - GitHub Pages: rotas diretas da SPA React (ex.: `/book/sl`) devolviam 404 — o build passa a gerar `404.html` idêntico ao `index.html` para o Pages servir a app nesses URLs (`vite.config.js`, `scripts/copy-spa-404.js`)
 - Dev (Vite): removido `//# sourceMappingURL` de `assets/libs/dexie.min.js` — o ficheiro `dexie.min.js.map` não existia e o servidor emitia `ENOENT` ao tentar carregar o source map
@@ -44,6 +47,9 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Alterado
 
+- Página **Sobre** (`/about`): versão lida de `package.json`; novos cartões (dicionário na leitura, Cantor/Harpa, Livros PDF); texto de sublinhados atualizado; secção **Contribuição** com changelog, Husky e atalho para `/changelog`; badge Husky em tecnologia; estilos `.about-contrib` (`src/pages/AboutPage.jsx`, `src/index.css`).
+
+- Regras do projeto: secção **Changelog** em `.cursorrules` reforçada como obrigatória após alterações relevantes; referência ao hook Husky e `SKIP_CHANGELOG`; workflow `.agents/workflows/update-changelog.md` com checklist e secção sobre o `pre-commit`.
 - Página **Dicionário Bíblico**: carregamento das letras passa a usar o módulo compartilhado `loadLetterEntries` e `normalizeDictionaryKey`, com cache único em memória (`src/pages/DictionaryPage.jsx`, `src/lib/dictionaryData.js`).
 
 - Estrutura: diretório `script/` removido; `generated_path.py` passa a estar em `scripts/` junto aos restantes scripts do projeto.

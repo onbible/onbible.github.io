@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import pkg from '../../package.json';
+
 export default function AboutPage() {
   return (
     <>
@@ -13,7 +16,7 @@ export default function AboutPage() {
           </div>
           <h2 className="about-title">OnBible</h2>
           <p className="about-subtitle">Bíblia de Estudo Premium &mdash; Offline-First</p>
-          <span className="about-version">v1.0.0</span>
+          <span className="about-version">v{pkg.version}</span>
         </div>
 
         <p className="about-description">
@@ -66,7 +69,17 @@ export default function AboutPage() {
             </div>
             <div className="about-feature-body">
               <h3>Sublinhados Coloridos</h3>
-              <p>Destaque versículos com 4 cores diferentes (amarelo, verde, azul, rosa). Popover flutuante para ação rápida.</p>
+              <p>Destaque versículos com 4 cores diferentes (amarelo, verde, azul, rosa). Popover flutuante para ação rápida; modo de seleção múltipla para compartilhar, sublinhar em lote ou preencher um intervalo de versículos.</p>
+            </div>
+          </div>
+
+          <div className="about-feature-card">
+            <div className="about-feature-icon" style={{ background: '#0d9488' }}>
+              <i className="fas fa-book" />
+            </div>
+            <div className="about-feature-body">
+              <h3>Dicionário na leitura</h3>
+              <p>Selecione uma palavra no texto do versículo para ver a definição do dicionário bíblico num tooltip, com atalho para a página completa do dicionário.</p>
             </div>
           </div>
 
@@ -151,6 +164,26 @@ export default function AboutPage() {
           </div>
 
           <div className="about-feature-card">
+            <div className="about-feature-icon" style={{ background: '#6366f1' }}>
+              <i className="fas fa-music" />
+            </div>
+            <div className="about-feature-body">
+              <h3>Cantor Cristão e Harpa Cristã</h3>
+              <p>Hinários com busca por número ou título, letra formatada por estrofes e coro, e navegação entre hinos ou louvores.</p>
+            </div>
+          </div>
+
+          <div className="about-feature-card">
+            <div className="about-feature-icon" style={{ background: '#64748b' }}>
+              <i className="fas fa-file-pdf" />
+            </div>
+            <div className="about-feature-body">
+              <h3>Livros PDF</h3>
+              <p>Biblioteca de livros em PDF com busca, pré-visualização e leitura no navegador, com opção de guardar para leitura offline.</p>
+            </div>
+          </div>
+
+          <div className="about-feature-card">
             <div className="about-feature-icon" style={{ background: '#10b981' }}>
               <i className="fas fa-download" />
             </div>
@@ -172,7 +205,23 @@ export default function AboutPage() {
           <span className="about-tech-badge">IndexedDB</span>
           <span className="about-tech-badge">PWA</span>
           <span className="about-tech-badge">Service Worker</span>
+          <span className="about-tech-badge">Husky</span>
           <span className="about-tech-badge">Font Awesome</span>
+        </div>
+
+        <div className="about-section-title">
+          <i className="fas fa-code-branch" /> Contribuição
+        </div>
+        <div className="about-contrib">
+          <p>
+            As mudanças relevantes são registadas no{' '}
+            <Link to="/changelog">changelog do projeto</Link> (arquivo <code>CHANGELOG.md</code>, secção{' '}
+            <code>[Unreleased]</code>). Ao preparar um commit com alterações em{' '}
+            <code>src/</code> ou <code>tests/</code>, o hook <strong>pre-commit</strong> (Husky) pede que o{' '}
+            <code>CHANGELOG.md</code> faça parte do mesmo commit. Para uma exceção pontual:{' '}
+            <code>SKIP_CHANGELOG=1</code> antes de <code>git commit</code>, ou <code>git commit --no-verify</code>{' '}
+            (evite quando o changelog devia ser atualizado).
+          </p>
         </div>
 
         {/* Footer */}
