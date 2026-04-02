@@ -8,7 +8,7 @@
   "description": "Bíblia de Estudo Premium com funcionalidades Offline-First.",
   "icons": [
     {
-      "src": "./assets/images/logo.png",
+      "src": "/assets/images/logo.png",
       "sizes": "192x192 512x512",
       "type": "image/png"
     }
