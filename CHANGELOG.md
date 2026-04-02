@@ -37,6 +37,8 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Corrigido
 
+- **Página `/changelog`:** listas com `display: flex` em cada item e texto + `` `código` `` geravam vários itens flex anónimos e texto em colunas estreitas; o conteúdo passa a ir num único `.changelog-item-body` (`flex: 1; min-width: 0`). A página lê o `CHANGELOG.md` real (`?raw`) com parser partilhado (`src/lib/changelogParser.js`, `src/pages/ChangelogPage.jsx`, estilos em `src/index.css`). `.app-main` com `min-width: 0` evita compressão lateral no layout flex. `changelog.html` (standalone): mesmo wrapper nos itens.
+
 - **GitHub Pages:** o artefacto só continha `dist/` (Vite) e não incluía `db/`, `sw.js` nem `assets/images/`, causando 404 em `/db/books/pdf/pdf_index.json` (lista Livros PDF vazia), `sw.js` e ícones; o pós-build (`scripts/copy-static-for-pages.js` + `vite.config.js`) copia esses recursos para `dist/`. `manifest.json`: ícone com caminho absoluto `/assets/images/logo.png` para não duplicar `assets/` quando o manifest é emitido em `/assets/manifest-*.json`. `manifest.json` + `index.html`: favicon passa a apontar para `favicon.png` (existente no repositório). `sw.js`: precache alinhado ao shell da SPA React (evita `cache.addAll` com ficheiros legacy que não existem no deploy). `vite dev`: middleware `scripts/vite-dev-static.js` serve `db/`, `sw.js` e `assets/images/` como em produção.
 
 - `.gitignore`: o padrão anterior (`.agents/`) impedia `git add` de `.agents/workflows/`; passa a ignorar o conteúdo de `.agents` com exceção explícita para `workflows/`, alinhado com o workflow de changelog referenciado em `.cursorrules`.

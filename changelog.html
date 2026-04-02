@@ -285,6 +285,12 @@
             padding: 10px 14px;
             transition: box-shadow 0.15s;
         }
+        .category-list li .changelog-item-body {
+            flex: 1;
+            min-width: 0;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
         .category-list li:hover {
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
         }
@@ -459,7 +465,7 @@
                     const rendered = item
                         .replace(/`([^`]+)`/g, '<code style="font-size:12px;background:rgba(0,0,0,0.07);padding:1px 5px;border-radius:4px;">$1</code>')
                         .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-                    return `<li>${rendered}</li>`;
+                    return `<li><span class="changelog-item-body">${rendered}</span></li>`;
                 }).join('');
 
                 categoriesHTML += `

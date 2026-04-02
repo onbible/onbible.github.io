@@ -1,63 +1,82 @@
+import { useMemo } from 'react';
+import changelogMd from '../../CHANGELOG.md?raw';
+import {
+  parseChangelog,
+  renderChangelogItemHtml,
+  CATEGORY_CONFIG,
+} from '../lib/changelogParser';
+
 export default function ChangelogPage() {
-  const entries = [
-    {
-      version: '[Unreleased]',
-      items: [
-        'Referências Cruzadas Interativas: painel ao final dos versículos (TSK)',
-        'Sistema de Backup e Restauração local via arquivo JSON',
-        'Gerenciamento de Notas nos Versículos com ícone indicador',
-        'Página "Meus Marcadores": visualização de sublinhados e notas',
-        'Migração de Framework Frontend: jQuery → React + Vite (SPA)',
-        'Modo Pregação/Púlpito: tela imersiva fullscreen',
-        'Seletor de tipografia com 4 estilos persistido',
-      ]
-    },
-    {
-      version: 'v2.5 — Highlights & Notes',
-      items: [
-        'Marcação de versículos com 4 cores (amarelo, verde, azul, rosa)',
-        'Persistência de highlights via IndexedDB (Dexie.js)',
-        'Menu flutuante de marcação com ícones premium',
-      ]
-    },
-    {
-      version: 'v2.0 — IndexedDB Migration',
-      items: [
-        'Migração de localStorage para IndexedDB via Dexie.js',
-        'Preferências de versão e progresso de leitura persistidos',
-      ]
-    },
-    {
-      version: 'v1.0 — MVP',
-      items: [
-        'Leitura das 5 versões da Bíblia (PT-AA, PT-ACF, PT-NVI, EN-BBE, EN-KJV)',
-        'Navegação por capítulos e livros',
-        'PWA installable (offline-first)',
-        'Player de áudio bíblico',
-      ]
-    }
-  ];
+  const versions = useMemo(() => parseChangelog(changelogMd), []);
 
   return (
-    <>
-      <div className="page-header">
-        <h1><i className="fas fa-clipboard-list" style={{ marginRight: '8px' }}></i>Atualizações</h1>
-        <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginTop: '4px' }}>Histórico de funcionalidades do OnBible</p>
+    <div className="changelog-page">
+      <div className="changelog-hero">
+        <div className="changelog-badge-hero">
+          <i className="fas fa-scroll" /> CHANGELOG
+        </div>
+        <h2 className="changelog-hero-title">Histórico de Atualizações</h2>
+        <p className="changelog-hero-sub">
+          Acompanhe cada melhoria, correção e funcionalidade nova do OnBible.
+        </p>
       </div>
-      <div style={{ padding: '20px 28px' }}>
-        {entries.map(entry => (
-          <div key={entry.version} style={{ marginBottom: '28px' }}>
-            <h5 style={{ fontSize: '14px', fontWeight: 700, color: 'var(--primary)', marginBottom: '10px', borderBottom: '1px solid var(--border)', paddingBottom: '6px' }}>
-              {entry.version}
-            </h5>
-            <ul style={{ paddingLeft: '18px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              {entry.items.map((item, i) => (
-                <li key={i} style={{ fontSize: '14px', lineHeight: '1.5' }}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+
+      <div className="changelog-content">
+        {versions.map((version) => {
+          const isUnreleased = version.name.toLowerCase() === 'unreleased';
+          const dotClass = isUnreleased ? 'changelog-version-dot changelog-version-dot--unreleased' : 'changelog-version-dot';
+          const tagClass = isUnreleased
+            ? 'changelog-version-tag changelog-version-tag--unreleased'
+            : 'changelog-version-tag';
+          const tagLabel = isUnreleased ? '⚡ Em desenvolvimento' : `v${version.name}`;
+          const dotIcon = isUnreleased ? 'fas fa-bolt' : 'fas fa-tag';
+
+          const categoriesWithItems = version.categories.filter((c) => c.items.length > 0);
+
+          return (
+            <div key={version.name} className="changelog-version-block">
+              <div className={dotClass}>
+                <i className={dotIcon} />
+              </div>
+              <div className="changelog-version-header">
+                <span className={tagClass}>{tagLabel}</span>
+                {version.date ? (
+                  <span className="changelog-version-date">
+                    <i className="fas fa-calendar-alt" style={{ marginRight: 4 }} />
+                    {version.date}
+                  </span>
+                ) : null}
+              </div>
+
+              {categoriesWithItems.length === 0 ? (
+                <p className="changelog-empty-cat">Nenhuma mudança registrada ainda.</p>
+              ) : (
+                categoriesWithItems.map((cat) => {
+                  const cfg = CATEGORY_CONFIG[cat.key] || {
+                    label: cat.raw,
+                    cls: '',
+                  };
+                  return (
+                    <div key={cat.key + cat.raw} className="changelog-category-block">
+                      <div className={`changelog-category-title ${cfg.cls}`}>{cfg.label}</div>
+                      <ul className="changelog-category-list">
+                        {cat.items.map((item, i) => (
+                          <li key={i}>
+                            <span
+                              className="changelog-item-body"
+                              dangerouslySetInnerHTML={{ __html: renderChangelogItemHtml(item) }}
+                            />
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                })
+              )}
+            </div>
+          );
+        })}
       </div>
-    </>
+    </div>
   );
 }
