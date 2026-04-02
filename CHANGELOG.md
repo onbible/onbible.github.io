@@ -36,6 +36,10 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 - Dark mode: expandida a cobertura CSS para mais de 50 seletores (cards, topbar, sidebar, botões, selects, footer)
 - Dark mode: adicionado suporte ao Bottom Nav e ao seletor de fontes
 
+### Alterado
+
+- Estrutura: diretório `script/` removido; `generated_path.py` passa a estar em `scripts/` junto aos restantes scripts do projeto.
+
 ---
 
 ## [1.5.0] — 2026-03-27
