@@ -39,6 +39,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 ### Alterado
 
 - Estrutura: diretório `script/` removido; `generated_path.py` passa a estar em `scripts/` junto aos restantes scripts do projeto.
+- Estrutura: scripts legacy da raiz (`/js`) migrados para `assets/js`; páginas HTML atualizadas para carregar os ficheiros no novo caminho.
 
 ---
 
