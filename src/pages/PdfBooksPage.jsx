@@ -22,8 +22,14 @@ export const normalizePdfBookTitle = (filename) => {
     .join(' ');
 };
 
+export const PDF_BOOKS_CACHE = 'onbible-pdf-books-v1';
+
+export const buildPdfFileUrl = (file) => `/db/books/pdf/${encodeURIComponent(file)}`;
+
+export const getPdfCacheKey = (file) => buildPdfFileUrl(file);
+
 export const buildPdfPreviewUrl = (file) =>
-  `/db/books/pdf/${encodeURIComponent(file)}#page=1&view=FitH&toolbar=0&navpanes=0&scrollbar=0`;
+  `${buildPdfFileUrl(file)}#page=1&view=FitH&toolbar=0&navpanes=0&scrollbar=0`;
 
 export const filterPdfBooks = (books, query) => {
   if (!query.trim()) return books;
@@ -43,6 +49,8 @@ export default function PdfBooksPage() {
   const [viewMode, setViewMode] = useState(
     () => localStorage.getItem('pdf_books_view_mode') || 'grid'
   );
+  const [offlineMap, setOfflineMap] = useState({});
+  const [offlineBusy, setOfflineBusy] = useState({});
 
   useEffect(() => {
     (async () => {
@@ -67,13 +75,54 @@ export default function PdfBooksPage() {
 
   const closeReader = useCallback(() => setSelectedBook(null), []);
 
-  const pdfUrl = selectedBook
-    ? `/db/books/pdf/${encodeURIComponent(selectedBook.file)}`
-    : '';
+  const pdfUrl = selectedBook ? buildPdfFileUrl(selectedBook.file) : '';
 
   useEffect(() => {
     localStorage.setItem('pdf_books_view_mode', viewMode);
   }, [viewMode]);
+
+  useEffect(() => {
+    if (!books.length || typeof window === 'undefined' || !('caches' in window)) return;
+    let alive = true;
+    (async () => {
+      const cache = await caches.open(PDF_BOOKS_CACHE);
+      const entries = await Promise.all(
+        books.map(async (book) => {
+          const exists = await cache.match(getPdfCacheKey(book.file));
+          return [book.file, !!exists];
+        })
+      );
+      if (!alive) return;
+      setOfflineMap(Object.fromEntries(entries));
+    })();
+    return () => {
+      alive = false;
+    };
+  }, [books]);
+
+  const toggleOffline = useCallback(async (book) => {
+    if (typeof window === 'undefined' || !('caches' in window)) return;
+    const key = book.file;
+    setOfflineBusy((prev) => ({ ...prev, [key]: true }));
+    try {
+      const cache = await caches.open(PDF_BOOKS_CACHE);
+      const cacheKey = getPdfCacheKey(key);
+      const isSaved = !!offlineMap[key];
+      if (isSaved) {
+        await cache.delete(cacheKey);
+        setOfflineMap((prev) => ({ ...prev, [key]: false }));
+      } else {
+        const resp = await fetch(cacheKey, { cache: 'no-store' });
+        if (!resp.ok) throw new Error('Falha ao baixar PDF');
+        await cache.put(cacheKey, resp.clone());
+        setOfflineMap((prev) => ({ ...prev, [key]: true }));
+      }
+    } catch {
+      // no-op: mantem estado atual em caso de falha de rede/cache
+    } finally {
+      setOfflineBusy((prev) => ({ ...prev, [key]: false }));
+    }
+  }, [offlineMap]);
 
   return (
     <>
@@ -138,6 +187,7 @@ export default function PdfBooksPage() {
               key={book.file}
               className="pdf-thumb-card"
               onClick={() => setSelectedBook(book)}
+              type="button"
             >
               <span className="pdf-thumb-cover">
                 <iframe
@@ -148,6 +198,23 @@ export default function PdfBooksPage() {
                 />
               </span>
               <span className="pdf-thumb-title">{book.title}</span>
+              <button
+                type="button"
+                className={`pdf-offline-btn${offlineMap[book.file] ? ' saved' : ''}`}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  toggleOffline(book);
+                }}
+                disabled={!!offlineBusy[book.file]}
+                title={offlineMap[book.file] ? 'Remover do offline' : 'Salvar para offline'}
+              >
+                <i className={`fas fa-${offlineMap[book.file] ? 'check-circle' : 'download'}`} />
+                {offlineBusy[book.file]
+                  ? '...'
+                  : offlineMap[book.file]
+                    ? 'Offline'
+                    : 'Salvar offline'}
+              </button>
             </button>
           ))}
         </div>
@@ -174,6 +241,23 @@ export default function PdfBooksPage() {
                 />
               </span>
               <span className="hymn-card-title">{book.title}</span>
+              <button
+                type="button"
+                className={`pdf-offline-btn${offlineMap[book.file] ? ' saved' : ''}`}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  toggleOffline(book);
+                }}
+                disabled={!!offlineBusy[book.file]}
+                title={offlineMap[book.file] ? 'Remover do offline' : 'Salvar para offline'}
+              >
+                <i className={`fas fa-${offlineMap[book.file] ? 'check-circle' : 'download'}`} />
+                {offlineBusy[book.file]
+                  ? '...'
+                  : offlineMap[book.file]
+                    ? 'Offline'
+                    : 'Salvar offline'}
+              </button>
               <i className="fas fa-chevron-right hymn-card-arrow" />
             </button>
           ))}

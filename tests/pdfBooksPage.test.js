@@ -5,6 +5,8 @@ import {
   normalizeSearchText,
   filterPdfBooks,
   buildPdfPreviewUrl,
+  buildPdfFileUrl,
+  getPdfCacheKey,
 } from '../src/pages/PdfBooksPage';
 
 describe('PdfBooksPage helpers', () => {
@@ -36,5 +38,10 @@ describe('PdfBooksPage helpers', () => {
   it('should build preview url with first-page fragment', () => {
     expect(buildPdfPreviewUrl('a-isca-de-satanas.pdf'))
       .toContain('/db/books/pdf/a-isca-de-satanas.pdf#page=1');
+  });
+
+  it('should build file url and cache key', () => {
+    expect(buildPdfFileUrl('livro.pdf')).toBe('/db/books/pdf/livro.pdf');
+    expect(getPdfCacheKey('livro.pdf')).toBe('/db/books/pdf/livro.pdf');
   });
 });
