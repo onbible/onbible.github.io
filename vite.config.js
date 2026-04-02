@@ -24,7 +24,7 @@ export default defineConfig({
     sourcemap: false,
   },
   server: {
-    port: 5173,
+    port: 2222,
     strictPort: true,
     watch: {
       ignored: ['**/assets/libs/**', '**/vendor/**', '**/db/**', '**/node_modules/**'],

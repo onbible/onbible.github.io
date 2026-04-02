@@ -9,6 +9,9 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Adicionado
 
+- Página **Cantor Cristão** (`/hymnal`): listagem de 581 hinos com busca por número ou título, visualização da letra com separação de estrofes/coro, controle de tamanho de fonte, navegação entre hinos (setas do teclado), e skeleton loaders (`src/pages/HymnalPage.jsx`). Consome dados de `/db/cantorcristao/`.
+- Menu **Cantor Cristão** na sidebar, e atalho no **Acesso Rápido** do Dashboard
+- Testes unitários para a lógica de carregamento e busca do Cantor Cristão (`tests/hymnalPage.test.js`)
 - Banner de instalação PWA: notificação no topo para quem usa o site no navegador (não instalado), com botão «Instalar» no Chrome/Edge e instruções para «Adicionar ao ecrã inicial» no iOS; adiável por 14 dias (`PwaInstallBanner.jsx`, `src/lib/pwaInstall.js`)
 - Gerenciamento de Notas nos Versículos: novo modal de anotações acessível pelo menu de marcação (`book.html`, `js/book.js`)
 - Indicador visual de Notas: ícone de nota (📝) exibido ao lado de versículos com anotações salvas
@@ -24,6 +27,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Corrigido
 
+- Dev (Vite): porta do servidor alterada de `5173` para `2222` em ambiente local (`vite.config.js`)
 - GitHub Pages: rotas diretas da SPA React (ex.: `/book/sl`) devolviam 404 — o build passa a gerar `404.html` idêntico ao `index.html` para o Pages servir a app nesses URLs (`vite.config.js`, `scripts/copy-spa-404.js`)
 - Dev (Vite): removido `//# sourceMappingURL` de `assets/libs/dexie.min.js` — o ficheiro `dexie.min.js.map` não existia e o servidor emitia `ENOENT` ao tentar carregar o source map
 - Dark mode: expandida a cobertura CSS para mais de 50 seletores (cards, topbar, sidebar, botões, selects, footer)

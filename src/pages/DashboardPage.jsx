@@ -170,6 +170,10 @@ export default function DashboardPage() {
           <i className="fas fa-scroll" />
           <span>Sermões</span>
         </Link>
+        <Link to="/hymnal" className="dash-link-card">
+          <i className="fas fa-music" />
+          <span>Cantor Cristão</span>
+        </Link>
       </div>
     </>
   );
