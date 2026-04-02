@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import pkg from '../../package.json';
 
 export default function AboutPage() {
@@ -205,23 +204,7 @@ export default function AboutPage() {
           <span className="about-tech-badge">IndexedDB</span>
           <span className="about-tech-badge">PWA</span>
           <span className="about-tech-badge">Service Worker</span>
-          <span className="about-tech-badge">Husky</span>
           <span className="about-tech-badge">Font Awesome</span>
-        </div>
-
-        <div className="about-section-title">
-          <i className="fas fa-code-branch" /> Contribuição
-        </div>
-        <div className="about-contrib">
-          <p>
-            As mudanças relevantes são registadas no{' '}
-            <Link to="/changelog">changelog do projeto</Link> (arquivo <code>CHANGELOG.md</code>, secção{' '}
-            <code>[Unreleased]</code>). Ao preparar um commit com alterações em{' '}
-            <code>src/</code> ou <code>tests/</code>, o hook <strong>pre-commit</strong> (Husky) pede que o{' '}
-            <code>CHANGELOG.md</code> faça parte do mesmo commit. Para uma exceção pontual:{' '}
-            <code>SKIP_CHANGELOG=1</code> antes de <code>git commit</code>, ou <code>git commit --no-verify</code>{' '}
-            (evite quando o changelog devia ser atualizado).
-          </p>
         </div>
 
         {/* Footer */}

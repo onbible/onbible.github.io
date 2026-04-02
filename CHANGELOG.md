@@ -47,7 +47,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Alterado
 
-- Página **Sobre** (`/about`): versão lida de `package.json`; novos cartões (dicionário na leitura, Cantor/Harpa, Livros PDF); texto de sublinhados atualizado; secção **Contribuição** com changelog, Husky e atalho para `/changelog`; badge Husky em tecnologia; estilos `.about-contrib` (`src/pages/AboutPage.jsx`, `src/index.css`).
+- Página **Sobre** (`/about`): versão a partir de `package.json`; cartões (dicionário na leitura, Cantor/Harpa, Livros PDF); texto de sublinhados atualizado; sem bloco de contribuição técnica na UI — orientações para desenvolvedores continuam em `.cursorrules` e `.agents/workflows/update-changelog.md` (`src/pages/AboutPage.jsx`, `src/index.css`).
 
 - Regras do projeto: secção **Changelog** em `.cursorrules` reforçada como obrigatória após alterações relevantes; referência ao hook Husky e `SKIP_CHANGELOG`; workflow `.agents/workflows/update-changelog.md` com checklist e secção sobre o `pre-commit`.
 - Página **Dicionário Bíblico**: carregamento das letras passa a usar o módulo compartilhado `loadLetterEntries` e `normalizeDictionaryKey`, com cache único em memória (`src/pages/DictionaryPage.jsx`, `src/lib/dictionaryData.js`).
