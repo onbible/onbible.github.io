@@ -174,6 +174,10 @@ export default function DashboardPage() {
           <i className="fas fa-music" />
           <span>Cantor Cristão</span>
         </Link>
+        <Link to="/harpa" className="dash-link-card">
+          <i className="fas fa-guitar" />
+          <span>Harpa Cristã</span>
+        </Link>
       </div>
     </>
   );

@@ -12,6 +12,9 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 - Página **Cantor Cristão** (`/hymnal`): listagem de 581 hinos com busca por número ou título, visualização da letra com separação de estrofes/coro, controle de tamanho de fonte, navegação entre hinos (setas do teclado), e skeleton loaders (`src/pages/HymnalPage.jsx`). Consome dados de `/db/cantorcristao/`.
 - Menu **Cantor Cristão** na sidebar, e atalho no **Acesso Rápido** do Dashboard
 - Testes unitários para a lógica de carregamento e busca do Cantor Cristão (`tests/hymnalPage.test.js`)
+- Página **Harpa Cristã** (`/harpa`): listagem dos louvores com busca por número ou título, leitura da letra em modal com estrofes/coro, ajuste de fonte e navegação entre louvores (`src/pages/HarpaPage.jsx`). Consome dados de `/db/harpacrista/`.
+- Menu **Harpa Cristã** na sidebar, e atalho no **Acesso Rápido** do Dashboard
+- Testes unitários base da Harpa Cristã (`tests/harpaPage.test.js`)
 - Banner de instalação PWA: notificação no topo para quem usa o site no navegador (não instalado), com botão «Instalar» no Chrome/Edge e instruções para «Adicionar ao ecrã inicial» no iOS; adiável por 14 dias (`PwaInstallBanner.jsx`, `src/lib/pwaInstall.js`)
 - Gerenciamento de Notas nos Versículos: novo modal de anotações acessível pelo menu de marcação (`book.html`, `js/book.js`)
 - Indicador visual de Notas: ícone de nota (📝) exibido ao lado de versículos com anotações salvas
