@@ -1,30 +1,8 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
+import { loadLetterEntries, normalizeDictionaryKey } from '../lib/dictionaryData';
 
 const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 const MAX_VISIBLE = 120;
-
-/* Loads all chunks for a given letter */
-async function loadLetter(letter) {
-  const l = letter.toLowerCase();
-  const indexResp = await fetch('/db/dicionario/lista_letras.json');
-  const index = await indexResp.json();
-  const chunks = index[l];
-  if (!chunks || !chunks.length) return [];
-
-  const all = await Promise.all(
-    chunks.map(async (chunk) => {
-      const resp = await fetch(`/db/dicionario/${l}/${chunk}.json`);
-      const data = await resp.json();
-      // Each file is { "A": [ {termo, definicao, ...}, ... ] }
-      const entries = Object.values(data).flat();
-      return entries;
-    })
-  );
-  return all.flat();
-}
-
-// Cache loaded letters
-const letterCache = {};
 
 export default function DictionaryPage() {
   const [activeLetter, setActiveLetter] = useState('A');
@@ -40,13 +18,8 @@ export default function DictionaryPage() {
     setLoading(true);
     setVisibleCount(MAX_VISIBLE);
     try {
-      if (letterCache[letter]) {
-        setEntries(letterCache[letter]);
-      } else {
-        const data = await loadLetter(letter);
-        letterCache[letter] = data;
-        setEntries(data);
-      }
+      const data = await loadLetterEntries(letter);
+      setEntries(data);
     } catch {
       setEntries([]);
     }
@@ -63,10 +36,10 @@ export default function DictionaryPage() {
 
   const filtered = useMemo(() => {
     if (!search.trim()) return entries;
-    const q = search.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const q = normalizeDictionaryKey(search);
     return entries.filter(e => {
-      const t = (e.termo || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-      const d = (e.definicao || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      const t = normalizeDictionaryKey(e.termo || '');
+      const d = normalizeDictionaryKey(e.definicao || '');
       return t.includes(q) || d.includes(q);
     });
   }, [entries, search]);

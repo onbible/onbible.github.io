@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { useBibleData } from '../hooks/useBible';
 import { DB } from '../lib/db';
 import ChapterCrossReferences from '../components/ChapterCrossReferences';
+import { firstWordFromSelection, lookupDictionaryWord } from '../lib/dictionaryData';
 
 const HL_COLORS = ['yellow', 'green', 'blue', 'pink'];
 
@@ -44,6 +45,12 @@ export default function BookPage() {
   const [selected, setSelected]     = useState(new Set());
   const noteTextRef = useRef(null);
   const popoverRef = useRef(null);
+  const bibleTextRef = useRef(null);
+  const dictTooltipRef = useRef(null);
+  const dictLookupGenRef = useRef(0);
+  const skipNextVerseClickRef = useRef(false);
+
+  const [dictTooltip, setDictTooltip] = useState(null);
 
   const book = bibleData ? Object.values(bibleData).find(b => b.abbrev === abbrev) : null;
   const verses = book ? (book.chapters[chapter - 1] || []) : [];
@@ -83,6 +90,11 @@ export default function BookPage() {
     }, 300);
     return () => clearTimeout(timer);
   }, [chapter, loading, searchParams, setSearchParams]);
+
+  useEffect(() => {
+    setDictTooltip(null);
+    dictLookupGenRef.current += 1;
+  }, [abbrev, chapter]);
 
   // Load highlights and notes when chapter changes
   useEffect(() => {
@@ -185,9 +197,99 @@ export default function BookPage() {
     setSelected(new Set(expanded));
   }, [selected]);
 
+  const processTextSelectionForDictionary = useCallback(() => {
+    if (selectMode) return;
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed || !bibleTextRef.current) return;
+
+    const raw = sel.toString().trim();
+    if (!raw || raw.length > 120) return;
+
+    const anchor = sel.anchorNode;
+    const host = anchor.nodeType === 3 ? anchor.parentElement : anchor;
+    if (!host || !bibleTextRef.current.contains(host)) return;
+    if (!host.closest('.verse-item')) return;
+
+    const wordKey = firstWordFromSelection(raw);
+    if (!wordKey || wordKey.length < 2) return;
+
+    setPopover(null);
+
+    const range = sel.getRangeAt(0);
+    let rect = range.getBoundingClientRect();
+    if (rect.width === 0 && rect.height === 0) {
+      const rects = range.getClientRects();
+      if (rects.length) rect = rects[0];
+    }
+    if (rect.width === 0 && rect.height === 0) return;
+
+    skipNextVerseClickRef.current = true;
+
+    const left = rect.left + rect.width / 2;
+    const flipBelow = rect.top < 150;
+    const top = flipBelow ? rect.bottom + 8 : rect.top;
+
+    const gen = (dictLookupGenRef.current += 1);
+
+    setDictTooltip({
+      left,
+      top,
+      placement: flipBelow ? 'below' : 'above',
+      word: wordKey,
+      loading: true,
+      entry: null,
+      notFound: false,
+      error: false,
+    });
+
+    lookupDictionaryWord(raw)
+      .then(({ word, entry }) => {
+        if (gen !== dictLookupGenRef.current) return;
+        setDictTooltip((prev) =>
+          prev
+            ? {
+                ...prev,
+                loading: false,
+                word,
+                entry,
+                notFound: !!word && !entry,
+                error: false,
+              }
+            : prev
+        );
+      })
+      .catch(() => {
+        if (gen !== dictLookupGenRef.current) return;
+        setDictTooltip((prev) => (prev ? { ...prev, loading: false, error: true } : prev));
+      });
+  }, [selectMode]);
+
+  const onBibleTextPointerUp = useCallback(() => {
+    requestAnimationFrame(() => processTextSelectionForDictionary());
+  }, [processTextSelectionForDictionary]);
+
+  useEffect(() => {
+    if (!dictTooltip) return;
+    const close = (e) => {
+      if (dictTooltipRef.current?.contains(e.target)) return;
+      setDictTooltip(null);
+    };
+    const onScroll = () => setDictTooltip(null);
+    document.addEventListener('mousedown', close);
+    window.addEventListener('scroll', onScroll, true);
+    return () => {
+      document.removeEventListener('mousedown', close);
+      window.removeEventListener('scroll', onScroll, true);
+    };
+  }, [dictTooltip]);
+
   // Verse click
   const handleVerseClick = useCallback((e, verse) => {
     e.stopPropagation();
+    if (skipNextVerseClickRef.current) {
+      skipNextVerseClickRef.current = false;
+      return;
+    }
     if (selectMode) {
       toggleSelect(verse);
       return;
@@ -336,7 +438,12 @@ export default function BookPage() {
       </div>
 
       {/* Bible text */}
-      <div className="bible-text">
+      <div
+        className="bible-text"
+        ref={bibleTextRef}
+        onMouseUp={onBibleTextPointerUp}
+        onTouchEnd={onBibleTextPointerUp}
+      >
         {verses.map((text, i) => {
           const verse = i + 1;
           const hlColor = highlights[verse];
@@ -458,6 +565,63 @@ export default function BookPage() {
                 <i className="fas fa-check" /> Salvar
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Dicionário — palavra selecionada */}
+      {dictTooltip && (
+        <div
+          ref={dictTooltipRef}
+          className="dict-selection-tooltip"
+          style={{
+            position: 'fixed',
+            left: `${Math.min(Math.max(dictTooltip.left, 100), window.innerWidth - 100)}px`,
+            top: `${dictTooltip.top}px`,
+            transform:
+              dictTooltip.placement === 'below'
+                ? 'translate(-50%, 0)'
+                : 'translate(-50%, calc(-100% - 10px))',
+            zIndex: 5200,
+          }}
+        >
+          <button
+            type="button"
+            className="dict-tip-close"
+            onClick={() => setDictTooltip(null)}
+            aria-label="Fechar dicionário"
+          >
+            <i className="fas fa-times" />
+          </button>
+          <h6 className="dict-tip-title">
+            <i className="fas fa-book-open" style={{ marginRight: 6 }} />
+            {dictTooltip.loading ? dictTooltip.word : dictTooltip.entry?.termo || dictTooltip.word}
+          </h6>
+          {dictTooltip.loading && (
+            <p className="dict-tip-muted" style={{ margin: 0 }}>
+              Carregando definição…
+            </p>
+          )}
+          {!dictTooltip.loading && dictTooltip.error && (
+            <p className="dict-tip-muted" style={{ margin: 0 }}>
+              Não foi possível carregar o dicionário. Tente de novo.
+            </p>
+          )}
+          {!dictTooltip.loading && !dictTooltip.error && dictTooltip.notFound && (
+            <p className="dict-tip-muted" style={{ margin: 0 }}>
+              Sem entrada para «{dictTooltip.word}» neste dicionário.
+            </p>
+          )}
+          {!dictTooltip.loading && !dictTooltip.error && dictTooltip.entry && (
+            <div className="dict-tip-body">{dictTooltip.entry.definicao}</div>
+          )}
+          {!dictTooltip.loading && !dictTooltip.error && dictTooltip.entry?.definicaoAdicional && (
+            <p className="dict-tip-extra">{dictTooltip.entry.definicaoAdicional}</p>
+          )}
+          <div className="dict-tip-footer">
+            <Link to="/dictionary" className="dict-tip-link" onClick={() => setDictTooltip(null)}>
+              Abrir dicionário
+            </Link>
           </div>
         </div>
       )}

@@ -9,6 +9,9 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Adicionado
 
+- Leitura bíblica: ao selecionar uma palavra no texto, aparece um tooltip com a definição do **Dicionário Bíblico** (quando existe entrada), com atalho para a página do dicionário (`src/pages/BookPage.jsx`, `src/index.css`, `src/lib/dictionaryData.js`).
+- Testes unitários para normalização, extração da palavra e carregamento das entradas do dicionário (`tests/dictionaryData.test.js`).
+
 - Página **Cantor Cristão** (`/hymnal`): listagem de 581 hinos com busca por número ou título, visualização da letra com separação de estrofes/coro, controle de tamanho de fonte, navegação entre hinos (setas do teclado), e skeleton loaders (`src/pages/HymnalPage.jsx`). Consome dados de `/db/cantorcristao/`.
 - Menu **Cantor Cristão** na sidebar, e atalho no **Acesso Rápido** do Dashboard
 - Testes unitários para a lógica de carregamento e busca do Cantor Cristão (`tests/hymnalPage.test.js`)
@@ -40,6 +43,8 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 - Dark mode: adicionado suporte ao Bottom Nav e ao seletor de fontes
 
 ### Alterado
+
+- Página **Dicionário Bíblico**: carregamento das letras passa a usar o módulo compartilhado `loadLetterEntries` e `normalizeDictionaryKey`, com cache único em memória (`src/pages/DictionaryPage.jsx`, `src/lib/dictionaryData.js`).
 
 - Estrutura: diretório `script/` removido; `generated_path.py` passa a estar em `scripts/` junto aos restantes scripts do projeto.
 - Estrutura: scripts legacy da raiz (`/js`) migrados para `assets/js`; páginas HTML atualizadas para carregar os ficheiros no novo caminho.

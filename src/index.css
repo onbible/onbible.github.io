@@ -1003,6 +1003,84 @@ body {
   box-shadow: 0 2px 12px rgba(0,0,0,0.15);
 }
 
+/* Dicionário — tooltip ao selecionar palavra na leitura */
+.dict-selection-tooltip {
+  min-width: 200px;
+  max-width: min(360px, calc(100vw - 24px));
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.14);
+  padding: 12px 14px 10px;
+  position: relative;
+  animation: popIn 0.15s ease;
+}
+[data-theme="dark"] .dict-selection-tooltip {
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.55);
+}
+[data-theme="sepia"] .dict-selection-tooltip {
+  box-shadow: 0 12px 36px rgba(60, 40, 20, 0.18);
+}
+.dict-tip-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 4px;
+  border-radius: 6px;
+}
+.dict-tip-close:hover {
+  color: var(--text);
+  background: var(--bg-secondary);
+}
+.dict-tip-title {
+  margin: 0 28px 8px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.3;
+}
+.dict-tip-body {
+  max-height: 220px;
+  overflow-y: auto;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text);
+  margin: 0;
+}
+.dict-tip-muted {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+.dict-tip-extra {
+  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text-muted);
+  font-style: italic;
+}
+.dict-tip-footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: flex-end;
+}
+.dict-tip-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}
+.dict-tip-link:hover {
+  text-decoration: underline;
+}
+
 /* Highlight popover */
 .hl-popover {
   position: fixed;
