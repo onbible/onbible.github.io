@@ -40,6 +40,9 @@ export default function PdfBooksPage() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [selectedBook, setSelectedBook] = useState(null);
+  const [viewMode, setViewMode] = useState(
+    () => localStorage.getItem('pdf_books_view_mode') || 'grid'
+  );
 
   useEffect(() => {
     (async () => {
@@ -68,6 +71,10 @@ export default function PdfBooksPage() {
     ? `/db/books/pdf/${encodeURIComponent(selectedBook.file)}`
     : '';
 
+  useEffect(() => {
+    localStorage.setItem('pdf_books_view_mode', viewMode);
+  }, [viewMode]);
+
   return (
     <>
       <div className="page-header">
@@ -92,6 +99,22 @@ export default function PdfBooksPage() {
             </button>
           )}
         </div>
+        <div className="search-mode-toggle">
+          <button
+            className={`search-mode-btn ${viewMode === 'list' ? 'active' : ''}`}
+            onClick={() => setViewMode('list')}
+            type="button"
+          >
+            <i className="fas fa-list" /> Lista
+          </button>
+          <button
+            className={`search-mode-btn ${viewMode === 'grid' ? 'active' : ''}`}
+            onClick={() => setViewMode('grid')}
+            type="button"
+          >
+            <i className="fas fa-th-large" /> Grade
+          </button>
+        </div>
         <span className="hymn-count">
           {loading ? '...' : `${filtered.length} livro${filtered.length !== 1 ? 's' : ''}`}
         </span>
@@ -103,7 +126,7 @@ export default function PdfBooksPage() {
             <div key={i} className="skeleton-line" style={{ width: `${48 + Math.random() * 42}%` }} />
           ))}
         </div>
-      ) : (
+      ) : viewMode === 'grid' ? (
         <div className="pdf-grid-wrap">
           {filtered.length === 0 && (
             <div className="hymn-empty">
@@ -125,6 +148,33 @@ export default function PdfBooksPage() {
                 />
               </span>
               <span className="pdf-thumb-title">{book.title}</span>
+            </button>
+          ))}
+        </div>
+      ) : (
+        <div className="hymn-list">
+          {filtered.length === 0 && (
+            <div className="hymn-empty">
+              <i className="fas fa-search" /> Nenhum livro encontrado.
+            </div>
+          )}
+          {filtered.map((book) => (
+            <button
+              key={book.file}
+              className="hymn-card pdf-list-card"
+              onClick={() => setSelectedBook(book)}
+              type="button"
+            >
+              <span className="pdf-list-thumb">
+                <iframe
+                  title={`Miniatura de ${book.title}`}
+                  src={buildPdfPreviewUrl(book.file)}
+                  loading="lazy"
+                  className="pdf-list-frame"
+                />
+              </span>
+              <span className="hymn-card-title">{book.title}</span>
+              <i className="fas fa-chevron-right hymn-card-arrow" />
             </button>
           ))}
         </div>
