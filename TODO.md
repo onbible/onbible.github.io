@@ -10,9 +10,9 @@ Este documento consolida as sugestões arquiteturais, visuais e de funcionalidad
   
 - [ ] **Gerador de Esboços de Pregação Autônomo:** Utilizar a IA no navegador para conectar versículos que o pastor destacou e estruturar automaticamente um sermão expositivo, protegendo a privacidade dele (nada vai para um servidor na internet).
 
-Permita compartilhar ou não o sermão.
 
-remova os arquivos da versão legada que não usamos mais, cuida, muito cuidado, para não apagar nossos arquivos da aplicação atual.
+
+
 
 
 
