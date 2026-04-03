@@ -35,7 +35,7 @@ export default defineConfig({
     port: 2222,
     strictPort: true,
     watch: {
-      ignored: ['**/assets/libs/**', '**/vendor/**', '**/db/**', '**/node_modules/**'],
+      ignored: ['**/db/**', '**/node_modules/**'],
     },
   },
 })

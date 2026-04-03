@@ -7,6 +7,10 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ## [Unreleased]
 
+### Removido
+
+- Stack **vanilla** não usada pela SPA React: páginas HTML na raiz (`book.html`, `markers.html`, `bible_play.html`, `settings.html`, `player.html`, `index-legacy.html`, `changelog.html` — o changelog em produção continua em `/changelog` via React), pastas `assets/js`, `assets/css`, `assets/libs`, `assets/fonts` e `vendor/` na raiz. Mantido `assets/images/` (favicon, logo, PWA). Teste de invariantes do repositório em `tests/repoLegacyRemoved.test.js`. `vite.config.js`: watch do dev server deixa de ignorar pastas já inexistentes.
+
 ### Adicionado
 
 - **Git / Husky:** hook `pre-commit` (`.husky/pre-commit`) que bloqueia o commit quando há alterações em stage em `src/` ou `tests/` sem `CHANGELOG.md` também em stage; script `scripts/check-changelog-staged.mjs`, política em `scripts/changelog-policy.mjs`, testes em `tests/changelog-policy.test.js`; comando `npm run check:changelog`; variável `SKIP_CHANGELOG=1` para exceções pontuais (`package.json`, `package-lock.json`).
