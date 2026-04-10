@@ -78,7 +78,12 @@ export default function AboutPage() {
             </div>
             <div className="about-feature-body">
               <h3>Dicionário na leitura</h3>
-              <p>Selecione uma palavra no texto do versículo para ver a definição do dicionário bíblico num tooltip, com atalho para a página completa do dicionário.</p>
+              <p>
+                Selecione uma palavra no texto do versículo: mostramos primeiro a entrada do dicionário
+                bíblico local; se não existir, procuramos no dicionário de língua portuguesa incluído na
+                app (dados em ficheiros locais). Em Configurações → Recursos offline pode guardar este e
+                outros pacotes (Bíblia, hinos, concordância, PDFs, etc.) no cache para o PWA sem rede.
+              </p>
             </div>
           </div>
 

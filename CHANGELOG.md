@@ -7,6 +7,20 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ## [Unreleased]
 
+### Adicionado
+
+- **Versões da Bíblia:** o seletor de tradução (Configurações, Projetor, Sermões, leitura) inclui as **19** entradas do catálogo `db/books/json/index.json` — árabe, chinês (CUV/NCV), alemão, grego, inglês (BBE/KJV), esperanto, espanhol, finlandês, francês, coreano, português (AA/ACF/NVI), romeno, russo e vietnamita — com URLs para `rodriguesfas/biblie` (`src/lib/bibleVersions.js`). Testes em `tests/bibleVersions.test.js`.
+
+### Alterado
+
+- **Configurações:** secção «Recursos offline» colocada no **final** da página (`SettingsPage.jsx`), depois de versão da Bíblia, backup, aparência e tipografia.
+
+- **Dicionário — língua portuguesa:** deixou de usar API externa; passou a dados **locais** em `db/dicionario_pt/` (índice `lista_letras.json`, chunks por letra). Geração/amostra: `scripts/generate-dicionario-pt.mjs`. Na leitura, após o dicionário bíblico, consulta-se este léxico (`lookupBiblicalThenPortuguese` em `src/lib/dictionaryData.js`, `src/lib/portugueseDictionary.js`). **Configurações:** secção «Recursos offline» com botão para guardar o pacote do dicionário PT no cache do Service Worker (`src/lib/offlineResources.js`, `sw.js` continua com `onbible-cache-v4-spa`). Páginas `BookPage`, `DictionaryPage`, `AboutPage` e testes actualizados.
+
+### Adicionado
+
+- **Recursos offline (PWA):** manifesto de pacotes em `src/lib/offlineResources.js` (`OFFLINE_RESOURCE_PACKS`, `getPackAssetUrls`, `precachePack`, `precacheUrlList`, memoização e verificação por amostragem em listas grandes). Pacotes: dicionário PT, dicionário bíblico, traduções da Bíblia (URLs em `bibleVersions.js`), Strong's, Cantor Cristão, Harpa Cristã, concordância, livros PDF. UI em `SettingsPage.jsx` com uma linha por pacote; estilos `.offline-pack-*` em `src/index.css`. Testes em `tests/offlineResources.test.js`.
+
 ### Removido
 
 - Stack **vanilla** não usada pela SPA React: páginas HTML na raiz (`book.html`, `markers.html`, `bible_play.html`, `settings.html`, `player.html`, `index-legacy.html`, `changelog.html` — o changelog em produção continua em `/changelog` via React), pastas `assets/js`, `assets/css`, `assets/libs`, `assets/fonts` e `vendor/` na raiz. Mantido `assets/images/` (favicon, logo, PWA). Teste de invariantes do repositório em `tests/repoLegacyRemoved.test.js`. `vite.config.js`: watch do dev server deixa de ignorar pastas já inexistentes.

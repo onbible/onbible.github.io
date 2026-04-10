@@ -1,0 +1,32 @@
+{
+  "U": [
+    {
+      "termo": "um",
+      "definicoes": [
+        "Artigo indefinido.",
+        "Cardinal um."
+      ]
+    },
+    {
+      "termo": "uma",
+      "definicoes": [
+        "Artigo feminino.",
+        "Uma unidade."
+      ]
+    },
+    {
+      "termo": "unidade",
+      "definicoes": [
+        "O que é um.",
+        "Instituição, medida."
+      ]
+    },
+    {
+      "termo": "uns",
+      "definicoes": [
+        "Alguns.",
+        "Artigo partitivo."
+      ]
+    }
+  ]
+}

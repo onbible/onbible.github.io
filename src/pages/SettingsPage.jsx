@@ -1,7 +1,12 @@
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { DB, onBibleDB } from '../lib/db';
 import { VERSIONS } from '../lib/bibleVersions';
 import { useBibleData } from '../hooks/useBible';
+import {
+  OFFLINE_RESOURCE_PACKS,
+  precachePack,
+  isPackCached,
+} from '../lib/offlineResources';
 
 const THEMES = [
   { key: 'light', label: 'Claro', icon: 'fa-sun',     color: '#f9fafb' },
@@ -23,6 +28,45 @@ const FONTS = [
 export default function SettingsPage({ theme, setAppTheme }) {
   const { version, changeVersion } = useBibleData();
   const [status, setStatus] = useState('');
+  const [offlinePackStatus, setOfflinePackStatus] = useState({});
+  const [offlineMsg, setOfflineMsg] = useState('');
+
+  const refreshOfflinePacks = useCallback(async () => {
+    const next = {};
+    await Promise.all(
+      OFFLINE_RESOURCE_PACKS.map(async (p) => {
+        try {
+          next[p.id] = { ready: await isPackCached(p.id), busy: false };
+        } catch {
+          next[p.id] = { ready: false, busy: false };
+        }
+      })
+    );
+    setOfflinePackStatus(next);
+  }, []);
+
+  useEffect(() => {
+    refreshOfflinePacks();
+  }, [refreshOfflinePacks]);
+
+  const downloadOfflinePack = async (packId) => {
+    const meta = OFFLINE_RESOURCE_PACKS.find((p) => p.id === packId);
+    setOfflineMsg('');
+    setOfflinePackStatus((s) => ({ ...s, [packId]: { ...s[packId], busy: true } }));
+    try {
+      const r = await precachePack(packId);
+      await refreshOfflinePacks();
+      setOfflineMsg(
+        r.ok
+          ? `«${meta?.label || packId}» guardado para uso offline (${r.total} ficheiros).`
+          : `«${meta?.label || packId}»: falhas ${r.failed} de ${r.total}. Verifique a ligação e tente de novo.`
+      );
+    } catch (e) {
+      setOfflineMsg(`Erro: ${e?.message || 'falha ao guardar'}`);
+    } finally {
+      setOfflinePackStatus((s) => ({ ...s, [packId]: { ...s[packId], busy: false } }));
+    }
+  };
   const [fontSize, setFontSize] = useState(() => {
     return parseInt(localStorage.getItem('reading_font_size') || '17', 10);
   });
@@ -215,6 +259,47 @@ export default function SettingsPage({ theme, setAppTheme }) {
               </button>
             ))}
           </div>
+        </div>
+
+        {/* Recursos offline */}
+        <div className="settings-section">
+          <h5><i className="fas fa-cloud-download-alt" style={{ marginRight: '6px' }} />Recursos offline</h5>
+          <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '14px' }}>
+            Escolha o que guardar no cache do Service Worker para usar sem Internet (é necessária ligação na
+            primeira transferência de cada pacote). Pode instalar apenas o que precisar.
+          </p>
+          <div className="offline-pack-list">
+            {OFFLINE_RESOURCE_PACKS.map((pack) => {
+              const st = offlinePackStatus[pack.id] || { ready: false, busy: false };
+              return (
+                <div key={pack.id} className="offline-pack-row">
+                  <div className="offline-pack-info">
+                    <div className="offline-pack-title">{pack.label}</div>
+                    <div className="offline-pack-desc">{pack.description}</div>
+                    <div className="offline-pack-state">
+                      {st.ready ? (
+                        <span className="offline-pack-ok">disponível offline</span>
+                      ) : (
+                        <span className="offline-pack-na">não guardado no cache</span>
+                      )}
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    className="offline-pack-btn"
+                    onClick={() => downloadOfflinePack(pack.id)}
+                    disabled={st.busy}
+                  >
+                    <i className="fas fa-download" style={{ marginRight: '6px' }} />
+                    {st.busy ? 'A guardar…' : 'Guardar'}
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+          {offlineMsg && (
+            <p style={{ marginTop: '14px', fontSize: '13px', fontWeight: 600 }}>{offlineMsg}</p>
+          )}
         </div>
       </div>
     </>

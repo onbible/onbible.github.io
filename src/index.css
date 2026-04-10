@@ -1065,6 +1065,36 @@ body {
   color: var(--text-muted);
   font-style: italic;
 }
+.dict-tip-source {
+  margin: 0 0 6px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.dict-tip-source-biblical {
+  color: var(--primary);
+}
+.dict-tip-source-pt {
+  color: var(--text-muted);
+}
+.dict-tip-pt-defs {
+  max-height: 220px;
+  overflow-y: auto;
+}
+.dict-tip-pt-line {
+  margin: 0 0 8px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text);
+}
+.dict-tip-pt-line:last-child {
+  margin-bottom: 0;
+}
+.dict-tip-ext {
+  display: inline-block;
+  margin-top: 8px;
+}
 .dict-tip-footer {
   margin-top: 10px;
   padding-top: 10px;
@@ -1397,6 +1427,72 @@ body {
   margin-bottom: 16px;
 }
 .settings-section h5 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+
+.offline-pack-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.offline-pack-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+.offline-pack-info {
+  flex: 1;
+  min-width: 200px;
+}
+.offline-pack-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.offline-pack-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.45;
+  margin-bottom: 6px;
+}
+.offline-pack-state {
+  font-size: 12px;
+}
+.offline-pack-ok {
+  color: #16a34a;
+  font-weight: 600;
+}
+[data-theme="dark"] .offline-pack-ok {
+  color: #4ade80;
+}
+.offline-pack-na {
+  color: var(--text-muted);
+}
+.offline-pack-btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+  align-self: center;
+  transition: opacity 0.15s;
+}
+.offline-pack-btn:hover:not(:disabled) {
+  opacity: 0.92;
+}
+.offline-pack-btn:disabled {
+  cursor: wait;
+  opacity: 0.85;
+}
 
 /* Theme picker */
 .theme-picker {
@@ -3452,6 +3548,104 @@ body {
 /* ══════════════════════════════════════════
    Dictionary Page
    ══════════════════════════════════════════ */
+.dict-mode-tabs {
+  display: flex;
+  gap: 8px;
+  padding: 8px 28px 0;
+  flex-wrap: wrap;
+}
+.dict-mode-tab {
+  flex: 1;
+  min-width: 140px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.dict-mode-tab:hover {
+  border-color: var(--primary);
+  color: var(--text);
+}
+.dict-mode-tab.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+[data-theme="dark"] .dict-mode-tab.active {
+  color: #fff;
+}
+.dict-pt-panel {
+  padding: 12px 28px 28px;
+  max-width: 720px;
+}
+.dict-pt-intro {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.45;
+  margin: 0 0 14px;
+}
+.dict-pt-intro a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.dict-pt-form {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  flex-wrap: wrap;
+}
+.dict-pt-submit {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  transition: opacity .15s;
+}
+.dict-pt-submit:hover {
+  opacity: 0.92;
+}
+.dict-pt-result {
+  margin-top: 20px;
+  padding: 16px 18px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.dict-pt-lemma {
+  margin: 0 0 12px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  text-transform: capitalize;
+}
+.dict-pt-def-list {
+  margin: 0 0 12px;
+  padding-left: 1.25em;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.dict-pt-def-item {
+  margin-bottom: 8px;
+}
+.dict-pt-hint {
+  margin: 0;
+  padding: 8px 0 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
 .dict-search-wrap {
   padding: 12px 28px 0;
   display: flex;

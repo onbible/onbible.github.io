@@ -1,18 +1,31 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { loadLetterEntries, normalizeDictionaryKey } from '../lib/dictionaryData';
+import { lookupPortugueseWord } from '../lib/portugueseDictionary';
 
 const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 const MAX_VISIBLE = 120;
 
 export default function DictionaryPage() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const tabIsPt = searchParams.get('tab') === 'pt';
+
+  const [dictionaryMode, setDictionaryMode] = useState(() => (tabIsPt ? 'portuguese' : 'biblical'));
   const [activeLetter, setActiveLetter] = useState('A');
   const [entries, setEntries] = useState([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [selectedEntry, setSelectedEntry] = useState(null);
   const [visibleCount, setVisibleCount] = useState(MAX_VISIBLE);
+  const [ptSearch, setPtSearch] = useState(() => searchParams.get('q') || '');
+  const [ptResult, setPtResult] = useState(null);
+  const [ptLoading, setPtLoading] = useState(false);
+  const [ptError, setPtError] = useState(false);
   const listRef = useRef(null);
-  const debounceRef = useRef(null);
+
+  useEffect(() => {
+    setDictionaryMode(tabIsPt ? 'portuguese' : 'biblical');
+  }, [tabIsPt]);
 
   const fetchLetter = useCallback(async (letter) => {
     setLoading(true);
@@ -26,7 +39,66 @@ export default function DictionaryPage() {
     setLoading(false);
   }, []);
 
-  useEffect(() => { fetchLetter(activeLetter); }, [activeLetter, fetchLetter]);
+  useEffect(() => {
+    if (dictionaryMode !== 'biblical') return;
+    fetchLetter(activeLetter);
+  }, [activeLetter, fetchLetter, dictionaryMode]);
+
+  useEffect(() => {
+    if (dictionaryMode === 'portuguese') setSelectedEntry(null);
+  }, [dictionaryMode]);
+
+  const runPtLookup = useCallback(async (raw) => {
+    const q = (raw || '').trim();
+    if (!q) {
+      setPtResult(null);
+      return;
+    }
+    setPtLoading(true);
+    setPtError(false);
+    setPtResult(null);
+    try {
+      const r = await lookupPortugueseWord(q);
+      setPtResult(r);
+    } catch {
+      setPtError(true);
+    }
+    setPtLoading(false);
+  }, []);
+
+  useEffect(() => {
+    if (!tabIsPt) return;
+    const q = searchParams.get('q');
+    if (!q?.trim()) {
+      setPtResult(null);
+      setPtLoading(false);
+      return;
+    }
+    setPtSearch(q);
+    runPtLookup(q);
+  }, [tabIsPt, searchParams, runPtLookup]);
+
+  const setMode = useCallback(
+    (mode) => {
+      setDictionaryMode(mode);
+      if (mode === 'portuguese') {
+        setSearchParams({ tab: 'pt' }, { replace: true });
+      } else {
+        setSearchParams({}, { replace: true });
+      }
+    },
+    [setSearchParams]
+  );
+
+  const handlePtSubmit = useCallback(
+    (e) => {
+      e.preventDefault();
+      const q = ptSearch.trim();
+      if (!q) return;
+      setSearchParams({ tab: 'pt', q }, { replace: true });
+    },
+    [ptSearch, setSearchParams]
+  );
 
   const handleLetterClick = useCallback((l) => {
     setActiveLetter(l);
@@ -62,9 +134,104 @@ export default function DictionaryPage() {
   return (
     <>
       <div className="page-header">
-        <h1><i className="fas fa-book-open" style={{ marginRight: 8 }} />Dicionário Bíblico</h1>
+        <h1><i className="fas fa-book-open" style={{ marginRight: 8 }} />Dicionários</h1>
       </div>
 
+      <div className="dict-mode-tabs" role="tablist" aria-label="Tipo de dicionário">
+        <button
+          type="button"
+          role="tab"
+          aria-selected={dictionaryMode === 'biblical'}
+          className={`dict-mode-tab${dictionaryMode === 'biblical' ? ' active' : ''}`}
+          onClick={() => setMode('biblical')}
+        >
+          <i className="fas fa-book-open" style={{ marginRight: 8 }} />
+          Bíblico
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={dictionaryMode === 'portuguese'}
+          className={`dict-mode-tab${dictionaryMode === 'portuguese' ? ' active' : ''}`}
+          onClick={() => setMode('portuguese')}
+        >
+          <i className="fas fa-language" style={{ marginRight: 8 }} />
+          Língua portuguesa
+        </button>
+      </div>
+
+      {dictionaryMode === 'portuguese' && (
+        <div className="dict-pt-panel">
+          <p className="dict-pt-intro">
+            Léxico de português incluído na aplicação. Para garantir definições sem ligação à Internet,
+            em Configurações use «Guardar dicionário de português para offline».
+          </p>
+          <form className="dict-search-wrap dict-pt-form" onSubmit={handlePtSubmit}>
+            <div className="search-box">
+              <i className="fas fa-search" />
+              <input
+                type="text"
+                placeholder="Palavra (ex.: amor, acção)…"
+                value={ptSearch}
+                onChange={(e) => setPtSearch(e.target.value)}
+                aria-label="Pesquisar no dicionário de língua portuguesa"
+              />
+              {ptSearch && (
+                <button
+                  type="button"
+                  className="search-clear"
+                  onClick={() => {
+                    setPtSearch('');
+                    setPtResult(null);
+                    setSearchParams({ tab: 'pt' }, { replace: true });
+                  }}
+                >
+                  <i className="fas fa-times" />
+                </button>
+              )}
+            </div>
+            <button type="submit" className="dict-pt-submit">
+              Pesquisar
+            </button>
+          </form>
+          {ptLoading && (
+            <div style={{ padding: '16px 28px' }}>
+              {[...Array(4)].map((_, i) => (
+                <div key={i} className="skeleton-line" style={{ width: `${55 + (i % 3) * 10}%` }} />
+              ))}
+            </div>
+          )}
+          {!ptLoading && ptError && (
+            <div className="dict-empty">
+              Não foi possível carregar o dicionário local. Se estiver offline, guarde o pacote em
+              Configurações.
+            </div>
+          )}
+          {!ptLoading && !ptError && ptResult === null && searchParams.get('q')?.trim() && (
+            <div className="dict-empty">
+              Sem entrada para «{searchParams.get('q').trim()}» neste léxico (ainda em expansão).
+            </div>
+          )}
+          {!ptLoading && !ptError && ptResult && (
+            <div className="dict-pt-result">
+              <h2 className="dict-pt-lemma">{ptResult.lemma}</h2>
+              <ol className="dict-pt-def-list">
+                {ptResult.definitions.map((d, i) => (
+                  <li key={i} className="dict-pt-def-item">
+                    {d}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )}
+          {!ptLoading && !ptError && !searchParams.get('q')?.trim() && (
+            <p className="dict-pt-hint">Introduza um termo e prima Pesquisar.</p>
+          )}
+        </div>
+      )}
+
+      {dictionaryMode === 'biblical' && (
+        <>
       {/* Search */}
       <div className="dict-search-wrap">
         <div className="search-box">
@@ -131,6 +298,8 @@ export default function DictionaryPage() {
             </div>
           )}
         </div>
+      )}
+        </>
       )}
 
       {/* Detail modal */}

@@ -3,7 +3,7 @@ import { useParams, useNavigate, useSearchParams, Link } from 'react-router-dom'
 import { useBibleData } from '../hooks/useBible';
 import { DB } from '../lib/db';
 import ChapterCrossReferences from '../components/ChapterCrossReferences';
-import { firstWordFromSelection, lookupDictionaryWord } from '../lib/dictionaryData';
+import { firstWordFromSelection, lookupBiblicalThenPortuguese } from '../lib/dictionaryData';
 
 const HL_COLORS = ['yellow', 'green', 'blue', 'pink'];
 
@@ -238,12 +238,13 @@ export default function BookPage() {
       word: wordKey,
       loading: true,
       entry: null,
+      portuguese: null,
       notFound: false,
       error: false,
     });
 
-    lookupDictionaryWord(raw)
-      .then(({ word, entry }) => {
+    lookupBiblicalThenPortuguese(raw)
+      .then(({ word, biblical, portuguese }) => {
         if (gen !== dictLookupGenRef.current) return;
         setDictTooltip((prev) =>
           prev
@@ -251,8 +252,9 @@ export default function BookPage() {
                 ...prev,
                 loading: false,
                 word,
-                entry,
-                notFound: !!word && !entry,
+                entry: biblical ?? null,
+                portuguese: portuguese ?? null,
+                notFound: !!word && !biblical && !portuguese,
                 error: false,
               }
             : prev
@@ -595,7 +597,9 @@ export default function BookPage() {
           </button>
           <h6 className="dict-tip-title">
             <i className="fas fa-book-open" style={{ marginRight: 6 }} />
-            {dictTooltip.loading ? dictTooltip.word : dictTooltip.entry?.termo || dictTooltip.word}
+            {dictTooltip.loading
+              ? dictTooltip.word
+              : dictTooltip.entry?.termo || dictTooltip.portuguese?.lemma || dictTooltip.word}
           </h6>
           {dictTooltip.loading && (
             <p className="dict-tip-muted" style={{ margin: 0 }}>
@@ -609,17 +613,46 @@ export default function BookPage() {
           )}
           {!dictTooltip.loading && !dictTooltip.error && dictTooltip.notFound && (
             <p className="dict-tip-muted" style={{ margin: 0 }}>
-              Sem entrada para «{dictTooltip.word}» neste dicionário.
+              Sem entrada no dicionário bíblico nem no dicionário de língua portuguesa local. Em
+              Configurações pode guardar o pacote do dicionário de português para uso offline.
             </p>
           )}
           {!dictTooltip.loading && !dictTooltip.error && dictTooltip.entry && (
-            <div className="dict-tip-body">{dictTooltip.entry.definicao}</div>
+            <>
+              <p className="dict-tip-source dict-tip-source-biblical">Dicionário bíblico</p>
+              <div className="dict-tip-body">{dictTooltip.entry.definicao}</div>
+            </>
           )}
           {!dictTooltip.loading && !dictTooltip.error && dictTooltip.entry?.definicaoAdicional && (
             <p className="dict-tip-extra">{dictTooltip.entry.definicaoAdicional}</p>
           )}
+          {!dictTooltip.loading && !dictTooltip.error && !dictTooltip.entry && dictTooltip.portuguese && (
+            <>
+              <p className="dict-tip-source dict-tip-source-pt">Língua portuguesa (dados locais)</p>
+              <div className="dict-tip-body dict-tip-pt-defs">
+                {dictTooltip.portuguese.definitions.slice(0, 6).map((d, i) => (
+                  <p key={i} className="dict-tip-pt-line">
+                    {d}
+                  </p>
+                ))}
+                {dictTooltip.portuguese.definitions.length > 6 && (
+                  <p className="dict-tip-muted" style={{ margin: '6px 0 0' }}>
+                    … e mais acepções na página do dicionário.
+                  </p>
+                )}
+              </div>
+            </>
+          )}
           <div className="dict-tip-footer">
-            <Link to="/dictionary" className="dict-tip-link" onClick={() => setDictTooltip(null)}>
+            <Link
+              to={
+                dictTooltip.portuguese && !dictTooltip.entry
+                  ? `/dictionary?tab=pt&q=${encodeURIComponent(dictTooltip.word)}`
+                  : '/dictionary'
+              }
+              className="dict-tip-link"
+              onClick={() => setDictTooltip(null)}
+            >
               Abrir dicionário
             </Link>
           </div>

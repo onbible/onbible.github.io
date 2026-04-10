@@ -1,0 +1,39 @@
+{
+  "B": [
+    {
+      "termo": "bebida",
+      "definicoes": [
+        "Líquido que se bebe.",
+        "Ato de beber."
+      ]
+    },
+    {
+      "termo": "bem",
+      "definicoes": [
+        "O que é moralmente bom.",
+        "Bens: riquezas, posses."
+      ]
+    },
+    {
+      "termo": "biblia",
+      "definicoes": [
+        "Conjunto dos livros sagrados judaico-cristãos.",
+        "Escritura Santa."
+      ]
+    },
+    {
+      "termo": "bom",
+      "definicoes": [
+        "De boa qualidade.",
+        "Moralmente recto."
+      ]
+    },
+    {
+      "termo": "braço",
+      "definicoes": [
+        "Membro superior do corpo.",
+        "Ramo lateral."
+      ]
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+import { lookupPortugueseWord } from './portugueseDictionary';
+
 export const DICTIONARY_INDEX_URL = '/db/dicionario/lista_letras.json';
 
 export function normalizeDictionaryKey(value) {
@@ -91,4 +93,19 @@ export async function lookupDictionaryWord(rawSelectedText) {
   const entries = await loadLetterEntries(letter);
   const entry = findDictionaryEntry(entries, word);
   return { word, entry };
+}
+
+/**
+ * Dicionário bíblico local primeiro; se não houver entrada, consulta o dicionário de língua portuguesa local (`/db/dicionario_pt/`).
+ */
+export async function lookupBiblicalThenPortuguese(rawSelectedText) {
+  const { word, entry } = await lookupDictionaryWord(rawSelectedText);
+  if (entry) {
+    return { word, biblical: entry, portuguese: null };
+  }
+  if (!word || word.length < 2) {
+    return { word, biblical: null, portuguese: null };
+  }
+  const portuguese = await lookupPortugueseWord(word);
+  return { word, biblical: null, portuguese };
 }
