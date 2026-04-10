@@ -9,6 +9,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Adicionado
 
+- **Livros PDF:** sete novos PDFs em `db/books/pdf/` passaram a constar de `pdf_index.json` (lista na app e pacote offline). Teste de sincronização pasta ↔ índice em `tests/pdfIndexSync.test.js`.
 - **Versões da Bíblia:** o seletor de tradução (Configurações, Projetor, Sermões, leitura) inclui as **19** entradas do catálogo `db/books/json/index.json` — árabe, chinês (CUV/NCV), alemão, grego, inglês (BBE/KJV), esperanto, espanhol, finlandês, francês, coreano, português (AA/ACF/NVI), romeno, russo e vietnamita — com URLs para `rodriguesfas/biblie` (`src/lib/bibleVersions.js`). Testes em `tests/bibleVersions.test.js`.
 
 ### Alterado
