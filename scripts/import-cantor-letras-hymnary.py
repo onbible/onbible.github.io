@@ -17,6 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HYMN_DIR = ROOT / "db/cantorcristao"
+EXTRA_LETRAS_PATH = ROOT / "scripts" / "cantor-letras-extra.json"
 
 UA = "Mozilla/5.0 (compatible; OnBibleBot/1.0; +https://onbible.github.io)"
 HYMNARY_HYMN = "https://hymnary.org/hymn/CC1971/{n}"
@@ -32,8 +33,25 @@ def slugify_title(title: str) -> str:
     return t.strip("-")
 
 
-def letras_slug_candidates(num: str, titulo: str) -> list[str]:
-    base = slugify_title(titulo)
+def hymnary_hymn_display_title(hymn_html: str) -> str | None:
+    m = re.search(r"<h2 class='hymntitle'>\s*\d+\.\s*([^<]+)</h2>", hymn_html)
+    return m.group(1).strip() if m else None
+
+
+def hymnary_first_line(hymn_html: str) -> str | None:
+    m = re.search(
+        r'First Line:</span></td>\s*<td><span class="hy_infoItem"><a href="/text/[^"]+">([^<]+)</a>',
+        hymn_html,
+    )
+    return m.group(1).strip() if m else None
+
+
+def letras_slug_candidates(
+    num: str,
+    titulo: str,
+    alt_titulo: str | None = None,
+    first_line: str | None = None,
+) -> list[str]:
     n = int(num)
     out: list[str] = []
     seen: set[str] = set()
@@ -43,15 +61,28 @@ def letras_slug_candidates(num: str, titulo: str) -> list[str]:
             seen.add(s)
             out.append(s)
 
-    add(base)
-    add(f"{base}-hino-{n}-do-cc")
-    add(f"hino-{n}-do-cc")
-    if base.startswith("a-"):
-        add(base[2:])
-    if base.startswith("ao-"):
-        add(base[3:])
-    if base.startswith("o-"):
-        add(base[2:])
+    titles = [titulo]
+    if alt_titulo and alt_titulo.strip() and alt_titulo.strip().upper() != titulo.strip().upper():
+        titles.append(alt_titulo.strip())
+
+    for t in titles:
+        base = slugify_title(t)
+        add(base)
+        add(f"{base}-{n}-do-cc")
+        add(f"{base}-hino-{n}-do-cc")
+        add(f"hino-{n}-do-cc")
+        if base.startswith("a-"):
+            add(base[2:])
+        if base.startswith("ao-"):
+            add(base[3:])
+        if base.startswith("o-"):
+            add(base[2:])
+
+    if first_line and first_line.strip():
+        fl = slugify_title(first_line)
+        add(fl)
+        add(f"{fl}-{n}-do-cc")
+        add(f"{fl}-hino-{n}-do-cc")
     return out
 
 
@@ -61,8 +92,13 @@ def normalize_letra(s: str) -> str:
     return t.strip()
 
 
-def fetch_letras_letra(num: str, titulo: str) -> str | None:
-    for slug in letras_slug_candidates(num, titulo):
+def fetch_letras_letra(
+    num: str,
+    titulo: str,
+    alt_titulo: str | None = None,
+    first_line: str | None = None,
+) -> str | None:
+    for slug in letras_slug_candidates(num, titulo, alt_titulo, first_line):
         url = LETRAS.format(slug=slug)
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -159,13 +195,23 @@ def parse_representative_text(text_html: str) -> str | None:
     return "\n\n".join(parts)
 
 
+def load_extra_letras() -> dict[str, str]:
+    if not EXTRA_LETRAS_PATH.is_file():
+        return {}
+    with open(EXTRA_LETRAS_PATH, encoding="utf-8") as f:
+        raw = json.load(f)
+    return {str(k): str(v).strip() for k, v in raw.items() if str(v).strip()}
+
+
 def main() -> None:
     stats = {
         "ok_hymnary": 0,
         "ok_letras": 0,
+        "ok_extra": 0,
         "fail": 0,
         "already": 0,
     }
+    extra_letras = load_extra_letras()
 
     for n in range(1, 582):
         path = HYMN_DIR / f"{n}.json"
@@ -176,14 +222,29 @@ def main() -> None:
             stats["already"] += 1
             continue
 
+        sn = str(n)
+        if sn in extra_letras:
+            data["letra"] = extra_letras[sn]
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)
+                f.write("\n")
+            stats["ok_extra"] += 1
+            print(f"OK {n} extra (local)", flush=True)
+            continue
+
         titulo = data.get("titulo") or ""
         letra: str | None = None
         source = ""
         hym_slug = ""
+        h_html = ""
+        alt_title: str | None = None
+        first_line: str | None = None
 
         try:
             h_url = HYMNARY_HYMN.format(n=n)
             h_html = fetch(h_url)
+            alt_title = hymnary_hymn_display_title(h_html)
+            first_line = hymnary_first_line(h_html)
             hym_slug = extract_text_slug(h_html) or ""
             if hym_slug:
                 t_html = fetch(HYMNARY_TEXT.format(slug=hym_slug))
@@ -194,7 +255,7 @@ def main() -> None:
             print(f"WARN {n} hymnary: {e}", flush=True)
 
         if not letra or len(letra.strip()) < 8:
-            letra = fetch_letras_letra(str(n), titulo)
+            letra = fetch_letras_letra(str(n), titulo, alt_title, first_line)
             if letra:
                 source = "letras"
 

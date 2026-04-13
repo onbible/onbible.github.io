@@ -9,6 +9,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Adicionado
 
+- **Livros PDF:** `Primeiros Socorros para um casamento ferido.pdf` incluído em `db/books/pdf/pdf_index.json` (ficheiro na pasta sem entrada no índice; distinto do slug `primeiros-socorros-para-um-casamento-ferido.pdf`). `Livro - O Desafio De Amar - Prova de Fogo.pdf` também indexado.
+
+### Alterado
+
+- **Projeção:** o item do menu lateral «Projeção» passa a abrir `/projector` numa **nova aba** (`target="_blank"`, `rel="noopener noreferrer"` em `Layout.jsx`). Teste em `tests/layoutProjectorLink.test.jsx`.
+
+### Adicionado
+
+- **Cantor Cristão — letras:** preenchimento de `letra` na maioria dos ficheiros `db/cantorcristao/*.json` via `scripts/import-cantor-letras-hymnary.py` (Hymnary.org CC1971 quando há «Representative Text» em português; Letras.com.br com slugs a partir do título do índice, do título da página do hino no Hymnary, da primeira linha do texto e do padrão `…-N-do-cc`). Texto do **Hino Nacional Brasileiro** (577) em `scripts/cantor-letras-extra.json` (conforme [Wikisource](https://pt.wikisource.org/wiki/Hino_Nacional_Brasileiro)). Teste de cobertura mínima: `tests/cantorcristaoLyrics.test.js` (até 85 hinos podem permanecer sem letra automática, quando as fontes públicas não a expõem).
+
 - **Livros PDF:** sete novos PDFs em `db/books/pdf/` passaram a constar de `pdf_index.json` (lista na app e pacote offline). Teste de sincronização pasta ↔ índice em `tests/pdfIndexSync.test.js`.
 - **Versões da Bíblia:** o seletor de tradução (Configurações, Projetor, Sermões, leitura) inclui as **19** entradas do catálogo `db/books/json/index.json` — árabe, chinês (CUV/NCV), alemão, grego, inglês (BBE/KJV), esperanto, espanhol, finlandês, francês, coreano, português (AA/ACF/NVI), romeno, russo e vietnamita — com URLs para `rodriguesfas/biblie` (`src/lib/bibleVersions.js`). Testes em `tests/bibleVersions.test.js`.
 

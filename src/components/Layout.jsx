@@ -37,7 +37,7 @@ export default function Layout({ children, theme, setAppTheme }) {
           <NavLink to="/plan"         ><i className="fas fa-calendar-check" /><span>Plano de Leitura</span></NavLink>
           <NavLink to="/play"         ><i className="fas fa-headphones" />  <span>Bíblia Play</span></NavLink>
           <NavLink to="/sermons"      ><i className="fas fa-scroll" />      <span>Sermões</span></NavLink>
-          <NavLink to="/projector"    ><i className="fas fa-tv" />          <span>Projeção</span></NavLink>
+          <NavLink to="/projector" target="_blank" rel="noopener noreferrer"><i className="fas fa-tv" />          <span>Projeção</span></NavLink>
           <NavLink to="/dictionary"   ><i className="fas fa-book-open" />   <span>Dicionário</span></NavLink>
           <NavLink to="/concordance" ><i className="fas fa-search-plus" /> <span>Concordância</span></NavLink>
           <NavLink to="/hymnal"       ><i className="fas fa-music" />       <span>Cantor Cristão</span></NavLink>
