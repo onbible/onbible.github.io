@@ -9,7 +9,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Adicionado
 
-- **Livros PDF:** `Primeiros Socorros para um casamento ferido.pdf` incluído em `db/books/pdf/pdf_index.json` (ficheiro na pasta sem entrada no índice; distinto do slug `primeiros-socorros-para-um-casamento-ferido.pdf`). `Livro - O Desafio De Amar - Prova de Fogo.pdf` também indexado.
+- **Livros PDF:** `Primeiros Socorros para um casamento ferido.pdf` incluído em `db/books/pdf/pdf_index.json` (ficheiro na pasta sem entrada no índice; distinto do slug `primeiros-socorros-para-um-casamento-ferido.pdf`). `Livro - O Desafio De Amar - Prova de Fogo.pdf` também indexado. Novas entradas: `CASAMENTO DIVÓRCIO E NOVO CASAMENTO - Kenneth E. Hagin.pdf`, `Casamento blindado.pdf`, `demonios-e-libertacao-no-ministerio-de-jesus-frank-hammond.pdf`, `O Poder Através da Oração.PDF`.
 
 ### Alterado
 
